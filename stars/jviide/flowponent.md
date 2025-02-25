@@ -1,0 +1,128 @@
+---
+repo: jviide/flowponent
+url: 'https://github.com/jviide/flowponent'
+homepage: ''
+starredAt: '2021-07-16T20:41:54Z'
+createdAt: '2019-12-13T14:08:16Z'
+updatedAt: '2024-07-21T11:42:36Z'
+language: JavaScript
+license: MIT
+branch: master
+stars: 130
+isPublic: true
+isTemplate: false
+isArchived: true
+isFork: false
+hasReadMe: true
+refreshedAt: '2025-02-25T20:37:50.835Z'
+description: >-
+  A small Preact/React library for defining workflow-like evolving views via
+  generators
+tags:
+  - generators
+  - higher-order-component
+  - preact
+  - react
+---
+
+# flowponent [![npm](https://img.shields.io/npm/v/flowponent.svg)](https://www.npmjs.com/package/flowponent)
+
+A small library for [Preact 10.x](https://preactjs.com/) (and [React](https://reactjs.org/) - see [the note](#a-note-on-react-support)) for defining workflow-like evolving views via generators.
+
+Here's the canonical counter example (also available [at Codesandbox](https://codesandbox.io/s/flowponent-in-action-ebfq2)):
+
+```js
+import { render } from "preact";
+import flowponent from "flowponent";
+
+const App = flowponent(function*() {
+  let count = 0;
+
+  for (;;) {
+    count += yield resolve => (
+      <div>
+        <div>current value: {count}</div>
+        <button onClick={() => resolve(1)}>+1</button>
+        <button onClick={() => resolve(-1)}>-1</button>
+      </div>
+    );
+  }
+});
+
+render(<App />, document.getElementById("root"));
+```
+
+For a more involved one see [here's a Codesandbox](https://codesandbox.io/s/flowponent-in-action-88vb9) demonstrating composition, additional props & cleanups upon unmount:
+
+[![A Codesandbox sandbox demonstrating flowponent](https://user-images.githubusercontent.com/19776768/70826521-d10e8380-1def-11ea-82fd-0004f1caa6fc.png)](https://codesandbox.io/s/flowponent-in-action-88vb9)
+
+## Installation
+
+```sh
+$ npm install --save flowponent
+```
+
+### A Note on React Support
+
+The use flowponent with React, import from `"flowponent/react"` instead of `"flowponent"`:
+
+```js
+import React from "react";
+import { render } from "react-dom";
+import flowponent from "flowponent/react";
+```
+
+Otherwise it all works the same way as before. Here's a React example featuring a random selection of very good dogs: [Codesandbox](https://codesandbox.io/s/flowponentreact-in-action-8q16y).
+
+## Error Propagation
+
+If an error is throw inside the yielded functions it can be caught in the flowponent.
+
+The function can also fail after it's result has been rendered by calling its second parameter (`reject`):
+
+```js
+const App = flowponent(function*() {
+  try {
+    const data = yield (resolve, reject) => (
+      <Downloader onSuccess={resolve} onFailure={reject} />
+    );
+    yield () => <p>Download succeeded: {data}</p>
+  } catch (err) {
+    yield () => <p>Download failed: {err.message}</p>;
+  }
+});
+```
+
+## Async Mode
+
+Async mode is activated by using async generators instead of regular ones. In fact, regular flowponents are actually just a special case of async ones! Here's the first example implemented with async flowponents:
+
+```js
+const App = flowponent(async function*() {
+  let count = 0;
+
+  for (;;) {
+    const promise = yield resolve => (
+      <div>
+        <div>current value: {count}</div>
+        <button onClick={() => resolve(1)}>+1</button>
+        <button onClick={() => resolve(-1)}>-1</button>
+      </div>
+    );
+    count += await promise;
+  }
+});
+```
+
+This allows doing things between the time that the view has been rendered and `resolve` has been called.
+
+Check out a bit more involved downloader widget example: [Codesandbox](https://codesandbox.io/s/flowponent-async-mode-in-action-97wk1)
+
+## See Also
+
+- The [tweet with the initial idea](https://twitter.com/jviide/status/1204492830594473985), but still using async generators.
+- For a more sophisticated approach check out [`concur-js`](https://github.com/ajnsit/concur-js) from which this library ~~stole~~borrowed further ideas 🙂
+
+## License
+
+This library is licensed under the MIT license. See [LICENSE](./LICENSE).

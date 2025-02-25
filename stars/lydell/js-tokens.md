@@ -1,0 +1,710 @@
+---
+repo: lydell/js-tokens
+url: 'https://github.com/lydell/js-tokens'
+homepage: ''
+starredAt: '2022-10-11T01:45:32Z'
+createdAt: '2014-03-08T22:28:09Z'
+updatedAt: '2025-02-14T21:14:34Z'
+language: JavaScript
+license: MIT
+branch: main
+stars: 513
+isPublic: true
+isTemplate: false
+isArchived: false
+isFork: false
+hasReadMe: true
+refreshedAt: '2025-02-25T20:21:25.188Z'
+description: Tiny JavaScript tokenizer.
+tags:
+  - ecmascript
+  - javascript
+  - regex
+  - tokenizer
+---
+
+# js-tokens
+
+The tiny, regex powered, lenient, _almost_ spec-compliant JavaScript tokenizer that never fails.
+
+```js
+const jsTokens = require("js-tokens");
+
+const jsString = 'JSON.stringify({k:3.14**2}, null /*replacer*/, "\\t")';
+
+Array.from(jsTokens(jsString), (token) => token.value).join("|");
+// JSON|.|stringify|(|{|k|:|3.14|**|2|}|,| |null| |/*replacer*/|,| |"\t"|)
+```
+
+## Installation
+
+`npm install js-tokens`
+
+```js
+import jsTokens from "js-tokens";
+// or:
+const jsTokens = require("js-tokens");
+```
+
+## Usage
+
+```js
+jsTokens(string, options?)
+```
+
+| Option | Type      | Default | Description         |
+| :----- | :-------- | :------ | :------------------ |
+| jsx    | `boolean` | `false` | Enable JSX support. |
+
+This package exports a generator function, `jsTokens`, that turns a string of JavaScript code into token objects.
+
+For the empty string, the function yields nothing (which can be turned into an empty list). For any other input, the function always yields _something,_ even for invalid JavaScript, and never throws. Concatenating the token values reproduces the input.
+
+The package is very close to being fully spec compliant (it passes all [but 3](#known-errors) of [test262-parser-tests]), but has taken a couple of shortcuts. See the following sections for limitations of some tokens.
+
+```js
+// Loop over tokens:
+for (const token of jsTokens("hello, !world")) {
+  console.log(token);
+}
+
+// Get all tokens as an array:
+const tokens = Array.from(jsTokens("hello, !world"));
+```
+
+## Tokens
+
+_Spec: [ECMAScript Language: Lexical Grammar] + [Additional Syntax]_
+
+```ts
+export default function jsTokens(input: string): Iterable<Token>;
+
+type Token =
+  | { type: "StringLiteral"; value: string; closed: boolean }
+  | { type: "NoSubstitutionTemplate"; value: string; closed: boolean }
+  | { type: "TemplateHead"; value: string }
+  | { type: "TemplateMiddle"; value: string }
+  | { type: "TemplateTail"; value: string; closed: boolean }
+  | { type: "RegularExpressionLiteral"; value: string; closed: boolean }
+  | { type: "MultiLineComment"; value: string; closed: boolean }
+  | { type: "SingleLineComment"; value: string }
+  | { type: "HashbangComment"; value: string }
+  | { type: "IdentifierName"; value: string }
+  | { type: "PrivateIdentifier"; value: string }
+  | { type: "NumericLiteral"; value: string }
+  | { type: "Punctuator"; value: string }
+  | { type: "WhiteSpace"; value: string }
+  | { type: "LineTerminatorSequence"; value: string }
+  | { type: "Invalid"; value: string };
+```
+
+### StringLiteral
+
+_Spec: [StringLiteral]_
+
+If the ending `"` or `'` is missing, the token has `closed: false`. JavaScript strings cannot contain (unescaped) newlines, so unclosed strings simply end at the end of the line.
+
+Escape sequences are supported, but may be invalid. For example, `"\u"` is matched as a StringLiteral even though it contains an invalid escape.
+
+Examples:
+
+<!-- prettier-ignore -->
+```js
+"string"
+'string'
+""
+''
+"\""
+'\''
+"valid: \u00a0, invalid: \u"
+'valid: \u00a0, invalid: \u'
+"multi-\
+line"
+'multi-\
+line'
+" unclosed
+' unclosed
+```
+
+### NoSubstitutionTemplate / TemplateHead / TemplateMiddle / TemplateTail
+
+_Spec: [NoSubstitutionTemplate] / [TemplateHead] / [TemplateMiddle] / [TemplateTail]_
+
+A template without interpolations is matched as is. For, example:
+
+- `` `abc` ``: NoSubstitutionTemplate
+- `` `abc ``: NoSubstitutionTemplate with `closed: false`
+
+A template _with_ interpolations is matched as many tokens. For example, `` `head${1}middle${2}tail` `` is matched as follows (apart from the two NumericLiterals):
+
+- `` `head${ ``: TemplateHead
+- `}middle${`: TemplateMiddle
+- `` }tail` ``: TemplateTail
+
+TemplateMiddle is optional, and TemplateTail can be unclosed. For example, `` `head${1}tail `` (note the missing ending `` ` ``):
+
+- `` `head${ ``: TemplateHead
+- `}tail`: TemplateTail with `closed: false`
+
+Templates can contain unescaped newlines, so unclosed templates go on to the end of input.
+
+Just like for StringLiteral, templates can also contain invalid escapes. `` `\u` `` is matched as a NoSubstitutionTemplate even though it contains an invalid escape. Also note that in _tagged_ templates, invalid escapes are _not_ syntax errors: `` x`\u` `` is syntactically valid JavaScript.
+
+### RegularExpressionLiteral
+
+_Spec: [RegularExpressionLiteral]_
+
+Regex literals may contain invalid regex syntax. They are still matched as regex literals. The specification even says:
+
+> The productions below [...] are used by the input element scanner to find the end of the regular expression literal. The source text [...] are subsequently parsed again using the more stringent ECMAScript Regular Expression grammar.
+
+If the ending `/` is missing, the token has `closed: false`. JavaScript regex literals cannot contain newlines (not even escaped ones), so unclosed regex literals simply end at the end of the line.
+
+According to the specification, the flags of regular expressions are [IdentifierPart]s (unknown and repeated regex flags become errors at a later stage).
+
+Differentiating between regex and division in JavaScript is really tricky. js-tokens looks at the previous token to tell them apart. As long as the previous tokens are valid, it should do the right thing. For invalid code, js-tokens might be confused and start matching division as regex or vice versa.
+
+Examples:
+
+<!-- prettier-ignore -->
+```js
+/a/
+/a/gimsuy
+/a/Inva1id
+/+/
+/[/]\//
+/[\p{Decimal_Number}--[0-9]]/v
+```
+
+### MultiLineComment
+
+_Spec: [MultiLineComment]_
+
+If the ending `*/` is missing, the token has `closed: false`. Unclosed multi-line comments go on to the end of the input.
+
+Examples:
+
+<!-- prettier-ignore -->
+```js
+/* comment */
+/* console.log(
+    "commented", out + code);
+    */
+/**/
+/* unclosed
+```
+
+### SingleLineComment
+
+_Spec: [SingleLineComment]_
+
+Examples:
+
+<!-- prettier-ignore -->
+```js
+// comment
+// console.log("commented", out + code);
+//
+```
+
+### HashbangComment
+
+_Spec: [HashbangComment]_
+
+Note that a HashbangComment can only occur at the very start of the string that is being tokenized. Anywhere else you will likely get an Invalid token `#` followed by a Punctuator token `!`.
+
+Examples:
+
+<!-- prettier-ignore -->
+```js
+#!/usr/bin/env node
+#! console.log("commented", out + code);
+#!
+```
+
+### IdentifierName
+
+_Spec: [IdentifierName]_
+
+Keywords, reserved words, `null`, `true`, `false`, variable names and property names.
+
+Examples:
+
+<!-- prettier-ignore -->
+```js
+if
+for
+var
+instanceof
+package
+null
+true
+false
+Infinity
+undefined
+NaN
+$variab1e_name
+π
+℮
+ಠ_ಠ
+\u006C\u006F\u006C\u0077\u0061\u0074
+```
+
+### PrivateIdentifier
+
+_Spec: [PrivateIdentifier]_
+
+Any `IdentifierName` preceded by a `#`.
+
+Examples:
+
+<!-- prettier-ignore -->
+```js
+#if
+#for
+#var
+#instanceof
+#package
+#null
+#true
+#false
+#Infinity
+#undefined
+#NaN
+#$variab1e_name
+#π
+#℮
+#ಠ_ಠ
+#\u006C\u006F\u006C\u0077\u0061\u0074
+```
+
+### NumericLiteral
+
+_Spec: [NumericLiteral]_
+
+Examples:
+
+<!-- prettier-ignore -->
+```js
+0
+1.5
+1
+1_000
+12e9
+0.123e-32
+0xDead_beef
+0b110
+12n
+07
+09.5
+```
+
+### Punctuator
+
+_Spec: [Punctuator] + [DivPunctuator] + [RightBracePunctuator]_
+
+All possible values:
+
+<!-- prettier-ignore -->
+```js
+--  ++
+.   ?.
+<   <=   >   >=
+!=  !==  ==  ===
+   +   -   %   &   |   ^   /   *   **   <<   >>   >>>   &&   ||   ??
+=  +=  -=  %=  &=  |=  ^=  /=  *=  **=  <<=  >>=  >>>=  &&=  ||=  ??=
+(  )  [  ]  {  }
+!  ?  :  ;  ,  ~  ...  =>
+```
+
+### WhiteSpace
+
+_Spec: [WhiteSpace]_
+
+Unlike the specification, multiple whitespace characters in a row are matched as _one_ token, not one token per character.
+
+### LineTerminatorSequence
+
+_Spec: [LineTerminatorSequence]_
+
+CR, LF and CRLF, plus `\u2028` and `\u2029`.
+
+### Invalid
+
+_Spec: n/a_
+
+Single code points not matched in another token.
+
+Examples:
+
+<!-- prettier-ignore -->
+```js
+#
+@
+💩
+```
+
+## JSX Tokens
+
+_Spec: [JSX Specification]_
+
+```ts
+export default function jsTokens(
+  input: string,
+  options: { jsx: true },
+): Iterable<Token | JSXToken>;
+
+export declare type JSXToken =
+  | { type: "JSXString"; value: string; closed: boolean }
+  | { type: "JSXText"; value: string }
+  | { type: "JSXIdentifier"; value: string }
+  | { type: "JSXPunctuator"; value: string }
+  | { type: "JSXInvalid"; value: string };
+```
+
+- The tokenizer switches between outputting runs of `Token` and runs of `JSXToken`.
+- Runs of `JSXToken` can also contain WhiteSpace, LineTerminatorSequence, MultiLineComment and SingleLineComment.
+
+### JSXString
+
+_Spec: `"` JSXDoubleStringCharacters `"` + `'` JSXSingleStringCharacters `'`_
+
+If the ending `"` or `'` is missing, the token has `closed: false`. JSX strings can contain unescaped newlines, so unclosed JSX strings go on to the end of input.
+
+Note that JSX don’t support escape sequences as part of the token grammar. A `"` or `'` always closes the string, even with a backslash before.
+
+Examples:
+
+<!-- prettier-ignore -->
+```
+"string"
+'string'
+""
+''
+"\"
+'\'
+"multi-
+line"
+'multi-
+line'
+" unclosed
+' unclosed
+```
+
+### JSXText
+
+_Spec: JSXText_
+
+Anything but `<`, `>`, `{` and `}`.
+
+### JSXIdentifier
+
+_Spec: JSXIdentifier_
+
+Examples:
+
+<!-- prettier-ignore -->
+```js
+div
+class
+xml
+x-element
+x------
+$htm1_element
+ಠ_ಠ
+```
+
+### JSXPunctuator
+
+_Spec: n/a_
+
+All possible values:
+
+```js
+<
+>
+/
+.
+:
+=
+{
+}
+```
+
+### JSXInvalid
+
+_Spec: n/a_
+
+Single code points not matched in another token.
+
+Examples in JSX tags:
+
+```js
+1
+`
++
+,
+#
+@
+💩
+```
+
+All possible values in JSX children:
+
+```js
+>
+}
+```
+
+## Compatibility
+
+### ECMAScript
+
+The intention is to always support the latest ECMAScript version whose feature set has been finalized.
+
+Currently, ECMAScript 2024 is supported.
+
+#### Annex B and C (strict mode)
+
+Section [B: Additional ECMAScript Features for Web Browsers][annexb] of the spec is optional if the ECMAScript host is not a web browser, and specifies some additional syntax. Section [C: The Strict Mode of ECMAScript][annexc] disallows certain syntax in Strict Mode.
+
+- Numeric literals: js-tokens supports legacy octal and octal like numeric literals, regardless of Strict Mode.
+- String literals: js-tokens supports legacy octal escapes, since it allows any invalid escapes.
+- HTML-like comments: **Not supported.** js-tokens prefers treating `5<!--x` as `5 < !(--x)` rather than as `5 //x`.
+- Regular expression patterns: js-tokens doesn’t care what’s between the starting `/` and ending `/`, so this is supported.
+
+### TypeScript
+
+Supporting TypeScript is not an explicit goal, but js-tokens and Babel both tokenize this [TypeScript fixture] and this [TSX fixture] the same way, with one edge case:
+
+<!-- prettier-ignore -->
+```ts
+type A = Array<Array<string>>
+type B = Array<Array<Array<string>>>
+```
+
+Both lines above should end with a couple of `>` tokens, but js-tokens instead matches the `>>` and `>>>` operators.
+
+### JSX
+
+JSX is supported: `jsTokens("<p>Hello, world!</p>", { jsx: true })`.
+
+### JavaScript runtimes
+
+js-tokens should work in any JavaScript runtime that supports [Unicode property escapes].
+
+### Known errors
+
+Here are a couple of tricky cases:
+
+<!-- prettier-ignore -->
+```js
+// Case 1:
+switch (x) {
+  case x: {}/a/g;
+  case x: {}<div>x</div>/g;
+}
+
+// Case 2:
+label: {}/a/g;
+label: {}<div>x</div>/g;
+
+// Case 3:
+(function f() {}/a/g);
+(function f() {}<div>x</div>/g);
+```
+
+This is what they mean:
+
+```js
+// Case 1:
+switch (x) {
+  case x:
+    {
+    }
+    /a/g;
+  case x:
+    {
+    }
+    <div>x</div> / g;
+}
+
+// Case 2:
+label: {
+}
+/a/g;
+label: {
+}
+<div>x</div> / g;
+
+// Case 3:
+(function f() {}) / a / g;
+(function f() {}) < div > x < /div>/g;
+```
+
+But js-tokens thinks they mean:
+
+```js
+// Case 1:
+switch (x) {
+  case x:
+    ({}) / a / g;
+  case x:
+    ({}) < div > x < /div>/g;
+}
+
+// Case 2:
+label: ({}) / a / g;
+label: ({}) < div > x < /div>/g;
+
+// Case 3:
+function f() {}
+/a/g;
+function f() {}
+<div>x</div> / g;
+```
+
+In other words, js-tokens:
+
+- Mis-identifies regex as division and JSX as comparison in case 1 and 2.
+- Mis-identifies division as regex and comparison as JSX in case 3.
+
+This happens because js-tokens looks at the previous token when deciding between regex and division or JSX and comparison. In these cases, the previous token is `}`, which either means “end of block” (→ regex/JSX) or “end of object literal” (→ division/comparison). How does js-tokens determine if the `}` belongs to a block or an object literal? By looking at the token before the matching `{`.
+
+In case 1 and 2, that’s a `:`. A `:` _usually_ means that we have an object literal or ternary:
+
+<!-- prettier-ignore -->
+```js
+let some = weird ? { value: {}/a/g } : {}/a/g;
+```
+
+But `:` is also used for `case` and labeled statements.
+
+One idea is to look for `case` before the `:` as an exception to the rule, but it’s not so easy:
+
+<!-- prettier-ignore -->
+```js
+switch (x) {
+  case weird ? true : {}/a/g: {}/a/g
+}
+```
+
+The first `{}/a/g` is a division, while the second `{}/a/g` is an empty block followed by a regex. Both are preceded by a colon with a `case` on the same line, and it does not seem like you can distinguish between the two without implementing a parser.
+
+Labeled statements are similarly difficult, since they are so similar to object literals:
+
+<!-- prettier-ignore -->
+```js
+{
+  label: {}/a/g
+}
+
+({
+  key: {}/a/g
+})
+```
+
+Finally, case 3 (`(function f() {}/a/g);`) is also difficult, because a `)` before a `{` means that the `{` is part of a _block,_ and blocks are _usually_ statements:
+
+```js
+if (x) {
+}
+/a/g;
+
+function f() {}
+/a/g;
+```
+
+But _function expressions_ are of course not statements. It’s difficult to tell an function _expression_ from a function _statement_ without parsing.
+
+Luckily, none of these edge cases are likely to occur in real code.
+
+### Known failures
+
+js-tokens advertises that it “never fails”. Tell you what, it _can_ fail on extreme inputs. The regex engine of the runtime can eventually give up. js-tokens has worked around it to some extent by changing its regexes to be easier on the regex engine. To solve completely, js-tokens would have to stop using regex, but then it wouldn’t be _tiny_ anymore which is the whole point. Luckily, only extreme inputs can fail, hopefully ones you’ll never encounter.
+
+For example, if you try to parse the string literal `"\n\n\n"` but with 10 million `\n` instead of just 3, the regex engine gives up with `RangeError: Maximum call stack size exceeded` (or similar). Try it out:
+
+```js
+Array.from(require("js-tokens")(`"${"\\n".repeat(1e7)}"`));
+```
+
+(Yes, that is the _regex engine_ of the runtime giving up. js-tokens has no recursive functions.)
+
+However, if you repeat `a` instead of `\n` 10 million times (`"aaaaaa…"`), it works:
+
+```js
+Array.from(require("js-tokens")(`"${"a".repeat(1e7)}"`));
+```
+
+That’s good, because it’s much more common to have lots of non-escapes in a row in a big string literal, than having mostly escapes. (Obfuscated code might have _only_ escapes though.)
+
+#### Safari warning
+
+I’ve seen Safari _give up_ instead of throwing an error.
+
+In Safari, Chrome, Firefox and Node.js the following code successfully results in a match:
+
+```js
+/(#)(?:a|b)+/.exec("#" + "a".repeat(1e5));
+```
+
+But for the following code (with `1e7` instead of `1e5`), the runtimes differ:
+
+```js
+/(#)(?:a|b)+/.exec("#" + "a".repeat(1e7));
+```
+
+- Chrome, Firefox and Node.js all throw `RangeError: Maximum call stack size exceeded` (or similar).
+- Safari returns `null` (at the time of writing), silently giving up on matching the regex. It’s kind of lying that the regex did not match, while in reality it would given enough computing resources.
+
+This means that in Safari, js-tokens might not fail but instead give you unexpected tokens.
+
+## Performance
+
+With [@babel/parser] for comparison. Node.js 21.6.1 on a MacBook Pro M1 (Sonoma).
+
+| Lines of code |     Size | js-tokens@8.0.3 | @babel/parser@7.23.9 |
+| ------------: | -------: | --------------: | -------------------: |
+|          ~100 | ~4.0 KiB |           ~2 ms |               ~10 ms |
+|        ~1 000 |  ~39 KiB |           ~5 ms |               ~27 ms |
+|       ~10 000 | ~353 KiB |          ~44 ms |              ~108 ms |
+|      ~100 000 | ~5.1 MiB |         ~333 ms |               ~2.0 s |
+|    ~2 400 000 | ~138 MiB |            ~7 s |        ~4 m 9 s (\*) |
+
+(\*) Required increasing the Node.js the memory limit (I set it to 8 GiB).
+
+See [benchmark.js] if you want to run benchmarks yourself.
+
+[@babel/parser]: https://babeljs.io/docs/en/babel-parser
+[additional syntax]: https://tc39.es/ecma262/#sec-additional-syntax
+[annexb]: https://tc39.es/ecma262/#sec-additional-ecmascript-features-for-web-browsers
+[annexc]: https://tc39.es/ecma262/#sec-strict-mode-of-ecmascript
+[benchmark.js]: benchmark.js
+[divpunctuator]: https://tc39.es/ecma262/#prod-DivPunctuator
+[ecmascript language: lexical grammar]: https://tc39.es/ecma262/#sec-ecmascript-language-lexical-grammar
+[example.test.js]: test/example.test.js
+[hashbangcomment]: https://tc39.es/ecma262/#prod-HashbangComment
+[identifiername]: https://tc39.es/ecma262/#prod-IdentifierName
+[identifierpart]: https://tc39.es/ecma262/#prod-IdentifierPart
+[jsx specification]: https://facebook.github.io/jsx/
+[lineterminatorsequence]: https://tc39.es/ecma262/#prod-LineTerminatorSequence
+[multilinecomment]: https://tc39.es/ecma262/#prod-MultiLineComment
+[nosubstitutiontemplate]: https://tc39.es/ecma262/#prod-NoSubstitutionTemplate
+[numericliteral]: https://tc39.es/ecma262/#prod-NumericLiteral
+[privateidentifier]: https://tc39.es/ecma262/#prod-PrivateIdentifier
+[punctuator]: https://tc39.es/ecma262/#prod-Punctuator
+[regularexpressionliteral]: https://tc39.es/ecma262/#prod-RegularExpressionLiteral
+[rightbracepunctuator]: https://tc39.es/ecma262/#prod-RightBracePunctuator
+[singlelinecomment]: https://tc39.es/ecma262/#prod-SingleLineComment
+[stackoverflow-slash]: https://stackoverflow.com/a/27120110/2010616
+[string.prototype.matchall]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/matchAll
+[stringliteral]: https://tc39.es/ecma262/#prod-StringLiteral
+[templatehead]: https://tc39.es/ecma262/#prod-TemplateHead
+[templatemiddle]: https://tc39.es/ecma262/#prod-TemplateMiddle
+[templatetail]: https://tc39.es/ecma262/#prod-TemplateTail
+[test262-parser-tests]: https://github.com/tc39/test262-parser-tests
+[tsx fixture]: test/fixtures/valid/jsx2.tsx
+[typescript fixture]: test/fixtures/valid/typescript.module.ts
+[unicode property escapes]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_Expressions/Unicode_Property_Escapes
+[whitespace]: https://tc39.es/ecma262/#prod-WhiteSpace

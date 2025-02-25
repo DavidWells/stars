@@ -1,0 +1,129 @@
+---
+repo: buildkite/terminal-to-html
+url: 'https://github.com/buildkite/terminal-to-html'
+homepage: 'http://buildkite.github.io/terminal-to-html'
+starredAt: '2021-06-05T20:59:44Z'
+createdAt: '2014-07-08T07:48:24Z'
+updatedAt: '2025-02-24T22:56:40Z'
+language: Go
+license: MIT
+branch: main
+stars: 673
+isPublic: true
+isTemplate: false
+isArchived: false
+isFork: false
+hasReadMe: true
+refreshedAt: '2025-02-25T21:17:35.800Z'
+description: Converts arbitrary shell output (with ANSI) into beautifully rendered HTML
+tags: []
+---
+
+![logo](http://buildkite.github.io/terminal-to-html/images/logo.svg)
+
+Terminal is a Go library for converting arbitrary shell output (with ANSI) into beautifully rendered HTML. See http://en.wikipedia.org/wiki/ANSI_escape_code for more information about ANSI Terminal Control Escape Sequences.
+
+It provides a single command, `terminal-to-html`, that can be used to convert terminal output via STDIN, as well as via a simple web server.
+
+[![GoDoc](https://godoc.org/github.com/buildkite/terminal-to-html?status.svg)](https://godoc.org/github.com/buildkite/terminal-to-html)
+
+## Usage
+
+> [!WARNING]
+> `terminal-to-html` is **not** hardened against cross-site scripting (XSS) or other attacks. When
+> run on user-generated content, output should be passed through a HTML sanitizer prior to
+> displaying in a browser.
+
+Piping in terminal output via the command line:
+
+``` bash
+cat fixtures/pikachu.sh.raw | terminal-to-html -preview > out.html
+```
+
+Posting terminal content via HTTP:
+
+```bash
+terminal-to-html -http=:6060 &
+curl --data-binary "@fixtures/pikachu.sh.raw" http://localhost:6060/terminal > out.html
+```
+
+For coloring you can use the sample [terminal.css](/internal/assets/terminal.css) stylesheet and wrap the output in an element with class `term-container` (e.g. `<div class="term-container"><!-- terminal output --></div>`).
+
+### iTerm2 Image support
+
+Terminal has basic support for [iTerm2 inline images](http://iterm2.com/images.html). Only control sequences with `inline=1` will be rendered and `preserveAspectRatio` is not supported.
+
+#### URL-based images
+
+Terminal also provides a way to refer to images from the internet rather than transmitted via ANSI. The format is similar to iTerm2 inline images but uses the escape code `1338`:
+
+`1338;url=http://imgur.com/foo.gif;width=100%;height=50px;alt=My Image`
+
+You can use the provided `image.sh` to produce this escape sequence.
+
+#### Links
+
+Terminal can also render hyperlinks:
+
+`1339;url=https://google.com;content=Google Search`
+
+You can use the provided `link.sh` to produce this escape sequence.
+
+Links which contain semicolons can be surrounded by either single or double quotation marks:
+
+`1339;url='https://example.com/link-with;semicolon?argument=something';content=Example`
+
+## Installation
+
+If you have Go installed you can simply run the following command to install the `terminal-to-html` command into `$GOPATH/bin`:
+
+```bash
+$ go install github.com/buildkite/terminal-to-html/v3/cmd/terminal-to-html
+```
+
+You can also just download the standalone binary from [https://github.com/buildkite/terminal-to-html/releases](https://github.com/buildkite/terminal-to-html/releases)
+
+## Developing
+
+To get a bash prompt with all the go cross-compilation tools set up for you already:
+
+```
+$ docker build -t terminal . && docker run -it --rm -v $(pwd):/go/src/github.com/buildkite/terminal-to-html terminal bash
+```
+
+## Benchmarking
+
+Run `go test -bench .` to see raw Go performance. The `npm` test is the focus: this best represents the kind of use cases the original code was developed against.
+
+## Contributing
+
+1. Fork it
+2. Create your feature branch (`git checkout -b my-new-feature`)
+3. Commit your changes (`git commit -am 'Add some feature'`)
+4. Push to the branch (`git push origin my-new-feature`)
+5. Create a new Pull Request
+
+## Licence
+
+> Copyright (c) 2019 Keith Pitt, Tim Lucas, Michael Pearson
+>
+> MIT License
+>
+> Permission is hereby granted, free of charge, to any person obtaining
+> a copy of this software and associated documentation files (the
+> "Software"), to deal in the Software without restriction, including
+> without limitation the rights to use, copy, modify, merge, publish,
+> distribute, sublicense, and/or sell copies of the Software, and to
+> permit persons to whom the Software is furnished to do so, subject to
+> the following conditions:
+>
+> The above copyright notice and this permission notice shall be
+> included in all copies or substantial portions of the Software.
+>
+> THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
+> EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+> MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND
+> NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE
+> LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION
+> OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION
+> WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.

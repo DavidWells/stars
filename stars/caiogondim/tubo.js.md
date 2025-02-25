@@ -1,0 +1,196 @@
+---
+repo: caiogondim/tubo.js
+url: 'https://github.com/caiogondim/tubo.js'
+homepage: 'https://npm.im/tubo'
+starredAt: '2018-10-26T21:54:56Z'
+createdAt: '2016-09-22T21:41:08Z'
+updatedAt: '2024-12-25T17:27:21Z'
+language: JavaScript
+license: MIT
+branch: master
+stars: 73
+isPublic: true
+isTemplate: false
+isArchived: false
+isFork: false
+hasReadMe: true
+refreshedAt: '2025-02-25T21:20:09.147Z'
+description: ':surfer: Your functional (sync/async) pipe | operator'
+tags:
+  - functional-programming
+  - javascript
+  - js
+  - pipe
+---
+
+<img src="http://rawgit.com/caiogondim/tubo.js/master/img/icon.svg">
+
+# tubo
+
+<div>
+  <img src="http://travis-ci.org/caiogondim/tubo.js.svg?branch=master" alt="Travis CI"> <img src="http://img.badgesize.io/caiogondim/tubo.js/master/src/index.js?compression=gzip"> <img src="https://codecov.io/gh/caiogondim/obstructed.js/branch/master/graph/badge.svg" alt="codecov">
+</div>
+
+<br>
+
+Tubo works like the pipe operator more common in functional programming
+languages, like Elixir.
+
+This lib supports **sync** and **async** arguments.
+
+If all arguments are sync functions or literal, the pipeline will run as a normal
+function returning the last value computed. In case one of the arguments is a
+function that returns a promise or a promise instance (then-able object), a
+promise will be returned at the end.
+
+## Installation
+
+```bash
+npm install tubo --save
+```
+
+## Usage
+
+### Sync
+
+```js
+function double(x) {
+  return x * 2
+}
+
+function square(x) {
+  return x * x
+}
+
+var output = tubo(
+  2,
+  double,
+  square
+)
+console.log(output) // => 16
+```
+
+### Async
+
+```js
+try {
+  const result = await tubo(
+    bookingDetails.userId,
+    fetchUserById, // async
+    JSON.parse
+  )
+  console.log(result)
+} catch (error) {
+  console.error(error)
+}
+```
+
+### Async with Promise
+
+```js
+tubo(
+  bookingDetails.userId,
+  fetchUserById, // async
+  JSON.parse
+)
+  .then(function(result) {
+    console.log(result)
+  })
+  .catch(function(error) {
+    console.log(error)
+  })
+```
+
+### Mixed
+
+It is also possible to mix sync and async arguments.
+Whenever a function that generates promises or a promise intance is found,
+the lib switchs to async mode and will return a `Promise`.
+
+## Examples
+
+### Validation (sync and async)
+
+```js
+// Before
+function validateEmail(email) {
+  email = trim(email)
+  validateEmailTld(email)
+  validateEmailFormat(email)
+}
+
+// After
+function validateEmail(email) {
+  return tubo(
+    email,
+    trim,
+    validateEmailTld,
+    validateEmailFormat
+  )
+}
+
+try {
+  validateEmail('john@email.com')
+} catch (error) {
+  console.log(error)
+}
+```
+
+### Straight-forward Cases
+
+```js
+// Before
+if (cache && localStorage.getItem(endpoint)) {
+  return m.prop( JSON.parse( localStorage.get(endpoint) ) )
+}
+
+// After
+if (cache && localStorage.getItem(endpoint)) {
+  return tubo(
+    localStorage.get(endpoint),
+    JSON.parse,
+    m.prop
+  )
+}
+```
+
+### Usage with const
+
+```js
+// Before
+let items = base64ToJSON(response.data.content)
+items = Array.isArray(items) ? items : [items]
+
+// After
+const items = tubo(
+  base64ToJSON(response.data.content),
+  x => Array.isArray(x) ? x : [x]
+)
+```
+
+### Functional Updates
+
+```js
+// Before
+return Event.create(
+  Object.assign(attrs, { parent_id: parentId, status: 'draft' })
+)
+
+// After
+return tubo(
+  Object.assign(attrs, { parent_id: parentId, status: 'draft' }),
+  Event.create
+)
+```
+
+## Reference and credits
+- [Ramda.js pipe](http://ramdajs.com/docs/#pipe)
+- [lodash.js flow](https://lodash.com/docs#flow)
+- [pipe.py](https://github.com/JulienPalard/Pipe)
+- Some exampes taken from https://github.com/mindeavor/es-pipeline-operator/wiki/Example-Use-Cases
+
+---
+
+[caiogondim.com](https://caiogondim.com) &nbsp;&middot;&nbsp;
+GitHub [@caiogondim](https://github.com/caiogondim) &nbsp;&middot;&nbsp;
+Twitter [@caio_gondim](https://twitter.com/caio_gondim)

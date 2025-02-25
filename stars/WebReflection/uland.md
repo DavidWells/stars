@@ -1,0 +1,77 @@
+---
+repo: WebReflection/uland
+url: 'https://github.com/WebReflection/uland'
+homepage: null
+starredAt: '2021-03-29T04:45:41Z'
+createdAt: '2020-06-20T21:00:03Z'
+updatedAt: '2025-02-13T00:44:21Z'
+language: JavaScript
+license: ISC
+branch: master
+stars: 110
+isPublic: true
+isTemplate: false
+isArchived: false
+isFork: false
+hasReadMe: true
+refreshedAt: '2025-02-25T21:17:55.849Z'
+description: A µhtml take at neverland
+tags: []
+---
+
+# 🦄 <em>µ</em>land
+
+[![CSP strict](https://webreflection.github.io/csp/strict.svg)](https://webreflection.github.io/csp/#-csp-strict)
+
+![tiny island](./uland-head.jpg)
+
+<sup>**Social Media Photo by [Ben Klea](https://unsplash.com/@benkleaphoto) on [Unsplash](https://unsplash.com/)**</sup>
+
+*micro* land, or *unicorn* land, is a [µhtml](https://github.com/WebReflection/uhtml#readme) take at [neverland](https://github.com/WebReflection/neverland/#readme).
+
+
+### 📣 Community Announcement
+
+Please ask questions in the [dedicated discussions repository](https://github.com/WebReflection/discussions), to help the community around this project grow ♥
+
+---
+
+Same API, except the exports are `{Component, render, html, svg}`, where `Component` is a function you can use either as `new Component(...)` or just `Component(...)` which is the equivalent of _neverland_ default export.
+
+This module exports same utilities via `uland/async`, which is based on `uhooks-dom/async` for asynchronous hooks.
+
+
+### Announcement
+
+Are you looking for something even more similar to *React*? Then don't miss [🐪 kaboobie](https://github.com/WebReflection/kaboobie/#readme) out!
+
+Are you looking for *SSR* components? Then check [🦄 µland-ssr](https://github.com/WebReflection/uland-ssr#readme) out!
+
+
+## API
+
+The concept is exactly the same as the _neverland_ one, the `render(...)` accepts a node to render, and either a *component* or a *callback* that returns some content.
+
+[Live demo](https://codepen.io/WebReflection/pen/dyGvNdg?editors=0010).
+
+```js
+import {Component, render, html, useState} from 'uland';
+
+const Counter = Component((initialState) => {
+  const [count, setCount] = useState(initialState);
+  return html`
+  <button onclick=${() => setCount(count + 1)}>
+    Count: ${count}
+  </button>`;
+});
+
+// basic example, show two independent counters
+render(document.body, () => html`
+  <div>
+    A bounce of counters.<hr>
+    ${Counter(0)} ${Counter(1)}
+  </div>
+`);
+```
+
+Please [check neverland](https://github.com/WebReflection/neverland/#concept) to know more about this module usage.

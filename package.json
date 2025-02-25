@@ -1,0 +1,30 @@
+{
+  "name": "github-stars",
+  "version": "1.0.0",
+  "description": "Collect your starred repos and generate a README",
+  "type": "module",
+  "main": "src/index.js",
+  "scripts": {
+    "dev": "node --env-file .env src/index.js",
+    "build": "node src/index.js",
+    "deploy": "node scripts/deploy.js",
+    "gen": "node scripts/readme.js",
+    "serve": "serve site"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "fs-extra": "^11.2.0",
+    "gh-pages": "^6.3.0",
+    "markdown-magic": "^3.4.0",
+    "ofetch": "^1.4.1",
+    "p-limit": "^6.2.0",
+    "safe-await": "^2.0.0",
+    "gray-matter": "^4.0.3"
+  },
+  "packageManager": "pnpm@9.15.3",
+  "devDependencies": {
+    "serve": "^14.2.4"
+  }
+}

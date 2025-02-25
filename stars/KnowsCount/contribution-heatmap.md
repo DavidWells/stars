@@ -1,0 +1,98 @@
+---
+repo: KnowsCount/contribution-heatmap
+url: 'https://github.com/KnowsCount/contribution-heatmap'
+homepage: 'https://contribution-heatmap.vercel.app'
+starredAt: '2022-02-14T17:59:38Z'
+createdAt: '2022-02-08T17:09:26Z'
+updatedAt: '2025-01-16T01:31:11Z'
+language: TypeScript
+license: WTFPL
+branch: main
+stars: 46
+isPublic: true
+isTemplate: false
+isArchived: false
+isFork: false
+hasReadMe: true
+refreshedAt: '2025-02-25T20:22:23.448Z'
+description: a react contribution heatmap calendar component
+tags:
+  - calendar
+  - component
+  - heatmap
+  - react
+  - typescript
+---
+
+<img src="https://knowscount-1304485449.cos.ap-shanghai.myqcloud.com/assets/React%20App%20Screenshot.svg" align="right" width="80" height="80" />
+
+# contribution-heatmap
+
+> a react contribution heatmap calendar component.
+
+do feel free to mark the repo by starring it. below lies some useful links to, hopefully, get you to know this component better:
+
+-   [simple react example](http://contribution-heatmap-example.vercel.app/) | [source code](https://github.com/KnowsCount/contribution-heatmap-example)
+-   [storybook preview](https://contribution-heatmap.vercel.app/)
+-   [npm link](https://www.npmjs.com/package/contribution-heatmap)
+
+## 📌 reporting bugs
+
+feel free to post any, **but please check [issues](https://github.com/KnowsCount/contribution-heatmap/issues) before posting**.
+
+## 🤤 usage
+
+to install the library as a dependency to your project, run
+
+```bash
+yarn add contribution-heatmap
+# or, according to your preference
+npm install contribution-heatmap
+```
+
+import the library in your project like below, and you can get started using it directly.
+
+<!-- prettier-ignore-start -->
+
+```tsx
+// simply import the library, no css-imports needed
+import { Heatmap } from "contribution-heatmap"
+// and then ... just use it like you would any components
+export const YourComponent = () => <Heatmap 
+    colour={['#ebedf0', '#c6e48b', '#40c463', '#30a14e', '#216e39']} 
+    squareNumber={5} 
+    count={[3, 2, 20, 1, 14]}
+    squareGap='4px'
+    squareSize='15px'
+/>
+```
+
+<!--prettier-ignore-end -->
+
+more details on props will come soon. I am making progress, albeit rather slowly—many things are happening lately.
+
+## 🙋‍♂️ contributing
+
+resolving issues, implementing features or even just eliminating the simplest bugs like typos in the repository will be highly appreciated 🎉. also, feel free to share your ideas in the [discussions page](https://github.com/KnowsCount/contribution-heatmap/discussions).
+
+here I list some starter scripts to run for making contributions to the repo; for the detailed version please go to [CONTRIBUTING.md](./CONTRIBUTING.md).
+
+### 🛠 install dependencies
+
+```
+yarn
+```
+
+### 🔨 get storybook up and running for previewing
+
+```
+yarn storybook
+```
+
+### 📦 compiles and minifies for production
+
+```
+yarn build:major
+yarn build:minor
+yarn build:patch
+```

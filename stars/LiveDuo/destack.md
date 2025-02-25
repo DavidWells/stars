@@ -1,0 +1,244 @@
+---
+repo: LiveDuo/destack
+url: 'https://github.com/LiveDuo/destack'
+homepage: ''
+starredAt: '2021-09-19T20:17:55Z'
+createdAt: '2021-04-21T23:00:49Z'
+updatedAt: '2025-02-24T10:17:07Z'
+language: HTML
+license: MIT
+branch: main
+stars: 1739
+isPublic: true
+isTemplate: false
+isArchived: false
+isFork: false
+hasReadMe: true
+refreshedAt: '2025-02-25T20:37:45.351Z'
+description: "Page builder for Next.js \U0001F167. Zero-config deployment \U0001F680. React now supported!"
+tags:
+  - grapesjs
+  - landing-page
+  - nextjs
+  - reactjs
+  - tailblocks
+  - tailwindcss
+---
+
+# Destack 🔌 Embrace design. Own the stack.
+
+Build landing pages visually right in your React or Next.js projects. Deploy them zero further configuration!
+
+**🏭 Examples:** [prettyfunnels.com](https://www.prettyfunnels.com/landing), [getdestack.com](https://www.getdestack.com/)
+
+# Announcements
+
+📣 [13/03/2024] Destack v3 has just been released on NPM. Learn more at [pull/103](https://github.com/LiveDuo/destack/pull/103) and [issues/104](https://github.com/LiveDuo/destack/issues/104). Note that pages created with v2 have to be recreated with v3 to function smoothly.
+
+📣 [10/10/2023] Destack v3 is in beta. This release is an rewrite of the editor from scratch. Check it out at [destack-starter-beta](https://github.com/LiveDuo/destack-starter-beta). More at [pull/103](https://github.com/LiveDuo/destack/pull/103) and [issues/104](https://github.com/LiveDuo/destack/issues/104).
+
+📣 [13/06/2023] Three more themes have been added [Preline](https://preline.co/), [Flow Bite](https://flowbite.com/) and [Flow Rift](https://flowrift.com/).
+
+📣 [04/02/2023] Version 2 has just been released on NPM. Try it out with destack@2 or destack@latest.
+
+📣 [17/12/2022] Destack v2 is now in beta. It's a major rewrite that comes new custom page builder based on Craft.js. Check it out at [destack-starter-beta](https://github.com/LiveDuo/destack-starter-beta). More at [pull/62](https://github.com/LiveDuo/destack/pull/62) and [issues/22](https://github.com/LiveDuo/destack/issues/22).
+
+📣 [11/10/2022] Destack now supports multiple themes. Two new themes have been added [Meraki UI](https://merakiui.com/) and [Hyper UI](https://www.hyperui.dev/).
+
+[![Tutorial](https://raw.githubusercontent.com/LiveDuo/destack/main/assets/youtube/craft.jpg)](https://www.youtube.com/watch?v=JTfUCCGaUd4 "Tutorial")
+
+# What's Destack?
+
+It's a tool to build landing pages within your [React](https://reactjs.org/) or [Next.js](https://nextjs.org/) projects. Destack includes multiple components from [Tailblocks](https://tailblocks.cc/), [Meraki UI](https://merakiui.com/), [Hyper UI](https://www.hyperui.dev/), [Preline](https://preline.co/), [Flow Bite](https://flowbite.com/) and [Flow Rift](https://flowrift.com/).. It also supports image uploads and form submissions.
+
+*Destack helps you stop worrying about marketing pages so you can focus on your project.*
+
+# Themes
+
+Destack now supports theme selection.
+
+<table border="0">
+
+ <tr>
+    <td width="48%">
+    <img src="https://raw.githubusercontent.com/LiveDuo/destack/main/assets/themes/screenshot-craft.png"/>
+    Theme selection
+</td>
+    <td width="48%"><img src="https://raw.githubusercontent.com/LiveDuo/destack/main/assets/themes/screenshot-meraki-ui.png"/>Meraki UI (<a href="https://merakiui.com/components">Components</a>)</td>
+ </tr>
+  <tr>
+    <td width="48%"><img src="https://raw.githubusercontent.com/LiveDuo/destack/main/assets/themes/screenshot-hyper-ui.png"/>Hyper UI (<a href="https://www.hyperui.dev/components/marketing">Components</a>)</td>
+    <td width="48%"><img src="https://raw.githubusercontent.com/LiveDuo/destack/main/assets/themes/screenshot-tailblocks.png"/>Tailblocks (<a href="https://tailblocks.cc/">Components</a>)</td>
+ </tr>
+  <tr>
+    <td width="48%"><img src="https://raw.githubusercontent.com/LiveDuo/destack/main/assets/themes/screenshot-preline.png"/>Preline (<a href="https://preline.co/examples.html">Components</a>)</td>
+    <td width="48%"><img src="https://raw.githubusercontent.com/LiveDuo/destack/main/assets/themes/screenshot-flowrift.png"/>Flow Rift (<a href="https://flowrift.com/">Components</a>)</td>
+ </tr>
+ <tr>
+    <td width="48%"><img src="https://raw.githubusercontent.com/LiveDuo/destack/main/assets/themes/screenshot-flowbite.png"/>Flow Bite (<a href="https://flowbite.com/blocks/">Components</a>)</td>
+ </tr>
+</table>
+
+
+### Contribute (add a new theme)
+
+There are many open source Tailwind themes that Destack can support. If you want to help adding a new theme create a new topic in [discussions](https://github.com/LiveDuo/destack/discussions) or reach out to me on [twitter](https://twitter.com/andreas_tzionis).
+
+# Features
+
+#### 🧱 Powerful Blocks
+
+There are hundreds of well designed and heavily functional blocks from [Tailblocks](https://tailblocks.cc/), [Meraki UI](https://merakiui.com/), [Hyper UI](https://www.hyperui.dev/), [Preline](https://preline.co/), [Flow Bite](https://flowbite.com/) and [Flow Rift](https://flowrift.com/).. Supports Tailwind's theme colors ie. Red, Yellow, Green, Blue, Indigo, Purple & Pink.
+
+#### 🃏 Delightful Builder
+
+Powered by a custom-made minimal page-builder that was created with simplicity in mind. It supports altering tailwind CSS classes and CSS properties with the inspector in browser DevTools.
+
+#### 🕹 Data Ownership
+
+Destack stores all your assets on Github, Bitbucket etc through the editor. There are no external dependencies to manage or worry about.
+
+#### 🏞 Assets & Forms Support
+
+Stores the images uploaded in the editor in your repository & displays them when needed on production. Also supports HTML and API form submission out of the box.
+
+#### 👩🏻‍💻 Easy Setup & Deployment
+
+Works existing & new [React](https://reactjs.org/) and [Next.js](https://nextjs.org/) projects. Requires minimal setup and no extra configuration to deploy your landing pages to production.
+
+# Getting Started
+
+### With a new Next.js project:
+
+- Fork the [destack-starter](https://github.com/LiveDuo/destack-starter) project
+
+- OR deploy a project to Vercel: [<img src="https://raw.githubusercontent.com/LiveDuo/destack/main/assets/deploy/vercel_big.png" width="92">](https://vercel.com/new/git/external?repository-url=https://github.com/LiveDuo/destack-starter&project-name=destack-starter&repository-name=destack-starter)
+
+- OR preview it online with Gitpod: [<img src="https://raw.githubusercontent.com/LiveDuo/destack/main/assets/deploy/gitpod_big.png" width="92">](https://gitpod.io/#https://github.com/LiveDuo/destack-starter)
+
+### With an existing Next.js project:
+
+##### 1. Install Destack on your Next.js project
+
+```sh
+npm i destack
+```
+
+##### 2. Setup the builder endpoint
+
+Create `pages/api/builder/handle.js` and add the following:
+```js
+export { handleEditor as default, config } from 'destack/build/server'
+```
+
+##### 3. Then create a new page
+
+On any Next.js page you want to setup Destack:
+```js
+export { getStaticProps } from 'destack/build/server'
+export { ContentProvider as default } from 'destack'
+```
+
+### With a new React.js project:
+
+- Fork the [destack-react-starter](https://github.com/LiveDuo/destack-react-starter) project
+
+- OR deploy a project to Vercel: [<img src="https://raw.githubusercontent.com/LiveDuo/destack/main/assets/deploy/vercel_big.png" width="92">](https://vercel.com/new/git/external?repository-url=https://github.com/LiveDuo/destack-react-starter&project-name=destack-react-starter&repository-name=destack-react-starter)
+
+- OR preview it online with Gitpod: [<img src="https://raw.githubusercontent.com/LiveDuo/destack/main/assets/deploy/gitpod_big.png" width="92">](https://gitpod.io/#https://github.com/LiveDuo/destack-react-starter)
+
+### With an existing React.js project:
+
+##### 1. Install Destack on your React.js project
+
+```sh
+npm i destack
+```
+
+##### 2. Setup the builder endpoint
+
+In `package.json`:
+- Replace the "start" script with `destack -d \"react-scripts start\"`
+- Then, replace the "build" script with `destack -b \"react-scripts build\"`
+
+##### 3. Then create a new page
+
+In any React.js component you want to setup Destack:
+```js
+export { ContentProviderReact as default } from 'destack'
+
+```
+
+# How it works
+
+🛠 Destack is composed of two main components, the first is a React component that shows the editor or the generated page and the second is a Next.js API route that saves your progress to your repository.
+
+👨‍💻 When you run the project in `development` (ie. with `npm run dev`) the React component understands it from the `NODE_ENV` environment variable and shows you the editor where you can create your landing page visually. 
+
+💡 Every change you make goes to the API route which updates a `default.json` file. That file contains the HTML for your landing page and it remembers how you structure your page so you can come back later to update it. 
+
+🚀 When is time to go in `production` (ie. do `npm run build`  or deploy to Vercel) the React component reads `NODE_ENV` again and statically generates the HTML version of the page you build in the editor from the `default.json` file Destack created for you earlier.
+
+> Note: The above description is for Next.js. In React.js, the `destack -b` script creates an API route similar to the one described above that handles template changes and file uploads in development. In production the `destack -d` script copies `default.json` to the `public` folder and builds a static version of the page.
+
+More on the project's architecture [here](assets/design/overview.md).
+
+# How to's & guides
+
+### Adding an HTML form
+
+- Drop a block that contains a form
+- Click on the form & head to components settings
+- Add form URL & check `async` if don't want a redirection
+- To handle a `async` forms you can create an API route
+  - Next.js: Create a file in [api/submit.js](https://github.com/LiveDuo/destack/blob/main/dev/nextjs-project/pages/api/submit.js)
+  - React.js: You will need a seperate Node.js server listening on `/api/submit`
+
+### Uploading images
+
+- Drop a block that contains an image or use image block
+- Click on an image to open the upload modal
+- Select the image you want to update and click on it to add it to the page
+- Note: Images are uploaded to `public/uploaded` with their original filenames
+
+### Create a blog
+
+- Create the blog related [pages](https://github.com/LiveDuo/destack-landing/tree/master/pages/blog).
+- Reuse the [header and footer](https://github.com/LiveDuo/destack-landing/blob/master/pages/_app.js) components. Note that this requires setting up tailwind CSS.
+
+**Example:** https://github.com/LiveDuo/destack-landing
+
+# Multi-page Support
+
+### Next.js
+
+Create a new page file in `pages` folder of the Next.js project and import `destack` as described in [#with-an-existing-nextjs-project](#with-an-existing-nextjs-project) to various pages.
+
+### React.js
+
+Install a routing library such as `react-router-dom` or `router-tutorial` in the React.js project and import `destack` as described in [#with-a-new-reactjs-project](#with-a-new-reactjs-project) to various routes. For more info check out [destack-react-starter](https://github.com/LiveDuo/destack-react-starter).
+
+# Contributing to the project
+  See [CONTRIBUTING.md](CONTRIBUTING.md)
+<br>
+
+# How this project came to existence
+
+This project evolved out of the need to prototype quickly, maintain ownership of the generated pages and be compatible with serverless JAM-stack frameworks.
+
+> Next.js 🅧 ➕ Tailwind CSS 🍃 = 💣💣
+
+Please go and show these projects some love (⭐️). 
+
+Don't forget to check out [Tailblocks](https://tailblocks.cc/), [Meraki UI](https://merakiui.com/), [Hyper UI](https://www.hyperui.dev/), [Preline](https://preline.co/), [Flow Bite](https://flowbite.com/) and [Flow Rift](https://flowrift.com/)., without their amazing open sourced components none of this would have been possible.  
+
+# Contributors
+<a href="https://github.com/liveduo/destack/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=LiveDuo/destack" />
+</a>  
+
+Made with [contributors-img](https://contrib.rocks).  
+
+# Upcoming Tasks
+- [ ] Add admin UI as a Next.js route
+

@@ -1,0 +1,134 @@
+---
+repo: projectstorm/react-diagrams
+url: 'https://github.com/projectstorm/react-diagrams'
+homepage: 'https://projectstorm.cloud/react-diagrams'
+starredAt: '2021-12-02T05:49:31Z'
+createdAt: '2016-06-03T09:10:01Z'
+updatedAt: '2025-02-25T17:14:59Z'
+language: TypeScript
+license: MIT
+branch: master
+stars: 8842
+isPublic: true
+isTemplate: false
+isArchived: false
+isFork: false
+hasReadMe: true
+refreshedAt: '2025-02-25T20:37:30.933Z'
+description: >-
+  a super simple, no-nonsense diagramming library written in react that just
+  works
+tags:
+  - beta
+  - canvas
+  - demo
+  - diagram
+  - diagrams
+  - drag
+  - editing-diagrams
+  - factories
+  - flowchart
+  - modular
+  - react
+  - svg
+  - typescript
+  - visualization
+  - web
+---
+
+# Introduction
+
+[![Join the chat at https://gitter.im/projectstorm/react-diagrams](https://badges.gitter.im/projectstorm/react-diagrams.svg)](https://gitter.im/projectstorm/react-diagrams?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge) [![NPM](https://img.shields.io/npm/v/@projectstorm/react-diagrams.svg)](https://npmjs.org/package/@projectstorm/react-diagrams) [![Package Quality](https://npm.packagequality.com/shield/storm-react-diagrams.svg)](https://packagequality.com/#?package=storm-react-diagrams)
+
+![](.gitbook/assets/logo.jpg)
+
+**DEMO**: [http://projectstorm.cloud/react-diagrams](http://projectstorm.cloud/react-diagrams)
+
+**DOCS \(wip\)** [https://projectstorm.gitbook.io/react-diagrams](https://projectstorm.gitbook.io/react-diagrams)
+
+Docs are currently being worked on, along with a migration path.
+
+## What
+
+A flow & process orientated diagramming library inspired by **Blender**, **Labview** and **Unreal engine**.
+
+* **Modern Codebase** written entirely in Typescript and React, the library makes use of powerful generics, advanced software engineering principles and is broken up into multiple modules.
+* **Hackable and extensible** the entire library including its core can be extended, rewired and re-assembled into fundamentally different software to suit your own software needs.
+* **HTML nodes as a first class citizen** the library was originally written to represent advanced dynamic nodes, that are difficult to represent as SVG's due to complex input requirements ux requirements.
+* **Designed for process** the library is aimed for software engineers that want to rewire their programs at runtime, and that want to make their software more dynamic.
+* **Fast diagram editing** the defaults provided give the highest priority to editing diagrams as fast as possible.
+
+## Gallery
+
+Example implementation using custom models: \(Dylan's personal code\)
+
+![Personal Project](.gitbook/assets/example1.jpg)
+![](.gitbook/assets/example2.jpg)
+
+Get started with the default models right out of the box:
+
+![](.gitbook/assets/example3.jpg)
+
+## Installing
+
+For all the bells and whistles:
+
+```text
+yarn add @projectstorm/react-diagrams
+```
+
+This includes all the packages listed below \(and works \(mostly and conceptually\) like it used to in version 5.0\)
+
+### A more modular approach
+
+This library now has a more modular design and you can import just the core \(contains no default factories or routing\)
+
+```text
+yarn add @projectstorm/react-diagrams-core
+```
+
+this is built ontop of the evolving **react-canvas-core** library
+
+```text
+yarn add @projectstorm/react-canvas-core
+```
+
+which makes use of
+
+```text
+yarn add @projectstorm/geometry
+```
+
+and of course, you can add some extras:
+
+```text
+yarn add @projectstorm/react-diagrams-defaults
+yarn add @projectstorm/react-diagrams-routing
+```
+
+## How to use
+
+Before running any of the examples, please run `pnpm build` in the root. This project is a monorepo, and the packages (including the demos) require the packages to first be built.
+
+
+Take a look at the [diagram demos](https://github.com/projectstorm/react-diagrams/tree/master/diagrams-demo-gallery/demos)
+
+**or**
+
+Take a look at the [demo project](https://github.com/projectstorm/react-diagrams/tree/master/diagrams-demo-project) which contains an example for ES6 as well as Typescript
+
+**or**
+
+[Checkout the docs](https://projectstorm.gitbook.io/react-diagrams/)
+
+## Run the demos
+
+After running `pnpm install` and `pnpm build`, you must then run: `cd diagrams-demo-gallery && pnpm run start`
+
+## Building from source
+
+Simply run `pnpm` then `pnpm build` or `pnpm build:prod` in the root directory and it will spit out the transpiled code and typescript definitions into the dist directory as a single file.
+
+## Built with react-diagrams
+
+> Do you have an interesting project built with *react-diagrams*? PR it into this section for others to see.
