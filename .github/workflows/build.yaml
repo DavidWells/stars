@@ -38,9 +38,9 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
 
-      # - run: pnpm run deploy
-      #   env:
-      #     GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
+      - run: pnpm run deploy
+        env:
+          GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
       
       - name: Commit & Push changes
         uses: actions-js/push@master

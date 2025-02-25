@@ -23,7 +23,7 @@ Below is an index to quickly CTRL+F to find them.
 
 Total Stars: <!-- doc-gen STAR_COUNT -->6,328<!-- end-doc-gen -->
 
-Full list here: https://davidwells.github.io/github-stars
+Full list here: https://davidwells.github.io/stars
 
 <!-- doc-gen ALL_STARS_TABLE -->
 <table>
