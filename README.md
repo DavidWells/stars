@@ -4036,6 +4036,8 @@ Full list here: https://davidwells.github.io/stars
 
 ## About this repo
 
+This repo will automatically grab your stars and save them in chronological order.
+
 ### Features
 
 - Automatically obtain all starred repository information
@@ -4046,7 +4048,7 @@ Full list here: https://davidwells.github.io/stars
 
 ### Usage
 
-1. [Fork](https://github.com/davidwells/github-stars/fork) this repository
+1. [Fork](https://github.com/davidwells/stars/fork) this repository
 2. Create non-expiring Fine-grained personal access tokens, required permissions
    1. User permissions
       - Read access to starring
@@ -4056,15 +4058,16 @@ Full list here: https://davidwells.github.io/stars
 3. Configure GitHub Actions keys `GH_TOKEN`
 4. Run Actions
 
-Initial seed is delayed for 30 seconds to avoid rate limiting.
+If you have more than 5k stars, you might need to run this locally via `npm run build`
 
 ```bash
 export GH_TOKEN=your_token
-export INITIAL_SEED=TRUE
 node index.js
 ```
 
-Some readmes have "secrets" in them and you might see this error. You need to use the link to whitelist the false positives. I don't make the rules.
+Some readmes have "secrets" in them and you might see this `GITHUB PUSH PROTECTION` error. 
+
+You need to use the link to whitelist the false positives. I don't make the rules.
 
 ```bash
 remote: error: GH013: Repository rule violations found for refs/heads/master.        
