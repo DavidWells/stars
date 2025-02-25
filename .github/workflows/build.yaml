@@ -1,0 +1,50 @@
+name: Update Stars
+
+on:
+  push:
+    branches: [master]
+  schedule:
+    - cron: '22 22 * * 6'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        node-version: [22.x]
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+          fetch-depth: 0
+
+      - uses: pnpm/action-setup@v4
+        with:
+          run_install: |
+            - recursive: true
+              args: [--frozen-lockfile, --strict-peer-dependencies]
+
+      - uses: actions/cache@v4
+        with:
+          path: |
+            .cache
+          key: ${{ runner.os }}-stars-${{ hashFiles('**/pnpm-lock.yaml') }}
+
+      - run: pnpm build
+        env:
+          GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
+
+      # - run: pnpm run deploy
+      #   env:
+      #     GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
+      
+      - name: Commit & Push changes
+        uses: actions-js/push@master
+        with:
+          github_token: ${{ secrets.GH_TOKEN }}
+          branch: master
+          message: 'chore: auto publish [skip ci]'

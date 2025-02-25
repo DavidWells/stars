@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>David's GitHub Stars</title>
+    <style>
+      :root {
+        --primary-color: #0366d6;
+        --bg-color: #ffffff;
+        --text-color: #24292e;
+        --border-color: #e1e4e8;
+      }
+
+      @media (prefers-color-scheme: dark) {
+        :root {
+          --primary-color: #58a6ff;
+          --bg-color: #0d1117;
+          --text-color: #c9d1d9;
+          --border-color: #30363d;
+        }
+      }
+
+      body {
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;
+        line-height: 1.6;
+        color: var(--text-color);
+        background-color: var(--bg-color);
+        margin: 0;
+        padding: 20px;
+      }
+
+      .container {
+        max-width: 1200px;
+        margin: 0 auto;
+      }
+
+      h1 {
+        text-align: center;
+        margin-bottom: 2rem;
+      }
+
+      table {
+        width: 100%;
+        border-collapse: collapse;
+        margin-top: 2rem;
+      }
+
+      th,
+      td {
+        padding: 12px;
+        border: 1px solid var(--border-color);
+      }
+
+      th {
+        background-color: rgba(175, 184, 193, 0.2);
+        font-weight: 600;
+      }
+
+      a {
+        color: var(--primary-color);
+        text-decoration: none;
+      }
+
+      a:hover {
+        text-decoration: underline;
+      }
+
+      .stats {
+        text-align: center;
+        margin-bottom: 2rem;
+        padding: 1rem;
+        background-color: rgba(175, 184, 193, 0.1);
+        border-radius: 6px;
+      }
+
+      sup,
+      sub {
+        color: var(--text-color);
+        opacity: 0.8;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h1>David's GitHub Stars</h1>
+      <div class="stats">
+        <div id="total-stars">Loading...</div>
+      </div>
+      <div id="stars-table">Loading stars data...</div>
+    </div>
+    <script>
+      // We'll populate this with the generated table
+      async function init() {
+        const response = await fetch('stars-data.html')
+        const html = await response.text()
+        const tableContainer = document.getElementById('stars-table')
+        tableContainer.innerHTML = html
+        const tableRows = document.querySelectorAll('#stars-table table tr') //.length
+        if (tableRows) {
+          document.getElementById('total-stars').innerHTML = `<div>${tableRows.length} total stars</div>`
+        }
+      }
+      init()
+    </script>
+  </body>
+</html>
