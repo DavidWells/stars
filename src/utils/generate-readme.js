@@ -1,6 +1,6 @@
 import { markdownMagic, stringUtils } from 'markdown-magic'
 import safe from 'safe-await'
-import { getSavedJSONFileData } from './fs.js'
+import { getSavedJSONFileData, getSavedMdFileData } from './fs.js'
 import { getStarCount } from './github-api.js'
 import { README_FILEPATH, GITHUB_USERNAME } from '../_constants.js'
 
@@ -27,16 +27,16 @@ function createStarTable(sortedByStarredDate, datePadding = true, maxWidth = MAX
   </tr>`
 
   sortedByStarredDate.forEach((data, i) => {
-    const { repo, description, starredAt, createdAt, topics } = data
+    const { repo, description, starredAt, createdAt, tags } = data
     const url = `https://github.com/${repo}`
     const desc = (data.description || '').trim().replace(/\.$/, '')
     const escapedDesc = escapeHtml(desc)
     const formattedDescription = stringUtils.stringBreak(escapedDesc, maxWidth).join('<br/>')
     const _description = data.description ? `<br/>${formattedDescription}. ` : ''
-    const topicsRender =
-      topics && topics.length > 0
+    const tagsRender =
+      tags && tags.length > 0
         ? `<br/>${stringUtils
-            .stringBreak(tinyText(`Tags: ${topics.map((topic) => `#${topic}`).join(' ')}`), maxWidth + 60)
+            .stringBreak(tinyText(`Tags: ${tags.map((topic) => `#${topic}`).join(' ')}`), maxWidth + 60)
             .join('<br/>')}`
         : ''
     const langText = data.language ? ` - ${data.language}` : ''
@@ -50,7 +50,7 @@ function createStarTable(sortedByStarredDate, datePadding = true, maxWidth = MAX
   <tr>
   <td><a href="${url}">${stringUtils
       .stringBreak(repo, maxWidth)
-      .join('<br/>')}</a>${inlineMeta}${topicsRender}${_description}</td>
+      .join('<br/>')}</a>${inlineMeta}${tagsRender}${_description}</td>
   <td><a href="${localReadMe}">${starredText}</a><br/>${BlankLine}</td>
   </tr>`
   })
@@ -65,54 +65,77 @@ function tablePlugin(data) {
   return () => createStarTable(data)
 }
 
+/*
+repo: 0x4447/0x4447_product_s3_email
+url: 'https://github.com/0x4447/0x4447_product_s3_email'
+homepage: 'https://0x4447.com'
+starredAt: '2020-01-24T21:14:39Z'
+createdAt: '2019-01-06T21:35:50Z'
+updatedAt: '2025-02-20T13:36:02Z'
+language: null
+license: MIT
+branch: master
+stars: 3026
+isPublic: true
+isTemplate: false
+isArchived: false
+isFork: false
+hasReadMe: true
+refreshedAt: '2025-02-25T21:19:06.662Z'
+description: "\U0001F4EB A serverless email server on AWS using S3 and SES"
+tags:
+  - '0x4447'
+  - 0x4447-product-s3-email
+  - 0x4447-products
+  - aws
+  - aws-lambda
+  - aws-s3
+  - aws-ses
+  - codepipeline
+  - email
+  - email-sender
+  - free
+  - free-email
+  - s3
+  - s3-bucket
+  - s3-email
+*/
+
 async function generateMarkdownTable(opts) {
   const options = opts || {}
   /* Hey now you're an all star */
-  const allStars = await getSavedJSONFileData()
+  const allStars = (await getSavedMdFileData()).map(({ frontmatter }) => {
+    return frontmatter
+  })
   console.log('getAllStars', allStars.length)
 
-  let sortedByStarredDate = allStars
-    .sort((a, b) => new Date(b.starred_at) - new Date(a.starred_at))
-    .map(({ repo, starred_at }) => {
-      const licenseObj = repo.license || {}
-      return {
-        repo: repo.full_name,
-        private: repo.private,
-        description: repo.description,
-        starredAt: starred_at,
-        createdAt: repo.created_at,
-        url: repo.html_url,
-        language: repo.language,
-        stars: repo.stargazers_count,
-        branch: repo.default_branch,
-        license: licenseObj.spdx_id,
-        visibility: repo.visibility,
-        isFork: repo.fork,
-        isPrivate: repo.private,
-        isArchived: repo.archived,
-        isTemplate: repo.is_template,
-        isDisabled: repo.disabled,
-        topics: repo.topics,
-      }
-    }) //.slice(0, 100)
 
+
+  let sortedByStarredDate = allStars
+    .sort((a, b) => new Date(b.starredAt) - new Date(a.starredAt))
+    .map((repo) => {
+      return {
+        ...repo,
+        isPrivate: repo.hasOwnProperty('isPublic') ? !repo.isPublic : false,
+      }
+    })
+  
   // Due to limitations with github markdown rendering this has been truncated to 1000
   const mostRecentRepos = sortedByStarredDate.slice(0, 1000)
-
-  console.log('Stars to process', sortedByStarredDate.length)
+  console.log('allStars[0]', mostRecentRepos[0])
+  console.log('Stars to process', mostRecentRepos.length)
 
   if (options.excludePrivateRepos) {
     let privateRepos = []
     sortedByStarredDate = sortedByStarredDate.filter((repo) => {
-      if (repo.private) {
+      if (repo.isPrivate) {
         privateRepos.push(repo)
       }
-      return !repo.private
+      return !repo.isPrivate
     })
     console.log('Filtered out private repos', privateRepos.length)
-    // console.log('privateRepos', privateRepos)
+    console.log('privateRepos', privateRepos)
   }
-
   return markdownMagic(README_FILEPATH, {
     // debug: true,
     transforms: {
@@ -134,16 +157,16 @@ async function generateMarkdownTable(opts) {
         md += '|:-------------|:--------------:|\n'
         mostRecentRepos.forEach((data) => {
           // console.log('item', item)
-          const { repo, description, starredAt, createdAt, topics } = data
+          const { repo, description, starredAt, createdAt, tags } = data
           const url = `https://github.com/${repo}`
           const desc = (data.description || '').trim().replace(/\.$/, '')
           const escapedDesc = escapeHtml(desc)
           const formattedDescription = stringUtils.stringBreak(escapedDesc, MAX_WIDTH).join('<br/>')
-          const _description = data.description ? `<br/>${formattedDescription}. ` : ''
-          const topicsRender =
-            topics && topics.length > 0
+          const _description = description ? `<br/>${formattedDescription}. ` : ''
+          const tagsRender =
+            tags && tags.length > 0
               ? `<br/>${stringUtils
-                  .stringBreak(tinyText(`Tags: ${topics.map((topic) => `#${topic}`).join(' ')}`), MAX_WIDTH + 60)
+                  .stringBreak(tinyText(`Tags: ${tags.map((topic) => `#${topic}`).join(' ')}`), MAX_WIDTH + 60)
                   .join('<br/>')}`
               : ''
           const langText = data.language ? ` - ${data.language}` : ''
@@ -153,7 +176,7 @@ async function generateMarkdownTable(opts) {
           // add table rows
           md += `| [${stringUtils
             .stringBreak(data.repo, MAX_WIDTH)
-            .join('<br/>')}](${url})${inlineMeta}${topicsRender}${_description} | ${starredText} | \n`
+            .join('<br/>')}](${url})${inlineMeta}${tagsRender}${_description} | ${starredText} | \n`
         })
 
         return md
