@@ -21,7 +21,7 @@ I fancy myself a GitHub spelunker. Through my journeys I find a lot of cool pack
 
 Below is an index to quickly CTRL+F to find them.
 
-Total Stars: <!-- doc-gen STAR_COUNT -->6,348<!-- end-doc-gen -->
+Total Stars: <!-- doc-gen STAR_COUNT -->6,354<!-- end-doc-gen -->
 
 Full list here: https://davidwells.github.io/stars
 
@@ -30,6 +30,30 @@ Full list here: https://davidwells.github.io/stars
   <tr>
   <th align="left">Repo</th>
   <th align="center">Starred On</th>
+  </tr>
+  <tr>
+  <td><a href="https://github.com/jitsi/jitsi-meet">jitsi/jitsi-meet</a><sup><sub> - TypeScript - Dec 16, 2013</sub></sup><br/><sup><sub>Tags: #debian #deep-video #jitsi #jitsi-meet #scalable-video-conferences #sfu #video #video-communication #video-conferencing<br/>#webrtc</sub></sup><br/>Jitsi Meet - Secure, Simple and Scalable Video Conferences that you use as<br/>a standalone app or embed in your web application. </td>
+  <td><a href="./stars/jitsi/jitsi-meet.md">Mar 04, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
+  </tr>
+  <tr>
+  <td><a href="https://github.com/AlexxIT/WebRTC">AlexxIT/WebRTC</a><sup><sub> - JavaScript - Apr 11, 2021</sub></sup><br/><sup><sub>Tags: #hacs #home-assistant #ip-camera #mediasource-extensions #rtsp #webrtc</sub></sup><br/>Home Assistant custom component for real-time viewing of almost any camera<br/>stream using WebRTC and other technologies. </td>
+  <td><a href="./stars/AlexxIT/WebRTC.md">Mar 04, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
+  </tr>
+  <tr>
+  <td><a href="https://github.com/emilhein/optifunc">emilhein/optifunc</a><sup><sub> - JavaScript - Apr 29, 2018</sub></sup><br/><sup><sub>Tags: #helper-functions #nodejs #npm #performance #statistics #testing</sub></sup><br/>NPM module to make optimizations and tests on your functions. </td>
+  <td><a href="./stars/emilhein/optifunc.md">Mar 04, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
+  </tr>
+  <tr>
+  <td><a href="https://github.com/SummitRoute/aws_breaking_changes">SummitRoute/aws_breaking_changes</a><sup><sub> - May 03, 2019</sub></sup><br/>List of changes announced for AWS that may break existing code. </td>
+  <td><a href="./stars/SummitRoute/aws_breaking_changes.md">Mar 04, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
+  </tr>
+  <tr>
+  <td><a href="https://github.com/klis87/normy">klis87/normy</a><sup><sub> - TypeScript - Jan 23, 2023</sub></sup><br/><sup><sub>Tags: #ajax #ajax-request #front-end #javascript #monorepo #normalisation #normalization #react-query #redux #rtk-query<br/>#single-page-app #swr #trpc #typescript</sub></sup><br/>Automatic normalization and data updates for data fetching libraries<br/>(react-query, swr, rtk-query and more). </td>
+  <td><a href="./stars/klis87/normy.md">Mar 04, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
+  </tr>
+  <tr>
+  <td><a href="https://github.com/LeaVerou/style-observer">LeaVerou/style-observer</a><sup><sub> - JavaScript - Jan 14, 2025</sub></sup><br/><sup><sub>Tags: #css #observer #style-observer</sub></sup><br/>Run JS when a CSS property changes. Any CSS property. </td>
+  <td><a href="./stars/LeaVerou/style-observer.md">Mar 02, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
   </tr>
   <tr>
   <td><a href="https://github.com/mlc-ai/web-llm">mlc-ai/web-llm</a><sup><sub> - TypeScript - Apr 13, 2023</sub></sup><br/><sup><sub>Tags: #chatgpt #deep-learning #language-model #llm #tvm #webgpu #webml</sub></sup><br/>High-performance In-browser LLM Inference Engine. </td>
@@ -4006,30 +4030,6 @@ Full list here: https://davidwells.github.io/stars
   <tr>
   <td><a href="https://github.com/argyleink/transition.css">argyleink/transition.css</a><sup><sub> - CSS - Jul 28, 2020</sub></sup><br/><sup><sub>Tags: #animations #clip-path #css #hackpack #keyframes #masking #transitions</sub></sup><br/>:octocat: Drop-in CSS transitions. </td>
   <td><a href="./stars/argyleink/transition.css.md">Dec 04, 2022</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/kwhitley/itty-time">kwhitley/itty-time</a><sup><sub> - TypeScript - Oct 22, 2022</sub></sup><br/>An itty library to handle common time-related things for your API needs. </td>
-  <td><a href="./stars/kwhitley/itty-time.md">Dec 04, 2022</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/chenglou/chenglou.github.io">chenglou/chenglou.github.io</a><sup><sub> - HTML - Mar 24, 2013</sub></sup></td>
-  <td><a href="./stars/chenglou/chenglou.github.io.md">Dec 04, 2022</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/samchon/nestia">samchon/nestia</a><sup><sub> - TypeScript - Jan 20, 2021</sub></sup><br/><sup><sub>Tags: #agent #ai #api #class-validator #decorator #hacktoberfest #large-language-model #llm #llm-function-calling #nestjs<br/>#rag #retrieval-augmented-generation #sdk #swagger #trpc #typescript #typia #validator</sub></sup><br/>NestJS Helper + AI Chatbot Development. </td>
-  <td><a href="./stars/samchon/nestia.md">Dec 04, 2022</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/CloudCannon/pagefind">CloudCannon/pagefind</a><sup><sub> - Rust - May 03, 2022</sub></sup><br/>Static low-bandwidth search at scale. </td>
-  <td><a href="./stars/CloudCannon/pagefind.md">Dec 03, 2022</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/eidam/cf-workers-status-page">eidam/cf-workers-status-page</a><sup><sub> - JavaScript - Nov 08, 2020</sub></sup><br/><sup><sub>Tags: #cloudflare-workers #cloudflare-workers-cron #cloudflare-workers-kv #discord #flareact #monitoring #slack-notifications<br/>#status-page #telegram-notification #wrangler</sub></sup><br/>Monitor your websites, showcase status including daily history, and get<br/>Slack/Telegram/Discord notification whenever your website status changes.<br/>Using Cloudflare Workers, CRON Triggers, and KV storage. </td>
-  <td><a href="./stars/eidam/cf-workers-status-page.md">Dec 03, 2022</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/minuukang/rescript-relay-next-ssr-template">minuukang/rescript-relay-next-ssr-template</a><sup><sub> - ReScript - Dec 03, 2022</sub></sup><br/><sup><sub>Tags: #nextjs #relay #rescript #rescript-relay #ssr</sub></sup><br/>Rescript + Relay + Next.js + SSR example!. </td>
-  <td><a href="./stars/minuukang/rescript-relay-next-ssr-template.md">Dec 03, 2022</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
   </tr>
 </table>
 <!-- end-doc-gen -->
