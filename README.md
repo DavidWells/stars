@@ -21,7 +21,7 @@ I fancy myself a GitHub spelunker. Through my journeys I find a lot of cool pack
 
 Below is an index to quickly CTRL+F to find them.
 
-Total Stars: <!-- doc-gen STAR_COUNT -->6,354<!-- end-doc-gen -->
+Total Stars: <!-- doc-gen STAR_COUNT -->6,361<!-- end-doc-gen -->
 
 Full list here: https://davidwells.github.io/stars
 
@@ -30,6 +30,42 @@ Full list here: https://davidwells.github.io/stars
   <tr>
   <th align="left">Repo</th>
   <th align="center">Starred On</th>
+  </tr>
+  <tr>
+  <td><a href="https://github.com/harrysolovay/standard-json-schema">harrysolovay/standard-json-schema</a><sup><sub> - TypeScript - Mar 19, 2025</sub></sup><br/>Turn standard types into JSON schemas. </td>
+  <td><a href="./stars/harrysolovay/standard-json-schema.md">Mar 19, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
+  </tr>
+  <tr>
+  <td><a href="https://github.com/thornejosh/bedrock-cv-extractor">thornejosh/bedrock-cv-extractor</a><sup><sub> - TypeScript - Mar 13, 2025</sub></sup></td>
+  <td><a href="./stars/thornejosh/bedrock-cv-extractor.md">Mar 18, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
+  </tr>
+  <tr>
+  <td><a href="https://github.com/gugamainchein/github-ia-code-validation">gugamainchein/github-ia-code-validation</a><sup><sub> - Python - Mar 16, 2025</sub></sup><br/><sup><sub>Tags: #aws #bedrock #deepseek #serverless</sub></sup><br/>This project is a Serverless application that leverages generative AI to<br/>analyze developers&#039; code, providing improvement suggestions based on<br/>Domain-Driven Design (DDD) and Clean Code principles. </td>
+  <td><a href="./stars/gugamainchein/github-ia-code-validation.md">Mar 18, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
+  </tr>
+  <tr>
+  <td><a href="https://github.com/haystackeditor/haystack-editor">haystackeditor/haystack-editor</a><sup><sub> - TypeScript - Sep 24, 2024</sub></sup></td>
+  <td><a href="./stars/haystackeditor/haystack-editor.md">Mar 16, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
+  </tr>
+  <tr>
+  <td><a href="https://github.com/kern/filepizza">kern/filepizza</a><sup><sub> - TypeScript - Feb 25, 2015</sub></sup><br/><sup><sub>Tags: #react #webrtc</sub></sup><br/>:pizza: Peer-to-peer file transfers in your browser. </td>
+  <td><a href="./stars/kern/filepizza.md">Mar 16, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
+  </tr>
+  <tr>
+  <td><a href="https://github.com/formkit/jsonreader">formkit/jsonreader</a><sup><sub> - Vue - Mar 14, 2025</sub></sup><br/>Incremental parsing of streaming JSON data. </td>
+  <td><a href="./stars/formkit/jsonreader.md">Mar 15, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
+  </tr>
+  <tr>
+  <td><a href="https://github.com/typeonce-dev/sync-engine-web">typeonce-dev/sync-engine-web</a><sup><sub> - TypeScript - Feb 25, 2025</sub></sup><br/><sup><sub>Tags: #crdt #effect #effect-ts #full-stack #loro #loro-crdt #react #react-19 #sync-engine #sync-engine-web<br/>#web-worker</sub></sup><br/>A Sync Engine for the web: React (TanStack Router), Web Workers, Effect,<br/>Loro ⚡️. </td>
+  <td><a href="./stars/typeonce-dev/sync-engine-web.md">Mar 12, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
+  </tr>
+  <tr>
+  <td><a href="https://github.com/justkey007/tsc-alias">justkey007/tsc-alias</a><sup><sub> - TypeScript - May 06, 2019</sub></sup><br/><sup><sub>Tags: #absolute-path #alias #compilation #paths #relative-path #tsc #typescript</sub></sup><br/>Replace alias paths with relative paths after typescript compilation. </td>
+  <td><a href="./stars/justkey007/tsc-alias.md">Mar 12, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
+  </tr>
+  <tr>
+  <td><a href="https://github.com/focusOtter/fullstack-deepseek">focusOtter/fullstack-deepseek</a><sup><sub> - Mar 11, 2025</sub></sup><br/><sup><sub>Tags: #aws #aws-amplify #bedrock #deepseek #fullstack #lambda #llm #react #serverless #typescript</sub></sup><br/>fullstack integration between react and deepseek using AWS Amplify and<br/>Amazon bedrock. </td>
+  <td><a href="./stars/focusOtter/fullstack-deepseek.md">Mar 11, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
   </tr>
   <tr>
   <td><a href="https://github.com/jitsi/jitsi-meet">jitsi/jitsi-meet</a><sup><sub> - TypeScript - Dec 16, 2013</sub></sup><br/><sup><sub>Tags: #debian #deep-video #jitsi #jitsi-meet #scalable-video-conferences #sfu #video #video-communication #video-conferencing<br/>#webrtc</sub></sup><br/>Jitsi Meet - Secure, Simple and Scalable Video Conferences that you use as<br/>a standalone app or embed in your web application. </td>
@@ -3994,42 +4030,6 @@ Full list here: https://davidwells.github.io/stars
   <tr>
   <td><a href="https://github.com/eslint/markdown">eslint/markdown</a><sup><sub> - JavaScript - Jul 01, 2015</sub></sup><br/><sup><sub>Tags: #development #ecmascript #eslint #javascript #linter #markdown #static-code-analysis</sub></sup><br/>Lint JavaScript code blocks in Markdown documents. </td>
   <td><a href="./stars/eslint/markdown.md">Dec 06, 2022</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/sitespeedio/compare">sitespeedio/compare</a><sup><sub> - JavaScript - Sep 02, 2017</sub></sup><br/><sup><sub>Tags: #har #perfmatters #waterfall #webperf</sub></sup><br/>Compare HAR files. </td>
-  <td><a href="./stars/sitespeedio/compare.md">Dec 05, 2022</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/l2beat/earl">l2beat/earl</a><sup><sub> - TypeScript - May 05, 2020</sub></sup><br/><sup><sub>Tags: #assert #assertion-libraries #chai #jest #mocha #testing #typescript</sub></sup><br/>☕ Ergonomic, modern and type-safe assertion library for TypeScript. </td>
-  <td><a href="./stars/l2beat/earl.md">Dec 05, 2022</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/remarkjs/strip-markdown">remarkjs/strip-markdown</a><sup><sub> - JavaScript - Jan 25, 2015</sub></sup><br/><sup><sub>Tags: #clean #markdown #remark #remark-plugin #remove #strip</sub></sup><br/>plugin remove markdown formatting. </td>
-  <td><a href="./stars/remarkjs/strip-markdown.md">Dec 05, 2022</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/emosheeep/vite-plugin-lib-inject-css">emosheeep/vite-plugin-lib-inject-css</a><sup><sub> - TypeScript - Dec 03, 2022</sub></sup><br/><sup><sub>Tags: #build #inject #lib #style #vite #vite-plugin</sub></sup><br/>Inject css at the top of chunk file in lib mode using import statement,<br/>support multiple entries. </td>
-  <td><a href="./stars/emosheeep/vite-plugin-lib-inject-css.md">Dec 05, 2022</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/Dynobase/dynamodb-mass-migrations">Dynobase/dynamodb-mass-migrations</a><sup><sub> - TypeScript - Dec 03, 2022</sub></sup><br/><sup><sub>Tags: #dynamodb #migrations</sub></sup><br/>Use Step Functions Distributed Map to run massively parallel DynamoDB<br/>migrations in AWS CDK. </td>
-  <td><a href="./stars/Dynobase/dynamodb-mass-migrations.md">Dec 05, 2022</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/maggie-j-liu/mail">maggie-j-liu/mail</a><sup><sub> - TypeScript - Jun 17, 2022</sub></sup><br/>Free email sending with Cloudflare Workers and MailChannels. </td>
-  <td><a href="./stars/maggie-j-liu/mail.md">Dec 05, 2022</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/storybookjs/telejson">storybookjs/telejson</a><sup><sub> - TypeScript - Oct 22, 2018</sub></sup><br/>🛰 JSON parse &amp; stringify with support for cyclic objects, functions,<br/>dates, regex, infinity, undefined, null, NaN, Classes, Instances. </td>
-  <td><a href="./stars/storybookjs/telejson.md">Dec 05, 2022</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/laurenashpole/react-inner-image-zoom">laurenashpole/react-inner-image-zoom</a><sup><sub> - JavaScript - Apr 03, 2019</sub></sup><br/><sup><sub>Tags: #enlarge #images #magnify #react #zoom #zoom-images</sub></sup><br/>A React component for zooming images. </td>
-  <td><a href="./stars/laurenashpole/react-inner-image-zoom.md">Dec 05, 2022</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/argyleink/transition.css">argyleink/transition.css</a><sup><sub> - CSS - Jul 28, 2020</sub></sup><br/><sup><sub>Tags: #animations #clip-path #css #hackpack #keyframes #masking #transitions</sub></sup><br/>:octocat: Drop-in CSS transitions. </td>
-  <td><a href="./stars/argyleink/transition.css.md">Dec 04, 2022</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
   </tr>
 </table>
 <!-- end-doc-gen -->
