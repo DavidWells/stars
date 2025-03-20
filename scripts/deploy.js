@@ -8,41 +8,37 @@ async function buildAndDeploy() {
   await generateStaticSite()
 
   /* Deploy the static site */
-  console.log('Deploying to gh-pages...')
   try {
+    console.log('Deploying to gh-pages...')
     await deploy()
-    console.log('Successfully deployed to gh-pages')
+    console.log('Deploy complete!')
   } catch (err) {
     console.error('Failed to deploy:', err)
   }
 }
 
 async function deploy() {
-  console.log('Deploying to gh-pages...')
   if (!process.env.CI) {
-    try {
-      await ghPages.publish(SITE_DIRECTORY)
-      console.log('Successfully deployed to gh-pages')
-    } catch (err) {
-      console.error('Failed to deploy:', err)
-    }
-    return
+    return ghPages.publish(SITE_DIRECTORY)
+  }
+
+  if (!process.env.GITHUB_TOKEN) {
+    throw new Error('GITHUB_TOKEN is not set as action secret')
+  }
+
+  if (!process.env.GITHUB_REPOSITORY) {
+    throw new Error('GITHUB_REPOSITORY is not set in the environment')
   }
 
   console.log('Inside CI...')
-  try {
-    await ghPages.publish(SITE_DIRECTORY, {
-      repo: `https://${process.env.GITHUB_TOKEN}@github.com/${process.env.GITHUB_REPOSITORY}.git`,
-      user: {
-        name: 'github-actions[bot]',
-        email: 'github-actions[bot]@users.noreply.github.com'
-      },
-      silent: true // Prevents token from being exposed in logs
-    })
-    console.log('Successfully deployed to gh-pages')
-  } catch (err) {
-    console.error('Failed to deploy:', err)
-  }
+  await ghPages.publish(SITE_DIRECTORY, {
+    repo: `https://${process.env.GITHUB_TOKEN}@github.com/${process.env.GITHUB_REPOSITORY}.git`,
+    user: {
+      name: 'github-actions[bot]',
+      email: 'github-actions[bot]@users.noreply.github.com'
+    },
+    silent: true // Prevents token from being exposed in logs
+  })
 }
 
 buildAndDeploy()
