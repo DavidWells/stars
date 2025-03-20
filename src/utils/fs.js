@@ -23,6 +23,7 @@ async function getState() {
 }
 
 async function getSavedMdFilePaths() {
+  console.log('Getting saved md file paths...', STARS_DIRECTORY)
   try {
     // Get all .md files recursively
     const files = await fs.readdir(STARS_DIRECTORY, { recursive: true })
