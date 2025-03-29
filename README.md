@@ -21,7 +21,7 @@ I fancy myself a GitHub spelunker. Through my journeys I find a lot of cool pack
 
 Below is an index to quickly CTRL+F to find them.
 
-Total Stars: <!-- doc-gen STAR_COUNT -->6,361<!-- end-doc-gen -->
+Total Stars: <!-- doc-gen STAR_COUNT -->6,375<!-- end-doc-gen -->
 
 Full list here: https://davidwells.github.io/stars
 
@@ -30,6 +30,62 @@ Full list here: https://davidwells.github.io/stars
   <tr>
   <th align="left">Repo</th>
   <th align="center">Starred On</th>
+  </tr>
+  <tr>
+  <td><a href="https://github.com/NicolasMontone/json-tree-viewer">NicolasMontone/json-tree-viewer</a><sup><sub> - TypeScript - Mar 29, 2025</sub></sup><br/>Shadcn json-tree-viewer copy &amp; paste, tailwindCSS. </td>
+  <td><a href="./stars/NicolasMontone/json-tree-viewer.md">Mar 29, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
+  </tr>
+  <tr>
+  <td><a href="https://github.com/raoufchebri/hntldr">raoufchebri/hntldr</a><sup><sub> - TypeScript - Mar 26, 2025</sub></sup></td>
+  <td><a href="./stars/raoufchebri/hntldr.md">Mar 29, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
+  </tr>
+  <tr>
+  <td><a href="https://github.com/sadmann7/shadcn-table">sadmann7/shadcn-table</a><sup><sub> - TypeScript - Jul 10, 2023</sub></sup><br/><sup><sub>Tags: #drizzle-orm #nextjs #open-source #shadcn-ui #table #tanstack-table</sub></sup><br/>Shadcn table with server-side sorting, filtering, and pagination. </td>
+  <td><a href="./stars/sadmann7/shadcn-table.md">Mar 28, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
+  </tr>
+  <tr>
+  <td><a href="https://github.com/todgolding/serverless-reference-solution">todgolding/serverless-reference-solution</a><sup><sub> - Python - May 05, 2023</sub></sup><br/>Serverless SaaS code reference solution. </td>
+  <td><a href="./stars/todgolding/serverless-reference-solution.md">Mar 28, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
+  </tr>
+  <tr>
+  <td><a href="https://github.com/ServerlessLife/lambda-logger-extension">ServerlessLife/lambda-logger-extension</a><sup><sub> - JavaScript - Oct 07, 2024</sub></sup><br/>Lambda Extension that adds logs to already deployed Lambda. </td>
+  <td><a href="./stars/ServerlessLife/lambda-logger-extension.md">Mar 27, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
+  </tr>
+  <tr>
+  <td><a href="https://github.com/ServerlessLife/serverless-spy">ServerlessLife/serverless-spy</a><sup><sub> - TypeScript - Aug 12, 2022</sub></sup><br/><sup><sub>Tags: #aws #aws-lambda #cdk #dynamodb #eventbridge #integration-testing #jest #lambda #s3 #serverless</sub></sup><br/>CDK-based library for writing elegant, fast-executing integration tests on<br/>AWS serverless architecture and an additional web console to monitor events<br/>in real time. </td>
+  <td><a href="./stars/ServerlessLife/serverless-spy.md">Mar 27, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
+  </tr>
+  <tr>
+  <td><a href="https://github.com/ServerlessLife/dynamodb-export-s3-athena">ServerlessLife/dynamodb-export-s3-athena</a><sup><sub> - TypeScript - Oct 24, 2024</sub></sup><br/>Query DynamoDB with SQL using Athena - Leveraging DynamoDB Exports to S3<br/>(1/2). </td>
+  <td><a href="./stars/ServerlessLife/dynamodb-export-s3-athena.md">Mar 27, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
+  </tr>
+  <tr>
+  <td><a href="https://github.com/PatMyron/cloudformation-resource-providers">PatMyron/cloudformation-resource-providers</a><sup><sub> - Jan 12, 2021</sub></sup><br/><sup><sub>Tags: #aws-cloudformation #aws-resources #cloudformation</sub></sup><br/>automated monorepo of public CloudFormation AWS resource providers. </td>
+  <td><a href="./stars/PatMyron/cloudformation-resource-providers.md">Mar 25, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
+  </tr>
+  <tr>
+  <td><a href="https://github.com/arnaudambro/react-swipe-to-delete-ios">arnaudambro/react-swipe-to-delete-ios</a><sup><sub> - TypeScript - Jul 07, 2019</sub></sup><br/>A simple React component to reproduce the way iOS deletes an item in a list. </td>
+  <td><a href="./stars/arnaudambro/react-swipe-to-delete-ios.md">Mar 25, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
+  </tr>
+  <tr>
+  <td><a href="https://github.com/un/1up">un/1up</a><sup><sub> - TypeScript - Jan 26, 2025</sub></sup><br/>Open Source Longevity System; Live Longer + Sharper + Better. </td>
+  <td><a href="./stars/un/1up.md">Mar 24, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
+  </tr>
+  <tr>
+  <td><a href="https://github.com/microsoft/vscode-ripgrep">microsoft/vscode-ripgrep</a><sup><sub> - JavaScript - Jul 17, 2019</sub></sup><br/>For consuming the ripgrep binary from microsoft/ripgrep-prebuilt in a Node<br/>project. </td>
+  <td><a href="./stars/microsoft/vscode-ripgrep.md">Mar 23, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
+  </tr>
+  <tr>
+  <td><a href="https://github.com/wonderwhy-er/DesktopCommanderMCP">wonderwhy-er/DesktopCommanderMCP</a><sup><sub> - TypeScript - Dec 04, 2024</sub></sup><br/>This is MCP server for Claude that gives it terminal control, file system<br/>search and diff file editing capabilities. </td>
+  <td><a href="./stars/wonderwhy-er/DesktopCommanderMCP.md">Mar 23, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
+  </tr>
+  <tr>
+  <td><a href="https://github.com/aws-samples/data-for-saas-patterns">aws-samples/data-for-saas-patterns</a><sup><sub> - Jul 24, 2024</sub></sup><br/><sup><sub>Tags: #aws #data #databases #saas</sub></sup><br/>A collection of samples, best practices and reference architectures for<br/>implementing SaaS applications on AWS for databases and data services. </td>
+  <td><a href="./stars/aws-samples/data-for-saas-patterns.md">Mar 23, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
+  </tr>
+  <tr>
+  <td><a href="https://github.com/Linus-Mussmaecher/rucola">Linus-Mussmaecher/rucola</a><sup><sub> - Rust - Feb 21, 2024</sub></sup><br/><sup><sub>Tags: #markdown #note-taking #notes #ratatui #ratatui-rs #rust #terminal #terminal-based #zettelkasten</sub></sup><br/>Terminal-based markdown note manager. </td>
+  <td><a href="./stars/Linus-Mussmaecher/rucola.md">Mar 22, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
   </tr>
   <tr>
   <td><a href="https://github.com/harrysolovay/standard-json-schema">harrysolovay/standard-json-schema</a><sup><sub> - TypeScript - Mar 19, 2025</sub></sup><br/>Turn standard types into JSON schemas. </td>
@@ -3974,62 +4030,6 @@ Full list here: https://davidwells.github.io/stars
   <tr>
   <td><a href="https://github.com/unjs/nypm">unjs/nypm</a><sup><sub> - TypeScript - Dec 06, 2022</sub></sup><br/>🌈 Unified Package Manager for Node.js (npm, pnpm, yarn), Bun and Deno. </td>
   <td><a href="./stars/unjs/nypm.md">Dec 09, 2022</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/harlan-zw/packrup">harlan-zw/packrup</a><sup><sub> - TypeScript - Sep 07, 2022</sub></sup><br/>Simple utils to pack arrays, objects and strings to a flat object (and back<br/>again). </td>
-  <td><a href="./stars/harlan-zw/packrup.md">Dec 09, 2022</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/harlan-zw/unlighthouse">harlan-zw/unlighthouse</a><sup><sub> - JavaScript - Oct 31, 2021</sub></sup><br/><sup><sub>Tags: #google-lighthouse #puppeteer #site-audit</sub></sup><br/>Scan your entire site with Google Lighthouse in 2 minutes (on average).<br/>Open source, fully configurable with minimal setup. </td>
-  <td><a href="./stars/harlan-zw/unlighthouse.md">Dec 09, 2022</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/harlan-zw/schema-org-graph">harlan-zw/schema-org-graph</a><sup><sub> - TypeScript - Jul 31, 2022</sub></sup><br/>Build Schema.org graphs for JavaScript Runtimes (Browser, Node, etc).<br/>Improve your sites SEO with quick and easy Rich Results. </td>
-  <td><a href="./stars/harlan-zw/schema-org-graph.md">Dec 09, 2022</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/harlan-zw/zhead">harlan-zw/zhead</a><sup><sub> - TypeScript - Aug 31, 2022</sub></sup><br/>All of the TypeScript definitions for &lt;head&gt;. </td>
-  <td><a href="./stars/harlan-zw/zhead.md">Dec 09, 2022</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/CloudCannon/filer">CloudCannon/filer</a><sup><sub> - JavaScript - Nov 20, 2022</sub></sup><br/>Provides an API for accessing parsed file content in a collection-like file<br/>structure. </td>
-  <td><a href="./stars/CloudCannon/filer.md">Dec 09, 2022</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/viraptor/reverse-interview">viraptor/reverse-interview</a><sup><sub> - Sep 08, 2019</sub></sup><br/>Questions to ask the company during your interview. </td>
-  <td><a href="./stars/viraptor/reverse-interview.md">Dec 09, 2022</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/dbader/readme-template">dbader/readme-template</a><sup><sub> - Feb 17, 2016</sub></sup><br/>README.md template for your open-source project. </td>
-  <td><a href="./stars/dbader/readme-template.md">Dec 09, 2022</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/aschmelyun/github-receipts">aschmelyun/github-receipts</a><sup><sub> - PHP - Mar 25, 2022</sub></sup><br/>Source code that powers my GitHub issues receipt printer. </td>
-  <td><a href="./stars/aschmelyun/github-receipts.md">Dec 09, 2022</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/dan-online/enmap">dan-online/enmap</a><sup><sub> - JavaScript - Nov 25, 2022</sub></sup><br/>Enhanced Map structure with additional utility methods. </td>
-  <td><a href="./stars/dan-online/enmap.md">Dec 09, 2022</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/dan-online/jwtrust">dan-online/jwtrust</a><sup><sub> - TypeScript - Nov 30, 2022</sub></sup><br/><sup><sub>Tags: #jsonwebtoken #jwt #rust #speed</sub></sup><br/>A tiny library to sign and verify JWT tokens using Rust bindings for pure<br/>performance. </td>
-  <td><a href="./stars/dan-online/jwtrust.md">Dec 09, 2022</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/NazmusSayad/npmize">NazmusSayad/npmize</a><sup><sub> - TypeScript - Nov 07, 2022</sub></sup><br/>Make npm packages easily. </td>
-  <td><a href="./stars/NazmusSayad/npmize.md">Dec 08, 2022</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/graphql-markdown/graphql-markdown">graphql-markdown/graphql-markdown</a><sup><sub> - TypeScript - Jun 12, 2020</sub></sup><br/><sup><sub>Tags: #documentation #documentation-generator #docusaurus #generator #gql #graphql #graphql-config #graphql-markdown<br/>#graphql-schema #markdown</sub></sup><br/>Flexible GraphQL Documentation Generator (Markdown). </td>
-  <td><a href="./stars/graphql-markdown/graphql-markdown.md">Dec 07, 2022</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/terhechte/twitvault">terhechte/twitvault</a><sup><sub> - Rust - Nov 29, 2022</sub></sup><br/><sup><sub>Tags: #desktop #dioxus #linux #macos #native #rust #terminal #twitter #twitter-api #windows</sub></sup><br/>Easily Archive and Search Your Twitter Data with our Syncable Desktop App. </td>
-  <td><a href="./stars/terhechte/twitvault.md">Dec 06, 2022</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/eslint/markdown">eslint/markdown</a><sup><sub> - JavaScript - Jul 01, 2015</sub></sup><br/><sup><sub>Tags: #development #ecmascript #eslint #javascript #linter #markdown #static-code-analysis</sub></sup><br/>Lint JavaScript code blocks in Markdown documents. </td>
-  <td><a href="./stars/eslint/markdown.md">Dec 06, 2022</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
   </tr>
 </table>
 <!-- end-doc-gen -->
