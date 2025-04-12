@@ -21,7 +21,7 @@ I fancy myself a GitHub spelunker. Through my journeys I find a lot of cool pack
 
 Below is an index to quickly CTRL+F to find them.
 
-Total Stars: <!-- doc-gen STAR_COUNT -->6,375<!-- end-doc-gen -->
+Total Stars: <!-- doc-gen STAR_COUNT -->6,389<!-- end-doc-gen -->
 
 Full list here: https://davidwells.github.io/stars
 
@@ -30,6 +30,66 @@ Full list here: https://davidwells.github.io/stars
   <tr>
   <th align="left">Repo</th>
   <th align="center">Starred On</th>
+  </tr>
+  <tr>
+  <td><a href="https://github.com/elva-labs/awsesh">elva-labs/awsesh</a><sup><sub> - Go - Mar 19, 2025</sub></sup><br/><sup><sub>Tags: #aws #aws-sso #bubbletea #charm #cli #go #golang #sso #terminal #tui</sub></sup><br/>A charming TUI for AWS SSO session management ✨. </td>
+  <td><a href="./stars/elva-labs/awsesh.md">Apr 11, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
+  </tr>
+  <tr>
+  <td><a href="https://github.com/benward2301/dynq">benward2301/dynq</a><sup><sub> - Kotlin - Oct 29, 2024</sub></sup><br/><sup><sub>Tags: #dynamodb #jq #query</sub></sup><br/>dynq is an analytic query and data processing CLI tool for DynamoDB. </td>
+  <td><a href="./stars/benward2301/dynq.md">Apr 09, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
+  </tr>
+  <tr>
+  <td><a href="https://github.com/southpolesteve/deploy_button">southpolesteve/deploy_button</a><sup><sub> - Ruby - Jul 28, 2013</sub></sup><br/>Will it work?. </td>
+  <td><a href="./stars/southpolesteve/deploy_button.md">Apr 08, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
+  </tr>
+  <tr>
+  <td><a href="https://github.com/andmoredev/layerless-esbuild-lambda">andmoredev/layerless-esbuild-lambda</a><sup><sub> - JavaScript - Dec 09, 2023</sub></sup><br/>Show how to setup a Lambda function with shared code using esbuild instead<br/>of layers. </td>
+  <td><a href="./stars/andmoredev/layerless-esbuild-lambda.md">Apr 08, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
+  </tr>
+  <tr>
+  <td><a href="https://github.com/vishnubob/wait-for-it">vishnubob/wait-for-it</a><sup><sub> - Python - Feb 02, 2016</sub></sup><br/>Pure bash script to test and wait on the availability of a TCP host and<br/>port. </td>
+  <td><a href="./stars/vishnubob/wait-for-it.md">Apr 07, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
+  </tr>
+  <tr>
+  <td><a href="https://github.com/awsfundamentals-hq/sfn-wait-for-callback">awsfundamentals-hq/sfn-wait-for-callback</a><sup><sub> - TypeScript - Mar 06, 2024</sub></sup><br/><sup><sub>Tags: #aws #callback #lambda #newsletter #step-functions</sub></sup><br/>⚡️ Learning about the AWS Step Functions using the callback pattern. </td>
+  <td><a href="./stars/awsfundamentals-hq/sfn-wait-for-callback.md">Apr 07, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
+  </tr>
+  <tr>
+  <td><a href="https://github.com/KoryNunn/predator">KoryNunn/predator</a><sup><sub> - JavaScript - Aug 07, 2013</sub></sup><br/>finds the exposed portion of an element. </td>
+  <td><a href="./stars/KoryNunn/predator.md">Apr 07, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
+  </tr>
+  <tr>
+  <td><a href="https://github.com/KoryNunn/dir-template">KoryNunn/dir-template</a><sup><sub> - JavaScript - Jul 02, 2014</sub></sup><br/>create a directory structure based on a template. </td>
+  <td><a href="./stars/KoryNunn/dir-template.md">Apr 07, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
+  </tr>
+  <tr>
+  <td><a href="https://github.com/lmammino/rental-station-static-api-demo">lmammino/rental-station-static-api-demo</a><sup><sub> - TypeScript - Jan 22, 2025</sub></sup><br/><sup><sub>Tags: #api #demo #static #static-ap #static-site</sub></sup><br/>A simple demo to showcase the concept of static APIs (with full-text<br/>search!). </td>
+  <td><a href="./stars/lmammino/rental-station-static-api-demo.md">Apr 04, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
+  </tr>
+  <tr>
+  <td><a href="https://github.com/lmammino/org-formation-sso-import">lmammino/org-formation-sso-import</a><sup><sub> - TypeScript - Sep 21, 2024</sub></sup><br/><sup><sub>Tags: #aws #cloudformation #import #node #nodejs #org-formation #script #sso</sub></sup><br/>An experimental™️ script to import AWS SSO groups, permission sets and<br/>assignments into a OrgFormation workspace. </td>
+  <td><a href="./stars/lmammino/org-formation-sso-import.md">Apr 04, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
+  </tr>
+  <tr>
+  <td><a href="https://github.com/KoryNunn/console-watch">KoryNunn/console-watch</a><sup><sub> - JavaScript - Feb 12, 2016</sub></sup><br/>Track console.log/warn/error/etc... </td>
+  <td><a href="./stars/KoryNunn/console-watch.md">Apr 03, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
+  </tr>
+  <tr>
+  <td><a href="https://github.com/sinclairnick/midwinter">sinclairnick/midwinter</a><sup><sub> - TypeScript - Jan 06, 2025</sub></sup><br/>❄️ the middleware engine for modern backends. </td>
+  <td><a href="./stars/sinclairnick/midwinter.md">Mar 31, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
+  </tr>
+  <tr>
+  <td><a href="https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools">x1xhlol/system-prompts-and-models-of-ai-tools</a><sup><sub> - Mar 05, 2025</sub></sup><br/><sup><sub>Tags: #ai #cursor #cursorai #lovable #system-instruction #system-prompts #v0</sub></sup><br/>FULL v0, Cursor, Manus, Same.dev &amp; Lovable System Prompts &amp; AI<br/>Models. </td>
+  <td><a href="./stars/x1xhlol/system-prompts-and-models-of-ai-tools.md">Mar 31, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
+  </tr>
+  <tr>
+  <td><a href="https://github.com/dependents/node-dependency-tree">dependents/node-dependency-tree</a><sup><sub> - JavaScript - Jul 18, 2014</sub></sup><br/><sup><sub>Tags: #amd #ast #commonjs #dependency-tree #es6 #javascript #sass #stylus #tree #typescript</sub></sup><br/>Get the dependency tree of a module. </td>
+  <td><a href="./stars/dependents/node-dependency-tree.md">Mar 30, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
+  </tr>
+  <tr>
+  <td><a href="https://github.com/dependents/node-filing-cabinet">dependents/node-filing-cabinet</a><sup><sub> - JavaScript - Jul 25, 2015</sub></sup><br/><sup><sub>Tags: #amd #ast #commonjs #es6 #javascript #less #lookup #modules #partial #requirejs #resolver #sass #scss #stylus<br/>#webpack</sub></sup><br/>Get the file location associated with a dependency/partial&#039;s path. </td>
+  <td><a href="./stars/dependents/node-filing-cabinet.md">Mar 30, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
   </tr>
   <tr>
   <td><a href="https://github.com/NicolasMontone/json-tree-viewer">NicolasMontone/json-tree-viewer</a><sup><sub> - TypeScript - Mar 29, 2025</sub></sup><br/>Shadcn json-tree-viewer copy &amp; paste, tailwindCSS. </td>
@@ -3970,66 +4030,6 @@ Full list here: https://davidwells.github.io/stars
   <tr>
   <td><a href="https://github.com/asosnovsky/Shortumation">asosnovsky/Shortumation</a><sup><sub> - TypeScript - Nov 17, 2021</sub></sup><br/><sup><sub>Tags: #automation #docker #home-assistant #homeassistant #reactjs #smart-home #smarthome</sub></sup><br/>[Not Maintained] A better way to write automations in home-assistant<br/>without having to install and run a seperate automation engine!. </td>
   <td><a href="./stars/asosnovsky/Shortumation.md">Dec 11, 2022</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/adamshaylor/cooking-with-typescript">adamshaylor/cooking-with-typescript</a><sup><sub> - TypeScript - Oct 21, 2022</sub></sup><br/>A collection of patterns for TypeScript 4.9. </td>
-  <td><a href="./stars/adamshaylor/cooking-with-typescript.md">Dec 11, 2022</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/Infisical/infisical">Infisical/infisical</a><sup><sub> - TypeScript - Aug 05, 2022</sub></sup><br/><sup><sub>Tags: #certificate-management #cli #end-to-end-encryption #environment-variables #go #golang #nextjs #nodejs #open-source<br/>#pki #postgres #private-ca #react #secret-management #secret-manager #secret-scanning #secrets #security #security-tools<br/>#typescript</sub></sup><br/>♾ Infisical is the open-source secret management platform: Sync secrets<br/>across your team/infrastructure, prevent secret leaks, and manage internal<br/>PKI. </td>
-  <td><a href="./stars/Infisical/infisical.md">Dec 11, 2022</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/judehunter/reactivefile">judehunter/reactivefile</a><sup><sub> - TypeScript - Jul 23, 2020</sub></sup><br/><sup><sub>Tags: #data #data-structures #file #filesystem #javascript #reactive #reactive-programming #typescript<br/>#typescript-definitions</sub></sup><br/>Parse and reactively auto-save JSON, TOML, YAML and any other data file<br/>with ease. </td>
-  <td><a href="./stars/judehunter/reactivefile.md">Dec 11, 2022</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/MikeKovarik/exifr">MikeKovarik/exifr</a><sup><sub> - JavaScript - Aug 01, 2018</sub></sup><br/><sup><sub>Tags: #exif #gps #heic #icc #iptc #jfif #jpg #metadata #orientation #parser #photo #png #tiff #xmp</sub></sup><br/>📷 The fastest and most versatile JS EXIF reading library. </td>
-  <td><a href="./stars/MikeKovarik/exifr.md">Dec 11, 2022</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/withtyped/withtyped">withtyped/withtyped</a><sup><sub> - TypeScript - Oct 21, 2022</sub></sup><br/><sup><sub>Tags: #api #browser #javascript #nodejs #postgresql #rest #router #sql #typescript #universal #web</sub></sup><br/>🤹 Type-safe RESTful framework for fullstack with all native implementation. </td>
-  <td><a href="./stars/withtyped/withtyped.md">Dec 11, 2022</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/sourcemeta/jsonbinpack">sourcemeta/jsonbinpack</a><sup><sub> - C++ - Aug 29, 2021</sub></sup><br/><sup><sub>Tags: #binary-serialization #data-serialization #json #json-schema #jsonschema #space-efficiency</sub></sup><br/>A binary JSON serialization format based on JSON Schema 2020-12 with a<br/>strong focus on space-efficiency. </td>
-  <td><a href="./stars/sourcemeta/jsonbinpack.md">Dec 11, 2022</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/mgramin/database-as-code">mgramin/database-as-code</a><sup><sub> - Sep 19, 2017</sub></sup><br/><sup><sub>Tags: #database #sql</sub></sup><br/>Treat your database as Code. </td>
-  <td><a href="./stars/mgramin/database-as-code.md">Dec 11, 2022</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/GoogleChromeLabs/critters">GoogleChromeLabs/critters</a><sup><sub> - JavaScript - May 30, 2018</sub></sup><br/><sup><sub>Tags: #critical-css #css #inlining-critical-fonts #webpack #webpack-plugin</sub></sup><br/>🦔 A Webpack plugin to inline your critical CSS and lazy-load the rest. </td>
-  <td><a href="./stars/GoogleChromeLabs/critters.md">Dec 11, 2022</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/antfu/export-size">antfu/export-size</a><sup><sub> - TypeScript - Oct 06, 2020</sub></sup><br/><sup><sub>Tags: #bundle-size #cli #esm</sub></sup><br/>Analysis bundle cost for each export of a package. </td>
-  <td><a href="./stars/antfu/export-size.md">Dec 10, 2022</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/privatenumber/cleye">privatenumber/cleye</a><sup><sub> - TypeScript - Jan 05, 2022</sub></sup><br/><sup><sub>Tags: #argv #cli #commandline-interface #commandline-parser #flags #node #parameters #typed #typescript</sub></sup><br/>👁‍🗨 Strongly typed CLI development for Node.js. </td>
-  <td><a href="./stars/privatenumber/cleye.md">Dec 09, 2022</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/zernonia/tweetic">zernonia/tweetic</a><sup><sub> - TypeScript - May 11, 2022</sub></sup><br/><sup><sub>Tags: #nuxt3 #static-tweet #tweets #twitter #vue3</sub></sup><br/>Convert Tweets to Static HTML. </td>
-  <td><a href="./stars/zernonia/tweetic.md">Dec 09, 2022</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/ast-grep/ast-grep">ast-grep/ast-grep</a><sup><sub> - Rust - Jul 01, 2022</sub></sup><br/><sup><sub>Tags: #ast #babel #codemod #codereview #command-line #command-line-tool #grep #linter #refactoring #rust #search<br/>#static-analysis #structural-search #tree-sitter #typescript</sub></sup><br/>⚡A CLI tool for code structural search, lint and rewriting. Written in<br/>Rust. </td>
-  <td><a href="./stars/ast-grep/ast-grep.md">Dec 09, 2022</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/cassiozen/TDungeon">cassiozen/TDungeon</a><sup><sub> - TypeScript - Sep 21, 2022</sub></sup><br/>TDungeon is a small adventure game that runs in the Typescript type system. </td>
-  <td><a href="./stars/cassiozen/TDungeon.md">Dec 09, 2022</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/davestewart/spaceman">davestewart/spaceman</a><sup><sub> - JavaScript - Oct 09, 2022</sub></sup><br/><sup><sub>Tags: #monorepo #npm #npm-workspaces #pnpm #turborepo #workspace-management #workspace-manager #yarn-workspaces</sub></sup><br/>Manage monorepo workspaces with a prompt-based CLI. </td>
-  <td><a href="./stars/davestewart/spaceman.md">Dec 09, 2022</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/unjs/nypm">unjs/nypm</a><sup><sub> - TypeScript - Dec 06, 2022</sub></sup><br/>🌈 Unified Package Manager for Node.js (npm, pnpm, yarn), Bun and Deno. </td>
-  <td><a href="./stars/unjs/nypm.md">Dec 09, 2022</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
   </tr>
 </table>
 <!-- end-doc-gen -->
