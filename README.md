@@ -21,7 +21,7 @@ I fancy myself a GitHub spelunker. Through my journeys I find a lot of cool pack
 
 Below is an index to quickly CTRL+F to find them.
 
-Total Stars: <!-- doc-gen STAR_COUNT -->6,389<!-- end-doc-gen -->
+Total Stars: <!-- doc-gen STAR_COUNT -->6,399<!-- end-doc-gen -->
 
 Full list here: https://davidwells.github.io/stars
 
@@ -30,6 +30,50 @@ Full list here: https://davidwells.github.io/stars
   <tr>
   <th align="left">Repo</th>
   <th align="center">Starred On</th>
+  </tr>
+  <tr>
+  <td><a href="https://github.com/ecies/js">ecies/js</a><sup><sub> - TypeScript - Nov 27, 2018</sub></sup><br/><sup><sub>Tags: #bitcoin #cryptocurrency #cryptography #ecies #elliptic-curve-cryptography #ethereum #javascript #secp256k1<br/>#typescript</sub></sup><br/>Elliptic Curve Integrated Encryption Scheme for secp256k1/curve25519 in<br/>TypeScript. </td>
+  <td><a href="./stars/ecies/js.md">Apr 23, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
+  </tr>
+  <tr>
+  <td><a href="https://github.com/yassinebenaid/bunster">yassinebenaid/bunster</a><sup><sub> - Go - Jul 20, 2024</sub></sup><br/><sup><sub>Tags: #aot #bash #compiler #go #shell</sub></sup><br/>Compile shell scripts to static binaries. </td>
+  <td><a href="./stars/yassinebenaid/bunster.md">Apr 23, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
+  </tr>
+  <tr>
+  <td><a href="https://github.com/fredericbarthelet/middy-mcp">fredericbarthelet/middy-mcp</a><sup><sub> - TypeScript - Apr 04, 2025</sub></sup><br/>Middy middleware for Model Context Protocol server hosting on AWS Lambda. </td>
+  <td><a href="./stars/fredericbarthelet/middy-mcp.md">Apr 22, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
+  </tr>
+  <tr>
+  <td><a href="https://github.com/eleva/serverless-textract-ocr-skeleton">eleva/serverless-textract-ocr-skeleton</a><sup><sub> - JavaScript - May 28, 2024</sub></sup><br/>This repo contains a serverless EU-Driving Licences OCR micro-service,<br/>based on Amazon Textract. </td>
+  <td><a href="./stars/eleva/serverless-textract-ocr-skeleton.md">Apr 22, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
+  </tr>
+  <tr>
+  <td><a href="https://github.com/eleva/serverless-node-api-skeleton">eleva/serverless-node-api-skeleton</a><sup><sub> - JavaScript - Apr 05, 2024</sub></sup><br/>Superpower REST API DX with Serverless ⚡ and DevOps Best Practices on AWS. </td>
+  <td><a href="./stars/eleva/serverless-node-api-skeleton.md">Apr 22, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
+  </tr>
+  <tr>
+  <td><a href="https://github.com/eleva/serverless-mcp-server">eleva/serverless-mcp-server</a><sup><sub> - JavaScript - Apr 09, 2025</sub></sup><br/>A super simple Model Context Protocol (MCP) server deployed on AWS Lambda<br/>and exposed via Amazon API Gateway, deployed with Serverless Framework. </td>
+  <td><a href="./stars/eleva/serverless-mcp-server.md">Apr 22, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
+  </tr>
+  <tr>
+  <td><a href="https://github.com/patorjk/figlet.js">patorjk/figlet.js</a><sup><sub> - JavaScript - Jun 05, 2012</sub></sup><br/>A FIG Driver written in JavaScript which aims to fully implement the<br/>FIGfont spec. </td>
+  <td><a href="./stars/patorjk/figlet.js.md">Apr 16, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
+  </tr>
+  <tr>
+  <td><a href="https://github.com/chalk/chalk-template">chalk/chalk-template</a><sup><sub> - JavaScript - Apr 22, 2021</sub></sup><br/><sup><sub>Tags: #ansi-escape-codes #chalk #color #command-line #templating #terminal</sub></sup></td>
+  <td><a href="./stars/chalk/chalk-template.md">Apr 16, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
+  </tr>
+  <tr>
+  <td><a href="https://github.com/DavidWells/spike-llrt-runtime">DavidWells/spike-llrt-runtime</a><sup><sub> - JavaScript - Mar 03, 2025</sub></sup><br/>Example of using AWS LLRT Lambda runtime with Serverless Framework. </td>
+  <td><a href="./stars/DavidWells/spike-llrt-runtime.md">Apr 15, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
+  </tr>
+  <tr>
+  <td><a href="https://github.com/orbitinghail/sqlsync">orbitinghail/sqlsync</a><sup><sub> - Rust - May 26, 2023</sub></sup><br/><sup><sub>Tags: #collaborative #database #local-first #offline-first #relational-database #sql #sqlite #sqlsync</sub></sup><br/>SQLSync is a collaborative offline-first wrapper around SQLite. It is<br/>designed to synchronize web application state between users, devices, and<br/>the edge. </td>
+  <td><a href="./stars/orbitinghail/sqlsync.md">Apr 14, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
+  </tr>
+  <tr>
+  <td><a href="https://github.com/tecfu/tty-table">tecfu/tty-table</a><sup><sub> - JavaScript - Jul 01, 2015</sub></sup><br/><sup><sub>Tags: #cli-table #nodejs #table #terminal-table #tty-table</sub></sup><br/>Terminal table for Windows, Linux, and MacOS. Written in nodejs. Also works<br/>in browser console. Word wrap, padding, alignment, colors, Asian character<br/>support, per-column callbacks, and you can pass rows as objects or arrays.<br/>Backwards compatible with Automattic/cli-table. </td>
+  <td><a href="./stars/tecfu/tty-table.md">Apr 13, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
   </tr>
   <tr>
   <td><a href="https://github.com/elva-labs/awsesh">elva-labs/awsesh</a><sup><sub> - Go - Mar 19, 2025</sub></sup><br/><sup><sub>Tags: #aws #aws-sso #bubbletea #charm #cli #go #golang #sso #terminal #tui</sub></sup><br/>A charming TUI for AWS SSO session management ✨. </td>
@@ -3986,50 +4030,6 @@ Full list here: https://davidwells.github.io/stars
   <tr>
   <td><a href="https://github.com/DavidAnson/markdownlint">DavidAnson/markdownlint</a><sup><sub> - JavaScript - Mar 15, 2015</sub></sup><br/><sup><sub>Tags: #commonmark #lint #markdown #nodejs</sub></sup><br/>A Node.js style checker and lint tool for Markdown/CommonMark files. </td>
   <td><a href="./stars/DavidAnson/markdownlint.md">Dec 15, 2022</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/JoshuaKGoldberg/create-typescript-app">JoshuaKGoldberg/create-typescript-app</a><sup><sub> - TypeScript - Oct 01, 2022</sub></sup><br/><sup><sub>Tags: #eslint #javascript #node #package #prettier #template #typescript</sub></sup><br/>Quickstart-friendly TypeScript template with comprehensive, configurable,<br/>opinionated tooling. 🎁. </td>
-  <td><a href="./stars/JoshuaKGoldberg/create-typescript-app.md">Dec 15, 2022</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/Greenheart/idg.tools">Greenheart/idg.tools</a><sup><sub> - Svelte - Jan 30, 2022</sub></sup><br/><sup><sub>Tags: #inner-development #mental-health #personal-development #sustainable-development-goals #svelte</sub></sup><br/>Inner Development Toolkit - Transformational Skills for Sustainable<br/>Development. </td>
-  <td><a href="./stars/Greenheart/idg.tools.md">Dec 14, 2022</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/skarab42/zoxy">skarab42/zoxy</a><sup><sub> - TypeScript - Dec 10, 2022</sub></sup><br/><sup><sub>Tags: #object #proxy #type-safe #typescript #validation #zod</sub></sup><br/>A small type-safe object proxy around Zod to help you stay safe after your<br/>data is loaded while continuing to edit them. </td>
-  <td><a href="./stars/skarab42/zoxy.md">Dec 13, 2022</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/ungap/esx">ungap/esx</a><sup><sub> - JavaScript - Dec 02, 2022</sub></sup><br/>A template literal based ESX proposal. </td>
-  <td><a href="./stars/ungap/esx.md">Dec 13, 2022</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/opennextjs/opennextjs-aws">opennextjs/opennextjs-aws</a><sup><sub> - TypeScript - Nov 29, 2022</sub></sup><br/><sup><sub>Tags: #aws #nextjs #sst</sub></sup><br/>Open-source Next.js adapter for AWS. </td>
-  <td><a href="./stars/opennextjs/opennextjs-aws.md">Dec 13, 2022</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/NangoHQ/nango">NangoHQ/nango</a><sup><sub> - TypeScript - Apr 09, 2020</sub></sup><br/><sup><sub>Tags: #access-token #api #api-client #api-integration #api-integrations #integrations #oauth #oauth1 #oauth2<br/>#product-integration #refresh-token #unified-api</sub></sup><br/>A single API for all your integrations. </td>
-  <td><a href="./stars/NangoHQ/nango.md">Dec 13, 2022</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/Cadienvan/expirables">Cadienvan/expirables</a><sup><sub> - TypeScript - Dec 11, 2022</sub></sup><br/><sup><sub>Tags: #data-structures #javascript #nodejs #typescript</sub></sup><br/>This is a zero dependency package that provides some expirable<br/>implementations of common Data Structures. </td>
-  <td><a href="./stars/Cadienvan/expirables.md">Dec 13, 2022</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/placemark/micro-totp">placemark/micro-totp</a><sup><sub> - TypeScript - Dec 09, 2022</sub></sup><br/><sup><sub>Tags: #nodejs #totp #typescript</sub></sup><br/>small, typescript implementation of totp. </td>
-  <td><a href="./stars/placemark/micro-totp.md">Dec 13, 2022</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/JayPuff/browser-file-storage">JayPuff/browser-file-storage</a><sup><sub> - JavaScript - Aug 31, 2018</sub></sup><br/>Abstracts the complexity of indexed DB so that a user can easily save<br/>files/blobs by key/filename on the browser. </td>
-  <td><a href="./stars/JayPuff/browser-file-storage.md">Dec 11, 2022</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/MikeKovarik/platform-detect">MikeKovarik/platform-detect</a><sup><sub> - JavaScript - May 30, 2018</sub></sup><br/>🃏 Minimalistic isomorphic library for detection of platform, runtime, APIs<br/>and more. </td>
-  <td><a href="./stars/MikeKovarik/platform-detect.md">Dec 11, 2022</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/asosnovsky/Shortumation">asosnovsky/Shortumation</a><sup><sub> - TypeScript - Nov 17, 2021</sub></sup><br/><sup><sub>Tags: #automation #docker #home-assistant #homeassistant #reactjs #smart-home #smarthome</sub></sup><br/>[Not Maintained] A better way to write automations in home-assistant<br/>without having to install and run a seperate automation engine!. </td>
-  <td><a href="./stars/asosnovsky/Shortumation.md">Dec 11, 2022</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
   </tr>
 </table>
 <!-- end-doc-gen -->
