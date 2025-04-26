@@ -2,7 +2,7 @@ import fs from 'fs-extra'
 import safe from 'safe-await'
 import matter from 'gray-matter'
 import { $fetch } from 'ofetch'
-import { delay } from './delay.js'
+import { delay, delayFromISOString } from './delay.js'
 import { STARS_DIRECTORY, README_FRONTMATTER_KEY } from '../_constants.js'
 
 async function getSelfStaredRepos(delayPerPage) {
@@ -96,7 +96,7 @@ async function getReadMe(repo = {}, refresh) {
     const { headers, _data } = response
     mdFromApi = _data
     rateLimit = extractRateLimit(headers)
-    // console.log('Remaing API calls:', rateLimit.remaining)
+    // console.log('Remaining API calls:', rateLimit.remaining)
     console.log(`Remaining calls: ${rateLimit.remaining} til ${rateLimit.resetTime}`)
   }
 

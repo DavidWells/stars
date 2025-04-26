@@ -2,7 +2,7 @@ import fs from 'fs-extra'
 import safe from 'safe-await'
 import pLimit from 'p-limit'
 import matter from 'gray-matter'
-import { delay } from './utils/delay.js'
+import { delay, delayFromISOString } from './utils/delay.js'
 import { generateMarkdownTable } from './utils/generate-readme.js'
 import { saveReadMe } from './utils/generate-star-md.js'
 import { getStarredRepos, getReadMe, getStarCount } from './utils/github-api.js'
@@ -179,6 +179,15 @@ async function collect(username) {
   console.log(`${username} has ${totalStars} stars`)
   console.log('rateLimit', rateLimit)
 
+  /* if remaining calls is less than 2, pause execution until reset */
+  if (rateLimit.remaining < 2) {
+    console.log('Rate limit is almost reached, pausing execution until reset...')
+    const bufferTime = 5000
+    const delayMs = delayFromISOString(rateLimit.resetTime) + bufferTime
+    console.log(`Pausing for ${delayMs}ms... Exit script and try again later or wait for rate limit reset.`)
+    await delay(delayMs)
+  }
+
   /* We have all the Markdown files, so instead refresh the readmes */
   if ((existingStarMdData.length >= totalStars)) {
     const readMesWeNeed = existingStarMdData
@@ -343,12 +352,19 @@ async function collect(username) {
 const limit = pLimit(3)
 
 async function getReadmeData(readMesWeNeed, refresh = false) {
-
   const readMePaths = await Promise.all(
-    readMesWeNeed.map(repo => {
+    readMesWeNeed.map((repo) => {
       return limit(async () => {
-        const [readmeError, readme] = await safe(getReadMe(repo, refresh))
-        const readmeContent = (readme && readme.content) || ''
+        const [readmeError, readmeData] = await safe(getReadMe(repo, refresh))
+        const readmeContent = (readmeData && readmeData.content) || ''
+        const rateLimit = readmeData && readmeData.rateLimit || {}
+        if (rateLimit.remaining < 4) {
+          console.log('Rate limit reached, pausing execution until reset...')
+          const bufferTime = 5000
+          const delayMs = delayFromISOString(rateLimit.resetTime) + bufferTime
+          console.log(`Pausing for ${delayMs}ms... Exit script and try again later or wait for rate limit reset.`)
+          await delay(delayMs)
+        }
         return saveReadMe(repo, readmeContent)
       })
     })
