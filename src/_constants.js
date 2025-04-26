@@ -6,7 +6,7 @@ const __filename = fileURLToPath(import.meta.url)
 const __dirname = path.dirname(__filename)
 
 const { GITHUB_TOKEN } = process.env
-const GITHUB_USERNAME = 'davidwells'
+const GITHUB_USERNAME = process.env.GITHUB_USERNAME || 'davidwells'
 const SLASH_REPLACEMENT = '___|___'
 
 const ROOT_DIRECTORY = path.join(__dirname, '..')

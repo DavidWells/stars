@@ -4055,13 +4055,14 @@ This repo will automatically grab your stars and save them in chronological orde
    2. Repository permissions
       - Read access to metadata
       - Read and Write access to code
-3. Configure GitHub Actions keys `GH_TOKEN`
+3. Configure GitHub Actions secrets `GH_TOKEN` and `GH_USERNAME`
 4. Run Actions
 
-If you have more than 5k stars, you might need to run this locally via `npm run build`
+If you have more than 5k stars, you might need to run this locally via `npm run build`. Set the local env vars `GITHUB_TOKEN` and `GITHUB_USERNAME` and run the script.
 
 ```bash
-export GH_TOKEN=your_token
+export GITHUB_TOKEN=your_token
+export GITHUB_USERNAME=davidwells
 node index.js
 ```
 

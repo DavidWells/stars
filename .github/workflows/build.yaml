@@ -37,11 +37,13 @@ jobs:
       - run: pnpm build
         env:
           GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
+          # Username that will be used to fetch the starred repos
+          GITHUB_USERNAME: ${{ secrets.GH_USERNAME }}
 
       - run: pnpm run deploy
         env:
           GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
-      
+
       - name: Commit & Push changes
         uses: actions-js/push@master
         with:
