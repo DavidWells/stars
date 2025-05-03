@@ -21,7 +21,7 @@ I fancy myself a GitHub spelunker. Through my journeys I find a lot of cool pack
 
 Below is an index to quickly CTRL+F to find them.
 
-Total Stars: <!-- doc-gen STAR_COUNT -->6,399<!-- end-doc-gen -->
+Total Stars: <!-- doc-gen STAR_COUNT -->6,408<!-- end-doc-gen -->
 
 Full list here: https://davidwells.github.io/stars
 
@@ -30,6 +30,50 @@ Full list here: https://davidwells.github.io/stars
   <tr>
   <th align="left">Repo</th>
   <th align="center">Starred On</th>
+  </tr>
+  <tr>
+  <td><a href="https://github.com/theburningmonk/ephemeral-env-with-neon">theburningmonk/ephemeral-env-with-neon</a><sup><sub> - JavaScript - Apr 02, 2025</sub></sup><br/>How to use Neon Serverless Postgres for ephemeral environments. </td>
+  <td><a href="./stars/theburningmonk/ephemeral-env-with-neon.md">May 03, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
+  </tr>
+  <tr>
+  <td><a href="https://github.com/streamfold/rotel-nodejs">streamfold/rotel-nodejs</a><sup><sub> - TypeScript - Mar 14, 2025</sub></sup><br/>Rotel for Node.js library. </td>
+  <td><a href="./stars/streamfold/rotel-nodejs.md">May 02, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
+  </tr>
+  <tr>
+  <td><a href="https://github.com/streamfold/rotel-lambda-extension">streamfold/rotel-lambda-extension</a><sup><sub> - Rust - Apr 05, 2025</sub></sup><br/>AWS Lamba Extension of the Lightweight Rotel Collector. </td>
+  <td><a href="./stars/streamfold/rotel-lambda-extension.md">May 02, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
+  </tr>
+  <tr>
+  <td><a href="https://github.com/unibeck/uptime-monitor">unibeck/uptime-monitor</a><sup><sub> - TypeScript - Apr 19, 2025</sub></sup><br/>A uptime monitoring service that is easy and cheap to run at scale. Create<br/>endpoint checks for uptime, latency, and status code. Supports OpsGenie for<br/>alerts. </td>
+  <td><a href="./stars/unibeck/uptime-monitor.md">May 01, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
+  </tr>
+  <tr>
+  <td><a href="https://github.com/ravikiranvm/aws-finops-dashboard">ravikiranvm/aws-finops-dashboard</a><sup><sub> - Python - Apr 05, 2025</sub></sup><br/>A terminal-based AWS cost and resource dashboard built with Python and the<br/>Rich library. It provides an overview of AWS spend by account,<br/>service-level breakdowns, budget tracking, and EC2 instance summaries. </td>
+  <td><a href="./stars/ravikiranvm/aws-finops-dashboard.md">May 01, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
+  </tr>
+  <tr>
+  <td><a href="https://github.com/EffeDev/event-hub">EffeDev/event-hub</a><sup><sub> - TypeScript - Dec 12, 2023</sub></sup></td>
+  <td><a href="./stars/EffeDev/event-hub.md">May 01, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
+  </tr>
+  <tr>
+  <td><a href="https://github.com/serenity-kit/noble-sodium">serenity-kit/noble-sodium</a><sup><sub> - TypeScript - Apr 19, 2025</sub></sup><br/>TypeScript library offering a Libsodium-compatible API built on top of<br/>Noble packages. </td>
+  <td><a href="./stars/serenity-kit/noble-sodium.md">Apr 30, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
+  </tr>
+  <tr>
+  <td><a href="https://github.com/vercel/ai-chatbot">vercel/ai-chatbot</a><sup><sub> - TypeScript - May 19, 2023</sub></sup><br/><sup><sub>Tags: #ai #chatgpt #nextjs #react #redis #shadcn-ui #vercel</sub></sup><br/>A full-featured, hackable Next.js AI chatbot built by Vercel. </td>
+  <td><a href="./stars/vercel/ai-chatbot.md">Apr 30, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
+  </tr>
+  <tr>
+  <td><a href="https://github.com/eyaltoledano/claude-task-master">eyaltoledano/claude-task-master</a><sup><sub> - JavaScript - Mar 04, 2025</sub></sup><br/><sup><sub>Tags: #ai #cursor #cursor-ai #cursorai #lovable #lovable-dev #roocode #task-manager #tasks #tasks-list #windsurf<br/>#windsurf-ai</sub></sup><br/>An AI-powered task-management system you can drop into Cursor, Lovable,<br/>Windsurf, Roo, and others. </td>
+  <td><a href="./stars/eyaltoledano/claude-task-master.md">Apr 29, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
+  </tr>
+  <tr>
+  <td><a href="https://github.com/georgephillips/node-s3-url-encode">georgephillips/node-s3-url-encode</a><sup><sub> - JavaScript - Jul 22, 2014</sub></sup><br/>Because s3 urls are annoying. </td>
+  <td><a href="./stars/georgephillips/node-s3-url-encode.md">Apr 29, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
+  </tr>
+  <tr>
+  <td><a href="https://github.com/XaaXaaX/aws-lambda-extensions">XaaXaaX/aws-lambda-extensions</a><sup><sub> - TypeScript - Feb 15, 2024</sub></sup></td>
+  <td><a href="./stars/XaaXaaX/aws-lambda-extensions.md">Apr 29, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
   </tr>
   <tr>
   <td><a href="https://github.com/ecies/js">ecies/js</a><sup><sub> - TypeScript - Nov 27, 2018</sub></sup><br/><sup><sub>Tags: #bitcoin #cryptocurrency #cryptography #ecies #elliptic-curve-cryptography #ethereum #javascript #secp256k1<br/>#typescript</sub></sup><br/>Elliptic Curve Integrated Encryption Scheme for secp256k1/curve25519 in<br/>TypeScript. </td>
@@ -174,6 +218,10 @@ Full list here: https://davidwells.github.io/stars
   <tr>
   <td><a href="https://github.com/un/1up">un/1up</a><sup><sub> - TypeScript - Jan 26, 2025</sub></sup><br/>Open Source Longevity System; Live Longer + Sharper + Better. </td>
   <td><a href="./stars/un/1up.md">Mar 24, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
+  </tr>
+  <tr>
+  <td><a href="https://github.com/un/potential">un/potential</a><sup><sub> - TypeScript - Jan 26, 2025</sub></sup><br/>Ai Health coach to live Longer + Sharper + Better; Open Source alternative<br/>to Death. </td>
+  <td><a href="./stars/un/potential.md">Mar 24, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
   </tr>
   <tr>
   <td><a href="https://github.com/microsoft/vscode-ripgrep">microsoft/vscode-ripgrep</a><sup><sub> - JavaScript - Jul 17, 2019</sub></sup><br/>For consuming the ripgrep binary from microsoft/ripgrep-prebuilt in a Node<br/>project. </td>
@@ -3982,54 +4030,6 @@ Full list here: https://davidwells.github.io/stars
   <tr>
   <td><a href="https://github.com/MoLow/reporters">MoLow/reporters</a><sup><sub> - JavaScript - Dec 11, 2022</sub></sup><br/>A collection of reporters for `node:test`. </td>
   <td><a href="./stars/MoLow/reporters.md">Dec 25, 2022</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/lukasoppermann/style-dictionary-utils">lukasoppermann/style-dictionary-utils</a><sup><sub> - TypeScript - Sep 26, 2022</sub></sup><br/><sup><sub>Tags: #config #design-token #design-tokens #style-dictionary #transformer #utilities</sub></sup><br/>A package of transforms, formats, filters, etc. to use in your style<br/>dictionary config to transform your design tokens. </td>
-  <td><a href="./stars/lukasoppermann/style-dictionary-utils.md">Dec 24, 2022</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/codenothing/burst-valve">codenothing/burst-valve</a><sup><sub> - TypeScript - Nov 07, 2022</sub></sup><br/>An in memory queue for async processes in high concurrency code paths. </td>
-  <td><a href="./stars/codenothing/burst-valve.md">Dec 24, 2022</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/shuding/react-wrap-balancer">shuding/react-wrap-balancer</a><sup><sub> - HTML - Nov 10, 2022</sub></sup><br/><sup><sub>Tags: #react #typography #wrapping</sub></sup><br/>Simple React Component That Makes Titles More Readable. </td>
-  <td><a href="./stars/shuding/react-wrap-balancer.md">Dec 22, 2022</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/4lessandrodev/type-ddd">4lessandrodev/type-ddd</a><sup><sub> - TypeScript - Apr 23, 2021</sub></sup><br/><sup><sub>Tags: #aggregates #clean-architecture #clean-code #ddd #ddd-architecture #ddd-example #ddd-nodejs #ddd-patterns #ddd-sample<br/>#domain-driven-design #entity #node-ddd #nodejs #nodejs-library #types-ddd #typescript #typescript-library #use-cases #utils-library<br/>#value-object</sub></sup><br/>This package provide utils files and interfaces to assistant build a<br/>complex application with domain driving design. </td>
-  <td><a href="./stars/4lessandrodev/type-ddd.md">Dec 22, 2022</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/DiegoZoracKy/for-each-property-deep">DiegoZoracKy/for-each-property-deep</a><sup><sub> - JavaScript - May 28, 2017</sub></sup><br/>Executes a callback for each property found on a object, recursively on<br/>nested properties, with options regarding enumerability (enumerable or<br/>non-enumerable) and ownership (inherited or only own properties). It<br/>excludes built-in properties from Object and Function prototypes by<br/>default, and this behaviour can also be configured via options. </td>
-  <td><a href="./stars/DiegoZoracKy/for-each-property-deep.md">Dec 21, 2022</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/DiegoZoracKy/cliss">DiegoZoracKy/cliss</a><sup><sub> - JavaScript - Nov 04, 2017</sub></sup><br/><sup><sub>Tags: #cli #command-line #command-line-interface #nodejs</sub></sup><br/>CLI Simple, Stupid. Automatic discovery of parameters names. Provides an<br/>easy and minimal setup by passing in only a function reference without the<br/>need of declaring all expected options names or create a help section by<br/>hand. Support to sync / async. Support to subcommands down to N levels. </td>
-  <td><a href="./stars/DiegoZoracKy/cliss.md">Dec 21, 2022</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/wcaptcha/wcaptcha-js">wcaptcha/wcaptcha-js</a><sup><sub> - JavaScript - Dec 06, 2022</sub></sup><br/>wCaptcha javascript library. </td>
-  <td><a href="./stars/wcaptcha/wcaptcha-js.md">Dec 20, 2022</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/seldomU/dasdashboard">seldomU/dasdashboard</a><sup><sub> - JavaScript - Nov 06, 2022</sub></sup><br/>local dashboard with focus on easy editing. </td>
-  <td><a href="./stars/seldomU/dasdashboard.md">Dec 20, 2022</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/aleixmorgadas/awesome-engineering-strategy">aleixmorgadas/awesome-engineering-strategy</a><sup><sub> - May 31, 2022</sub></sup><br/><sup><sub>Tags: #awesome #awesome-list #engineering-strategy #strategy #tech-strategy</sub></sup><br/>🎉 How to design and execute engineering strategies for tech leadership. </td>
-  <td><a href="./stars/aleixmorgadas/awesome-engineering-strategy.md">Dec 16, 2022</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/Noriller/easy-tailwind">Noriller/easy-tailwind</a><sup><sub> - TypeScript - Dec 10, 2022</sub></sup><br/><sup><sub>Tags: #javascript #nextjs #react #tailwind #tailwind-css #tailwindcss #typescript</sub></sup><br/>An easier way of writing Tailwind classes. </td>
-  <td><a href="./stars/Noriller/easy-tailwind.md">Dec 16, 2022</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/beekeeper-studio/beekeeper-studio">beekeeper-studio/beekeeper-studio</a><sup><sub> - TypeScript - Jul 23, 2019</sub></sup><br/><sup><sub>Tags: #bigquery #cassandra #cockroachdb #database #electron #firebird #linux-app #mac-app #mariadb #mssql #mysql #postgresql<br/>#sql #sql-server #sqlite #windows-app</sub></sup><br/>Modern and easy to use SQL client for MySQL, Postgres, SQLite, SQL Server,<br/>and more. Linux, MacOS, and Windows. </td>
-  <td><a href="./stars/beekeeper-studio/beekeeper-studio.md">Dec 15, 2022</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/DavidAnson/markdownlint">DavidAnson/markdownlint</a><sup><sub> - JavaScript - Mar 15, 2015</sub></sup><br/><sup><sub>Tags: #commonmark #lint #markdown #nodejs</sub></sup><br/>A Node.js style checker and lint tool for Markdown/CommonMark files. </td>
-  <td><a href="./stars/DavidAnson/markdownlint.md">Dec 15, 2022</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
   </tr>
 </table>
 <!-- end-doc-gen -->
