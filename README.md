@@ -21,7 +21,7 @@ I fancy myself a GitHub spelunker. Through my journeys I find a lot of cool pack
 
 Below is an index to quickly CTRL+F to find them.
 
-Total Stars: <!-- doc-gen STAR_COUNT -->6,421<!-- end-doc-gen -->
+Total Stars: <!-- doc-gen STAR_COUNT -->6,435<!-- end-doc-gen -->
 
 Full list here: https://davidwells.github.io/stars
 
@@ -30,6 +30,62 @@ Full list here: https://davidwells.github.io/stars
   <tr>
   <th align="left">Repo</th>
   <th align="center">Starred On</th>
+  </tr>
+  <tr>
+  <td><a href="https://github.com/Redocly/repo-file-sync-action">Redocly/repo-file-sync-action</a><sup><sub> - JavaScript - Jun 08, 2021</sub></sup><br/>GitHub Action that sync&#039;s two (or more) repos. </td>
+  <td><a href="./stars/Redocly/repo-file-sync-action.md">May 17, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
+  </tr>
+  <tr>
+  <td><a href="https://github.com/AndrewWalsh/openapi-devtools">AndrewWalsh/openapi-devtools</a><sup><sub> - TypeScript - Oct 25, 2023</sub></sup><br/><sup><sub>Tags: #api #chrome-extension #devtools #generator #openapi #openapi3 #openapi31 #specification</sub></sup><br/>Browser extension that generates API specs for any app or website. </td>
+  <td><a href="./stars/AndrewWalsh/openapi-devtools.md">May 17, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
+  </tr>
+  <tr>
+  <td><a href="https://github.com/JaredCE/json-schema-to-openAPI-schema-object">JaredCE/json-schema-to-openAPI-schema-object</a><sup><sub> - JavaScript - May 21, 2022</sub></sup><br/>Converts a standard JSON Schema to a compatible Open API v3 Schema Object. </td>
+  <td><a href="./stars/JaredCE/json-schema-to-openAPI-schema-object.md">May 17, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
+  </tr>
+  <tr>
+  <td><a href="https://github.com/JaredCE/serverless-openapi-documenter">JaredCE/serverless-openapi-documenter</a><sup><sub> - JavaScript - May 23, 2022</sub></sup><br/><sup><sub>Tags: #openapi #openapi-documentation #openapi-generator #openapi3 #serverless #serverless-framework</sub></sup><br/>Serverless plugin to export your config as OpenAPI v3 Documentation and<br/>Postman Collection V2. </td>
+  <td><a href="./stars/JaredCE/serverless-openapi-documenter.md">May 17, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
+  </tr>
+  <tr>
+  <td><a href="https://github.com/WebReflection/is-proxy">WebReflection/is-proxy</a><sup><sub> - JavaScript - May 16, 2025</sub></sup><br/>A `Proxy.isProxy(object)` utility. </td>
+  <td><a href="./stars/WebReflection/is-proxy.md">May 16, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
+  </tr>
+  <tr>
+  <td><a href="https://github.com/haydenbleasel/tersa">haydenbleasel/tersa</a><sup><sub> - TypeScript - Apr 21, 2025</sub></sup><br/><sup><sub>Tags: #ai #aisdk #anthropic #canvas #openai</sub></sup><br/>Tersa is an open source canvas for building AI workflows. </td>
+  <td><a href="./stars/haydenbleasel/tersa.md">May 16, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
+  </tr>
+  <tr>
+  <td><a href="https://github.com/google/A2A">google/A2A</a><sup><sub> - Python - Mar 25, 2025</sub></sup><br/>An open protocol enabling communication and interoperability between opaque<br/>agentic applications. </td>
+  <td><a href="./stars/google/A2A.md">May 16, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
+  </tr>
+  <tr>
+  <td><a href="https://github.com/ran-isenberg/aws-lambda-handler-cookbook">ran-isenberg/aws-lambda-handler-cookbook</a><sup><sub> - Python - Feb 28, 2021</sub></sup><br/><sup><sub>Tags: #aws #aws-lambda #best-practices #blueprint #cdk #cookbook #pipeline #python #serverless #serverless-aws #template<br/>#template-repository</sub></sup><br/>This repository provides a working, deployable, open source-based,<br/>serverless service blueprint with an AWS Lambda function and AWS CDK Python<br/>code with all the best practices and a complete CI/CD pipeline. </td>
+  <td><a href="./stars/ran-isenberg/aws-lambda-handler-cookbook.md">May 14, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
+  </tr>
+  <tr>
+  <td><a href="https://github.com/eliasbrange/aws-recipes">eliasbrange/aws-recipes</a><sup><sub> - TypeScript - Mar 22, 2022</sub></sup></td>
+  <td><a href="./stars/eliasbrange/aws-recipes.md">May 14, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
+  </tr>
+  <tr>
+  <td><a href="https://github.com/SodaDev/sam-templates-go">SodaDev/sam-templates-go</a><sup><sub> - Go - Aug 28, 2023</sub></sup></td>
+  <td><a href="./stars/SodaDev/sam-templates-go.md">May 14, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
+  </tr>
+  <tr>
+  <td><a href="https://github.com/ziedbentahar/rag-chat-with-appsync-events-and-bedrock-knowledge-bases">ziedbentahar/rag-chat-with-appsync-events-and-bedrock-knowledge-bases</a><sup><sub> - HCL - May 09, 2025</sub></sup></td>
+  <td><a href="./stars/ziedbentahar/rag-chat-with-appsync-events-and-bedrock-knowledge-bases.md">May 14, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
+  </tr>
+  <tr>
+  <td><a href="https://github.com/alesgenova/post-me">alesgenova/post-me</a><sup><sub> - TypeScript - Nov 29, 2020</sub></sup><br/><sup><sub>Tags: #communication #concurrency #iframe #javascript #parallel-computing #postmate #postmessage #promise #typescript<br/>#web-worker #webworker #worker</sub></sup><br/>📩 Use web Workers and other Windows through a simple Promise API. </td>
+  <td><a href="./stars/alesgenova/post-me.md">May 12, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
+  </tr>
+  <tr>
+  <td><a href="https://github.com/psd-coder/typed-channel">psd-coder/typed-channel</a><sup><sub> - TypeScript - Apr 21, 2025</sub></sup></td>
+  <td><a href="./stars/psd-coder/typed-channel.md">May 12, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
+  </tr>
+  <tr>
+  <td><a href="https://github.com/sachaarbonel/repo_walker">sachaarbonel/repo_walker</a><sup><sub> - Rust - Jul 04, 2024</sub></sup><br/>Code context extractor for AI assistants. Walks Git repos, respects .<br/>gitignore, filters files. Optimized output for LLMs like Claude. Supports<br/>diff comparisons. </td>
+  <td><a href="./stars/sachaarbonel/repo_walker.md">May 11, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
   </tr>
   <tr>
   <td><a href="https://github.com/leegilmorecode/serverless-clean-code-experience">leegilmorecode/serverless-clean-code-experience</a><sup><sub> - TypeScript - May 01, 2023</sub></sup><br/>An opinionated example of a lightweight &#039;clean code&#039; Lambda<br/>function architecture for a service in the experience layer of SAL<br/>Architecture, with code examples written in the AWS CDK and TypeScript. </td>
@@ -98,6 +154,10 @@ Full list here: https://davidwells.github.io/stars
   <tr>
   <td><a href="https://github.com/streamfold/rotel-lambda-extension">streamfold/rotel-lambda-extension</a><sup><sub> - Rust - Apr 05, 2025</sub></sup><br/>AWS Lamba Extension of the Lightweight Rotel Collector. </td>
   <td><a href="./stars/streamfold/rotel-lambda-extension.md">May 02, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
+  </tr>
+  <tr>
+  <td><a href="https://github.com/unibeck/solstatus">unibeck/solstatus</a><sup><sub> - TypeScript - Apr 19, 2025</sub></sup><br/>An uptime monitoring service that is easy and cheap to run at scale. Create<br/>endpoint checks for uptime, latency, and status code. Supports OpsGenie<br/>for alerts. </td>
+  <td><a href="./stars/unibeck/solstatus.md">May 01, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
   </tr>
   <tr>
   <td><a href="https://github.com/unibeck/uptime-monitor">unibeck/uptime-monitor</a><sup><sub> - TypeScript - Apr 19, 2025</sub></sup><br/>A uptime monitoring service that is easy and cheap to run at scale. Create<br/>endpoint checks for uptime, latency, and status code. Supports OpsGenie for<br/>alerts. </td>
@@ -3970,66 +4030,6 @@ Full list here: https://davidwells.github.io/stars
   <tr>
   <td><a href="https://github.com/artalar/act">artalar/act</a><sup><sub> - TypeScript - Jan 05, 2023</sub></sup><br/><sup><sub>Tags: #react #reactive</sub></sup><br/>Act is the most efficient reactive state library in both: speed, size,<br/>correctness. </td>
   <td><a href="./stars/artalar/act.md">Jan 06, 2023</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/fhinkel/type-profile">fhinkel/type-profile</a><sup><sub> - JavaScript - Sep 10, 2017</sub></sup><br/><sup><sub>Tags: #javascript #nodejs #v8</sub></sup><br/>Collect runtime type information 😻 of your JavaScript code. </td>
-  <td><a href="./stars/fhinkel/type-profile.md">Jan 06, 2023</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/mcollina/autocannon">mcollina/autocannon</a><sup><sub> - JavaScript - Mar 31, 2016</sub></sup><br/>fast HTTP/1.1 benchmarking tool written in Node.js. </td>
-  <td><a href="./stars/mcollina/autocannon.md">Jan 05, 2023</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/JSMonk/hegel">JSMonk/hegel</a><sup><sub> - JavaScript - Oct 20, 2018</sub></sup><br/><sup><sub>Tags: #javascript #type-safety #typeinference</sub></sup><br/>An advanced static type checker. </td>
-  <td><a href="./stars/JSMonk/hegel.md">Jan 05, 2023</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/metarhia/concolor">metarhia/concolor</a><sup><sub> - JavaScript - Jan 30, 2017</sub></sup><br/><sup><sub>Tags: #ansi #color #colors #console #impress #javascript #metarhia #nodejs</sub></sup><br/>Colouring template strings using tags with annotations 🎨. </td>
-  <td><a href="./stars/metarhia/concolor.md">Jan 05, 2023</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/spring-raining/mira">spring-raining/mira</a><sup><sub> - TypeScript - May 06, 2020</sub></sup><br/>JavaScript &amp; Markdown live editor on your browser. </td>
-  <td><a href="./stars/spring-raining/mira.md">Jan 05, 2023</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/gkz/grasp">gkz/grasp</a><sup><sub> - LiveScript - Aug 23, 2013</sub></sup><br/>JavaScript structural search, replace, and refactor. </td>
-  <td><a href="./stars/gkz/grasp.md">Jan 05, 2023</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/ronami/HypeScript">ronami/HypeScript</a><sup><sub> - TypeScript - Jun 27, 2022</sub></sup><br/><sup><sub>Tags: #example #functional-programming #learning #parser #recursion #static-code-analysis #type-system<br/>#typescript</sub></sup><br/>🐬 A simplified implementation of TypeScript&#039;s type system written in<br/>TypeScript&#039;s type system. </td>
-  <td><a href="./stars/ronami/HypeScript.md">Jan 05, 2023</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/oramasearch/orama">oramasearch/orama</a><sup><sub> - TypeScript - May 10, 2022</sub></sup><br/><sup><sub>Tags: #algiorithm #data-structures #full-text #javascript #node #search #search-algorithm #search-engine #typescript<br/>#typo-tolerance #vector #vector-database #vector-database-embedding #vector-search #vector-search-engine</sub></sup><br/>🌌  A complete search engine and RAG pipeline in your browser, server or<br/>edge network with support for full-text, vector, and hybrid search in less<br/>than 2kb. </td>
-  <td><a href="./stars/oramasearch/orama.md">Jan 05, 2023</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/markodenic/web-development-resources">markodenic/web-development-resources</a><sup><sub> - HTML - Oct 17, 2020</sub></sup><br/><sup><sub>Tags: #chrome-extensions #color-palettes #freelancing-platforms #webdevelopment #website-optimization<br/>#youtube-channels</sub></sup><br/>Awesome Web Development Resources. </td>
-  <td><a href="./stars/markodenic/web-development-resources.md">Jan 05, 2023</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/lucaong/minisearch">lucaong/minisearch</a><sup><sub> - TypeScript - Sep 17, 2018</sub></sup><br/><sup><sub>Tags: #autocomplete #autosuggestion #edge-computing #fulltext-search #fuzzy-search #javascript #search #search-engine<br/>#text-search #typo-tolerance</sub></sup><br/>Tiny and powerful JavaScript full-text search engine for browser and Node. </td>
-  <td><a href="./stars/lucaong/minisearch.md">Jan 05, 2023</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/webpro/programming-principles">webpro/programming-principles</a><sup><sub> - Oct 24, 2014</sub></sup><br/><sup><sub>Tags: #architectural-patterns #design-patterns #programming-principles</sub></sup><br/>Categorized overview of programming principles &amp; design patterns. </td>
-  <td><a href="./stars/webpro/programming-principles.md">Jan 05, 2023</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/webpro/reveal-md">webpro/reveal-md</a><sup><sub> - JavaScript - Jun 24, 2013</sub></sup><br/>reveal.js on steroids! Get beautiful reveal.js presentations from any<br/>Markdown file. </td>
-  <td><a href="./stars/webpro/reveal-md.md">Jan 05, 2023</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/webpro-nl/knip">webpro-nl/knip</a><sup><sub> - TypeScript - Oct 04, 2022</sub></sup><br/><sup><sub>Tags: #dependencies-checking #dependency-analysis #elimination #lint #maintenance #typescript #unused-code #unused-exports<br/>#unused-imports</sub></sup><br/>✂️  Find unused files, dependencies and exports in your JavaScript and<br/>TypeScript projects. Knip it before you ship it!. </td>
-  <td><a href="./stars/webpro-nl/knip.md">Jan 05, 2023</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/refinedev/refine">refinedev/refine</a><sup><sub> - TypeScript - Jan 20, 2021</sub></sup><br/><sup><sub>Tags: #admin #admin-ui #ant-design #crud #developer-tools #frontend-framework #good-first-issue #graphql #hacktoberfest<br/>#headless #internal-tools #javascript #low-code #nestjs #nextjs #open-source-project #react #react-framework #react-hooks<br/>#typescript</sub></sup><br/>A React Framework for building  internal tools, admin panels, dashboards<br/>&amp; B2B apps with unmatched flexibility. </td>
-  <td><a href="./stars/refinedev/refine.md">Jan 05, 2023</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/codeque-co/codeque">codeque-co/codeque</a><sup><sub> - TypeScript - Jun 20, 2022</sub></sup><br/>Find and lint complex code patterns effortlessly. </td>
-  <td><a href="./stars/codeque-co/codeque.md">Jan 05, 2023</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
   </tr>
 </table>
 <!-- end-doc-gen -->
