@@ -21,7 +21,7 @@ I fancy myself a GitHub spelunker. Through my journeys I find a lot of cool pack
 
 Below is an index to quickly CTRL+F to find them.
 
-Total Stars: <!-- doc-gen STAR_COUNT -->6,435<!-- end-doc-gen -->
+Total Stars: <!-- doc-gen STAR_COUNT -->6,451<!-- end-doc-gen -->
 
 Full list here: https://davidwells.github.io/stars
 
@@ -30,6 +30,70 @@ Full list here: https://davidwells.github.io/stars
   <tr>
   <th align="left">Repo</th>
   <th align="center">Starred On</th>
+  </tr>
+  <tr>
+  <td><a href="https://github.com/BetaHuhn/repo-file-sync-action">BetaHuhn/repo-file-sync-action</a><sup><sub> - JavaScript - Jan 07, 2021</sub></sup><br/><sup><sub>Tags: #file-sync #github-action-workflow-sync #github-actions #github-workflow #sync #sync-action #workflow-files<br/>#workflow-sync</sub></sup><br/>🔄 GitHub Action to keep files like Action workflows or entire directories<br/>in sync between multiple repositories. </td>
+  <td><a href="./stars/BetaHuhn/repo-file-sync-action.md">May 24, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
+  </tr>
+  <tr>
+  <td><a href="https://github.com/avizway1/aws-interview-questions">avizway1/aws-interview-questions</a><sup><sub> - Sep 27, 2023</sub></sup></td>
+  <td><a href="./stars/avizway1/aws-interview-questions.md">May 24, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
+  </tr>
+  <tr>
+  <td><a href="https://github.com/Developer-Y/Scalable-Software-Architecture">Developer-Y/Scalable-Software-Architecture</a><sup><sub> - Oct 08, 2016</sub></sup><br/>Collection of tech talks, papers and web links on Distributed Systems,<br/>Scalability and System Design. </td>
+  <td><a href="./stars/Developer-Y/Scalable-Software-Architecture.md">May 24, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
+  </tr>
+  <tr>
+  <td><a href="https://github.com/shashank88/system_design">shashank88/system_design</a><sup><sub> - Jun 19, 2015</sub></sup><br/><sup><sub>Tags: #architecture #concurrency #engineering #facebook #interview #interview-preparation #interview-preparation-resources<br/>#interview-questions #preparation #scalability #scale-systems #system-design</sub></sup><br/>Preparation links and resources for system design questions. </td>
+  <td><a href="./stars/shashank88/system_design.md">May 24, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
+  </tr>
+  <tr>
+  <td><a href="https://github.com/ekristen/aws-nuke">ekristen/aws-nuke</a><sup><sub> - Go - Nov 19, 2021</sub></sup><br/><sup><sub>Tags: #aws #cli #cosign #github-actions #goreleaser #libnuke #mkdocs #mkdocs-material</sub></sup><br/>Remove all the resources from an AWS account. </td>
+  <td><a href="./stars/ekristen/aws-nuke.md">May 24, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
+  </tr>
+  <tr>
+  <td><a href="https://github.com/ccbrown/cloud-snitch">ccbrown/cloud-snitch</a><sup><sub> - TypeScript - Mar 05, 2025</sub></sup><br/><sup><sub>Tags: #aws #cloud #cloudtrail #golang #monitoring #nextjs #security #typescript</sub></sup><br/>Map visualization and firewall for AWS activity, inspired by Little Snitch<br/>for macOS. </td>
+  <td><a href="./stars/ccbrown/cloud-snitch.md">May 24, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
+  </tr>
+  <tr>
+  <td><a href="https://github.com/maslianok/react-resize-detector">maslianok/react-resize-detector</a><sup><sub> - TypeScript - Nov 19, 2015</sub></sup><br/><sup><sub>Tags: #cross-browser #react #react-resize-observer #resize #resize-events #resizeable #resizeobserver #resizer<br/>#resizes</sub></sup><br/>A Cross-Browser, Event-based, Element Resize Detection for React. </td>
+  <td><a href="./stars/maslianok/react-resize-detector.md">May 24, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
+  </tr>
+  <tr>
+  <td><a href="https://github.com/arlac77/one-time-execution-method">arlac77/one-time-execution-method</a><sup><sub> - JavaScript - Apr 02, 2020</sub></sup><br/>define a method that will be executed only once. </td>
+  <td><a href="./stars/arlac77/one-time-execution-method.md">May 24, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
+  </tr>
+  <tr>
+  <td><a href="https://github.com/arlac77/github-repository-provider">arlac77/github-repository-provider</a><sup><sub> - JavaScript - Nov 16, 2017</sub></sup><br/><sup><sub>Tags: #github</sub></sup><br/>repository provider for github. </td>
+  <td><a href="./stars/arlac77/github-repository-provider.md">May 24, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
+  </tr>
+  <tr>
+  <td><a href="https://github.com/arlac77/hinted-tree-merger">arlac77/hinted-tree-merger</a><sup><sub> - JavaScript - Aug 09, 2019</sub></sup><br/>merges two trees guided with hints. </td>
+  <td><a href="./stars/arlac77/hinted-tree-merger.md">May 24, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
+  </tr>
+  <tr>
+  <td><a href="https://github.com/template-tools/template-sync">template-tools/template-sync</a><sup><sub> - JavaScript - Sep 27, 2016</sub></sup><br/><sup><sub>Tags: #bitbucket #boilerplate #github #gitignore #npm #npmignore #pull-requests #scaffolding #template #travis</sub></sup><br/>Keep repository in sync with its template. </td>
+  <td><a href="./stars/template-tools/template-sync.md">May 24, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
+  </tr>
+  <tr>
+  <td><a href="https://github.com/pinojs/sonic-boom">pinojs/sonic-boom</a><sup><sub> - JavaScript - Dec 13, 2017</sub></sup><br/>Extremely fast utf8 only stream implementation. </td>
+  <td><a href="./stars/pinojs/sonic-boom.md">May 22, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
+  </tr>
+  <tr>
+  <td><a href="https://github.com/iannuttall/mcp-boilerplate">iannuttall/mcp-boilerplate</a><sup><sub> - TypeScript - May 07, 2025</sub></sup><br/>A remote Cloudflare MCP server boilerplate with user authentication and<br/>Stripe for paid tools. </td>
+  <td><a href="./stars/iannuttall/mcp-boilerplate.md">May 21, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
+  </tr>
+  <tr>
+  <td><a href="https://github.com/silk-hq/basic-examples-css">silk-hq/basic-examples-css</a><sup><sub> - TypeScript - Mar 25, 2025</sub></sup></td>
+  <td><a href="./stars/silk-hq/basic-examples-css.md">May 18, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
+  </tr>
+  <tr>
+  <td><a href="https://github.com/nolimits4web/swiper">nolimits4web/swiper</a><sup><sub> - JavaScript - Mar 14, 2012</sub></sup><br/><sup><sub>Tags: #carousel #gallery #mobile #slider #swipe #swiper #touch #touch-events</sub></sup><br/>Most modern mobile touch slider with hardware accelerated transitions. </td>
+  <td><a href="./stars/nolimits4web/swiper.md">May 18, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
+  </tr>
+  <tr>
+  <td><a href="https://github.com/barvian/number-flow">barvian/number-flow</a><sup><sub> - TypeScript - Jul 15, 2024</sub></sup><br/><sup><sub>Tags: #accessible #animation #odometer #react #svelte #vue</sub></sup><br/>An animated number component for React, Vue, Svelte, and TS/JS. </td>
+  <td><a href="./stars/barvian/number-flow.md">May 18, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
   </tr>
   <tr>
   <td><a href="https://github.com/Redocly/repo-file-sync-action">Redocly/repo-file-sync-action</a><sup><sub> - JavaScript - Jun 08, 2021</sub></sup><br/>GitHub Action that sync&#039;s two (or more) repos. </td>
@@ -3966,70 +4030,6 @@ Full list here: https://davidwells.github.io/stars
   <tr>
   <td><a href="https://github.com/nicholidev/country-cities">nicholidev/country-cities</a><sup><sub> - TypeScript - Jan 11, 2023</sub></sup><br/><sup><sub>Tags: #cities #counties #nodejs #npm #npm-package #states</sub></sup><br/>Countries, States, Cities. </td>
   <td><a href="./stars/nicholidev/country-cities.md">Jan 22, 2023</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/sls-mentor/sls-mentor">sls-mentor/sls-mentor</a><sup><sub> - TypeScript - May 20, 2022</sub></sup><br/><sup><sub>Tags: #analysis #audit #aws #best-practices #compliance #cost-optimization #dynamodb #lambda #learn #s3 #security #serverless<br/>#sns #sqs</sub></sup><br/>Analyze your AWS serverless app in one command! 30+ best practices to<br/>improve costs💰 security🛡 stability🧘‍♀️ speed🚀 and sustainability🌱. </td>
-  <td><a href="./stars/sls-mentor/sls-mentor.md">Jan 22, 2023</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/divriots/jampack">divriots/jampack</a><sup><sub> - TypeScript - Sep 19, 2022</sub></sup><br/><sup><sub>Tags: #blog #jamstack #node #static-site #static-site-building #static-site-generator</sub></sup><br/>Optimizes static websites for best user experience and best Core Web Vitals<br/>scores. </td>
-  <td><a href="./stars/divriots/jampack.md">Jan 19, 2023</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/christianvoigt/argdown">christianvoigt/argdown</a><sup><sub> - JavaScript - Mar 21, 2014</sub></sup><br/><sup><sub>Tags: #argdown #argument-mapping #argument-maps #grammar #javascript #parse</sub></sup><br/>a simple syntax for complex argumentation. </td>
-  <td><a href="./stars/christianvoigt/argdown.md">Jan 19, 2023</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/antfu/pnpm-patch-i">antfu/pnpm-patch-i</a><sup><sub> - TypeScript - Jan 17, 2023</sub></sup><br/><sup><sub>Tags: #patch-management #pnpm</sub></sup><br/>A better and interactive pnpm patch. </td>
-  <td><a href="./stars/antfu/pnpm-patch-i.md">Jan 17, 2023</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/astuyve/serverless-cloudformation-changesets-v3">astuyve/serverless-cloudformation-changesets-v3</a><sup><sub> - JavaScript - Jan 05, 2023</sub></sup><br/>Natively deploy to CloudFormation via Change sets, instead of directly.<br/>Allowing you to queue changes, and safely require escalated roles for final<br/>deployment. Updated to support serverless v3. </td>
-  <td><a href="./stars/astuyve/serverless-cloudformation-changesets-v3.md">Jan 16, 2023</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/astuyve/serverless-run-watch">astuyve/serverless-run-watch</a><sup><sub> - JavaScript - Jan 09, 2023</sub></sup><br/><sup><sub>Tags: #lambda #serverless #serverless-framework</sub></sup><br/>Cloud-local developer experience for Serverless. Single-digit second<br/>deploys, and logs streamed from CloudWatch straight to your terminal. </td>
-  <td><a href="./stars/astuyve/serverless-run-watch.md">Jan 13, 2023</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/Codefend/core">Codefend/core</a><sup><sub> - TypeScript - Jan 03, 2023</sub></sup><br/><sup><sub>Tags: #angular #arduino #nuxt #obfuscator #python #react #svelte #uglify #vue</sub></sup><br/>Code obfuscator CLI that protects your code regardless of the programming<br/>language or framework. </td>
-  <td><a href="./stars/Codefend/core.md">Jan 13, 2023</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/wbkd/awesomer">wbkd/awesomer</a><sup><sub> - JavaScript - Jun 13, 2018</sub></sup><br/>Turn your awesome list into an HTTP API. </td>
-  <td><a href="./stars/wbkd/awesomer.md">Jan 13, 2023</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/zenoamaro/react-quill">zenoamaro/react-quill</a><sup><sub> - JavaScript - Nov 07, 2014</sub></sup><br/><sup><sub>Tags: #editor #quill #react #rich-text-editor #wysiwyg-editor</sub></sup><br/>A Quill component for React. </td>
-  <td><a href="./stars/zenoamaro/react-quill.md">Jan 11, 2023</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/allenheltondev/serverless-newsletter-app">allenheltondev/serverless-newsletter-app</a><sup><sub> - JavaScript - Dec 21, 2022</sub></sup><br/>Open Source project that uses SendGrid to publish newsletters via a dynamic<br/>template. </td>
-  <td><a href="./stars/allenheltondev/serverless-newsletter-app.md">Jan 11, 2023</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/tolustar/curl-to-json-object">tolustar/curl-to-json-object</a><sup><sub> - JavaScript - Mar 19, 2021</sub></sup></td>
-  <td><a href="./stars/tolustar/curl-to-json-object.md">Jan 11, 2023</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/xobotyi/bem">xobotyi/bem</a><sup><sub> - TypeScript - Jun 10, 2020</sub></sup><br/>The fastest BEM class name generator. </td>
-  <td><a href="./stars/xobotyi/bem.md">Jan 11, 2023</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/DerZade/typescript-event-target">DerZade/typescript-event-target</a><sup><sub> - TypeScript - Mar 23, 2022</sub></sup><br/><sup><sub>Tags: #event-target #typed #typescript</sub></sup><br/>Strictly typed EventTarget that directly extends EventTarget to function as<br/>a drop-in replacement. It works with all Event-Types and accounts for<br/>basically no additional bundle-size. </td>
-  <td><a href="./stars/DerZade/typescript-event-target.md">Jan 11, 2023</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/privatenumber/clean-pkg-json">privatenumber/clean-pkg-json</a><sup><sub> - TypeScript - Jul 06, 2022</sub></sup><br/><sup><sub>Tags: #clean #hook #npm #package-json #prepublish</sub></sup><br/>Script to remove unnecessary properties from package.json on prepublish<br/>hook. </td>
-  <td><a href="./stars/privatenumber/clean-pkg-json.md">Jan 09, 2023</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/privatenumber/pkgroll">privatenumber/pkgroll</a><sup><sub> - TypeScript - Mar 31, 2022</sub></sup><br/><sup><sub>Tags: #bundler #cjs #commonjs #declaration #dts #esm #exports #javascript #noconfig #nodejs #rollup #typescript<br/>#zero-config</sub></sup><br/>📦  Zero-config package bundler for Node.js + TypeScript. </td>
-  <td><a href="./stars/privatenumber/pkgroll.md">Jan 09, 2023</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/artalar/act">artalar/act</a><sup><sub> - TypeScript - Jan 05, 2023</sub></sup><br/><sup><sub>Tags: #react #reactive</sub></sup><br/>Act is the most efficient reactive state library in both: speed, size,<br/>correctness. </td>
-  <td><a href="./stars/artalar/act.md">Jan 06, 2023</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
   </tr>
 </table>
 <!-- end-doc-gen -->
