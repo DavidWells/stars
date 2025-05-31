@@ -2,10 +2,10 @@ import ghPages from 'gh-pages'
 import { generateStaticSite } from '../src/utils/generate-site.js'
 import { SITE_DIRECTORY } from '../src/_constants.js'
 
-async function buildAndDeploy() {
+async function buildAndDeploy(username) {
   /* Generate the static site */
   console.log('Generating static site...')
-  await generateStaticSite()
+  await generateStaticSite(username)
 
   /* Deploy the static site */
   try {
@@ -41,4 +41,5 @@ async function deploy() {
   })
 }
 
-buildAndDeploy()
+const username = process.argv[2] || process.env.GITHUB_USERNAME || 'davidwells'
+buildAndDeploy(username)
