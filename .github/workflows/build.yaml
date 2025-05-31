@@ -42,6 +42,7 @@ jobs:
 
       - run: pnpm run deploy
         env:
+          GITHUB_USERNAME: ${{ secrets.GH_USERNAME }}
           GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
 
       - name: Commit & Push changes
