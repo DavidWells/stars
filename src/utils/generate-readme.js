@@ -3,7 +3,7 @@ import safe from 'safe-await'
 import { markdownMagic, stringUtils } from 'markdown-magic'
 import { getSavedJSONFileData, getSavedMdFileData } from './fs.js'
 import { getStarCount } from './github-api.js'
-import { README_FILEPATH, GITHUB_USERNAME, ROOT_DIRECTORY, getMarkdownDir } from '../_constants.js'
+import { README_FILEPATH, GITHUB_USERNAME, ROOT_DIRECTORY, getMarkdownDir, getReadmePath } from '../_constants.js'
 import { mkdir, writeFile, access } from 'fs/promises'
 
 const EMPTY_WHITE_SPACE_CHAR = '‎'
@@ -112,8 +112,9 @@ tags:
 
 async function generateMarkdownTable(opts) {
   const options = opts || {}
+  const mdPath = getMarkdownDir(opts.username)
   /* Hey now you're an all star */
-  const allStars = (await getSavedMdFileData(opts.markdownOutputDir)).map(({ frontmatter }) => {
+  const allStars = (await getSavedMdFileData(mdPath)).map(({ frontmatter }) => {
     return frontmatter
   })
   console.log('getAllStars', allStars.length)
@@ -145,7 +146,7 @@ async function generateMarkdownTable(opts) {
     console.log('privateRepos', privateRepos)
   }
 
-  const readmePath = (opts.markdownOutputDir) ? path.join(opts.markdownOutputDir, '_index.md') : README_FILEPATH
+  const readmePath = getReadmePath(opts.username)
   console.log('readmePath', readmePath)
   await ensureReadmeExists(readmePath)
 
@@ -267,7 +268,6 @@ if (process.argv[1] === new URL(import.meta.url).pathname) {
   const results = await generateMarkdownTable({
     username,
     excludePrivateRepos: true,
-    markdownOutputDir: getMarkdownDir(username)
   })
   console.log(results.results[0].outputPath)
 }

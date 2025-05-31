@@ -26,9 +26,18 @@ function getMarkdownDir(username = GITHUB_USERNAME) {
   return path.join(ROOT_DIRECTORY, `stars-${username}`)
 }
 
+function getReadmePath(username = GITHUB_USERNAME) {
+  if (process.env.GITHUB_USERNAME && process.env.CI) {
+    console.log('CI is true, root README:', README_FILEPATH)
+    return README_FILEPATH
+  }
+  return path.join(getMarkdownDir(username), '_index.md')
+}
+
 export {
   fileURLToPath,
   getMarkdownDir,
+  getReadmePath,
   ROOT_DIRECTORY,
   GITHUB_TOKEN,
   GITHUB_USERNAME,

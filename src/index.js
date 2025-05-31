@@ -361,7 +361,7 @@ export async function collect({
 
   await generateMarkdownTable({
     excludePrivateRepos: true,
-    markdownOutputDir: MD_DIR,
+    username,
   })
 
   /* Half the rate limit per hour. to avoid rate limit */
