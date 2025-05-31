@@ -11,23 +11,30 @@ import {
 
 const STATE_FILENAME = 'state.json'
 
+function getStateFilePath(cacheDir, username) {
+  return path.join(cacheDir, `state-${username}.json`)
+}
+
 function formatRepoName(fileName) {
   return fileName.replace('.json', '').replace(SLASH_REPLACEMENT, '/')
 }
 
-async function saveState(state, cacheDir = CACHE_DIRECTORY) {
-  const stateFilePath = path.join(cacheDir, STATE_FILENAME)
+async function saveState(state, cacheDir = CACHE_DIRECTORY, username) {
+  const stateFilePath = getStateFilePath(cacheDir, username)
   await fs.writeFile(stateFilePath, JSON.stringify(state, null, 2))
 }
 
-async function getState(cacheDir = CACHE_DIRECTORY) {
-  const stateFilePath = path.join(cacheDir, STATE_FILENAME)
+async function getState(cacheDir = CACHE_DIRECTORY, username) {
+  const stateFilePath = getStateFilePath(cacheDir, username)
   const state = await fs.readFile(stateFilePath, 'utf8')
   return JSON.parse(state)
 }
 
-async function getSavedMdFilePaths(markdownOutputDir = STARS_DIRECTORY) {
-  console.log('Getting saved md file paths...', markdownOutputDir)
+async function getSavedMdFilePaths(markdownOutputDir) {
+  if (!markdownOutputDir) {
+    throw new Error('markdownOutputDir is required')
+  }
+  console.log('Star output dir: ', markdownOutputDir)
   try {
     // Get all .md files recursively
     const files = await fs.readdir(markdownOutputDir, { recursive: true })
@@ -56,7 +63,7 @@ async function getSavedMdFilePaths(markdownOutputDir = STARS_DIRECTORY) {
   }
 }
 
-async function getSavedMdFileData(markdownOutputDir = STARS_DIRECTORY) {
+async function getSavedMdFileData(markdownOutputDir) {
   try {
     // Get all markdown file paths first
     const mdFiles = await getSavedMdFilePaths(markdownOutputDir)
@@ -125,7 +132,7 @@ async function getCleanedRepoNames() {
 
 function getUserCacheDir(cacheDir, username) {
   const jsonCacheDir = path.join(cacheDir, username)
-  console.log('User Cache Dir', jsonCacheDir)
+  console.log('User cache dir:  ', jsonCacheDir)
   return jsonCacheDir
 }
 
@@ -232,7 +239,6 @@ async function initDirectories(markdownOutputDir, cacheDir, username) {
   await fs.ensureDir(cacheDir)
   await fs.ensureDir(markdownOutputDir)
   const jsonCacheDir = getUserCacheDir(cacheDir, username)
-  console.log('jsonCacheDir', jsonCacheDir)
   await fs.ensureDir(jsonCacheDir)
 }
 

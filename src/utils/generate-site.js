@@ -2,12 +2,13 @@ import fs from 'fs-extra'
 import path from 'path'
 import { getSavedJSONFileData, getSavedMdFileData } from './fs.js'
 import { createStarTable } from './generate-readme.js'
-import { SITE_DIRECTORY } from '../_constants.js'
+import { getMarkdownDir, SITE_DIRECTORY } from '../_constants.js'
 
-async function generateStaticSite() {
+async function generateStaticSite(username) {
+  const markdownDir = getMarkdownDir(username)
   try {
     // Get the stars data
-    const allStars = (await getSavedMdFileData()).map(({ frontmatter }) => {
+    const allStars = (await getSavedMdFileData(markdownDir)).map(({ frontmatter }) => {
       return frontmatter
     })
     console.log('getAllStars', allStars.length)
@@ -39,7 +40,8 @@ async function generateStaticSite() {
 
 // Run if called directly
 if (process.argv[1] === new URL(import.meta.url).pathname) {
-  const result = await generateStaticSite()
+  const username = process.argv[2] || process.env.GITHUB_USERNAME || 'davidwells'
+  const result = await generateStaticSite(username)
   console.log(result)
 }
 

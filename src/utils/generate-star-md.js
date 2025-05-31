@@ -1,6 +1,5 @@
 import fs from 'fs-extra'
 import matter from 'gray-matter'
-import { STARS_DIRECTORY } from '../_constants.js'
 import { sortFrontmatterKeys } from './fs.js'
 
 async function saveReadMe(repo, readme, markdownOutputDir) {

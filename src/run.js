@@ -1,13 +1,15 @@
 import { collect } from './index.js'
-import path from 'path'
-import { ROOT_DIRECTORY } from './_constants.js'
+import { getMarkdownDir } from './_constants.js'
 
-const CUSTOM_USERNAME = process.env.GITHUB_USERNAME || 'davidwells'
-const CUSTOM_OUTPUT_DIRECTORY = path.join(ROOT_DIRECTORY, `stars-${CUSTOM_USERNAME}`)
+// Get username from CLI args, env var, or default
+const username = process.argv[2] || process.env.GITHUB_USERNAME || 'davidwells'
+const markdownOutputDir = getMarkdownDir(username)
 
 collect({
-  username: CUSTOM_USERNAME,
-  markdownOutputDir: CUSTOM_OUTPUT_DIRECTORY,
+  username,
+  markdownOutputDir,
 })
-.then(console.log)
+.then((result) => {
+  console.log('result', result)
+})
 .catch(console.error)

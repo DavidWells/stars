@@ -281,7 +281,10 @@ async function getStarCount(username) {
 
 // getStarCount('davidwells').then(console.log)
 
-async function getSavedMdFilePaths(markdownOutputDir = STARS_DIRECTORY) {
+async function getSavedMdFilePaths(markdownOutputDir) {
+  if (!markdownOutputDir) {
+    throw new Error('markdownOutputDir is required')
+  }
   try {
     // Get all .md files recursively
     const files = await fs.readdir(markdownOutputDir, { recursive: true })

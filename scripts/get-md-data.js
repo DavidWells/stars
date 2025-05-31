@@ -1,8 +1,13 @@
 import { getSavedMdFileData } from '../src/utils/fs.js'
+import { getMarkdownDir } from '../src/_constants.js'
 
-async function displayMdData() {
+async function displayMdData(username) {
+  const markdownDir = getMarkdownDir(username)
+  if (!markdownDir) {
+    throw new Error('markdownOutputDir is required')
+  }
   console.log('Fetching markdown file data...')
-  const mdFiles = await getSavedMdFileData()
+  const mdFiles = await getSavedMdFileData(markdownDir)
   
   console.log('\nSummary:')
   console.log('========')
@@ -80,7 +85,8 @@ async function displayMdData() {
 
 // Run if called directly
 if (process.argv[1] === new URL(import.meta.url).pathname) {
-  displayMdData().catch(console.error)
+  const username = process.argv[2] || process.env.GITHUB_USERNAME || 'davidwells'
+  displayMdData(username).catch(console.error)
 }
 
 export { displayMdData } 

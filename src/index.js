@@ -8,7 +8,6 @@ import { saveReadMe } from './utils/generate-star-md.js'
 import { getStarredRepos, getReadMe, getStarCount } from './utils/github-api.js'
 import { saveToJSONFile } from './utils/generate-json.js'
 import { 
-  getCleanedRepoNames, 
   getSavedJSONFileData,
   getSavedMdFileData,
   initDirectories,
@@ -17,6 +16,7 @@ import {
   sortFrontmatterKeys 
 } from './utils/fs.js'
 import {
+  getMarkdownDir,
   GITHUB_TOKEN,
   GITHUB_USERNAME,
   STARS_DIRECTORY,
@@ -164,7 +164,7 @@ export async function collect({
   maxPages = Infinity,
   forceRepoDataRefresh = false,
   forceReadmeRefresh = false,
-  markdownOutputDir = STARS_DIRECTORY,
+  markdownOutputDir,
   cacheDir = CACHE_DIRECTORY
 }) {
   const PAGE_START = pageStart || 1
@@ -172,7 +172,13 @@ export async function collect({
   const FORCE_REPO_DATA_REFRESH = forceRepoDataRefresh || false
   const FORCE_README_REFRESH = forceReadmeRefresh || false
 
-  if (!markdownOutputDir) {
+  if (!username) {
+    throw new Error('username is required')
+  }
+
+  const MD_DIR = markdownOutputDir || getMarkdownDir(username)
+
+  if (!MD_DIR) {
     throw new Error('markdownOutputDir is required')
   }
 
@@ -181,14 +187,14 @@ export async function collect({
   }
 
   /* Initialize directories, if they don't exist */
-  await initDirectories(markdownOutputDir, cacheDir, username)
+  await initDirectories(MD_DIR, cacheDir, username)
 
-  const existingStarMdData = (await getSavedMdFileData(markdownOutputDir))
+  const existingStarMdData = (await getSavedMdFileData(MD_DIR))
   // .filter(({ frontmatter }) => {
   //   return frontmatter.isPublic
   // })
 
-  console.log('existingStarMdData', existingStarMdData.length)
+  console.log('Local stars found: ', existingStarMdData.length)
   // console.log('existingStarMdData[0]', existingStarMdData[0])
   // process.exit(1)
 
@@ -208,19 +214,28 @@ export async function collect({
   /* We have all the Markdown files, so instead refresh the readmes */
   if ((existingStarMdData.length >= totalStars)) {
     const readMesWeNeed = existingStarMdData
-      .filter(({ frontmatter }) => {
+      .filter((obj) => {
+        const frontmatter = obj.frontmatter
         // TODO check refreshedAt timestamp
         return !frontmatter.hasOwnProperty(README_FRONTMATTER_KEY)
       })
-      .map(({ frontmatter }) => {
-        return frontmatter
+      .filter((obj) => {
+        const hasFrontmatter = Object.keys(obj.frontmatter).length > 0
+        if (!hasFrontmatter && !obj.path.endsWith('_index.md')) {
+          console.warn(`Missing frontmatter on ${obj.path}`)
+        }
+        return hasFrontmatter
+      })
+      .map((obj) => {
+        console.log('obj', obj)
+        return obj.frontmatter
       }) // .slice(0, 10)
 
     if (readMesWeNeed.length > 0) {
       console.log('Refreshing readmes for', readMesWeNeed.length, 'repos')
-      const paths = await getReadmeData(readMesWeNeed, FORCE_README_REFRESH, markdownOutputDir)
+      console.log('readMesWeNeed', readMesWeNeed)
+      const paths = await getReadMeData(readMesWeNeed, FORCE_README_REFRESH, MD_DIR)
       console.log('readmes refreshed', paths.length)
-      return
     }
     console.log('No new stars found. exiting...')
     return
@@ -279,7 +294,7 @@ export async function collect({
     
     // Generate and save markdown with frontmatter
     const repoData = repo.repo || repo
-    const mdPath = `${markdownOutputDir}/${repoData.full_name}.md`
+    const mdPath = `${MD_DIR}/${repoData.full_name}.md`
 
     // Prepare new frontmatter
     const newFrontmatter = {
@@ -345,7 +360,8 @@ export async function collect({
   // console.log('filePaths', filePaths)
 
   await generateMarkdownTable({
-    excludePrivateRepos: true
+    excludePrivateRepos: true,
+    markdownOutputDir: MD_DIR,
   })
 
   /* Half the rate limit per hour. to avoid rate limit */
@@ -353,11 +369,13 @@ export async function collect({
 
   /* Resolve un-fetched readmes */
   const readMesWeNeed = (
-    await readMesToFetch(githubStarData.newRepos, FORCE_README_REFRESH, markdownOutputDir)
+    await readMesToFetch(githubStarData.newRepos, FORCE_README_REFRESH, MD_DIR)
   ).slice(0, GITHUB_API_LIMIT)
   console.log('Repos that need a README saved', readMesWeNeed.length)
 
-  const readMePaths = await getReadmeData(readMesWeNeed, FORCE_README_REFRESH)
+  console.log('readMesWeNeed', readMesWeNeed)
+
+  const readMePaths = await getReadMeData(readMesWeNeed, FORCE_README_REFRESH, MD_DIR)
 
   console.log(`Wrote ${readMePaths.length} README files`)
 
@@ -365,11 +383,17 @@ export async function collect({
     console.log('Rate limit reached, stopping here')
     // process.exit(1)
   }
+
+  return {
+    filePaths,
+    readMePaths,
+    state
+  }
 }
 
 const limit = pLimit(3)
 
-async function getReadmeData(readMesWeNeed, refresh = false, markdownOutputDir) {
+async function getReadMeData(readMesWeNeed, refresh = false, markdownOutputDir) {
   const readMePaths = await Promise.all(
     readMesWeNeed.map((repo) => {
       return limit(async () => {

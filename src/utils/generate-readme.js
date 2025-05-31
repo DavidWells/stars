@@ -1,8 +1,10 @@
-import { markdownMagic, stringUtils } from 'markdown-magic'
+import path from 'path'
 import safe from 'safe-await'
+import { markdownMagic, stringUtils } from 'markdown-magic'
 import { getSavedJSONFileData, getSavedMdFileData } from './fs.js'
 import { getStarCount } from './github-api.js'
-import { README_FILEPATH, GITHUB_USERNAME } from '../_constants.js'
+import { README_FILEPATH, GITHUB_USERNAME, ROOT_DIRECTORY, getMarkdownDir } from '../_constants.js'
+import { mkdir, writeFile, access } from 'fs/promises'
 
 const EMPTY_WHITE_SPACE_CHAR = '‎'
 const BRAIL_SPACE = '⠀'
@@ -27,6 +29,13 @@ function createStarTable(sortedByStarredDate, datePadding = true, maxWidth = MAX
   </tr>`
 
   sortedByStarredDate.forEach((data, i) => {
+    //console.log('data', data)
+    // Skip items missing required properties
+    if (!data || !data.repo) {
+      console.warn('Skipping item missing required repo property:', data)
+      return
+    }
+
     const { repo, description, starredAt, createdAt, tags } = data
     const url = `https://github.com/${repo}`
     const desc = (data.description || '').trim().replace(/\.$/, '')
@@ -104,13 +113,14 @@ tags:
 async function generateMarkdownTable(opts) {
   const options = opts || {}
   /* Hey now you're an all star */
-  const allStars = (await getSavedMdFileData()).map(({ frontmatter }) => {
+  const allStars = (await getSavedMdFileData(opts.markdownOutputDir)).map(({ frontmatter }) => {
     return frontmatter
   })
   console.log('getAllStars', allStars.length)
 
   let sortedByStarredDate = allStars
     .sort((a, b) => new Date(b.starredAt) - new Date(a.starredAt))
+    .filter(Boolean)
     .map((repo) => {
       return {
         ...repo,
@@ -134,12 +144,17 @@ async function generateMarkdownTable(opts) {
     console.log('Filtered out private repos', privateRepos.length)
     console.log('privateRepos', privateRepos)
   }
-  return markdownMagic(README_FILEPATH, {
+
+  const readmePath = (opts.markdownOutputDir) ? path.join(opts.markdownOutputDir, '_index.md') : README_FILEPATH
+  console.log('readmePath', readmePath)
+  await ensureReadmeExists(readmePath)
+
+  return markdownMagic(readmePath, {
     // debug: true,
     transforms: {
       STAR_COUNT: async function () {
         if (process.env.GITHUB_TOKEN) {
-          const [err, result ] = await safe(getStarCount(GITHUB_USERNAME))
+          const [err, result ] = await safe(getStarCount(opts.username || GITHUB_USERNAME))
           if (result) {
             return numberWithCommas(result.totalStars)
           }
@@ -154,7 +169,7 @@ async function generateMarkdownTable(opts) {
         let md = `| Repo | Starred On |\n`
         md += '|:-------------|:--------------:|\n'
         mostRecentRepos.forEach((data) => {
-          // console.log('item', item)
+          console.log('item', data)
           const { repo, description, starredAt, createdAt, tags } = data
           const url = `https://github.com/${repo}`
           const desc = (data.description || '').trim().replace(/\.$/, '')
@@ -181,6 +196,39 @@ async function generateMarkdownTable(opts) {
       },
     },
   })
+}
+
+async function ensureReadmeExists(readmePath) {
+  // Ensure the directory exists
+  try {
+    await mkdir(path.dirname(readmePath), { recursive: true })
+  } catch (err) {
+    if (err.code !== 'EEXIST') {
+      throw err
+    }
+  }
+
+  // Check if readme exists, if not create it with template
+  try {
+    await access(readmePath)
+  } catch (err) {
+    if (err.code === 'ENOENT') {
+      const template = `# GitHub Stars
+
+Total Stars: **<!-- doc-gen STAR_COUNT -->0<!-- end-doc-gen -->**
+
+## All Stars
+
+<!-- doc-gen ALL_STARS_TABLE -->
+stars will go here
+<!-- end-doc-gen -->
+`
+      await writeFile(readmePath, template)
+      console.log('Created new readme template at:', readmePath)
+    } else {
+      throw err
+    }
+  }
 }
 
 function tinyText(text, newLine = false) {
@@ -212,5 +260,17 @@ function formatDate(isoDate) {
     year: 'numeric',
   })
 }
+
+// Run if called directly
+if (process.argv[1] === new URL(import.meta.url).pathname) {
+  const username = process.argv[2] || process.env.GITHUB_USERNAME || 'davidwells'
+  const results = await generateMarkdownTable({
+    username,
+    excludePrivateRepos: true,
+    markdownOutputDir: getMarkdownDir(username)
+  })
+  console.log(results.results[0].outputPath)
+}
+
 
 export { generateMarkdownTable, createStarTable }
