@@ -1,8 +1,9 @@
 import { getSavedMdFilePaths } from '../src/utils/github-api.js'
+import { STARS_DIRECTORY } from '../src/_constants.js'
 
-async function countStarMdFiles() {
+async function countStarMdFiles(markdownOutputDir = STARS_DIRECTORY) {
   try {
-    const savedFiles = await getSavedMdFilePaths()
+    const savedFiles = await getSavedMdFilePaths(markdownOutputDir)
     
     // Get counts
     const totalFiles = savedFiles.length
@@ -40,11 +41,11 @@ async function countStarMdFiles() {
   }
 }
 
-
 // Run if called directly
 if (process.argv[1] === new URL(import.meta.url).pathname) {
   const result = await countStarMdFiles()
   console.log(result)
+  console.log(`${result.total} stars`)
 }
 
 export { countStarMdFiles } 

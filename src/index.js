@@ -11,8 +11,7 @@ import {
   getCleanedRepoNames, 
   getSavedJSONFileData,
   getSavedMdFileData,
-  initDirectories, 
-  resetDirectories,
+  initDirectories,
   readMesToFetch, 
   saveState,
   sortFrontmatterKeys 
@@ -21,11 +20,12 @@ import {
   GITHUB_TOKEN,
   GITHUB_USERNAME,
   STARS_DIRECTORY,
+  CACHE_DIRECTORY,
   README_FRONTMATTER_KEY
 } from './_constants.js'
 
 if (!GITHUB_TOKEN) {
-  throw new Error('GITHUB_TOKEN is not set')
+  // throw new Error('GITHUB_TOKEN is not set')
 }
 
 const { INITIAL_SEED } = process.env
@@ -39,7 +39,8 @@ async function getAllStars({
   maxPages = Infinity,
   delayPerPage = DELAY_PER_PAGE,
   dataFiles = [],
-  refreshAll = false
+  refreshAll = false,
+  cacheDir = CACHE_DIRECTORY,
 }) {
   const perPage = 100
   const allReposFound = []
@@ -112,7 +113,7 @@ async function getAllStars({
   }
 
   if (noNewStarsFound && !refreshAll) {
-    const persistedStars = await getSavedJSONFileData()
+    const persistedStars = await getSavedJSONFileData(cacheDir, username)
     return {
       repos: persistedStars,
       newRepos: newReposFound,
@@ -125,7 +126,7 @@ async function getAllStars({
 
   if (someNewStarsFound && !refreshAll) {
     // Combine persisted stars with new stars and make sure no duplicates
-    const persistedStars = await getSavedJSONFileData()
+    const persistedStars = await getSavedJSONFileData(cacheDir, username)
     const combinedStars = [...persistedStars, ...newReposFound]
     const uniqueStars = combinedStars.filter((star, index, self) => {
       const existingIndex = self.findIndex((t) => t.repo.full_name === star.repo.full_name)
@@ -157,16 +158,32 @@ async function getAllStars({
   }
 }
 
-async function collect(username) {
-  const PAGE_START = 1
-  const MAX_PAGES = Infinity
-  const FORCE_REPO_DATA_REFRESH = false
-  const FORCE_README_REFRESH = false
+export async function collect({ 
+  username = GITHUB_USERNAME,
+  pageStart = 1,
+  maxPages = Infinity,
+  forceRepoDataRefresh = false,
+  forceReadmeRefresh = false,
+  markdownOutputDir = STARS_DIRECTORY,
+  cacheDir = CACHE_DIRECTORY
+}) {
+  const PAGE_START = pageStart || 1
+  const MAX_PAGES = maxPages || Infinity
+  const FORCE_REPO_DATA_REFRESH = forceRepoDataRefresh || false
+  const FORCE_README_REFRESH = forceReadmeRefresh || false
+
+  if (!markdownOutputDir) {
+    throw new Error('markdownOutputDir is required')
+  }
+
+  if (!cacheDir) {
+    throw new Error('cacheDir is required')
+  }
 
   /* Initialize directories, if they don't exist */
-  await initDirectories()
+  await initDirectories(markdownOutputDir, cacheDir, username)
 
-  const existingStarMdData = (await getSavedMdFileData())
+  const existingStarMdData = (await getSavedMdFileData(markdownOutputDir))
   // .filter(({ frontmatter }) => {
   //   return frontmatter.isPublic
   // })
@@ -225,6 +242,7 @@ async function collect(username) {
     maxPages: MAX_PAGES,
     refreshAll: FORCE_REPO_DATA_REFRESH,
     dataFiles: existingStarDataFilePaths,
+    cacheDir,
   })
 
   console.log('All stars found', githubStarData.repos.length)
@@ -252,16 +270,16 @@ async function collect(username) {
   console.log('state', state)
 
   // Save lastPage and initialPage to file state.json file
-  await saveState(state)
+  await saveState(state, cacheDir)
 
   /* Process all repos found and save to JSON */
   const processFilesPromise = githubStarData.newRepos.map(async (repo) => {
     // Save JSON cache
-    const jsonPath = await saveToJSONFile(repo)
+    const jsonPath = await saveToJSONFile(repo, cacheDir, username)
     
     // Generate and save markdown with frontmatter
     const repoData = repo.repo || repo
-    const mdPath = `${STARS_DIRECTORY}/${repoData.full_name}.md`
+    const mdPath = `${markdownOutputDir}/${repoData.full_name}.md`
 
     // Prepare new frontmatter
     const newFrontmatter = {
@@ -335,7 +353,7 @@ async function collect(username) {
 
   /* Resolve un-fetched readmes */
   const readMesWeNeed = (
-    await readMesToFetch(githubStarData.newRepos, FORCE_README_REFRESH)
+    await readMesToFetch(githubStarData.newRepos, FORCE_README_REFRESH, markdownOutputDir)
   ).slice(0, GITHUB_API_LIMIT)
   console.log('Repos that need a README saved', readMesWeNeed.length)
 
@@ -372,7 +390,3 @@ async function getReadmeData(readMesWeNeed, refresh = false) {
 
   return readMePaths
 }
-
-collect(GITHUB_USERNAME).then(() => {
-  console.log('script done')
-})

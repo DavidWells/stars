@@ -22,7 +22,7 @@ async function getSelfStaredRepos(delayPerPage) {
         per_page: perPage,
       },
       headers: {
-        authorization: 'Bearer ' + process.env.GITHUB_TOKEN,
+        ...(process.env.GITHUB_TOKEN) ? { authorization: 'Bearer ' + process.env.GITHUB_TOKEN } : {},
         'user-agent': 'github-stars',
       },
       retry: 3,
@@ -52,11 +52,11 @@ function extractRateLimit(headers) {
   }
 }
 
-async function getReadMe(repo = {}, refresh) {
+async function getReadMe(repo = {}, refresh, markdownOutputDir = STARS_DIRECTORY) {
   const repoDetails = (repo && typeof repo.repo === 'object') ? repo.repo : repo
   const repoPath = repoDetails.full_name || repoDetails.fullName || repoDetails.repo
   const defaultBranch = repoDetails.default_branch || repoDetails.defaultBranch || repoDetails.branch || 'main'
-  const filePath = `${STARS_DIRECTORY}/${repoPath}.md`
+  const filePath = `${markdownOutputDir}/${repoPath}.md`
   
   // Check if file exists and has readme in frontmatter
   try {
@@ -80,7 +80,7 @@ async function getReadMe(repo = {}, refresh) {
   const [apiError, response] = await safe(
     $fetch.raw(`https://api.github.com/repos/${repoPath}/readme`, {
       headers: {
-        authorization: 'Bearer ' + process.env.GITHUB_TOKEN,
+        ...(process.env.GITHUB_TOKEN) ? { authorization: 'Bearer ' + process.env.GITHUB_TOKEN } : {},
         accept: 'application/vnd.github.raw+json',
         'user-agent': 'github-stars',
       },
@@ -128,12 +128,12 @@ async function getReadMe(repo = {}, refresh) {
 
 async function getRawReadMe(repoPath, branch = 'main', readmeFileName = 'README.md') {
   if (!repoPath) {
-    console.error(`Repo path is not set for ${repo}`)
+    console.error(`Repo path is not set for ${repoPath}`)
     return
   }
 
   if (!branch) {
-    console.error(`Branch is not set for ${repo}`)
+    console.error(`Branch is not set for ${repoPath}`)
     return
   }
 
@@ -154,7 +154,7 @@ async function getRawReadMe(repoPath, branch = 'main', readmeFileName = 'README.
 async function getRepoHash(repo, mainBranch = 'main') {
   const [err, data] = await safe($fetch(`https://api.github.com/repos/${repo}/commits/${mainBranch}`, {
     headers: {
-      authorization: 'Bearer ' + process.env.GITHUB_TOKEN,
+      ...(process.env.GITHUB_TOKEN) ? { authorization: 'Bearer ' + process.env.GITHUB_TOKEN } : {},
       'user-agent': 'github-stars',
     },
     retry: 3,
@@ -177,7 +177,7 @@ async function getGitHashFromDate(repo, date) {
         per_page: 1
       },
       headers: {
-        'authorization': 'Bearer ' + process.env.GITHUB_TOKEN,
+        ...(process.env.GITHUB_TOKEN) ? { authorization: 'Bearer ' + process.env.GITHUB_TOKEN } : {},
         'user-agent': 'github-stars',
       },
       retry: 3,
@@ -203,7 +203,7 @@ async function getStarredRepos(username, page = 1) {
       per_page: 100,
     },
     headers: {
-      authorization: 'Bearer ' + process.env.GITHUB_TOKEN,
+      ...(process.env.GITHUB_TOKEN) ? { authorization: 'Bearer ' + process.env.GITHUB_TOKEN } : {},
       Accept: 'application/vnd.github.v3.star+json',
       'user-agent': 'github-stars',
     },
@@ -248,7 +248,7 @@ async function getStarCount(username) {
       per_page: 1,
     },
     headers: {
-      authorization: 'Bearer ' + process.env.GITHUB_TOKEN,
+      ...(process.env.GITHUB_TOKEN) ? { authorization: 'Bearer ' + process.env.GITHUB_TOKEN } : {},
       Accept: 'application/vnd.github.v3.star+json',
       'user-agent': 'github-stars',
     },
@@ -281,10 +281,10 @@ async function getStarCount(username) {
 
 // getStarCount('davidwells').then(console.log)
 
-async function getSavedMdFilePaths() {
+async function getSavedMdFilePaths(markdownOutputDir = STARS_DIRECTORY) {
   try {
     // Get all .md files recursively
-    const files = await fs.readdir(STARS_DIRECTORY, { recursive: true })
+    const files = await fs.readdir(markdownOutputDir, { recursive: true })
     
     // Filter for .md files and format paths
     const mdFiles = files
@@ -296,7 +296,7 @@ async function getSavedMdFilePaths() {
         const [org, repo] = withoutExt.split('/')
         return {
           path: file,
-          fullPath: `${STARS_DIRECTORY}/${file}`,
+          fullPath: `${markdownOutputDir}/${file}`,
           org,
           repo,
           fullName: withoutExt

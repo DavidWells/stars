@@ -1,32 +1,36 @@
 import fs from 'fs-extra'
 import path from 'path'
 import matter from 'gray-matter'
-import { 
-  JSON_CACHE_DIRECTORY, 
+import {
+  CACHE_DIRECTORY,
   STARS_DIRECTORY, 
-  STATE_CACHE_FILEPATH,
   SLASH_REPLACEMENT,
-  README_FRONTMATTER_KEY
+  README_FRONTMATTER_KEY,
+  GITHUB_USERNAME
 } from '../_constants.js'
+
+const STATE_FILENAME = 'state.json'
 
 function formatRepoName(fileName) {
   return fileName.replace('.json', '').replace(SLASH_REPLACEMENT, '/')
 }
 
-async function saveState(state) {
-  await fs.writeFile(STATE_CACHE_FILEPATH, JSON.stringify(state, null, 2))
+async function saveState(state, cacheDir = CACHE_DIRECTORY) {
+  const stateFilePath = path.join(cacheDir, STATE_FILENAME)
+  await fs.writeFile(stateFilePath, JSON.stringify(state, null, 2))
 }
 
-async function getState() {
-  const state = await fs.readFile(STATE_CACHE_FILEPATH, 'utf8')
+async function getState(cacheDir = CACHE_DIRECTORY) {
+  const stateFilePath = path.join(cacheDir, STATE_FILENAME)
+  const state = await fs.readFile(stateFilePath, 'utf8')
   return JSON.parse(state)
 }
 
-async function getSavedMdFilePaths() {
-  console.log('Getting saved md file paths...', STARS_DIRECTORY)
+async function getSavedMdFilePaths(markdownOutputDir = STARS_DIRECTORY) {
+  console.log('Getting saved md file paths...', markdownOutputDir)
   try {
     // Get all .md files recursively
-    const files = await fs.readdir(STARS_DIRECTORY, { recursive: true })
+    const files = await fs.readdir(markdownOutputDir, { recursive: true })
     
     // Filter for .md files and format paths
     const mdFiles = files
@@ -38,7 +42,7 @@ async function getSavedMdFilePaths() {
         const [org, repo] = withoutExt.split('/')
         return {
           path: file,
-          fullPath: `${STARS_DIRECTORY}/${file}`,
+          fullPath: `${markdownOutputDir}/${file}`,
           org,
           repo,
           fullName: withoutExt
@@ -52,10 +56,10 @@ async function getSavedMdFilePaths() {
   }
 }
 
-async function getSavedMdFileData() {
+async function getSavedMdFileData(markdownOutputDir = STARS_DIRECTORY) {
   try {
     // Get all markdown file paths first
-    const mdFiles = await getSavedMdFilePaths()
+    const mdFiles = await getSavedMdFilePaths(markdownOutputDir)
     
     // Read and parse each file
     const mdFileData = await Promise.all(
@@ -119,11 +123,17 @@ async function getCleanedRepoNames() {
   return alreadyProcessedRepoNames
 }
 
-async function getSavedJSONFilePaths() {
+function getUserCacheDir(cacheDir, username) {
+  const jsonCacheDir = path.join(cacheDir, username)
+  console.log('User Cache Dir', jsonCacheDir)
+  return jsonCacheDir
+}
+
+async function getSavedJSONFilePaths(cacheDir, username) {
   let dataFiles = []
   try {
     // filter out any non .json files
-    dataFiles = await fs.readdir(JSON_CACHE_DIRECTORY)
+    dataFiles = await fs.readdir(getUserCacheDir(cacheDir, username))
     dataFiles = dataFiles.filter((file) => file.endsWith('.json'))
   } catch (e) {
     console.error(`Error reading data folder: ${e}`)
@@ -131,10 +141,10 @@ async function getSavedJSONFilePaths() {
   return dataFiles
 }
 
-async function getSavedJSONFileData() {
-  const repoFilePaths = await getSavedJSONFilePaths()
+async function getSavedJSONFileData(cacheDir, username) {
+  const repoFilePaths = await getSavedJSONFilePaths(cacheDir, username)
   const repoFileData = await Promise.all(repoFilePaths.map(async (filePath) => {
-    const data = await fs.readFile(path.join(JSON_CACHE_DIRECTORY, filePath), 'utf8')
+    const data = await fs.readFile(path.join(getUserCacheDir(cacheDir, username), filePath), 'utf8')
     try {
       const json = JSON.parse(data)
       return json
@@ -146,11 +156,11 @@ async function getSavedJSONFileData() {
   return repoFileData
 }
 
-async function readMesToFetch(githubStarData, refresh = false) {
+async function readMesToFetch(githubStarData, refresh = false, markdownOutputDir = STARS_DIRECTORY) {
   const results = await Promise.all(
     githubStarData.map(async (item) => {
       const repo = item.repo
-      const readmePath = `${STARS_DIRECTORY}/${repo.full_name}.md`
+      const readmePath = `${markdownOutputDir}/${repo.full_name}.md`
       try {
         const exists = await fs.pathExists(readmePath)
         if (!exists) {
@@ -212,14 +222,18 @@ async function fileDoesNotExist(filePath) {
   }
   return false
 }
-async function resetDirectories() {
-  await fs.remove(JSON_CACHE_DIRECTORY)
-  await fs.remove(STARS_DIRECTORY)
+
+async function resetDirectories(markdownOutputDir, cacheDir) {
+  await fs.remove(cacheDir)
+  await fs.remove(markdownOutputDir)
 }
 
-async function initDirectories() {
-  await fs.ensureDir(JSON_CACHE_DIRECTORY)
-  await fs.ensureDir(STARS_DIRECTORY)
+async function initDirectories(markdownOutputDir, cacheDir, username) {
+  await fs.ensureDir(cacheDir)
+  await fs.ensureDir(markdownOutputDir)
+  const jsonCacheDir = getUserCacheDir(cacheDir, username)
+  console.log('jsonCacheDir', jsonCacheDir)
+  await fs.ensureDir(jsonCacheDir)
 }
 
 /**

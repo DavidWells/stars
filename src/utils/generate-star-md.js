@@ -3,11 +3,11 @@ import matter from 'gray-matter'
 import { STARS_DIRECTORY } from '../_constants.js'
 import { sortFrontmatterKeys } from './fs.js'
 
-async function saveReadMe(repo, readme) {
+async function saveReadMe(repo, readme, markdownOutputDir = STARS_DIRECTORY) {
   const repoDetails = (repo && typeof repo.repo === 'object') ? repo.repo : repo
   const repoPath = repoDetails.full_name || repoDetails.fullName || repoDetails.repo
   const owner = (repoDetails.owner && repoDetails.owner.login) ? repoDetails.owner.login : repoDetails.repo.split('/')[0]
-  const readMePath = `${STARS_DIRECTORY}/${repoPath}.md`
+  const readMePath = `${markdownOutputDir}/${repoPath}.md`
 
   // Read existing frontmatter if file exists
   let existingFrontmatter = {}
@@ -37,7 +37,7 @@ async function saveReadMe(repo, readme) {
   const fileContent = matter.stringify(readmeText, sortedFrontmatter)
 
   // Ensure directory exists
-  await fs.ensureDir(`${STARS_DIRECTORY}/${owner}`)
+  await fs.ensureDir(`${markdownOutputDir}/${owner}`)
 
   return fs.writeFile(readMePath, fileContent).then(() => {
     return readMePath

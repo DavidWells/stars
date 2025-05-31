@@ -109,8 +109,6 @@ async function generateMarkdownTable(opts) {
   })
   console.log('getAllStars', allStars.length)
 
-
-
   let sortedByStarredDate = allStars
     .sort((a, b) => new Date(b.starredAt) - new Date(a.starredAt))
     .map((repo) => {
