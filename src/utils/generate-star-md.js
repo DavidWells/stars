@@ -3,7 +3,10 @@ import matter from 'gray-matter'
 import { STARS_DIRECTORY } from '../_constants.js'
 import { sortFrontmatterKeys } from './fs.js'
 
-async function saveReadMe(repo, readme, markdownOutputDir = STARS_DIRECTORY) {
+async function saveReadMe(repo, readme, markdownOutputDir) {
+  if (!markdownOutputDir) {
+    throw new Error('markdownOutputDir is required')
+  }
   const repoDetails = (repo && typeof repo.repo === 'object') ? repo.repo : repo
   const repoPath = repoDetails.full_name || repoDetails.fullName || repoDetails.repo
   const owner = (repoDetails.owner && repoDetails.owner.login) ? repoDetails.owner.login : repoDetails.repo.split('/')[0]

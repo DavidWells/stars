@@ -218,7 +218,7 @@ export async function collect({
 
     if (readMesWeNeed.length > 0) {
       console.log('Refreshing readmes for', readMesWeNeed.length, 'repos')
-      const paths = await getReadmeData(readMesWeNeed, FORCE_README_REFRESH)
+      const paths = await getReadmeData(readMesWeNeed, FORCE_README_REFRESH, markdownOutputDir)
       console.log('readmes refreshed', paths.length)
       return
     }
@@ -369,11 +369,11 @@ export async function collect({
 
 const limit = pLimit(3)
 
-async function getReadmeData(readMesWeNeed, refresh = false) {
+async function getReadmeData(readMesWeNeed, refresh = false, markdownOutputDir) {
   const readMePaths = await Promise.all(
     readMesWeNeed.map((repo) => {
       return limit(async () => {
-        const [readmeError, readmeData] = await safe(getReadMe(repo, refresh))
+        const [readmeError, readmeData] = await safe(getReadMe(repo, refresh, markdownOutputDir))
         const readmeContent = (readmeData && readmeData.content) || ''
         const rateLimit = readmeData && readmeData.rateLimit || {}
         if (rateLimit.remaining < 4) {
@@ -383,7 +383,7 @@ async function getReadmeData(readMesWeNeed, refresh = false) {
           console.log(`Pausing for ${delayMs}ms... Exit script and try again later or wait for rate limit reset.`)
           await delay(delayMs)
         }
-        return saveReadMe(repo, readmeContent)
+        return saveReadMe(repo, readmeContent, markdownOutputDir)
       })
     })
   )
