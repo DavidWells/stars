@@ -147,13 +147,14 @@ async function generateMarkdownTable(opts) {
   }
 
   const readmePath = getReadmePath(opts.username)
-  console.log('readmePath', readmePath)
+  console.log('README path:', readmePath)
   await ensureReadmeExists(readmePath)
 
   return markdownMagic(readmePath, {
     // debug: true,
     transforms: {
       STAR_COUNT: async function () {
+        /* Use API if available */
         if (process.env.GITHUB_TOKEN) {
           const [err, result ] = await safe(getStarCount(opts.username || GITHUB_USERNAME))
           if (result) {
