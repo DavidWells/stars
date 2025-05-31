@@ -233,7 +233,7 @@ export async function collect({
 
     if (readMesWeNeed.length > 0) {
       console.log('Refreshing readmes for', readMesWeNeed.length, 'repos')
-      console.log('readMesWeNeed', readMesWeNeed)
+      console.log('readMesWeNeed', readMesWeNeed.map(({ repo }) => repo.full_name))
       const paths = await getReadMeData(readMesWeNeed, FORCE_README_REFRESH, MD_DIR)
       console.log('readmes refreshed', paths.length)
     }
@@ -372,9 +372,7 @@ export async function collect({
     await readMesToFetch(githubStarData.newRepos, FORCE_README_REFRESH, MD_DIR)
   ).slice(0, GITHUB_API_LIMIT)
   console.log('Repos that need a README saved', readMesWeNeed.length)
-
-  console.log('readMesWeNeed', readMesWeNeed)
-
+  console.log('readMesWeNeed', readMesWeNeed.map(({ repo }) => repo.full_name))
   const readMePaths = await getReadMeData(readMesWeNeed, FORCE_README_REFRESH, MD_DIR)
 
   console.log(`Wrote ${readMePaths.length} README files`)
