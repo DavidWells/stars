@@ -25,6 +25,7 @@ cache
 site/stars-data.html
 stars-*
 .custom-cache
+stars/_index.md
 
 # Diagnostic reports (https://nodejs.org/api/report.html)
 report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json
