@@ -19,6 +19,7 @@ const JSON_CACHE_DIRECTORY = path.join(CACHE_DIRECTORY, JSON_CACHE_DIRECTORY_NAM
 const README_FRONTMATTER_KEY = 'hasReadMe'
 
 function getMarkdownDir(username = GITHUB_USERNAME) {
+  console.log('process.env.CI', process.env.CI)
   if (process.env.GITHUB_USERNAME && process.env.CI) {
     console.log('CI is true, using directory:', STARS_DIRECTORY)
     return STARS_DIRECTORY
