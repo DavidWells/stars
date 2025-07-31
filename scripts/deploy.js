@@ -26,7 +26,6 @@ async function buildAndDeploy(username) {
   try {
     console.log('Deploying to gh-pages...')
     await deploy()
-    console.log('Deploy complete!')
   } catch (err) {
     console.error('Failed to deploy:', err)
   }
@@ -45,7 +44,7 @@ async function deploy() {
     throw new Error('GITHUB_REPOSITORY is not set in the environment')
   }
 
-  console.log('Inside CI...')
+  console.log('Inside CI, triggering deploy job...')
   await ghPages.publish(SITE_DIRECTORY, {
     repo: `https://${process.env.GITHUB_TOKEN}@github.com/${process.env.GITHUB_REPOSITORY}.git`,
     user: {
@@ -54,6 +53,7 @@ async function deploy() {
     },
     silent: true // Prevents token from being exposed in logs
   })
+  console.log('Deploy started!')
 }
 
 const username = process.argv[2] || process.env.GITHUB_USERNAME || 'davidwells'
