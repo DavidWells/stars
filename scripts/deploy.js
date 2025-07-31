@@ -1,11 +1,25 @@
+import fs from 'fs-extra'
+import path from 'path'
 import ghPages from 'gh-pages'
 import { generateStaticSite } from '../src/utils/generate-site.js'
-import { SITE_DIRECTORY } from '../src/_constants.js'
+import { generateMarkdownTable } from '../src/utils/generate-readme.js'
+import { getMarkdownDir, SITE_DIRECTORY } from '../src/_constants.js'
 
 async function buildAndDeploy(username) {
   /* Generate the static site */
   console.log('Generating static site...')
   await generateStaticSite(username)
+
+  const markdownDir = getMarkdownDir(username)
+  /* Generate the README */
+  console.log('Generating README...')
+  await generateMarkdownTable({
+    excludePrivateRepos: true,
+    markdownOutputDir: markdownDir
+  })
+
+  /* copy the README to the site directory */
+  await fs.copy(path.join(markdownDir, 'README.md'), path.join(SITE_DIRECTORY, 'README.md'))
 
   /* Deploy the static site */
   try {

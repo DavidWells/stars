@@ -14,7 +14,7 @@ async function generateStaticSite(username) {
     console.log('getAllStars', allStars.length)
 
     let sortedByStarredDate = allStars
-      .sort((a, b) => new Date(b.starredAt) - new Date(a.starredAt))
+      .sort((a, b) => new Date(b.starredAt).getTime() - new Date(a.starredAt).getTime())
       .map((repo) => {
         return {
           ...repo,
