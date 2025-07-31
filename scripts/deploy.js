@@ -3,7 +3,7 @@ import path from 'path'
 import ghPages from 'gh-pages'
 import { generateStaticSite } from '../src/utils/generate-site.js'
 import { generateMarkdownTable } from '../src/utils/generate-readme.js'
-import { getMarkdownDir, SITE_DIRECTORY } from '../src/_constants.js'
+import { getMarkdownDir, getReadmePath, SITE_DIRECTORY } from '../src/_constants.js'
 
 async function buildAndDeploy(username) {
   /* Generate the static site */
@@ -11,6 +11,7 @@ async function buildAndDeploy(username) {
   await generateStaticSite(username)
 
   const markdownDir = getMarkdownDir(username)
+  const readmePath = getReadmePath(username)
   /* Generate the README */
   console.log('Generating README...')
   await generateMarkdownTable({
@@ -19,7 +20,7 @@ async function buildAndDeploy(username) {
   })
 
   /* copy the README to the site directory */
-  await fs.copy(path.join(markdownDir, 'README.md'), path.join(SITE_DIRECTORY, 'README.md'))
+  await fs.copy(readmePath, path.join(SITE_DIRECTORY, 'README.md'))
 
   /* Deploy the static site */
   try {
