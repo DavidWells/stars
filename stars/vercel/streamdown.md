@@ -1,0 +1,168 @@
+---
+repo: vercel/streamdown
+url: 'https://github.com/vercel/streamdown'
+homepage: 'https://streamdown.ai/'
+starredAt: '2025-08-22T16:24:31Z'
+createdAt: '2025-08-15T01:52:01Z'
+updatedAt: '2025-08-23T22:03:59Z'
+language: TypeScript
+license: NOASSERTION
+branch: main
+stars: 1310
+isPublic: true
+isTemplate: false
+isArchived: false
+isFork: false
+hasReadMe: true
+refreshedAt: '2025-08-23T22:30:26.105Z'
+description: 'A drop-in replacement for react-markdown, designed for AI-powered streaming.'
+tags:
+  - ai
+  - markdown
+  - streaming
+---
+
+# Streamdown
+
+A drop-in replacement for react-markdown, designed for AI-powered streaming.
+
+[![npm version](https://img.shields.io/npm/v/streamdown)](https://www.npmjs.com/package/streamdown)
+
+## Overview
+
+Formatting Markdown is easy, but when you tokenize and stream it, new challenges arise. Streamdown is built specifically to handle the unique requirements of streaming Markdown content from AI models, providing seamless formatting even with incomplete or unterminated Markdown blocks.
+
+Streamdown powers the [AI Elements Response](https://ai-sdk.dev/elements/components/response) component but can be installed as a standalone package for your own streaming needs.
+
+## Features
+
+- 🚀 **Drop-in replacement** for `react-markdown`
+- 🔄 **Streaming-optimized** - Handles incomplete Markdown gracefully
+- 🎨 **Unterminated block parsing** - Styles incomplete bold, italic, code, links, and headings
+- 📊 **GitHub Flavored Markdown** - Tables, task lists, and strikethrough support
+- 🔢 **Math rendering** - LaTeX equations via KaTeX
+- 🎯 **Code syntax highlighting** - Beautiful code blocks with Shiki
+- 🛡️ **Security-first** - Built on harden-react-markdown for safe rendering
+- ⚡ **Performance optimized** - Memoized rendering for efficient updates
+
+## Installation
+
+```bash
+npm i streamdown
+```
+
+Then, update your Tailwind `globals.css` to include the following:
+
+```css
+@source "../node_modules/streamdown/dist/index.js";
+```
+
+This will ensure that the Streamdown styles are applied to your project.
+
+## Usage
+
+### Basic Example
+
+```tsx
+import { Streamdown } from 'streamdown';
+
+export default function Page() {
+  const markdown = "# Hello World\n\nThis is **streaming** markdown!";
+  
+  return <Streamdown>{markdown}</Streamdown>;
+}
+```
+
+### With AI SDK
+
+```tsx
+'use client';
+
+import { useChat } from '@ai-sdk/react';
+import { useState } from 'react';
+import { Streamdown } from 'streamdown';
+
+export default function Page() {
+  const { messages, sendMessage, status } = useChat();
+  const [input, setInput] = useState('');
+
+  return (
+    <>
+      {messages.map(message => (
+        <div key={message.id}>
+          {message.parts.filter(part => part.type === 'text').map((part, index) => (
+            <Streamdown key={index}>{part.text}</Streamdown>
+          ))}
+        </div>
+      ))}
+
+      <form
+        onSubmit={e => {
+          e.preventDefault();
+          if (input.trim()) {
+            sendMessage({ text: input });
+            setInput('');
+          }
+        }}
+      >
+        <input
+          value={input}
+          onChange={e => setInput(e.target.value)}
+          disabled={status !== 'ready'}
+          placeholder="Say something..."
+        />
+        <button type="submit" disabled={status !== 'ready'}>
+          Submit
+        </button>
+      </form>
+    </>
+  );
+}
+```
+
+## Props
+
+Streamdown accepts all the same props as react-markdown, plus additional streaming-specific options:
+
+| Prop | Type | Default | Description |
+|------|------|---------|-------------|
+| `children` | `string` | - | The Markdown content to render |
+| `parseIncompleteMarkdown` | `boolean` | `true` | Parse and style unterminated Markdown blocks |
+| `className` | `string` | - | CSS class for the container |
+| `components` | `object` | - | Custom component overrides |
+| `remarkPlugins` | `array` | `[remarkGfm, remarkMath]` | Remark plugins to use |
+| `rehypePlugins` | `array` | `[rehypeKatex]` | Rehype plugins to use |
+| `allowedImagePrefixes` | `array` | `['*']` | Allowed image URL prefixes |
+| `allowedLinkPrefixes` | `array` | `['*']` | Allowed link URL prefixes |
+
+## Architecture
+
+Streamdown is built as a monorepo with:
+
+- **`packages/streamdown`** - The core React component library
+- **`apps/website`** - Documentation and demo site
+
+## Development
+
+```bash
+# Install dependencies
+pnpm install
+
+# Run development server
+pnpm dev
+
+# Run tests
+pnpm test
+
+# Build packages
+pnpm build
+```
+
+## Requirements
+
+- Node.js >= 18
+- React >= 19.1.1
+
+## Contributing
+
+Contributions are welcome! Please feel free to submit a Pull Request.
