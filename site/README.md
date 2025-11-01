@@ -21,7 +21,7 @@ I fancy myself a GitHub spelunker. Through my journeys I find a lot of cool pack
 
 Below is an index to quickly CTRL+F to find them.
 
-Total Stars: <!-- doc-gen STAR_COUNT -->6,629<!-- end-doc-gen -->
+Total Stars: <!-- doc-gen STAR_COUNT -->6,635<!-- end-doc-gen -->
 
 Full list here: https://davidwells.github.io/stars
 
