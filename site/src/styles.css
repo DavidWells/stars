@@ -230,12 +230,18 @@ tr:last-child td {
 }
 
 .repo-meta,
+.homepage-link,
 .tags {
   display: block;
   margin-top: 4px;
   color: var(--muted);
   font-size: 13px;
   font-weight: 500;
+}
+
+.homepage-link {
+  color: var(--accent);
+  overflow-wrap: anywhere;
 }
 
 .description-cell {
@@ -412,6 +418,7 @@ td:nth-child(5) {
   }
 
   .repo-meta,
+  .homepage-link,
   .tags {
     margin-top: 5px;
     font-size: 10px;
