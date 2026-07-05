@@ -12,7 +12,7 @@
     "site:dev": "vite --config vite.config.js",
     "site:build": "vite build --config vite.config.js",
     "site:preview": "vite preview --config vite.config.js",
-    "serve": "serve site"
+    "serve": "serve .site-build"
   },
   "keywords": [],
   "author": "",

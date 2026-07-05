@@ -2,7 +2,7 @@ import fs from 'fs-extra'
 import path from 'path'
 import { build } from 'vite'
 import { getSavedMdFileData } from './fs.js'
-import { getMarkdownDir, ROOT_DIRECTORY, SITE_DIRECTORY } from '../_constants.js'
+import { getMarkdownDir, ROOT_DIRECTORY, SITE_DIRECTORY, SITE_SOURCE_DIRECTORY } from '../_constants.js'
 
 function normalizeStarData(star) {
   return {
@@ -45,7 +45,7 @@ async function generateStaticSite(username) {
       .filter((repo) => !repo.isPrivate)
       .map(normalizeStarData)
 
-    const publicDir = path.join(ROOT_DIRECTORY, 'app', 'public')
+    const publicDir = path.join(SITE_SOURCE_DIRECTORY, 'public')
     await fs.ensureDir(publicDir)
     await fs.writeJson(
       path.join(publicDir, 'stars.json'),

@@ -9,6 +9,7 @@ const dateFormatter = new Intl.DateTimeFormat('en-US', {
 })
 
 const DEFAULT_SORT = { key: 'starredAt', direction: 'desc' }
+const SEARCH_DEBOUNCE_MS = 180
 
 const columns = [
   { key: 'repo', label: 'Repo', defaultDirection: 'asc' },
@@ -128,6 +129,7 @@ function App() {
   const [stars, setStars] = useState([])
   const [loading, setLoading] = useState(true)
   const [error, setError] = useState('')
+  const [inputValue, setInputValue] = useState('')
   const [query, setQuery] = useState('')
   const [sort, setSort] = useState(DEFAULT_SORT)
   const [copyState, setCopyState] = useState('idle')
@@ -165,8 +167,14 @@ function App() {
   }, [])
 
   useEffect(() => {
+    const timeout = window.setTimeout(() => setQuery(inputValue), SEARCH_DEBOUNCE_MS)
+    return () => window.clearTimeout(timeout)
+  }, [inputValue])
+
+  useEffect(() => {
     function handleKeyDown(event) {
-      if (event.key === 'Escape' && query) {
+      if (event.key === 'Escape' && (inputValue || query)) {
+        setInputValue('')
         setQuery('')
         setCopyState('idle')
       }
@@ -177,7 +185,7 @@ function App() {
     return () => {
       window.removeEventListener('keydown', handleKeyDown)
     }
-  }, [query])
+  }, [inputValue, query])
 
   useEffect(() => {
     if (copyState !== 'copied') return undefined
@@ -243,16 +251,27 @@ function App() {
         <div className="search-row">
           <input
             id="star-search"
-            value={query}
-            onChange={(event) => setQuery(event.target.value)}
+            value={inputValue}
+            onChange={(event) => {
+              setInputValue(event.target.value)
+              setCopyState('idle')
+            }}
             placeholder="Filter by repo, language, description, tags, date..."
             type="search"
           />
           <button className="copy-button" type="button" onClick={handleCopyResults} disabled={loading || Boolean(error)}>
             {copyState === 'copied' ? 'Copied' : copyState === 'failed' ? 'Copy failed' : 'Copy Results to MD'}
           </button>
-          {query ? (
-            <button className="clear-button" type="button" onClick={() => setQuery('')}>
+          {inputValue ? (
+            <button
+              className="clear-button"
+              type="button"
+              onClick={() => {
+                setInputValue('')
+                setQuery('')
+                setCopyState('idle')
+              }}
+            >
               Clear
             </button>
           ) : null}
