@@ -202,8 +202,8 @@ tr:last-child td {
   width: 100%;
   min-height: 28px;
   align-items: center;
-  justify-content: space-between;
-  gap: 8px;
+  justify-content: flex-start;
+  gap: 6px;
   padding: 0;
   border: 0;
   background: transparent;
@@ -214,10 +214,12 @@ tr:last-child td {
 }
 
 .sort-indicator {
-  min-width: 36px;
+  min-width: 12px;
   color: var(--muted);
-  font-size: 12px;
-  text-align: right;
+  font-size: 16px;
+  font-weight: 800;
+  line-height: 1;
+  text-align: center;
 }
 
 .repo-cell {

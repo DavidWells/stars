@@ -166,16 +166,21 @@ function SortButton({ column, sort, onSort }) {
   const active = sort.key === column.key
   const direction = active ? sort.direction : null
   const label = active ? `${column.label} (${direction})` : column.label
+  const arrow = direction === 'asc' ? '↑' : '↓'
 
   return (
     <button
       className="sort-button"
       type="button"
       onClick={() => onSort(column.key)}
-      aria-label={`Sort by ${column.label}`}
+      aria-label={`Sort by ${label}`}
     >
+      {active ? (
+        <span className="sort-indicator" aria-hidden="true">
+          {arrow}
+        </span>
+      ) : null}
       <span>{column.label}</span>
-      <span className="sort-indicator">{active ? direction : ''}</span>
     </button>
   )
 }
