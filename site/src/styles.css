@@ -393,7 +393,7 @@ td:nth-child(5) {
 
   .repo-cell {
     padding: 13px 14px 5px;
-    font-size: 16px;
+    font-size: 14px;
     line-height: 1.35;
   }
 
@@ -406,13 +406,13 @@ td:nth-child(5) {
   .repo-meta,
   .tags {
     margin-top: 5px;
-    font-size: 12px;
+    font-size: 10px;
     line-height: 1.35;
   }
 
   .description-cell {
     padding: 0 14px 12px;
-    font-size: 14px;
+    font-size: 12px;
     line-height: 1.45;
     overflow-wrap: anywhere;
   }
