@@ -34,6 +34,7 @@
   "devDependencies": {
     "@types/node": "^22.15.29",
     "@vitejs/plugin-react": "^6.0.3",
+    "code-inspector-plugin": "^1.6.4",
     "serve": "^14.2.4",
     "vite": "^8.1.3"
   }
