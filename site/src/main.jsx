@@ -10,6 +10,7 @@ const dateFormatter = new Intl.DateTimeFormat('en-US', {
 
 const DEFAULT_SORT = { key: 'starredAt', direction: 'desc' }
 const SEARCH_DEBOUNCE_MS = 180
+const QUERY_PARAM = 'query'
 
 const columns = [
   { key: 'repo', label: 'Repo', defaultDirection: 'asc' },
@@ -49,6 +50,10 @@ function getSearchText(star) {
     star.updatedAt,
     ...(star.tags || []),
   ].join(' ')
+}
+
+function getQueryFromUrl() {
+  return new URLSearchParams(window.location.search).get(QUERY_PARAM) || ''
 }
 
 function getSortValue(star, key) {
@@ -129,8 +134,8 @@ function App() {
   const [stars, setStars] = useState([])
   const [loading, setLoading] = useState(true)
   const [error, setError] = useState('')
-  const [inputValue, setInputValue] = useState('')
-  const [query, setQuery] = useState('')
+  const [inputValue, setInputValue] = useState(getQueryFromUrl)
+  const [query, setQuery] = useState(getQueryFromUrl)
   const [sort, setSort] = useState(DEFAULT_SORT)
   const [copyState, setCopyState] = useState('idle')
 
@@ -170,6 +175,35 @@ function App() {
     const timeout = window.setTimeout(() => setQuery(inputValue), SEARCH_DEBOUNCE_MS)
     return () => window.clearTimeout(timeout)
   }, [inputValue])
+
+  useEffect(() => {
+    const params = new URLSearchParams(window.location.search)
+
+    if (query) {
+      params.set(QUERY_PARAM, query)
+    } else {
+      params.delete(QUERY_PARAM)
+    }
+
+    const search = params.toString()
+    const nextUrl = `${window.location.pathname}${search ? `?${search}` : ''}${window.location.hash}`
+    window.history.replaceState(null, '', nextUrl)
+  }, [query])
+
+  useEffect(() => {
+    function handlePopState() {
+      const nextQuery = getQueryFromUrl()
+      setInputValue(nextQuery)
+      setQuery(nextQuery)
+      setCopyState('idle')
+    }
+
+    window.addEventListener('popstate', handlePopState)
+
+    return () => {
+      window.removeEventListener('popstate', handlePopState)
+    }
+  }, [])
 
   useEffect(() => {
     function handleKeyDown(event) {
