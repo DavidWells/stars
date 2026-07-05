@@ -23,6 +23,10 @@ lerna-debug.log*
 data
 cache
 site/stars-data.html
+site/assets/
+site/stars/
+site/stars.json
+app/public/stars.json
 stars-*
 .custom-cache
 stars/_index.md

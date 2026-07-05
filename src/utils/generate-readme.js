@@ -1,13 +1,10 @@
 import path from 'path'
 import safe from 'safe-await'
 import { markdownMagic, stringUtils } from 'markdown-magic'
-import { getSavedJSONFileData, getSavedMdFileData } from './fs.js'
+import { getSavedMdFileData } from './fs.js'
 import { getStarCount } from './github-api.js'
-import { README_FILEPATH, GITHUB_USERNAME, ROOT_DIRECTORY, getMarkdownDir, getReadmePath } from '../_constants.js'
+import { GITHUB_USERNAME, getMarkdownDir, getReadmePath } from '../_constants.js'
 import { mkdir, writeFile, access } from 'fs/promises'
-
-const EMPTY_WHITE_SPACE_CHAR = '‎'
-const BRAIL_SPACE = '⠀'
 
 function escapeHtml(unsafe) {
   if (!unsafe) return ''
@@ -19,59 +16,40 @@ function escapeHtml(unsafe) {
     .replace(/'/g, '&#039;')
 }
 
-const MAX_TABLE_CONTENT_WIDTH = 75
-function createStarTable(sortedByStarredDate, datePadding = true, maxWidth = MAX_TABLE_CONTENT_WIDTH) {
-  /* Make HTML Table */
-  let html = `<table>
-  <tr>
-  <th align="left">Repo</th>
-  <th align="center">Starred On</th>
-  </tr>`
+function escapeMarkdownCell(value) {
+  return String(value || '')
+    .replace(/\r?\n/g, ' ')
+    .replace(/\s+/g, ' ')
+    .replace(/\|/g, '\\|')
+    .trim()
+}
 
-  sortedByStarredDate.forEach((data, i) => {
-    //console.log('data', data)
-    // Skip items missing required properties
+function createStarMarkdownTable(sortedByStarredDate, maxDescriptionLength = 120) {
+  let md = '| Repo | Description | Language | Stars | Starred On |\n'
+  md += '| --- | --- | --- | ---: | --- |\n'
+
+  sortedByStarredDate.forEach((data) => {
     if (!data || !data.repo) {
       console.warn('Skipping item missing required repo property:', data)
       return
     }
 
-    const { repo, description, starredAt, createdAt, tags } = data
-    const url = `https://github.com/${repo}`
-    const desc = (data.description || '').trim().replace(/\.$/, '')
-    const escapedDesc = escapeHtml(desc)
-    const formattedDescription = stringUtils.stringBreak(escapedDesc, maxWidth).join('<br/>')
-    const _description = data.description ? `<br/>${formattedDescription}. ` : ''
-    const tagsRender =
-      tags && tags.length > 0
-        ? `<br/>${stringUtils
-            .stringBreak(tinyText(`Tags: ${tags.map((topic) => `#${topic}`).join(' ')}`), maxWidth + 60)
-            .join('<br/>')}`
-        : ''
-    const langText = data.language ? ` - ${data.language}` : ''
-    const createdText = createdAt ? ` - ${formatDate(createdAt)}` : ''
-    const inlineMeta = tinyText(`${langText}${createdText}`)
-    const starredText = BRAIL_SPACE.repeat(0) + formatDate(starredAt) + BRAIL_SPACE.repeat(0)
-    const BlankLine = datePadding ? BRAIL_SPACE.repeat(10) + '<br/>' : ''
-    const localReadMe = localReadMePath(repo)
+    const repoLink = `[${escapeMarkdownCell(data.repo)}](https://github.com/${data.repo})`
+    const desc = escapeMarkdownCell(data.description || '')
+    const shortDesc = desc.length > maxDescriptionLength ? `${desc.slice(0, maxDescriptionLength - 1)}...` : desc
+    const tags = data.tags && data.tags.length ? ` Tags: ${data.tags.map((topic) => `#${topic}`).join(' ')}` : ''
+    const language = escapeMarkdownCell(data.language || '')
+    const stars = Number(data.stars || 0).toLocaleString('en-US')
+    const localReadMe = `[${formatDate(data.starredAt)}](${localReadMePath(data.repo)})`
 
-    html += `
-  <tr>
-  <td><a href="${url}">${stringUtils
-      .stringBreak(repo, maxWidth)
-      .join('<br/>')}</a>${inlineMeta}${tagsRender}${_description}</td>
-  <td><a href="${localReadMe}">${starredText}</a><br/>${BlankLine}</td>
-  </tr>`
+    md += `| ${repoLink} | ${escapeMarkdownCell(`${shortDesc}${tags}`)} | ${language} | ${stars} | ${localReadMe} |\n`
   })
 
-  html += `
-</table>`
-
-  return html
+  return md
 }
 
-function tablePlugin(data) {
-  return () => createStarTable(data)
+function markdownTablePlugin(data) {
+  return () => createStarMarkdownTable(data)
 }
 
 /*
@@ -112,7 +90,7 @@ tags:
 
 async function generateMarkdownTable(opts) {
   const options = opts || {}
-  const mdPath = getMarkdownDir(opts.username)
+  const mdPath = getMarkdownDir(options.username)
   /* Hey now you're an all star */
   const allStars = (await getSavedMdFileData(mdPath)).map(({ frontmatter }) => {
     return frontmatter
@@ -129,11 +107,6 @@ async function generateMarkdownTable(opts) {
       }
     })
   
-  // Due to limitations with github markdown rendering this has been truncated to 1000
-  const mostRecentRepos = sortedByStarredDate.slice(0, 1000)
-  console.log('allStars[0]', mostRecentRepos[0])
-  console.log('Stars to process', mostRecentRepos.length)
-
   if (options.excludePrivateRepos) {
     let privateRepos = []
     sortedByStarredDate = sortedByStarredDate.filter((repo) => {
@@ -146,7 +119,12 @@ async function generateMarkdownTable(opts) {
     console.log('privateRepos', privateRepos)
   }
 
-  const readmePath = getReadmePath(opts.username)
+  // Due to limitations with github markdown rendering this has been truncated to 1000
+  const mostRecentRepos = sortedByStarredDate.slice(0, 1000)
+  console.log('allStars[0]', mostRecentRepos[0])
+  console.log('Stars to process', mostRecentRepos.length)
+
+  const readmePath = getReadmePath(options.username)
   console.log('README path:', readmePath)
   await ensureReadmeExists(readmePath)
 
@@ -164,7 +142,7 @@ async function generateMarkdownTable(opts) {
         // Fallback to FS
         return numberWithCommas(allStars.length)
       },
-      ALL_STARS_TABLE: tablePlugin(mostRecentRepos),
+      ALL_STARS_TABLE: markdownTablePlugin(mostRecentRepos),
       ALL_STARS_MD() {
         const MAX_WIDTH = 90
         /* Make Markdown Table */
@@ -250,7 +228,6 @@ function numberWithCommas(x) {
 
 function trimIsoDate(isoDateString) {
   return tinyText(isoDateString.split('T')[0])
-  return EMPTY_WHITE_SPACE_CHAR.repeat(3) + isoDateString.split('T')[0] + EMPTY_WHITE_SPACE_CHAR.repeat(3)
 }
 
 // Add this helper function for date formatting
@@ -274,4 +251,4 @@ if (process.argv[1] === new URL(import.meta.url).pathname) {
 }
 
 
-export { generateMarkdownTable, createStarTable }
+export { generateMarkdownTable, createStarMarkdownTable }

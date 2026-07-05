@@ -33,7 +33,9 @@ async function buildAndDeploy(username) {
 
 async function deploy() {
   if (!process.env.CI) {
-    return ghPages.publish(SITE_DIRECTORY)
+    return ghPages.publish(SITE_DIRECTORY, {
+      dotfiles: true
+    })
   }
 
   if (!process.env.GITHUB_TOKEN) {
@@ -51,6 +53,7 @@ async function deploy() {
       name: 'github-actions[bot]',
       email: 'github-actions[bot]@users.noreply.github.com'
     },
+    dotfiles: true,
     silent: true // Prevents token from being exposed in logs
   })
   console.log('Deploy started!')

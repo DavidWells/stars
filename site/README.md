@@ -26,4012 +26,1008 @@ Total Stars: <!-- doc-gen STAR_COUNT -->6,828<!-- end-doc-gen -->
 Full list here: https://davidwells.github.io/stars
 
 <!-- doc-gen ALL_STARS_TABLE -->
-<table>
-  <tr>
-  <th align="left">Repo</th>
-  <th align="center">Starred On</th>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/unclebob/swarm-forge">unclebob/swarm-forge</a><sup><sub> - Clojure - Apr 17, 2026</sub></sup><br/>A simple tool for coordinating several AI agents. </td>
-  <td><a href="./stars/unclebob/swarm-forge.md">Jul 04, 2026</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/inthhq/leadtype">inthhq/leadtype</a><sup><sub> - TypeScript - Apr 17, 2026</sub></sup><br/><sup><sub>Tags: #agents #ai #docs #llms-txt #typescript</sub></sup><br/>Unified docs pipeline for humans &amp; agents. </td>
-  <td><a href="./stars/inthhq/leadtype.md">Jul 02, 2026</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/jacobparis/trackcn">jacobparis/trackcn</a><sup><sub> - JavaScript - Jul 02, 2026</sub></sup><br/>Track GitHub files, directories, commits, pull requests, and agent skills<br/>like dependencies. </td>
-  <td><a href="./stars/jacobparis/trackcn.md">Jul 02, 2026</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/nilenso/context-viewer">nilenso/context-viewer</a><sup><sub> - TypeScript - Oct 23, 2025</sub></sup><br/>Observability for contexts. Given a coversation log (messages), this tool<br/>will provide a breakdown of its components and their sizes. It also<br/>classifies messages into various categories so we can observe the context<br/>in ways that matter to the business. </td>
-  <td><a href="./stars/nilenso/context-viewer.md">Jun 30, 2026</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/iot-agent/iot-skillsbench">iot-agent/iot-skillsbench</a><sup><sub> - Python - Mar 20, 2026</sub></sup></td>
-  <td><a href="./stars/iot-agent/iot-skillsbench.md">Jun 30, 2026</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/lirantal/gh-cp">lirantal/gh-cp</a><sup><sub> - TypeScript - Mar 26, 2026</sub></sup><br/>A CLI that copies files and directories from GitHub repo paths and<br/>downloads them to a local path. </td>
-  <td><a href="./stars/lirantal/gh-cp.md">Jun 18, 2026</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/pullfrog/pullfrog">pullfrog/pullfrog</a><sup><sub> - TypeScript - Aug 05, 2025</sub></sup><br/>Open-source model-agnostic BYOK GitHub bot that runs in GitHub Actions. </td>
-  <td><a href="./stars/pullfrog/pullfrog.md">Jun 10, 2026</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/harehare/mq">harehare/mq</a><sup><sub> - Rust - Feb 24, 2025</sub></sup><br/><sup><sub>Tags: #cli #html-to-markdown #interpreter #jq #language-server #markdown #mcp #md #mqlang #query #repl #rust<br/>#scripting-language #tui</sub></sup><br/>A jq-like Markdown query language for command-line processing. </td>
-  <td><a href="./stars/harehare/mq.md">Jun 07, 2026</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/disposable-email-domains/disposable-email-domains">disposable-email-domains/disposable-email-domains</a><sup><sub> - Python - Sep 02, 2014</sub></sup><br/><sup><sub>Tags: #blocklist #disposable #domain #email #filter #hacktoberfest #pypi</sub></sup><br/>a list of disposable email domains. </td>
-  <td><a href="./stars/disposable-email-domains/disposable-email-domains.md">Jun 05, 2026</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/simke9445/agentlocks">simke9445/agentlocks</a><sup><sub> - TypeScript - May 09, 2026</sub></sup><br/><sup><sub>Tags: #advisory-lock #agent-native #ai-agents #bun #claude-code #cli #codex #coding-agent #concurrency #file-locking #git<br/>#multi-agent #typescript #worktree</sub></sup><br/>Advisory file locks so multiple AI coding agents can share one Git worktree. </td>
-  <td><a href="./stars/simke9445/agentlocks.md">Jun 05, 2026</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/affaan-m/ECC">affaan-m/ECC</a><sup><sub> - JavaScript - Jan 18, 2026</sub></sup><br/><sup><sub>Tags: #ai-agents #anthropic #claude #claude-code #developer-tools #llm #mcp #productivity</sub></sup><br/>The agent harness performance optimization system. Skills, instincts,<br/>memory, security, and research-first development for Claude Code, Codex,<br/>Opencode, Cursor and beyond. </td>
-  <td><a href="./stars/affaan-m/ECC.md">Jun 04, 2026</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/kitlangton/stack">kitlangton/stack</a><sup><sub> - TypeScript - Apr 03, 2026</sub></sup></td>
-  <td><a href="./stars/kitlangton/stack.md">Jun 02, 2026</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/opencoredev/email-sdk">opencoredev/email-sdk</a><sup><sub> - MDX - May 27, 2026</sub></sup><br/><sup><sub>Tags: #bun #developer-tools #email #email-api #email-sdk #nodemailer #postmark #resend #sdk #sendgrid #transactional-email<br/>#typescript</sub></sup><br/>Email SDK is a lightweight TypeScript library for sending email through<br/>Resend, Postmark, SendGrid, Mailgun, Brevo, SMTP, and more. </td>
-  <td><a href="./stars/opencoredev/email-sdk.md">Jun 01, 2026</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/DavidWells/ddb-migrations">DavidWells/ddb-migrations</a><sup><sub> - TypeScript - May 04, 2026</sub></sup><br/>DDB data migration utilities. </td>
-  <td><a href="./stars/DavidWells/ddb-migrations.md">Jun 01, 2026</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/joelhooks/plugged-in-awake">joelhooks/plugged-in-awake</a><sup><sub> - Swift - Apr 30, 2026</sub></sup></td>
-  <td><a href="./stars/joelhooks/plugged-in-awake.md">May 25, 2026</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/theo-kirby/chassis">theo-kirby/chassis</a><sup><sub> - Python - Mar 14, 2026</sub></sup><br/>your favorite harness deserves a chassis 🏎️  - multi-agent orchestration<br/>layer for experimental design. </td>
-  <td><a href="./stars/theo-kirby/chassis.md">May 24, 2026</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/ExtendDB/extenddb">ExtendDB/extenddb</a><sup><sub> - Rust - May 10, 2026</sub></sup><br/>ExtendDB. </td>
-  <td><a href="./stars/ExtendDB/extenddb.md">May 23, 2026</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/Ruya-AI/cozempic">Ruya-AI/cozempic</a><sup><sub> - Python - Feb 06, 2026</sub></sup><br/><sup><sub>Tags: #agent-teams #claude-code #claude-skills #cli #context #context-management #jsonl #llm-tools #pruning #python<br/>#session-management</sub></sup><br/>Context cleaning for Claude Code — prune bloated sessions, protect Agent<br/>Teams from context loss, auto-guard with tiered pruning. </td>
-  <td><a href="./stars/Ruya-AI/cozempic.md">May 23, 2026</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/ministackorg/ministack">ministackorg/ministack</a><sup><sub> - Python - Mar 24, 2026</sub></sup><br/><sup><sub>Tags: #aws #aws-emulator #aws-local #aws-sdk #devtools #docker #dynamodb #ec2 #emulator #lambda #localstack<br/>#localstack-alternative #ministack #mock-aws #open-source #python #s3 #sqs #terraform</sub></sup><br/>Ministack: Free, open-source local AWS emulator - 55+ services, Terraform<br/>compatible, real databases. Free forever. MIT   licensed. </td>
-  <td><a href="./stars/ministackorg/ministack.md">May 22, 2026</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/ccssmnn/work-cli">ccssmnn/work-cli</a><sup><sub> - TypeScript - May 18, 2026</sub></sup><br/>Parallel git worktree workflows: per-workspace commands, stable .localhost<br/>URLs, tmux-parged agents, one CLI. </td>
-  <td><a href="./stars/ccssmnn/work-cli.md">May 19, 2026</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/jakebailey/pprof-it">jakebailey/pprof-it</a><sup><sub> - TypeScript - Jan 14, 2022</sub></sup><br/>A handy pprof wrapper for Node.js. </td>
-  <td><a href="./stars/jakebailey/pprof-it.md">May 19, 2026</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/modem-dev/hunk">modem-dev/hunk</a><sup><sub> - TypeScript - Mar 17, 2026</sub></sup><br/><sup><sub>Tags: #cli #code-review #diff #git #tui</sub></sup><br/>Review-first terminal diff viewer for agentic coders. </td>
-  <td><a href="./stars/modem-dev/hunk.md">May 16, 2026</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/SamGalanakis/pilcrow">SamGalanakis/pilcrow</a><sup><sub> - JavaScript - May 14, 2026</sub></sup><br/>A skill suite for writing. </td>
-  <td><a href="./stars/SamGalanakis/pilcrow.md">May 15, 2026</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/lmammino/rust-lambda-middleware-example">lmammino/rust-lambda-middleware-example</a><sup><sub> - Rust - Apr 26, 2026</sub></sup><br/>A sample rate limit middleware for your Rust lambdas. </td>
-  <td><a href="./stars/lmammino/rust-lambda-middleware-example.md">May 13, 2026</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/floci-io/floci">floci-io/floci</a><sup><sub> - Java - Feb 18, 2026</sub></sup><br/><sup><sub>Tags: #aws #aws-emulation #devops #docker #ec2 #ecs #localstack #s3 #sqs #testcontainers</sub></sup><br/>Light, fluffy, and always free - The AWS Local Emulator alternative. </td>
-  <td><a href="./stars/floci-io/floci.md">May 09, 2026</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/UsefulSoftwareCo/executor">UsefulSoftwareCo/executor</a><sup><sub> - TypeScript - Feb 07, 2026</sub></sup><br/>The missing integration layer for AI agents. Let them call any OpenAPI /<br/>MCP / GraphQL / custom js functions in secure environment. </td>
-  <td><a href="./stars/UsefulSoftwareCo/executor.md">May 05, 2026</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/Effectful-Tech/clanka">Effectful-Tech/clanka</a><sup><sub> - TypeScript - Mar 07, 2026</sub></sup></td>
-  <td><a href="./stars/Effectful-Tech/clanka.md">May 03, 2026</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/omerbsezer/Fast-Kubernetes">omerbsezer/Fast-Kubernetes</a><sup><sub> - PowerShell - Dec 14, 2021</sub></sup><br/><sup><sub>Tags: #affinity #config-maps #containers #daemonset #docker #helm #jenkins #k8s #kubeadm #kubectl #kubernetes<br/>#kubernetes-cluster #kubernetes-deployment #kubernetes-service #microservice #persistent-volume #pod #replica-set #taint<br/>#tolerations</sub></sup><br/>This repo covers Kubernetes with LABs: Kubectl, Pod, Deployment, Service,<br/>PV, PVC, Rollout, Multicontainer, Daemonset, Taint-Toleration, Job,<br/>Ingress, Kubeadm, Helm, etc. </td>
-  <td><a href="./stars/omerbsezer/Fast-Kubernetes.md">Apr 30, 2026</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/cedar-policy/cedar">cedar-policy/cedar</a><sup><sub> - Rust - Apr 25, 2023</sub></sup><br/>Implementation of the Cedar Policy Language. </td>
-  <td><a href="./stars/cedar-policy/cedar.md">Apr 30, 2026</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/Dhravya/webpull">Dhravya/webpull</a><sup><sub> - TypeScript - Apr 28, 2026</sub></sup><br/>instantly pull a website down as a clean directory locally. </td>
-  <td><a href="./stars/Dhravya/webpull.md">Apr 30, 2026</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/xit-vcs/xit">xit-vcs/xit</a><sup><sub> - Zig - Jun 09, 2023</sub></sup><br/>a git alternative written in zig. </td>
-  <td><a href="./stars/xit-vcs/xit.md">Apr 30, 2026</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/common-fate/cedar-validate-action">common-fate/cedar-validate-action</a><sup><sub> - TypeScript - Apr 05, 2024</sub></sup><br/>A GitHub Action to validate Cedar policies. </td>
-  <td><a href="./stars/common-fate/cedar-validate-action.md">Apr 29, 2026</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/chad/phoenix">chad/phoenix</a><sup><sub> - TypeScript - Feb 19, 2026</sub></sup><br/><sup><sub>Tags: #ai-code-generation #code-generation #llm #specification #typescript #version-control</sub></sup><br/>Regenerative version control — compile specs to working software with full<br/>traceability. </td>
-  <td><a href="./stars/chad/phoenix.md">Apr 28, 2026</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/hbshih/lenny-lil-agents">hbshih/lenny-lil-agents</a><sup><sub> - Swift - Mar 25, 2026</sub></sup><br/>tiny AI companions that live on your macOS dock. </td>
-  <td><a href="./stars/hbshih/lenny-lil-agents.md">Apr 28, 2026</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/legions-developer/evilcharts">legions-developer/evilcharts</a><sup><sub> - TypeScript - Jul 16, 2025</sub></sup><br/>EvilCharts is an open-source chart UI website built with shadcn and<br/>Recharts, beautifully designed and handcrafted. </td>
-  <td><a href="./stars/legions-developer/evilcharts.md">Apr 27, 2026</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/benvinegar/termdraw">benvinegar/termdraw</a><sup><sub> - TypeScript - Apr 09, 2026</sub></sup><br/>Agent-friendly ASCII illustrator for the terminal. </td>
-  <td><a href="./stars/benvinegar/termdraw.md">Apr 25, 2026</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/wshm-dev/wshm">wshm-dev/wshm</a><sup><sub> - Rust - Mar 19, 2026</sub></sup><br/><sup><sub>Tags: #ai #anthropic #automation #cli #devops #github #gitlab #issue-tracker #llm #ollama #openai #pull-request #rust<br/>#self-hosted</sub></sup><br/>AI-powered repository agent for GitHub, GitLab, Gitea, Azure DevOps. Issue<br/>triage, PR analysis, merge queue, notifications, dashboard, backup.<br/>Self-hosted, multi-provider. </td>
-  <td><a href="./stars/wshm-dev/wshm.md">Apr 24, 2026</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/ata-core/ata-validator">ata-core/ata-validator</a><sup><sub> - JavaScript - Mar 22, 2026</sub></sup><br/><sup><sub>Tags: #fast #json-schema #napi #native #schema #simdjson #standard-schema #validation #validator</sub></sup><br/>Native C++ validator built on simdjson and RE2. Hybrid JS codegen with V8<br/>TurboFan optimizations. Up to 94x faster on $dynamicRef, 5.3x on normal<br/>schemas, 2,729x faster compilation. Full $dynamicRef/$anchor support, Draft<br/>2020-12 + Draft 7 compatible. </td>
-  <td><a href="./stars/ata-core/ata-validator.md">Apr 24, 2026</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/rtk-ai/rtk">rtk-ai/rtk</a><sup><sub> - Rust - Jan 22, 2026</sub></sup><br/><sup><sub>Tags: #agentic-coding #ai-coding #anthropic #claude-code #cli #command-line-tool #cost-reduction #developer-tools #llm<br/>#open-source #productivity #rust #token-optimization</sub></sup><br/>CLI proxy that reduces LLM token consumption by 60-90% on common dev<br/>commands. Single Rust binary, zero dependencies. </td>
-  <td><a href="./stars/rtk-ai/rtk.md">Apr 24, 2026</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/SamSaffron/op-cache">SamSaffron/op-cache</a><sup><sub> - Rust - Feb 03, 2026</sub></sup></td>
-  <td><a href="./stars/SamSaffron/op-cache.md">Apr 22, 2026</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/kcosr/assistant">kcosr/assistant</a><sup><sub> - TypeScript - Jan 11, 2026</sub></sup><br/>Panel-based personal assistant with a plugin architecture for productivity<br/>workflows. AI agents share a workspace of notes, lists and other panels<br/>with the user. Supports Claude Code, Codex, and pi CLI agents with text and<br/>voice interfaces. Extend with custom plugins or use built-in plugins<br/>exported as skills with CLIs. </td>
-  <td><a href="./stars/kcosr/assistant.md">Apr 20, 2026</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/cathrynlavery/diagram-design">cathrynlavery/diagram-design</a><sup><sub> - HTML - Apr 16, 2026</sub></sup><br/>Thirteen editorial diagram types for Claude Code. Self-contained HTML +<br/>SVG. No shadows, no Mermaid-slop. </td>
-  <td><a href="./stars/cathrynlavery/diagram-design.md">Apr 20, 2026</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/browser-use/browser-harness">browser-use/browser-harness</a><sup><sub> - Python - Apr 17, 2026</sub></sup><br/><sup><sub>Tags: #ai-agent #browser-agent #browser-automation #browser-use #browser-use-box #browser-use-cloud #cdp #cloud-browser #llm<br/>#persistent-browser #playwright #telegram-agent #vps-agent #web-automation</sub></sup><br/>Browser Harness | Self-healing harness that enables LLMs to complete any<br/>task. </td>
-  <td><a href="./stars/browser-use/browser-harness.md">Apr 19, 2026</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/vercel-labs/wterm">vercel-labs/wterm</a><sup><sub> - TypeScript - Apr 14, 2026</sub></sup><br/>A terminal emulator for the web. </td>
-  <td><a href="./stars/vercel-labs/wterm.md">Apr 19, 2026</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/farzaa/clicky">farzaa/clicky</a><sup><sub> - Swift - Apr 07, 2026</sub></sup></td>
-  <td><a href="./stars/farzaa/clicky.md">Apr 16, 2026</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/microsoft/VibeVoice">microsoft/VibeVoice</a><sup><sub> - Python - Aug 25, 2025</sub></sup><br/>Open-Source Frontier Voice AI. </td>
-  <td><a href="./stars/microsoft/VibeVoice.md">Apr 13, 2026</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/ethanbeard/openclaw-gws">ethanbeard/openclaw-gws</a><sup><sub> - TypeScript - Apr 10, 2026</sub></sup><br/>Gmail watcher for OpenClaw agents via Google Workspace CLI (gws). </td>
-  <td><a href="./stars/ethanbeard/openclaw-gws.md">Apr 12, 2026</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/Fenris159/OpenClaw_Discord-TTS-Attacher">Fenris159/OpenClaw_Discord-TTS-Attacher</a><sup><sub> - JavaScript - Apr 06, 2026</sub></sup><br/>An OpenClaw plugin that turns your assistant’s Discord text replies into a<br/>spoken MP3 and posts it as a normal file attachment in a follow-up message. </td>
-  <td><a href="./stars/Fenris159/OpenClaw_Discord-TTS-Attacher.md">Apr 08, 2026</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/fwartner/home-assistant-wakewords-collection">fwartner/home-assistant-wakewords-collection</a><sup><sub> - Oct 15, 2023</sub></sup><br/>Community Collection of Wake-Words for Home Assistant. </td>
-  <td><a href="./stars/fwartner/home-assistant-wakewords-collection.md">Apr 05, 2026</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/notque/claude-code-toolkit">notque/claude-code-toolkit</a><sup><sub> - Python - Mar 18, 2026</sub></sup><br/><sup><sub>Tags: #ai #ai-agents #ai-pipelines #ai-skills #ai-workflows #claude #claude-code</sub></sup><br/>AI Agent System - Creator of the /do router. </td>
-  <td><a href="./stars/notque/claude-code-toolkit.md">Apr 05, 2026</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/notque/vexjoy-agent">notque/vexjoy-agent</a><sup><sub> - Python - Mar 18, 2026</sub></sup><br/><sup><sub>Tags: #ai #ai-agents #ai-pipelines #ai-skills #ai-workflows #claude #claude-ai #claude-code #claude-code-skill #claude-skills<br/>#codex-skills #developer-tools #factory-ai</sub></sup><br/>VexJoy AI Agent with Intelligent Routing - /do routes plain-English<br/>requests to the right specialist agent and gates the work with reviews,<br/>tests, and a learning loop. </td>
-  <td><a href="./stars/notque/vexjoy-agent.md">Apr 05, 2026</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/0xGF/boneyard">0xGF/boneyard</a><sup><sub> - TypeScript - Apr 01, 2026</sub></sup><br/>Auto generated skeleton loading framework. </td>
-  <td><a href="./stars/0xGF/boneyard.md">Apr 03, 2026</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/tux86/awssesh">tux86/awssesh</a><sup><sub> - TypeScript - Dec 21, 2025</sub></sup><br/><sup><sub>Tags: #aws #aws-sso #devops #devtools #sso</sub></sup><br/>Keep your AWS SSO credentials fresh — automatically. A fast terminal<br/>dashboard that auto-refreshes your pinned profiles while it&#039;s open. </td>
-  <td><a href="./stars/tux86/awssesh.md">Mar 27, 2026</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/tux86/ssomatic">tux86/ssomatic</a><sup><sub> - TypeScript - Dec 21, 2025</sub></sup><br/><sup><sub>Tags: #aws #aws-sso #bun #cli #credentials #devtools #react #sso #typescript #web-ui</sub></sup><br/>SSOmatic — Auto-discover, refresh, and manage your AWS SSO credentials from<br/>the terminal or browser. Built with Bun, React, and TypeScript. </td>
-  <td><a href="./stars/tux86/ssomatic.md">Mar 27, 2026</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/kamranahmedse/diffity">kamranahmedse/diffity</a><sup><sub> - TypeScript - Mar 16, 2026</sub></sup><br/>GitHub-style diff viewer for reviewing code changes. Works with Claude<br/>Code, Cursor and other AI tools. </td>
-  <td><a href="./stars/kamranahmedse/diffity.md">Mar 27, 2026</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/nilbuild/diffity">nilbuild/diffity</a><sup><sub> - TypeScript - Mar 16, 2026</sub></sup><br/>GitHub-style diff viewer for reviewing code changes. Works with Claude<br/>Code, Cursor and other AI tools. </td>
-  <td><a href="./stars/nilbuild/diffity.md">Mar 27, 2026</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/thesysdev/openui">thesysdev/openui</a><sup><sub> - TypeScript - Dec 02, 2024</sub></sup><br/><sup><sub>Tags: #agent #agents #ai #generative-ui #help-wanted #javascript #llm #looking-for-contributors</sub></sup><br/>The Open Standard for Generative UI. </td>
-  <td><a href="./stars/thesysdev/openui.md">Mar 22, 2026</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/jnsahaj/lumen">jnsahaj/lumen</a><sup><sub> - Rust - Oct 28, 2024</sub></sup><br/><sup><sub>Tags: #cli #commit #git #llm #openai #rust</sub></sup><br/>Beautiful git diff viewer, generate commits with AI, get summary of<br/>changes, all from the CLI. </td>
-  <td><a href="./stars/jnsahaj/lumen.md">Mar 20, 2026</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/remorses/opencode-config">remorses/opencode-config</a><sup><sub> - TypeScript - Sep 24, 2025</sub></sup><br/>My opencode folder with plugins, agents, tools, etc. </td>
-  <td><a href="./stars/remorses/opencode-config.md">Mar 20, 2026</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/manaflow-ai/cmux">manaflow-ai/cmux</a><sup><sub> - Swift - Jan 28, 2026</sub></sup><br/><sup><sub>Tags: #amp #claude-code #codex #gemini #ghostty #opencode #terminal #tmux</sub></sup><br/>Ghostty-based macOS terminal with vertical tabs and notifications for AI<br/>coding agents. </td>
-  <td><a href="./stars/manaflow-ai/cmux.md">Mar 20, 2026</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/HazAT/pi-config">HazAT/pi-config</a><sup><sub> - TypeScript - Jan 31, 2026</sub></sup><br/>My personal pi coding agent configuration - skills and extensions. </td>
-  <td><a href="./stars/HazAT/pi-config.md">Mar 15, 2026</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/tanpreetjolly/browser-whisper">tanpreetjolly/browser-whisper</a><sup><sub> - TypeScript - Mar 09, 2026</sub></sup><br/><sup><sub>Tags: #audio-to-text #mediabunny #transcribe-audio-files #transcriber #transcription #trasnformersjs #webcodecs<br/>#webgpu</sub></sup><br/>NPM Library to transcribe Audio &amp; Videos completely in browser with<br/>WebGPU and WebCodecs. 100% private and offline with WASM fallbacks. </td>
-  <td><a href="./stars/tanpreetjolly/browser-whisper.md">Mar 15, 2026</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/paperclipai/paperclip">paperclipai/paperclip</a><sup><sub> - TypeScript - Mar 02, 2026</sub></sup><br/>Open-source orchestration for zero-human companies. </td>
-  <td><a href="./stars/paperclipai/paperclip.md">Mar 15, 2026</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/garrytan/gstack">garrytan/gstack</a><sup><sub> - TypeScript - Mar 11, 2026</sub></sup><br/>Use Garry Tan&#039;s exact Claude Code setup: 23 opinionated tools that<br/>serve as CEO, Designer, Eng Manager, Release Manager, Doc Engineer, and QA. </td>
-  <td><a href="./stars/garrytan/gstack.md">Mar 14, 2026</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/vercel-labs/json-render">vercel-labs/json-render</a><sup><sub> - TypeScript - Jan 14, 2026</sub></sup><br/>The Generative UI framework. </td>
-  <td><a href="./stars/vercel-labs/json-render.md">Mar 13, 2026</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/pbakaus/agent-reviews">pbakaus/agent-reviews</a><sup><sub> - JavaScript - Feb 10, 2026</sub></sup><br/>Token efficient, automated Github review workflows and bug fixing. </td>
-  <td><a href="./stars/pbakaus/agent-reviews.md">Mar 11, 2026</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/dmno-dev/varlock">dmno-dev/varlock</a><sup><sub> - TypeScript - Apr 11, 2025</sub></sup><br/><sup><sub>Tags: #configuration #dotenv #env #env-vars #schema #security #validation</sub></sup><br/>AI-safe .env files: Schemas for agents, Secrets for humans. </td>
-  <td><a href="./stars/dmno-dev/varlock.md">Mar 09, 2026</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/Beingpax/VoiceInk">Beingpax/VoiceInk</a><sup><sub> - Swift - Oct 20, 2024</sub></sup><br/><sup><sub>Tags: #macos #macos-app #swift</sub></sup><br/>Voice-to-text app for macOS to transcribe what you say to text almost<br/>instantly. </td>
-  <td><a href="./stars/Beingpax/VoiceInk.md">Mar 08, 2026</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/superset-sh/superset">superset-sh/superset</a><sup><sub> - TypeScript - Oct 21, 2025</sub></sup><br/><sup><sub>Tags: #agentic-ai #ai-agents #claude-code #cli #codex #coding-agents #cursor-agent #desktop-app #developer-tools #electron<br/>#git-worktree #llm #mcp #opencode #orchestration #parallel-agents #terminal #tui #vibe-coding #worktrees</sub></sup><br/>Code Editor for the AI Agents Era - Run an army of Claude Code, Codex, etc.<br/>on your machine. </td>
-  <td><a href="./stars/superset-sh/superset.md">Mar 08, 2026</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/Ataraxy-Labs/sem">Ataraxy-Labs/sem</a><sup><sub> - Rust - Feb 05, 2026</sub></sup><br/><sup><sub>Tags: #ai-agents #cli #code-review #developer-tools #diff #git #rust #semantic-diff #tree-sitter</sub></sup><br/>Semantic version control CLI. Entity-level diff, blame, graph, and impact<br/>analysis for code. 26 languages via tree-sitter. </td>
-  <td><a href="./stars/Ataraxy-Labs/sem.md">Mar 08, 2026</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/nullclaw/nullclaw">nullclaw/nullclaw</a><sup><sub> - Zig - Feb 16, 2026</sub></sup><br/><sup><sub>Tags: #ai #assistant #personal #zig</sub></sup><br/>Fastest, smallest, and fully autonomous AI assistant infrastructure written<br/>in Zig. </td>
-  <td><a href="./stars/nullclaw/nullclaw.md">Mar 01, 2026</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/rari-build/rari">rari-build/rari</a><sup><sub> - Rust - Jul 26, 2025</sub></sup><br/><sup><sub>Tags: #rari #react #react-server-components #rust #server-rendering #ssr #web-framework</sub></sup><br/>rari: High-performance React Server Components framework powered by a Rust<br/>runtime, delivering 9.8x faster response times (0.08ms vs 0.78ms) and 47.7x<br/>higher throughput (71,404 vs 1,497 req/sec) than Next.js with zero-config<br/>setup. </td>
-  <td><a href="./stars/rari-build/rari.md">Feb 26, 2026</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/joelhooks/granola-cli">joelhooks/granola-cli</a><sup><sub> - TypeScript - Feb 19, 2026</sub></sup><br/>🥣 Agent-first CLI for Granola meeting notes via MCP. </td>
-  <td><a href="./stars/joelhooks/granola-cli.md">Feb 25, 2026</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/alexknowshtml/peek-api">alexknowshtml/peek-api</a><sup><sub> - JavaScript - Feb 04, 2026</sub></sup><br/>Discover internal APIs from any website. Captures XHR/fetch calls, extracts<br/>auth headers, outputs structured endpoint catalogs. Like opening Chrome<br/>DevTools Network tab, but automated and AI-agent friendly. </td>
-  <td><a href="./stars/alexknowshtml/peek-api.md">Feb 24, 2026</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/alexknowshtml/api2cli">alexknowshtml/api2cli</a><sup><sub> - Feb 19, 2026</sub></sup><br/><sup><sub>Tags: #ai-agent #api #claude-code #cli-generator #commander-js #nodejs #skill #typescript</sub></sup><br/>Audience-aware CLI patterns for Node.js + Commander.js. Build CLIs for<br/>humans, AI agents, or both. </td>
-  <td><a href="./stars/alexknowshtml/api2cli.md">Feb 24, 2026</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/openclaw/skills">openclaw/skills</a><sup><sub> - Python - Jan 06, 2026</sub></sup><br/><sup><sub>Tags: #archive #backup #clawhub #openclaw #skill</sub></sup><br/>All versions of all skills that are on clawhub.com archived. </td>
-  <td><a href="./stars/openclaw/skills.md">Feb 23, 2026</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/nkzw-tech/remdx">nkzw-tech/remdx</a><sup><sub> - TypeScript - May 22, 2023</sub></sup><br/>Beautiful Minimalist React &amp; MDX Presentations. </td>
-  <td><a href="./stars/nkzw-tech/remdx.md">Feb 22, 2026</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/erictli/scratch">erictli/scratch</a><sup><sub> - TypeScript - Jan 31, 2026</sub></sup><br/>A minimalist, offline-first markdown note-taking app. </td>
-  <td><a href="./stars/erictli/scratch.md">Feb 22, 2026</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/jkudish/librarium">jkudish/librarium</a><sup><sub> - TypeScript - Feb 20, 2026</sub></sup><br/><sup><sub>Tags: #ai #ai-agents #deep-research #deep-research-agent #deep-research-api #gemini #openai #perplexity-ai #research #search<br/>#search-engine</sub></sup><br/>Multi-provider deep research CLI — fans out queries to multiple search/AI<br/>APIs in parallel. </td>
-  <td><a href="./stars/jkudish/librarium.md">Feb 21, 2026</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/jamiepine/voicebox">jamiepine/voicebox</a><sup><sub> - TypeScript - Jan 25, 2026</sub></sup><br/><sup><sub>Tags: #ai #cuda #mlx #qwen3-tts #qwen3-tts-ui #voice-ai #voice-clone #whisper</sub></sup><br/>The open-source voice synthesis studio. </td>
-  <td><a href="./stars/jamiepine/voicebox.md">Feb 21, 2026</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/kando-menu/kando">kando-menu/kando</a><sup><sub> - TypeScript - Apr 16, 2023</sub></sup><br/><sup><sub>Tags: #cross-platform #electron #gestures #linux #macos #marking-menu #pie-menu #ux-design #windows</sub></sup><br/>🌸 Do things with utmost efficiency. </td>
-  <td><a href="./stars/kando-menu/kando.md">Feb 20, 2026</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/pilotmoon/PopClip-Extensions">pilotmoon/PopClip-Extensions</a><sup><sub> - JavaScript - Nov 08, 2012</sub></sup><br/><sup><sub>Tags: #macos #popclip</sub></sup><br/>Source code for extensions in the official PopClip Extensions directory. </td>
-  <td><a href="./stars/pilotmoon/PopClip-Extensions.md">Feb 16, 2026</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/alexknowshtml/drawbridge">alexknowshtml/drawbridge</a><sup><sub> - TypeScript - Feb 08, 2026</sub></sup><br/>Claude Code skill + real-time diagram server. Ask Claude to draw<br/>flowcharts, architecture diagrams, and dependency maps — watch them appear<br/>live on an Excalidraw canvas. </td>
-  <td><a href="./stars/alexknowshtml/drawbridge.md">Feb 16, 2026</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/alexknowshtml/andy-timeline">alexknowshtml/andy-timeline</a><sup><sub> - Dec 29, 2025</sub></sup><br/>The Andy Timeline: An AI assistant&#039;s origin story, told week by week. </td>
-  <td><a href="./stars/alexknowshtml/andy-timeline.md">Feb 16, 2026</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/alexknowshtml/kuato">alexknowshtml/kuato</a><sup><sub> - TypeScript - Dec 31, 2025</sub></sup><br/><sup><sub>Tags: #ai-agents #claude</sub></sup><br/>Built for Claude Code but works in any agent that supports skills, easily<br/>recall what you discussed with your favorite coding agents, what decisions<br/>you made, and where you left off so you can pick up where you left off as<br/>easily as asking &quot;where did we leave off on XYZ...&quot;. </td>
-  <td><a href="./stars/alexknowshtml/kuato.md">Feb 16, 2026</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/johnlindquist/lamarck">johnlindquist/lamarck</a><sup><sub> - TypeScript - Feb 12, 2026</sub></sup><br/>Analyze Claude Code sessions and extract high-signal learnings into MEMORY.<br/>md files. </td>
-  <td><a href="./stars/johnlindquist/lamarck.md">Feb 16, 2026</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/openclaw/gogcli">openclaw/gogcli</a><sup><sub> - Go - Dec 12, 2025</sub></sup><br/><sup><sub>Tags: #gcal #gcontacts #gdrive #gmail #google</sub></sup><br/>Google Workspace in your terminal. </td>
-  <td><a href="./stars/openclaw/gogcli.md">Feb 14, 2026</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/steipete/gogcli">steipete/gogcli</a><sup><sub> - Go - Dec 12, 2025</sub></sup><br/><sup><sub>Tags: #gcal #gcontacts #gdrive #gmail #google</sub></sup><br/>Google Suite CLI: Gmail, GCal, GDrive, GContacts. </td>
-  <td><a href="./stars/steipete/gogcli.md">Feb 14, 2026</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/coreyhaines31/marketingskills">coreyhaines31/marketingskills</a><sup><sub> - JavaScript - Jan 15, 2026</sub></sup><br/><sup><sub>Tags: #claude #codex #marketing</sub></sup><br/>Marketing skills for Claude Code and AI agents. CRO, copywriting, SEO,<br/>analytics, and growth engineering. </td>
-  <td><a href="./stars/coreyhaines31/marketingskills.md">Feb 09, 2026</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/macaly/almostnode">macaly/almostnode</a><sup><sub> - TypeScript - Jan 29, 2026</sub></sup><br/><sup><sub>Tags: #nodejs #webcontainers</sub></sup><br/>Node.js in your browser. Just like that. </td>
-  <td><a href="./stars/macaly/almostnode.md">Feb 09, 2026</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/karpathy/nanochat">karpathy/nanochat</a><sup><sub> - Python - Oct 13, 2025</sub></sup><br/>The best ChatGPT that $100 can buy. </td>
-  <td><a href="./stars/karpathy/nanochat.md">Feb 08, 2026</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/towardsthecloud/cloudburn">towardsthecloud/cloudburn</a><sup><sub> - TypeScript - Mar 13, 2021</sub></sup><br/><sup><sub>Tags: #amazon-web-services #aws #cloud #command-line-tool #cost-management #cost-optimization #devops #devops-tools #finops<br/>#homebrew #npm-package</sub></sup><br/>Open-source policy engine that blocks bad AWS spending patterns before they<br/>ship and remediates what&#039;s already burning. </td>
-  <td><a href="./stars/towardsthecloud/cloudburn.md">Feb 06, 2026</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/kitlangton/Hex">kitlangton/Hex</a><sup><sub> - Swift - Jan 27, 2025</sub></sup><br/><sup><sub>Tags: #composable-architecture #macos #swift #swiftui #transcription #whisper</sub></sup><br/>VOICE → WORDS. </td>
-  <td><a href="./stars/kitlangton/Hex.md">Feb 04, 2026</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/levineam/qmd-skill">levineam/qmd-skill</a><sup><sub> - Jan 27, 2026</sub></sup></td>
-  <td><a href="./stars/levineam/qmd-skill.md">Jan 30, 2026</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/craft-ai-agents/craft-agents-oss">craft-ai-agents/craft-agents-oss</a><sup><sub> - TypeScript - Jan 19, 2026</sub></sup></td>
-  <td><a href="./stars/craft-ai-agents/craft-agents-oss.md">Jan 29, 2026</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/lukilabs/craft-agents-oss">lukilabs/craft-agents-oss</a><sup><sub> - TypeScript - Jan 19, 2026</sub></sup></td>
-  <td><a href="./stars/lukilabs/craft-agents-oss.md">Jan 29, 2026</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/snarktank/compound-product">snarktank/compound-product</a><sup><sub> - Shell - Jan 22, 2026</sub></sup><br/>A self-improving product system that reads reports, identifies priorities,<br/>and autonomously implements fixes. </td>
-  <td><a href="./stars/snarktank/compound-product.md">Jan 29, 2026</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/openprose/prose">openprose/prose</a><sup><sub> - Jan 03, 2026</sub></sup></td>
-  <td><a href="./stars/openprose/prose.md">Jan 28, 2026</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/syncthing/syncthing-macos">syncthing/syncthing-macos</a><sup><sub> - Objective-C - Jun 12, 2016</sub></sup><br/><sup><sub>Tags: #apple #backup #cloud-sync #file-sharing #file-sync #frugal #mac #macos #macosx #objective-c #osx #p2p #peer-to-peer<br/>#simple #swift #sync #sync-files #synchronization #syncthing</sub></sup><br/>Official frugal and native macOS Syncthing application bundle. </td>
-  <td><a href="./stars/syncthing/syncthing-macos.md">Jan 26, 2026</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/ZeroGDrive/bucket-scout">ZeroGDrive/bucket-scout</a><sup><sub> - TypeScript - Jan 04, 2026</sub></sup></td>
-  <td><a href="./stars/ZeroGDrive/bucket-scout.md">Jan 24, 2026</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/fayazara/bucketdrop">fayazara/bucketdrop</a><sup><sub> - Swift - Jan 19, 2026</sub></sup><br/>BucketDrop is a tiny, open-source menu bar app for uploading files to your<br/>own S3-compatible storage.  No dashboards. No syncing folders. No vendor<br/>lock-in.  Just drop a file and get a shareable URL instantly. </td>
-  <td><a href="./stars/fayazara/bucketdrop.md">Jan 24, 2026</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/remorses/playwriter">remorses/playwriter</a><sup><sub> - HTML - Nov 13, 2025</sub></sup><br/><sup><sub>Tags: #mcp #playwright</sub></sup><br/>MCP to control your Chrome window via extension. Runs Playwright code in a<br/>stateful sandbox. </td>
-  <td><a href="./stars/remorses/playwriter.md">Jan 24, 2026</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/benjitaylor/agentation">benjitaylor/agentation</a><sup><sub> - TypeScript - Jan 18, 2026</sub></sup><br/>The visual feedback tool for agents. </td>
-  <td><a href="./stars/benjitaylor/agentation.md">Jan 23, 2026</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/infi-pc/locatorjs">infi-pc/locatorjs</a><sup><sub> - TypeScript - Nov 28, 2021</sub></sup></td>
-  <td><a href="./stars/infi-pc/locatorjs.md">Jan 23, 2026</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/aquilarafa/clancy">aquilarafa/clancy</a><sup><sub> - Go - Jan 15, 2026</sub></sup></td>
-  <td><a href="./stars/aquilarafa/clancy.md">Jan 21, 2026</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/Dicklesworthstone/beads_rust">Dicklesworthstone/beads_rust</a><sup><sub> - Rust - Jan 18, 2026</sub></sup><br/>A fast Rust port of Steve Yegge&#039;s beads - a local-first, non-invasive<br/>issue tracker for git repositories. </td>
-  <td><a href="./stars/Dicklesworthstone/beads_rust.md">Jan 18, 2026</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/peterjthomson/ledger">peterjthomson/ledger</a><sup><sub> - TypeScript - Dec 25, 2025</sub></sup><br/><sup><sub>Tags: #agent-collaboration #git #version-control</sub></sup><br/>A modernised git interface for improved agent and human collaboration,<br/>review and control. </td>
-  <td><a href="./stars/peterjthomson/ledger.md">Jan 18, 2026</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/mikefarah/yq">mikefarah/yq</a><sup><sub> - Go - Sep 26, 2015</sub></sup><br/><sup><sub>Tags: #bash #cli #csv #devops-tools #golang #hcl #json #portable #properties #splat #terraform #toml #xml #yaml<br/>#yaml-processor</sub></sup><br/>yq is a portable command-line YAML, JSON, XML, CSV, TOML, HCL  and<br/>properties processor. </td>
-  <td><a href="./stars/mikefarah/yq.md">Jan 17, 2026</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/specstoryai/getspecstory">specstoryai/getspecstory</a><sup><sub> - Go - Dec 13, 2024</sub></sup><br/><sup><sub>Tags: #ai #chat-history #claude #claude-code #codex #codex-cli #copilot #copilot-chat #cursor-ai #cursor-cli #cursorai<br/>#vscode #vscode-extension</sub></sup><br/>Install our local first extensions for your favorite AI IDE or Terminal<br/>Agent. Sync your conversations to the cloud. File issues and requests. </td>
-  <td><a href="./stars/specstoryai/getspecstory.md">Jan 16, 2026</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/blencorp/lisa">blencorp/lisa</a><sup><sub> - TypeScript - Jan 08, 2026</sub></sup><br/>Lisa plans. Ralph does. Interactive specification interview workflow for<br/>Claude Code that conducts in-depth feature interviews and generates<br/>comprehensive specs. </td>
-  <td><a href="./stars/blencorp/lisa.md">Jan 16, 2026</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/nicoalbanese/gwt-manager">nicoalbanese/gwt-manager</a><sup><sub> - Shell - Jan 15, 2026</sub></sup></td>
-  <td><a href="./stars/nicoalbanese/gwt-manager.md">Jan 15, 2026</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/cxreg/smartcd">cxreg/smartcd</a><sup><sub> - Shell - Apr 23, 2009</sub></sup><br/>Alter your bash (or zsh) environment as you cd. </td>
-  <td><a href="./stars/cxreg/smartcd.md">Jan 15, 2026</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/arcafly/fuzemill">arcafly/fuzemill</a><sup><sub> - Rust - Jan 10, 2026</sub></sup></td>
-  <td><a href="./stars/arcafly/fuzemill.md">Jan 15, 2026</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/glittercowboy/get-shit-done">glittercowboy/get-shit-done</a><sup><sub> - JavaScript - Dec 14, 2025</sub></sup><br/><sup><sub>Tags: #claude-code #context-engineering #meta-prompting #spec-driven-development</sub></sup><br/>A light-weight and powerful meta-prompting, context engineering and<br/>spec-driven development system for Claude Code and OpenCode. </td>
-  <td><a href="./stars/glittercowboy/get-shit-done.md">Jan 15, 2026</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/gsd-build/get-shit-done">gsd-build/get-shit-done</a><sup><sub> - JavaScript - Dec 14, 2025</sub></sup><br/><sup><sub>Tags: #claude-code #context-engineering #meta-prompting #spec-driven-development</sub></sup><br/>A light-weight and powerful meta-prompting, context engineering and<br/>spec-driven development system for Claude Code by TÂCHES. </td>
-  <td><a href="./stars/gsd-build/get-shit-done.md">Jan 15, 2026</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/kettanaito/rettime">kettanaito/rettime</a><sup><sub> - TypeScript - Aug 04, 2024</sub></sup><br/>A type-safe marriage of `EventTarget` and `EventEmitter`. </td>
-  <td><a href="./stars/kettanaito/rettime.md">Jan 14, 2026</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/brenbuilds1/copilot-ralph">brenbuilds1/copilot-ralph</a><sup><sub> - Shell - Jan 12, 2026</sub></sup><br/>Copilot ralph is an autonomous AI agent loop that runs repeatedly until all<br/>PRD items are complete. </td>
-  <td><a href="./stars/brenbuilds1/copilot-ralph.md">Jan 14, 2026</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/ironcamel/Graph-Easy">ironcamel/Graph-Easy</a><sup><sub> - Perl - Oct 22, 2010</sub></sup><br/>Convert or render graphs (as ASCII, HTML, SVG or via Graphviz). </td>
-  <td><a href="./stars/ironcamel/Graph-Easy.md">Jan 12, 2026</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/cycloidio/inframap">cycloidio/inframap</a><sup><sub> - Go - Jul 06, 2020</sub></sup><br/><sup><sub>Tags: #aws #diagram #flexibleengine #go #golang #graph #hcl #openstack #terraform #tfstate</sub></sup><br/>Read your tfstate or HCL to generate a graph specific for each provider,<br/>showing only the resources that are most important/relevant. </td>
-  <td><a href="./stars/cycloidio/inframap.md">Jan 12, 2026</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/tw93/MiaoYan">tw93/MiaoYan</a><sup><sub> - Swift - Apr 06, 2020</sub></sup><br/><sup><sub>Tags: #editor #local-first #macos #markdown #markdown-editor #notes-app #swift</sub></sup><br/>⛷ Lightweight Markdown app to help you write great sentences. </td>
-  <td><a href="./stars/tw93/MiaoYan.md">Jan 11, 2026</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/cjpais/Handy">cjpais/Handy</a><sup><sub> - TypeScript - Feb 13, 2025</sub></sup><br/><sup><sub>Tags: #accessibility #cross-platform #speech-to-text #tauri-v2</sub></sup><br/>A free, open source, and extensible speech-to-text application that works<br/>completely offline. </td>
-  <td><a href="./stars/cjpais/Handy.md">Jan 11, 2026</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/clawdbot/nix-clawdbot">clawdbot/nix-clawdbot</a><sup><sub> - Nix - Jan 02, 2026</sub></sup><br/><sup><sub>Tags: #clawdis #nix</sub></sup><br/>Packages clawdis for nix. </td>
-  <td><a href="./stars/clawdbot/nix-clawdbot.md">Jan 11, 2026</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/openclaw/nix-openclaw">openclaw/nix-openclaw</a><sup><sub> - Nix - Jan 02, 2026</sub></sup><br/><sup><sub>Tags: #clawdis #nix</sub></sup><br/>Packages OpenClaw for nix. </td>
-  <td><a href="./stars/openclaw/nix-openclaw.md">Jan 11, 2026</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/clawdbot/clawdinators">clawdbot/clawdinators</a><sup><sub> - Nix - Jan 06, 2026</sub></sup><br/>Declarative infra + NixOS modules for CLAWDINATOR hosts. </td>
-  <td><a href="./stars/clawdbot/clawdinators.md">Jan 11, 2026</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/openclaw/clawdinators">openclaw/clawdinators</a><sup><sub> - Nix - Jan 06, 2026</sub></sup><br/>Declarative infra + NixOS modules for CLAWTINATOR hosts. </td>
-  <td><a href="./stars/openclaw/clawdinators.md">Jan 11, 2026</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/snarktank/ralph">snarktank/ralph</a><sup><sub> - TypeScript - Jan 07, 2026</sub></sup><br/>Ralph is an autonomous AI agent loop that runs repeatedly until all PRD<br/>items are complete. </td>
-  <td><a href="./stars/snarktank/ralph.md">Jan 09, 2026</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/tobi/qmd">tobi/qmd</a><sup><sub> - TypeScript - Dec 08, 2025</sub></sup><br/>mini cli search engine for your docs, knowledge bases, meeting notes,<br/>whatever. Tracking current sota approaches while being all local. </td>
-  <td><a href="./stars/tobi/qmd.md">Jan 08, 2026</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/allenheltondev/image-downscaler">allenheltondev/image-downscaler</a><sup><sub> - Rust - Jan 02, 2026</sub></sup><br/>AWS template for automatically converting and downscaling static images<br/>hosted behind a CDN. </td>
-  <td><a href="./stars/allenheltondev/image-downscaler.md">Jan 08, 2026</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/netlify/file-sync-action">netlify/file-sync-action</a><sup><sub> - JavaScript - Mar 12, 2022</sub></sup><br/>A GitHub Action for syncing files across repositories. </td>
-  <td><a href="./stars/netlify/file-sync-action.md">Jan 08, 2026</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/pierrecomputer/pierre">pierrecomputer/pierre</a><sup><sub> - TypeScript - Sep 19, 2025</sub></sup><br/><sup><sub>Tags: #diffs #memescale</sub></sup><br/>pierre’s open source code. </td>
-  <td><a href="./stars/pierrecomputer/pierre.md">Jan 06, 2026</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/MotiaDev/motia-examples">MotiaDev/motia-examples</a><sup><sub> - Feb 01, 2025</sub></sup><br/>A community maintained list of flow examples built with Motia. </td>
-  <td><a href="./stars/MotiaDev/motia-examples.md">Jan 06, 2026</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/numman-ali/cc-mirror">numman-ali/cc-mirror</a><sup><sub> - TypeScript - Jan 02, 2026</sub></sup><br/>Create multiple isolated Claude Code variants with custom providers (Z.ai,<br/>MiniMax, OpenRouter, LiteLLM). </td>
-  <td><a href="./stars/numman-ali/cc-mirror.md">Jan 05, 2026</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/Dicklesworthstone/acip">Dicklesworthstone/acip</a><sup><sub> - Shell - Apr 20, 2025</sub></sup><br/>The Advanced Cognitive Inoculation Prompt. </td>
-  <td><a href="./stars/Dicklesworthstone/acip.md">Jan 05, 2026</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/gmickel/my-claude-skills">gmickel/my-claude-skills</a><sup><sub> - Dec 02, 2025</sub></sup></td>
-  <td><a href="./stars/gmickel/my-claude-skills.md">Jan 04, 2026</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/Dicklesworthstone/repo_updater">Dicklesworthstone/repo_updater</a><sup><sub> - Shell - Jan 03, 2026</sub></sup><br/>A beautiful, automation-friendly CLI for synchronizing GitHub repositories.<br/>Keep dozens of repos in sync with a single command. </td>
-  <td><a href="./stars/Dicklesworthstone/repo_updater.md">Jan 03, 2026</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/hatemhosny/racing-bars">hatemhosny/racing-bars</a><sup><sub> - TypeScript - Jun 13, 2020</sub></sup><br/><sup><sub>Tags: #animation #charts #d3 #hacktoberfest #visualization</sub></sup><br/>Bar chart race made easy 🎉. </td>
-  <td><a href="./stars/hatemhosny/racing-bars.md">Jan 03, 2026</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/backnotprop/plannotator">backnotprop/plannotator</a><sup><sub> - TypeScript - Dec 28, 2025</sub></sup><br/><sup><sub>Tags: #claude-code #obsidian #opencode</sub></sup><br/>Annotate and review coding agent plans visually, share with your team, send<br/>feedback with one click. </td>
-  <td><a href="./stars/backnotprop/plannotator.md">Jan 03, 2026</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/simonw/justjshtml">simonw/justjshtml</a><sup><sub> - JavaScript - Dec 15, 2025</sub></sup><br/>JavaScript port of EmilStenstrom/justhtml. </td>
-  <td><a href="./stars/simonw/justjshtml.md">Jan 02, 2026</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/Piebald-AI/claude-code-system-prompts">Piebald-AI/claude-code-system-prompts</a><sup><sub> - JavaScript - Nov 18, 2025</sub></sup><br/><sup><sub>Tags: #claude-code #claude-code-system-prompts #system-prompts</sub></sup><br/>All parts of Claude Code&#039;s system prompt, 18 builtin tool<br/>descriptions, sub agent prompts (Plan/Explore/Task), utility prompts<br/>(CLAUDE.md, compact,  statusline, magic docs, WebFetch, Bash cmd, security<br/>review, agent creation).  Updated for each Claude Code version. </td>
-  <td><a href="./stars/Piebald-AI/claude-code-system-prompts.md">Jan 01, 2026</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/rexxars/eventsource-parser">rexxars/eventsource-parser</a><sup><sub> - TypeScript - Sep 30, 2022</sub></sup><br/>Streaming, source-agnostic EventSource/Server-Sent Events parser. </td>
-  <td><a href="./stars/rexxars/eventsource-parser.md">Dec 30, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/jlevy/markform">jlevy/markform</a><sup><sub> - TypeScript - Dec 22, 2025</sub></sup><br/>Structured Markdown documents for agents and humans. </td>
-  <td><a href="./stars/jlevy/markform.md">Dec 30, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/superbasicstudio/claude-conductor">superbasicstudio/claude-conductor</a><sup><sub> - JavaScript - Jun 14, 2025</sub></sup><br/><sup><sub>Tags: #aiframework #claude #claudecode #framework #vibecoding</sub></sup><br/>Claude Conductor - a simple Claude Code framework. </td>
-  <td><a href="./stars/superbasicstudio/claude-conductor.md">Dec 30, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/marcboeker/gmail-to-sqlite">marcboeker/gmail-to-sqlite</a><sup><sub> - Python - Dec 31, 2023</sub></sup><br/>Index your Gmail account to a SQLite DB and play with the data. </td>
-  <td><a href="./stars/marcboeker/gmail-to-sqlite.md">Dec 30, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/hamzafer/cursor-commands">hamzafer/cursor-commands</a><sup><sub> - Sep 23, 2025</sub></sup><br/><sup><sub>Tags: #agent #ai #cursor #cursor-ai #cursor-commands</sub></sup><br/>Cursor Custom Slash Commands. </td>
-  <td><a href="./stars/hamzafer/cursor-commands.md">Dec 30, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/Dicklesworthstone/coding_agent_session_search">Dicklesworthstone/coding_agent_session_search</a><sup><sub> - Rust - Nov 21, 2025</sub></sup></td>
-  <td><a href="./stars/Dicklesworthstone/coding_agent_session_search.md">Dec 29, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/zirkelc/git-pull-run">zirkelc/git-pull-run</a><sup><sub> - TypeScript - Dec 29, 2021</sub></sup><br/>Automatically run npm install on git pull if the package.json was changed. </td>
-  <td><a href="./stars/zirkelc/git-pull-run.md">Dec 29, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/msitarzewski/agency-agents">msitarzewski/agency-agents</a><sup><sub> - Oct 13, 2025</sub></sup><br/>A complete AI agency at your fingertips** - From frontend wizards to Reddit<br/>community ninjas, from whimsy injectors to reality checkers. Each agent is<br/>a specialized expert with personality, processes, and proven deliverables. </td>
-  <td><a href="./stars/msitarzewski/agency-agents.md">Dec 29, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/msmps/opentui-ui">msmps/opentui-ui</a><sup><sub> - TypeScript - Dec 26, 2025</sub></sup><br/>UI component library for terminal applications built on @opentui/*. </td>
-  <td><a href="./stars/msmps/opentui-ui.md">Dec 28, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/badlogic/pi-mono">badlogic/pi-mono</a><sup><sub> - TypeScript - Aug 09, 2025</sub></sup><br/>AI agent toolkit: coding agent CLI, unified LLM API, TUI &amp; web UI<br/>libraries, Slack bot, vLLM pods. </td>
-  <td><a href="./stars/badlogic/pi-mono.md">Dec 28, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/wopehq/muninn">wopehq/muninn</a><sup><sub> - TypeScript - Apr 23, 2021</sub></sup><br/><sup><sub>Tags: #cheerio #css-selectors #html #htmlparser #json #parse #parser</sub></sup><br/>Muninn is a fast and flexible HTML parsing tool that simplifies the process<br/>of extracting data from HTMLs. </td>
-  <td><a href="./stars/wopehq/muninn.md">Dec 26, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/kozakdenys/qr-code-styling">kozakdenys/qr-code-styling</a><sup><sub> - TypeScript - Aug 07, 2019</sub></sup><br/>Automaticly generate your styled QR code in your web app. </td>
-  <td><a href="./stars/kozakdenys/qr-code-styling.md">Dec 26, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/binwiederhier/ntfy">binwiederhier/ntfy</a><sup><sub> - Go - Oct 23, 2021</sub></sup><br/><sup><sub>Tags: #curl #notifications #ntfy #ntfysh #pubsub #push-notifications #rest-api</sub></sup><br/>Send push notifications to your phone or desktop using PUT/POST. </td>
-  <td><a href="./stars/binwiederhier/ntfy.md">Dec 26, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/hyperdxio/hyperdx">hyperdxio/hyperdx</a><sup><sub> - TypeScript - Sep 13, 2023</sub></sup><br/><sup><sub>Tags: #alerting #analytics #apm #application-monitoring #clickhouse #dashboard #frontend-monitoring #kubernetes<br/>#log-management #logs #metrics #monitoring #observability #opentelemetry #react #self-hosted #session-replay #traces<br/>#typescript</sub></sup><br/>Resolve production issues, fast. An open source observability platform<br/>unifying session replays, logs, metrics, traces and errors powered by<br/>ClickHouse and OpenTelemetry. </td>
-  <td><a href="./stars/hyperdxio/hyperdx.md">Dec 26, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/jdx/mise">jdx/mise</a><sup><sub> - Rust - Jan 09, 2023</sub></sup><br/>dev tools, env vars, task runner. </td>
-  <td><a href="./stars/jdx/mise.md">Dec 26, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/bluwy/npm-userscript">bluwy/npm-userscript</a><sup><sub> - TypeScript - Dec 16, 2025</sub></sup><br/>Various improvements and fixes for npmjs.com. </td>
-  <td><a href="./stars/bluwy/npm-userscript.md">Dec 26, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/suhaotian/xior">suhaotian/xior</a><sup><sub> - TypeScript - Feb 20, 2024</sub></sup><br/><sup><sub>Tags: #ajax #axios-api #fetch #fetch-wrapper #http #plugins #typescript #xior</sub></sup><br/>A liteweight fetch wrapper with plugins support and similar API to axios. </td>
-  <td><a href="./stars/suhaotian/xior.md">Dec 26, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/bombshell-dev/tab">bombshell-dev/tab</a><sup><sub> - TypeScript - Sep 29, 2024</sub></sup><br/>tab tab tab. </td>
-  <td><a href="./stars/bombshell-dev/tab.md">Dec 26, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/developit/dlv">developit/dlv</a><sup><sub> - JavaScript - Aug 04, 2016</sub></sup><br/><sup><sub>Tags: #dlv #javascript #key #object</sub></sup><br/>Safe deep property access in 120 bytes. x = dlv(obj, &#039;a.b.x&#039;). </td>
-  <td><a href="./stars/developit/dlv.md">Dec 26, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/43081j/fast-wrap-ansi">43081j/fast-wrap-ansi</a><sup><sub> - TypeScript - Aug 03, 2025</sub></sup><br/>A tiny and fast library for word wrapping terminal output. </td>
-  <td><a href="./stars/43081j/fast-wrap-ansi.md">Dec 26, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/1771-Technologies/lytenyte">1771-Technologies/lytenyte</a><sup><sub> - TypeScript - Jan 04, 2025</sub></sup><br/><sup><sub>Tags: #data-grid #data-table #datagrid #filtering #grid-component #grouping #high-performance-grid #javascript-datagrid<br/>#javascript-table #pagination #react #react-data-grid #react-table #sorting #table #typescript-datagrid #virtualized-grid<br/>#virtualized-table</sub></sup><br/>The official monorepo for LyteNyte Grid, the fastest React data grid built<br/>on modern web technologies. Designed for enterprise-scale performance,<br/>LyteNyte Grid offers unrivaled speed, memory efficiency, and a<br/>comprehensive feature set in a small bundle size. Supported by the 1771<br/>Technologies team. </td>
-  <td><a href="./stars/1771-Technologies/lytenyte.md">Dec 26, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/TomerAberbach/grfn">TomerAberbach/grfn</a><sup><sub> - TypeScript - Dec 31, 2020</sub></sup><br/><sup><sub>Tags: #async #concurrency #graph #node-module #node-package #package</sub></sup><br/>🦅 A tiny (~315B) utility that executes a dependency graph of async<br/>functions as concurrently as possible. </td>
-  <td><a href="./stars/TomerAberbach/grfn.md">Dec 26, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/W4G1/multithreading">W4G1/multithreading</a><sup><sub> - TypeScript - Dec 15, 2023</sub></sup><br/><sup><sub>Tags: #atomics #bun #concurrency #deno #javascript #multi-threading #multithreading #nodejs #parallel-processing<br/>#shared-array-buffer #shared-worker #sharedarraybuffer #thread-pool #threads #typescript #web-worker #web-workers #webworkers<br/>#worker-pool #worker-threads</sub></sup><br/>The missing standard library for multithreading in JavaScript (Works in the<br/>browser, Node.js, Deno, Bun). </td>
-  <td><a href="./stars/W4G1/multithreading.md">Dec 26, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/beeequeue/bench-lru">beeequeue/bench-lru</a><sup><sub> - TypeScript - Aug 11, 2025</sub></sup></td>
-  <td><a href="./stars/beeequeue/bench-lru.md">Dec 26, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/parcadei/Continuous-Claude-v2">parcadei/Continuous-Claude-v2</a><sup><sub> - Python - Dec 23, 2025</sub></sup><br/><sup><sub>Tags: #agents #claude-code #claude-code-cli #claude-code-hooks #claude-code-mcp #claude-code-skills #claude-code-subagents<br/>#claude-skills #mcp</sub></sup><br/>Context management for Claude Code. Hooks maintain state via ledgers and<br/>handoffs. MCP execution without context pollution. Agent orchestration with<br/>isolated context windows. </td>
-  <td><a href="./stars/parcadei/Continuous-Claude-v2.md">Dec 25, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/parcadei/Continuous-Claude-v3">parcadei/Continuous-Claude-v3</a><sup><sub> - Python - Dec 23, 2025</sub></sup><br/><sup><sub>Tags: #agents #claude-code #claude-code-cli #claude-code-hooks #claude-code-mcp #claude-code-skills #claude-code-subagents<br/>#claude-skills #mcp</sub></sup><br/>Context management for Claude Code. Hooks maintain state via ledgers and<br/>handoffs. MCP execution without context pollution. Agent orchestration with<br/>isolated context windows. </td>
-  <td><a href="./stars/parcadei/Continuous-Claude-v3.md">Dec 25, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/bellard/mquickjs">bellard/mquickjs</a><sup><sub> - C - Dec 22, 2025</sub></sup><br/>Public repository of the Micro QuickJS Javascript Engine. </td>
-  <td><a href="./stars/bellard/mquickjs.md">Dec 23, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/awsfundamentals-hq/centralized-alerting">awsfundamentals-hq/centralized-alerting</a><sup><sub> - TypeScript - Dec 09, 2025</sub></sup></td>
-  <td><a href="./stars/awsfundamentals-hq/centralized-alerting.md">Dec 22, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/jjenzz/pretty-cache-header">jjenzz/pretty-cache-header</a><sup><sub> - TypeScript - Jan 03, 2023</sub></sup><br/>Cache-control header utility that parses human readable time strings into<br/>seconds. </td>
-  <td><a href="./stars/jjenzz/pretty-cache-header.md">Dec 22, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/jlongster/tigma">jlongster/tigma</a><sup><sub> - TypeScript - Dec 22, 2025</sub></sup></td>
-  <td><a href="./stars/jlongster/tigma.md">Dec 22, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/Dicklesworthstone/misc_coding_agent_tips_and_scripts">Dicklesworthstone/misc_coding_agent_tips_and_scripts</a><sup><sub> - Dec 18, 2025</sub></sup><br/>Various things I had to figure out recently to make things work better... </td>
-  <td><a href="./stars/Dicklesworthstone/misc_coding_agent_tips_and_scripts.md">Dec 20, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/tursodatabase/agentfs">tursodatabase/agentfs</a><sup><sub> - Rust - Oct 24, 2025</sub></sup><br/><sup><sub>Tags: #agents #filesystem #sqlite #turso</sub></sup><br/>The filesystem for agents. </td>
-  <td><a href="./stars/tursodatabase/agentfs.md">Dec 15, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/ashvardanian/StringZilla">ashvardanian/StringZilla</a><sup><sub> - C - Aug 14, 2020</sub></sup><br/><sup><sub>Tags: #dataset #edit-distance #gpu #hash #hashing #information-retrieval #levenshtein-distance #parser #search #simd<br/>#sorting-algorithms #string #string-manipulation #string-matching #string-parsing #string-search #substring #unicode</sub></sup><br/>Up to 100x faster strings for C, C++, CUDA, Python, Rust, Swift, JS, &amp;<br/>Go, leveraging NEON, AVX2, AVX-512, SVE, GPGPU, &amp; SWAR to accelerate<br/>search, hashing, sorting, edit distances, sketches, and memory ops 🦖. </td>
-  <td><a href="./stars/ashvardanian/StringZilla.md">Dec 15, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/evanw/kiwi">evanw/kiwi</a><sup><sub> - C++ - Apr 22, 2016</sub></sup><br/>A schema-based binary format for efficiently encoding trees of data. </td>
-  <td><a href="./stars/evanw/kiwi.md">Dec 13, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/badass-courses/course-builder">badass-courses/course-builder</a><sup><sub> - TypeScript - Nov 05, 2023</sub></sup><br/><sup><sub>Tags: #inngest #nextjs #openai #react #tailwindcss #typescript</sub></sup><br/>🍄 platform for building Badass Courses. </td>
-  <td><a href="./stars/badass-courses/course-builder.md">Dec 12, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/assimelha/bdui">assimelha/bdui</a><sup><sub> - TypeScript - Nov 19, 2025</sub></sup><br/><sup><sub>Tags: #beads #bun #cli #ink #issue-tracker #kanban #terminal #tui</sub></sup><br/>Real-time Text User Interface for bd (beads) issue tracker with Kanban,<br/>Tree, Graph views, and notifications. </td>
-  <td><a href="./stars/assimelha/bdui.md">Dec 12, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/farouqaldori/claude-island">farouqaldori/claude-island</a><sup><sub> - Swift - Dec 09, 2025</sub></sup><br/>Claude Code notifications without the context switch. A minimal,<br/>always-present session manager for macOS. </td>
-  <td><a href="./stars/farouqaldori/claude-island.md">Dec 12, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/Dicklesworthstone/cass_memory_system">Dicklesworthstone/cass_memory_system</a><sup><sub> - TypeScript - Dec 07, 2025</sub></sup></td>
-  <td><a href="./stars/Dicklesworthstone/cass_memory_system.md">Dec 12, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/Dicklesworthstone/mcp_agent_mail">Dicklesworthstone/mcp_agent_mail</a><sup><sub> - Python - Oct 23, 2025</sub></sup><br/>Like gmail for your coding agents. Lets various different agents<br/>communicate and coordinate with each other. </td>
-  <td><a href="./stars/Dicklesworthstone/mcp_agent_mail.md">Dec 12, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/medikoo/duration">medikoo/duration</a><sup><sub> - JavaScript - May 22, 2012</sub></sup><br/>Time duration utilities for JavaScript. </td>
-  <td><a href="./stars/medikoo/duration.md">Dec 12, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/super-linter/super-linter">super-linter/super-linter</a><sup><sub> - Shell - Oct 21, 2019</sub></sup><br/><sup><sub>Tags: #actions #ci #code-quality #code-quality-analyzer #linter #quality-check #super-linter</sub></sup><br/>Combination of multiple linters to run as a GitHub Action or standalone. </td>
-  <td><a href="./stars/super-linter/super-linter.md">Dec 11, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/medikoo/uni-global">medikoo/uni-global</a><sup><sub> - JavaScript - Sep 30, 2021</sub></sup><br/>Global namespace with no global scope pollution. </td>
-  <td><a href="./stars/medikoo/uni-global.md">Dec 11, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/SawyerHood/dev-browser">SawyerHood/dev-browser</a><sup><sub> - TypeScript - Dec 02, 2025</sub></sup><br/><sup><sub>Tags: #claude-code #playwright #skills</sub></sup><br/>A Claude Skill to give your agent the ability to use a web browser. </td>
-  <td><a href="./stars/SawyerHood/dev-browser.md">Dec 11, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/thebuilder/react-intersection-observer">thebuilder/react-intersection-observer</a><sup><sub> - TypeScript - May 02, 2017</sub></sup><br/><sup><sub>Tags: #hook #hooks #intersection-observer #intersectionobserver #intersectionobserver-api #lazy-loading #monitor #performance<br/>#react #react-hooks #reactjs #scrolling #viewport #visibility</sub></sup><br/>React implementation of the Intersection Observer API to tell you when an<br/>element enters or leaves the viewport. </td>
-  <td><a href="./stars/thebuilder/react-intersection-observer.md">Dec 09, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/brianlovin/briOS">brianlovin/briOS</a><sup><sub> - TypeScript - Sep 08, 2018</sub></sup><br/><sup><sub>Tags: #apollo #graphql #javascript #nextjs #planetscale #prisma #react #styled-components</sub></sup><br/>My personal website. </td>
-  <td><a href="./stars/brianlovin/briOS.md">Dec 08, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/Dicklesworthstone/beads_viewer">Dicklesworthstone/beads_viewer</a><sup><sub> - Go - Nov 26, 2025</sub></sup><br/>View your beads (Steve Yegge&#039;s task management system for coding<br/>agents) like a king. </td>
-  <td><a href="./stars/Dicklesworthstone/beads_viewer.md">Dec 08, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/joelhooks/pdf-brain">joelhooks/pdf-brain</a><sup><sub> - TypeScript - Dec 07, 2025</sub></sup><br/>🧠 Local PDF knowledge base with vector search using libsql w/vectors. </td>
-  <td><a href="./stars/joelhooks/pdf-brain.md">Dec 07, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/steipete/poltergeist">steipete/poltergeist</a><sup><sub> - TypeScript - Jul 29, 2025</sub></sup><br/><sup><sub>Tags: #automation #build #filewatcher</sub></sup><br/>The ghost that keeps your builds fresh - Universal hot reload, file watcher<br/>and build automation for any language. </td>
-  <td><a href="./stars/steipete/poltergeist.md">Dec 06, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/davis7dotsh/river">davis7dotsh/river</a><sup><sub> - TypeScript - Oct 02, 2025</sub></sup><br/><sup><sub>Tags: #ai #react #streaming #svelte #sveltekit #tanstack-start #typescript</sub></sup><br/>the sane way to work with ai agent streams (type safety and stream resuming<br/>out of the box). </td>
-  <td><a href="./stars/davis7dotsh/river.md">Dec 06, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/D00Movenok/BounceBack">D00Movenok/BounceBack</a><sup><sub> - Go - May 15, 2023</sub></sup><br/><sup><sub>Tags: #c2 #cobalt-strike #cybersecurity #infrastructure #opsec #pentest #pentesting #phishing #proxy #redirector #redteam<br/>#security</sub></sup><br/>↕️🤫 Stealth redirector for your red team operation security. </td>
-  <td><a href="./stars/D00Movenok/BounceBack.md">Nov 30, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/ZON-Format/zon-TS">ZON-Format/zon-TS</a><sup><sub> - TypeScript - Nov 26, 2025</sub></sup><br/><sup><sub>Tags: #chatgpt #claude #data #gemini-pro #json #llm #token-reduction #tokenizer #toon #zon</sub></sup><br/>ZON → 35-70% cheaper LLM prompts than JSON/TOON. Zero overhead. </td>
-  <td><a href="./stars/ZON-Format/zon-TS.md">Nov 30, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/steveyegge/beads">steveyegge/beads</a><sup><sub> - Go - Oct 12, 2025</sub></sup><br/><sup><sub>Tags: #agents #claude-code #coding</sub></sup><br/>Beads - A memory upgrade for your coding agent. </td>
-  <td><a href="./stars/steveyegge/beads.md">Nov 30, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/davila7/claude-code-templates">davila7/claude-code-templates</a><sup><sub> - Python - Jul 04, 2025</sub></sup><br/><sup><sub>Tags: #anthropic #anthropic-claude #claude #claude-code</sub></sup><br/>CLI tool for configuring and monitoring Claude Code. </td>
-  <td><a href="./stars/davila7/claude-code-templates.md">Nov 30, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/gsuess/typebox-cli">gsuess/typebox-cli</a><sup><sub> - TypeScript - Feb 11, 2025</sub></sup><br/>CLI tool for various TypeBox and JSON Schema operations. </td>
-  <td><a href="./stars/gsuess/typebox-cli.md">Nov 29, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/johnlindquist/poweruser">johnlindquist/poweruser</a><sup><sub> - TypeScript - Oct 03, 2025</sub></sup></td>
-  <td><a href="./stars/johnlindquist/poweruser.md">Nov 26, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/styfle/copee">styfle/copee</a><sup><sub> - TypeScript - Jul 23, 2015</sub></sup><br/><sup><sub>Tags: #browser-api #clipboard #copy #text</sub></sup><br/>📄 Copy text from browser to clipboard...natively! &lt; 1kB. </td>
-  <td><a href="./stars/styfle/copee.md">Nov 26, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/steipete/Peekaboo">steipete/Peekaboo</a><sup><sub> - Swift - May 22, 2025</sub></sup><br/><sup><sub>Tags: #ai #macos #mcp #screenshots #swift</sub></sup><br/>Peekaboo is a macOS CLI &amp; optional MCP server that enables AI agents to<br/>capture screenshots of applications, or the entire system, with optional<br/>visual question answering through local or remote AI models. </td>
-  <td><a href="./stars/steipete/Peekaboo.md">Nov 25, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/elysiajs/elysia">elysiajs/elysia</a><sup><sub> - TypeScript - Dec 04, 2022</sub></sup><br/><sup><sub>Tags: #bun #framework #http #server #typescript #web</sub></sup><br/>Ergonomic Framework for Humans. </td>
-  <td><a href="./stars/elysiajs/elysia.md">Nov 23, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/scalar/scalar">scalar/scalar</a><sup><sub> - TypeScript - Aug 16, 2023</sub></sup><br/><sup><sub>Tags: #api #api-client #docs #http-client #openapi #openapi3 #reference #rest-api #swagger #vue</sub></sup><br/>Scalar is an open-source API<br/>platform:<br/>🌐 Modern Rest API<br/>Client<br/>📖 Beautiful API<br/>References<br/>✨ 1st-Class OpenAPI/Swagger Support. </td>
-  <td><a href="./stars/scalar/scalar.md">Nov 23, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/EveryInc/compound-engineering-plugin">EveryInc/compound-engineering-plugin</a><sup><sub> - Python - Oct 09, 2025</sub></sup><br/>Official Claude Code compound engineering plugin. </td>
-  <td><a href="./stars/EveryInc/compound-engineering-plugin.md">Nov 23, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/rayriffy/quick-npm">rayriffy/quick-npm</a><sup><sub> - TypeScript - Jun 30, 2023</sub></sup><br/>Quick start template to rapidly develop NPM packages with speed. </td>
-  <td><a href="./stars/rayriffy/quick-npm.md">Nov 22, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/rayriffy/elysia-remote-dts">rayriffy/elysia-remote-dts</a><sup><sub> - TypeScript - May 02, 2025</sub></sup><br/><sup><sub>Tags: #dts #elysia #elysia-plugin #elysiajs #typescript</sub></sup><br/>A plugin that provide .d.ts types remotely for Eden Treaty to consume. </td>
-  <td><a href="./stars/rayriffy/elysia-remote-dts.md">Nov 22, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/alexanderop/claude-code-builder">alexanderop/claude-code-builder</a><sup><sub> - Nov 08, 2025</sub></sup></td>
-  <td><a href="./stars/alexanderop/claude-code-builder.md">Nov 21, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/johnlindquist/claude-workshop-live">johnlindquist/claude-workshop-live</a><sup><sub> - TypeScript - Aug 08, 2025</sub></sup></td>
-  <td><a href="./stars/johnlindquist/claude-workshop-live.md">Nov 21, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/wong2/mcp-cli">wong2/mcp-cli</a><sup><sub> - JavaScript - Dec 05, 2024</sub></sup><br/>A CLI inspector for the Model Context Protocol. </td>
-  <td><a href="./stars/wong2/mcp-cli.md">Nov 21, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/DavidWells/claude-dev-container">DavidWells/claude-dev-container</a><sup><sub> - Shell - Jul 15, 2025</sub></sup><br/>Run Claude Code in isolated dev container and remotely connect via<br/>vibetunnel. </td>
-  <td><a href="./stars/DavidWells/claude-dev-container.md">Nov 21, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/generalaction/emdash">generalaction/emdash</a><sup><sub> - TypeScript - Aug 28, 2025</sub></sup><br/><sup><sub>Tags: #agenticcoding #ai #cli #codingagents #containerization #docker #gitworktrees #jira #linear #llm #openai #opensource<br/>#orchestration #parallelexecution #terminal</sub></sup><br/>Emdash is an orchestration layer for running multiple coding agents in<br/>parallel in isolated Git worktrees. </td>
-  <td><a href="./stars/generalaction/emdash.md">Nov 21, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/johnlindquist/orchestrator">johnlindquist/orchestrator</a><sup><sub> - TypeScript - Nov 21, 2025</sub></sup></td>
-  <td><a href="./stars/johnlindquist/orchestrator.md">Nov 21, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/basicmachines-co/basic-memory">basicmachines-co/basic-memory</a><sup><sub> - Python - Dec 02, 2024</sub></sup><br/><sup><sub>Tags: #ai #claude #knowledge-management #knowlege-graph #llm #local-first #markdown #mcp #obsidian #obsidian-md #open-source<br/>#privacy-first #privacy-first-ai #productivity #python</sub></sup><br/>AI conversations that actually remember. Never re-explain your project to<br/>your AI again. Join our Discord: https://discord.gg/tyvKNccgqN. </td>
-  <td><a href="./stars/basicmachines-co/basic-memory.md">Nov 21, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/johnlindquist/dotagent">johnlindquist/dotagent</a><sup><sub> - TypeScript - Jun 17, 2025</sub></sup><br/>Universal AI agent configuration parser and converter. </td>
-  <td><a href="./stars/johnlindquist/dotagent.md">Nov 21, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/johnlindquist/cursor-alias">johnlindquist/cursor-alias</a><sup><sub> - TypeScript - Nov 04, 2025</sub></sup></td>
-  <td><a href="./stars/johnlindquist/cursor-alias.md">Nov 21, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/mixedbread-ai/mgrep">mixedbread-ai/mgrep</a><sup><sub> - TypeScript - Nov 06, 2025</sub></sup><br/>A calm, CLI-native way to semantically grep everything, like code, images,<br/>pdfs and more. </td>
-  <td><a href="./stars/mixedbread-ai/mgrep.md">Nov 21, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/universal-tool-calling-protocol/code-mode">universal-tool-calling-protocol/code-mode</a><sup><sub> - TypeScript - Nov 11, 2025</sub></sup><br/><sup><sub>Tags: #ai-agents #codemode #mcp #model-context-protocol #toolchain #utcp</sub></sup><br/>🔌 Plug-and-play library to enable agents to call MCP and UTCP tools via<br/>code execution. </td>
-  <td><a href="./stars/universal-tool-calling-protocol/code-mode.md">Nov 21, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/steipete/sweetlink">steipete/sweetlink</a><sup><sub> - TypeScript - Nov 05, 2025</sub></sup><br/><sup><sub>Tags: #frontend-debugging #typescript</sub></sup><br/>Connect your agent to your web app. Like playwright, but works in your<br/>current tab. Close the loop. </td>
-  <td><a href="./stars/steipete/sweetlink.md">Nov 21, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/steipete/Trimmy">steipete/Trimmy</a><sup><sub> - Swift - Nov 15, 2025</sub></sup><br/><sup><sub>Tags: #clipboard #swift</sub></sup><br/>&quot;Paste once, run once.&quot; — Trimmy flattens those multi-line shell<br/>snippets you copy so they actually paste and run. </td>
-  <td><a href="./stars/steipete/Trimmy.md">Nov 21, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/nikolasburk/livestore-tanstack-cloudflare-auth-example">nikolasburk/livestore-tanstack-cloudflare-auth-example</a><sup><sub> - TypeScript - Nov 18, 2025</sub></sup></td>
-  <td><a href="./stars/nikolasburk/livestore-tanstack-cloudflare-auth-example.md">Nov 20, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/aidenybai/react-grab">aidenybai/react-grab</a><sup><sub> - TypeScript - Oct 17, 2025</sub></sup><br/><sup><sub>Tags: #ai #coding #react #react-grab</sub></sup><br/>Grab any element on in your app and give it to Cursor, Claude Code, etc. </td>
-  <td><a href="./stars/aidenybai/react-grab.md">Nov 19, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/eser/ajancli">eser/ajancli</a><sup><sub> - Go - Jun 14, 2025</sub></sup></td>
-  <td><a href="./stars/eser/ajancli.md">Nov 19, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/steipete/Markdansi">steipete/Markdansi</a><sup><sub> - TypeScript - Nov 16, 2025</sub></sup><br/><sup><sub>Tags: #ansii #markdown #typescript</sub></sup><br/>Markdown to ANSII in TypeScript based on Micro-Mark, with support for URLs,<br/>tables, lists and more. </td>
-  <td><a href="./stars/steipete/Markdansi.md">Nov 18, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/openworkflowdev/openworkflow">openworkflowdev/openworkflow</a><sup><sub> - TypeScript - Oct 25, 2025</sub></sup><br/>Open-source TypeScript framework for building durable, resumable workflows. </td>
-  <td><a href="./stars/openworkflowdev/openworkflow.md">Nov 14, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/mark-when/markwhen">mark-when/markwhen</a><sup><sub> - HTML - May 20, 2021</sub></sup><br/><sup><sub>Tags: #calendar #editor #events #gantt #gantt-chart #gantt-diagram #maps #markdown #markwhen #project #project-management<br/>#timeline #visualization #vscode #vscode-extension</sub></sup><br/>Make a cascading timeline from markdown-like text. Supports simple<br/>American/European date styles, ISO8601, images, links, locations, and more. </td>
-  <td><a href="./stars/mark-when/markwhen.md">Nov 13, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/humanwhocodes/crosspost">humanwhocodes/crosspost</a><sup><sub> - JavaScript - Nov 08, 2024</sub></sup><br/>A JavaScript utility for posting across multiple social networks at once. </td>
-  <td><a href="./stars/humanwhocodes/crosspost.md">Nov 13, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/humanwhocodes/module-importer">humanwhocodes/module-importer</a><sup><sub> - JavaScript - Aug 17, 2022</sub></sup><br/>Universal importer for CommonJS and ESM in Node.js. </td>
-  <td><a href="./stars/humanwhocodes/module-importer.md">Nov 13, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/Dimava/yamlscript">Dimava/yamlscript</a><sup><sub> - TypeScript - Nov 09, 2025</sub></sup><br/>Enable TypeScript language server features for TypeScript code embedded in<br/>YAML files. </td>
-  <td><a href="./stars/Dimava/yamlscript.md">Nov 10, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/anthropic-experimental/sandbox-runtime">anthropic-experimental/sandbox-runtime</a><sup><sub> - TypeScript - Oct 20, 2025</sub></sup><br/>A lightweight sandboxing tool for enforcing filesystem and network<br/>restrictions on arbitrary processes at the OS level, without requiring a<br/>container. </td>
-  <td><a href="./stars/anthropic-experimental/sandbox-runtime.md">Nov 08, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/alexfazio/cc-trace">alexfazio/cc-trace</a><sup><sub> - Shell - Nov 08, 2025</sub></sup><br/>Claude Code CLI skill: Interactive assistant for intercepting, debugging,<br/>analyzing and reviewing Claude Code API requests using mitmproxy. </td>
-  <td><a href="./stars/alexfazio/cc-trace.md">Nov 08, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/s-yadav/react-number-format">s-yadav/react-number-format</a><sup><sub> - JavaScript - Apr 17, 2016</sub></sup><br/>React component to format numbers in an input or as a text. </td>
-  <td><a href="./stars/s-yadav/react-number-format.md">Nov 05, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/cino/aws-lambda-stubs">cino/aws-lambda-stubs</a><sup><sub> - TypeScript - Oct 13, 2025</sub></sup><br/><sup><sub>Tags: #lambda #stubs #testing #typescript</sub></sup><br/>Providing stubs for all AWS Lambda invocation types for easy unit testing. </td>
-  <td><a href="./stars/cino/aws-lambda-stubs.md">Nov 05, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/instructure/idb-cache">instructure/idb-cache</a><sup><sub> - TypeScript - Nov 07, 2024</sub></sup><br/><sup><sub>Tags: #indexeddb #query #tanstack</sub></sup><br/>IndexedDB-based caching library with encryption and chunked storage,<br/>designed for performance and security. Implements AsyncStorage interface. </td>
-  <td><a href="./stars/instructure/idb-cache.md">Nov 01, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/MrLesk/Backlog.md">MrLesk/Backlog.md</a><sup><sub> - TypeScript - Jun 04, 2025</sub></sup><br/><sup><sub>Tags: #agent #agentic-ai #management #markdown #project #task-manager #tasks</sub></sup><br/>Backlog.md - A tool for managing project collaboration between humans and<br/>AI Agents in a git ecosystem. </td>
-  <td><a href="./stars/MrLesk/Backlog.md.md">Nov 01, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/diet103/claude-code-infrastructure-showcase">diet103/claude-code-infrastructure-showcase</a><sup><sub> - Shell - Oct 30, 2025</sub></sup><br/>Examples of my Claude Code infrastructure with skill auto-activation,<br/>hooks, and agents. </td>
-  <td><a href="./stars/diet103/claude-code-infrastructure-showcase.md">Oct 31, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/serkodev/markdown-exit">serkodev/markdown-exit</a><sup><sub> - TypeScript - Aug 24, 2025</sub></sup><br/><sup><sub>Tags: #commonmark #javascript #markdown #parser #renderer #typescript</sub></sup><br/>Fast, customizable Markdown parser and renderer with full CommonMark<br/>support. TypeScript rewrite of markdown-it with enhancements. </td>
-  <td><a href="./stars/serkodev/markdown-exit.md">Oct 31, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/Vanilagy/mediabunny">Vanilagy/mediabunny</a><sup><sub> - TypeScript - Sep 01, 2024</sub></sup><br/><sup><sub>Tags: #audio #decoding #demuxing #encoding #library #media #mp3 #mp4 #muxing #npm #ogg #typescript #video #wav #webcodecs<br/>#webm</sub></sup><br/>Pure TypeScript media toolkit for reading, writing, and converting video<br/>and audio files, directly in the browser. </td>
-  <td><a href="./stars/Vanilagy/mediabunny.md">Oct 30, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/toon-format/toon">toon-format/toon</a><sup><sub> - TypeScript - Oct 22, 2025</sub></sup><br/><sup><sub>Tags: #data-format #llm #serialization #tokenization</sub></sup><br/>🎒 Token-Oriented Object Notation (TOON) – Compact, human-readable,<br/>schema-aware JSON for LLM prompts. Spec, benchmarks, TypeScript SDK. </td>
-  <td><a href="./stars/toon-format/toon.md">Oct 27, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/darkroomengineering/lenis">darkroomengineering/lenis</a><sup><sub> - TypeScript - Feb 21, 2022</sub></sup><br/><sup><sub>Tags: #performance #react #scroll #smooth #smooth-scroll #snap #vanilla #vue</sub></sup><br/>Smooth scroll at it should be. </td>
-  <td><a href="./stars/darkroomengineering/lenis.md">Oct 27, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/kzkn/npm-changelog-url-action">kzkn/npm-changelog-url-action</a><sup><sub> - TypeScript - Dec 16, 2021</sub></sup></td>
-  <td><a href="./stars/kzkn/npm-changelog-url-action.md">Oct 25, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/fkirc/skip-duplicate-actions">fkirc/skip-duplicate-actions</a><sup><sub> - TypeScript - Sep 19, 2020</sub></sup><br/>Save time and cost when using GitHub Actions. </td>
-  <td><a href="./stars/fkirc/skip-duplicate-actions.md">Oct 25, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/hiwelo/new-dependencies-action">hiwelo/new-dependencies-action</a><sup><sub> - TypeScript - Apr 26, 2020</sub></sup><br/>GitHub Action adding a comment with information about new NPM dependencies<br/>detected in a pull request. </td>
-  <td><a href="./stars/hiwelo/new-dependencies-action.md">Oct 24, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/anthropics/claude-code-action">anthropics/claude-code-action</a><sup><sub> - TypeScript - May 19, 2025</sub></sup></td>
-  <td><a href="./stars/anthropics/claude-code-action.md">Oct 24, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/completecoding/serverless-auto-swagger">completecoding/serverless-auto-swagger</a><sup><sub> - TypeScript - Sep 26, 2021</sub></sup></td>
-  <td><a href="./stars/completecoding/serverless-auto-swagger.md">Oct 23, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/JLarky/gha-ts">JLarky/gha-ts</a><sup><sub> - Pkl - Oct 17, 2025</sub></sup><br/>Type-safe GitHub Action workflows. </td>
-  <td><a href="./stars/JLarky/gha-ts.md">Oct 19, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/Textualize/toolong">Textualize/toolong</a><sup><sub> - Python - Jan 07, 2024</sub></sup><br/><sup><sub>Tags: #jsonl #rich #terminal #terminal-based #textual #tui</sub></sup><br/>A terminal application to view, tail, merge, and search log files (plus<br/>JSONL). </td>
-  <td><a href="./stars/Textualize/toolong.md">Oct 12, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/Teamwork/visual-dom-diff">Teamwork/visual-dom-diff</a><sup><sub> - HTML - Nov 15, 2018</sub></sup><br/><sup><sub>Tags: #diffing #dom-tree</sub></sup><br/>Highlight differences between two DOM trees. </td>
-  <td><a href="./stars/Teamwork/visual-dom-diff.md">Oct 12, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/nikeee/lean-s3">nikeee/lean-s3</a><sup><sub> - TypeScript - Apr 06, 2025</sub></sup><br/><sup><sub>Tags: #api #aws #s3</sub></sup><br/>A small and fast S3 client without the clutter. </td>
-  <td><a href="./stars/nikeee/lean-s3.md">Oct 12, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/fabiospampinato/graphmatch">fabiospampinato/graphmatch</a><sup><sub> - JavaScript - Oct 11, 2025</sub></sup><br/><sup><sub>Tags: #graph #match #regex</sub></sup><br/>A low-level utility for matching a string against a directed acyclic graph<br/>of regexes. </td>
-  <td><a href="./stars/fabiospampinato/graphmatch.md">Oct 12, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/remorses/critique">remorses/critique</a><sup><sub> - TypeScript - Oct 08, 2025</sub></sup><br/>TUI for reviewing git changes. </td>
-  <td><a href="./stars/remorses/critique.md">Oct 12, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/justrach/dhi-zig">justrach/dhi-zig</a><sup><sub> - Python - Oct 04, 2025</sub></sup></td>
-  <td><a href="./stars/justrach/dhi-zig.md">Oct 12, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/sindresorhus/css-extras">sindresorhus/css-extras</a><sup><sub> - CSS - Oct 05, 2025</sub></sup><br/>Useful CSS custom functions using the new @​function rule. </td>
-  <td><a href="./stars/sindresorhus/css-extras.md">Oct 09, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/obra/coderabbit-review-helper">obra/coderabbit-review-helper</a><sup><sub> - Python - Sep 06, 2025</sub></sup><br/>Extract CodeRabbit GitHub PR reviews for AI coding agent consumption. </td>
-  <td><a href="./stars/obra/coderabbit-review-helper.md">Oct 05, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/mountain-loop/yaak">mountain-loop/yaak</a><sup><sub> - TypeScript - Feb 16, 2023</sub></sup><br/><sup><sub>Tags: #bruno-alternative #graphql #grpc #http #http-client #insomnia-alternative #postman-alternative #sse #tauri<br/>#websocket</sub></sup><br/>The most intuitive desktop API client. Organize and execute REST, GraphQL,<br/>WebSockets, Server Sent Events, and gRPC 🦬. </td>
-  <td><a href="./stars/mountain-loop/yaak.md">Oct 02, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/crutchcorn/sync-skeleton">crutchcorn/sync-skeleton</a><sup><sub> - HTML - Sep 18, 2025</sub></sup><br/><sup><sub>Tags: #loading-animations #react #shimmer-effect #skeleton-loading #skelton-css #solidjs #vue #vue3</sub></sup><br/>Synchronized Skeleton Loaders for your favorite framework. </td>
-  <td><a href="./stars/crutchcorn/sync-skeleton.md">Sep 19, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/WebReflection/element">WebReflection/element</a><sup><sub> - TypeScript - Sep 12, 2025</sub></sup><br/>A minimalistic DOM element creation library. </td>
-  <td><a href="./stars/WebReflection/element.md">Sep 12, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/sindresorhus/urls-md">sindresorhus/urls-md</a><sup><sub> - JavaScript - Feb 14, 2014</sub></sup><br/>Convert URLs to Markdown links: Extracts URLs from text → Gets their<br/>article title → Creates Markdown links. </td>
-  <td><a href="./stars/sindresorhus/urls-md.md">Sep 11, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/floydspace/effect-aws">floydspace/effect-aws</a><sup><sub> - TypeScript - Sep 16, 2023</sub></sup><br/><sup><sub>Tags: #aws #aws-cloudwatch #aws-s3 #aws-sdk #ecosystem #effect #effect-ts #logger #typescript</sub></sup><br/>🚰 Effectful AWS. </td>
-  <td><a href="./stars/floydspace/effect-aws.md">Sep 10, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/purple-technology/serverless-seed-plugin">purple-technology/serverless-seed-plugin</a><sup><sub> - JavaScript - May 31, 2021</sub></sup><br/><sup><sub>Tags: #aws #cognito #dynamodb #plugin #plugin-seeds #s3 #seed #serverless</sub></sup><br/>This plugin seeds the data for AWS resources. </td>
-  <td><a href="./stars/purple-technology/serverless-seed-plugin.md">Sep 09, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/uhop/stream-json">uhop/stream-json</a><sup><sub> - JavaScript - Aug 11, 2013</sub></sup><br/><sup><sub>Tags: #javascript-objects #parse-json-files #parser #stream-components #stream-processing #streaming-json</sub></sup><br/>The micro-library of Node.js stream components for creating custom JSON<br/>processing pipelines with a minimal memory footprint. It can parse JSON<br/>files far exceeding available memory streaming individual primitives using<br/>a SAX-inspired API. </td>
-  <td><a href="./stars/uhop/stream-json.md">Sep 08, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/bahmutov/start-server-and-test">bahmutov/start-server-and-test</a><sup><sub> - JavaScript - Nov 03, 2017</sub></sup><br/><sup><sub>Tags: #cli #server #startup #test #utility</sub></sup><br/>Starts server, waits for URL, then runs test command; when the tests end,<br/>shuts down server. </td>
-  <td><a href="./stars/bahmutov/start-server-and-test.md">Sep 06, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/slopus/happy">slopus/happy</a><sup><sub> - TypeScript - Jul 18, 2025</sub></sup><br/><sup><sub>Tags: #claude-code #claude-desktop #claude-mobile #codex #codex-cli #hacktoberfest</sub></sup><br/>Mobile and Web client for Codex and Claude Code, with realtime voice,<br/>encryption and fully featured. </td>
-  <td><a href="./stars/slopus/happy.md">Sep 05, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/johnlindquist/pack">johnlindquist/pack</a><sup><sub> - JavaScript - Aug 15, 2025</sub></sup><br/>Smart file filter for Repomix - search and bundle only files containing<br/>specific strings. </td>
-  <td><a href="./stars/johnlindquist/pack.md">Sep 05, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/remcohaszing/mdxlint">remcohaszing/mdxlint</a><sup><sub> - JavaScript - Jul 13, 2025</sub></sup><br/><sup><sub>Tags: #cli #format #formatter #lint #linter #mdast #mdx #remark #unified</sub></sup><br/>A CLI to lint and format MDX content. </td>
-  <td><a href="./stars/remcohaszing/mdxlint.md">Sep 04, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/SodaDev/mcp-auth">SodaDev/mcp-auth</a><sup><sub> - Go - Aug 21, 2025</sub></sup></td>
-  <td><a href="./stars/SodaDev/mcp-auth.md">Sep 02, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/csswizardry/Obs.js">csswizardry/Obs.js</a><sup><sub> - JavaScript - Aug 10, 2025</sub></sup><br/><sup><sub>Tags: #battery-api #navigator-api #sitespeed #webperf #webperformance</sub></sup><br/>Context-aware web performance for everyone. </td>
-  <td><a href="./stars/csswizardry/Obs.js.md">Sep 02, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/mzazon/awesome-cloud-projects">mzazon/awesome-cloud-projects</a><sup><sub> - Shell - Aug 24, 2025</sub></sup><br/><sup><sub>Tags: #amazon-web-services #aws #aws-cdk #azure #azure-bicep #cloud #cloudformation #devops #education #gcp<br/>#google-cloud-platform #microsoft-azure #terraform</sub></sup><br/>Over 1100 cloud architecture recipes, tutorials, and real-world solutions<br/>across Amazon Web Services (AWS), Microsoft Azure, and Google Cloud<br/>Platform (GCP). </td>
-  <td><a href="./stars/mzazon/awesome-cloud-projects.md">Aug 28, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/Owloops/claude-powerline">Owloops/claude-powerline</a><sup><sub> - TypeScript - Aug 10, 2025</sub></sup><br/><sup><sub>Tags: #claude-code #cli #developer-tools #git #lightweight #statusline</sub></sup><br/>Beautiful vim-style powerline statusline for Claude Code. </td>
-  <td><a href="./stars/Owloops/claude-powerline.md">Aug 27, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/zenryan/serverless-plugin-alb-apikey">zenryan/serverless-plugin-alb-apikey</a><sup><sub> - JavaScript - Jan 31, 2020</sub></sup><br/>Api key for Alb Event on Serverless Framework. </td>
-  <td><a href="./stars/zenryan/serverless-plugin-alb-apikey.md">Aug 25, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/reflex-media/lesgo-framework">reflex-media/lesgo-framework</a><sup><sub> - TypeScript - Sep 21, 2019</sub></sup><br/>Core framework for lesgo. </td>
-  <td><a href="./stars/reflex-media/lesgo-framework.md">Aug 25, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/forattini-dev/s3db.js">forattini-dev/s3db.js</a><sup><sub> - JavaScript - Oct 10, 2022</sub></sup><br/><sup><sub>Tags: #aws #s3</sub></sup><br/>Use AWS S3 as a cheap document database. </td>
-  <td><a href="./stars/forattini-dev/s3db.js.md">Aug 25, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/mbc-net/mbc-cqrs-serverless">mbc-net/mbc-cqrs-serverless</a><sup><sub> - TypeScript - Dec 21, 2023</sub></sup><br/><sup><sub>Tags: #aws #cqrs #event-driven #framework #localdevelopment #nestjs #serverless #typescript</sub></sup><br/>serverless applications with CQRS on AWS, NestJS and local development. </td>
-  <td><a href="./stars/mbc-net/mbc-cqrs-serverless.md">Aug 25, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/robb0wen/rekishi">robb0wen/rekishi</a><sup><sub> - JavaScript - May 20, 2020</sub></sup><br/>Rekishi is a minimal pubsub wrapper for the history API. </td>
-  <td><a href="./stars/robb0wen/rekishi.md">Aug 25, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/robb0wen/tornis">robb0wen/tornis</a><sup><sub> - JavaScript - May 16, 2019</sub></sup><br/>Tornis helps you watch and respond to changes in your browser&#039;s<br/>viewport 🌲. </td>
-  <td><a href="./stars/robb0wen/tornis.md">Aug 25, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/11ty/parse-date-strings">11ty/parse-date-strings</a><sup><sub> - JavaScript - Jul 21, 2025</sub></sup><br/>Parsing content date strings in Eleventy core. </td>
-  <td><a href="./stars/11ty/parse-date-strings.md">Aug 25, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/DigitalPlatDev/FreeDomain">DigitalPlatDev/FreeDomain</a><sup><sub> - HTML - May 30, 2024</sub></sup><br/><sup><sub>Tags: #digitalplat #domain #domain-platform #domainname #domains #free #freedomain</sub></sup><br/>DigitalPlat FreeDomain: Free Domain For Everyone. </td>
-  <td><a href="./stars/DigitalPlatDev/FreeDomain.md">Aug 24, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/promptfoo/promptfoo">promptfoo/promptfoo</a><sup><sub> - TypeScript - Apr 28, 2023</sub></sup><br/><sup><sub>Tags: #ci #ci-cd #cicd #evaluation #evaluation-framework #llm #llm-eval #llm-evaluation #llm-evaluation-framework #llmops<br/>#pentesting #prompt-engineering #prompt-testing #prompts #rag #red-teaming #testing #vulnerability-scanners</sub></sup><br/>Test your prompts, agents, and RAGs. AI Red teaming, pentesting, and<br/>vulnerability scanning for LLMs. Compare performance of GPT, Claude,<br/>Gemini, Llama, and more. Simple declarative configs with command line and<br/>CI/CD integration. </td>
-  <td><a href="./stars/promptfoo/promptfoo.md">Aug 24, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/pierpo/react-archer">pierpo/react-archer</a><sup><sub> - TypeScript - Feb 27, 2018</sub></sup><br/><sup><sub>Tags: #arrow #arrows #dom #draw-arrows #react</sub></sup><br/>🏹 Draw arrows between React elements 🖋. </td>
-  <td><a href="./stars/pierpo/react-archer.md">Aug 22, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/vercel/streamdown">vercel/streamdown</a><sup><sub> - TypeScript - Aug 15, 2025</sub></sup><br/><sup><sub>Tags: #ai #markdown #streaming</sub></sup><br/>A drop-in replacement for react-markdown, designed for AI-powered streaming. </td>
-  <td><a href="./stars/vercel/streamdown.md">Aug 22, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/panphora/overtype">panphora/overtype</a><sup><sub> - JavaScript - Aug 15, 2025</sub></sup><br/>The markdown editor that&#039;s just a textarea https://overtype.dev. </td>
-  <td><a href="./stars/panphora/overtype.md">Aug 22, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/DerYeger/yeger">DerYeger/yeger</a><sup><sub> - TypeScript - Aug 15, 2021</sub></sup><br/><sup><sub>Tags: #npm #npm-package #typescript #vue</sub></sup><br/>Monorepo for @yeger/ NPM packages. </td>
-  <td><a href="./stars/DerYeger/yeger.md">Aug 20, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/zizmorcore/zizmor">zizmorcore/zizmor</a><sup><sub> - Rust - Aug 19, 2024</sub></sup><br/><sup><sub>Tags: #github-actions #security #security-tools #static-analysis</sub></sup><br/>Static analysis for GitHub Actions. </td>
-  <td><a href="./stars/zizmorcore/zizmor.md">Aug 14, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/Shopify/ejson">Shopify/ejson</a><sup><sub> - Go - Apr 28, 2014</sub></sup><br/>EJSON is a small library to manage encrypted secrets using asymmetric<br/>encryption. </td>
-  <td><a href="./stars/Shopify/ejson.md">Aug 14, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/jitsi/robotjs">jitsi/robotjs</a><sup><sub> - C - Jun 29, 2017</sub></sup><br/>Node.js Desktop Automation. </td>
-  <td><a href="./stars/jitsi/robotjs.md">Aug 14, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/laude-institute/terminal-bench">laude-institute/terminal-bench</a><sup><sub> - Python - Jan 17, 2025</sub></sup><br/>A benchmark for LLMs on complicated tasks in the terminal. </td>
-  <td><a href="./stars/laude-institute/terminal-bench.md">Aug 11, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/mantinedev/ui.mantine.dev">mantinedev/ui.mantine.dev</a><sup><sub> - TypeScript - Mar 09, 2022</sub></sup><br/><sup><sub>Tags: #components #react #ui</sub></sup><br/>Mantine UI website and components. </td>
-  <td><a href="./stars/mantinedev/ui.mantine.dev.md">Aug 10, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/aws-actions/aws-lambda-deploy">aws-actions/aws-lambda-deploy</a><sup><sub> - JavaScript - Jul 23, 2025</sub></sup><br/>Deploys a Lambda function. </td>
-  <td><a href="./stars/aws-actions/aws-lambda-deploy.md">Aug 08, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/alphanull/jsdoc-vision-theme">alphanull/jsdoc-vision-theme</a><sup><sub> - JavaScript - Jul 06, 2025</sub></sup><br/><sup><sub>Tags: #documentation #javascript #jsdoc #jsdoc-template #jsdoc-theme #modern-design #responsive-design</sub></sup><br/>JSDoc VisionTheme is a modern, clean, fully responsive, and highly<br/>customizable theme for JSDoc, designed to bring documentation for modern<br/>JavaScript projects to the next level. </td>
-  <td><a href="./stars/alphanull/jsdoc-vision-theme.md">Aug 07, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/alphanull/jsdoc-plugin-esnext">alphanull/jsdoc-plugin-esnext</a><sup><sub> - JavaScript - Jul 06, 2025</sub></sup><br/><sup><sub>Tags: #esnext #jsdoc #jsdoc-plugin</sub></sup><br/>JSDoc plugin that adds full ES2022+ class-feature support – private fields,<br/>static members, arrow-bound methods, as well as ES6 default export fixes. </td>
-  <td><a href="./stars/alphanull/jsdoc-plugin-esnext.md">Aug 07, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/janwilmake/recursive-execution-flow-markdown">janwilmake/recursive-execution-flow-markdown</a><sup><sub> - TypeScript - Jun 29, 2025</sub></sup><br/>Simply representing recursive execution flows in markdown. </td>
-  <td><a href="./stars/janwilmake/recursive-execution-flow-markdown.md">Aug 06, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/charles-adedotun/notifications-mcp-server">charles-adedotun/notifications-mcp-server</a><sup><sub> - Python - Mar 16, 2025</sub></sup><br/><sup><sub>Tags: #claude #llm-tools #macos #mcp #notification-system</sub></sup><br/>A Model Context Protocol (MCP) server that provides notifications for<br/>Claude Desktop on macOS. It plays configurable system sounds when Claude<br/>completes a task, enhancing user experience by eliminating the need for<br/>constant visual monitoring. </td>
-  <td><a href="./stars/charles-adedotun/notifications-mcp-server.md">Aug 06, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/NeuBlink/syncwright">NeuBlink/syncwright</a><sup><sub> - Go - Jul 26, 2025</sub></sup><br/><sup><sub>Tags: #ai #automation #claude #cli-tool #devops #git #github-action #merge-conflicts</sub></sup><br/>AI-powered Git merge conflict resolution tool. </td>
-  <td><a href="./stars/NeuBlink/syncwright.md">Aug 06, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/vercel/bidc">vercel/bidc</a><sup><sub> - TypeScript - Aug 04, 2025</sub></sup><br/><sup><sub>Tags: #async #channels #iframe #javascript #messaging #rpc #worker</sub></sup><br/>Bidirectional Channels for JavaScript. </td>
-  <td><a href="./stars/vercel/bidc.md">Aug 06, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/Airbolt-AI/airbolt">Airbolt-AI/airbolt</a><sup><sub> - TypeScript - Jul 01, 2025</sub></sup></td>
-  <td><a href="./stars/Airbolt-AI/airbolt.md">Aug 05, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/stryker-mutator/stryker-js">stryker-mutator/stryker-js</a><sup><sub> - TypeScript - Feb 12, 2016</sub></sup><br/><sup><sub>Tags: #hacktoberfest #javascript #mutation-testing #stryker #test-automation #testing #testing-tools #typescript</sub></sup><br/>Mutation testing for JavaScript and friends. </td>
-  <td><a href="./stars/stryker-mutator/stryker-js.md">Aug 05, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/BearGew1/claude-code-action-access-control">BearGew1/claude-code-action-access-control</a><sup><sub> - Shell - Aug 01, 2025</sub></sup><br/>Access control wrapper for anthropics/claude-code-action - restrict usage<br/>to specific users or teams. Perfect for public repositories that need to<br/>control who can trigger Claude AI assistance. </td>
-  <td><a href="./stars/BearGew1/claude-code-action-access-control.md">Aug 05, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/matheusdasmerces/github-codebuild-selfhosted">matheusdasmerces/github-codebuild-selfhosted</a><sup><sub> - TypeScript - Nov 25, 2024</sub></sup><br/>Repository containing the example of setting up CodeBuild to self host<br/>GitHub actions. </td>
-  <td><a href="./stars/matheusdasmerces/github-codebuild-selfhosted.md">Aug 04, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/tunnckoCore/mongo-like-filters">tunnckoCore/mongo-like-filters</a><sup><sub> - TypeScript - Aug 03, 2025</sub></sup><br/>A lightweight, type-safe TypeScript library for filtering objects using<br/>MongoDB-style query syntax. </td>
-  <td><a href="./stars/tunnckoCore/mongo-like-filters.md">Aug 03, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/badlogic/lemmy">badlogic/lemmy</a><sup><sub> - TypeScript - May 23, 2025</sub></sup><br/>Wrapper around tool using LLMs for agentic workflows. </td>
-  <td><a href="./stars/badlogic/lemmy.md">Aug 03, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/esm-dev/modern-monaco">esm-dev/modern-monaco</a><sup><sub> - TypeScript - Feb 08, 2024</sub></sup><br/>A modern version of Monaco Editor. </td>
-  <td><a href="./stars/esm-dev/modern-monaco.md">Aug 02, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/SuperClaude-Org/SuperClaude_Framework">SuperClaude-Org/SuperClaude_Framework</a><sup><sub> - Python - Jun 22, 2025</sub></sup><br/>A configuration framework that enhances Claude Code with specialized<br/>commands, cognitive personas, and development methodologies. </td>
-  <td><a href="./stars/SuperClaude-Org/SuperClaude_Framework.md">Aug 01, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/contains-studio/agents">contains-studio/agents</a><sup><sub> - Jul 28, 2025</sub></sup><br/>sharing current agents in use. </td>
-  <td><a href="./stars/contains-studio/agents.md">Aug 01, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/mike-pete/dex">mike-pete/dex</a><sup><sub> - TypeScript - Mar 21, 2025</sub></sup><br/><sup><sub>Tags: #nextjs #pusher-channels #qstash-upstash #queue #serverless #websocket</sub></sup><br/>Upload and Parse 1M+ Line CSVs with NextJS. </td>
-  <td><a href="./stars/mike-pete/dex.md">Aug 01, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/jarulraj/periodic-table">jarulraj/periodic-table</a><sup><sub> - Jul 28, 2025</sub></sup><br/>A Periodic Table of System Design Principles. </td>
-  <td><a href="./stars/jarulraj/periodic-table.md">Jul 31, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/andrelandgraf/openimg">andrelandgraf/openimg</a><sup><sub> - TypeScript - Jan 25, 2025</sub></sup><br/>Image optimization packages &amp; tools. </td>
-  <td><a href="./stars/andrelandgraf/openimg.md">Jul 31, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/DavidHDev/react-bits">DavidHDev/react-bits</a><sup><sub> - JavaScript - Aug 06, 2024</sub></sup><br/><sup><sub>Tags: #3d #animations #component-library #components #components-library #components-react #css-animations #javascript #react<br/>#reactjs #tailwind #tailwindcss #ui-components #ui-library #web</sub></sup><br/>An open source collection of animated, interactive &amp; fully customizable<br/>React components for building stunning, memorable websites. </td>
-  <td><a href="./stars/DavidHDev/react-bits.md">Jul 24, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/janwilmake/contextarea">janwilmake/contextarea</a><sup><sub> - TypeScript - May 15, 2025</sub></sup><br/>js and cloudflare libraries allowing easy context-building. </td>
-  <td><a href="./stars/janwilmake/contextarea.md">Jul 24, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/llm-guy/jarvis">llm-guy/jarvis</a><sup><sub> - Python - Jul 23, 2025</sub></sup><br/>Jarvis is a voice-activated, conversational AI assistant powered by a local<br/>LLM (Qwen via Ollama). It listens for a wake word, processes spoken<br/>commands using a local language model with LangChain, and responds out loud<br/>via TTS. It supports tool-calling for dynamic functions like checking the<br/>current time. </td>
-  <td><a href="./stars/llm-guy/jarvis.md">Jul 23, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/bumbu/svg-pan-zoom">bumbu/svg-pan-zoom</a><sup><sub> - JavaScript - Nov 18, 2013</sub></sup><br/>JavaScript library that enables panning and zooming of an SVG in an HTML<br/>document, with mouse events or custom JavaScript hooks. </td>
-  <td><a href="./stars/bumbu/svg-pan-zoom.md">Jul 23, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/danielmiessler/Fabric">danielmiessler/Fabric</a><sup><sub> - JavaScript - Jan 03, 2024</sub></sup><br/><sup><sub>Tags: #ai #augmentation #flourishing #life #work</sub></sup><br/>Fabric is an open-source framework for augmenting humans using AI. It<br/>provides a modular system for solving specific problems using a<br/>crowdsourced set of AI prompts that can be used anywhere. </td>
-  <td><a href="./stars/danielmiessler/Fabric.md">Jul 23, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/ossjs/release">ossjs/release</a><sup><sub> - TypeScript - Apr 18, 2022</sub></sup><br/><sup><sub>Tags: #ossjs #package #publish #release #release-automation #release-notes #semver #version</sub></sup><br/>Minimalistic, opinionated, and predictable release automation tool. </td>
-  <td><a href="./stars/ossjs/release.md">Jul 18, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/remorses/fumabase">remorses/fumabase</a><sup><sub> - JavaScript - Apr 10, 2020</sub></sup><br/><sup><sub>Tags: #documentation #generator #mdx</sub></sup><br/>Docs websites for the agents era. Publish docs websites without maintaining<br/>any code. Built on top of Fumadocs. </td>
-  <td><a href="./stars/remorses/fumabase.md">Jul 17, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/remorses/holocron">remorses/holocron</a><sup><sub> - JavaScript - Apr 10, 2020</sub></sup><br/><sup><sub>Tags: #documentation #generator #mdx</sub></sup><br/>Lovable for docs websites. </td>
-  <td><a href="./stars/remorses/holocron.md">Jul 17, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/ibelick/prompt-kit">ibelick/prompt-kit</a><sup><sub> - TypeScript - Feb 10, 2025</sub></sup><br/><sup><sub>Tags: #ai #components #nextjs #react #shadcn #shadcn-ui #tailwindcss #ui</sub></sup><br/>Core building blocks for AI apps.  High-quality, accessible, and<br/>customizable components for AI interfaces. </td>
-  <td><a href="./stars/ibelick/prompt-kit.md">Jul 16, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/FranciscoMoretti/sparka">FranciscoMoretti/sparka</a><sup><sub> - TypeScript - Mar 22, 2025</sub></sup><br/><sup><sub>Tags: #ai #anthropic #chat #chatbot #chatgpt #claude #gemini #gemini-ai #grok #llm #multiprovider #openai #xai</sub></sup><br/>AI Chat - Claude, ChatGPT, Gemini, and Grok. Advanced features,<br/>open-source, production-ready. </td>
-  <td><a href="./stars/FranciscoMoretti/sparka.md">Jul 16, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/revskill10/ream.js">revskill10/ream.js</a><sup><sub> - TypeScript - Jul 16, 2025</sub></sup><br/>The simplest Javascript Datetime library. </td>
-  <td><a href="./stars/revskill10/ream.js.md">Jul 16, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/SKaplanOfficial/Argonaut">SKaplanOfficial/Argonaut</a><sup><sub> - Rich Text Format - Sep 11, 2023</sub></sup><br/><sup><sub>Tags: #applescript #applescript-library #arguments #command-line #script-library</sub></sup><br/>An AppleScript library for parsing and handling command-line arguments. </td>
-  <td><a href="./stars/SKaplanOfficial/Argonaut.md">Jul 16, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/steadycursor/steadystart">steadycursor/steadystart</a><sup><sub> - TypeScript - May 14, 2024</sub></sup></td>
-  <td><a href="./stars/steadycursor/steadystart.md">Jul 15, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/mitsuhiko/vite-console-forward-plugin">mitsuhiko/vite-console-forward-plugin</a><sup><sub> - TypeScript - Jun 30, 2025</sub></sup><br/>Forwards console logs to the vite log. </td>
-  <td><a href="./stars/mitsuhiko/vite-console-forward-plugin.md">Jul 15, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/BloopAI/vibe-kanban">BloopAI/vibe-kanban</a><sup><sub> - Rust - Jun 14, 2025</sub></sup><br/><sup><sub>Tags: #agent #ai-agents #kanban #management #task-manager</sub></sup><br/>Kanban board to manage your AI coding agents. </td>
-  <td><a href="./stars/BloopAI/vibe-kanban.md">Jul 13, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/janwilmake/markdown-renderer">janwilmake/markdown-renderer</a><sup><sub> - CSS - Jul 13, 2025</sub></sup><br/>Chrome/Safari Extension that renders markdown responses. </td>
-  <td><a href="./stars/janwilmake/markdown-renderer.md">Jul 13, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/idosal/mcp-ui">idosal/mcp-ui</a><sup><sub> - TypeScript - May 13, 2025</sub></sup><br/><sup><sub>Tags: #ai #llm #mcp #ui</sub></sup><br/>SDK for UI over MCP. Create next-gen UI experiences!. </td>
-  <td><a href="./stars/idosal/mcp-ui.md">Jul 11, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/pmndrs/prai">pmndrs/prai</a><sup><sub> - TypeScript - Mar 20, 2025</sub></sup><br/><sup><sub>Tags: #llm #prai #programmable-ai #typescript #xgrammar</sub></sup><br/>JS Framework for building step-by-step LLM instructions. </td>
-  <td><a href="./stars/pmndrs/prai.md">Jul 10, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/pmndrs/uikit">pmndrs/uikit</a><sup><sub> - TypeScript - Feb 15, 2024</sub></sup><br/><sup><sub>Tags: #flexbox #r3f #react #threejs #typescript #uikit #userinterface #yoga</sub></sup><br/>🎨 user interfaces for react-three-fiber. </td>
-  <td><a href="./stars/pmndrs/uikit.md">Jul 10, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/getomni-ai/zerox">getomni-ai/zerox</a><sup><sub> - TypeScript - Jul 21, 2024</sub></sup><br/><sup><sub>Tags: #ocr #pdf</sub></sup><br/>OCR &amp; Document Extraction using vision models. </td>
-  <td><a href="./stars/getomni-ai/zerox.md">Jul 10, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/idosal/git-mcp">idosal/git-mcp</a><sup><sub> - TypeScript - Mar 29, 2025</sub></sup><br/><sup><sub>Tags: #agentic-ai #agents #ai #claude #copilot #cursor #git #llm #mcp</sub></sup><br/>Put an end to code hallucinations! GitMCP is a free, open-source, remote<br/>MCP server for any GitHub project. </td>
-  <td><a href="./stars/idosal/git-mcp.md">Jul 10, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/MiguelsPizza/WebMCP">MiguelsPizza/WebMCP</a><sup><sub> - TypeScript - Jun 13, 2025</sub></sup><br/><sup><sub>Tags: #ai #mcp #typescript</sub></sup><br/>Bringing the power of MCP to the web. </td>
-  <td><a href="./stars/MiguelsPizza/WebMCP.md">Jul 10, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/28mm/blast-radius">28mm/blast-radius</a><sup><sub> - JavaScript - Nov 07, 2017</sub></sup><br/><sup><sub>Tags: #diagram #graphviz #interactive-visualizations #terraform</sub></sup><br/>Interactive visualizations of Terraform dependency graphs using d3.js. </td>
-  <td><a href="./stars/28mm/blast-radius.md">Jul 10, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/colinhacks/zshy">colinhacks/zshy</a><sup><sub> - TypeScript - Jun 26, 2025</sub></sup><br/>🐒 Bundler-free build tool for TypeScript libraries. Powered by tsc. </td>
-  <td><a href="./stars/colinhacks/zshy.md">Jul 10, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/musistudio/claude-code-router">musistudio/claude-code-router</a><sup><sub> - TypeScript - Feb 25, 2025</sub></sup><br/>Use Claude Code as the foundation for coding infrastructure, allowing you<br/>to decide how to interact with the model while enjoying updates from<br/>Anthropic. </td>
-  <td><a href="./stars/musistudio/claude-code-router.md">Jul 10, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/smtg-ai/claude-squad">smtg-ai/claude-squad</a><sup><sub> - Go - Mar 09, 2025</sub></sup><br/><sup><sub>Tags: #aider #claude-code #cli #codex #vibe-coding</sub></sup><br/>Manage multiple AI terminal agents like Claude Code, Aider, Codex,<br/>OpenCode, and Amp. </td>
-  <td><a href="./stars/smtg-ai/claude-squad.md">Jul 10, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/haydenbleasel/kibo">haydenbleasel/kibo</a><sup><sub> - TypeScript - Aug 25, 2024</sub></sup><br/><sup><sub>Tags: #accessible #components #composable #react #shadcn-ui #typescript #ui</sub></sup><br/>A custom registry of composable, accessible and open source shadcn/ui<br/>components. </td>
-  <td><a href="./stars/haydenbleasel/kibo.md">Jul 09, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/aaronbates/dotfiles">aaronbates/dotfiles</a><sup><sub> - Shell - Sep 01, 2017</sub></sup><br/><sup><sub>Tags: #bash #dotfiles #git #mackup #tmux #vim</sub></sup><br/>macOS dotfiles — migrate, backup, config, brew, dev, and a whole lot more. </td>
-  <td><a href="./stars/aaronbates/dotfiles.md">Jul 07, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/egoist/update-bin">egoist/update-bin</a><sup><sub> - Rust - Jul 04, 2025</sub></sup><br/>Update a binary to its latest version by using the original package manager<br/>that was used to install it. </td>
-  <td><a href="./stars/egoist/update-bin.md">Jul 06, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/thomasdondorf/puppeteer-cluster">thomasdondorf/puppeteer-cluster</a><sup><sub> - TypeScript - Jun 24, 2018</sub></sup><br/><sup><sub>Tags: #cluster #headless-chrome #node #pool #pooling #puppeteer</sub></sup><br/>Puppeteer Pool, run a cluster of instances in parallel. </td>
-  <td><a href="./stars/thomasdondorf/puppeteer-cluster.md">Jul 05, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/tj-actions/changed-files">tj-actions/changed-files</a><sup><sub> - TypeScript - Mar 05, 2021</sub></sup><br/><sup><sub>Tags: #actions #change-detection #change-detetion #changed-file #changed-files #ci #ci-cd #conditional-execution<br/>#continuous-delivery #continuous-integration #github #github-actions #modified #modified-files #monorepo #restore-files #submodules<br/>#workflows #yaml-files</sub></sup><br/>:octocat: Github action to retrieve all (added, copied, modified, deleted,<br/>renamed, type changed, unmerged, unknown) files and directories. </td>
-  <td><a href="./stars/tj-actions/changed-files.md">Jul 05, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/sinanbekar/browser-extension-react-typescript-starter">sinanbekar/browser-extension-react-typescript-starter</a><sup><sub> - TypeScript - May 28, 2022</sub></sup><br/><sup><sub>Tags: #browser-extension #chrome-extension #edge #eslint #firefox #firefox-add-ons #google-chrome #jest #opera-extension<br/>#prettier #react #redux #redux-persist #redux-toolkit #tailwindcss #typescript #vitejs</sub></sup><br/>🚀 React &amp; TypeScript Starter for developing web extensions with hot<br/>reload!. </td>
-  <td><a href="./stars/sinanbekar/browser-extension-react-typescript-starter.md">Jul 05, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/Jonghakseo/chrome-extension-boilerplate-react-vite">Jonghakseo/chrome-extension-boilerplate-react-vite</a><sup><sub> - TypeScript - Apr 10, 2022</sub></sup><br/>Chrome Extension Boilerplate with React + Vite + Typescript. </td>
-  <td><a href="./stars/Jonghakseo/chrome-extension-boilerplate-react-vite.md">Jul 05, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/asciinema/asciinema">asciinema/asciinema</a><sup><sub> - Rust - Nov 21, 2011</sub></sup><br/><sup><sub>Tags: #asciicast #asciinema #cli #recorder #recording #rust #terminal</sub></sup><br/>Terminal session recorder 📹. </td>
-  <td><a href="./stars/asciinema/asciinema.md">Jul 05, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/zirkelc/middy-store">zirkelc/middy-store</a><sup><sub> - TypeScript - Feb 07, 2024</sub></sup><br/>Middleware for Step Functions: Automatically Store and Load Payloads. </td>
-  <td><a href="./stars/zirkelc/middy-store.md">Jul 04, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/zirkelc/millis-js">zirkelc/millis-js</a><sup><sub> - TypeScript - Dec 14, 2024</sub></sup><br/>A tiny and dependency-free library for date time arithmetic with a<br/>chainable and immutable API. </td>
-  <td><a href="./stars/zirkelc/millis-js.md">Jul 04, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/zirkelc/template-serverless-typescript">zirkelc/template-serverless-typescript</a><sup><sub> - TypeScript - Apr 07, 2025</sub></sup><br/>Template for a Serverless TypeScript project. </td>
-  <td><a href="./stars/zirkelc/template-serverless-typescript.md">Jul 04, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/mishushakov/llm-scraper">mishushakov/llm-scraper</a><sup><sub> - TypeScript - Apr 20, 2024</sub></sup><br/><sup><sub>Tags: #ai #artificial-intelligence #browser #browser-automation #gpt #gpt-4 #langchain #llama #llm #openai #playwright<br/>#puppeteer #scraper</sub></sup><br/>Turn any webpage into structured data using LLMs. </td>
-  <td><a href="./stars/mishushakov/llm-scraper.md">Jul 04, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/WickyNilliams/cally">WickyNilliams/cally</a><sup><sub> - TypeScript - Feb 07, 2022</sub></sup><br/><sup><sub>Tags: #calendar #calendar-component #date-picker #datepicker #web-component #webcomponent</sub></sup><br/>Small, feature-rich calendar components. </td>
-  <td><a href="./stars/WickyNilliams/cally.md">Jul 04, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/kettanaito/playwright-persona">kettanaito/playwright-persona</a><sup><sub> - TypeScript - Jun 30, 2025</sub></sup><br/><sup><sub>Tags: #auth #persona #playwright #setup #test</sub></sup><br/>Authentication in Playwright using personas. </td>
-  <td><a href="./stars/kettanaito/playwright-persona.md">Jul 02, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/FutureExcited/vibe-rules">FutureExcited/vibe-rules</a><sup><sub> - TypeScript - Apr 22, 2025</sub></sup><br/><sup><sub>Tags: #ai #artificial-intelligence #cursor-ai #windsurf #zed-editor</sub></sup><br/>Save, load, distribute your AI rules. </td>
-  <td><a href="./stars/FutureExcited/vibe-rules.md">Jul 01, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/ShishKabab/user-logic">ShishKabab/user-logic</a><sup><sub> - TypeScript - Dec 05, 2018</sub></sup><br/>Data-driven logic for ultra-configurable applications, implemented in<br/>Javascript. </td>
-  <td><a href="./stars/ShishKabab/user-logic.md">Jun 30, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/fourTheorem/dsql-example">fourTheorem/dsql-example</a><sup><sub> - TypeScript - Jun 23, 2025</sub></sup></td>
-  <td><a href="./stars/fourTheorem/dsql-example.md">Jun 29, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/Textualize/rich">Textualize/rich</a><sup><sub> - Python - Nov 10, 2019</sub></sup><br/><sup><sub>Tags: #ansi-colors #emoji #markdown #progress-bar #progress-bar-python #python #python-library #python3 #rich<br/>#syntax-highlighting #tables #terminal #terminal-color #traceback #tracebacks-rich #tui</sub></sup><br/>Rich is a Python library for rich text and beautiful formatting in the<br/>terminal. </td>
-  <td><a href="./stars/Textualize/rich.md">Jun 27, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/darrenburns/rich-pixels">darrenburns/rich-pixels</a><sup><sub> - Python - Nov 07, 2022</sub></sup><br/><sup><sub>Tags: #ascii #ascii-art #console #rich #terminal #textual</sub></sup><br/>A Rich-compatible library for writing pixel images and ASCII art to the<br/>terminal. </td>
-  <td><a href="./stars/darrenburns/rich-pixels.md">Jun 27, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/jacobparis/with-react">jacobparis/with-react</a><sup><sub> - TypeScript - May 14, 2025</sub></sup><br/>Components for every React hook. </td>
-  <td><a href="./stars/jacobparis/with-react.md">Jun 27, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/kriszyp/cbor-x">kriszyp/cbor-x</a><sup><sub> - JavaScript - Aug 31, 2020</sub></sup><br/>Ultra-fast CBOR encoder/decoder with extensions for records and structural<br/>cloning. </td>
-  <td><a href="./stars/kriszyp/cbor-x.md">Jun 26, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/msgpack/msgpack-javascript">msgpack/msgpack-javascript</a><sup><sub> - TypeScript - Nov 12, 2011</sub></sup><br/><sup><sub>Tags: #deno-library #javascript-library #messagepack #msgpack #serialization-library #typescript-library<br/>#universal-javascript</sub></sup><br/>@msgpack/msgpack - MessagePack for JavaScript / msgpack.org<br/>[ECMA-262/JavaScript/TypeScript]. </td>
-  <td><a href="./stars/msgpack/msgpack-javascript.md">Jun 26, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/bee-san/pyWhat">bee-san/pyWhat</a><sup><sub> - Python - Mar 19, 2021</sub></sup><br/><sup><sub>Tags: #cyber #cybersecurity #hacking #hacktoberfest #malware #malware-analysis #malware-research #pcap #python #re #security<br/>#tryhackme</sub></sup><br/>🐸   Identify anything. pyWhat easily lets you identify emails, IP<br/>addresses, and more. Feed it a .pcap file or some text and it&#039;ll tell<br/>you what it is! 🧙‍♀️. </td>
-  <td><a href="./stars/bee-san/pyWhat.md">Jun 24, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/openobserve/openobserve">openobserve/openobserve</a><sup><sub> - Rust - Feb 02, 2023</sub></sup><br/><sup><sub>Tags: #analytics #apm #datadog #elasticsearch #grafana #jaeger #kibana #log-analytics #log-management #log-search #logs<br/>#metrics #monitoring #observability #openobserve #opentelemetry #prometheus #rust-lang #splunk #traces</sub></sup><br/>🚀 10x easier, 🚀 140x lower storage cost, 🚀 high performance,  🚀<br/>petabyte scale - Elasticsearch/Splunk/Datadog alternative for 🚀 (logs,<br/>metrics, traces, RUM, Error tracking, Session replay). </td>
-  <td><a href="./stars/openobserve/openobserve.md">Jun 24, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/XaveScor/smartbundle">XaveScor/smartbundle</a><sup><sub> - TypeScript - Jul 25, 2024</sub></sup><br/>Just Code, No Configs. The Library Bundler That Respects Your Time. </td>
-  <td><a href="./stars/XaveScor/smartbundle.md">Jun 23, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/stravu/crystal">stravu/crystal</a><sup><sub> - TypeScript - Jun 05, 2025</sub></sup><br/><sup><sub>Tags: #ai #ai-coding #development-environment #vibe-coding</sub></sup><br/>An IVE: Integrated Vibe Environment. </td>
-  <td><a href="./stars/stravu/crystal.md">Jun 23, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/getAsterisk/claudia">getAsterisk/claudia</a><sup><sub> - TypeScript - Jun 19, 2025</sub></sup><br/><sup><sub>Tags: #anthropic #anthropic-claude #claude #claude-4 #claude-4-opus #claude-4-sonnet #claude-ai #claude-code #claude-code-sdk<br/>#cursor #ide #llm #llm-code #rust #tauri</sub></sup><br/>A powerful GUI app and Toolkit for Claude Code - Create custom agents,<br/>manage interactive Claude Code sessions, run secure background agents, and<br/>more. </td>
-  <td><a href="./stars/getAsterisk/claudia.md">Jun 23, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/DiegoZoracKy/magicli">DiegoZoracKy/magicli</a><sup><sub> - JavaScript - Nov 05, 2017</sub></sup><br/><sup><sub>Tags: #cli #command-line #command-line-interface #nodejs</sub></sup><br/>Automagically generates command-line interfaces (CLI) for any module.<br/>Expected options and help sections are created automatically based on<br/>parameters names, with support to async. </td>
-  <td><a href="./stars/DiegoZoracKy/magicli.md">Jun 22, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/instantlyeasy/claude-code-sdk-ts">instantlyeasy/claude-code-sdk-ts</a><sup><sub> - TypeScript - Jun 21, 2025</sub></sup><br/><sup><sub>Tags: #claude #claude-code #claude-code-sdk #claude-code-typescript #claude-max</sub></sup><br/>Fluent, chainable TypeScript SDK: configure models, enable tools, stream<br/>events, then fetch text, JSON, run details or token stats in one call via .<br/>asText() or .allowTools(&#039;Read&#039;, &#039;Write&#039;). Multi-level<br/>logging plus live onMessage/onToolUse callbacks give deep, CLI-compatible<br/>observability. </td>
-  <td><a href="./stars/instantlyeasy/claude-code-sdk-ts.md">Jun 22, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/PeterDaveHello/top-1m-domains">PeterDaveHello/top-1m-domains</a><sup><sub> - Sep 22, 2022</sub></sup><br/><sup><sub>Tags: #alexa #alexa-alternative #builtwith #cisco #cloudflare #dns #domain #hacktoberfest #list #majestic #million #osint<br/>#passive-dns #popular #ranking #statvoo #top-1m #tranco #umbrella #website</sub></sup><br/>🌐 List of free and downloadable top 1M domain list (alexa alternatives) 📊. </td>
-  <td><a href="./stars/PeterDaveHello/top-1m-domains.md">Jun 22, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/MaximeRivest/metakeyai">MaximeRivest/metakeyai</a><sup><sub> - TypeScript - Jun 21, 2025</sub></sup></td>
-  <td><a href="./stars/MaximeRivest/metakeyai.md">Jun 21, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/johnlindquist/chromancer">johnlindquist/chromancer</a><sup><sub> - TypeScript - Jun 04, 2025</sub></sup><br/>Command-line interface for Chrome automation using DevTools Protocol. </td>
-  <td><a href="./stars/johnlindquist/chromancer.md">Jun 20, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/jwalton/gh-find-current-pr">jwalton/gh-find-current-pr</a><sup><sub> - TypeScript - Sep 10, 2019</sub></sup><br/>Github Action for finding the Pull Request (PR) associated with the current<br/>SHA. </td>
-  <td><a href="./stars/jwalton/gh-find-current-pr.md">Jun 20, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/andreruffert/syntax-highlight-element">andreruffert/syntax-highlight-element</a><sup><sub> - JavaScript - Feb 12, 2025</sub></sup><br/><sup><sub>Tags: #custom-elements #javascript #syntax-highlight #syntax-highlighting #web-components</sub></sup><br/>👓 Syntax Highlighting using the CSS Custom Highlight API. </td>
-  <td><a href="./stars/andreruffert/syntax-highlight-element.md">Jun 20, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/ryoppippi/ccusage">ryoppippi/ccusage</a><sup><sub> - TypeScript - May 29, 2025</sub></sup><br/>A CLI tool for analyzing Claude Code usage from local JSONL files. </td>
-  <td><a href="./stars/ryoppippi/ccusage.md">Jun 20, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/elie222/inbox-zero">elie222/inbox-zero</a><sup><sub> - TypeScript - Jul 12, 2023</sub></sup><br/><sup><sub>Tags: #ai #email #gmail #loops #nextjs #openai #postgresql #posthog #prisma #productivity #resend #shadcn-ui #tailwind<br/>#tinybird #turborepo #typescript #upstash</sub></sup><br/>The world&#039;s best AI personal assistant for email. Open source app to<br/>help you reach inbox zero fast. </td>
-  <td><a href="./stars/elie222/inbox-zero.md">Jun 19, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/modelcontextprotocol/inspector">modelcontextprotocol/inspector</a><sup><sub> - TypeScript - Oct 03, 2024</sub></sup><br/>Visual testing tool for MCP servers. </td>
-  <td><a href="./stars/modelcontextprotocol/inspector.md">Jun 19, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/to-na/claude-code-crew">to-na/claude-code-crew</a><sup><sub> - TypeScript - Jun 12, 2025</sub></sup><br/><sup><sub>Tags: #claude #claudecode #typescript</sub></sup><br/>A browser-based interface for managing multiple Claude Code sessions across<br/>Git worktrees. </td>
-  <td><a href="./stars/to-na/claude-code-crew.md">Jun 19, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/kevin-funderburg/AppleScripts">kevin-funderburg/AppleScripts</a><sup><sub> - AppleScript - Aug 27, 2020</sub></sup><br/><sup><sub>Tags: #alfred #applescript #automation #bettertouchtool #example #keyboard-maestro #keyboard-shortcuts #script-debugger<br/>#scripting #typinator</sub></sup><br/>My collection of AppleScripts I&#039;ve developed or acquired over the<br/>years. </td>
-  <td><a href="./stars/kevin-funderburg/AppleScripts.md">Jun 19, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/vincenthopf/claude-code">vincenthopf/claude-code</a><sup><sub> - Python - May 27, 2025</sub></sup><br/>A curated list of commands, files, and workflows for Claude Code. </td>
-  <td><a href="./stars/vincenthopf/claude-code.md">Jun 19, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/so-fancy/diff-so-fancy">so-fancy/diff-so-fancy</a><sup><sub> - Perl - Feb 04, 2016</sub></sup><br/><sup><sub>Tags: #diff #diff-highlight #diffs #fancy #git #hacktoberfest</sub></sup><br/>Good-lookin&#039; diffs. Actually… nah… The best-lookin&#039; diffs. :tada:. </td>
-  <td><a href="./stars/so-fancy/diff-so-fancy.md">Jun 19, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/johnlindquist/get-rules">johnlindquist/get-rules</a><sup><sub> - TypeScript - May 06, 2025</sub></sup><br/>Downloads .mdc rule files for Cursor from johnlindquist/rules-for-tools<br/>repository. </td>
-  <td><a href="./stars/johnlindquist/get-rules.md">Jun 18, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/amantus-ai/vibetunnel">amantus-ai/vibetunnel</a><sup><sub> - TypeScript - Jun 15, 2025</sub></sup><br/><sup><sub>Tags: #remote #terminal #vibecoding</sub></sup><br/>Turn any browser into your terminal &amp; command your agents on the go. </td>
-  <td><a href="./stars/amantus-ai/vibetunnel.md">Jun 16, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/steipete/agent-rules">steipete/agent-rules</a><sup><sub> - Shell - Jun 12, 2025</sub></sup><br/><sup><sub>Tags: #agent #claudecode #cursor #llms #rules</sub></sup><br/>Rules and Knowledge to work better with agents such as Claude Code or<br/>Cursor. </td>
-  <td><a href="./stars/steipete/agent-rules.md">Jun 15, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/sammwyy/graceful-json">sammwyy/graceful-json</a><sup><sub> - TypeScript - Jun 03, 2025</sub></sup><br/><sup><sub>Tags: #browser #bun #graceful #json #json-parser #llm #node #nodejs #parse #serializer #typescript</sub></sup><br/>A graceful JSON parser and serializer with fallback handling. </td>
-  <td><a href="./stars/sammwyy/graceful-json.md">Jun 15, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/junegunn/fzf">junegunn/fzf</a><sup><sub> - Go - Oct 23, 2013</sub></sup><br/><sup><sub>Tags: #bash #cli #fish #fzf #go #neovim #tmux #unix #vim #zsh</sub></sup><br/>:cherry_blossom: A command-line fuzzy finder. </td>
-  <td><a href="./stars/junegunn/fzf.md">Jun 15, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/ronin-co/blade">ronin-co/blade</a><sup><sub> - TypeScript - Feb 03, 2025</sub></sup><br/><sup><sub>Tags: #components #framework #frontend #react #server</sub></sup><br/>A React framework for building instant web apps. </td>
-  <td><a href="./stars/ronin-co/blade.md">Jun 14, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/openstatusHQ/data-table-filters">openstatusHQ/data-table-filters</a><sup><sub> - TypeScript - Aug 28, 2024</sub></sup><br/><sup><sub>Tags: #cmdk #data-table #nextjs #nuqs #react #shadcn #tanstack-react-query #tanstack-table</sub></sup><br/>A playground for tanstack-table. </td>
-  <td><a href="./stars/openstatusHQ/data-table-filters.md">Jun 14, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/unjs/jiti">unjs/jiti</a><sup><sub> - TypeScript - Jun 06, 2020</sub></sup><br/>Runtime TypeScript and ESM support for Node.js. </td>
-  <td><a href="./stars/unjs/jiti.md">Jun 14, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/ferrislucas/iterm-mcp">ferrislucas/iterm-mcp</a><sup><sub> - TypeScript - Jan 09, 2025</sub></sup><br/><sup><sub>Tags: #ai #claude #claude-ai #mcp #mcp-server #repl</sub></sup><br/>A Model Context Protocol server that executes commands in the current iTerm<br/>session - useful for REPL and CLI assistance. </td>
-  <td><a href="./stars/ferrislucas/iterm-mcp.md">Jun 14, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/metorial/mcp-containers">metorial/mcp-containers</a><sup><sub> - TypeScript - Apr 14, 2025</sub></sup><br/><sup><sub>Tags: #agent #agentic-ai #agentic-workflow #container #docker #mcp #modelcontextprotocol #security</sub></sup><br/>Containerized versions of hundreds of MCP servers 📡 🧠. </td>
-  <td><a href="./stars/metorial/mcp-containers.md">Jun 13, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/aws/api-models-aws">aws/api-models-aws</a><sup><sub> - Python - Jan 31, 2025</sub></sup><br/>API Models for all public AWS Services. </td>
-  <td><a href="./stars/aws/api-models-aws.md">Jun 13, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/Toolbase-AI/toolbase">Toolbase-AI/toolbase</a><sup><sub> - TypeScript - Dec 19, 2024</sub></sup><br/><sup><sub>Tags: #ai #claude #mcp #model-context-protocol #tools</sub></sup><br/>A desktop application that adds powerful tools to Claude and AI platforms. </td>
-  <td><a href="./stars/Toolbase-AI/toolbase.md">Jun 13, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/dcSpark/mcp-dockmaster">dcSpark/mcp-dockmaster</a><sup><sub> - Rust - Feb 21, 2025</sub></sup><br/><sup><sub>Tags: #ai #crypto #mcp #tools</sub></sup><br/>MCP Dockmaster allows you to easily install and manage MCP servers.<br/>Available for Mac, Windows and Linux as a Desktop App, CLI and a library. </td>
-  <td><a href="./stars/dcSpark/mcp-dockmaster.md">Jun 13, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/hikarubw/claude-code-action">hikarubw/claude-code-action</a><sup><sub> - TypeScript - May 27, 2025</sub></sup></td>
-  <td><a href="./stars/hikarubw/claude-code-action.md">Jun 13, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/hikarubw/claude-action-auth">hikarubw/claude-action-auth</a><sup><sub> - Shell - Jun 03, 2025</sub></sup><br/>Simple authentication setup tool for Claude Code Action on GitHub. </td>
-  <td><a href="./stars/hikarubw/claude-action-auth.md">Jun 13, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/DavidWells/whatsup">DavidWells/whatsup</a><sup><sub> - Oct 24, 2020</sub></sup><br/>Modern Swagger JSON Management Tool. </td>
-  <td><a href="./stars/DavidWells/whatsup.md">Jun 13, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/DavidWells/get-object-diff">DavidWells/get-object-diff</a><sup><sub> - JavaScript - Sep 30, 2020</sub></sup></td>
-  <td><a href="./stars/DavidWells/get-object-diff.md">Jun 13, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/DavidWells/permission.site">DavidWells/permission.site</a><sup><sub> - Mar 26, 2021</sub></sup><br/>A site to test the interaction of web APIs and browser permissions. </td>
-  <td><a href="./stars/DavidWells/permission.site.md">Jun 13, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/DavidWells/json-schema-errors">DavidWells/json-schema-errors</a><sup><sub> - JavaScript - Apr 26, 2021</sub></sup></td>
-  <td><a href="./stars/DavidWells/json-schema-errors.md">Jun 13, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/wooorm/f-ck">wooorm/f-ck</a><sup><sub> - JavaScript - Oct 17, 2016</sub></sup><br/><sup><sub>Tags: #butt #cuss #grawlix #obscene #profane #vulgar</sub></sup><br/>🤬 Clean-up cuss words. </td>
-  <td><a href="./stars/wooorm/f-ck.md">Jun 13, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/smithery-ai/cli">smithery-ai/cli</a><sup><sub> - TypeScript - Dec 22, 2024</sub></sup><br/>Install, manage and develop MCP servers. </td>
-  <td><a href="./stars/smithery-ai/cli.md">Jun 12, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/silevis/reactgrid">silevis/reactgrid</a><sup><sub> - TypeScript - Apr 03, 2020</sub></sup><br/><sup><sub>Tags: #data-table #datagrid #datatable #excel #grid-component #reactgrid #reactgrid-component #reactjs #spreadsheet<br/>#table</sub></sup><br/>Add spreadsheet-like behavior to your React app. </td>
-  <td><a href="./stars/silevis/reactgrid.md">Jun 12, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/ltwlf/json-diff-ts">ltwlf/json-diff-ts</a><sup><sub> - TypeScript - Nov 30, 2019</sub></sup><br/>A diff tool for JavaScript written in TypeScript. </td>
-  <td><a href="./stars/ltwlf/json-diff-ts.md">Jun 12, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/danielpetho/fancy">danielpetho/fancy</a><sup><sub> - TypeScript - Jun 02, 2024</sub></sup><br/><sup><sub>Tags: #animation #design #framer-motion #motion #tailwindcss #ui-components</sub></sup></td>
-  <td><a href="./stars/danielpetho/fancy.md">Jun 12, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/typed-rocks/type-buddy">typed-rocks/type-buddy</a><sup><sub> - TypeScript - Dec 16, 2024</sub></sup></td>
-  <td><a href="./stars/typed-rocks/type-buddy.md">Jun 12, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/netlify/netlify-mcp">netlify/netlify-mcp</a><sup><sub> - TypeScript - Mar 20, 2025</sub></sup><br/>Netlify&#039;s Official MCP server. </td>
-  <td><a href="./stars/netlify/netlify-mcp.md">Jun 12, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/bcherny/ink">bcherny/ink</a><sup><sub> - TypeScript - Nov 07, 2024</sub></sup><br/>🌈 React for interactive command-line apps. </td>
-  <td><a href="./stars/bcherny/ink.md">Jun 11, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/sindresorhus/env-paths">sindresorhus/env-paths</a><sup><sub> - JavaScript - Jun 21, 2016</sub></sup><br/>Get paths for storing things like data, config, cache, etc. </td>
-  <td><a href="./stars/sindresorhus/env-paths.md">Jun 11, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/anaisbetts/retry-on-ci">anaisbetts/retry-on-ci</a><sup><sub> - JavaScript - Nov 19, 2024</sub></sup><br/>NPM script to retry scripts on failure in CI. </td>
-  <td><a href="./stars/anaisbetts/retry-on-ci.md">Jun 11, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/anaisbetts/spawn-rx">anaisbetts/spawn-rx</a><sup><sub> - TypeScript - Mar 22, 2016</sub></sup><br/>Observable and Promise versions of child_process.spawn. </td>
-  <td><a href="./stars/anaisbetts/spawn-rx.md">Jun 11, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/ljharb/shell-quote">ljharb/shell-quote</a><sup><sub> - JavaScript - Oct 10, 2022</sub></sup></td>
-  <td><a href="./stars/ljharb/shell-quote.md">Jun 11, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/sst/opencode">sst/opencode</a><sup><sub> - TypeScript - Apr 30, 2025</sub></sup><br/>AI coding agent, built for the terminal. </td>
-  <td><a href="./stars/sst/opencode.md">Jun 11, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/Shopify/position-observer">Shopify/position-observer</a><sup><sub> - TypeScript - Jun 04, 2025</sub></sup><br/><sup><sub>Tags: #position-observer</sub></sup><br/>Asynchronously observe changes in the position, size and intersection of<br/>elements without polling. </td>
-  <td><a href="./stars/Shopify/position-observer.md">Jun 09, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/Schreezer/Agent">Schreezer/Agent</a><sup><sub> - JavaScript - Jun 05, 2025</sub></sup></td>
-  <td><a href="./stars/Schreezer/Agent.md">Jun 09, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/grll/claude-code-action">grll/claude-code-action</a><sup><sub> - TypeScript - May 25, 2025</sub></sup></td>
-  <td><a href="./stars/grll/claude-code-action.md">Jun 08, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/DavidWells/targeted-test-runner">DavidWells/targeted-test-runner</a><sup><sub> - JavaScript - Jun 04, 2025</sub></sup><br/>Discover and run tests with ease. </td>
-  <td><a href="./stars/DavidWells/targeted-test-runner.md">Jun 05, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/chase-manning/react-photo-studio">chase-manning/react-photo-studio</a><sup><sub> - TypeScript - Jan 01, 2021</sub></sup><br/><sup><sub>Tags: #editing #image-editing #photo #photo-editing #react #react-photo-studio</sub></sup><br/>React Photo Studio is a free online photo editor for photography and design. </td>
-  <td><a href="./stars/chase-manning/react-photo-studio.md">Jun 02, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/semanticart/filler-detection">semanticart/filler-detection</a><sup><sub> - TypeScript - Feb 06, 2024</sub></sup><br/>Detect filler words (um, uh) as you speak. </td>
-  <td><a href="./stars/semanticart/filler-detection.md">Jun 02, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/serverless-ca/terraform-aws-ca">serverless-ca/terraform-aws-ca</a><sup><sub> - Python - Jan 25, 2024</sub></sup><br/><sup><sub>Tags: #aws #certificate-authority #cryptography #serverless #terraform</sub></sup><br/>Terraform module for serverless certificate authority on AWS. </td>
-  <td><a href="./stars/serverless-ca/terraform-aws-ca.md">Jun 01, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/smithclay/rlinklayer">smithclay/rlinklayer</a><sup><sub> - Go - May 01, 2019</sub></sup><br/><sup><sub>Tags: #aws-lambda #netstack #serverless-framework</sub></sup><br/>Richard Linklayer: experimental TCP/IP over Amazon Cloudwatch Logs (and<br/>tags). </td>
-  <td><a href="./stars/smithclay/rlinklayer.md">May 31, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/qoomon/userscripts--aws-visual-account-indicator">qoomon/userscripts--aws-visual-account-indicator</a><sup><sub> - JavaScript - Aug 29, 2022</sub></sup><br/><sup><sub>Tags: #account #aws #console #indicator #userscript #visualization</sub></sup><br/>This userscript reads the aws-userInfo cookie and adds account name and<br/>color indicator. </td>
-  <td><a href="./stars/qoomon/userscripts--aws-visual-account-indicator.md">May 31, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/qoomon/starlines">qoomon/starlines</a><sup><sub> - JavaScript - Nov 11, 2024</sub></sup><br/>Create beautiful stargazers histograms of your repositories or gists. </td>
-  <td><a href="./stars/qoomon/starlines.md">May 31, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/recharts/recharts">recharts/recharts</a><sup><sub> - TypeScript - Aug 07, 2015</sub></sup><br/><sup><sub>Tags: #chart #charting-library #components #d3 #data-visualisation #javascript #react #recharts #typescript #ui</sub></sup><br/>Redefined chart library built with React and D3. </td>
-  <td><a href="./stars/recharts/recharts.md">May 31, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/isaacs/sax-js">isaacs/sax-js</a><sup><sub> - JavaScript - Feb 09, 2010</sub></sup><br/>A sax style parser for JS. </td>
-  <td><a href="./stars/isaacs/sax-js.md">May 31, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/dscape/clarinet">dscape/clarinet</a><sup><sub> - JavaScript - Dec 15, 2011</sub></sup><br/>SAX based evented streaming JSON parser in JavaScript. </td>
-  <td><a href="./stars/dscape/clarinet.md">May 31, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/Lodin/react-vtree">Lodin/react-vtree</a><sup><sub> - TypeScript - Dec 25, 2017</sub></sup><br/><sup><sub>Tags: #performance #react #react-components #react-window #tree #virtualization #windowing</sub></sup><br/>React component for efficiently rendering large tree structures. </td>
-  <td><a href="./stars/Lodin/react-vtree.md">May 30, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/pushtell/react-ab-test">pushtell/react-ab-test</a><sup><sub> - JavaScript - Sep 29, 2015</sub></sup><br/>A/B testing React components and debug tools. Isomorphic with a simple,<br/>universal interface. Well documented and lightweight. Tested in popular<br/>browsers and Node.js. Includes helpers for Mixpanel and Segment.com. </td>
-  <td><a href="./stars/pushtell/react-ab-test.md">May 30, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/spite/virtual-webcam">spite/virtual-webcam</a><sup><sub> - JavaScript - May 07, 2020</sub></sup></td>
-  <td><a href="./stars/spite/virtual-webcam.md">May 30, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/tomnomnom/gron">tomnomnom/gron</a><sup><sub> - Go - Sep 08, 2012</sub></sup><br/><sup><sub>Tags: #cli #json</sub></sup><br/>Make JSON greppable!. </td>
-  <td><a href="./stars/tomnomnom/gron.md">May 30, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/dsherret/ts-ast-viewer">dsherret/ts-ast-viewer</a><sup><sub> - TypeScript - Oct 27, 2017</sub></sup><br/>TypeScript AST viewer. </td>
-  <td><a href="./stars/dsherret/ts-ast-viewer.md">May 30, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/mathuo/dockview">mathuo/dockview</a><sup><sub> - TypeScript - Jun 24, 2020</sub></sup><br/><sup><sub>Tags: #components #dock #docking #docking-layout #docking-library #drag #drag-and-drop #drop #javascript #layout<br/>#layout-manager #panel #react #reactjs #splitter #splitview #tabs #typescript #vue #vuejs</sub></sup><br/>Zero dependency Docking Layout Manager. Supports Vanilla TypeScript, React<br/>and Vue. </td>
-  <td><a href="./stars/mathuo/dockview.md">May 30, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/alii/pathcat">alii/pathcat</a><sup><sub> - TypeScript - Dec 26, 2023</sub></sup><br/><sup><sub>Tags: #http #networking #nodejs #typescript #urls #utility</sub></sup><br/>Simply path/URL building in JavaScript. </td>
-  <td><a href="./stars/alii/pathcat.md">May 30, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/nepsilon/search-query-parser">nepsilon/search-query-parser</a><sup><sub> - JavaScript - Apr 06, 2014</sub></sup><br/><sup><sub>Tags: #javascript #nodejs #search #search-interface</sub></sup><br/>A simple parser for advanced search query syntax. </td>
-  <td><a href="./stars/nepsilon/search-query-parser.md">May 30, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/gillkyle/zuji">gillkyle/zuji</a><sup><sub> - TypeScript - Jan 09, 2025</sub></sup><br/><sup><sub>Tags: #format #formatter #formatting #javascript #number #number-formatter #numeral #types #typescript</sub></sup><br/>Tiny (900B) TypeScript first, human-readable numeric formatting. </td>
-  <td><a href="./stars/gillkyle/zuji.md">May 30, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/muellerbbm-vas/grivet">muellerbbm-vas/grivet</a><sup><sub> - TypeScript - Jan 21, 2019</sub></sup><br/>A JSON:API client library written in TypeScript with emphasis on RESTful<br/>traversal of resources according to HATEOAS principles. </td>
-  <td><a href="./stars/muellerbbm-vas/grivet.md">May 30, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/caiotarifa/fetchja">caiotarifa/fetchja</a><sup><sub> - JavaScript - Jun 08, 2024</sub></sup></td>
-  <td><a href="./stars/caiotarifa/fetchja.md">May 30, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/warrenday/peer-message">warrenday/peer-message</a><sup><sub> - TypeScript - Jan 28, 2021</sub></sup><br/>Fast peer to peer messaging through WebRTC. </td>
-  <td><a href="./stars/warrenday/peer-message.md">May 30, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/fearlessfara/apigw-vtl-emulator">fearlessfara/apigw-vtl-emulator</a><sup><sub> - JavaScript - May 22, 2025</sub></sup><br/><sup><sub>Tags: #api-gateway #aws #emulator #serverless #velocity #vtl</sub></sup><br/>A browser-based editor and emulator for AWS API Gateway VTL templates —<br/>with live preview, debug tools, and full in-browser execution. </td>
-  <td><a href="./stars/fearlessfara/apigw-vtl-emulator.md">May 30, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/richardgill/llm-ui">richardgill/llm-ui</a><sup><sub> - TypeScript - Mar 31, 2024</sub></sup><br/><sup><sub>Tags: #chatgpt #claude #component-library #generative-ai #llama #llm #markdown #openai #react</sub></sup><br/>The React library for LLMs. </td>
-  <td><a href="./stars/richardgill/llm-ui.md">May 29, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/benallfree/admindo">benallfree/admindo</a><sup><sub> - JavaScript - May 28, 2025</sub></sup><br/><sup><sub>Tags: #cli #cloudflare #cloudflare-durable-objects #cloudflare-workers #durable-ob #web-admin</sub></sup><br/>The admin for Cloudflare Durable Objects. </td>
-  <td><a href="./stars/benallfree/admindo.md">May 28, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/mmkal/eslint-plugin-codegen">mmkal/eslint-plugin-codegen</a><sup><sub> - TypeScript - Dec 13, 2022</sub></sup><br/>An eslint plugin for inline codegen. Auto-fixes out of sync code, with<br/>presets for barrels, jsdoc to markdown and more. </td>
-  <td><a href="./stars/mmkal/eslint-plugin-codegen.md">May 28, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/flatiron/revalidator">flatiron/revalidator</a><sup><sub> - JavaScript - Sep 09, 2011</sub></sup><br/>A cross-browser / node.js validator powered by JSON Schema. </td>
-  <td><a href="./stars/flatiron/revalidator.md">May 27, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/eugeneware/ffmpeg-static">eugeneware/ffmpeg-static</a><sup><sub> - JavaScript - Jan 19, 2015</sub></sup><br/>ffmpeg static binaries for Mac OSX and Linux and Windows. </td>
-  <td><a href="./stars/eugeneware/ffmpeg-static.md">May 26, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/BetaHuhn/repo-file-sync-action">BetaHuhn/repo-file-sync-action</a><sup><sub> - JavaScript - Jan 07, 2021</sub></sup><br/><sup><sub>Tags: #file-sync #github-action-workflow-sync #github-actions #github-workflow #sync #sync-action #workflow-files<br/>#workflow-sync</sub></sup><br/>🔄 GitHub Action to keep files like Action workflows or entire directories<br/>in sync between multiple repositories. </td>
-  <td><a href="./stars/BetaHuhn/repo-file-sync-action.md">May 24, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/avizway1/aws-interview-questions">avizway1/aws-interview-questions</a><sup><sub> - Sep 27, 2023</sub></sup></td>
-  <td><a href="./stars/avizway1/aws-interview-questions.md">May 24, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/Developer-Y/Scalable-Software-Architecture">Developer-Y/Scalable-Software-Architecture</a><sup><sub> - Oct 08, 2016</sub></sup><br/>Collection of tech talks, papers and web links on Distributed Systems,<br/>Scalability and System Design. </td>
-  <td><a href="./stars/Developer-Y/Scalable-Software-Architecture.md">May 24, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/shashank88/system_design">shashank88/system_design</a><sup><sub> - Jun 19, 2015</sub></sup><br/><sup><sub>Tags: #architecture #concurrency #engineering #facebook #interview #interview-preparation #interview-preparation-resources<br/>#interview-questions #preparation #scalability #scale-systems #system-design</sub></sup><br/>Preparation links and resources for system design questions. </td>
-  <td><a href="./stars/shashank88/system_design.md">May 24, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/ekristen/aws-nuke">ekristen/aws-nuke</a><sup><sub> - Go - Nov 19, 2021</sub></sup><br/><sup><sub>Tags: #aws #cli #cosign #github-actions #goreleaser #libnuke #mkdocs #mkdocs-material</sub></sup><br/>Remove all the resources from an AWS account. </td>
-  <td><a href="./stars/ekristen/aws-nuke.md">May 24, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/ccbrown/cloud-snitch">ccbrown/cloud-snitch</a><sup><sub> - TypeScript - Mar 05, 2025</sub></sup><br/><sup><sub>Tags: #aws #cloud #cloudtrail #golang #monitoring #nextjs #security #typescript</sub></sup><br/>Map visualization and firewall for AWS activity, inspired by Little Snitch<br/>for macOS. </td>
-  <td><a href="./stars/ccbrown/cloud-snitch.md">May 24, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/maslianok/react-resize-detector">maslianok/react-resize-detector</a><sup><sub> - TypeScript - Nov 19, 2015</sub></sup><br/><sup><sub>Tags: #cross-browser #react #react-resize-observer #resize #resize-events #resizeable #resizeobserver #resizer<br/>#resizes</sub></sup><br/>A Cross-Browser, Event-based, Element Resize Detection for React. </td>
-  <td><a href="./stars/maslianok/react-resize-detector.md">May 24, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/arlac77/one-time-execution-method">arlac77/one-time-execution-method</a><sup><sub> - JavaScript - Apr 02, 2020</sub></sup><br/>define a method that will be executed only once. </td>
-  <td><a href="./stars/arlac77/one-time-execution-method.md">May 24, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/arlac77/github-repository-provider">arlac77/github-repository-provider</a><sup><sub> - JavaScript - Nov 16, 2017</sub></sup><br/><sup><sub>Tags: #github</sub></sup><br/>repository provider for github. </td>
-  <td><a href="./stars/arlac77/github-repository-provider.md">May 24, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/arlac77/hinted-tree-merger">arlac77/hinted-tree-merger</a><sup><sub> - JavaScript - Aug 09, 2019</sub></sup><br/>merges two trees guided with hints. </td>
-  <td><a href="./stars/arlac77/hinted-tree-merger.md">May 24, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/template-tools/template-sync">template-tools/template-sync</a><sup><sub> - JavaScript - Sep 27, 2016</sub></sup><br/><sup><sub>Tags: #bitbucket #boilerplate #github #gitignore #npm #npmignore #pull-requests #scaffolding #template #travis</sub></sup><br/>Keep repository in sync with its template. </td>
-  <td><a href="./stars/template-tools/template-sync.md">May 24, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/pinojs/sonic-boom">pinojs/sonic-boom</a><sup><sub> - JavaScript - Dec 13, 2017</sub></sup><br/>Extremely fast utf8 only stream implementation. </td>
-  <td><a href="./stars/pinojs/sonic-boom.md">May 22, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/iannuttall/mcp-boilerplate">iannuttall/mcp-boilerplate</a><sup><sub> - TypeScript - May 07, 2025</sub></sup><br/>A remote Cloudflare MCP server boilerplate with user authentication and<br/>Stripe for paid tools. </td>
-  <td><a href="./stars/iannuttall/mcp-boilerplate.md">May 21, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/silk-hq/basic-examples-css">silk-hq/basic-examples-css</a><sup><sub> - TypeScript - Mar 25, 2025</sub></sup></td>
-  <td><a href="./stars/silk-hq/basic-examples-css.md">May 18, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/nolimits4web/swiper">nolimits4web/swiper</a><sup><sub> - JavaScript - Mar 14, 2012</sub></sup><br/><sup><sub>Tags: #carousel #gallery #mobile #slider #swipe #swiper #touch #touch-events</sub></sup><br/>Most modern mobile touch slider with hardware accelerated transitions. </td>
-  <td><a href="./stars/nolimits4web/swiper.md">May 18, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/barvian/number-flow">barvian/number-flow</a><sup><sub> - TypeScript - Jul 15, 2024</sub></sup><br/><sup><sub>Tags: #accessible #animation #odometer #react #svelte #vue</sub></sup><br/>An animated number component for React, Vue, Svelte, and TS/JS. </td>
-  <td><a href="./stars/barvian/number-flow.md">May 18, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/Redocly/repo-file-sync-action">Redocly/repo-file-sync-action</a><sup><sub> - JavaScript - Jun 08, 2021</sub></sup><br/>GitHub Action that sync&#039;s two (or more) repos. </td>
-  <td><a href="./stars/Redocly/repo-file-sync-action.md">May 17, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/AndrewWalsh/openapi-devtools">AndrewWalsh/openapi-devtools</a><sup><sub> - TypeScript - Oct 25, 2023</sub></sup><br/><sup><sub>Tags: #api #chrome-extension #devtools #generator #openapi #openapi3 #openapi31 #specification</sub></sup><br/>Browser extension that generates API specs for any app or website. </td>
-  <td><a href="./stars/AndrewWalsh/openapi-devtools.md">May 17, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/JaredCE/json-schema-to-openAPI-schema-object">JaredCE/json-schema-to-openAPI-schema-object</a><sup><sub> - JavaScript - May 21, 2022</sub></sup><br/>Converts a standard JSON Schema to a compatible Open API v3 Schema Object. </td>
-  <td><a href="./stars/JaredCE/json-schema-to-openAPI-schema-object.md">May 17, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/JaredCE/serverless-openapi-documenter">JaredCE/serverless-openapi-documenter</a><sup><sub> - JavaScript - May 23, 2022</sub></sup><br/><sup><sub>Tags: #openapi #openapi-documentation #openapi-generator #openapi3 #serverless #serverless-framework</sub></sup><br/>Serverless plugin to export your config as OpenAPI v3 Documentation and<br/>Postman Collection V2. </td>
-  <td><a href="./stars/JaredCE/serverless-openapi-documenter.md">May 17, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/WebReflection/is-proxy">WebReflection/is-proxy</a><sup><sub> - JavaScript - May 16, 2025</sub></sup><br/>A `Proxy.isProxy(object)` utility. </td>
-  <td><a href="./stars/WebReflection/is-proxy.md">May 16, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/haydenbleasel/tersa">haydenbleasel/tersa</a><sup><sub> - TypeScript - Apr 21, 2025</sub></sup><br/><sup><sub>Tags: #ai #aisdk #anthropic #canvas #openai</sub></sup><br/>Tersa is an open source canvas for building AI workflows. </td>
-  <td><a href="./stars/haydenbleasel/tersa.md">May 16, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/google-a2a/A2A">google-a2a/A2A</a><sup><sub> - TypeScript - Mar 25, 2025</sub></sup><br/><sup><sub>Tags: #a2a #a2a-mcp #a2a-protocol #a2a-server #agents #generative-ai</sub></sup><br/>An open protocol enabling communication and interoperability between opaque<br/>agentic applications. </td>
-  <td><a href="./stars/google-a2a/A2A.md">May 16, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/google/A2A">google/A2A</a><sup><sub> - Python - Mar 25, 2025</sub></sup><br/>An open protocol enabling communication and interoperability between opaque<br/>agentic applications. </td>
-  <td><a href="./stars/google/A2A.md">May 16, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/ran-isenberg/aws-lambda-handler-cookbook">ran-isenberg/aws-lambda-handler-cookbook</a><sup><sub> - Python - Feb 28, 2021</sub></sup><br/><sup><sub>Tags: #aws #aws-lambda #best-practices #blueprint #cdk #cookbook #pipeline #python #serverless #serverless-aws #template<br/>#template-repository</sub></sup><br/>This repository provides a working, deployable, open source-based,<br/>serverless service blueprint with an AWS Lambda function and AWS CDK Python<br/>code with all the best practices and a complete CI/CD pipeline. </td>
-  <td><a href="./stars/ran-isenberg/aws-lambda-handler-cookbook.md">May 14, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/eliasbrange/aws-recipes">eliasbrange/aws-recipes</a><sup><sub> - TypeScript - Mar 22, 2022</sub></sup></td>
-  <td><a href="./stars/eliasbrange/aws-recipes.md">May 14, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/SodaDev/sam-templates-go">SodaDev/sam-templates-go</a><sup><sub> - Go - Aug 28, 2023</sub></sup></td>
-  <td><a href="./stars/SodaDev/sam-templates-go.md">May 14, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/ziedbentahar/rag-chat-with-appsync-events-and-bedrock-knowledge-bases">ziedbentahar/rag-chat-with-appsync-events-and-bedrock-knowledge-bases</a><sup><sub> - HCL - May 09, 2025</sub></sup></td>
-  <td><a href="./stars/ziedbentahar/rag-chat-with-appsync-events-and-bedrock-knowledge-bases.md">May 14, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/alesgenova/post-me">alesgenova/post-me</a><sup><sub> - TypeScript - Nov 29, 2020</sub></sup><br/><sup><sub>Tags: #communication #concurrency #iframe #javascript #parallel-computing #postmate #postmessage #promise #typescript<br/>#web-worker #webworker #worker</sub></sup><br/>📩 Use web Workers and other Windows through a simple Promise API. </td>
-  <td><a href="./stars/alesgenova/post-me.md">May 12, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/psd-coder/typed-channel">psd-coder/typed-channel</a><sup><sub> - TypeScript - Apr 21, 2025</sub></sup></td>
-  <td><a href="./stars/psd-coder/typed-channel.md">May 12, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/sachaarbonel/repo_walker">sachaarbonel/repo_walker</a><sup><sub> - Rust - Jul 04, 2024</sub></sup><br/>Code context extractor for AI assistants. Walks Git repos, respects .<br/>gitignore, filters files. Optimized output for LLMs like Claude. Supports<br/>diff comparisons. </td>
-  <td><a href="./stars/sachaarbonel/repo_walker.md">May 11, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/leegilmorecode/serverless-clean-code-experience">leegilmorecode/serverless-clean-code-experience</a><sup><sub> - TypeScript - May 01, 2023</sub></sup><br/>An opinionated example of a lightweight &#039;clean code&#039; Lambda<br/>function architecture for a service in the experience layer of SAL<br/>Architecture, with code examples written in the AWS CDK and TypeScript. </td>
-  <td><a href="./stars/leegilmorecode/serverless-clean-code-experience.md">May 09, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/yamadashy/repomix">yamadashy/repomix</a><sup><sub> - TypeScript - Jul 13, 2024</sub></sup><br/><sup><sub>Tags: #ai #anthropic #artificial-intelligence #chatbot #chatgpt #claude #deepseek #developer-tools #gemini #genai<br/>#generative-ai #gpt #javascript #language-model #llama #llm #mcp #nodejs #openai #typescript</sub></sup><br/>📦 Repomix (formerly Repopack) is a powerful tool that packs your entire<br/>repository into a single, AI-friendly file. Perfect for when you need to<br/>feed your codebase to Large Language Models (LLMs) or other AI tools like<br/>Claude, ChatGPT, DeepSeek, Perplexity, Gemini, Gemma, Llama, Grok, and more. </td>
-  <td><a href="./stars/yamadashy/repomix.md">May 08, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/johnlindquist/worktree-cli">johnlindquist/worktree-cli</a><sup><sub> - JavaScript - Mar 20, 2025</sub></sup></td>
-  <td><a href="./stars/johnlindquist/worktree-cli.md">May 08, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/johnlindquist/ghx">johnlindquist/ghx</a><sup><sub> - JavaScript - Jan 24, 2025</sub></sup></td>
-  <td><a href="./stars/johnlindquist/ghx.md">May 08, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/upstash/context7">upstash/context7</a><sup><sub> - JavaScript - Mar 26, 2025</sub></sup><br/><sup><sub>Tags: #llm #mcp #mcp-server #vibe-coding</sub></sup><br/>Context7 MCP Server -- Up-to-date code documentation for LLMs and AI code<br/>editors. </td>
-  <td><a href="./stars/upstash/context7.md">May 08, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/medikoo/memoizee">medikoo/memoizee</a><sup><sub> - JavaScript - Aug 06, 2012</sub></sup><br/>Complete memoize/cache solution for JavaScript. </td>
-  <td><a href="./stars/medikoo/memoizee.md">May 07, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/nmccready/debug-fabulous">nmccready/debug-fabulous</a><sup><sub> - JavaScript - Oct 11, 2016</sub></sup><br/>Debug extensions for visionmedia&#039;s debug. </td>
-  <td><a href="./stars/nmccready/debug-fabulous.md">May 06, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/xdamman/js-line-wrap-detector">xdamman/js-line-wrap-detector</a><sup><sub> - JavaScript - Jan 06, 2014</sub></sup><br/>Detect where the text wraps in Javascript. </td>
-  <td><a href="./stars/xdamman/js-line-wrap-detector.md">May 05, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/mogelbrod/widont">mogelbrod/widont</a><sup><sub> - JavaScript - Nov 16, 2017</sub></sup><br/><sup><sub>Tags: #javascript</sub></sup><br/>Avoids typographical widows in strings by converting the last space/hyphens<br/>to be non-breaking. </td>
-  <td><a href="./stars/mogelbrod/widont.md">May 05, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/adamjgrant/Buddy-System">adamjgrant/Buddy-System</a><sup><sub> - HTML - Jan 09, 2014</sub></sup><br/>Avoids single words breaking onto the last line of text. </td>
-  <td><a href="./stars/adamjgrant/Buddy-System.md">May 05, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/sharkqwy/v0prompt">sharkqwy/v0prompt</a><sup><sub> - Aug 23, 2024</sub></sup><br/>full prompt of the new v0. </td>
-  <td><a href="./stars/sharkqwy/v0prompt.md">May 05, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/starterstack/sam-expand">starterstack/sam-expand</a><sup><sub> - JavaScript - Nov 14, 2023</sub></sup><br/><sup><sub>Tags: #aws #lambda #sam #sam-cli #serverless #serverless-application-model</sub></sup><br/>expand sam templates. </td>
-  <td><a href="./stars/starterstack/sam-expand.md">May 05, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/rkstgr/papermake-aws">rkstgr/papermake-aws</a><sup><sub> - Python - Apr 19, 2025</sub></sup><br/>PDF Rendering stack deployed on AWS Lambdas. </td>
-  <td><a href="./stars/rkstgr/papermake-aws.md">May 04, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/npryce/adr-tools">npryce/adr-tools</a><sup><sub> - Shell - Feb 04, 2016</sub></sup><br/><sup><sub>Tags: #architecture #architecture-decision-records #documentation #markdown</sub></sup><br/>Command-line tools for working with Architecture Decision Records. </td>
-  <td><a href="./stars/npryce/adr-tools.md">May 04, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/theburningmonk/ephemeral-env-with-neon">theburningmonk/ephemeral-env-with-neon</a><sup><sub> - JavaScript - Apr 02, 2025</sub></sup><br/>How to use Neon Serverless Postgres for ephemeral environments. </td>
-  <td><a href="./stars/theburningmonk/ephemeral-env-with-neon.md">May 03, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/streamfold/rotel-nodejs">streamfold/rotel-nodejs</a><sup><sub> - TypeScript - Mar 14, 2025</sub></sup><br/>Rotel for Node.js library. </td>
-  <td><a href="./stars/streamfold/rotel-nodejs.md">May 02, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/streamfold/rotel-lambda-extension">streamfold/rotel-lambda-extension</a><sup><sub> - Rust - Apr 05, 2025</sub></sup><br/>AWS Lamba Extension of the Lightweight Rotel Collector. </td>
-  <td><a href="./stars/streamfold/rotel-lambda-extension.md">May 02, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/unibeck/solstatus">unibeck/solstatus</a><sup><sub> - TypeScript - Apr 19, 2025</sub></sup><br/>An uptime monitoring service that is easy and cheap to run at scale. Create<br/>endpoint checks for uptime, latency, and status code. Supports OpsGenie<br/>for alerts. </td>
-  <td><a href="./stars/unibeck/solstatus.md">May 01, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/unibeck/uptime-monitor">unibeck/uptime-monitor</a><sup><sub> - TypeScript - Apr 19, 2025</sub></sup><br/>A uptime monitoring service that is easy and cheap to run at scale. Create<br/>endpoint checks for uptime, latency, and status code. Supports OpsGenie for<br/>alerts. </td>
-  <td><a href="./stars/unibeck/uptime-monitor.md">May 01, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/ravikiranvm/aws-finops-dashboard">ravikiranvm/aws-finops-dashboard</a><sup><sub> - Python - Apr 05, 2025</sub></sup><br/>A terminal-based AWS cost and resource dashboard built with Python and the<br/>Rich library. It provides an overview of AWS spend by account,<br/>service-level breakdowns, budget tracking, and EC2 instance summaries. </td>
-  <td><a href="./stars/ravikiranvm/aws-finops-dashboard.md">May 01, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/EffeDev/event-hub">EffeDev/event-hub</a><sup><sub> - TypeScript - Dec 12, 2023</sub></sup></td>
-  <td><a href="./stars/EffeDev/event-hub.md">May 01, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/serenity-kit/noble-sodium">serenity-kit/noble-sodium</a><sup><sub> - TypeScript - Apr 19, 2025</sub></sup><br/>TypeScript library offering a Libsodium-compatible API built on top of<br/>Noble packages. </td>
-  <td><a href="./stars/serenity-kit/noble-sodium.md">Apr 30, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/vercel/ai-chatbot">vercel/ai-chatbot</a><sup><sub> - TypeScript - May 19, 2023</sub></sup><br/><sup><sub>Tags: #ai #chatgpt #nextjs #react #redis #shadcn-ui #vercel</sub></sup><br/>A full-featured, hackable Next.js AI chatbot built by Vercel. </td>
-  <td><a href="./stars/vercel/ai-chatbot.md">Apr 30, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/eyaltoledano/claude-task-master">eyaltoledano/claude-task-master</a><sup><sub> - JavaScript - Mar 04, 2025</sub></sup><br/><sup><sub>Tags: #ai #cursor #cursor-ai #cursorai #lovable #lovable-dev #roocode #task-manager #tasks #tasks-list #windsurf<br/>#windsurf-ai</sub></sup><br/>An AI-powered task-management system you can drop into Cursor, Lovable,<br/>Windsurf, Roo, and others. </td>
-  <td><a href="./stars/eyaltoledano/claude-task-master.md">Apr 29, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/georgephillips/node-s3-url-encode">georgephillips/node-s3-url-encode</a><sup><sub> - JavaScript - Jul 22, 2014</sub></sup><br/>Because s3 urls are annoying. </td>
-  <td><a href="./stars/georgephillips/node-s3-url-encode.md">Apr 29, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/XaaXaaX/aws-lambda-extensions">XaaXaaX/aws-lambda-extensions</a><sup><sub> - TypeScript - Feb 15, 2024</sub></sup></td>
-  <td><a href="./stars/XaaXaaX/aws-lambda-extensions.md">Apr 29, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/ecies/js">ecies/js</a><sup><sub> - TypeScript - Nov 27, 2018</sub></sup><br/><sup><sub>Tags: #bitcoin #cryptocurrency #cryptography #ecies #elliptic-curve-cryptography #ethereum #javascript #secp256k1<br/>#typescript</sub></sup><br/>Elliptic Curve Integrated Encryption Scheme for secp256k1/curve25519 in<br/>TypeScript. </td>
-  <td><a href="./stars/ecies/js.md">Apr 23, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/yassinebenaid/bunster">yassinebenaid/bunster</a><sup><sub> - Go - Jul 20, 2024</sub></sup><br/><sup><sub>Tags: #aot #bash #compiler #go #shell</sub></sup><br/>Compile shell scripts to static binaries. </td>
-  <td><a href="./stars/yassinebenaid/bunster.md">Apr 23, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/fredericbarthelet/middy-mcp">fredericbarthelet/middy-mcp</a><sup><sub> - TypeScript - Apr 04, 2025</sub></sup><br/>Middy middleware for Model Context Protocol server hosting on AWS Lambda. </td>
-  <td><a href="./stars/fredericbarthelet/middy-mcp.md">Apr 22, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/eleva/serverless-textract-ocr-skeleton">eleva/serverless-textract-ocr-skeleton</a><sup><sub> - JavaScript - May 28, 2024</sub></sup><br/>This repo contains a serverless EU-Driving Licences OCR micro-service,<br/>based on Amazon Textract. </td>
-  <td><a href="./stars/eleva/serverless-textract-ocr-skeleton.md">Apr 22, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/eleva/serverless-node-api-skeleton">eleva/serverless-node-api-skeleton</a><sup><sub> - JavaScript - Apr 05, 2024</sub></sup><br/>Superpower REST API DX with Serverless ⚡ and DevOps Best Practices on AWS. </td>
-  <td><a href="./stars/eleva/serverless-node-api-skeleton.md">Apr 22, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/eleva/serverless-mcp-server">eleva/serverless-mcp-server</a><sup><sub> - JavaScript - Apr 09, 2025</sub></sup><br/>A super simple Model Context Protocol (MCP) server deployed on AWS Lambda<br/>and exposed via Amazon API Gateway, deployed with Serverless Framework. </td>
-  <td><a href="./stars/eleva/serverless-mcp-server.md">Apr 22, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/patorjk/figlet.js">patorjk/figlet.js</a><sup><sub> - JavaScript - Jun 05, 2012</sub></sup><br/>A FIG Driver written in JavaScript which aims to fully implement the<br/>FIGfont spec. </td>
-  <td><a href="./stars/patorjk/figlet.js.md">Apr 16, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/chalk/chalk-template">chalk/chalk-template</a><sup><sub> - JavaScript - Apr 22, 2021</sub></sup><br/><sup><sub>Tags: #ansi-escape-codes #chalk #color #command-line #templating #terminal</sub></sup></td>
-  <td><a href="./stars/chalk/chalk-template.md">Apr 16, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/DavidWells/spike-llrt-runtime">DavidWells/spike-llrt-runtime</a><sup><sub> - JavaScript - Mar 03, 2025</sub></sup><br/>Example of using AWS LLRT Lambda runtime with Serverless Framework. </td>
-  <td><a href="./stars/DavidWells/spike-llrt-runtime.md">Apr 15, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/orbitinghail/sqlsync">orbitinghail/sqlsync</a><sup><sub> - Rust - May 26, 2023</sub></sup><br/><sup><sub>Tags: #collaborative #database #local-first #offline-first #relational-database #sql #sqlite #sqlsync</sub></sup><br/>SQLSync is a collaborative offline-first wrapper around SQLite. It is<br/>designed to synchronize web application state between users, devices, and<br/>the edge. </td>
-  <td><a href="./stars/orbitinghail/sqlsync.md">Apr 14, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/tecfu/tty-table">tecfu/tty-table</a><sup><sub> - JavaScript - Jul 01, 2015</sub></sup><br/><sup><sub>Tags: #cli-table #nodejs #table #terminal-table #tty-table</sub></sup><br/>Terminal table for Windows, Linux, and MacOS. Written in nodejs. Also works<br/>in browser console. Word wrap, padding, alignment, colors, Asian character<br/>support, per-column callbacks, and you can pass rows as objects or arrays.<br/>Backwards compatible with Automattic/cli-table. </td>
-  <td><a href="./stars/tecfu/tty-table.md">Apr 13, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/elva-labs/awsesh">elva-labs/awsesh</a><sup><sub> - Go - Mar 19, 2025</sub></sup><br/><sup><sub>Tags: #aws #aws-sso #bubbletea #charm #cli #go #golang #sso #terminal #tui</sub></sup><br/>A charming TUI for AWS SSO session management ✨. </td>
-  <td><a href="./stars/elva-labs/awsesh.md">Apr 11, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/benward2301/dynq">benward2301/dynq</a><sup><sub> - Kotlin - Oct 29, 2024</sub></sup><br/><sup><sub>Tags: #dynamodb #jq #query</sub></sup><br/>dynq is an analytic query and data processing CLI tool for DynamoDB. </td>
-  <td><a href="./stars/benward2301/dynq.md">Apr 09, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/southpolesteve/deploy_button">southpolesteve/deploy_button</a><sup><sub> - Ruby - Jul 28, 2013</sub></sup><br/>Will it work?. </td>
-  <td><a href="./stars/southpolesteve/deploy_button.md">Apr 08, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/andmoredev/layerless-esbuild-lambda">andmoredev/layerless-esbuild-lambda</a><sup><sub> - JavaScript - Dec 09, 2023</sub></sup><br/>Show how to setup a Lambda function with shared code using esbuild instead<br/>of layers. </td>
-  <td><a href="./stars/andmoredev/layerless-esbuild-lambda.md">Apr 08, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/vishnubob/wait-for-it">vishnubob/wait-for-it</a><sup><sub> - Python - Feb 02, 2016</sub></sup><br/>Pure bash script to test and wait on the availability of a TCP host and<br/>port. </td>
-  <td><a href="./stars/vishnubob/wait-for-it.md">Apr 07, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/awsfundamentals-hq/sfn-wait-for-callback">awsfundamentals-hq/sfn-wait-for-callback</a><sup><sub> - TypeScript - Mar 06, 2024</sub></sup><br/><sup><sub>Tags: #aws #callback #lambda #newsletter #step-functions</sub></sup><br/>⚡️ Learning about the AWS Step Functions using the callback pattern. </td>
-  <td><a href="./stars/awsfundamentals-hq/sfn-wait-for-callback.md">Apr 07, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/KoryNunn/predator">KoryNunn/predator</a><sup><sub> - JavaScript - Aug 07, 2013</sub></sup><br/>finds the exposed portion of an element. </td>
-  <td><a href="./stars/KoryNunn/predator.md">Apr 07, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/KoryNunn/dir-template">KoryNunn/dir-template</a><sup><sub> - JavaScript - Jul 02, 2014</sub></sup><br/>create a directory structure based on a template. </td>
-  <td><a href="./stars/KoryNunn/dir-template.md">Apr 07, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/lmammino/rental-station-static-api-demo">lmammino/rental-station-static-api-demo</a><sup><sub> - TypeScript - Jan 22, 2025</sub></sup><br/><sup><sub>Tags: #api #demo #static #static-ap #static-site</sub></sup><br/>A simple demo to showcase the concept of static APIs (with full-text<br/>search!). </td>
-  <td><a href="./stars/lmammino/rental-station-static-api-demo.md">Apr 04, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/lmammino/org-formation-sso-import">lmammino/org-formation-sso-import</a><sup><sub> - TypeScript - Sep 21, 2024</sub></sup><br/><sup><sub>Tags: #aws #cloudformation #import #node #nodejs #org-formation #script #sso</sub></sup><br/>An experimental™️ script to import AWS SSO groups, permission sets and<br/>assignments into a OrgFormation workspace. </td>
-  <td><a href="./stars/lmammino/org-formation-sso-import.md">Apr 04, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/KoryNunn/console-watch">KoryNunn/console-watch</a><sup><sub> - JavaScript - Feb 12, 2016</sub></sup><br/>Track console.log/warn/error/etc... </td>
-  <td><a href="./stars/KoryNunn/console-watch.md">Apr 03, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/sinclairnick/midwinter">sinclairnick/midwinter</a><sup><sub> - TypeScript - Jan 06, 2025</sub></sup><br/>❄️ the middleware engine for modern backends. </td>
-  <td><a href="./stars/sinclairnick/midwinter.md">Mar 31, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools">x1xhlol/system-prompts-and-models-of-ai-tools</a><sup><sub> - Mar 05, 2025</sub></sup><br/><sup><sub>Tags: #ai #cursor #cursorai #lovable #system-instruction #system-prompts #v0</sub></sup><br/>FULL v0, Cursor, Manus, Same.dev &amp; Lovable System Prompts &amp; AI<br/>Models. </td>
-  <td><a href="./stars/x1xhlol/system-prompts-and-models-of-ai-tools.md">Mar 31, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/dependents/node-dependency-tree">dependents/node-dependency-tree</a><sup><sub> - JavaScript - Jul 18, 2014</sub></sup><br/><sup><sub>Tags: #amd #ast #commonjs #dependency-tree #es6 #javascript #sass #stylus #tree #typescript</sub></sup><br/>Get the dependency tree of a module. </td>
-  <td><a href="./stars/dependents/node-dependency-tree.md">Mar 30, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/dependents/node-filing-cabinet">dependents/node-filing-cabinet</a><sup><sub> - JavaScript - Jul 25, 2015</sub></sup><br/><sup><sub>Tags: #amd #ast #commonjs #es6 #javascript #less #lookup #modules #partial #requirejs #resolver #sass #scss #stylus<br/>#webpack</sub></sup><br/>Get the file location associated with a dependency/partial&#039;s path. </td>
-  <td><a href="./stars/dependents/node-filing-cabinet.md">Mar 30, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/NicolasMontone/json-tree-viewer">NicolasMontone/json-tree-viewer</a><sup><sub> - TypeScript - Mar 29, 2025</sub></sup><br/>Shadcn json-tree-viewer copy &amp; paste, tailwindCSS. </td>
-  <td><a href="./stars/NicolasMontone/json-tree-viewer.md">Mar 29, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/raoufchebri/hntldr">raoufchebri/hntldr</a><sup><sub> - TypeScript - Mar 26, 2025</sub></sup></td>
-  <td><a href="./stars/raoufchebri/hntldr.md">Mar 29, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/sadmann7/shadcn-table">sadmann7/shadcn-table</a><sup><sub> - TypeScript - Jul 10, 2023</sub></sup><br/><sup><sub>Tags: #drizzle-orm #nextjs #open-source #shadcn-ui #table #tanstack-table</sub></sup><br/>Shadcn table with server-side sorting, filtering, and pagination. </td>
-  <td><a href="./stars/sadmann7/shadcn-table.md">Mar 28, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/todgolding/serverless-reference-solution">todgolding/serverless-reference-solution</a><sup><sub> - Python - May 05, 2023</sub></sup><br/>Serverless SaaS code reference solution. </td>
-  <td><a href="./stars/todgolding/serverless-reference-solution.md">Mar 28, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/ServerlessLife/lambda-logger-extension">ServerlessLife/lambda-logger-extension</a><sup><sub> - JavaScript - Oct 07, 2024</sub></sup><br/>Lambda Extension that adds logs to already deployed Lambda. </td>
-  <td><a href="./stars/ServerlessLife/lambda-logger-extension.md">Mar 27, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/ServerlessLife/serverless-spy">ServerlessLife/serverless-spy</a><sup><sub> - TypeScript - Aug 12, 2022</sub></sup><br/><sup><sub>Tags: #aws #aws-lambda #cdk #dynamodb #eventbridge #integration-testing #jest #lambda #s3 #serverless</sub></sup><br/>CDK-based library for writing elegant, fast-executing integration tests on<br/>AWS serverless architecture and an additional web console to monitor events<br/>in real time. </td>
-  <td><a href="./stars/ServerlessLife/serverless-spy.md">Mar 27, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/ServerlessLife/dynamodb-export-s3-athena">ServerlessLife/dynamodb-export-s3-athena</a><sup><sub> - TypeScript - Oct 24, 2024</sub></sup><br/>Query DynamoDB with SQL using Athena - Leveraging DynamoDB Exports to S3<br/>(1/2). </td>
-  <td><a href="./stars/ServerlessLife/dynamodb-export-s3-athena.md">Mar 27, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/PatMyron/cloudformation-resource-providers">PatMyron/cloudformation-resource-providers</a><sup><sub> - Jan 12, 2021</sub></sup><br/><sup><sub>Tags: #aws-cloudformation #aws-resources #cloudformation</sub></sup><br/>automated monorepo of public CloudFormation AWS resource providers. </td>
-  <td><a href="./stars/PatMyron/cloudformation-resource-providers.md">Mar 25, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/arnaudambro/react-swipe-to-delete-ios">arnaudambro/react-swipe-to-delete-ios</a><sup><sub> - TypeScript - Jul 07, 2019</sub></sup><br/>A simple React component to reproduce the way iOS deletes an item in a list. </td>
-  <td><a href="./stars/arnaudambro/react-swipe-to-delete-ios.md">Mar 25, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/un/1up">un/1up</a><sup><sub> - TypeScript - Jan 26, 2025</sub></sup><br/>Open Source Longevity System; Live Longer + Sharper + Better. </td>
-  <td><a href="./stars/un/1up.md">Mar 24, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/un/potential">un/potential</a><sup><sub> - TypeScript - Jan 26, 2025</sub></sup><br/>Ai Health coach to live Longer + Sharper + Better; Open Source alternative<br/>to Death. </td>
-  <td><a href="./stars/un/potential.md">Mar 24, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/microsoft/vscode-ripgrep">microsoft/vscode-ripgrep</a><sup><sub> - JavaScript - Jul 17, 2019</sub></sup><br/>For consuming the ripgrep binary from microsoft/ripgrep-prebuilt in a Node<br/>project. </td>
-  <td><a href="./stars/microsoft/vscode-ripgrep.md">Mar 23, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/wonderwhy-er/DesktopCommanderMCP">wonderwhy-er/DesktopCommanderMCP</a><sup><sub> - TypeScript - Dec 04, 2024</sub></sup><br/>This is MCP server for Claude that gives it terminal control, file system<br/>search and diff file editing capabilities. </td>
-  <td><a href="./stars/wonderwhy-er/DesktopCommanderMCP.md">Mar 23, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/aws-samples/data-for-saas-patterns">aws-samples/data-for-saas-patterns</a><sup><sub> - Jul 24, 2024</sub></sup><br/><sup><sub>Tags: #aws #data #databases #saas</sub></sup><br/>A collection of samples, best practices and reference architectures for<br/>implementing SaaS applications on AWS for databases and data services. </td>
-  <td><a href="./stars/aws-samples/data-for-saas-patterns.md">Mar 23, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/Linus-Mussmaecher/rucola">Linus-Mussmaecher/rucola</a><sup><sub> - Rust - Feb 21, 2024</sub></sup><br/><sup><sub>Tags: #markdown #note-taking #notes #ratatui #ratatui-rs #rust #terminal #terminal-based #zettelkasten</sub></sup><br/>Terminal-based markdown note manager. </td>
-  <td><a href="./stars/Linus-Mussmaecher/rucola.md">Mar 22, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/harrysolovay/standard-json-schema">harrysolovay/standard-json-schema</a><sup><sub> - TypeScript - Mar 19, 2025</sub></sup><br/>Turn standard types into JSON schemas. </td>
-  <td><a href="./stars/harrysolovay/standard-json-schema.md">Mar 19, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/thornejosh/bedrock-cv-extractor">thornejosh/bedrock-cv-extractor</a><sup><sub> - TypeScript - Mar 13, 2025</sub></sup></td>
-  <td><a href="./stars/thornejosh/bedrock-cv-extractor.md">Mar 18, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/gugamainchein/github-ia-code-validation">gugamainchein/github-ia-code-validation</a><sup><sub> - Python - Mar 16, 2025</sub></sup><br/><sup><sub>Tags: #aws #bedrock #deepseek #serverless</sub></sup><br/>This project is a Serverless application that leverages generative AI to<br/>analyze developers&#039; code, providing improvement suggestions based on<br/>Domain-Driven Design (DDD) and Clean Code principles. </td>
-  <td><a href="./stars/gugamainchein/github-ia-code-validation.md">Mar 18, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/haystackeditor/haystack-editor">haystackeditor/haystack-editor</a><sup><sub> - TypeScript - Sep 24, 2024</sub></sup></td>
-  <td><a href="./stars/haystackeditor/haystack-editor.md">Mar 16, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/kern/filepizza">kern/filepizza</a><sup><sub> - TypeScript - Feb 25, 2015</sub></sup><br/><sup><sub>Tags: #react #webrtc</sub></sup><br/>:pizza: Peer-to-peer file transfers in your browser. </td>
-  <td><a href="./stars/kern/filepizza.md">Mar 16, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/formkit/jsonreader">formkit/jsonreader</a><sup><sub> - Vue - Mar 14, 2025</sub></sup><br/>Incremental parsing of streaming JSON data. </td>
-  <td><a href="./stars/formkit/jsonreader.md">Mar 15, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/typeonce-dev/sync-engine-web">typeonce-dev/sync-engine-web</a><sup><sub> - TypeScript - Feb 25, 2025</sub></sup><br/><sup><sub>Tags: #crdt #effect #effect-ts #full-stack #loro #loro-crdt #react #react-19 #sync-engine #sync-engine-web<br/>#web-worker</sub></sup><br/>A Sync Engine for the web: React (TanStack Router), Web Workers, Effect,<br/>Loro ⚡️. </td>
-  <td><a href="./stars/typeonce-dev/sync-engine-web.md">Mar 12, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/justkey007/tsc-alias">justkey007/tsc-alias</a><sup><sub> - TypeScript - May 06, 2019</sub></sup><br/><sup><sub>Tags: #absolute-path #alias #compilation #paths #relative-path #tsc #typescript</sub></sup><br/>Replace alias paths with relative paths after typescript compilation. </td>
-  <td><a href="./stars/justkey007/tsc-alias.md">Mar 12, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/focusOtter/fullstack-deepseek">focusOtter/fullstack-deepseek</a><sup><sub> - Mar 11, 2025</sub></sup><br/><sup><sub>Tags: #aws #aws-amplify #bedrock #deepseek #fullstack #lambda #llm #react #serverless #typescript</sub></sup><br/>fullstack integration between react and deepseek using AWS Amplify and<br/>Amazon bedrock. </td>
-  <td><a href="./stars/focusOtter/fullstack-deepseek.md">Mar 11, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/jitsi/jitsi-meet">jitsi/jitsi-meet</a><sup><sub> - TypeScript - Dec 16, 2013</sub></sup><br/><sup><sub>Tags: #debian #deep-video #jitsi #jitsi-meet #scalable-video-conferences #sfu #video #video-communication #video-conferencing<br/>#webrtc</sub></sup><br/>Jitsi Meet - Secure, Simple and Scalable Video Conferences that you use as<br/>a standalone app or embed in your web application. </td>
-  <td><a href="./stars/jitsi/jitsi-meet.md">Mar 04, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/AlexxIT/WebRTC">AlexxIT/WebRTC</a><sup><sub> - JavaScript - Apr 11, 2021</sub></sup><br/><sup><sub>Tags: #hacs #home-assistant #ip-camera #mediasource-extensions #rtsp #webrtc</sub></sup><br/>Home Assistant custom component for real-time viewing of almost any camera<br/>stream using WebRTC and other technologies. </td>
-  <td><a href="./stars/AlexxIT/WebRTC.md">Mar 04, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/emilhein/optifunc">emilhein/optifunc</a><sup><sub> - JavaScript - Apr 29, 2018</sub></sup><br/><sup><sub>Tags: #helper-functions #nodejs #npm #performance #statistics #testing</sub></sup><br/>NPM module to make optimizations and tests on your functions. </td>
-  <td><a href="./stars/emilhein/optifunc.md">Mar 04, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/SummitRoute/aws_breaking_changes">SummitRoute/aws_breaking_changes</a><sup><sub> - May 03, 2019</sub></sup><br/>List of changes announced for AWS that may break existing code. </td>
-  <td><a href="./stars/SummitRoute/aws_breaking_changes.md">Mar 04, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/klis87/normy">klis87/normy</a><sup><sub> - TypeScript - Jan 23, 2023</sub></sup><br/><sup><sub>Tags: #ajax #ajax-request #front-end #javascript #monorepo #normalisation #normalization #react-query #redux #rtk-query<br/>#single-page-app #swr #trpc #typescript</sub></sup><br/>Automatic normalization and data updates for data fetching libraries<br/>(react-query, swr, rtk-query and more). </td>
-  <td><a href="./stars/klis87/normy.md">Mar 04, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/LeaVerou/style-observer">LeaVerou/style-observer</a><sup><sub> - JavaScript - Jan 14, 2025</sub></sup><br/><sup><sub>Tags: #css #observer #style-observer</sub></sup><br/>Run JS when a CSS property changes. Any CSS property. </td>
-  <td><a href="./stars/LeaVerou/style-observer.md">Mar 02, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/mlc-ai/web-llm">mlc-ai/web-llm</a><sup><sub> - TypeScript - Apr 13, 2023</sub></sup><br/><sup><sub>Tags: #chatgpt #deep-learning #language-model #llm #tvm #webgpu #webml</sub></sup><br/>High-performance In-browser LLM Inference Engine. </td>
-  <td><a href="./stars/mlc-ai/web-llm.md">Feb 28, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/BearToCode/mismerge">BearToCode/mismerge</a><sup><sub> - TypeScript - Sep 06, 2023</sub></sup><br/><sup><sub>Tags: #diff #editor #merge #merge-editor #mismerge #svelte #web-merge-editor</sub></sup><br/>A modern merge editor for the Web. </td>
-  <td><a href="./stars/BearToCode/mismerge.md">Feb 28, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/expressive-code/expressive-code">expressive-code/expressive-code</a><sup><sub> - TypeScript - Sep 05, 2022</sub></sup><br/><sup><sub>Tags: #annotation-tool #code-annotation #code-blocks #code-documentation #diff #documentation-tool #syntax-highlighting<br/>#text-marker #web-development</sub></sup><br/>A text marking &amp; annotation engine for presenting source code on the<br/>web. </td>
-  <td><a href="./stars/expressive-code/expressive-code.md">Feb 28, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/natesilva/p-ratelimit">natesilva/p-ratelimit</a><sup><sub> - TypeScript - Oct 18, 2017</sub></sup><br/><sup><sub>Tags: #concurrency #distributed-systems #promise #rate-limiting #redis</sub></sup><br/>Promise-based utility to make sure you don’t call rate-limited APIs too<br/>quickly. </td>
-  <td><a href="./stars/natesilva/p-ratelimit.md">Feb 27, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/WebReflection/id-promise">WebReflection/id-promise</a><sup><sub> - JavaScript - Apr 27, 2020</sub></sup><br/>A cluster friendly, identity based, Promise resolver. </td>
-  <td><a href="./stars/WebReflection/id-promise.md">Feb 27, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/WebReflection/path-crawler">WebReflection/path-crawler</a><sup><sub> - JavaScript - Sep 14, 2021</sub></sup><br/>An utility to crawl generic objects paths. </td>
-  <td><a href="./stars/WebReflection/path-crawler.md">Feb 27, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/WebReflection/basic-toml">WebReflection/basic-toml</a><sup><sub> - JavaScript - May 13, 2023</sub></sup><br/>A simple TOML subset parser. </td>
-  <td><a href="./stars/WebReflection/basic-toml.md">Feb 27, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/WebReflection/loop-once">WebReflection/loop-once</a><sup><sub> - JavaScript - Jan 25, 2024</sub></sup><br/>A safer loop for sync or async unique use cases. </td>
-  <td><a href="./stars/WebReflection/loop-once.md">Feb 27, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/WebReflection/codedent">WebReflection/codedent</a><sup><sub> - JavaScript - Sep 05, 2023</sub></sup><br/>A dedent alternative for just code. </td>
-  <td><a href="./stars/WebReflection/codedent.md">Feb 27, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/WebReflection/lie">WebReflection/lie</a><sup><sub> - JavaScript - Aug 01, 2020</sub></sup><br/>An optionally sync promise that directly passes along its value. </td>
-  <td><a href="./stars/WebReflection/lie.md">Feb 27, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/romainsimon/emailvalid">romainsimon/emailvalid</a><sup><sub> - JavaScript - Apr 14, 2020</sub></sup><br/><sup><sub>Tags: #disposable-email #email #email-validation</sub></sup><br/>:email: Email validation with more than 10K disposable/temporary email<br/>domains. </td>
-  <td><a href="./stars/romainsimon/emailvalid.md">Feb 27, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/pkrumins/node-tree-kill">pkrumins/node-tree-kill</a><sup><sub> - JavaScript - Apr 11, 2013</sub></sup><br/>kill trees of processes. </td>
-  <td><a href="./stars/pkrumins/node-tree-kill.md">Feb 27, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/emilwidlund/harmony">emilwidlund/harmony</a><sup><sub> - JavaScript - Jan 11, 2024</sub></sup><br/>A new kind of color picker for React. </td>
-  <td><a href="./stars/emilwidlund/harmony.md">Feb 27, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/voxpelli/list-dependents">voxpelli/list-dependents</a><sup><sub> - JavaScript - Apr 02, 2024</sub></sup><br/>Lists all dependents of a project, using npm or ecosyste.ms. </td>
-  <td><a href="./stars/voxpelli/list-dependents.md">Feb 27, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/mcollina/my-ua-parser">mcollina/my-ua-parser</a><sup><sub> - JavaScript - Jun 11, 2024</sub></sup></td>
-  <td><a href="./stars/mcollina/my-ua-parser.md">Feb 27, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/sharkdp/fd">sharkdp/fd</a><sup><sub> - Rust - May 09, 2017</sub></sup><br/><sup><sub>Tags: #cli #command-line #filesystem #hacktoberfest #regex #rust #search #terminal #tool</sub></sup><br/>A simple, fast and user-friendly alternative to &#039;find&#039;. </td>
-  <td><a href="./stars/sharkdp/fd.md">Feb 26, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/raphamorim/react-ape">raphamorim/react-ape</a><sup><sub> - JavaScript - May 31, 2018</sub></sup><br/><sup><sub>Tags: #canvas #canvas-html5 #gl #react #react-ape #react-renderer #render #renderer #webgl #webgl2</sub></sup><br/>🦍• React Renderer to build UI interfaces using canvas/WebGL (TV and<br/>Hardware-Accelerated GPU development based). </td>
-  <td><a href="./stars/raphamorim/react-ape.md">Feb 26, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/microsoft/node-jsonc-parser">microsoft/node-jsonc-parser</a><sup><sub> - TypeScript - Apr 18, 2016</sub></sup><br/>Scanner and parser for JSON with comments. </td>
-  <td><a href="./stars/microsoft/node-jsonc-parser.md">Feb 26, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/scottrippey/react-use-event-hook">scottrippey/react-use-event-hook</a><sup><sub> - TypeScript - May 05, 2022</sub></sup><br/><sup><sub>Tags: #react #react-memo #usecallback #useevent #useref</sub></sup><br/>Same as React&#039;s useCallback, but returns a stable reference. </td>
-  <td><a href="./stars/scottrippey/react-use-event-hook.md">Feb 26, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/voxpelli/generate-favicon">voxpelli/generate-favicon</a><sup><sub> - JavaScript - Jan 13, 2025</sub></sup><br/>Helper to generate favicons. </td>
-  <td><a href="./stars/voxpelli/generate-favicon.md">Feb 26, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/tmcdos/custompatch">tmcdos/custompatch</a><sup><sub> - JavaScript - Nov 20, 2018</sub></sup><br/><sup><sub>Tags: #buggy #npm-package #patching</sub></sup><br/>Tool for patching buggy NPM packages without forking them. </td>
-  <td><a href="./stars/tmcdos/custompatch.md">Feb 26, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/animir/node-rate-limiter-flexible">animir/node-rate-limiter-flexible</a><sup><sub> - JavaScript - May 06, 2018</sub></sup><br/><sup><sub>Tags: #bruteforce #dynamodb #express #hapi #koa #limit #mysql #nestjs #postgresql #prisma #rate #rate-limiting #ratelimter<br/>#redis #security #throttle</sub></sup><br/>Atomic counters and rate limiting tools. Limit resource access at any scale. </td>
-  <td><a href="./stars/animir/node-rate-limiter-flexible.md">Feb 26, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/samvera/serverless-iiif">samvera/serverless-iiif</a><sup><sub> - JavaScript - Jun 19, 2019</sub></sup><br/><sup><sub>Tags: #aws-apigateway #aws-lambda #aws-serverless #iiif #iiif-image #image-processing #libvips #sharp</sub></sup><br/>IIIF Image API 2.1 &amp; 3.0 server in an AWS Serverless Application. </td>
-  <td><a href="./stars/samvera/serverless-iiif.md">Feb 25, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/okeeffed/spike-aws-cdk-apigw-file-based-routing">okeeffed/spike-aws-cdk-apigw-file-based-routing</a><sup><sub> - TypeScript - Feb 24, 2024</sub></sup></td>
-  <td><a href="./stars/okeeffed/spike-aws-cdk-apigw-file-based-routing.md">Feb 25, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/newjersey/navigator.business.nj.gov">newjersey/navigator.business.nj.gov</a><sup><sub> - TypeScript - Dec 21, 2018</sub></sup><br/>NJ Office of Innovation is building a one-stop dashboard to better help New<br/>Jerseyans with starting and managing a business. </td>
-  <td><a href="./stars/newjersey/navigator.business.nj.gov.md">Feb 25, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/unjs/exsolve">unjs/exsolve</a><sup><sub> - TypeScript - Feb 24, 2025</sub></sup><br/>Module resolution utilities based on Node.js upstream implementation. </td>
-  <td><a href="./stars/unjs/exsolve.md">Feb 25, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/G4brym/aletria">G4brym/aletria</a><sup><sub> - TypeScript - Feb 14, 2025</sub></sup><br/><sup><sub>Tags: #ai #cli #gemini #gemini-ai #generator #generator-ai #google #npm</sub></sup><br/>Simple AI CLI that generates docs, unit tests and README.md files. </td>
-  <td><a href="./stars/G4brym/aletria.md">Feb 20, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/PrecursorApp/precursor">PrecursorApp/precursor</a><sup><sub> - Clojure - Sep 27, 2014</sub></sup><br/>Create mockups with real-time collaboration. </td>
-  <td><a href="./stars/PrecursorApp/precursor.md">Feb 20, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/aws-samples/well-architected-iac-analyzer">aws-samples/well-architected-iac-analyzer</a><sup><sub> - TypeScript - Oct 28, 2024</sub></sup></td>
-  <td><a href="./stars/aws-samples/well-architected-iac-analyzer.md">Feb 20, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/matheusdasmerces/lambda-advanced-logging-control">matheusdasmerces/lambda-advanced-logging-control</a><sup><sub> - TypeScript - Feb 09, 2025</sub></sup><br/>Example of automating advanced loggin control for Lambda Functions, in<br/>Typescript. </td>
-  <td><a href="./stars/matheusdasmerces/lambda-advanced-logging-control.md">Feb 20, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/maheshpaulj/serverless-pdf-generator">maheshpaulj/serverless-pdf-generator</a><sup><sub> - TypeScript - Feb 16, 2025</sub></sup><br/><sup><sub>Tags: #nextjs #node-module #node-package #nodemodules #npm #pdf-generation #react</sub></sup><br/>serverless-pdf-generator is a lightweight package that simplifies the<br/>process of generating PDFs from web pages in a serverless environment like<br/>Vercel. It utilizes Puppeteer and Chromium to render pages and generate<br/>high-quality PDFs. </td>
-  <td><a href="./stars/maheshpaulj/serverless-pdf-generator.md">Feb 19, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/EugeneMahota/template.sls">EugeneMahota/template.sls</a><sup><sub> - TypeScript - Jan 30, 2025</sub></sup></td>
-  <td><a href="./stars/EugeneMahota/template.sls.md">Feb 19, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/magicuidesign/magicui">magicuidesign/magicui</a><sup><sub> - MDX - Jun 26, 2023</sub></sup><br/><sup><sub>Tags: #components #framer-motion #nextjs #react #shadcn-ui #tailwindcss #typescript</sub></sup><br/>UI Library for Design Engineers. Animated components and effects you can<br/>copy and paste into your apps. Free. Open Source. </td>
-  <td><a href="./stars/magicuidesign/magicui.md">Feb 17, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/tmokmss/cdk-lambda-llrt">tmokmss/cdk-lambda-llrt</a><sup><sub> - JavaScript - Feb 09, 2024</sub></sup><br/><sup><sub>Tags: #aws-cdk #lambda</sub></sup><br/>Deploy LLRT Lambda functions w/ CDK. </td>
-  <td><a href="./stars/tmokmss/cdk-lambda-llrt.md">Feb 14, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/rhinobase/hono-openapi">rhinobase/hono-openapi</a><sup><sub> - TypeScript - Oct 11, 2024</sub></sup><br/>A plugin for Hono to generate OpenAPI Swagger documentation. </td>
-  <td><a href="./stars/rhinobase/hono-openapi.md">Feb 13, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/rocicorp/fractional-indexing">rocicorp/fractional-indexing</a><sup><sub> - JavaScript - Nov 06, 2020</sub></sup><br/>Fractional Indexing in JavaScript. </td>
-  <td><a href="./stars/rocicorp/fractional-indexing.md">Feb 13, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/fiberplane/fiberplane">fiberplane/fiberplane</a><sup><sub> - TypeScript - May 29, 2024</sub></sup><br/>Supercharge your local development. </td>
-  <td><a href="./stars/fiberplane/fiberplane.md">Feb 13, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/viktoriasemaan/sa-ai-agent">viktoriasemaan/sa-ai-agent</a><sup><sub> - Python - Aug 05, 2024</sub></sup><br/><sup><sub>Tags: #hacktoberfest</sub></sup><br/>Building SA AI Agent v2. </td>
-  <td><a href="./stars/viktoriasemaan/sa-ai-agent.md">Feb 13, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/hashicorp/terraform-cdk">hashicorp/terraform-cdk</a><sup><sub> - TypeScript - Jan 08, 2020</sub></sup><br/><sup><sub>Tags: #cdk #cdktf #hack #infrastructure-as-code #terraform</sub></sup><br/>Define infrastructure resources using programming constructs and provision<br/>them using HashiCorp Terraform. </td>
-  <td><a href="./stars/hashicorp/terraform-cdk.md">Feb 13, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/oss-serverless/serverless">oss-serverless/serverless</a><sup><sub> - JavaScript - Sep 15, 2024</sub></sup><br/>Serverless Framework CLI v3 alternative. </td>
-  <td><a href="./stars/oss-serverless/serverless.md">Feb 10, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/microchipgnu/prompt-format">microchipgnu/prompt-format</a><sup><sub> - TypeScript - Feb 06, 2025</sub></sup></td>
-  <td><a href="./stars/microchipgnu/prompt-format.md">Feb 07, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/eastlondoner/cursor-tools">eastlondoner/cursor-tools</a><sup><sub> - TypeScript - Jan 13, 2025</sub></sup><br/>Give Cursor Agent an AI Team and Advanced Skills. </td>
-  <td><a href="./stars/eastlondoner/cursor-tools.md">Feb 07, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/grapeot/devin.cursorrules">grapeot/devin.cursorrules</a><sup><sub> - Python - Dec 17, 2024</sub></sup><br/>Magic to turn Cursor/Windsurf as 90% of Devin. </td>
-  <td><a href="./stars/grapeot/devin.cursorrules.md">Feb 06, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/domagojk/serverless-console">domagojk/serverless-console</a><sup><sub> - TypeScript - Oct 04, 2019</sub></sup></td>
-  <td><a href="./stars/domagojk/serverless-console.md">Feb 05, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/ivangabriele/firept">ivangabriele/firept</a><sup><sub> - TypeScript - Oct 05, 2023</sub></sup><br/><sup><sub>Tags: #api #apificacion #apifier #automation #chatgpt #custom-gpt #local-api #openai #workspace-manager<br/>#workspace-tool</sub></sup><br/>APIfy your local workspaces, allowing AI to interact with it. </td>
-  <td><a href="./stars/ivangabriele/firept.md">Feb 05, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/TimMikeladze/markdown-to-api">TimMikeladze/markdown-to-api</a><sup><sub> - TypeScript - Aug 12, 2022</sub></sup><br/><sup><sub>Tags: #graphql #markdown #markdown-api #markdown-graphql #nextjs #static-site-generator</sub></sup><br/>📑 Generates a minisearch powered GraphQL API from a directory of markdown<br/>files. Additional metadata like tags or descriptions can be added to the<br/>files in the form of YAML front matter, which will then be indexed and<br/>available to search by. </td>
-  <td><a href="./stars/TimMikeladze/markdown-to-api.md">Feb 05, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/postmanlabs/openapi-to-postman">postmanlabs/openapi-to-postman</a><sup><sub> - JavaScript - Dec 12, 2018</sub></sup><br/><sup><sub>Tags: #openapi #openapi3 #postman-collection</sub></sup><br/>Plugin for converting OpenAPI 3.0 specs to the Postman Collection (v2)<br/>format. </td>
-  <td><a href="./stars/postmanlabs/openapi-to-postman.md">Feb 05, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/eemeli/dot-properties">eemeli/dot-properties</a><sup><sub> - JavaScript - Feb 03, 2018</sub></sup><br/>Parse &amp; stringify .properties files in JavaScript. </td>
-  <td><a href="./stars/eemeli/dot-properties.md">Feb 04, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/mnfst/manifest">mnfst/manifest</a><sup><sub> - TypeScript - Sep 27, 2022</sub></sup><br/><sup><sub>Tags: #admin-panel #api #baas #backend #backend-api #backend-as-a-servise #backend-server #cms #database #headless<br/>#headless-cms #headless-cms-rest-api #manifest #open-source #postgres #rest-api #s3-storage #sdk-js #sqlite #yaml</sub></sup><br/>🦚 The 1-file backend. </td>
-  <td><a href="./stars/mnfst/manifest.md">Feb 04, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/eemeli/yaml-types">eemeli/yaml-types</a><sup><sub> - TypeScript - Apr 14, 2023</sub></sup><br/>Useful JavaScript types for YAML. </td>
-  <td><a href="./stars/eemeli/yaml-types.md">Feb 04, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/outerbase/starbasedb">outerbase/starbasedb</a><sup><sub> - TypeScript - Sep 29, 2024</sub></sup><br/><sup><sub>Tags: #cloudflare #database #durableobjects #sqlite</sub></sup><br/>HTTP SQLite scale-to-zero database on the edge built on Cloudflare Durable<br/>Objects. </td>
-  <td><a href="./stars/outerbase/starbasedb.md">Feb 04, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/unjs/ipx">unjs/ipx</a><sup><sub> - TypeScript - Dec 10, 2017</sub></sup><br/><sup><sub>Tags: #cdn #docker #image #libvips #optimize #proxy #resize #sharp #webp</sub></sup><br/>🖼️ High performance, secure and easy-to-use image optimizer. </td>
-  <td><a href="./stars/unjs/ipx.md">Feb 01, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/metarhia/web-locks">metarhia/web-locks</a><sup><sub> - JavaScript - Mar 06, 2020</sub></sup><br/><sup><sub>Tags: #async #atomics #await #data-race #deadlock #lock #locking #locks #multithreading #mutex #nodejs #parallel<br/>#race-detection #semaphore #shared-memory #sharedarraybuffer #synchronization #synchronize #threads #web-locks</sub></sup><br/>Web Locks API 🔒. </td>
-  <td><a href="./stars/metarhia/web-locks.md">Feb 01, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/kristianfreeman/smart-cache">kristianfreeman/smart-cache</a><sup><sub> - TypeScript - Jan 28, 2025</sub></sup><br/>AI-driven edge caching of any origin, using Cloudflare Workers and Deepseek<br/>AI. </td>
-  <td><a href="./stars/kristianfreeman/smart-cache.md">Jan 30, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/yusukebe/gh-markdown-preview">yusukebe/gh-markdown-preview</a><sup><sub> - Go - Oct 22, 2021</sub></sup><br/><sup><sub>Tags: #cli #gh-extension #golang #markdown</sub></sup><br/>GitHub CLI extension to preview Markdown looks like GitHub. </td>
-  <td><a href="./stars/yusukebe/gh-markdown-preview.md">Jan 30, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/lxsmnsyc/seroval">lxsmnsyc/seroval</a><sup><sub> - TypeScript - Feb 05, 2023</sub></sup><br/>Stringify JS values. </td>
-  <td><a href="./stars/lxsmnsyc/seroval.md">Jan 30, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/aws-samples/sessions-with-aws-sam">aws-samples/sessions-with-aws-sam</a><sup><sub> - JavaScript - Jul 17, 2020</sub></sup><br/><sup><sub>Tags: #aws #sam #serverless</sub></sup><br/>This repo contains all the SAM templates created in the Twitch series<br/>#SessionsWithSAM. The show is every Thursday on Twitch at 10 AM PDT. </td>
-  <td><a href="./stars/aws-samples/sessions-with-aws-sam.md">Jan 30, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/Open-Attestation/oa-verify">Open-Attestation/oa-verify</a><sup><sub> - TypeScript - Apr 01, 2019</sub></sup><br/><sup><sub>Tags: #hacktoberfest</sub></sup><br/>Verification library for OpenAttestation document. </td>
-  <td><a href="./stars/Open-Attestation/oa-verify.md">Jan 29, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/atuinsh/atuin">atuinsh/atuin</a><sup><sub> - Rust - Oct 04, 2020</sub></sup><br/><sup><sub>Tags: #bash #fish #history #rust #shell #zsh</sub></sup><br/>✨ Magical shell history. </td>
-  <td><a href="./stars/atuinsh/atuin.md">Jan 28, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/simonw/llm-jq">simonw/llm-jq</a><sup><sub> - Python - Oct 27, 2024</sub></sup><br/>Write and execute jq programs with the help of LLM. </td>
-  <td><a href="./stars/simonw/llm-jq.md">Jan 27, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/AnswerDotAI/web2md-ext">AnswerDotAI/web2md-ext</a><sup><sub> - JavaScript - Nov 09, 2024</sub></sup><br/>Get a markdown version of any webpage with a keyboard shortcut. </td>
-  <td><a href="./stars/AnswerDotAI/web2md-ext.md">Jan 27, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/ggerganov/whisper.cpp">ggerganov/whisper.cpp</a><sup><sub> - C++ - Sep 25, 2022</sub></sup><br/><sup><sub>Tags: #inference #openai #speech-recognition #speech-to-text #transformer #whisper</sub></sup><br/>Port of OpenAI&#039;s Whisper model in C/C++. </td>
-  <td><a href="./stars/ggerganov/whisper.cpp.md">Jan 27, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/ggml-org/llama.cpp">ggml-org/llama.cpp</a><sup><sub> - C++ - Mar 10, 2023</sub></sup><br/><sup><sub>Tags: #ggml #llama</sub></sup><br/>LLM inference in C/C++. </td>
-  <td><a href="./stars/ggml-org/llama.cpp.md">Jan 27, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/stackblitz-labs/bolt.diy">stackblitz-labs/bolt.diy</a><sup><sub> - TypeScript - Oct 13, 2024</sub></sup><br/>Prompt, run, edit, and deploy full-stack web applications using any LLM you<br/>want!. </td>
-  <td><a href="./stars/stackblitz-labs/bolt.diy.md">Jan 27, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/pilcrowonpaper/auri">pilcrowonpaper/auri</a><sup><sub> - TypeScript - Feb 04, 2023</sub></sup><br/>Manage package changes and releases. </td>
-  <td><a href="./stars/pilcrowonpaper/auri.md">Jan 26, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/sourcemeta-research/alterschema">sourcemeta-research/alterschema</a><sup><sub> - JavaScript - May 23, 2022</sub></sup><br/><sup><sub>Tags: #json #json-schema #schema</sub></sup><br/>Convert between JSON Schema specification versions. </td>
-  <td><a href="./stars/sourcemeta-research/alterschema.md">Jan 26, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/wunderwuzzi23/scratch">wunderwuzzi23/scratch</a><sup><sub> - Go - Nov 04, 2019</sub></sup><br/>Repo with random useful scripts, utilities, prompts and stuff. </td>
-  <td><a href="./stars/wunderwuzzi23/scratch.md">Jan 26, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/jamsocket/y-sweet">jamsocket/y-sweet</a><sup><sub> - Rust - Jul 17, 2023</sub></sup><br/><sup><sub>Tags: #crdt #multiplayer #yjs</sub></sup><br/>A realtime CRDT-based document store, backed by S3. </td>
-  <td><a href="./stars/jamsocket/y-sweet.md">Jan 25, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/No-Instructions/Relay">No-Instructions/Relay</a><sup><sub> - TypeScript - Jun 05, 2024</sub></sup><br/><sup><sub>Tags: #obsidian-md #obsidian-plugin</sub></sup><br/>Multiplayer Mode for Obsidian. </td>
-  <td><a href="./stars/No-Instructions/Relay.md">Jan 25, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/sourcemeta/learnjsonschema.com">sourcemeta/learnjsonschema.com</a><sup><sub> - HTML - Feb 09, 2023</sub></sup><br/><sup><sub>Tags: #asyncapi #json #json-schema #jsonschema #openapi #schema #schemas</sub></sup><br/>Reference documentation for JSON Schema. Includes detailed information<br/>about each keyword and vocabulary, alongside examples. </td>
-  <td><a href="./stars/sourcemeta/learnjsonschema.com.md">Jan 25, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/jviotti/jsonbinpack-poc">jviotti/jsonbinpack-poc</a><sup><sub> - TypeScript - Feb 19, 2021</sub></sup><br/><sup><sub>Tags: #binary #deserialization #json #json-schema #jsonschema #serialization #space-efficiency</sub></sup><br/>This is a PoC. See https://github.com/sourcemeta/jsonbinpack for the<br/>production implementation. </td>
-  <td><a href="./stars/jviotti/jsonbinpack-poc.md">Jan 25, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/jmespath/jmespath.js">jmespath/jmespath.js</a><sup><sub> - JavaScript - Apr 18, 2014</sub></sup><br/>Javascript implementation of JMESPath, a query language for JSON. </td>
-  <td><a href="./stars/jmespath/jmespath.js.md">Jan 25, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/Inqnuam/serverless-aws-lambda">Inqnuam/serverless-aws-lambda</a><sup><sub> - TypeScript - Aug 17, 2022</sub></sup><br/><sup><sub>Tags: #alb #apg #aws #aws-lambda #express #lambda #local #offline #serverless</sub></sup><br/>AWS Lambda dev tool for Serverless. Supports packaging, local invoking and<br/>local ALB and APG lambda server mocking. </td>
-  <td><a href="./stars/Inqnuam/serverless-aws-lambda.md">Jan 25, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/BackburnerJS/backburner.js">BackburnerJS/backburner.js</a><sup><sub> - TypeScript - Apr 10, 2013</sub></sup><br/><sup><sub>Tags: #backburner #runloop #scheduler</sub></sup><br/>A rewrite of the Ember.js run loop as a generic microlibrary. </td>
-  <td><a href="./stars/BackburnerJS/backburner.js.md">Jan 24, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/orbitjs/orbit">orbitjs/orbit</a><sup><sub> - TypeScript - Jul 11, 2013</sub></sup><br/>Composable data framework for ambitious web applications. </td>
-  <td><a href="./stars/orbitjs/orbit.md">Jan 24, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/yury-dymov/json-api-normalizer">yury-dymov/json-api-normalizer</a><sup><sub> - JavaScript - Dec 22, 2016</sub></sup><br/><sup><sub>Tags: #json-api #normalizer #redux</sub></sup><br/>Normalize JSON API data for redux applications. </td>
-  <td><a href="./stars/yury-dymov/json-api-normalizer.md">Jan 24, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/testdouble/scripty">testdouble/scripty</a><sup><sub> - JavaScript - Apr 05, 2016</sub></sup><br/>Because no one should be shell-scripting inside a JSON file. </td>
-  <td><a href="./stars/testdouble/scripty.md">Jan 24, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/tobyzerner/json-api-models">tobyzerner/json-api-models</a><sup><sub> - TypeScript - Nov 19, 2019</sub></sup><br/><sup><sub>Tags: #json-api</sub></sup><br/>A lightweight layer for working with JSON:API data. </td>
-  <td><a href="./stars/tobyzerner/json-api-models.md">Jan 24, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/mongodb-js/zstd">mongodb-js/zstd</a><sup><sub> - JavaScript - Feb 23, 2022</sub></sup><br/><sup><sub>Tags: #compression #mongodb #node-js #nodejs #zstd</sub></sup><br/>A Zstd Compression Library. </td>
-  <td><a href="./stars/mongodb-js/zstd.md">Jan 24, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/andersondanilo/jsonapi-fractal">andersondanilo/jsonapi-fractal</a><sup><sub> - TypeScript - Apr 08, 2020</sub></sup><br/>JSON:API Serializer inspired by Fractal (PHP). </td>
-  <td><a href="./stars/andersondanilo/jsonapi-fractal.md">Jan 24, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/RenjiYuusei/CursorFocus">RenjiYuusei/CursorFocus</a><sup><sub> - Python - Jan 02, 2025</sub></sup><br/><sup><sub>Tags: #cursor #cursorfocus</sub></sup><br/>A lightweight tool that maintains a focused view of your project structure<br/>and environment. CursorFocus automatically tracks your project files,<br/>functions, and environment variables, updating every 60 seconds to keep you<br/>informed of changes. </td>
-  <td><a href="./stars/RenjiYuusei/CursorFocus.md">Jan 23, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/aws-cloudformation/aws-guard-rules-registry">aws-cloudformation/aws-guard-rules-registry</a><sup><sub> - Python - Nov 18, 2021</sub></sup><br/><sup><sub>Tags: #aws #cfn-guard #infrastructure-as-code #policy-as-code #static-application-security-testing</sub></sup><br/>Rules Registry for Compliance Frameworks. </td>
-  <td><a href="./stars/aws-cloudformation/aws-guard-rules-registry.md">Jan 22, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/imflamboyant/serverless-aws-chat">imflamboyant/serverless-aws-chat</a><sup><sub> - TypeScript - Dec 21, 2024</sub></sup></td>
-  <td><a href="./stars/imflamboyant/serverless-aws-chat.md">Jan 22, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/awsfundamentals-hq/aurora-dsql">awsfundamentals-hq/aurora-dsql</a><sup><sub> - TypeScript - Dec 11, 2024</sub></sup><br/><sup><sub>Tags: #aurora #aws #databases #drizzle-orm #dsql #lambda #newsletter</sub></sup><br/>💾 Aurora DSQL Serverless. </td>
-  <td><a href="./stars/awsfundamentals-hq/aurora-dsql.md">Jan 20, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/sam-goodwin/alchemy">sam-goodwin/alchemy</a><sup><sub> - TypeScript - Jan 17, 2025</sub></sup><br/>A minimal, embeddable, JS-native Infrastructure-as-Code library designed<br/>with gen-AI in mind. </td>
-  <td><a href="./stars/sam-goodwin/alchemy.md">Jan 20, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/aws-samples/example-permissions-boundary">aws-samples/example-permissions-boundary</a><sup><sub> - Jun 23, 2022</sub></sup><br/><sup><sub>Tags: #aws #cloud #iam #policy #security</sub></sup><br/>This repository contains a sample IAM permissions boundary as a starting<br/>point for creating your own permissions boundary to meet the security needs<br/>of your organization. The IAM permissions boundary sample, when attached<br/>to an IAM role, allow it to perform all expected workload tasks without<br/>being able to modify the security of its environment. </td>
-  <td><a href="./stars/aws-samples/example-permissions-boundary.md">Jan 20, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/PatrickJS/awesome-cursorrules">PatrickJS/awesome-cursorrules</a><sup><sub> - Sep 16, 2024</sub></sup><br/><sup><sub>Tags: #awesome #awesome-list #cursor #cursor-ai-editor #cursorrules</sub></sup><br/>📄 A curated list of awesome .cursorrules files. </td>
-  <td><a href="./stars/PatrickJS/awesome-cursorrules.md">Jan 20, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/awslabs/aws-saas-boost">awslabs/aws-saas-boost</a><sup><sub> - Java - Apr 12, 2021</sub></sup><br/>AWS SaaS Boost is a ready-to-use toolset that removes the complexity of<br/>successfully running SaaS workloads in the AWS cloud. </td>
-  <td><a href="./stars/awslabs/aws-saas-boost.md">Jan 19, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/shogo82148/cfn-mackerel-macro">shogo82148/cfn-mackerel-macro</a><sup><sub> - Go - Mar 05, 2019</sub></sup><br/><sup><sub>Tags: #cloudformation #mackerelio</sub></sup></td>
-  <td><a href="./stars/shogo82148/cfn-mackerel-macro.md">Jan 19, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/allenheltondev/aws-cross-account-lambda-authorizer">allenheltondev/aws-cross-account-lambda-authorizer</a><sup><sub> - Feb 09, 2021</sub></sup><br/>Example repository for how to implement a cross account lambda authorizer. </td>
-  <td><a href="./stars/allenheltondev/aws-cross-account-lambda-authorizer.md">Jan 19, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/pedsf1968/AWS-CloudFormation">pedsf1968/AWS-CloudFormation</a><sup><sub> - PowerShell - Aug 11, 2024</sub></sup><br/>CloudFormation templates samples. </td>
-  <td><a href="./stars/pedsf1968/AWS-CloudFormation.md">Jan 19, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/pagopa/openapi-codegen-ts">pagopa/openapi-codegen-ts</a><sup><sub> - TypeScript - Apr 20, 2018</sub></sup><br/><sup><sub>Tags: #digital-citizenship</sub></sup><br/>App IO - Utils. </td>
-  <td><a href="./stars/pagopa/openapi-codegen-ts.md">Jan 19, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/kwhitley/itty-chroma">kwhitley/itty-chroma</a><sup><sub> - TypeScript - Dec 14, 2024</sub></sup><br/>Ultra-tiny powerful styling for browser consoles. </td>
-  <td><a href="./stars/kwhitley/itty-chroma.md">Jan 19, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/zcaceres/markdownify-mcp">zcaceres/markdownify-mcp</a><sup><sub> - TypeScript - Dec 18, 2024</sub></sup><br/><sup><sub>Tags: #ai #anthropic #anthropic-ai #anthropic-claude #markdown #mcp #model-context-protocol #ocr #tools</sub></sup><br/>A Model Context Protocol server for converting almost anything to Markdown. </td>
-  <td><a href="./stars/zcaceres/markdownify-mcp.md">Jan 18, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/ataylorme/aws-cognito-oidc-github-oauth-cloudformation">ataylorme/aws-cognito-oidc-github-oauth-cloudformation</a><sup><sub> - TypeScript - Jun 21, 2024</sub></sup></td>
-  <td><a href="./stars/ataylorme/aws-cognito-oidc-github-oauth-cloudformation.md">Jan 18, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/Durgaprasad-Budhwani/cognito-openid-connectors">Durgaprasad-Budhwani/cognito-openid-connectors</a><sup><sub> - Go - Apr 14, 2021</sub></sup><br/>Small shim that allows AWS Cognito to talk to Open Id Connectors  (by<br/>providing an OpenID wrapper around the IDP API). </td>
-  <td><a href="./stars/Durgaprasad-Budhwani/cognito-openid-connectors.md">Jan 18, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/RomuloOliveira/commit-messages-guide">RomuloOliveira/commit-messages-guide</a><sup><sub> - Feb 25, 2018</sub></sup><br/>A guide to understand the importance of commit messages and how to write<br/>them well. </td>
-  <td><a href="./stars/RomuloOliveira/commit-messages-guide.md">Jan 18, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/mhlabs/schemas-cli">mhlabs/schemas-cli</a><sup><sub> - JavaScript - Jan 15, 2021</sub></sup><br/><sup><sub>Tags: #aws-tools #eventbridge #schema-registry</sub></sup><br/>CLI tool that lets you import OpenAPI definitions into Amazon EventBridge<br/>Schema registry. These schemas can then be used to generate code bindings<br/>in a variety of languages provided by quicktype.io. </td>
-  <td><a href="./stars/mhlabs/schemas-cli.md">Jan 18, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/mikaelvesavuori/acmecorp-microservices-webshop">mikaelvesavuori/acmecorp-microservices-webshop</a><sup><sub> - TypeScript - Jan 31, 2021</sub></sup><br/><sup><sub>Tags: #microservices-architecture #serverless #serverless-architectures #webshop-demo</sub></sup><br/>Demonstration of a microservice architecture handling a webshop, using<br/>Lambda + API Gateway, Aurora Serverless, and Eventbridge. </td>
-  <td><a href="./stars/mikaelvesavuori/acmecorp-microservices-webshop.md">Jan 18, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/mhlabs/evb-cli">mhlabs/evb-cli</a><sup><sub> - JavaScript - Dec 21, 2022</sub></sup><br/>Pattern generator and debugging tool for Amazon EventBridge. </td>
-  <td><a href="./stars/mhlabs/evb-cli.md">Jan 17, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/bridgecrewio/checkov">bridgecrewio/checkov</a><sup><sub> - Python - Nov 27, 2019</sub></sup><br/><sup><sub>Tags: #aws #aws-security #azure #cloudformation #compliance #devops #gcp #hacktoberfest #infrastructure-as-code #kubernetes<br/>#scans #static-analysis #terraform</sub></sup><br/>Prevent cloud misconfigurations and find vulnerabilities during build-time<br/>in infrastructure as code, container images and open source packages with<br/>Checkov by Bridgecrew. </td>
-  <td><a href="./stars/bridgecrewio/checkov.md">Jan 17, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/modelcontextprotocol/servers">modelcontextprotocol/servers</a><sup><sub> - JavaScript - Nov 19, 2024</sub></sup><br/>Model Context Protocol Servers. </td>
-  <td><a href="./stars/modelcontextprotocol/servers.md">Jan 17, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/arjunmehta/multiview">arjunmehta/multiview</a><sup><sub> - JavaScript - Jun 12, 2014</sub></sup><br/>Spawn multiple processes and channel their outputs into separate little<br/>column views. </td>
-  <td><a href="./stars/arjunmehta/multiview.md">Jan 17, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/awslabs/serverless-rules">awslabs/serverless-rules</a><sup><sub> - Go - Mar 01, 2021</sub></sup><br/><sup><sub>Tags: #cfn-lint #cloudformation #serverless #serverless-rules #terraform #tflint</sub></sup><br/>Compilation of rules to validate infrastructure-as-code templates against<br/>recommended practices for serverless applications. </td>
-  <td><a href="./stars/awslabs/serverless-rules.md">Jan 17, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/rehanvdm/pets-backend-v2">rehanvdm/pets-backend-v2</a><sup><sub> - TypeScript - Aug 11, 2023</sub></sup><br/><sup><sub>Tags: #aws #cdk #lambda #trpc</sub></sup><br/>How to create a tRPC server on AWS Lambda exporting an OpenAPI SDK to be<br/>used by the frontend. </td>
-  <td><a href="./stars/rehanvdm/pets-backend-v2.md">Jan 17, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/open-telemetry/community">open-telemetry/community</a><sup><sub> - Python - May 02, 2019</sub></sup><br/><sup><sub>Tags: #cncf #community #opentelemetry</sub></sup><br/>OpenTelemetry community content. </td>
-  <td><a href="./stars/open-telemetry/community.md">Jan 17, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/larsgw/sync-fetch">larsgw/sync-fetch</a><sup><sub> - JavaScript - Aug 15, 2019</sub></sup><br/>Synchronous wrapper around the Fetch API. </td>
-  <td><a href="./stars/larsgw/sync-fetch.md">Jan 17, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/brussell98/discord-markdown">brussell98/discord-markdown</a><sup><sub> - JavaScript - Nov 11, 2017</sub></sup><br/>A markdown parser with the same rules as Discord. </td>
-  <td><a href="./stars/brussell98/discord-markdown.md">Jan 17, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/sindresorhus/p-throttle">sindresorhus/p-throttle</a><sup><sub> - JavaScript - Oct 21, 2016</sub></sup><br/>Throttle promise-returning &amp; async functions. </td>
-  <td><a href="./stars/sindresorhus/p-throttle.md">Jan 17, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/mmarkdown/mmark">mmarkdown/mmark</a><sup><sub> - Go - Jul 30, 2018</sub></sup><br/><sup><sub>Tags: #go #html5 #ietf #markdown #mmark #nroff #xml #xml2rfc</sub></sup><br/>Mmark: a powerful markdown processor in Go geared towards the IETF. </td>
-  <td><a href="./stars/mmarkdown/mmark.md">Jan 17, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/ultrayellow/La-Seine">ultrayellow/La-Seine</a><sup><sub> - TypeScript - Mar 30, 2023</sub></sup><br/><sup><sub>Tags: #42 #42born2code #42school #api #rate-limiting #typescript</sub></sup><br/>simple ft api request library written in typescript. </td>
-  <td><a href="./stars/ultrayellow/La-Seine.md">Jan 17, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/remusao/tldts">remusao/tldts</a><sup><sub> - TypeScript - Jul 18, 2017</sub></sup><br/><sup><sub>Tags: #domain #javascript #public-suffix-list #tld #typescript #uri #url #url-parsing</sub></sup><br/>JavaScript Library to extract domains, subdomains and public suffixes from<br/>complex URIs. </td>
-  <td><a href="./stars/remusao/tldts.md">Jan 17, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/unjs/ohash">unjs/ohash</a><sup><sub> - TypeScript - Oct 18, 2021</sub></sup><br/>#️Simple object hashing, serialization and comparison utils. </td>
-  <td><a href="./stars/unjs/ohash.md">Jan 17, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/fregante/abort-utils">fregante/abort-utils</a><sup><sub> - TypeScript - Dec 29, 2023</sub></sup><br/>Utility functions to use and combine `AbortSignal` and `AbortController`<br/>with Promises. </td>
-  <td><a href="./stars/fregante/abort-utils.md">Jan 17, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/auth0-lab/a0-components">auth0-lab/a0-components</a><sup><sub> - TypeScript - Mar 08, 2024</sub></sup></td>
-  <td><a href="./stars/auth0-lab/a0-components.md">Jan 17, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/bloomberg/stricli">bloomberg/stricli</a><sup><sub> - TypeScript - Sep 23, 2024</sub></sup><br/><sup><sub>Tags: #cli #javascript #typescript</sub></sup><br/>Build complex CLIs with type safety and no dependencies. </td>
-  <td><a href="./stars/bloomberg/stricli.md">Jan 17, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/protomaps/PMTiles">protomaps/PMTiles</a><sup><sub> - TypeScript - Feb 16, 2021</sub></sup><br/><sup><sub>Tags: #pmtiles #serverless</sub></sup><br/>Pyramids of map tiles in a single file on static storage. </td>
-  <td><a href="./stars/protomaps/PMTiles.md">Jan 17, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/sobolevn/git-secret">sobolevn/git-secret</a><sup><sub> - Shell - Feb 15, 2016</sub></sup><br/><sup><sub>Tags: #encryption #git #git-addons #git-secret #gpg #secret-management</sub></sup><br/>:busts_in_silhouette: A bash-tool to store your private data inside a git<br/>repository. </td>
-  <td><a href="./stars/sobolevn/git-secret.md">Jan 17, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/mohammed-bahumaish/prisma-editor">mohammed-bahumaish/prisma-editor</a><sup><sub> - TypeScript - Jan 24, 2023</sub></sup><br/><sup><sub>Tags: #cockroachdb #database #editor #erdiagram #mongodb #mysql #nextjs #postgersql #prisma #prisma-schema<br/>#schema</sub></sup><br/>Prisma Editor - A powerful tool to visualize and edit Prisma Schema. </td>
-  <td><a href="./stars/mohammed-bahumaish/prisma-editor.md">Jan 17, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/tconbeer/harlequin">tconbeer/harlequin</a><sup><sub> - Python - May 02, 2023</sub></sup><br/>The SQL IDE for Your Terminal. </td>
-  <td><a href="./stars/tconbeer/harlequin.md">Jan 16, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/planetscale/schemadiff">planetscale/schemadiff</a><sup><sub> - Go - Jul 05, 2023</sub></sup><br/>Declarative schema diffing, normalization, validation and manipulation via<br/>command line. </td>
-  <td><a href="./stars/planetscale/schemadiff.md">Jan 16, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/chartdb/chartdb">chartdb/chartdb</a><sup><sub> - TypeScript - Aug 05, 2024</sub></sup><br/><sup><sub>Tags: #database #db #db-migration #editor #erd #mariadb #mssql #mysql #postgresql #react #react-flow #schema-migrations #sql<br/>#sqlite #typescript #visualization #xyflow</sub></sup><br/>Database diagrams editor that allows you to visualize and design your DB<br/>with a single query. </td>
-  <td><a href="./stars/chartdb/chartdb.md">Jan 16, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/sqlhabit/sql_schema_visualizer">sqlhabit/sql_schema_visualizer</a><sup><sub> - TypeScript - Jan 15, 2023</sub></sup><br/><sup><sub>Tags: #db-schema #graph #react #sql #typescript #visualization</sub></sup><br/>SQL schema visualisation built with ReactFlow. </td>
-  <td><a href="./stars/sqlhabit/sql_schema_visualizer.md">Jan 16, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/PromtEngineer/localGPT">PromtEngineer/localGPT</a><sup><sub> - Python - May 24, 2023</sub></sup><br/>Chat with your documents on your local device using GPT models. No data<br/>leaves your device and 100% private. </td>
-  <td><a href="./stars/PromtEngineer/localGPT.md">Jan 16, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/bboure/aws-account-vending-machine-demo">bboure/aws-account-vending-machine-demo</a><sup><sub> - TypeScript - Jan 04, 2025</sub></sup></td>
-  <td><a href="./stars/bboure/aws-account-vending-machine-demo.md">Jan 16, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/sam-goodwin/scoop">sam-goodwin/scoop</a><sup><sub> - TypeScript - Jan 15, 2025</sub></sup><br/>Scoop, Dump, Generate. </td>
-  <td><a href="./stars/sam-goodwin/scoop.md">Jan 16, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/jupierce/aws-s3-web-browser-file-listing">jupierce/aws-s3-web-browser-file-listing</a><sup><sub> - Python - Nov 26, 2022</sub></sup><br/>Make any s3 bucket browsable with a web browser. Dynamic listings with no<br/>server component. Optionally protect areas of the bucket with basic auth. </td>
-  <td><a href="./stars/jupierce/aws-s3-web-browser-file-listing.md">Jan 16, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/paulshestakov/aws-step-functions-constructor">paulshestakov/aws-step-functions-constructor</a><sup><sub> - TypeScript - Oct 19, 2018</sub></sup><br/><sup><sub>Tags: #aws #step-functions #vscode #vscode-extension</sub></sup><br/>VSCode extension to visualize AWS step functions. </td>
-  <td><a href="./stars/paulshestakov/aws-step-functions-constructor.md">Jan 15, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/common-fate/granted">common-fate/granted</a><sup><sub> - Go - Feb 14, 2022</sub></sup><br/><sup><sub>Tags: #aws #cloud #cloud-security #credentials #hacktoberfest #iam #keychain #sso</sub></sup><br/>The easiest way to access your cloud. </td>
-  <td><a href="./stars/common-fate/granted.md">Jan 15, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/DZakh/rescript-schema">DZakh/rescript-schema</a><sup><sub> - ReScript - Mar 19, 2022</sub></sup><br/><sup><sub>Tags: #ajv #contract #json #parse #rescript #schema #struct #ts #typescript #typescript-library #valibot #zod</sub></sup><br/>🧬 The fastest parser in the entire JavaScript ecosystem with a focus on<br/>small bundle size and top-notch DX. </td>
-  <td><a href="./stars/DZakh/rescript-schema.md">Jan 15, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/rehanvdm/ajv-standalone-type-saftey">rehanvdm/ajv-standalone-type-saftey</a><sup><sub> - JavaScript - Dec 29, 2021</sub></sup><br/><sup><sub>Tags: #ajv #runtime #types #typescript #validation</sub></sup><br/>TypeScript does a great job at compile time type safety, but we still need<br/>to do runtime checks just like in JavaScript. There are many packages and<br/>tools to help with this, we focused on AJV Standalone that outputs JS<br/>validation functions at compile time to be used at runtime. Going from TS<br/>Types to JSON Schema to JS functions allows us to validate TS Types where<br/>the other packages all work with classes and reflection. </td>
-  <td><a href="./stars/rehanvdm/ajv-standalone-type-saftey.md">Jan 15, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/koshikawa/serverless-better-credentials-4">koshikawa/serverless-better-credentials-4</a><sup><sub> - TypeScript - Dec 18, 2024</sub></sup><br/>serverless-better-credentials for serverless framework version 4. </td>
-  <td><a href="./stars/koshikawa/serverless-better-credentials-4.md">Jan 15, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/gs-gs/github-idp">gs-gs/github-idp</a><sup><sub> - JavaScript - Dec 18, 2020</sub></sup><br/>GitHub identity provider. </td>
-  <td><a href="./stars/gs-gs/github-idp.md">Jan 15, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/stackql/aws-cfn-schema-to-openapi">stackql/aws-cfn-schema-to-openapi</a><sup><sub> - JavaScript - Mar 25, 2023</sub></sup></td>
-  <td><a href="./stars/stackql/aws-cfn-schema-to-openapi.md">Jan 14, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/aws-cloudformation/cloudformation-cli">aws-cloudformation/cloudformation-cli</a><sup><sub> - Python - Aug 07, 2018</sub></sup><br/><sup><sub>Tags: #aws #aws-cloudformation #cloudformation</sub></sup><br/>The CloudFormation Provider Development Toolkit allows you to author your<br/>own resource providers and modules that can be used by CloudFormation. </td>
-  <td><a href="./stars/aws-cloudformation/cloudformation-cli.md">Jan 14, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/masudur-rahman-niloy/social-signin">masudur-rahman-niloy/social-signin</a><sup><sub> - Python - Jul 17, 2021</sub></sup></td>
-  <td><a href="./stars/masudur-rahman-niloy/social-signin.md">Jan 14, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/thousandeyes/scrumretro">thousandeyes/scrumretro</a><sup><sub> - TypeScript - Jun 21, 2021</sub></sup><br/><sup><sub>Tags: #engineering</sub></sup></td>
-  <td><a href="./stars/thousandeyes/scrumretro.md">Jan 14, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/barelyhuman/uvu-inline-snapshot">barelyhuman/uvu-inline-snapshot</a><sup><sub> - JavaScript - Oct 02, 2023</sub></sup><br/><sup><sub>Tags: #inline #snapshot #snapshot-testing #testing #uvu</sub></sup><br/>Minimal Inline Snapshot utility for uvu/assert http://github.com/lukeed/uvu. </td>
-  <td><a href="./stars/barelyhuman/uvu-inline-snapshot.md">Jan 14, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/campsite/campsite">campsite/campsite</a><sup><sub> - TypeScript - Dec 06, 2024</sub></sup><br/>The Campsite monorepo. </td>
-  <td><a href="./stars/campsite/campsite.md">Jan 14, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/mikaelvesavuori/aws-metadata-utils">mikaelvesavuori/aws-metadata-utils</a><sup><sub> - TypeScript - Nov 11, 2022</sub></sup><br/><sup><sub>Tags: #aws #metadata #serverless</sub></sup><br/>Small utility library that helps you extract helpful metadata from your AWS<br/>event and context objects. </td>
-  <td><a href="./stars/mikaelvesavuori/aws-metadata-utils.md">Jan 14, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/mikaelvesavuori/aws-wellarchitected-review-collector">mikaelvesavuori/aws-wellarchitected-review-collector</a><sup><sub> - TypeScript - May 18, 2023</sub></sup><br/><sup><sub>Tags: #architecture-review #aws #aws-review #review #wa-tool #well-architected #well-architected-tool<br/>#wellarchitected</sub></sup><br/>Collect high-level AWS Well-Architected review data for a workload. </td>
-  <td><a href="./stars/mikaelvesavuori/aws-wellarchitected-review-collector.md">Jan 14, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/mikaelvesavuori/slack-devex-survey">mikaelvesavuori/slack-devex-survey</a><sup><sub> - TypeScript - Jun 28, 2023</sub></sup><br/><sup><sub>Tags: #aws #developer-experience #devex #dx #serverless #slack #survey #surveys</sub></sup><br/>Box-ready serverless solution to run developer experience surveys on a<br/>scheduled (or one-off!) cadence. </td>
-  <td><a href="./stars/mikaelvesavuori/slack-devex-survey.md">Jan 14, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/mikaelvesavuori/aws-serverless-outbox-demo">mikaelvesavuori/aws-serverless-outbox-demo</a><sup><sub> - TypeScript - Jun 16, 2023</sub></sup><br/><sup><sub>Tags: #architecture-patterns #aws #demo #demonstration #dynamodb-outbox #eventbridge #lambda #outbox #serverless</sub></sup><br/>Demonstration of the outbox pattern with Lambda, DynamoDB, and EventBridge. </td>
-  <td><a href="./stars/mikaelvesavuori/aws-serverless-outbox-demo.md">Jan 14, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/mikaelvesavuori/triplecheck-core">mikaelvesavuori/triplecheck-core</a><sup><sub> - HTML - Apr 24, 2021</sub></sup><br/>Core contracts and utilities for TripleCheck. </td>
-  <td><a href="./stars/mikaelvesavuori/triplecheck-core.md">Jan 14, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/mikaelvesavuori/cloud-sla">mikaelvesavuori/cloud-sla</a><sup><sub> - Shell - Apr 24, 2022</sub></sup><br/><sup><sub>Tags: #cloud-sla #sla #sla-values</sub></sup><br/>A collection of cloud providers&#039; SLA values in JSON format for all of<br/>their SLA-bearing services. </td>
-  <td><a href="./stars/mikaelvesavuori/cloud-sla.md">Jan 14, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/mikaelvesavuori/archfit">mikaelvesavuori/archfit</a><sup><sub> - TypeScript - Aug 16, 2023</sub></sup><br/><sup><sub>Tags: #architecture #architecture-tests #aws #evolutionary-architecture #fitness-functions #software-architecture<br/>#testing</sub></sup><br/>Validate the fitness of your AWS solutions, without the heavy lifting!. </td>
-  <td><a href="./stars/mikaelvesavuori/archfit.md">Jan 14, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/mikaelvesavuori/bedrock-rag-demo">mikaelvesavuori/bedrock-rag-demo</a><sup><sub> - TypeScript - Oct 25, 2023</sub></sup><br/><sup><sub>Tags: #ai #amazon #aws #bedrock #demo #document-chat #lambda #ml #rag #retrieval-augmented-generation #serverless</sub></sup><br/>RAG document chat with Amazon Bedrock using Typescript on Lambda. </td>
-  <td><a href="./stars/mikaelvesavuori/bedrock-rag-demo.md">Jan 14, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/mikaelvesavuori/chatgpt-architecture-coach">mikaelvesavuori/chatgpt-architecture-coach</a><sup><sub> - Jul 02, 2023</sub></sup><br/><sup><sub>Tags: #architecture #chatgpt #chatgpt-prompt #chatgpt-prompts #prompt #prompts #software-architecture</sub></sup><br/>This is my collection of helpful priming prompts for ChatGPT when<br/>discussing various angles of software development and architecture. </td>
-  <td><a href="./stars/mikaelvesavuori/chatgpt-architecture-coach.md">Jan 14, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/mikaelvesavuori/aws-performance-testing-starter">mikaelvesavuori/aws-performance-testing-starter</a><sup><sub> - Shell - Dec 03, 2023</sub></sup><br/><sup><sub>Tags: #aws #aws-testing #k6 #load-testing #performance-testing #testing</sub></sup><br/>This is a basic starting point for conducting performance testing on AWS. </td>
-  <td><a href="./stars/mikaelvesavuori/aws-performance-testing-starter.md">Jan 14, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/mikaelvesavuori/ddbitemsizer">mikaelvesavuori/ddbitemsizer</a><sup><sub> - TypeScript - Dec 10, 2023</sub></sup><br/><sup><sub>Tags: #aws #ddb #dynamo #dynamodb #dynamodb-utils</sub></sup><br/>Get the byte size of your DynamoDB input. </td>
-  <td><a href="./stars/mikaelvesavuori/ddbitemsizer.md">Jan 14, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/mikaelvesavuori/minion">mikaelvesavuori/minion</a><sup><sub> - Shell - Aug 27, 2023</sub></sup><br/><sup><sub>Tags: #ai #ai-developer-tools #chatgpt #cli #developer-tools #diagramming #llm #openai #openai-api<br/>#test-generation</sub></sup><br/>The easiest and most lightweight way for developers to use OpenAI APIs in a<br/>CLI. </td>
-  <td><a href="./stars/mikaelvesavuori/minion.md">Jan 14, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/mikaelvesavuori/microservices-testing-workshop">mikaelvesavuori/microservices-testing-workshop</a><sup><sub> - TypeScript - Feb 14, 2021</sub></sup><br/><sup><sub>Tags: #microservices-testing #serverless #serverless-architectures #webshop</sub></sup><br/>Demonstrates a number of testing types and patterns that should be helpful<br/>in testing distributed microservice architectures. </td>
-  <td><a href="./stars/mikaelvesavuori/microservices-testing-workshop.md">Jan 14, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/mikaelvesavuori/catalogist">mikaelvesavuori/catalogist</a><sup><sub> - TypeScript - Jan 12, 2022</sub></sup><br/><sup><sub>Tags: #discoverability #discovery #discovery-service #observability #service-catalog #service-landscape #software-catalog<br/>#software-discovery #software-landscape #software-observability</sub></sup><br/>Catalogist is the easy way to catalog and make your software and (micro)<br/>services visible to your organization in a lightweight and<br/>developer-friendly way. </td>
-  <td><a href="./stars/mikaelvesavuori/catalogist.md">Jan 14, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/mikaelvesavuori/dorametrix">mikaelvesavuori/dorametrix</a><sup><sub> - TypeScript - Feb 11, 2022</sub></sup><br/><sup><sub>Tags: #devops #dora #dora-metrics #dorametrix #engops #metrics #software-delivery</sub></sup><br/>Dorametrix is a serverless web service that helps you calculate your DORA<br/>metrics, by inferring your metrics from events you create with webhooks (or<br/>manually!). </td>
-  <td><a href="./stars/mikaelvesavuori/dorametrix.md">Jan 14, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/mikaelvesavuori/gitmetrix">mikaelvesavuori/gitmetrix</a><sup><sub> - TypeScript - Dec 30, 2022</sub></sup><br/><sup><sub>Tags: #devops #engineering-metrics #engops #git-metrics #gitmetrix #metrics #software-delivery</sub></sup><br/>Helps you find your team-level engineering metrics. </td>
-  <td><a href="./stars/mikaelvesavuori/gitmetrix.md">Jan 14, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/mikaelvesavuori/triplecheck-example-lambda">mikaelvesavuori/triplecheck-example-lambda</a><sup><sub> - TypeScript - May 15, 2021</sub></sup><br/><sup><sub>Tags: #consumer-contracts #consumer-driven-contracts #contract-testing #pacts #triplecheck</sub></sup><br/>TripleCheck broker running on AWS Lambda and DynamoDB. </td>
-  <td><a href="./stars/mikaelvesavuori/triplecheck-example-lambda.md">Jan 14, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/mikaelvesavuori/samaid">mikaelvesavuori/samaid</a><sup><sub> - TypeScript - Jan 13, 2025</sub></sup><br/><sup><sub>Tags: #aws #aws-sam #diagram-generation #mermaid #mermaid-diagrams #sam</sub></sup><br/>🪄 Magically transform AWS SAM templates to Mermaid diagrams 🪄. </td>
-  <td><a href="./stars/mikaelvesavuori/samaid.md">Jan 14, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/mikaelvesavuori/get-a-room-ddd-example">mikaelvesavuori/get-a-room-ddd-example</a><sup><sub> - TypeScript - Sep 28, 2022</sub></sup><br/><sup><sub>Tags: #aws #clean-architecture #ddd #ddd-example #example #serverless #typescript</sub></sup><br/>Get-A-Room example application using Domain Driven Design and Clean<br/>Architecture. Written in TypeScript and deployed to AWS with a serverless<br/>stack. </td>
-  <td><a href="./stars/mikaelvesavuori/get-a-room-ddd-example.md">Jan 14, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/mikaelvesavuori/mikrometric">mikaelvesavuori/mikrometric</a><sup><sub> - TypeScript - Oct 23, 2022</sub></sup><br/><sup><sub>Tags: #aws #aws-emf #embedded-metric-format #metric-logger #metrics #minimal #serverless</sub></sup><br/>MikroMetric is a Lambda-oriented lightweight wrapper for producing AWS<br/>CloudWatch Embedded Metric Format-compatible metric logs. </td>
-  <td><a href="./stars/mikaelvesavuori/mikrometric.md">Jan 14, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/Rich-Harris/headless-qr">Rich-Harris/headless-qr</a><sup><sub> - JavaScript - Apr 18, 2023</sub></sup><br/>A simple, modern QR code library. </td>
-  <td><a href="./stars/Rich-Harris/headless-qr.md">Jan 14, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/aws/aws-sam-cli-app-templates">aws/aws-sam-cli-app-templates</a><sup><sub> - Python - Sep 27, 2019</sub></sup></td>
-  <td><a href="./stars/aws/aws-sam-cli-app-templates.md">Jan 14, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/solvi-ab/s3-multipart">solvi-ab/s3-multipart</a><sup><sub> - JavaScript - Oct 08, 2019</sub></sup><br/>Easy multipart uploads to S3 from the browser. </td>
-  <td><a href="./stars/solvi-ab/s3-multipart.md">Jan 14, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/JamesKyburz/aws-lambda-ws-server">JamesKyburz/aws-lambda-ws-server</a><sup><sub> - JavaScript - Jan 09, 2019</sub></sup><br/><sup><sub>Tags: #apigateway #aws #lambda #websocket #ws</sub></sup><br/>aws lambda websocket server. </td>
-  <td><a href="./stars/JamesKyburz/aws-lambda-ws-server.md">Jan 14, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/JamesKyburz/dynamodb-logs">JamesKyburz/dynamodb-logs</a><sup><sub> - JavaScript - Jan 08, 2021</sub></sup><br/><sup><sub>Tags: #append-only #aws #aws-lambda #aws-lambda-node #aws-lambda-python #dynamodb #dynamodb-streams #event-sourcing<br/>#eventbridge #eventlog #lambda #pubsub #serverless</sub></sup><br/>sample repo to use dynamodb with append only logs. </td>
-  <td><a href="./stars/JamesKyburz/dynamodb-logs.md">Jan 14, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/aws-samples/serverless-patterns">aws-samples/serverless-patterns</a><sup><sub> - Python - Feb 12, 2021</sub></sup><br/><sup><sub>Tags: #aws #awssam #serverless</sub></sup><br/>Serverless patterns. Learn more at the website: https://serverlessland.<br/>com/patterns. </td>
-  <td><a href="./stars/aws-samples/serverless-patterns.md">Jan 14, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/gristlabs/yaml-cfn">gristlabs/yaml-cfn</a><sup><sub> - JavaScript - Oct 20, 2017</sub></sup><br/>Parser and schema for CloudFormation YAML templates. </td>
-  <td><a href="./stars/gristlabs/yaml-cfn.md">Jan 14, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/starterstack/starterstack">starterstack/starterstack</a><sup><sub> - JavaScript - Nov 29, 2023</sub></sup><br/>A Serverless monorepo Template architecture. </td>
-  <td><a href="./stars/starterstack/starterstack.md">Jan 14, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/while-true/wt-dev-cloudfront-private-access">while-true/wt-dev-cloudfront-private-access</a><sup><sub> - TypeScript - Jul 02, 2024</sub></sup></td>
-  <td><a href="./stars/while-true/wt-dev-cloudfront-private-access.md">Jan 13, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/awslabs/aws-crt-nodejs">awslabs/aws-crt-nodejs</a><sup><sub> - TypeScript - Nov 15, 2018</sub></sup><br/><sup><sub>Tags: #hacktoberfest</sub></sup><br/>NodeJS bindings for the AWS Common Runtime. </td>
-  <td><a href="./stars/awslabs/aws-crt-nodejs.md">Jan 13, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/sivaprasadreddy/software-architecture-premier">sivaprasadreddy/software-architecture-premier</a><sup><sub> - Aug 17, 2024</sub></sup><br/>Software Architecture Premier Presentation. </td>
-  <td><a href="./stars/sivaprasadreddy/software-architecture-premier.md">Jan 13, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/egoist/typed-search">egoist/typed-search</a><sup><sub> - TypeScript - Jan 11, 2025</sub></sup><br/>Super simple type-safe URLSearchParams parser. </td>
-  <td><a href="./stars/egoist/typed-search.md">Jan 11, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/aws-cloudformation/rain">aws-cloudformation/rain</a><sup><sub> - Go - May 09, 2019</sub></sup><br/>A development workflow tool for working with AWS CloudFormation. </td>
-  <td><a href="./stars/aws-cloudformation/rain.md">Jan 10, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/yahoo/ariel">yahoo/ariel</a><sup><sub> - Python - Jun 12, 2019</sub></sup><br/>Ariel is an AWS Lambda designed to collect, analyze, and make<br/>recommendations about Reserved Instances for EC2. </td>
-  <td><a href="./stars/yahoo/ariel.md">Jan 10, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/yeahhub/Hacking-Security-Ebooks">yeahhub/Hacking-Security-Ebooks</a><sup><sub> - Nov 25, 2018</sub></sup><br/><sup><sub>Tags: #books #ebooks #hacking #hacking-security-ebooks #kali-linux #penetration-testing #security</sub></sup><br/>Top 100 Hacking &amp; Security E-Books (Free Download). </td>
-  <td><a href="./stars/yeahhub/Hacking-Security-Ebooks.md">Jan 10, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/lmammino/s3st">lmammino/s3st</a><sup><sub> - JavaScript - Apr 26, 2019</sub></sup><br/><sup><sub>Tags: #aws #cloudtrail #command-line #logs #s3 #s3-bucket #s3-storage #streams</sub></sup><br/>A command line utility that allows you to stream data from multiple S3<br/>objects directly into your terminal. </td>
-  <td><a href="./stars/lmammino/s3st.md">Jan 10, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/salesforce/policy_sentry">salesforce/policy_sentry</a><sup><sub> - Python - Sep 19, 2019</sub></sup><br/><sup><sub>Tags: #aws #aws-security #cloud #cloudsecurity #hacktoberfest #iam #iam-policy #salesforce #security</sub></sup><br/>IAM Least Privilege Policy Generator. </td>
-  <td><a href="./stars/salesforce/policy_sentry.md">Jan 10, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/nsriram/lambda-the-cli-way">nsriram/lambda-the-cli-way</a><sup><sub> - Markdown - Sep 11, 2019</sub></sup><br/><sup><sub>Tags: #aws #aws-cli #aws-lambda #cookbook #tutorial</sub></sup><br/>AWS Lambda using CLI, an introductory cookbook. </td>
-  <td><a href="./stars/nsriram/lambda-the-cli-way.md">Jan 10, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/openlayers/openlayers">openlayers/openlayers</a><sup><sub> - JavaScript - Jun 20, 2012</sub></sup><br/><sup><sub>Tags: #javascript #maps #openlayers</sub></sup><br/>OpenLayers. </td>
-  <td><a href="./stars/openlayers/openlayers.md">Jan 10, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/sa7mon/S3Scanner">sa7mon/S3Scanner</a><sup><sub> - Go - Jun 19, 2017</sub></sup><br/><sup><sub>Tags: #aws #bugbounty #gcp #infosec #s3 #s3scanner</sub></sup><br/>Scan for misconfigured S3 buckets across S3-compatible APIs!. </td>
-  <td><a href="./stars/sa7mon/S3Scanner.md">Jan 10, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/sinclairzx81/threadbox">sinclairzx81/threadbox</a><sup><sub> - TypeScript - Mar 08, 2020</sub></sup><br/><sup><sub>Tags: #atomics #channels #nodejs #parallelism #shared-array-buffer #worker-threads</sub></sup><br/>Recursive Worker Threads in NodeJS. </td>
-  <td><a href="./stars/sinclairzx81/threadbox.md">Jan 10, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/nodejs/changelog-maker">nodejs/changelog-maker</a><sup><sub> - JavaScript - Feb 18, 2015</sub></sup><br/><sup><sub>Tags: #node #nodejs</sub></sup><br/>A git log to CHANGELOG.md tool. </td>
-  <td><a href="./stars/nodejs/changelog-maker.md">Jan 10, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/V33RU/IoTSecurity101">V33RU/IoTSecurity101</a><sup><sub> - May 18, 2018</sub></sup><br/><sup><sub>Tags: #awesome #awesome-iot #awesome-list #awesome-lists #embedded-devices #firmware #firmware-pentesting #hardware<br/>#hardware-hacking #iot #iot-device #iot-security #linux #pentesting-guides #radio</sub></sup><br/>A Curated list of IoT Security Resources. </td>
-  <td><a href="./stars/V33RU/IoTSecurity101.md">Jan 10, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/rbren/rss-parser">rbren/rss-parser</a><sup><sub> - JavaScript - Nov 13, 2015</sub></sup><br/><sup><sub>Tags: #json #nodejs #rss #rss-feed #rss-parser #rss-reader #xml</sub></sup><br/>A lightweight RSS parser, for Node and the browser. </td>
-  <td><a href="./stars/rbren/rss-parser.md">Jan 10, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/phuocng/1loc">phuocng/1loc</a><sup><sub> - MDX - Mar 29, 2020</sub></sup><br/><sup><sub>Tags: #eleventy #javascript #javascript-utils #js-tips #one-line-code #one-liner #tips-and-tricks</sub></sup><br/>What&#039;s your favorite JavaScript single LOC (line of code)?. </td>
-  <td><a href="./stars/phuocng/1loc.md">Jan 10, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/freedmand/stepfunction-visualizer">freedmand/stepfunction-visualizer</a><sup><sub> - TypeScript - Jan 17, 2022</sub></sup><br/>A toolkit to debug and visualize local AWS step functions. </td>
-  <td><a href="./stars/freedmand/stepfunction-visualizer.md">Jan 09, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/robhogan/dynamodb-geo.js">robhogan/dynamodb-geo.js</a><sup><sub> - TypeScript - Mar 11, 2017</sub></sup><br/><sup><sub>Tags: #dynamodb #geo-library #geospatial-data #nodejs #typescript</sub></sup><br/>A node-friendly typescript port of https://github.com/awslabs/dynamodb-geo. </td>
-  <td><a href="./stars/robhogan/dynamodb-geo.js.md">Jan 09, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/allenheltondev/dynamodb-geosearch">allenheltondev/dynamodb-geosearch</a><sup><sub> - JavaScript - Mar 09, 2020</sub></sup><br/>Proof of Concept building a geosearching tool using DynamoDB and free, open<br/>source tools. </td>
-  <td><a href="./stars/allenheltondev/dynamodb-geosearch.md">Jan 09, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/allenheltondev/api-spec-to-api-destinations">allenheltondev/api-spec-to-api-destinations</a><sup><sub> - JavaScript - Aug 31, 2023</sub></sup><br/>Automatically convert API specs to invokable EventBridge API destinations. </td>
-  <td><a href="./stars/allenheltondev/api-spec-to-api-destinations.md">Jan 09, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/readysetcloud/newsletter-service">readysetcloud/newsletter-service</a><sup><sub> - JavaScript - May 21, 2024</sub></sup><br/>A serverless newsletter service that powers Serverless Picks of the Week.<br/>Uses SendGrid for emails. </td>
-  <td><a href="./stars/readysetcloud/newsletter-service.md">Jan 09, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/readysetcloud/social-media-scheduler">readysetcloud/social-media-scheduler</a><sup><sub> - JavaScript - Oct 23, 2023</sub></sup><br/>Schedule social media posts with AWS EventBridge. </td>
-  <td><a href="./stars/readysetcloud/social-media-scheduler.md">Jan 09, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/readysetcloud/blog-service">readysetcloud/blog-service</a><sup><sub> - JavaScript - May 26, 2024</sub></sup><br/>Service to mange cross-posting of blogs. </td>
-  <td><a href="./stars/readysetcloud/blog-service.md">Jan 09, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/zoph-io/url-shortener">zoph-io/url-shortener</a><sup><sub> - Python - Jun 27, 2022</sub></sup><br/><sup><sub>Tags: #aws #serverless #url-shortener</sub></sup><br/>serverless url-shortener. </td>
-  <td><a href="./stars/zoph-io/url-shortener.md">Jan 09, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/zoph-io/serverless-aws-https-webredirect">zoph-io/serverless-aws-https-webredirect</a><sup><sub> - Makefile - Nov 09, 2021</sub></sup><br/><sup><sub>Tags: #cloudformation #https #redirect #serverless #url #urlredirector</sub></sup><br/>Serverless AWS HTTPS Webredirect. </td>
-  <td><a href="./stars/zoph-io/serverless-aws-https-webredirect.md">Jan 09, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/andrei-demidov/django-sqlite-efs">andrei-demidov/django-sqlite-efs</a><sup><sub> - Python - Sep 09, 2024</sub></sup><br/><sup><sub>Tags: #aws-efs #aws-lambda #aws-lambda-python #django #django-database #django-sqlite #django-sqlite3 #dynamodb #efs<br/>#elasticfilesystem #lambda #serverless #sqlite #sqlite3</sub></sup><br/>Django database backend for SQLite on Amazon EFS. </td>
-  <td><a href="./stars/andrei-demidov/django-sqlite-efs.md">Jan 08, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/andrei-demidov/aws-iac-cdn-multi-region-poc">andrei-demidov/aws-iac-cdn-multi-region-poc</a><sup><sub> - Dec 04, 2024</sub></sup><br/><sup><sub>Tags: #cdn #cloudformation #cloudfront #cloudfront-functions #content-delivery #content-delivery-network #iac #javascript<br/>#multi-region #multi-region-architecture #s3</sub></sup><br/>Multi-region CDN architecture with CloudFront Functions. </td>
-  <td><a href="./stars/andrei-demidov/aws-iac-cdn-multi-region-poc.md">Jan 08, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/terjanq/Tiny-XSS-Payloads">terjanq/Tiny-XSS-Payloads</a><sup><sub> - JavaScript - Jul 09, 2020</sub></sup><br/><sup><sub>Tags: #bugbounty #ctf #html #javascript #payloads #xss</sub></sup><br/>A collection of tiny XSS Payloads that can be used in different contexts.<br/>https://tinyxss.terjanq.me. </td>
-  <td><a href="./stars/terjanq/Tiny-XSS-Payloads.md">Jan 08, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/veeral-patel/how-to-secure-anything">veeral-patel/how-to-secure-anything</a><sup><sub> - Apr 06, 2020</sub></sup><br/><sup><sub>Tags: #secure-design #secure-systems #security #security-architecture #security-assurance #security-engineering<br/>#threat-modeling</sub></sup><br/>How to systematically secure anything: a repository about security<br/>engineering. </td>
-  <td><a href="./stars/veeral-patel/how-to-secure-anything.md">Jan 08, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/trek10inc/cloudformation-schema-js-yaml">trek10inc/cloudformation-schema-js-yaml</a><sup><sub> - JavaScript - Jun 17, 2017</sub></sup><br/>Cloudformation custom class parser. </td>
-  <td><a href="./stars/trek10inc/cloudformation-schema-js-yaml.md">Jan 08, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/trek10inc/cfn-event-tailer">trek10inc/cfn-event-tailer</a><sup><sub> - JavaScript - Jul 07, 2022</sub></sup><br/>A CloudFormation event tailer that includes nested stacks. </td>
-  <td><a href="./stars/trek10inc/cfn-event-tailer.md">Jan 08, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/egoist/sitefetch">egoist/sitefetch</a><sup><sub> - TypeScript - Jan 07, 2025</sub></sup><br/>Fetch an entire site and save it as a text file (to be used with AI models). </td>
-  <td><a href="./stars/egoist/sitefetch.md">Jan 07, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/ziedbentahar/glue-zero-etl-dynamodb-to-apache-iceberg-table">ziedbentahar/glue-zero-etl-dynamodb-to-apache-iceberg-table</a><sup><sub> - HCL - Dec 26, 2024</sub></sup></td>
-  <td><a href="./stars/ziedbentahar/glue-zero-etl-dynamodb-to-apache-iceberg-table.md">Jan 07, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/trek10inc/awsets">trek10inc/awsets</a><sup><sub> - Go - Aug 21, 2020</sub></sup><br/>A utility for crawling an AWS account and exporting all its resources for<br/>further analysis. </td>
-  <td><a href="./stars/trek10inc/awsets.md">Jan 07, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/fwouts/previewjs">fwouts/previewjs</a><sup><sub> - TypeScript - Apr 13, 2021</sub></sup><br/><sup><sub>Tags: #intellij #preact #preview #react #solid #svelte #vscode #vue</sub></sup><br/>Preview UI components in your IDE instantly. </td>
-  <td><a href="./stars/fwouts/previewjs.md">Jan 07, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/sindresorhus/capture-website-cli">sindresorhus/capture-website-cli</a><sup><sub> - JavaScript - Feb 07, 2019</sub></sup><br/><sup><sub>Tags: #capture-screenshots #cli-app #nodejs #npm-package #puppeteer #screenshots #website-screenshot<br/>#website-screenshot-capturer</sub></sup><br/>Capture screenshots of websites from the command-line. </td>
-  <td><a href="./stars/sindresorhus/capture-website-cli.md">Jan 07, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/MarsX-dev/floatui">MarsX-dev/floatui</a><sup><sub> - MDX - Feb 13, 2023</sub></sup><br/><sup><sub>Tags: #design-systems #nextjs #react #react-components #tailwind-template #tailwindcss #tailwindui #ui-components #vue<br/>#vue-components</sub></sup><br/>Beautiful and responsive UI components and templates for React and Vue<br/>(soon) with Tailwind CSS. </td>
-  <td><a href="./stars/MarsX-dev/floatui.md">Jan 07, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/rexxars/eventsource-client">rexxars/eventsource-client</a><sup><sub> - TypeScript - Sep 20, 2023</sub></sup><br/>A modern, streaming server-sent events/eventsource client. </td>
-  <td><a href="./stars/rexxars/eventsource-client.md">Jan 07, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/mikesprague/rappers-delight">mikesprague/rappers-delight</a><sup><sub> - JavaScript - Sep 01, 2023</sub></sup><br/>Play Sugar Hill Gang&#039;s song Rapper&#039;s Delight while running<br/>another command. </td>
-  <td><a href="./stars/mikesprague/rappers-delight.md">Jan 07, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/shime/play-sound">shime/play-sound</a><sup><sub> - JavaScript - Sep 12, 2014</sub></sup><br/><sup><sub>Tags: #javascript #node #nodejs #sound</sub></sup><br/>Play sounds by shelling out to one of the available audio players. </td>
-  <td><a href="./stars/shime/play-sound.md">Jan 07, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/jasonjmcghee/rem">jasonjmcghee/rem</a><sup><sub> - Swift - Dec 27, 2023</sub></sup><br/><sup><sub>Tags: #local #macos #memory #producitivity #recall #rewind #search #swift #swiftui #utilities</sub></sup><br/>An open source approach to locally record and enable searching everything<br/>you view on your Mac. </td>
-  <td><a href="./stars/jasonjmcghee/rem.md">Jan 07, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/heyman/heynote">heyman/heynote</a><sup><sub> - JavaScript - Dec 28, 2022</sub></sup><br/><sup><sub>Tags: #developer-tools #editor #note-taking #notes #notes-app #productivity-tools #scratchpad</sub></sup><br/>A dedicated scratchpad for developers. </td>
-  <td><a href="./stars/heyman/heynote.md">Jan 07, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/hectorm/otpauth">hectorm/otpauth</a><sup><sub> - JavaScript - Jan 03, 2017</sub></sup><br/><sup><sub>Tags: #auth #authenticator #browser #bun #deno #google-authenticator #hotp #javascript #node #node-js #nodejs #otp #otpauth<br/>#security #totp #two-factor #two-factor-authentication #two-step #two-step-authentication</sub></sup><br/>One Time Password (HOTP/TOTP) library for Node.js, Deno, Bun and browsers. </td>
-  <td><a href="./stars/hectorm/otpauth.md">Jan 07, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/signavio/react-mentions">signavio/react-mentions</a><sup><sub> - JavaScript - Nov 20, 2014</sub></sup><br/><sup><sub>Tags: #inline-styles #mentions #react #tags</sub></sup><br/>@mention people in a textarea. </td>
-  <td><a href="./stars/signavio/react-mentions.md">Jan 07, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/yeun/open-color">yeun/open-color</a><sup><sub> - Handlebars - Aug 06, 2016</sub></sup><br/><sup><sub>Tags: #adobe-library #color #color-scheme #scss #stylus #swatches</sub></sup><br/>Color scheme for UI design. </td>
-  <td><a href="./stars/yeun/open-color.md">Jan 07, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/DavidWells/parse-time-string">DavidWells/parse-time-string</a><sup><sub> - JavaScript - Jan 07, 2025</sub></sup></td>
-  <td><a href="./stars/DavidWells/parse-time-string.md">Jan 07, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/vikejs/vike">vikejs/vike</a><sup><sub> - TypeScript - Jan 28, 2021</sub></sup><br/><sup><sub>Tags: #full-stack #node #react #react-ssr #server-rendering #server-side-rendering #solid #solid-ssr #ssr<br/>#static-site-generator #vite #vite-plugin #vite-ssr #vitejs #vue #vue-ssr #web-framework</sub></sup><br/>🔨 The Framework *You* Control - Next.js &amp; Nuxt alternative for<br/>unprecedented flexibility and dependability. </td>
-  <td><a href="./stars/vikejs/vike.md">Jan 07, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/Omnistac/zedux">Omnistac/zedux</a><sup><sub> - TypeScript - Feb 17, 2021</sub></sup><br/><sup><sub>Tags: #atom #atomic #dependency-injection #extensible #flexible #graph #molecular #powerful #react #state #state-management<br/>#zero-configuration</sub></sup><br/>:zap: A Molecular State Engine for React. </td>
-  <td><a href="./stars/Omnistac/zedux.md">Jan 06, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/DavidWells/demobox">DavidWells/demobox</a><sup><sub> - JavaScript - Feb 06, 2015</sub></sup><br/>Demo Page Generator &amp; Live Editor Component. </td>
-  <td><a href="./stars/DavidWells/demobox.md">Jan 06, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/chartist-js/chartist">chartist-js/chartist</a><sup><sub> - TypeScript - Mar 09, 2014</sub></sup><br/><sup><sub>Tags: #charting-library #chartist #javascript #responsive-charts #svg</sub></sup><br/>Simple responsive charts. </td>
-  <td><a href="./stars/chartist-js/chartist.md">Jan 06, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/DavidWells/react-dom-primitives">DavidWells/react-dom-primitives</a><sup><sub> - JavaScript - Mar 26, 2016</sub></sup><br/>React Base Dom Primitives. </td>
-  <td><a href="./stars/DavidWells/react-dom-primitives.md">Jan 06, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/DavidWells/redact-logs">DavidWells/redact-logs</a><sup><sub> - JavaScript - Sep 26, 2020</sub></sup><br/>Redact sensitive env vars from logs &amp; CLI output. </td>
-  <td><a href="./stars/DavidWells/redact-logs.md">Jan 06, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/DavidWells/env-stage-loader">DavidWells/env-stage-loader</a><sup><sub> - JavaScript - Oct 11, 2020</sub></sup><br/>Loads .env files in order based on process.env.NODE_ENV value with [stage].<br/>local support. </td>
-  <td><a href="./stars/DavidWells/env-stage-loader.md">Jan 05, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/wvit/web-document">wvit/web-document</a><sup><sub> - TypeScript - Apr 03, 2024</sub></sup><br/>A browser extension for saving web documents locally, allowing you to<br/>access them offline and quickly search for webpage content without an<br/>internet connection, while also saving browser memory usage. </td>
-  <td><a href="./stars/wvit/web-document.md">Jan 05, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/sissbruecker/linkding">sissbruecker/linkding</a><sup><sub> - Python - Jun 28, 2019</sub></sup><br/><sup><sub>Tags: #bookmark-manager #bookmark-service #bookmarks #self-hosted</sub></sup><br/>Self-hosted bookmark manager that is designed be to be minimal, fast, and<br/>easy to set up using Docker. </td>
-  <td><a href="./stars/sissbruecker/linkding.md">Jan 05, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/ArchiveBox/ArchiveBox">ArchiveBox/ArchiveBox</a><sup><sub> - Python - May 05, 2017</sub></sup><br/><sup><sub>Tags: #archivebox #backups #bookmark-archiver #browser-bookmarks #chromium #digipres #firefox #headless-browser<br/>#internet-archiving #pinboard #pocket #python #rss #self-hosted #singlefile #warc #wayback-machine #web-archiving #wget<br/>#youtube-dl</sub></sup><br/>🗃 Open source self-hosted web archiving. Takes URLs/browser<br/>history/bookmarks/Pocket/Pinboard/etc., saves HTML, JS, PDFs, media, and<br/>more... </td>
-  <td><a href="./stars/ArchiveBox/ArchiveBox.md">Jan 05, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/modelcontextprotocol/typescript-sdk">modelcontextprotocol/typescript-sdk</a><sup><sub> - TypeScript - Sep 24, 2024</sub></sup><br/>The official Typescript SDK for Model Context Protocol servers and clients. </td>
-  <td><a href="./stars/modelcontextprotocol/typescript-sdk.md">Jan 05, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/ahmedkhaleel2004/gitdiagram">ahmedkhaleel2004/gitdiagram</a><sup><sub> - TypeScript - Dec 15, 2024</sub></sup><br/><sup><sub>Tags: #ai #code #github #system-design</sub></sup><br/>Replace &#039;hub&#039; with &#039;diagram&#039; in any GitHub url to<br/>instantly visualize the codebase as an interactive diagram. </td>
-  <td><a href="./stars/ahmedkhaleel2004/gitdiagram.md">Jan 05, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/trbndev/jsoncanvas">trbndev/jsoncanvas</a><sup><sub> - TypeScript - Mar 15, 2024</sub></sup><br/><sup><sub>Tags: #jsoncanvas #typescript</sub></sup><br/>📝 JSONCanvas Implementation for TypeScript. </td>
-  <td><a href="./stars/trbndev/jsoncanvas.md">Jan 05, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/Digital-Tvilling/react-jsoncanvas">Digital-Tvilling/react-jsoncanvas</a><sup><sub> - TypeScript - Mar 20, 2024</sub></sup><br/>A solution in React and TypeScript to render JSON Canvas. </td>
-  <td><a href="./stars/Digital-Tvilling/react-jsoncanvas.md">Jan 05, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/obsidianmd/jsoncanvas">obsidianmd/jsoncanvas</a><sup><sub> - JavaScript - Feb 28, 2024</sub></sup><br/>An open file format for infinite canvas data. </td>
-  <td><a href="./stars/obsidianmd/jsoncanvas.md">Jan 05, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/purple-technology/react-camera-pro">purple-technology/react-camera-pro</a><sup><sub> - JavaScript - Jan 22, 2020</sub></sup><br/>Mobile first camera component for React. </td>
-  <td><a href="./stars/purple-technology/react-camera-pro.md">Jan 05, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/adaltas/node-csv">adaltas/node-csv</a><sup><sub> - CoffeeScript - Sep 25, 2010</sub></sup><br/><sup><sub>Tags: #csv #nodejs #parser #streaming</sub></sup><br/>Full featured CSV parser with simple api and tested against large datasets. </td>
-  <td><a href="./stars/adaltas/node-csv.md">Jan 05, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/StefanTerdell/json-schema-to-zod">StefanTerdell/json-schema-to-zod</a><sup><sub> - TypeScript - Aug 15, 2021</sub></sup></td>
-  <td><a href="./stars/StefanTerdell/json-schema-to-zod.md">Jan 04, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/addyosmani/firew0rks">addyosmani/firew0rks</a><sup><sub> - JavaScript - Dec 31, 2024</sub></sup><br/><sup><sub>Tags: #ascii-fireworks #fireworks #fireworks-algorithm #fireworks-animation</sub></sup><br/>Fireworks in your terminal 🎆. </td>
-  <td><a href="./stars/addyosmani/firew0rks.md">Jan 04, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/alufers/mitmproxy2swagger">alufers/mitmproxy2swagger</a><sup><sub> - HTML - May 11, 2022</sub></sup><br/><sup><sub>Tags: #mitmproxy #openapi #reverse-engineering #swagger</sub></sup><br/>Automagically reverse-engineer REST APIs via capturing traffic. </td>
-  <td><a href="./stars/alufers/mitmproxy2swagger.md">Jan 04, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/taozhi8833998/node-sql-parser">taozhi8833998/node-sql-parser</a><sup><sub> - PEG.js - Dec 18, 2018</sub></sup><br/>Parse simple SQL statements into an abstract syntax tree (AST) with the<br/>visited tableList and convert it back to SQL. </td>
-  <td><a href="./stars/taozhi8833998/node-sql-parser.md">Jan 04, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/aws-solutions-library-samples/data-lakes-on-aws">aws-solutions-library-samples/data-lakes-on-aws</a><sup><sub> - Python - Sep 08, 2020</sub></sup><br/><sup><sub>Tags: #analytics #aws #best-practices #data-engineering #data-lake #etl #framework #iac #lake-formation<br/>#serverless</sub></sup><br/>Enterprise-grade, production-hardened, serverless data lake on AWS. </td>
-  <td><a href="./stars/aws-solutions-library-samples/data-lakes-on-aws.md">Jan 03, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/aws-samples/amazon-cognito-passwordless-auth">aws-samples/amazon-cognito-passwordless-auth</a><sup><sub> - TypeScript - Feb 15, 2023</sub></sup><br/><sup><sub>Tags: #authentication #aws #aws-cognito #fido2 #magic-link #passkeys #react #sms-otp #typescript #webauthn</sub></sup><br/>Passwordless authentication with Amazon Cognito: FIDO2 (WebAuthn, support<br/>for Passkeys), Magic Link, SMS OTP Step Up. </td>
-  <td><a href="./stars/aws-samples/amazon-cognito-passwordless-auth.md">Jan 03, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/eduardo3g/twitter">eduardo3g/twitter</a><sup><sub> - JavaScript - Nov 13, 2020</sub></sup><br/><sup><sub>Tags: #algolia #appsync #appsync-graphql-api #artilleryio #aws #aws-lambda #cognito #dynamodb #kinesis-firehose<br/>#kinesis-stream #lambda #serverless #serverless-framework #social-network #twitter</sub></sup><br/>A serverless Twitter built with some cool stuff, such as the Serverless<br/>Framework, AppSync (GraphQL), Lambda, DynamoDB, Cognito, Kinesis Firehose,<br/>and Algolia ☁️. </td>
-  <td><a href="./stars/eduardo3g/twitter.md">Jan 03, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/m-sureshraj/serverless-examples">m-sureshraj/serverless-examples</a><sup><sub> - JavaScript - May 01, 2022</sub></sup><br/>A collection of high-quality and complete example projects built with<br/>Serverless framework on AWS. </td>
-  <td><a href="./stars/m-sureshraj/serverless-examples.md">Jan 03, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/rishikavikondala/mcp-server-aws">rishikavikondala/mcp-server-aws</a><sup><sub> - Python - Dec 04, 2024</sub></sup><br/><sup><sub>Tags: #anthropic #aws #claude #mcp</sub></sup><br/>A Model Context Protocol server implementation for operations on AWS<br/>resources. </td>
-  <td><a href="./stars/rishikavikondala/mcp-server-aws.md">Jan 02, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/appcypher/awesome-mcp-servers">appcypher/awesome-mcp-servers</a><sup><sub> - Nov 28, 2024</sub></sup><br/><sup><sub>Tags: #ai #anthropic-claude #awesome #context #mcp #model-context-protocol #servers #tool-use #tools</sub></sup><br/>Awesome MCP Servers - A curated list of Model Context Protocol servers. </td>
-  <td><a href="./stars/appcypher/awesome-mcp-servers.md">Jan 02, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/michaellatman/mcp-get">michaellatman/mcp-get</a><sup><sub> - TypeScript - Nov 27, 2024</sub></sup></td>
-  <td><a href="./stars/michaellatman/mcp-get.md">Jan 02, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/awslabs/sbt-aws">awslabs/sbt-aws</a><sup><sub> - TypeScript - Feb 05, 2024</sub></sup><br/>SaaS Builder Toolkit for AWS is a developer toolkit to implement SaaS best<br/>practices and increase developer velocity. </td>
-  <td><a href="./stars/awslabs/sbt-aws.md">Jan 02, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/welldone-software/why-did-you-render">welldone-software/why-did-you-render</a><sup><sub> - JavaScript - Nov 10, 2018</sub></sup><br/><sup><sub>Tags: #component #hooks-tracking #performance #pure #purecomponent #react #react-native #render #tool #update</sub></sup><br/>why-did-you-render by Welldone Software monkey patches React to notify you<br/>about potentially avoidable re-renders. (Works with React Native as well.). </td>
-  <td><a href="./stars/welldone-software/why-did-you-render.md">Jan 01, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/bradleyboy/tuql">bradleyboy/tuql</a><sup><sub> - JavaScript - Nov 20, 2017</sub></sup><br/><sup><sub>Tags: #automatic-api #foreign-keys #graphql #nodejs #schema #sequelize #sqlite #sqlite-database #sqlite3</sub></sup><br/>Automatically create a GraphQL server from a SQLite database or a SQL file. </td>
-  <td><a href="./stars/bradleyboy/tuql.md">Jan 01, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/fern-api/fern">fern-api/fern</a><sup><sub> - TypeScript - Apr 01, 2022</sub></sup><br/><sup><sub>Tags: #api #docs-as-code #docs-generator #openapi #sdk-generator</sub></sup><br/>Input OpenAPI. Output SDKs and Docs. </td>
-  <td><a href="./stars/fern-api/fern.md">Jan 01, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/acacode/swagger-typescript-api">acacode/swagger-typescript-api</a><sup><sub> - TypeScript - Jan 12, 2020</sub></sup><br/>Generate the API Client for Fetch or Axios from an OpenAPI Specification. </td>
-  <td><a href="./stars/acacode/swagger-typescript-api.md">Jan 01, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/orval-labs/orval">orval-labs/orval</a><sup><sub> - TypeScript - Feb 05, 2020</sub></sup><br/><sup><sub>Tags: #angular #axios-client #codegen #faker #mock #msw #openapi-specification #orval #react #react-query #swagger<br/>#typescript</sub></sup><br/>orval is able to generate client with appropriate type-signatures<br/>(TypeScript) from any valid OpenAPI v3 or Swagger v2 specification, either<br/>in yaml or json formats. 🍺. </td>
-  <td><a href="./stars/orval-labs/orval.md">Jan 01, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/jchn/simple-masonry-layout">jchn/simple-masonry-layout</a><sup><sub> - TypeScript - Feb 22, 2016</sub></sup><br/><sup><sub>Tags: #layout #masonry #masonry-grid #masonry-layout</sub></sup><br/>Calculating masonry layouts based on rectangles, without being tied to the<br/>DOM. </td>
-  <td><a href="./stars/jchn/simple-masonry-layout.md">Jan 01, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/sindresorhus/fkill-cli">sindresorhus/fkill-cli</a><sup><sub> - JavaScript - Jun 20, 2015</sub></sup><br/><sup><sub>Tags: #cli #cli-app #cross-platform #fabulous #javascript #kill #nodejs #process #unicorns</sub></sup><br/>Fabulously kill processes. Cross-platform. </td>
-  <td><a href="./stars/sindresorhus/fkill-cli.md">Jan 01, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/orogene/orogene">orogene/orogene</a><sup><sub> - Rust - Jul 14, 2020</sub></sup><br/><sup><sub>Tags: #javascript #nodejs #package-manager #rust #typescript</sub></sup><br/>Makes `node_modules/` happen. Fast. No fuss. </td>
-  <td><a href="./stars/orogene/orogene.md">Jan 01, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/CtrlSpice/otel-desktop-viewer">CtrlSpice/otel-desktop-viewer</a><sup><sub> - JavaScript - Oct 14, 2022</sub></sup><br/>desktop-collector. </td>
-  <td><a href="./stars/CtrlSpice/otel-desktop-viewer.md">Jan 01, 2025</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/hossamelmansy/automating-aws-with-nodejs">hossamelmansy/automating-aws-with-nodejs</a><sup><sub> - JavaScript - Jan 20, 2020</sub></sup><br/>Examples for automating AWS with NodeJS. </td>
-  <td><a href="./stars/hossamelmansy/automating-aws-with-nodejs.md">Dec 31, 2024</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/bajankristof/nedb-promises">bajankristof/nedb-promises</a><sup><sub> - JavaScript - May 31, 2017</sub></sup><br/><sup><sub>Tags: #callback #cursor #database #nedb #nedb-promises #promise #promise-wrapper</sub></sup><br/>A dead-simple promise wrapper for nedb. </td>
-  <td><a href="./stars/bajankristof/nedb-promises.md">Dec 31, 2024</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/everestate/serverless-router">everestate/serverless-router</a><sup><sub> - JavaScript - May 24, 2018</sub></sup><br/><sup><sub>Tags: #lambda #router #routing #serverless</sub></sup><br/>Serverless, minimalist, pluggable, universal router. </td>
-  <td><a href="./stars/everestate/serverless-router.md">Dec 31, 2024</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/microsoft/markitdown">microsoft/markitdown</a><sup><sub> - HTML - Nov 13, 2024</sub></sup><br/><sup><sub>Tags: #autogen #autogen-extension #langchain #markdown #microsoft-office #openai #pdf</sub></sup><br/>Python tool for converting files and office documents to Markdown. </td>
-  <td><a href="./stars/microsoft/markitdown.md">Dec 31, 2024</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/caolan/signaller">caolan/signaller</a><sup><sub> - JavaScript - Jul 07, 2024</sub></sup><br/>State change notifications. </td>
-  <td><a href="./stars/caolan/signaller.md">Dec 31, 2024</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/caolan/highland">caolan/highland</a><sup><sub> - JavaScript - Aug 25, 2012</sub></sup><br/>High-level streams library for Node.js and the browser. </td>
-  <td><a href="./stars/caolan/highland.md">Dec 31, 2024</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/alank64/json-schema-filter">alank64/json-schema-filter</a><sup><sub> - JavaScript - Feb 04, 2014</sub></sup><br/>Filters (removes) objects from document based on passed json-schema. </td>
-  <td><a href="./stars/alank64/json-schema-filter.md">Dec 31, 2024</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/forward/sql-parser">forward/sql-parser</a><sup><sub> - JavaScript - Sep 26, 2011</sub></sup><br/>A SQL parser written in pure JS. </td>
-  <td><a href="./stars/forward/sql-parser.md">Dec 31, 2024</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/alkemics/CancelablePromise">alkemics/CancelablePromise</a><sup><sub> - TypeScript - Oct 26, 2015</sub></sup><br/>A simple Cancelable Promise. </td>
-  <td><a href="./stars/alkemics/CancelablePromise.md">Dec 31, 2024</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/ehmicky/cross-platform-node-guide">ehmicky/cross-platform-node-guide</a><sup><sub> - JavaScript - Jan 21, 2019</sub></sup><br/><sup><sub>Tags: #api #cli #code-quality #cross-platform #documentation #encoding #es6 #javascript #linux #macos #nodejs<br/>#operating-system #os #portability #security #server #shell #terminal #unix #windows</sub></sup><br/>📗 How to write cross-platform Node.js code. </td>
-  <td><a href="./stars/ehmicky/cross-platform-node-guide.md">Dec 31, 2024</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/florajs/sql-parser">florajs/sql-parser</a><sup><sub> - JavaScript - Jul 10, 2015</sub></sup><br/><sup><sub>Tags: #ast #parser #sql</sub></sup><br/>Parse SQL (select) statements into abstract syntax tree (AST) and convert<br/>ASTs back to SQL. </td>
-  <td><a href="./stars/florajs/sql-parser.md">Dec 31, 2024</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/cremich/cdk-bill-bot">cremich/cdk-bill-bot</a><sup><sub> - TypeScript - Jun 20, 2022</sub></sup><br/>The serverless cost optimization bot. </td>
-  <td><a href="./stars/cremich/cdk-bill-bot.md">Dec 31, 2024</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/neuledge/sort-key">neuledge/sort-key</a><sup><sub> - TypeScript - Sep 11, 2020</sub></sup><br/><sup><sub>Tags: #aws #dynamodb #sortkey</sub></sup><br/>🔑 Tiny library for generating safe sort keys for DynamoDB. </td>
-  <td><a href="./stars/neuledge/sort-key.md">Dec 29, 2024</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/t49tran/react-google-recaptcha-v3">t49tran/react-google-recaptcha-v3</a><sup><sub> - TypeScript - Dec 04, 2018</sub></sup><br/>Google Recaptcha V3 integration for React. </td>
-  <td><a href="./stars/t49tran/react-google-recaptcha-v3.md">Dec 29, 2024</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/aws-samples/api-gw-http-only-cookie-auth">aws-samples/api-gw-http-only-cookie-auth</a><sup><sub> - TypeScript - Aug 24, 2022</sub></sup><br/><sup><sub>Tags: #api-gateway #aws #cognito #http-only-cookies</sub></sup></td>
-  <td><a href="./stars/aws-samples/api-gw-http-only-cookie-auth.md">Dec 29, 2024</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/simple-dev-tools/dynamodb-as-cache">simple-dev-tools/dynamodb-as-cache</a><sup><sub> - JavaScript - May 08, 2021</sub></sup><br/>Use DynamoDB as cache service, providing Redis-like APIs and reducing the<br/>boilerplate of dealing low-level DynamoDB APIs. </td>
-  <td><a href="./stars/simple-dev-tools/dynamodb-as-cache.md">Dec 29, 2024</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/rlyders/dynamodb-lock-manager">rlyders/dynamodb-lock-manager</a><sup><sub> - TypeScript - Sep 16, 2019</sub></sup><br/>NodeJS module to manage distributed locks in DynamoDB with the AWS SDK.<br/>This package allows the caller to create locks, auto-refresh locks via<br/>heartbeats, takeover expired locks, and release locks. </td>
-  <td><a href="./stars/rlyders/dynamodb-lock-manager.md">Dec 29, 2024</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/vimson/dynamodb-logger">vimson/dynamodb-logger</a><sup><sub> - TypeScript - Dec 20, 2022</sub></sup><br/>A DynamoDB wrapper which logs all the entries to the table and an easy way<br/>to query the logs. </td>
-  <td><a href="./stars/vimson/dynamodb-logger.md">Dec 29, 2024</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/rpinheiroalmeida/aws-event-stream">rpinheiroalmeida/aws-event-stream</a><sup><sub> - TypeScript - Apr 30, 2020</sub></sup><br/>An event stream application for AWS in typescript. </td>
-  <td><a href="./stars/rpinheiroalmeida/aws-event-stream.md">Dec 29, 2024</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/admirkadriu/serverless-rate-limit">admirkadriu/serverless-rate-limit</a><sup><sub> - TypeScript - Jan 25, 2021</sub></sup><br/><sup><sub>Tags: #dynamodb #lambda #rate-limiting #serverless</sub></sup><br/>Rate limit your API&#039;s (or something else) using a combination<br/>centralized and decentralized data source. </td>
-  <td><a href="./stars/admirkadriu/serverless-rate-limit.md">Dec 29, 2024</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/sdawood/dynamo-update-expression">sdawood/dynamo-update-expression</a><sup><sub> - JavaScript - Jul 14, 2017</sub></sup><br/><sup><sub>Tags: #diff #dynamodb #expression #lock #optimisitc #update #version</sub></sup><br/>Generate DynamoDB Update Expression by diff-ing original and updated<br/>documents. </td>
-  <td><a href="./stars/sdawood/dynamo-update-expression.md">Dec 29, 2024</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/fterh/heimdall">fterh/heimdall</a><sup><sub> - TypeScript - Jan 16, 2020</sub></sup><br/><sup><sub>Tags: #email #hacktoberfest #serverless</sub></sup><br/>Self-hosted personal email guardian with one-step deployment. </td>
-  <td><a href="./stars/fterh/heimdall.md">Dec 27, 2024</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/nak2k/node-dynamodb-expr">nak2k/node-dynamodb-expr</a><sup><sub> - JavaScript - Mar 28, 2018</sub></sup></td>
-  <td><a href="./stars/nak2k/node-dynamodb-expr.md">Dec 27, 2024</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/nak2k/node-cfn-spec">nak2k/node-cfn-spec</a><sup><sub> - JavaScript - May 17, 2018</sub></sup></td>
-  <td><a href="./stars/nak2k/node-cfn-spec.md">Dec 27, 2024</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/nak2k/node-hide-properties">nak2k/node-hide-properties</a><sup><sub> - JavaScript - Sep 17, 2017</sub></sup><br/>Hide properties of an object. </td>
-  <td><a href="./stars/nak2k/node-hide-properties.md">Dec 27, 2024</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/nak2k/node-json-thumbprint">nak2k/node-json-thumbprint</a><sup><sub> - JavaScript - Aug 24, 2016</sub></sup><br/>The thumbprint of a JSON. </td>
-  <td><a href="./stars/nak2k/node-json-thumbprint.md">Dec 27, 2024</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/nak2k/node-open-arn">nak2k/node-open-arn</a><sup><sub> - JavaScript - Jul 03, 2018</sub></sup><br/>Open an ARN. </td>
-  <td><a href="./stars/nak2k/node-open-arn.md">Dec 27, 2024</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/nak2k/node-init-stage">nak2k/node-init-stage</a><sup><sub> - TypeScript - Dec 11, 2019</sub></sup><br/>Run async functions in the init stage of AWS Lambda. </td>
-  <td><a href="./stars/nak2k/node-init-stage.md">Dec 27, 2024</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/nak2k/node-arn2url">nak2k/node-arn2url</a><sup><sub> - JavaScript - Jul 03, 2018</sub></sup><br/>Convert ARNs to URLs. </td>
-  <td><a href="./stars/nak2k/node-arn2url.md">Dec 27, 2024</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/nak2k/node-api-gateway-util">nak2k/node-api-gateway-util</a><sup><sub> - JavaScript - Jun 22, 2017</sub></sup><br/>Utility for API Gateway. </td>
-  <td><a href="./stars/nak2k/node-api-gateway-util.md">Dec 27, 2024</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/nak2k/node-lambda-url-resolver">nak2k/node-lambda-url-resolver</a><sup><sub> - TypeScript - Mar 30, 2019</sub></sup><br/>URL resolver for Lambda. </td>
-  <td><a href="./stars/nak2k/node-lambda-url-resolver.md">Dec 27, 2024</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/nak2k/node-lambda-env">nak2k/node-lambda-env</a><sup><sub> - JavaScript - Jul 24, 2017</sub></sup><br/>Configure environment variables for AWS Lambda. </td>
-  <td><a href="./stars/nak2k/node-lambda-env.md">Dec 27, 2024</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/nak2k/node-npm-install-from-s3">nak2k/node-npm-install-from-s3</a><sup><sub> - JavaScript - Jan 01, 2016</sub></sup><br/>Install packages from S3. </td>
-  <td><a href="./stars/nak2k/node-npm-install-from-s3.md">Dec 27, 2024</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/nak2k/node-check-aws">nak2k/node-check-aws</a><sup><sub> - TypeScript - May 27, 2021</sub></sup></td>
-  <td><a href="./stars/nak2k/node-check-aws.md">Dec 27, 2024</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/nak2k/node-lambda-spawn">nak2k/node-lambda-spawn</a><sup><sub> - TypeScript - Jun 30, 2017</sub></sup><br/>Run lambda function as child process. </td>
-  <td><a href="./stars/nak2k/node-lambda-spawn.md">Dec 27, 2024</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/nak2k/node-lambda-toolbox">nak2k/node-lambda-toolbox</a><sup><sub> - TypeScript - Oct 12, 2020</sub></sup></td>
-  <td><a href="./stars/nak2k/node-lambda-toolbox.md">Dec 27, 2024</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/ts2vtl/ts2vtl">ts2vtl/ts2vtl</a><sup><sub> - TypeScript - Jul 22, 2021</sub></sup><br/><sup><sub>Tags: #aws #typescript #vtl</sub></sup><br/>TypeScript to VTL. </td>
-  <td><a href="./stars/ts2vtl/ts2vtl.md">Dec 27, 2024</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/primer/react">primer/react</a><sup><sub> - TypeScript - Feb 17, 2018</sub></sup><br/><sup><sub>Tags: #component-library #design-system #primer #react</sub></sup><br/>An implementation of GitHub&#039;s Primer Design System using React. </td>
-  <td><a href="./stars/primer/react.md">Dec 27, 2024</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/awslabs/aws-solutions-constructs">awslabs/aws-solutions-constructs</a><sup><sub> - TypeScript - Mar 19, 2020</sub></sup><br/><sup><sub>Tags: #architectural-patterns #aws-cdk #constructs</sub></sup><br/>The AWS Solutions Constructs Library is an open-source extension of the AWS<br/>Cloud Development Kit (AWS CDK) that provides multi-service,<br/>well-architected patterns for quickly defining solutions. </td>
-  <td><a href="./stars/awslabs/aws-solutions-constructs.md">Dec 27, 2024</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/directus/directus">directus/directus</a><sup><sub> - TypeScript - Dec 12, 2012</sub></sup><br/><sup><sub>Tags: #api #app #cms #composable #data-visualization #database #directus #graphql #headless-cms #javascript #mariadb #mssql<br/>#mysql #no-code #node #postgresql #sql #sqlite #typescript #vue</sub></sup><br/>The flexible backend for all your projects 🐰 Turn your DB into a headless<br/>CMS, admin panels, or apps with a custom UI, instant APIs, auth &amp; more. </td>
-  <td><a href="./stars/directus/directus.md">Dec 27, 2024</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/keratin/authn-server">keratin/authn-server</a><sup><sub> - Go - Jun 23, 2017</sub></sup><br/><sup><sub>Tags: #api-service #authentication-backend #authn #jwt-authentication #service</sub></sup><br/>Authentication service that keeps you in control without forcing you to be<br/>an expert in web security. </td>
-  <td><a href="./stars/keratin/authn-server.md">Dec 27, 2024</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/udondan/iam-floyd">udondan/iam-floyd</a><sup><sub> - TypeScript - Jun 01, 2020</sub></sup><br/><sup><sub>Tags: #aws #aws-cdk #cdk #generator #hacktoberfest #iam #iam-policy #jsii</sub></sup><br/>AWS IAM policy statement generator with fluent interface. </td>
-  <td><a href="./stars/udondan/iam-floyd.md">Dec 27, 2024</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/architect/dynalite">architect/dynalite</a><sup><sub> - JavaScript - Jun 17, 2013</sub></sup><br/>An implementation of Amazon&#039;s DynamoDB built on LevelDB. </td>
-  <td><a href="./stars/architect/dynalite.md">Dec 27, 2024</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/balmbees/overwatch">balmbees/overwatch</a><sup><sub> - JavaScript - Aug 03, 2016</sub></sup><br/>Overwatch our infrastructure. </td>
-  <td><a href="./stars/balmbees/overwatch.md">Dec 27, 2024</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/balmbees/corgi">balmbees/corgi</a><sup><sub> - TypeScript - Jun 02, 2017</sub></sup><br/><sup><sub>Tags: #api-gateway #aws-lambda #corgi #lambda #node #server #serverless #serverless-express #typescript</sub></sup><br/>AWS Lambda / API Gateway native, fast and simple web framework. </td>
-  <td><a href="./stars/balmbees/corgi.md">Dec 27, 2024</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/benhutchins/dyngoose">benhutchins/dyngoose</a><sup><sub> - TypeScript - Feb 10, 2020</sub></sup><br/><sup><sub>Tags: #aws-dynamodb #dynamodb #orm #serverless #typescript</sub></sup><br/>Elegant DynamoDB object modeling for Typescript. </td>
-  <td><a href="./stars/benhutchins/dyngoose.md">Dec 27, 2024</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/EbookFoundation/free-programming-books">EbookFoundation/free-programming-books</a><sup><sub> - HTML - Oct 11, 2013</sub></sup><br/><sup><sub>Tags: #books #education #hacktoberfest #list #resource</sub></sup><br/>:books: Freely available programming books. </td>
-  <td><a href="./stars/EbookFoundation/free-programming-books.md">Dec 27, 2024</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/theam/aws-lambda-benchmark">theam/aws-lambda-benchmark</a><sup><sub> - Jun 17, 2019</sub></sup><br/>A project that contains AWS Lambda function implementations for several<br/>runtimes e.g. Nodejs, Haskell, Python, Go, Rust, Java, etc. </td>
-  <td><a href="./stars/theam/aws-lambda-benchmark.md">Dec 27, 2024</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/wei/pull">wei/pull</a><sup><sub> - TypeScript - May 26, 2018</sub></sup><br/><sup><sub>Tags: #fork #forks-insight #hacktoberfest #probot #probot-app #probot-apps #pull #repository-management #reviewer #reviewers<br/>#sync #trigger #upstream #upstreams</sub></sup><br/>🤖 Keep your forks up-to-date via automated PRs. </td>
-  <td><a href="./stars/wei/pull.md">Dec 27, 2024</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/sensedeep/custom-metrics">sensedeep/custom-metrics</a><sup><sub> - TypeScript - Aug 18, 2023</sub></sup><br/>CustomMetrics for AWS without the cost. </td>
-  <td><a href="./stars/sensedeep/custom-metrics.md">Dec 27, 2024</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/ericfortis/mockaton">ericfortis/mockaton</a><sup><sub> - JavaScript - Jul 01, 2024</sub></sup><br/><sup><sub>Tags: #dx</sub></sup><br/>HTTP Mock Sever. </td>
-  <td><a href="./stars/ericfortis/mockaton.md">Dec 24, 2024</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/tus/tus-js-client">tus/tus-js-client</a><sup><sub> - JavaScript - Apr 06, 2015</sub></sup><br/><sup><sub>Tags: #browser #cordova #nodejs #reactnative #tus #web</sub></sup><br/>A pure JavaScript client for the tus resumable upload protocol. </td>
-  <td><a href="./stars/tus/tus-js-client.md">Dec 24, 2024</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/faceteer/expression-builder">faceteer/expression-builder</a><sup><sub> - TypeScript - Jul 09, 2021</sub></sup><br/>An expression builder for Dynamo DB. </td>
-  <td><a href="./stars/faceteer/expression-builder.md">Dec 24, 2024</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/IHIutch/draft-ui">IHIutch/draft-ui</a><sup><sub> - TypeScript - Mar 16, 2023</sub></sup><br/>A collection of simply designed React components focused on making web<br/>accessibility as easy as copy &amp; paste. </td>
-  <td><a href="./stars/IHIutch/draft-ui.md">Dec 24, 2024</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/nocodb/nocodb">nocodb/nocodb</a><sup><sub> - TypeScript - Oct 29, 2017</sub></sup><br/><sup><sub>Tags: #admin-dashboard #admin-ui #airtable #airtable-alternative #automatic-api #hacktoberfest #low-code #mariadb #mysql<br/>#no-code #no-code-database #no-code-platform #postgresql #rest-api #restful-api #spreadsheet #sqlite #sqlserver #swagger</sub></sup><br/>🔥 🔥 🔥 Open Source Airtable Alternative. </td>
-  <td><a href="./stars/nocodb/nocodb.md">Dec 22, 2024</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/TanStack/table">TanStack/table</a><sup><sub> - TypeScript - Oct 20, 2016</sub></sup><br/><sup><sub>Tags: #datagrid #datagrids #datatable #filtering #grid #grouping #hooks #javascript #pagination #react #reactjs #solid<br/>#solidjs #sorting #svelte #sveltejs #table #typescript #vue</sub></sup><br/>🤖 Headless UI for building powerful tables &amp; datagrids for TS/JS -<br/>React-Table, Vue-Table, Solid-Table, Svelte-Table. </td>
-  <td><a href="./stars/TanStack/table.md">Dec 22, 2024</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/woltapp/blurhash">woltapp/blurhash</a><sup><sub> - C - Jun 26, 2019</sub></sup><br/>A very compact representation of a placeholder for an image. </td>
-  <td><a href="./stars/woltapp/blurhash.md">Dec 22, 2024</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/pantharshit00/prisma-docs-generator">pantharshit00/prisma-docs-generator</a><sup><sub> - TypeScript - Jul 10, 2020</sub></sup><br/><sup><sub>Tags: #code-generation #hacktoberfest #html #prisma #prisma-generator #prisma2</sub></sup><br/>Prisma generator for automatically generating documentation reference from<br/>the Prisma schema. </td>
-  <td><a href="./stars/pantharshit00/prisma-docs-generator.md">Dec 22, 2024</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/matiassingers/awesome-readme">matiassingers/awesome-readme</a><sup><sub> - Jan 19, 2015</sub></sup><br/><sup><sub>Tags: #awesome #awesome-list #list #readme</sub></sup><br/>A curated list of awesome READMEs. </td>
-  <td><a href="./stars/matiassingers/awesome-readme.md">Dec 22, 2024</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/bennyschudel/JSManipulate">bennyschudel/JSManipulate</a><sup><sub> - JavaScript - Aug 01, 2011</sub></sup><br/>Javascript image filters and effects. </td>
-  <td><a href="./stars/bennyschudel/JSManipulate.md">Dec 22, 2024</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/zuramai/starback.js">zuramai/starback.js</a><sup><sub> - TypeScript - Aug 19, 2021</sub></sup><br/><sup><sub>Tags: #background #canvas #css-animations #hacktoberfest</sub></sup><br/>Create a beautiful star falling background with starback.js. </td>
-  <td><a href="./stars/zuramai/starback.js.md">Dec 22, 2024</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/authelia/authelia">authelia/authelia</a><sup><sub> - Go - Dec 07, 2016</sub></sup><br/><sup><sub>Tags: #2fa #authentication #docker #golang #kubernetes #ldap #mfa #multifactor #oauth2 #openid-connect #push-notifications<br/>#security #sso #sso-authentication #totp #two-factor #two-factor-authentication #u2f #webauthn #yubikey</sub></sup><br/>The Single Sign-On Multi-Factor portal for web apps. </td>
-  <td><a href="./stars/authelia/authelia.md">Dec 22, 2024</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/react-grid-layout/react-resizable">react-grid-layout/react-resizable</a><sup><sub> - JavaScript - Dec 28, 2014</sub></sup><br/>A simple React component that is resizable with a handle. </td>
-  <td><a href="./stars/react-grid-layout/react-resizable.md">Dec 22, 2024</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/Vibrant-Colors/node-vibrant">Vibrant-Colors/node-vibrant</a><sup><sub> - TypeScript - Jun 04, 2015</sub></sup><br/><sup><sub>Tags: #canvas #color #colour #detection #image #muted #picture #varation #vibrant</sub></sup><br/>🎨 Extract prominent colors from an image. </td>
-  <td><a href="./stars/Vibrant-Colors/node-vibrant.md">Dec 22, 2024</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/im2nguyen/rover">im2nguyen/rover</a><sup><sub> - Go - Jun 24, 2021</sub></sup><br/><sup><sub>Tags: #diagram #interactive-visualizations #terraform #visualization</sub></sup><br/>Interactive Terraform visualization. State and configuration explorer. </td>
-  <td><a href="./stars/im2nguyen/rover.md">Dec 22, 2024</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/seeden/rbac">seeden/rbac</a><sup><sub> - JavaScript - Apr 08, 2014</sub></sup><br/><sup><sub>Tags: #auth #authentication #authorization #javascript #permissions #rbac #role #role-based-access-control</sub></sup><br/>Hierarchical Role Based Access Control for NodeJS. </td>
-  <td><a href="./stars/seeden/rbac.md">Dec 22, 2024</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/gilbarbara/react-joyride">gilbarbara/react-joyride</a><sup><sub> - TypeScript - Aug 28, 2015</sub></sup><br/><sup><sub>Tags: #joyride #react #react-component #tooltip #tour</sub></sup><br/>Create guided tours in your apps. </td>
-  <td><a href="./stars/gilbarbara/react-joyride.md">Dec 21, 2024</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/urql-graphql/urql">urql-graphql/urql</a><sup><sub> - TypeScript - Jan 24, 2018</sub></sup><br/><sup><sub>Tags: #complex-apps #exchange #graphql #graphql-client #graphql-clients</sub></sup><br/>The highly customizable and versatile GraphQL client with which you add on<br/>features like normalized caching as you grow. </td>
-  <td><a href="./stars/urql-graphql/urql.md">Dec 21, 2024</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/sendgrid/email-templates">sendgrid/email-templates</a><sup><sub> - HTML - Oct 24, 2017</sub></sup><br/>A repository of common email templates to use and modify to your<br/>heart&#039;s content. </td>
-  <td><a href="./stars/sendgrid/email-templates.md">Dec 21, 2024</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/ericclemmons/click-to-component">ericclemmons/click-to-component</a><sup><sub> - TypeScript - Mar 13, 2022</sub></sup><br/>Option+Click React components in your browser to instantly open the source<br/>in VS Code. </td>
-  <td><a href="./stars/ericclemmons/click-to-component.md">Dec 21, 2024</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/Secretmapper/react-image-annotation">Secretmapper/react-image-annotation</a><sup><sub> - JavaScript - Feb 18, 2018</sub></sup><br/><sup><sub>Tags: #annotation #annotation-tool #annotations #react</sub></sup><br/>An infinitely customizable image annotation library built on React. </td>
-  <td><a href="./stars/Secretmapper/react-image-annotation.md">Dec 21, 2024</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/typescript-cheatsheets/utilities">typescript-cheatsheets/utilities</a><sup><sub> - May 02, 2019</sub></sup><br/>a list of typescript helper libraries. </td>
-  <td><a href="./stars/typescript-cheatsheets/utilities.md">Dec 21, 2024</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/cdk-patterns/serverless">cdk-patterns/serverless</a><sup><sub> - TypeScript - Jan 12, 2020</sub></sup><br/><sup><sub>Tags: #appsync #aws #aws-cdk #cdk #cloudformation #dynamodb #eventbridge #graphql #lambda-destinations #lambda-functions<br/>#python #serverless #sns #sqs #stepfunctions #typescript</sub></sup><br/>This is intended to be a repo containing all of the official AWS Serverless<br/>architecture patterns built with CDK for developers to use. All patterns<br/>come in Typescript and Python with the exported CloudFormation also<br/>included. </td>
-  <td><a href="./stars/cdk-patterns/serverless.md">Dec 21, 2024</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/wojtekmaj/react-pdf">wojtekmaj/react-pdf</a><sup><sub> - TypeScript - Aug 01, 2016</sub></sup><br/><sup><sub>Tags: #pdf #pdf-viewer #react</sub></sup><br/>Display PDFs in your React app as easily as if they were images. </td>
-  <td><a href="./stars/wojtekmaj/react-pdf.md">Dec 21, 2024</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/terrastruct/d2">terrastruct/d2</a><sup><sub> - JavaScript - Sep 05, 2022</sub></sup><br/><sup><sub>Tags: #developer-tools #diagramming #diagrams #go #golang #software-architecture #text-to-diagram</sub></sup><br/>D2 is a modern diagram scripting language that turns text to diagrams. </td>
-  <td><a href="./stars/terrastruct/d2.md">Dec 21, 2024</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/gofireflyio/aiac">gofireflyio/aiac</a><sup><sub> - Go - Dec 07, 2022</sub></sup><br/><sup><sub>Tags: #ai #amazon-bedrock #chatgpt #iac #llms #ollama #openai #pulumi #terraform</sub></sup><br/>Artificial Intelligence Infrastructure-as-Code Generator. </td>
-  <td><a href="./stars/gofireflyio/aiac.md">Dec 21, 2024</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/mattpocock/ts-reset">mattpocock/ts-reset</a><sup><sub> - TypeScript - Feb 19, 2023</sub></sup><br/><sup><sub>Tags: #reset #typescript</sub></sup><br/>A &#039;CSS reset&#039; for TypeScript, improving types for common<br/>JavaScript API&#039;s. </td>
-  <td><a href="./stars/mattpocock/ts-reset.md">Dec 21, 2024</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/alampros/react-confetti">alampros/react-confetti</a><sup><sub> - TypeScript - Apr 19, 2016</sub></sup><br/>Confetti without the cleanup. </td>
-  <td><a href="./stars/alampros/react-confetti.md">Dec 21, 2024</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/keycloak/keycloak">keycloak/keycloak</a><sup><sub> - Java - Jul 02, 2013</sub></sup><br/><sup><sub>Tags: #keycloak #oidc #saml</sub></sup><br/>Open Source Identity and Access Management For Modern Applications and<br/>Services. </td>
-  <td><a href="./stars/keycloak/keycloak.md">Dec 21, 2024</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/sindresorhus/cli-spinners">sindresorhus/cli-spinners</a><sup><sub> - JavaScript - Mar 03, 2016</sub></sup><br/>Spinners for use in the terminal. </td>
-  <td><a href="./stars/sindresorhus/cli-spinners.md">Dec 21, 2024</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/Textualize/frogmouth">Textualize/frogmouth</a><sup><sub> - Python - Apr 03, 2023</sub></sup><br/><sup><sub>Tags: #markdown #markdown-viewer #python #terminal-based #textual #tui</sub></sup><br/>A Markdown browser for your terminal. </td>
-  <td><a href="./stars/Textualize/frogmouth.md">Dec 21, 2024</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/aws-samples/image-optimization">aws-samples/image-optimization</a><sup><sub> - TypeScript - Oct 12, 2022</sub></sup><br/>Simple, performant and cost efficient solution for optimizing images using<br/>Amazon CloudFront, Amazon S3 and AWS Lambda. </td>
-  <td><a href="./stars/aws-samples/image-optimization.md">Dec 21, 2024</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/sagidM/s3-resizer">sagidM/s3-resizer</a><sup><sub> - JavaScript - Sep 09, 2017</sub></sup><br/><sup><sub>Tags: #amazon-s3 #aws-lambda #microservice</sub></sup><br/>AWS Lambda for resizing images in S3 on fly. </td>
-  <td><a href="./stars/sagidM/s3-resizer.md">Dec 21, 2024</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/mdx-editor/editor">mdx-editor/editor</a><sup><sub> - TypeScript - Jan 19, 2023</sub></sup><br/><sup><sub>Tags: #editor #lexical #markdown #markdown-editor #mdx #react #reactjs #rich-text-editor</sub></sup><br/>A rich text editor React component for markdown. </td>
-  <td><a href="./stars/mdx-editor/editor.md">Dec 21, 2024</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/Eliav2/react-xarrows">Eliav2/react-xarrows</a><sup><sub> - TypeScript - Apr 04, 2020</sub></sup><br/>Draw arrows (or lines) between components in React!. </td>
-  <td><a href="./stars/Eliav2/react-xarrows.md">Dec 21, 2024</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/excalidraw/mermaid-to-excalidraw">excalidraw/mermaid-to-excalidraw</a><sup><sub> - TypeScript - Apr 17, 2023</sub></sup><br/>Generate Excalidraw diagrams from Mermaid. </td>
-  <td><a href="./stars/excalidraw/mermaid-to-excalidraw.md">Dec 21, 2024</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/dorny/paths-filter">dorny/paths-filter</a><sup><sub> - TypeScript - May 20, 2020</sub></sup><br/><sup><sub>Tags: #change-detection #ci-cd #conditional-execution #github-actions</sub></sup><br/>Conditionally run actions based on files modified by PR, feature branch or<br/>pushed commits. </td>
-  <td><a href="./stars/dorny/paths-filter.md">Dec 21, 2024</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/gitroomhq/postiz-app">gitroomhq/postiz-app</a><sup><sub> - TypeScript - Jul 08, 2023</sub></sup><br/><sup><sub>Tags: #nextjs #open-source #open-source-social-media-scheduling-tool #oss #redis #scheduling-tool<br/>#social-media-scheduling-tool #typescript</sub></sup><br/>📨 The ultimate social media scheduling tool, with a bunch of AI  🤖. </td>
-  <td><a href="./stars/gitroomhq/postiz-app.md">Dec 21, 2024</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/BuilderIO/gpt-crawler">BuilderIO/gpt-crawler</a><sup><sub> - TypeScript - Nov 14, 2023</sub></sup><br/><sup><sub>Tags: #ai</sub></sup><br/>Crawl a site to generate knowledge files to create your own custom GPT from<br/>a URL. </td>
-  <td><a href="./stars/BuilderIO/gpt-crawler.md">Dec 21, 2024</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/formbricks/formbricks">formbricks/formbricks</a><sup><sub> - TypeScript - Jun 06, 2022</sub></sup><br/><sup><sub>Tags: #experience-management #form #forms #nextjs #open-source #react #reactjs #survey #survey-analysis #survey-data<br/>#survey-form #surveys #tailwindcss #turborepo #typeform #typescript #xm</sub></sup><br/>Open Source Survey Platform. </td>
-  <td><a href="./stars/formbricks/formbricks.md">Dec 21, 2024</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/paralleldrive/cuid2">paralleldrive/cuid2</a><sup><sub> - JavaScript - Dec 26, 2022</sub></sup><br/>Next generation guids. Secure, collision-resistant ids optimized for<br/>horizontal scaling and performance. </td>
-  <td><a href="./stars/paralleldrive/cuid2.md">Dec 21, 2024</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/anthonynsimon/timeflake">anthonynsimon/timeflake</a><sup><sub> - Python - Jan 11, 2020</sub></sup><br/><sup><sub>Tags: #python #uuid</sub></sup><br/>Timeflake is a 128-bit, roughly-ordered, URL-safe UUID. </td>
-  <td><a href="./stars/anthonynsimon/timeflake.md">Dec 21, 2024</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/johannschopplich/unlazy">johannschopplich/unlazy</a><sup><sub> - TypeScript - Apr 14, 2023</sub></sup><br/><sup><sub>Tags: #blurhash #lazy-loading #lazyload #placeholder</sub></sup><br/>🪧 Universal lazy loading library for placeholder images leveraging native<br/>browser APIs. </td>
-  <td><a href="./stars/johannschopplich/unlazy.md">Dec 21, 2024</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/m31coding/fuzzy-search">m31coding/fuzzy-search</a><sup><sub> - TypeScript - Feb 06, 2024</sub></sup><br/><sup><sub>Tags: #fuzzy #fuzzy-search #javascript #search #string-matching #typescript</sub></sup><br/>A fast, accurate and multilingual fuzzy search library for the frontend. </td>
-  <td><a href="./stars/m31coding/fuzzy-search.md">Dec 21, 2024</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/awslabs/llrt">awslabs/llrt</a><sup><sub> - JavaScript - Sep 20, 2023</sub></sup><br/>LLRT (Low Latency Runtime) is an experimental, lightweight JavaScript<br/>runtime designed to address the growing demand for fast and efficient<br/>Serverless applications. </td>
-  <td><a href="./stars/awslabs/llrt.md">Dec 21, 2024</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/ferdikoomen/openapi-typescript-codegen">ferdikoomen/openapi-typescript-codegen</a><sup><sub> - TypeScript - Nov 05, 2019</sub></sup><br/><sup><sub>Tags: #angular #axios #codegen #generator #javascript #nodejs #openapi #swagger #typescript</sub></sup><br/>NodeJS library that generates Typescript or Javascript clients based on the<br/>OpenAPI specification. </td>
-  <td><a href="./stars/ferdikoomen/openapi-typescript-codegen.md">Dec 21, 2024</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/praneshr/react-diff-viewer">praneshr/react-diff-viewer</a><sup><sub> - TypeScript - Sep 27, 2018</sub></sup><br/><sup><sub>Tags: #code-compare #diff #diff-viewer #reactjs</sub></sup><br/>A simple and beautiful text diff viewer component made with Diff and React. </td>
-  <td><a href="./stars/praneshr/react-diff-viewer.md">Dec 21, 2024</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/ueberdosis/awesome-tiptap">ueberdosis/awesome-tiptap</a><sup><sub> - Nov 13, 2020</sub></sup><br/><sup><sub>Tags: #awesome #prosemirror #tiptap</sub></sup><br/>⚡ Delightful Tiptap packages and resources. </td>
-  <td><a href="./stars/ueberdosis/awesome-tiptap.md">Dec 21, 2024</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/microsoft/Security-101">microsoft/Security-101</a><sup><sub> - HTML - Jan 31, 2024</sub></sup><br/><sup><sub>Tags: #appsec #cia-triad #data-protection #data-security #iam #identity #risk-management #secops #security #threat-modeling<br/>#zero-trust</sub></sup><br/>8 Lessons, Kick-start Your Cybersecurity Learning. </td>
-  <td><a href="./stars/microsoft/Security-101.md">Dec 21, 2024</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/drawdb-io/drawdb">drawdb-io/drawdb</a><sup><sub> - JavaScript - Jul 16, 2023</sub></sup><br/><sup><sub>Tags: #database-schema #diagram-editor #editor #erd #erdiagram #hacktoberfest #indexeddb #javascript #mariadb #postgresql<br/>#react #sql #sql-server #sqlite #svg #tailwindcss</sub></sup><br/>Free, simple, and intuitive online database diagram editor and SQL<br/>generator. </td>
-  <td><a href="./stars/drawdb-io/drawdb.md">Dec 21, 2024</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/wevm/vocs">wevm/vocs</a><sup><sub> - TypeScript - Oct 13, 2023</sub></sup><br/><sup><sub>Tags: #docs #markdown #mdx #react #typescript #vite</sub></sup><br/>Minimal Documentation Framework, powered by React + Vite. </td>
-  <td><a href="./stars/wevm/vocs.md">Dec 21, 2024</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/supermemoryai/markdowner">supermemoryai/markdowner</a><sup><sub> - TypeScript - May 09, 2024</sub></sup><br/>A fast tool to convert any website into LLM-ready markdown data. Built by<br/>https://supermemory.ai. </td>
-  <td><a href="./stars/supermemoryai/markdowner.md">Dec 21, 2024</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/aspen-cloud/triplit">aspen-cloud/triplit</a><sup><sub> - TypeScript - Jul 20, 2023</sub></sup><br/><sup><sub>Tags: #bun #cloudflare-workers #crdt #database #deno #durable-objects #firebase #firestore #fullstack #indexeddb #leveldb<br/>#multiplayer #nextjs #pwa #react #rxdb #sqlite #supabase #websockets</sub></sup><br/>A full-stack, syncing database that runs on both server and client.<br/>Pluggable storage (indexeddb, sqlite, durable objects), syncs over<br/>websockets, and works with your favorite framework (React, Solid, Vue,<br/>Svelte). </td>
-  <td><a href="./stars/aspen-cloud/triplit.md">Dec 21, 2024</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/stack-auth/stack-auth">stack-auth/stack-auth</a><sup><sub> - TypeScript - Feb 28, 2024</sub></sup><br/><sup><sub>Tags: #auth #auth0 #authentication #clerk #cognito #email-password #firebase-auth #keycloak #login #magic-link #nextjs #oauth<br/>#password #react #session-management #shadcn #signin #social-login #supabase-auth #typescript</sub></sup><br/>Open-source Auth0/Clerk alternative. </td>
-  <td><a href="./stars/stack-auth/stack-auth.md">Dec 21, 2024</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/better-auth/better-auth">better-auth/better-auth</a><sup><sub> - TypeScript - May 19, 2024</sub></sup><br/>The most comprehensive authentication framework for TypeScript. </td>
-  <td><a href="./stars/better-auth/better-auth.md">Dec 21, 2024</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/teamhanko/hanko">teamhanko/hanko</a><sup><sub> - Go - Mar 14, 2022</sub></sup><br/><sup><sub>Tags: #2fa #authentication #ciam #fido2 #jwt #oauth #passkeys #passwordless #saml #sign-in-with-apple #sign-in-with-google<br/>#sso #user-management #webauthn</sub></sup><br/>The Complete Authentication and User Management Solution for the Passkey<br/>Era. Open Source Alternative to Clerk, Auth0, et al. </td>
-  <td><a href="./stars/teamhanko/hanko.md">Dec 21, 2024</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/okeeffed/spike-autogen-postman-collections">okeeffed/spike-autogen-postman-collections</a><sup><sub> - TypeScript - May 23, 2024</sub></sup></td>
-  <td><a href="./stars/okeeffed/spike-autogen-postman-collections.md">Dec 21, 2024</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/okeeffed/aws-dbg">okeeffed/aws-dbg</a><sup><sub> - JavaScript - Feb 08, 2024</sub></sup></td>
-  <td><a href="./stars/okeeffed/aws-dbg.md">Dec 21, 2024</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/pmilliotte/dynamodb-toolbox-integrations">pmilliotte/dynamodb-toolbox-integrations</a><sup><sub> - TypeScript - Oct 07, 2022</sub></sup><br/>A set of CDK constructs enabling the use of dynamodb-toolbox in AWS direct<br/>integrations between Step Functions and Dynamodb. </td>
-  <td><a href="./stars/pmilliotte/dynamodb-toolbox-integrations.md">Dec 21, 2024</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/elthrasher/planetstack">elthrasher/planetstack</a><sup><sub> - TypeScript - Jun 17, 2021</sub></sup></td>
-  <td><a href="./stars/elthrasher/planetstack.md">Dec 21, 2024</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/VicenteMerino/IGNScrapper">VicenteMerino/IGNScrapper</a><sup><sub> - JavaScript - Jun 28, 2022</sub></sup><br/>IGN news site scrapper. </td>
-  <td><a href="./stars/VicenteMerino/IGNScrapper.md">Dec 21, 2024</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/webpack/enhanced-resolve">webpack/enhanced-resolve</a><sup><sub> - JavaScript - Aug 13, 2012</sub></sup><br/><sup><sub>Tags: #commonjs #esm #javascript #resolve #resolver</sub></sup><br/>Offers an async require.resolve function. It&#039;s highly configurable. </td>
-  <td><a href="./stars/webpack/enhanced-resolve.md">Dec 21, 2024</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/JoshuaKGoldberg/import-local-or-npx">JoshuaKGoldberg/import-local-or-npx</a><sup><sub> - TypeScript - Dec 20, 2024</sub></sup><br/>Imports a local package or one installed from npx. 🚚. </td>
-  <td><a href="./stars/JoshuaKGoldberg/import-local-or-npx.md">Dec 21, 2024</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/casbin/node-casbin">casbin/node-casbin</a><sup><sub> - TypeScript - Jul 15, 2018</sub></sup><br/><sup><sub>Tags: #abac #access-control #acl #auth #authorization #authz #casbin #javascript #js #node #nodejs #permission #permissions<br/>#rbac</sub></sup><br/>An authorization library that supports access control models like ACL,<br/>RBAC, ABAC in Node.js and Browser. </td>
-  <td><a href="./stars/casbin/node-casbin.md">Dec 20, 2024</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/devneill/slidenote">devneill/slidenote</a><sup><sub> - TypeScript - Nov 05, 2024</sub></sup><br/>A scroll driven popover for React. </td>
-  <td><a href="./stars/devneill/slidenote.md">Dec 19, 2024</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/aws-samples/aws-waf-ops-dashboards">aws-samples/aws-waf-ops-dashboards</a><sup><sub> - Python - Apr 13, 2021</sub></sup></td>
-  <td><a href="./stars/aws-samples/aws-waf-ops-dashboards.md">Dec 18, 2024</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/guardian/archivehunter">guardian/archivehunter</a><sup><sub> - Scala - Oct 29, 2018</sub></sup><br/><sup><sub>Tags: #multimedia-tech</sub></sup><br/>Index and search for media stored in s3 buckets. </td>
-  <td><a href="./stars/guardian/archivehunter.md">Dec 18, 2024</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/CacheControl/json-rules-engine">CacheControl/json-rules-engine</a><sup><sub> - JavaScript - Jan 26, 2016</sub></sup><br/><sup><sub>Tags: #business-rules #engine #json #rule-engine #rules #rules-engine #rules-processor</sub></sup><br/>A rules engine expressed in JSON. </td>
-  <td><a href="./stars/CacheControl/json-rules-engine.md">Dec 12, 2024</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/TanStack/query">TanStack/query</a><sup><sub> - TypeScript - Sep 10, 2019</sub></sup><br/><sup><sub>Tags: #async #cache #data #fetch #graphql #hooks #query #react #rest #solid #stale #stale-while-revalidate #svelte<br/>#typescript #update #vue</sub></sup><br/>🤖 Powerful asynchronous state management, server-state utilities and data<br/>fetching for the web. TS/JS, React Query, Solid Query, Svelte Query and Vue<br/>Query. </td>
-  <td><a href="./stars/TanStack/query.md">Dec 11, 2024</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/dev-cycles/contextive">dev-cycles/contextive</a><sup><sub> - F# - Oct 24, 2021</sub></sup><br/><sup><sub>Tags: #ddd #domain-modelling #knowledge-management #ubiquitous-language</sub></sup><br/>Get on the same page. </td>
-  <td><a href="./stars/dev-cycles/contextive.md">Dec 11, 2024</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/nkzw-tech/fbtee">nkzw-tech/fbtee</a><sup><sub> - TypeScript - Oct 05, 2020</sub></sup><br/>The JavaScript &amp; React Internationalization Framework. </td>
-  <td><a href="./stars/nkzw-tech/fbtee.md">Dec 10, 2024</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/activeguild/vite-plugin-sass-dts">activeguild/vite-plugin-sass-dts</a><sup><sub> - HTML - Oct 12, 2021</sub></sup><br/><sup><sub>Tags: #css #cssmodules #plugin #react #sass #scss #vite</sub></sup><br/>This is a plugin that automatically creates a type file when using the CSS<br/>module type-safely. </td>
-  <td><a href="./stars/activeguild/vite-plugin-sass-dts.md">Dec 10, 2024</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/netlify/gh-release-fetch">netlify/gh-release-fetch</a><sup><sub> - TypeScript - Mar 15, 2019</sub></sup></td>
-  <td><a href="./stars/netlify/gh-release-fetch.md">Dec 09, 2024</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/evestera/json_typegen">evestera/json_typegen</a><sup><sub> - Rust - Mar 04, 2017</sub></sup><br/><sup><sub>Tags: #code-generation #json #rust</sub></sup><br/>Tools and libraries to create types for Rust, Kotlin, TypeScript and Python<br/>from JSON samples. </td>
-  <td><a href="./stars/evestera/json_typegen.md">Dec 07, 2024</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/dzlau/stripe-supabase-saas-template">dzlau/stripe-supabase-saas-template</a><sup><sub> - TypeScript - Aug 16, 2024</sub></sup></td>
-  <td><a href="./stars/dzlau/stripe-supabase-saas-template.md">Dec 07, 2024</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/ran-isenberg/appsync-events-client">ran-isenberg/appsync-events-client</a><sup><sub> - JavaScript - Nov 16, 2024</sub></sup><br/>AppSync Events frontend sample implementation. </td>
-  <td><a href="./stars/ran-isenberg/appsync-events-client.md">Dec 06, 2024</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/rogerchi/ddb-locking-read">rogerchi/ddb-locking-read</a><sup><sub> - TypeScript - Dec 05, 2024</sub></sup></td>
-  <td><a href="./stars/rogerchi/ddb-locking-read.md">Dec 05, 2024</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/aidenybai/react-scan">aidenybai/react-scan</a><sup><sub> - TypeScript - Sep 02, 2024</sub></sup><br/><sup><sub>Tags: #javascript #react #react-dom #react-scan #rendering</sub></sup><br/>Scan for React performance issues and eliminate slow renders in your app. </td>
-  <td><a href="./stars/aidenybai/react-scan.md">Dec 03, 2024</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/remorses/ai-fallback">remorses/ai-fallback</a><sup><sub> - TypeScript - Nov 28, 2024</sub></sup><br/>Automatically switch AI SDK model provider when one of the providers has<br/>downtime. </td>
-  <td><a href="./stars/remorses/ai-fallback.md">Nov 29, 2024</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/build-on-aws/fullstack-appsync-events-4-in-a-row">build-on-aws/fullstack-appsync-events-4-in-a-row</a><sup><sub> - TypeScript - Nov 25, 2024</sub></sup><br/><sup><sub>Tags: #amplify #aws #aws-cdk #game-development #nextjs #react #serverless #typescript #v0</sub></sup><br/>A fullstack real-time game where developers play four-in-a-row. </td>
-  <td><a href="./stars/build-on-aws/fullstack-appsync-events-4-in-a-row.md">Nov 27, 2024</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/streamich/very-small-parser">streamich/very-small-parser</a><sup><sub> - TypeScript - Nov 24, 2024</sub></sup><br/>Small, no dependencies, Markdown, HTML, and inline CSS parser. Just 4KB,<br/>available as ESM module from CDN. </td>
-  <td><a href="./stars/streamich/very-small-parser.md">Nov 25, 2024</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/browserbase/stagehand">browserbase/stagehand</a><sup><sub> - TypeScript - Mar 24, 2024</sub></sup><br/><sup><sub>Tags: #agents #ai #llms #playwright #puppeteer #selenium</sub></sup><br/>An AI web browsing framework focused on simplicity and extensibility. </td>
-  <td><a href="./stars/browserbase/stagehand.md">Nov 25, 2024</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/adobe/jsonschema2md">adobe/jsonschema2md</a><sup><sub> - JavaScript - Dec 04, 2017</sub></sup><br/><sup><sub>Tags: #json-schema #markdown</sub></sup><br/>Convert Complex JSON Schemas into Markdown Documentation. </td>
-  <td><a href="./stars/adobe/jsonschema2md.md">Nov 22, 2024</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/jonschlinkert/expand-json-schema">jonschlinkert/expand-json-schema</a><sup><sub> - TypeScript - Nov 10, 2024</sub></sup><br/>Light weight JSON Schema $ref resolver. Expands a JSON Schema by resolving<br/>`$ref` references from a mapping of definitions. Does not handle remote<br/>references. Has comprehensive unit tests and no dependencies. </td>
-  <td><a href="./stars/jonschlinkert/expand-json-schema.md">Nov 12, 2024</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/alloc/json-qs">alloc/json-qs</a><sup><sub> - TypeScript - Oct 26, 2024</sub></sup><br/><sup><sub>Tags: #json #querystring #specification</sub></sup><br/>JSON in query strings, human-readable and compact. </td>
-  <td><a href="./stars/alloc/json-qs.md">Oct 28, 2024</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/wesbos/tile-buddy">wesbos/tile-buddy</a><sup><sub> - TypeScript - Oct 16, 2024</sub></sup><br/>a patterned background helper tool. </td>
-  <td><a href="./stars/wesbos/tile-buddy.md">Oct 16, 2024</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/muxinc/media-chrome">muxinc/media-chrome</a><sup><sub> - TypeScript - Sep 14, 2019</sub></sup><br/><sup><sub>Tags: #audio #audio-player #media-chrome #mux #ui-components #video #video-player #web-components</sub></sup><br/>Custom elements (web components) for making audio and video player controls<br/>that look great in your website or app. </td>
-  <td><a href="./stars/muxinc/media-chrome.md">Oct 11, 2024</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/xzdarcy/react-timeline-editor">xzdarcy/react-timeline-editor</a><sup><sub> - TypeScript - Feb 19, 2022</sub></sup><br/><sup><sub>Tags: #animation #editor #react</sub></sup><br/>react-timeline-editor is a react component used to quickly build a timeline<br/>animation editor. </td>
-  <td><a href="./stars/xzdarcy/react-timeline-editor.md">Oct 09, 2024</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/crabbly/Print.js">crabbly/Print.js</a><sup><sub> - JavaScript - Apr 14, 2016</sub></sup><br/>A tiny javascript library to help printing from the web. </td>
-  <td><a href="./stars/crabbly/Print.js.md">Oct 09, 2024</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/unadlib/mutative">unadlib/mutative</a><sup><sub> - TypeScript - Mar 26, 2022</sub></sup><br/><sup><sub>Tags: #immer #immutability #immutable #mutable #mutation #mutative #react #reducer #redux #state-management</sub></sup><br/>Efficient immutable updates, 2-6x faster than naive handcrafted reducer,<br/>and more than 10x faster than Immer. </td>
-  <td><a href="./stars/unadlib/mutative.md">Oct 09, 2024</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/andrico1234/the-dilemmas-youll-face">andrico1234/the-dilemmas-youll-face</a><sup><sub> - Apr 08, 2024</sub></sup><br/>The Dilemmas You&#039;ll Face When Creating Your First Component Library. </td>
-  <td><a href="./stars/andrico1234/the-dilemmas-youll-face.md">Oct 09, 2024</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/Automattic/harper-obsidian-plugin">Automattic/harper-obsidian-plugin</a><sup><sub> - Just - Jul 08, 2024</sub></sup></td>
-  <td><a href="./stars/Automattic/harper-obsidian-plugin.md">Oct 06, 2024</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/t3dotgg/quickpic">t3dotgg/quickpic</a><sup><sub> - TypeScript - Oct 06, 2024</sub></sup><br/>Turn SVGs into high resolution PNGs in 2 clicks. </td>
-  <td><a href="./stars/t3dotgg/quickpic.md">Oct 06, 2024</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/bensenescu/sst-feature-flag">bensenescu/sst-feature-flag</a><sup><sub> - TypeScript - Oct 02, 2024</sub></sup><br/>SST Feature Flag is a feature flagging service that you can deploy into<br/>your AWS account with only a few simple commands. </td>
-  <td><a href="./stars/bensenescu/sst-feature-flag.md">Oct 04, 2024</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/pwrdrvr/lambda-dispatch">pwrdrvr/lambda-dispatch</a><sup><sub> - C# - Dec 16, 2023</sub></sup><br/><sup><sub>Tags: #aws #aws-lambda #cold-start #csharp #dotnet #http2 #rust-lang</sub></sup><br/>Lambda Dispatch for AWS Lambda - Avoid cold starts, save up to 80%!. </td>
-  <td><a href="./stars/pwrdrvr/lambda-dispatch.md">Oct 03, 2024</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/sam-goodwin/mini-workflow">sam-goodwin/mini-workflow</a><sup><sub> - TypeScript - Sep 30, 2024</sub></sup></td>
-  <td><a href="./stars/sam-goodwin/mini-workflow.md">Oct 02, 2024</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/purple-technology/serverless-monitoring-plugin">purple-technology/serverless-monitoring-plugin</a><sup><sub> - JavaScript - Apr 28, 2021</sub></sup><br/>Plugin for Serverless Framework which generates dashboards for different<br/>resources. </td>
-  <td><a href="./stars/purple-technology/serverless-monitoring-plugin.md">Sep 30, 2024</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/mingrammer/diagrams">mingrammer/diagrams</a><sup><sub> - Python - Feb 02, 2020</sub></sup><br/><sup><sub>Tags: #architecture #diagram #diagram-as-code #graphviz</sub></sup><br/>:art: Diagram as Code for prototyping cloud system architectures. </td>
-  <td><a href="./stars/mingrammer/diagrams.md">Sep 29, 2024</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/inngest/workflow-kit">inngest/workflow-kit</a><sup><sub> - TypeScript - Jun 21, 2024</sub></sup><br/><sup><sub>Tags: #durable-functions #durable-workflows #react #typescript #workflow-engine</sub></sup><br/>The quickest and easiest way to add a Zapier-like workflow UI experience to<br/>your product. Define actions in your backend and expose a Workflow UI<br/>using pre-built React components. </td>
-  <td><a href="./stars/inngest/workflow-kit.md">Sep 25, 2024</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/trufflesecurity/trufflehog">trufflesecurity/trufflehog</a><sup><sub> - Go - Dec 31, 2016</sub></sup><br/><sup><sub>Tags: #credentials #devsecops #dynamic-analysis #hacktoberfest #precommit #scanning #secret #secret-management #secrets<br/>#security #security-tools #trufflehog #verification</sub></sup><br/>Find, verify, and analyze leaked credentials. </td>
-  <td><a href="./stars/trufflesecurity/trufflehog.md">Sep 23, 2024</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/tux86/lambda-function-url-custom-domain">tux86/lambda-function-url-custom-domain</a><sup><sub> - JavaScript - May 07, 2022</sub></sup><br/><sup><sub>Tags: #cloudfront #custom-domain #lambda #route53 #serverless #serverless-framework</sub></sup><br/>Configuring a Custom domain for AWS Lambda Function URL without an API<br/>Gateway. </td>
-  <td><a href="./stars/tux86/lambda-function-url-custom-domain.md">Sep 23, 2024</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/RaisinTen/breqd">RaisinTen/breqd</a><sup><sub> - JavaScript - Sep 21, 2024</sub></sup><br/><sup><sub>Tags: #nodejs #performance #require</sub></sup><br/>Builtin module REQuire Durations. </td>
-  <td><a href="./stars/RaisinTen/breqd.md">Sep 22, 2024</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/bloomberg/ts-blank-space">bloomberg/ts-blank-space</a><sup><sub> - TypeScript - Aug 19, 2024</sub></sup><br/><sup><sub>Tags: #javascript #type-stripping #typescript</sub></sup><br/>A small, fast, pure JavaScript type-stripper that uses the official<br/>TypeScript parser. </td>
-  <td><a href="./stars/bloomberg/ts-blank-space.md">Sep 19, 2024</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/onanmco/virtual-assistant">onanmco/virtual-assistant</a><sup><sub> - TypeScript - Dec 11, 2023</sub></sup></td>
-  <td><a href="./stars/onanmco/virtual-assistant.md">Sep 19, 2024</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/onanmco/url-shortener">onanmco/url-shortener</a><sup><sub> - TypeScript - Oct 30, 2022</sub></sup><br/>A CDK application creates a URL shortener service on AWS cloud. </td>
-  <td><a href="./stars/onanmco/url-shortener.md">Sep 19, 2024</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/WebReflection/re">WebReflection/re</a><sup><sub> - JavaScript - Sep 18, 2024</sub></sup><br/>A template literal tag that sanitizes interpolations. </td>
-  <td><a href="./stars/WebReflection/re.md">Sep 18, 2024</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/onanmco/protected-s3-static-website">onanmco/protected-s3-static-website</a><sup><sub> - TypeScript - May 06, 2023</sub></sup><br/>CDK app deploys an S3 bucket in which you can store your static website,<br/>fronted by a CloudFront distribution implements cookie-based authentication<br/>with Cognito integration. </td>
-  <td><a href="./stars/onanmco/protected-s3-static-website.md">Sep 17, 2024</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/shamilasallay/aws-cross-account-userpool-migration">shamilasallay/aws-cross-account-userpool-migration</a><sup><sub> - JavaScript - Aug 06, 2022</sub></sup></td>
-  <td><a href="./stars/shamilasallay/aws-cross-account-userpool-migration.md">Sep 17, 2024</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/loginov-rocks/WebSocket-API-Gateway-IAM-Signer">loginov-rocks/WebSocket-API-Gateway-IAM-Signer</a><sup><sub> - JavaScript - Oct 07, 2023</sub></sup><br/>WebSocket API Gateway IAM Signer. </td>
-  <td><a href="./stars/loginov-rocks/WebSocket-API-Gateway-IAM-Signer.md">Sep 17, 2024</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/loginov-rocks/WebSocket-API-Gateway-Cognito-Authorizer">loginov-rocks/WebSocket-API-Gateway-Cognito-Authorizer</a><sup><sub> - JavaScript - Jan 18, 2024</sub></sup><br/>WebSocket API Gateway Cognito Authorizer. </td>
-  <td><a href="./stars/loginov-rocks/WebSocket-API-Gateway-Cognito-Authorizer.md">Sep 17, 2024</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/aladevlearning/chatgpt-polly">aladevlearning/chatgpt-polly</a><sup><sub> - JavaScript - Dec 10, 2022</sub></sup></td>
-  <td><a href="./stars/aladevlearning/chatgpt-polly.md">Sep 17, 2024</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/XaaXaaX/aws-cognito-impersonation">XaaXaaX/aws-cognito-impersonation</a><sup><sub> - TypeScript - Apr 20, 2024</sub></sup></td>
-  <td><a href="./stars/XaaXaaX/aws-cognito-impersonation.md">Sep 17, 2024</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/Collaborne/tasks-scheduler">Collaborne/tasks-scheduler</a><sup><sub> - TypeScript - Feb 28, 2018</sub></sup><br/>A time-based scheduler for tasks. </td>
-  <td><a href="./stars/Collaborne/tasks-scheduler.md">Sep 17, 2024</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/Collaborne/mwc-markdown-editor">Collaborne/mwc-markdown-editor</a><sup><sub> - TypeScript - Jun 14, 2020</sub></sup><br/>A markdown editor following Material Design spec. </td>
-  <td><a href="./stars/Collaborne/mwc-markdown-editor.md">Sep 17, 2024</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/Collaborne/y-serverless">Collaborne/y-serverless</a><sup><sub> - JavaScript - Sep 04, 2021</sub></sup><br/>Serverless Provider using Websockets and DynamoDB for YJS. </td>
-  <td><a href="./stars/Collaborne/y-serverless.md">Sep 17, 2024</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/Collaborne/query-to-open-search">Collaborne/query-to-open-search</a><sup><sub> - TypeScript - Jul 17, 2024</sub></sup><br/>Translates query strings into OpenSearch queries. </td>
-  <td><a href="./stars/Collaborne/query-to-open-search.md">Sep 17, 2024</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/Collaborne/migrate-cognito-user-pool-lambda">Collaborne/migrate-cognito-user-pool-lambda</a><sup><sub> - TypeScript - Dec 09, 2019</sub></sup></td>
-  <td><a href="./stars/Collaborne/migrate-cognito-user-pool-lambda.md">Sep 17, 2024</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/kamranahmedse/local-ses">kamranahmedse/local-ses</a><sup><sub> - TypeScript - Nov 17, 2023</sub></sup><br/>Trap and test AWS SES emails locally. </td>
-  <td><a href="./stars/kamranahmedse/local-ses.md">Sep 16, 2024</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/tschoffelen/pick-a-file">tschoffelen/pick-a-file</a><sup><sub> - JavaScript - Aug 21, 2024</sub></sup><br/>JS helper to ask the user to pick a file. </td>
-  <td><a href="./stars/tschoffelen/pick-a-file.md">Sep 16, 2024</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/tschoffelen/is-iso-date-string">tschoffelen/is-iso-date-string</a><sup><sub> - JavaScript - Sep 03, 2024</sub></sup><br/>Checks if a string is a valid ISO 8601 date string. </td>
-  <td><a href="./stars/tschoffelen/is-iso-date-string.md">Sep 16, 2024</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/includable/trace-stack">includable/trace-stack</a><sup><sub> - TypeScript - Aug 28, 2024</sub></sup><br/>Self-hosted serverless tracing. </td>
-  <td><a href="./stars/includable/trace-stack.md">Sep 16, 2024</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/tschoffelen/serverless-starter">tschoffelen/serverless-starter</a><sup><sub> - JavaScript - Jun 19, 2021</sub></sup><br/><sup><sub>Tags: #aws-lambda #nodejs #serverless</sub></sup><br/>Starter boilerplate for a serverless API. </td>
-  <td><a href="./stars/tschoffelen/serverless-starter.md">Sep 16, 2024</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/Oriyomi12/otp-bot">Oriyomi12/otp-bot</a><sup><sub> - JavaScript - Sep 19, 2021</sub></sup></td>
-  <td><a href="./stars/Oriyomi12/otp-bot.md">Sep 16, 2024</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/WebReflection/console-strings">WebReflection/console-strings</a><sup><sub> - JavaScript - Sep 13, 2024</sub></sup><br/>String utilities that understand terminal escape sequences. </td>
-  <td><a href="./stars/WebReflection/console-strings.md">Sep 16, 2024</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/paulmillr/chokidar">paulmillr/chokidar</a><sup><sub> - TypeScript - Apr 20, 2012</sub></sup><br/><sup><sub>Tags: #chokidar #filesystem #fsevents #nodejs #watch-files #watcher</sub></sup><br/>Minimal and efficient cross-platform file watching library. </td>
-  <td><a href="./stars/paulmillr/chokidar.md">Sep 13, 2024</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/skierkowski/serverless-safeguards-plugin">skierkowski/serverless-safeguards-plugin</a><sup><sub> - JavaScript - Jul 22, 2020</sub></sup></td>
-  <td><a href="./stars/skierkowski/serverless-safeguards-plugin.md">Sep 11, 2024</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/simdjson/simdjson">simdjson/simdjson</a><sup><sub> - C++ - Mar 23, 2018</sub></sup><br/><sup><sub>Tags: #aarch64 #arm #arm64 #avx2 #avx512 #c-plus-plus #clang #clang-cl #cpp11 #gcc-compiler #json #json-parser #json-pointer<br/>#loongarch #neon #simd #sse42 #vs2019 #x64</sub></sup><br/>Parsing gigabytes of JSON per second : used by Facebook/Meta Velox, the<br/>Node.js runtime, ClickHouse, WatermelonDB, Apache Doris, Milvus, StarRocks. </td>
-  <td><a href="./stars/simdjson/simdjson.md">Sep 11, 2024</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/theajack/disable-devtool">theajack/disable-devtool</a><sup><sub> - TypeScript - Oct 21, 2020</sub></sup><br/><sup><sub>Tags: #disable-devtool</sub></sup><br/>Disable web developer tools from the f12 button, right-click and browser<br/>menu. </td>
-  <td><a href="./stars/theajack/disable-devtool.md">Sep 10, 2024</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/aws-samples/lambda-with-multithreading">aws-samples/lambda-with-multithreading</a><sup><sub> - JavaScript - Jun 24, 2024</sub></sup></td>
-  <td><a href="./stars/aws-samples/lambda-with-multithreading.md">Sep 09, 2024</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/wesbos/bg-remover">wesbos/bg-remover</a><sup><sub> - TypeScript - Sep 06, 2024</sub></sup><br/>100% client side background remover. </td>
-  <td><a href="./stars/wesbos/bg-remover.md">Sep 08, 2024</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/chroxify/haptic">chroxify/haptic</a><sup><sub> - Svelte - Jan 16, 2024</sub></sup><br/>A new local-first, privacy-focused and open-source home for your markdown<br/>notes. </td>
-  <td><a href="./stars/chroxify/haptic.md">Sep 05, 2024</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/lukeed/empathic">lukeed/empathic</a><sup><sub> - TypeScript - Sep 01, 2024</sub></sup><br/>A set of small Node.js utilities to understand your pathing needs. </td>
-  <td><a href="./stars/lukeed/empathic.md">Sep 03, 2024</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/jiawei397/deno_yaml_to_ts">jiawei397/deno_yaml_to_ts</a><sup><sub> - TypeScript - Jan 29, 2023</sub></sup><br/>yaml to typescript interface. </td>
-  <td><a href="./stars/jiawei397/deno_yaml_to_ts.md">Sep 01, 2024</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/MariusAlch/json-to-ts">MariusAlch/json-to-ts</a><sup><sub> - TypeScript - Apr 16, 2017</sub></sup><br/>Convert jsons to typescript interfaces. </td>
-  <td><a href="./stars/MariusAlch/json-to-ts.md">Sep 01, 2024</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/jiawei397/json_to_ts_web">jiawei397/json_to_ts_web</a><sup><sub> - TypeScript - Feb 13, 2023</sub></sup><br/>JSON to TypeScript. </td>
-  <td><a href="./stars/jiawei397/json_to_ts_web.md">Sep 01, 2024</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/jiawei397/yaml_to_ts_web">jiawei397/yaml_to_ts_web</a><sup><sub> - TypeScript - Jan 29, 2023</sub></sup><br/>yaml to TS web. </td>
-  <td><a href="./stars/jiawei397/yaml_to_ts_web.md">Sep 01, 2024</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/formsmd/formsmd">formsmd/formsmd</a><sup><sub> - JavaScript - May 23, 2024</sub></sup><br/><sup><sub>Tags: #form #form-builder #forms #google-sheets #typeform #typeform-clone</sub></sup><br/>Developer-first, open source Typeform alternative (formerly known as<br/>Blocks.md). </td>
-  <td><a href="./stars/formsmd/formsmd.md">Aug 31, 2024</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/fullcalendar/fullcalendar">fullcalendar/fullcalendar</a><sup><sub> - TypeScript - Nov 22, 2009</sub></sup><br/><sup><sub>Tags: #calendar #event #full-sized</sub></sup><br/>Full-sized drag &amp; drop event calendar in JavaScript. </td>
-  <td><a href="./stars/fullcalendar/fullcalendar.md">Aug 31, 2024</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/sdennett55/svg_crop">sdennett55/svg_crop</a><sup><sub> - JavaScript - Jan 25, 2021</sub></sup><br/><sup><sub>Tags: #svg #svgo</sub></sup><br/>Remove blank space from around any SVG instantly. </td>
-  <td><a href="./stars/sdennett55/svg_crop.md">Aug 31, 2024</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/raineorshine/npm-check-updates">raineorshine/npm-check-updates</a><sup><sub> - TypeScript - Sep 07, 2013</sub></sup><br/><sup><sub>Tags: #npm #npm-check-updates</sub></sup><br/>Find newer versions of package dependencies than what your package.json<br/>allows. </td>
-  <td><a href="./stars/raineorshine/npm-check-updates.md">Aug 31, 2024</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/Sparticuz/chromium">Sparticuz/chromium</a><sup><sub> - TypeScript - Sep 26, 2022</sub></sup><br/><sup><sub>Tags: #chromium #hacktoberfest #serverless</sub></sup><br/>Chromium (x86-64) for Serverless Platforms. </td>
-  <td><a href="./stars/Sparticuz/chromium.md">Aug 31, 2024</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/taiga-family/maskito">taiga-family/maskito</a><sup><sub> - TypeScript - Nov 07, 2022</sub></sup><br/><sup><sub>Tags: #angular #hacktoberfest #input-formatting #input-mask #inputmask #mask #text-mask #typescript</sub></sup><br/>Collection of libraries to create an input mask which ensures that user<br/>types value according to predefined format. </td>
-  <td><a href="./stars/taiga-family/maskito.md">Aug 31, 2024</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/ekalinin/github-markdown-toc">ekalinin/github-markdown-toc</a><sup><sub> - Shell - Sep 02, 2014</sub></sup><br/><sup><sub>Tags: #github #markdown #shell #table-of-contents #toc</sub></sup><br/>Easy TOC creation for GitHub README.md. </td>
-  <td><a href="./stars/ekalinin/github-markdown-toc.md">Aug 30, 2024</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/BourAbdelhadi/awsviz">BourAbdelhadi/awsviz</a><sup><sub> - JavaScript - Jun 14, 2024</sub></sup></td>
-  <td><a href="./stars/BourAbdelhadi/awsviz.md">Aug 30, 2024</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/antfu/oniguruma-to-js">antfu/oniguruma-to-js</a><sup><sub> - TypeScript - Aug 30, 2024</sub></sup><br/>Covert Oniguruma-flavor Regexp to JavaScript native RegExp. </td>
-  <td><a href="./stars/antfu/oniguruma-to-js.md">Aug 30, 2024</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/zirkelc/aws-signature-v4">zirkelc/aws-signature-v4</a><sup><sub> - TypeScript - Apr 22, 2022</sub></sup><br/>AWS SignatureV4 libraries. </td>
-  <td><a href="./stars/zirkelc/aws-signature-v4.md">Aug 30, 2024</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/francismeynard/lambda-multipart-parser">francismeynard/lambda-multipart-parser</a><sup><sub> - JavaScript - Feb 04, 2019</sub></sup><br/><sup><sub>Tags: #api #api-gateway #aws #binary-file #form-data #lambda #multi-part #nodejs #s3 #text-files #upload</sub></sup><br/>This nodejs module will parse the multipart-form containing files and<br/>fields from the AWS lambda event object. It works very well parsing binary<br/>and text files. </td>
-  <td><a href="./stars/francismeynard/lambda-multipart-parser.md">Aug 30, 2024</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/guillaumeduboc/free-static-ip">guillaumeduboc/free-static-ip</a><sup><sub> - TypeScript - Oct 06, 2023</sub></sup></td>
-  <td><a href="./stars/guillaumeduboc/free-static-ip.md">Aug 30, 2024</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/guiyom-e/auto-update-ip-aws">guiyom-e/auto-update-ip-aws</a><sup><sub> - TypeScript - Jan 18, 2024</sub></sup><br/><sup><sub>Tags: #aws #cdk-construct #dns #dyndns #nas #route53</sub></sup><br/>CDK stack and scripts to make a free dynDNS with AWS Route 53 and<br/>serverless resources. </td>
-  <td><a href="./stars/guiyom-e/auto-update-ip-aws.md">Aug 30, 2024</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/dbartholomae/lambda-middleware">dbartholomae/lambda-middleware</a><sup><sub> - TypeScript - Jan 25, 2020</sub></sup><br/><sup><sub>Tags: #aws #hacktoberfest #lambda #lambda-middleware #middleware</sub></sup><br/>A collection of middleware for AWS lambda functions. </td>
-  <td><a href="./stars/dbartholomae/lambda-middleware.md">Aug 30, 2024</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/maxday/lambda-perf">maxday/lambda-perf</a><sup><sub> - Rust - Aug 14, 2022</sub></sup><br/>Lambda Cold Starts analysis, updated daily. </td>
-  <td><a href="./stars/maxday/lambda-perf.md">Aug 30, 2024</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/shellscape/jsx-email">shellscape/jsx-email</a><sup><sub> - TypeScript - Sep 04, 2023</sub></sup><br/>Build emails with a delightful DX. </td>
-  <td><a href="./stars/shellscape/jsx-email.md">Aug 30, 2024</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/revant-io/cdk-cost-limit">revant-io/cdk-cost-limit</a><sup><sub> - TypeScript - Aug 23, 2023</sub></sup><br/><sup><sub>Tags: #aws #budget #cdk #cost #finops</sub></sup><br/>A Collection of CDK Constructs to Deploy Cost-Aware Self-Limiting Resources. </td>
-  <td><a href="./stars/revant-io/cdk-cost-limit.md">Aug 30, 2024</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/PChol22/sls-natgateway">PChol22/sls-natgateway</a><sup><sub> - JavaScript - Jul 14, 2023</sub></sup><br/><sup><sub>Tags: #aws #cdk #free #nat-gateway #serverless #typescript</sub></sup><br/>A &quot;free&quot; serverless alternative to AWS NAT Gateways. Still WIP<br/>⚙️, help welcome!. </td>
-  <td><a href="./stars/PChol22/sls-natgateway.md">Aug 30, 2024</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-  <tr>
-  <td><a href="https://github.com/ThomasAribart/sls-relative-paths">ThomasAribart/sls-relative-paths</a><sup><sub> - TypeScript - Aug 21, 2022</sub></sup><br/>Allow defining Serverless Framework functions handlers paths relatively. </td>
-  <td><a href="./stars/ThomasAribart/sls-relative-paths.md">Aug 30, 2024</a><br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/></td>
-  </tr>
-</table>
+| Repo | Description | Language | Stars | Starred On |
+| --- | --- | --- | ---: | --- |
+| [unclebob/swarm-forge](https://github.com/unclebob/swarm-forge) | A simple tool for coordinating several AI agents. | Clojure | 970 | [Jul 04, 2026](./stars/unclebob/swarm-forge.md) |
+| [inthhq/leadtype](https://github.com/inthhq/leadtype) | Unified docs pipeline for humans & agents. Tags: #agents #ai #docs #llms-txt #typescript | TypeScript | 5 | [Jul 02, 2026](./stars/inthhq/leadtype.md) |
+| [jacobparis/trackcn](https://github.com/jacobparis/trackcn) | Track GitHub files, directories, commits, pull requests, and agent skills like dependencies. | JavaScript | 18 | [Jul 02, 2026](./stars/jacobparis/trackcn.md) |
+| [nilenso/context-viewer](https://github.com/nilenso/context-viewer) | Observability for contexts. Given a coversation log (messages), this tool will provide a breakdown of its components an... | TypeScript | 79 | [Jun 30, 2026](./stars/nilenso/context-viewer.md) |
+| [iot-agent/iot-skillsbench](https://github.com/iot-agent/iot-skillsbench) |  | Python | 33 | [Jun 30, 2026](./stars/iot-agent/iot-skillsbench.md) |
+| [lirantal/gh-cp](https://github.com/lirantal/gh-cp) | A CLI that copies files and directories from GitHub repo paths and downloads them to a local path | TypeScript | 7 | [Jun 18, 2026](./stars/lirantal/gh-cp.md) |
+| [pullfrog/pullfrog](https://github.com/pullfrog/pullfrog) | Open-source model-agnostic BYOK GitHub bot that runs in GitHub Actions | TypeScript | 805 | [Jun 09, 2026](./stars/pullfrog/pullfrog.md) |
+| [harehare/mq](https://github.com/harehare/mq) | A jq-like Markdown query language for command-line processing Tags: #cli #html-to-markdown #interpreter #jq #language-server #markdown #mcp #md #mqlang #query #repl #rust #scripting-language #tui | Rust | 955 | [Jun 07, 2026](./stars/harehare/mq.md) |
+| [disposable-email-domains/disposable-email-domains](https://github.com/disposable-email-domains/disposable-email-domains) | a list of disposable email domains Tags: #blocklist #disposable #domain #email #filter #hacktoberfest #pypi | Python | 5,300 | [Jun 05, 2026](./stars/disposable-email-domains/disposable-email-domains.md) |
+| [simke9445/agentlocks](https://github.com/simke9445/agentlocks) | Advisory file locks so multiple AI coding agents can share one Git worktree. Tags: #advisory-lock #agent-native #ai-agents #bun #claude-code #cli #codex #coding-agent #concurrency #file-locking #git #multi-agent #typescript #worktree | TypeScript | 10 | [Jun 04, 2026](./stars/simke9445/agentlocks.md) |
+| [affaan-m/ECC](https://github.com/affaan-m/ECC) | The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development ... Tags: #ai-agents #anthropic #claude #claude-code #developer-tools #llm #mcp #productivity | JavaScript | 226,044 | [Jun 04, 2026](./stars/affaan-m/ECC.md) |
+| [kitlangton/stack](https://github.com/kitlangton/stack) |  | TypeScript | 513 | [Jun 02, 2026](./stars/kitlangton/stack.md) |
+| [opencoredev/email-sdk](https://github.com/opencoredev/email-sdk) | Email SDK is a lightweight TypeScript library for sending email through Resend, Postmark, SendGrid, Mailgun, Brevo, SMT... Tags: #bun #developer-tools #email #email-api #email-sdk #nodemailer #postmark #resend #sdk #sendgrid #transactional-email #typescript | MDX | 317 | [Jun 01, 2026](./stars/opencoredev/email-sdk.md) |
+| [DavidWells/ddb-migrations](https://github.com/DavidWells/ddb-migrations) | DDB data migration utilities | TypeScript | 1 | [May 31, 2026](./stars/DavidWells/ddb-migrations.md) |
+| [joelhooks/plugged-in-awake](https://github.com/joelhooks/plugged-in-awake) |  | Swift | 1 | [May 25, 2026](./stars/joelhooks/plugged-in-awake.md) |
+| [theo-kirby/chassis](https://github.com/theo-kirby/chassis) | your favorite harness deserves a chassis 🏎️ - multi-agent orchestration layer for experimental design | Python | 10 | [May 24, 2026](./stars/theo-kirby/chassis.md) |
+| [ExtendDB/extenddb](https://github.com/ExtendDB/extenddb) | ExtendDB | Rust | 443 | [May 23, 2026](./stars/ExtendDB/extenddb.md) |
+| [Ruya-AI/cozempic](https://github.com/Ruya-AI/cozempic) | Context cleaning for Claude Code — prune bloated sessions, protect Agent Teams from context loss, auto-guard with tiere... Tags: #agent-teams #claude-code #claude-skills #cli #context #context-management #jsonl #llm-tools #pruning #python #session-management | Python | 345 | [May 23, 2026](./stars/Ruya-AI/cozempic.md) |
+| [ministackorg/ministack](https://github.com/ministackorg/ministack) | Ministack: Free, open-source local AWS emulator - 55+ services, Terraform compatible, real databases. Free forever. MIT... Tags: #aws #aws-emulator #aws-local #aws-sdk #devtools #docker #dynamodb #ec2 #emulator #lambda #localstack #localstack-alternative #ministack #mock-aws #open-source #python #s3 #sqs #terraform | Python | 3,448 | [May 21, 2026](./stars/ministackorg/ministack.md) |
+| [ccssmnn/work-cli](https://github.com/ccssmnn/work-cli) | Parallel git worktree workflows: per-workspace commands, stable .localhost URLs, tmux-parged agents, one CLI. | TypeScript | 5 | [May 19, 2026](./stars/ccssmnn/work-cli.md) |
+| [jakebailey/pprof-it](https://github.com/jakebailey/pprof-it) | A handy pprof wrapper for Node.js | TypeScript | 101 | [May 19, 2026](./stars/jakebailey/pprof-it.md) |
+| [modem-dev/hunk](https://github.com/modem-dev/hunk) | Review-first terminal diff viewer for agentic coders Tags: #cli #code-review #diff #git #tui | TypeScript | 6,052 | [May 16, 2026](./stars/modem-dev/hunk.md) |
+| [SamGalanakis/pilcrow](https://github.com/SamGalanakis/pilcrow) | A skill suite for writing | JavaScript | 47 | [May 15, 2026](./stars/SamGalanakis/pilcrow.md) |
+| [lmammino/rust-lambda-middleware-example](https://github.com/lmammino/rust-lambda-middleware-example) | A sample rate limit middleware for your Rust lambdas | Rust | 3 | [May 13, 2026](./stars/lmammino/rust-lambda-middleware-example.md) |
+| [floci-io/floci](https://github.com/floci-io/floci) | Light, fluffy, and always free - The AWS Local Emulator alternative Tags: #aws #aws-emulation #devops #docker #ec2 #ecs #localstack #s3 #sqs #testcontainers | Java | 15,092 | [May 09, 2026](./stars/floci-io/floci.md) |
+| [UsefulSoftwareCo/executor](https://github.com/UsefulSoftwareCo/executor) | The missing integration layer for AI agents. Let them call any OpenAPI / MCP / GraphQL / custom js functions in secure ... | TypeScript | 2,556 | [May 04, 2026](./stars/UsefulSoftwareCo/executor.md) |
+| [Effectful-Tech/clanka](https://github.com/Effectful-Tech/clanka) |  | TypeScript | 95 | [May 03, 2026](./stars/Effectful-Tech/clanka.md) |
+| [omerbsezer/Fast-Kubernetes](https://github.com/omerbsezer/Fast-Kubernetes) | This repo covers Kubernetes with LABs: Kubectl, Pod, Deployment, Service, PV, PVC, Rollout, Multicontainer, Daemonset, ... Tags: #affinity #config-maps #containers #daemonset #docker #helm #jenkins #k8s #kubeadm #kubectl #kubernetes #kubernetes-cluster #kubernetes-deployment #kubernetes-service #microservice #persistent-volume #pod #replica-set #taint #tolerations | PowerShell | 3,531 | [Apr 30, 2026](./stars/omerbsezer/Fast-Kubernetes.md) |
+| [cedar-policy/cedar](https://github.com/cedar-policy/cedar) | Implementation of the Cedar Policy Language | Rust | 1,587 | [Apr 30, 2026](./stars/cedar-policy/cedar.md) |
+| [Dhravya/webpull](https://github.com/Dhravya/webpull) | instantly pull a website down as a clean directory locally | TypeScript | 219 | [Apr 30, 2026](./stars/Dhravya/webpull.md) |
+| [xit-vcs/xit](https://github.com/xit-vcs/xit) | a git alternative written in zig | Zig | 703 | [Apr 29, 2026](./stars/xit-vcs/xit.md) |
+| [common-fate/cedar-validate-action](https://github.com/common-fate/cedar-validate-action) | A GitHub Action to validate Cedar policies | TypeScript | 9 | [Apr 29, 2026](./stars/common-fate/cedar-validate-action.md) |
+| [chad/phoenix](https://github.com/chad/phoenix) | Regenerative version control — compile specs to working software with full traceability Tags: #ai-code-generation #code-generation #llm #specification #typescript #version-control | TypeScript | 21 | [Apr 28, 2026](./stars/chad/phoenix.md) |
+| [hbshih/lenny-lil-agents](https://github.com/hbshih/lenny-lil-agents) | tiny AI companions that live on your macOS dock | Swift | 53 | [Apr 27, 2026](./stars/hbshih/lenny-lil-agents.md) |
+| [legions-developer/evilcharts](https://github.com/legions-developer/evilcharts) | EvilCharts is an open-source chart UI website built with shadcn and Recharts, beautifully designed and handcrafted. | TypeScript | 2,549 | [Apr 27, 2026](./stars/legions-developer/evilcharts.md) |
+| [benvinegar/termdraw](https://github.com/benvinegar/termdraw) | Agent-friendly ASCII illustrator for the terminal | TypeScript | 257 | [Apr 25, 2026](./stars/benvinegar/termdraw.md) |
+| [wshm-dev/wshm](https://github.com/wshm-dev/wshm) | AI-powered repository agent for GitHub, GitLab, Gitea, Azure DevOps. Issue triage, PR analysis, merge queue, notificati... Tags: #ai #anthropic #automation #cli #devops #github #gitlab #issue-tracker #llm #ollama #openai #pull-request #rust #self-hosted | Rust | 69 | [Apr 24, 2026](./stars/wshm-dev/wshm.md) |
+| [ata-core/ata-validator](https://github.com/ata-core/ata-validator) | Native C++ validator built on simdjson and RE2. Hybrid JS codegen with V8 TurboFan optimizations. Up to 94x faster on $... Tags: #fast #json-schema #napi #native #schema #simdjson #standard-schema #validation #validator | JavaScript | 343 | [Apr 24, 2026](./stars/ata-core/ata-validator.md) |
+| [rtk-ai/rtk](https://github.com/rtk-ai/rtk) | CLI proxy that reduces LLM token consumption by 60-90% on common dev commands. Single Rust binary, zero dependencies Tags: #agentic-coding #ai-coding #anthropic #claude-code #cli #command-line-tool #cost-reduction #developer-tools #llm #open-source #productivity #rust #token-optimization | Rust | 68,516 | [Apr 24, 2026](./stars/rtk-ai/rtk.md) |
+| [SamSaffron/op-cache](https://github.com/SamSaffron/op-cache) |  | Rust | 36 | [Apr 22, 2026](./stars/SamSaffron/op-cache.md) |
+| [kcosr/assistant](https://github.com/kcosr/assistant) | Panel-based personal assistant with a plugin architecture for productivity workflows. AI agents share a workspace of no... | TypeScript | 86 | [Apr 19, 2026](./stars/kcosr/assistant.md) |
+| [cathrynlavery/diagram-design](https://github.com/cathrynlavery/diagram-design) | Thirteen editorial diagram types for Claude Code. Self-contained HTML + SVG. No shadows, no Mermaid-slop. | HTML | 2,677 | [Apr 19, 2026](./stars/cathrynlavery/diagram-design.md) |
+| [browser-use/browser-harness](https://github.com/browser-use/browser-harness) | Browser Harness \\| Self-healing harness that enables LLMs to complete any task. Tags: #ai-agent #browser-agent #browser-automation #browser-use #browser-use-box #browser-use-cloud #cdp #cloud-browser #llm #persistent-browser #playwright #telegram-agent #vps-agent #web-automation | Python | 15,704 | [Apr 19, 2026](./stars/browser-use/browser-harness.md) |
+| [vercel-labs/wterm](https://github.com/vercel-labs/wterm) | A terminal emulator for the web | TypeScript | 3,290 | [Apr 19, 2026](./stars/vercel-labs/wterm.md) |
+| [farzaa/clicky](https://github.com/farzaa/clicky) |  | Swift | 4,432 | [Apr 15, 2026](./stars/farzaa/clicky.md) |
+| [microsoft/VibeVoice](https://github.com/microsoft/VibeVoice) | Open-Source Frontier Voice AI | Python | 40,186 | [Apr 13, 2026](./stars/microsoft/VibeVoice.md) |
+| [ethanbeard/openclaw-gws](https://github.com/ethanbeard/openclaw-gws) | Gmail watcher for OpenClaw agents via Google Workspace CLI (gws) | TypeScript | 3 | [Apr 11, 2026](./stars/ethanbeard/openclaw-gws.md) |
+| [Fenris159/OpenClaw_Discord-TTS-Attacher](https://github.com/Fenris159/OpenClaw_Discord-TTS-Attacher) | An OpenClaw plugin that turns your assistant’s Discord text replies into a spoken MP3 and posts it as a normal file att... | JavaScript | 1 | [Apr 07, 2026](./stars/Fenris159/OpenClaw_Discord-TTS-Attacher.md) |
+| [fwartner/home-assistant-wakewords-collection](https://github.com/fwartner/home-assistant-wakewords-collection) | Community Collection of Wake-Words for Home Assistant |  | 515 | [Apr 05, 2026](./stars/fwartner/home-assistant-wakewords-collection.md) |
+| [notque/claude-code-toolkit](https://github.com/notque/claude-code-toolkit) | AI Agent System - Creator of the /do router Tags: #ai #ai-agents #ai-pipelines #ai-skills #ai-workflows #claude #claude-code | Python | 343 | [Apr 04, 2026](./stars/notque/claude-code-toolkit.md) |
+| [notque/vexjoy-agent](https://github.com/notque/vexjoy-agent) | VexJoy AI Agent with Intelligent Routing - /do routes plain-English requests to the right specialist agent and gates th... Tags: #ai #ai-agents #ai-pipelines #ai-skills #ai-workflows #claude #claude-ai #claude-code #claude-code-skill #claude-skills #codex-skills #developer-tools #factory-ai | Python | 402 | [Apr 04, 2026](./stars/notque/vexjoy-agent.md) |
+| [0xGF/boneyard](https://github.com/0xGF/boneyard) | Auto generated skeleton loading framework | TypeScript | 4,991 | [Apr 03, 2026](./stars/0xGF/boneyard.md) |
+| [tux86/awssesh](https://github.com/tux86/awssesh) | Keep your AWS SSO credentials fresh — automatically. A fast terminal dashboard that auto-refreshes your pinned profiles... Tags: #aws #aws-sso #devops #devtools #sso | TypeScript | 2 | [Mar 27, 2026](./stars/tux86/awssesh.md) |
+| [tux86/ssomatic](https://github.com/tux86/ssomatic) | SSOmatic — Auto-discover, refresh, and manage your AWS SSO credentials from the terminal or browser. Built with Bun, Re... Tags: #aws #aws-sso #bun #cli #credentials #devtools #react #sso #typescript #web-ui | TypeScript | 2 | [Mar 27, 2026](./stars/tux86/ssomatic.md) |
+| [kamranahmedse/diffity](https://github.com/kamranahmedse/diffity) | GitHub-style diff viewer for reviewing code changes. Works with Claude Code, Cursor and other AI tools. | TypeScript | 558 | [Mar 27, 2026](./stars/kamranahmedse/diffity.md) |
+| [nilbuild/diffity](https://github.com/nilbuild/diffity) | GitHub-style diff viewer for reviewing code changes. Works with Claude Code, Cursor and other AI tools. | TypeScript | 704 | [Mar 27, 2026](./stars/nilbuild/diffity.md) |
+| [thesysdev/openui](https://github.com/thesysdev/openui) | The Open Standard for Generative UI Tags: #agent #agents #ai #generative-ui #help-wanted #javascript #llm #looking-for-contributors | TypeScript | 3,518 | [Mar 22, 2026](./stars/thesysdev/openui.md) |
+| [jnsahaj/lumen](https://github.com/jnsahaj/lumen) | Beautiful git diff viewer, generate commits with AI, get summary of changes, all from the CLI Tags: #cli #commit #git #llm #openai #rust | Rust | 2,073 | [Mar 20, 2026](./stars/jnsahaj/lumen.md) |
+| [remorses/opencode-config](https://github.com/remorses/opencode-config) | My opencode folder with plugins, agents, tools, etc | TypeScript | 38 | [Mar 20, 2026](./stars/remorses/opencode-config.md) |
+| [manaflow-ai/cmux](https://github.com/manaflow-ai/cmux) | Ghostty-based macOS terminal with vertical tabs and notifications for AI coding agents Tags: #amp #claude-code #codex #gemini #ghostty #opencode #terminal #tmux | Swift | 14,688 | [Mar 19, 2026](./stars/manaflow-ai/cmux.md) |
+| [HazAT/pi-config](https://github.com/HazAT/pi-config) | My personal pi coding agent configuration - skills and extensions | TypeScript | 285 | [Mar 15, 2026](./stars/HazAT/pi-config.md) |
+| [tanpreetjolly/browser-whisper](https://github.com/tanpreetjolly/browser-whisper) | NPM Library to transcribe Audio & Videos completely in browser with WebGPU and WebCodecs. 100% private and offline with... Tags: #audio-to-text #mediabunny #transcribe-audio-files #transcriber #transcription #trasnformersjs #webcodecs #webgpu | TypeScript | 168 | [Mar 15, 2026](./stars/tanpreetjolly/browser-whisper.md) |
+| [paperclipai/paperclip](https://github.com/paperclipai/paperclip) | Open-source orchestration for zero-human companies | TypeScript | 55,774 | [Mar 15, 2026](./stars/paperclipai/paperclip.md) |
+| [garrytan/gstack](https://github.com/garrytan/gstack) | Use Garry Tan's exact Claude Code setup: 23 opinionated tools that serve as CEO, Designer, Eng Manager, Release Manager... | TypeScript | 76,309 | [Mar 14, 2026](./stars/garrytan/gstack.md) |
+| [vercel-labs/json-render](https://github.com/vercel-labs/json-render) | The Generative UI framework | TypeScript | 14,325 | [Mar 13, 2026](./stars/vercel-labs/json-render.md) |
+| [pbakaus/agent-reviews](https://github.com/pbakaus/agent-reviews) | Token efficient, automated Github review workflows and bug fixing. | JavaScript | 150 | [Mar 10, 2026](./stars/pbakaus/agent-reviews.md) |
+| [dmno-dev/varlock](https://github.com/dmno-dev/varlock) | AI-safe .env files: Schemas for agents, Secrets for humans. Tags: #configuration #dotenv #env #env-vars #schema #security #validation | TypeScript | 3,242 | [Mar 09, 2026](./stars/dmno-dev/varlock.md) |
+| [Beingpax/VoiceInk](https://github.com/Beingpax/VoiceInk) | Voice-to-text app for macOS to transcribe what you say to text almost instantly Tags: #macos #macos-app #swift | Swift | 4,630 | [Mar 08, 2026](./stars/Beingpax/VoiceInk.md) |
+| [superset-sh/superset](https://github.com/superset-sh/superset) | Code Editor for the AI Agents Era - Run an army of Claude Code, Codex, etc. on your machine Tags: #agentic-ai #ai-agents #claude-code #cli #codex #coding-agents #cursor-agent #desktop-app #developer-tools #electron #git-worktree #llm #mcp #opencode #orchestration #parallel-agents #terminal #tui #vibe-coding #worktrees | TypeScript | 9,768 | [Mar 07, 2026](./stars/superset-sh/superset.md) |
+| [Ataraxy-Labs/sem](https://github.com/Ataraxy-Labs/sem) | Semantic version control CLI. Entity-level diff, blame, graph, and impact analysis for code. 26 languages via tree-sitt... Tags: #ai-agents #cli #code-review #developer-tools #diff #git #rust #semantic-diff #tree-sitter | Rust | 1,799 | [Mar 07, 2026](./stars/Ataraxy-Labs/sem.md) |
+| [nullclaw/nullclaw](https://github.com/nullclaw/nullclaw) | Fastest, smallest, and fully autonomous AI assistant infrastructure written in Zig Tags: #ai #assistant #personal #zig | Zig | 7,242 | [Mar 01, 2026](./stars/nullclaw/nullclaw.md) |
+| [rari-build/rari](https://github.com/rari-build/rari) | rari: High-performance React Server Components framework powered by a Rust runtime, delivering 9.8x faster response tim... Tags: #rari #react #react-server-components #rust #server-rendering #ssr #web-framework | Rust | 1,101 | [Feb 26, 2026](./stars/rari-build/rari.md) |
+| [joelhooks/granola-cli](https://github.com/joelhooks/granola-cli) | 🥣 Agent-first CLI for Granola meeting notes via MCP | TypeScript | 5 | [Feb 24, 2026](./stars/joelhooks/granola-cli.md) |
+| [alexknowshtml/peek-api](https://github.com/alexknowshtml/peek-api) | Discover internal APIs from any website. Captures XHR/fetch calls, extracts auth headers, outputs structured endpoint c... | JavaScript | 26 | [Feb 23, 2026](./stars/alexknowshtml/peek-api.md) |
+| [alexknowshtml/api2cli](https://github.com/alexknowshtml/api2cli) | Audience-aware CLI patterns for Node.js + Commander.js. Build CLIs for humans, AI agents, or both. Tags: #ai-agent #api #claude-code #cli-generator #commander-js #nodejs #skill #typescript |  | 423 | [Feb 23, 2026](./stars/alexknowshtml/api2cli.md) |
+| [openclaw/skills](https://github.com/openclaw/skills) | All versions of all skills that are on clawhub.com archived Tags: #archive #backup #clawhub #openclaw #skill | Python | 4,190 | [Feb 23, 2026](./stars/openclaw/skills.md) |
+| [nkzw-tech/remdx](https://github.com/nkzw-tech/remdx) | Beautiful Minimalist React & MDX Presentations | TypeScript | 383 | [Feb 22, 2026](./stars/nkzw-tech/remdx.md) |
+| [erictli/scratch](https://github.com/erictli/scratch) | A minimalist, offline-first markdown note-taking app | TypeScript | 871 | [Feb 22, 2026](./stars/erictli/scratch.md) |
+| [jkudish/librarium](https://github.com/jkudish/librarium) | Multi-provider deep research CLI — fans out queries to multiple search/AI APIs in parallel Tags: #ai #ai-agents #deep-research #deep-research-agent #deep-research-api #gemini #openai #perplexity-ai #research #search #search-engine | TypeScript | 118 | [Feb 21, 2026](./stars/jkudish/librarium.md) |
+| [jamiepine/voicebox](https://github.com/jamiepine/voicebox) | The open-source voice synthesis studio Tags: #ai #cuda #mlx #qwen3-tts #qwen3-tts-ui #voice-ai #voice-clone #whisper | TypeScript | 20,533 | [Feb 20, 2026](./stars/jamiepine/voicebox.md) |
+| [kando-menu/kando](https://github.com/kando-menu/kando) | 🌸 Do things with utmost efficiency. Tags: #cross-platform #electron #gestures #linux #macos #marking-menu #pie-menu #ux-design #windows | TypeScript | 5,809 | [Feb 19, 2026](./stars/kando-menu/kando.md) |
+| [pilotmoon/PopClip-Extensions](https://github.com/pilotmoon/PopClip-Extensions) | Source code for extensions in the official PopClip Extensions directory. Tags: #macos #popclip | JavaScript | 2,000 | [Feb 16, 2026](./stars/pilotmoon/PopClip-Extensions.md) |
+| [alexknowshtml/drawbridge](https://github.com/alexknowshtml/drawbridge) | Claude Code skill + real-time diagram server. Ask Claude to draw flowcharts, architecture diagrams, and dependency maps... | TypeScript | 64 | [Feb 16, 2026](./stars/alexknowshtml/drawbridge.md) |
+| [alexknowshtml/andy-timeline](https://github.com/alexknowshtml/andy-timeline) | The Andy Timeline: An AI assistant's origin story, told week by week |  | 32 | [Feb 16, 2026](./stars/alexknowshtml/andy-timeline.md) |
+| [alexknowshtml/kuato](https://github.com/alexknowshtml/kuato) | Built for Claude Code but works in any agent that supports skills, easily recall what you discussed with your favorite ... Tags: #ai-agents #claude | TypeScript | 168 | [Feb 16, 2026](./stars/alexknowshtml/kuato.md) |
+| [johnlindquist/lamarck](https://github.com/johnlindquist/lamarck) | Analyze Claude Code sessions and extract high-signal learnings into MEMORY.md files | TypeScript | 13 | [Feb 16, 2026](./stars/johnlindquist/lamarck.md) |
+| [openclaw/gogcli](https://github.com/openclaw/gogcli) | Google Workspace in your terminal. Tags: #gcal #gcontacts #gdrive #gmail #google | Go | 8,107 | [Feb 14, 2026](./stars/openclaw/gogcli.md) |
+| [steipete/gogcli](https://github.com/steipete/gogcli) | Google Suite CLI: Gmail, GCal, GDrive, GContacts. Tags: #gcal #gcontacts #gdrive #gmail #google | Go | 6,878 | [Feb 14, 2026](./stars/steipete/gogcli.md) |
+| [coreyhaines31/marketingskills](https://github.com/coreyhaines31/marketingskills) | Marketing skills for Claude Code and AI agents. CRO, copywriting, SEO, analytics, and growth engineering. Tags: #claude #codex #marketing | JavaScript | 21,937 | [Feb 08, 2026](./stars/coreyhaines31/marketingskills.md) |
+| [macaly/almostnode](https://github.com/macaly/almostnode) | Node.js in your browser. Just like that. Tags: #nodejs #webcontainers | TypeScript | 1,053 | [Feb 08, 2026](./stars/macaly/almostnode.md) |
+| [karpathy/nanochat](https://github.com/karpathy/nanochat) | The best ChatGPT that $100 can buy. | Python | 52,111 | [Feb 07, 2026](./stars/karpathy/nanochat.md) |
+| [towardsthecloud/cloudburn](https://github.com/towardsthecloud/cloudburn) | Open-source policy engine that blocks bad AWS spending patterns before they ship and remediates what's already burning. Tags: #amazon-web-services #aws #cloud #command-line-tool #cost-management #cost-optimization #devops #devops-tools #finops #homebrew #npm-package | TypeScript | 1,753 | [Feb 06, 2026](./stars/towardsthecloud/cloudburn.md) |
+| [kitlangton/Hex](https://github.com/kitlangton/Hex) | VOICE → WORDS Tags: #composable-architecture #macos #swift #swiftui #transcription #whisper | Swift | 1,782 | [Feb 04, 2026](./stars/kitlangton/Hex.md) |
+| [levineam/qmd-skill](https://github.com/levineam/qmd-skill) |  |  | 680 | [Jan 29, 2026](./stars/levineam/qmd-skill.md) |
+| [craft-ai-agents/craft-agents-oss](https://github.com/craft-ai-agents/craft-agents-oss) |  | TypeScript | 6,707 | [Jan 29, 2026](./stars/craft-ai-agents/craft-agents-oss.md) |
+| [lukilabs/craft-agents-oss](https://github.com/lukilabs/craft-agents-oss) |  | TypeScript | 4,372 | [Jan 29, 2026](./stars/lukilabs/craft-agents-oss.md) |
+| [snarktank/compound-product](https://github.com/snarktank/compound-product) | A self-improving product system that reads reports, identifies priorities, and autonomously implements fixes | Shell | 504 | [Jan 28, 2026](./stars/snarktank/compound-product.md) |
+| [openprose/prose](https://github.com/openprose/prose) |  |  | 1,093 | [Jan 28, 2026](./stars/openprose/prose.md) |
+| [syncthing/syncthing-macos](https://github.com/syncthing/syncthing-macos) | Official frugal and native macOS Syncthing application bundle Tags: #apple #backup #cloud-sync #file-sharing #file-sync #frugal #mac #macos #macosx #objective-c #osx #p2p #peer-to-peer #simple #swift #sync #sync-files #synchronization #syncthing | Objective-C | 3,615 | [Jan 25, 2026](./stars/syncthing/syncthing-macos.md) |
+| [ZeroGDrive/bucket-scout](https://github.com/ZeroGDrive/bucket-scout) |  | TypeScript | 7 | [Jan 24, 2026](./stars/ZeroGDrive/bucket-scout.md) |
+| [fayazara/bucketdrop](https://github.com/fayazara/bucketdrop) | BucketDrop is a tiny, open-source menu bar app for uploading files to your own S3-compatible storage. No dashboards. No... | Swift | 88 | [Jan 24, 2026](./stars/fayazara/bucketdrop.md) |
+| [remorses/playwriter](https://github.com/remorses/playwriter) | MCP to control your Chrome window via extension. Runs Playwright code in a stateful sandbox. Tags: #mcp #playwright | HTML | 2,553 | [Jan 24, 2026](./stars/remorses/playwriter.md) |
+| [benjitaylor/agentation](https://github.com/benjitaylor/agentation) | The visual feedback tool for agents. | TypeScript | 1,168 | [Jan 23, 2026](./stars/benjitaylor/agentation.md) |
+| [infi-pc/locatorjs](https://github.com/infi-pc/locatorjs) |  | TypeScript | 1,733 | [Jan 23, 2026](./stars/infi-pc/locatorjs.md) |
+| [aquilarafa/clancy](https://github.com/aquilarafa/clancy) |  | Go | 1 | [Jan 21, 2026](./stars/aquilarafa/clancy.md) |
+| [Dicklesworthstone/beads_rust](https://github.com/Dicklesworthstone/beads_rust) | A fast Rust port of Steve Yegge's beads - a local-first, non-invasive issue tracker for git repositories | Rust | 383 | [Jan 18, 2026](./stars/Dicklesworthstone/beads_rust.md) |
+| [peterjthomson/ledger](https://github.com/peterjthomson/ledger) | A modernised git interface for improved agent and human collaboration, review and control Tags: #agent-collaboration #git #version-control | TypeScript | 270 | [Jan 17, 2026](./stars/peterjthomson/ledger.md) |
+| [mikefarah/yq](https://github.com/mikefarah/yq) | yq is a portable command-line YAML, JSON, XML, CSV, TOML, HCL and properties processor Tags: #bash #cli #csv #devops-tools #golang #hcl #json #portable #properties #splat #terraform #toml #xml #yaml #yaml-processor | Go | 14,755 | [Jan 16, 2026](./stars/mikefarah/yq.md) |
+| [specstoryai/getspecstory](https://github.com/specstoryai/getspecstory) | Install our local first extensions for your favorite AI IDE or Terminal Agent. Sync your conversations to the cloud. Fi... Tags: #ai #chat-history #claude #claude-code #codex #codex-cli #copilot #copilot-chat #cursor-ai #cursor-cli #cursorai #vscode #vscode-extension | Go | 993 | [Jan 16, 2026](./stars/specstoryai/getspecstory.md) |
+| [blencorp/lisa](https://github.com/blencorp/lisa) | Lisa plans. Ralph does. Interactive specification interview workflow for Claude Code that conducts in-depth feature int... | TypeScript | 93 | [Jan 16, 2026](./stars/blencorp/lisa.md) |
+| [nicoalbanese/gwt-manager](https://github.com/nicoalbanese/gwt-manager) |  | Shell | 4 | [Jan 15, 2026](./stars/nicoalbanese/gwt-manager.md) |
+| [cxreg/smartcd](https://github.com/cxreg/smartcd) | Alter your bash (or zsh) environment as you cd | Shell | 688 | [Jan 15, 2026](./stars/cxreg/smartcd.md) |
+| [arcafly/fuzemill](https://github.com/arcafly/fuzemill) |  | Rust | 1 | [Jan 15, 2026](./stars/arcafly/fuzemill.md) |
+| [glittercowboy/get-shit-done](https://github.com/glittercowboy/get-shit-done) | A light-weight and powerful meta-prompting, context engineering and spec-driven development system for Claude Code and ... Tags: #claude-code #context-engineering #meta-prompting #spec-driven-development | JavaScript | 7,160 | [Jan 14, 2026](./stars/glittercowboy/get-shit-done.md) |
+| [gsd-build/get-shit-done](https://github.com/gsd-build/get-shit-done) | A light-weight and powerful meta-prompting, context engineering and spec-driven development system for Claude Code by T... Tags: #claude-code #context-engineering #meta-prompting #spec-driven-development | JavaScript | 54,670 | [Jan 14, 2026](./stars/gsd-build/get-shit-done.md) |
+| [kettanaito/rettime](https://github.com/kettanaito/rettime) | A type-safe marriage of `EventTarget` and `EventEmitter`. | TypeScript | 184 | [Jan 14, 2026](./stars/kettanaito/rettime.md) |
+| [brenbuilds1/copilot-ralph](https://github.com/brenbuilds1/copilot-ralph) | Copilot ralph is an autonomous AI agent loop that runs repeatedly until all PRD items are complete. | Shell | 44 | [Jan 13, 2026](./stars/brenbuilds1/copilot-ralph.md) |
+| [ironcamel/Graph-Easy](https://github.com/ironcamel/Graph-Easy) | Convert or render graphs (as ASCII, HTML, SVG or via Graphviz) | Perl | 637 | [Jan 11, 2026](./stars/ironcamel/Graph-Easy.md) |
+| [cycloidio/inframap](https://github.com/cycloidio/inframap) | Read your tfstate or HCL to generate a graph specific for each provider, showing only the resources that are most impor... Tags: #aws #diagram #flexibleengine #go #golang #graph #hcl #openstack #terraform #tfstate | Go | 1,971 | [Jan 11, 2026](./stars/cycloidio/inframap.md) |
+| [tw93/MiaoYan](https://github.com/tw93/MiaoYan) | ⛷ Lightweight Markdown app to help you write great sentences. Tags: #editor #local-first #macos #markdown #markdown-editor #notes-app #swift | Swift | 7,450 | [Jan 11, 2026](./stars/tw93/MiaoYan.md) |
+| [cjpais/Handy](https://github.com/cjpais/Handy) | A free, open source, and extensible speech-to-text application that works completely offline. Tags: #accessibility #cross-platform #speech-to-text #tauri-v2 | TypeScript | 13,132 | [Jan 11, 2026](./stars/cjpais/Handy.md) |
+| [clawdbot/nix-clawdbot](https://github.com/clawdbot/nix-clawdbot) | Packages clawdis for nix. Tags: #clawdis #nix | Nix | 41 | [Jan 10, 2026](./stars/clawdbot/nix-clawdbot.md) |
+| [openclaw/nix-openclaw](https://github.com/openclaw/nix-openclaw) | Packages OpenClaw for nix. Tags: #clawdis #nix | Nix | 653 | [Jan 10, 2026](./stars/openclaw/nix-openclaw.md) |
+| [clawdbot/clawdinators](https://github.com/clawdbot/clawdinators) | Declarative infra + NixOS modules for CLAWDINATOR hosts. | Nix | 50 | [Jan 10, 2026](./stars/clawdbot/clawdinators.md) |
+| [openclaw/clawdinators](https://github.com/openclaw/clawdinators) | Declarative infra + NixOS modules for CLAWTINATOR hosts. | Nix | 155 | [Jan 10, 2026](./stars/openclaw/clawdinators.md) |
+| [snarktank/ralph](https://github.com/snarktank/ralph) | Ralph is an autonomous AI agent loop that runs repeatedly until all PRD items are complete. | TypeScript | 7,460 | [Jan 09, 2026](./stars/snarktank/ralph.md) |
+| [tobi/qmd](https://github.com/tobi/qmd) | mini cli search engine for your docs, knowledge bases, meeting notes, whatever. Tracking current sota approaches while ... | TypeScript | 2,620 | [Jan 08, 2026](./stars/tobi/qmd.md) |
+| [allenheltondev/image-downscaler](https://github.com/allenheltondev/image-downscaler) | AWS template for automatically converting and downscaling static images hosted behind a CDN | Rust | 2 | [Jan 08, 2026](./stars/allenheltondev/image-downscaler.md) |
+| [netlify/file-sync-action](https://github.com/netlify/file-sync-action) | A GitHub Action for syncing files across repositories | JavaScript | 10 | [Jan 08, 2026](./stars/netlify/file-sync-action.md) |
+| [pierrecomputer/pierre](https://github.com/pierrecomputer/pierre) | pierre’s open source code Tags: #diffs #memescale | TypeScript | 1,298 | [Jan 06, 2026](./stars/pierrecomputer/pierre.md) |
+| [MotiaDev/motia-examples](https://github.com/MotiaDev/motia-examples) | A community maintained list of flow examples built with Motia |  | 389 | [Jan 05, 2026](./stars/MotiaDev/motia-examples.md) |
+| [numman-ali/cc-mirror](https://github.com/numman-ali/cc-mirror) | Create multiple isolated Claude Code variants with custom providers (Z.ai, MiniMax, OpenRouter, LiteLLM) | TypeScript | 1,494 | [Jan 05, 2026](./stars/numman-ali/cc-mirror.md) |
+| [Dicklesworthstone/acip](https://github.com/Dicklesworthstone/acip) | The Advanced Cognitive Inoculation Prompt | Shell | 31 | [Jan 04, 2026](./stars/Dicklesworthstone/acip.md) |
+| [gmickel/my-claude-skills](https://github.com/gmickel/my-claude-skills) |  |  | 3 | [Jan 04, 2026](./stars/gmickel/my-claude-skills.md) |
+| [Dicklesworthstone/repo_updater](https://github.com/Dicklesworthstone/repo_updater) | A beautiful, automation-friendly CLI for synchronizing GitHub repositories. Keep dozens of repos in sync with a single ... | Shell | 38 | [Jan 03, 2026](./stars/Dicklesworthstone/repo_updater.md) |
+| [hatemhosny/racing-bars](https://github.com/hatemhosny/racing-bars) | Bar chart race made easy 🎉 Tags: #animation #charts #d3 #hacktoberfest #visualization | TypeScript | 114 | [Jan 02, 2026](./stars/hatemhosny/racing-bars.md) |
+| [backnotprop/plannotator](https://github.com/backnotprop/plannotator) | Annotate and review coding agent plans visually, share with your team, send feedback with one click. Tags: #claude-code #obsidian #opencode | TypeScript | 1,420 | [Jan 02, 2026](./stars/backnotprop/plannotator.md) |
+| [simonw/justjshtml](https://github.com/simonw/justjshtml) | JavaScript port of EmilStenstrom/justhtml | JavaScript | 163 | [Jan 02, 2026](./stars/simonw/justjshtml.md) |
+| [Piebald-AI/claude-code-system-prompts](https://github.com/Piebald-AI/claude-code-system-prompts) | All parts of Claude Code's system prompt, 18 builtin tool descriptions, sub agent prompts (Plan/Explore/Task), utility ... Tags: #claude-code #claude-code-system-prompts #system-prompts | JavaScript | 3,445 | [Jan 01, 2026](./stars/Piebald-AI/claude-code-system-prompts.md) |
+| [rexxars/eventsource-parser](https://github.com/rexxars/eventsource-parser) | Streaming, source-agnostic EventSource/Server-Sent Events parser | TypeScript | 450 | [Dec 30, 2025](./stars/rexxars/eventsource-parser.md) |
+| [jlevy/markform](https://github.com/jlevy/markform) | Structured Markdown documents for agents and humans | TypeScript | 30 | [Dec 30, 2025](./stars/jlevy/markform.md) |
+| [superbasicstudio/claude-conductor](https://github.com/superbasicstudio/claude-conductor) | Claude Conductor - a simple Claude Code framework Tags: #aiframework #claude #claudecode #framework #vibecoding | JavaScript | 282 | [Dec 30, 2025](./stars/superbasicstudio/claude-conductor.md) |
+| [marcboeker/gmail-to-sqlite](https://github.com/marcboeker/gmail-to-sqlite) | Index your Gmail account to a SQLite DB and play with the data. | Python | 1,212 | [Dec 29, 2025](./stars/marcboeker/gmail-to-sqlite.md) |
+| [hamzafer/cursor-commands](https://github.com/hamzafer/cursor-commands) | Cursor Custom Slash Commands Tags: #agent #ai #cursor #cursor-ai #cursor-commands |  | 517 | [Dec 29, 2025](./stars/hamzafer/cursor-commands.md) |
+| [Dicklesworthstone/coding_agent_session_search](https://github.com/Dicklesworthstone/coding_agent_session_search) |  | Rust | 351 | [Dec 29, 2025](./stars/Dicklesworthstone/coding_agent_session_search.md) |
+| [zirkelc/git-pull-run](https://github.com/zirkelc/git-pull-run) | Automatically run npm install on git pull if the package.json was changed | TypeScript | 19 | [Dec 29, 2025](./stars/zirkelc/git-pull-run.md) |
+| [msitarzewski/agency-agents](https://github.com/msitarzewski/agency-agents) | A complete AI agency at your fingertips** - From frontend wizards to Reddit community ninjas, from whimsy injectors to ... |  | 938 | [Dec 29, 2025](./stars/msitarzewski/agency-agents.md) |
+| [msmps/opentui-ui](https://github.com/msmps/opentui-ui) | UI component library for terminal applications built on @opentui/* | TypeScript | 114 | [Dec 28, 2025](./stars/msmps/opentui-ui.md) |
+| [badlogic/pi-mono](https://github.com/badlogic/pi-mono) | AI agent toolkit: coding agent CLI, unified LLM API, TUI & web UI libraries, Slack bot, vLLM pods | TypeScript | 2,192 | [Dec 27, 2025](./stars/badlogic/pi-mono.md) |
+| [wopehq/muninn](https://github.com/wopehq/muninn) | Muninn is a fast and flexible HTML parsing tool that simplifies the process of extracting data from HTMLs. Tags: #cheerio #css-selectors #html #htmlparser #json #parse #parser | TypeScript | 146 | [Dec 26, 2025](./stars/wopehq/muninn.md) |
+| [kozakdenys/qr-code-styling](https://github.com/kozakdenys/qr-code-styling) | Automaticly generate your styled QR code in your web app. | TypeScript | 2,635 | [Dec 26, 2025](./stars/kozakdenys/qr-code-styling.md) |
+| [binwiederhier/ntfy](https://github.com/binwiederhier/ntfy) | Send push notifications to your phone or desktop using PUT/POST Tags: #curl #notifications #ntfy #ntfysh #pubsub #push-notifications #rest-api | Go | 27,908 | [Dec 26, 2025](./stars/binwiederhier/ntfy.md) |
+| [hyperdxio/hyperdx](https://github.com/hyperdxio/hyperdx) | Resolve production issues, fast. An open source observability platform unifying session replays, logs, metrics, traces ... Tags: #alerting #analytics #apm #application-monitoring #clickhouse #dashboard #frontend-monitoring #kubernetes #log-management #logs #metrics #monitoring #observability #opentelemetry #react #self-hosted #session-replay #traces #typescript | TypeScript | 9,191 | [Dec 26, 2025](./stars/hyperdxio/hyperdx.md) |
+| [jdx/mise](https://github.com/jdx/mise) | dev tools, env vars, task runner | Rust | 22,490 | [Dec 26, 2025](./stars/jdx/mise.md) |
+| [bluwy/npm-userscript](https://github.com/bluwy/npm-userscript) | Various improvements and fixes for npmjs.com | TypeScript | 28 | [Dec 26, 2025](./stars/bluwy/npm-userscript.md) |
+| [suhaotian/xior](https://github.com/suhaotian/xior) | A liteweight fetch wrapper with plugins support and similar API to axios. Tags: #ajax #axios-api #fetch #fetch-wrapper #http #plugins #typescript #xior | TypeScript | 406 | [Dec 26, 2025](./stars/suhaotian/xior.md) |
+| [bombshell-dev/tab](https://github.com/bombshell-dev/tab) | tab tab tab | TypeScript | 136 | [Dec 26, 2025](./stars/bombshell-dev/tab.md) |
+| [developit/dlv](https://github.com/developit/dlv) | Safe deep property access in 120 bytes. x = dlv(obj, 'a.b.x') Tags: #dlv #javascript #key #object | JavaScript | 1,256 | [Dec 26, 2025](./stars/developit/dlv.md) |
+| [43081j/fast-wrap-ansi](https://github.com/43081j/fast-wrap-ansi) | A tiny and fast library for word wrapping terminal output. | TypeScript | 8 | [Dec 26, 2025](./stars/43081j/fast-wrap-ansi.md) |
+| [1771-Technologies/lytenyte](https://github.com/1771-Technologies/lytenyte) | The official monorepo for LyteNyte Grid, the fastest React data grid built on modern web technologies. Designed for ent... Tags: #data-grid #data-table #datagrid #filtering #grid-component #grouping #high-performance-grid #javascript-datagrid #javascript-table #pagination #react #react-data-grid #react-table #sorting #table #typescript-datagrid #virtualized-grid #virtualized-table | TypeScript | 296 | [Dec 26, 2025](./stars/1771-Technologies/lytenyte.md) |
+| [TomerAberbach/grfn](https://github.com/TomerAberbach/grfn) | 🦅 A tiny (~315B) utility that executes a dependency graph of async functions as concurrently as possible. Tags: #async #concurrency #graph #node-module #node-package #package | TypeScript | 630 | [Dec 26, 2025](./stars/TomerAberbach/grfn.md) |
+| [W4G1/multithreading](https://github.com/W4G1/multithreading) | The missing standard library for multithreading in JavaScript (Works in the browser, Node.js, Deno, Bun) Tags: #atomics #bun #concurrency #deno #javascript #multi-threading #multithreading #nodejs #parallel-processing #shared-array-buffer #shared-worker #sharedarraybuffer #thread-pool #threads #typescript #web-worker #web-workers #webworkers #worker-pool #worker-threads | TypeScript | 1,355 | [Dec 26, 2025](./stars/W4G1/multithreading.md) |
+| [beeequeue/bench-lru](https://github.com/beeequeue/bench-lru) |  | TypeScript | 1 | [Dec 26, 2025](./stars/beeequeue/bench-lru.md) |
+| [parcadei/Continuous-Claude-v2](https://github.com/parcadei/Continuous-Claude-v2) | Context management for Claude Code. Hooks maintain state via ledgers and handoffs. MCP execution without context pollut... Tags: #agents #claude-code #claude-code-cli #claude-code-hooks #claude-code-mcp #claude-code-skills #claude-code-subagents #claude-skills #mcp | Python | 641 | [Dec 25, 2025](./stars/parcadei/Continuous-Claude-v2.md) |
+| [parcadei/Continuous-Claude-v3](https://github.com/parcadei/Continuous-Claude-v3) | Context management for Claude Code. Hooks maintain state via ledgers and handoffs. MCP execution without context pollut... Tags: #agents #claude-code #claude-code-cli #claude-code-hooks #claude-code-mcp #claude-code-skills #claude-code-subagents #claude-skills #mcp | Python | 3,396 | [Dec 25, 2025](./stars/parcadei/Continuous-Claude-v3.md) |
+| [bellard/mquickjs](https://github.com/bellard/mquickjs) | Public repository of the Micro QuickJS Javascript Engine | C | 4,423 | [Dec 23, 2025](./stars/bellard/mquickjs.md) |
+| [awsfundamentals-hq/centralized-alerting](https://github.com/awsfundamentals-hq/centralized-alerting) |  | TypeScript | 2 | [Dec 22, 2025](./stars/awsfundamentals-hq/centralized-alerting.md) |
+| [jjenzz/pretty-cache-header](https://github.com/jjenzz/pretty-cache-header) | Cache-control header utility that parses human readable time strings into seconds. | TypeScript | 256 | [Dec 22, 2025](./stars/jjenzz/pretty-cache-header.md) |
+| [jlongster/tigma](https://github.com/jlongster/tigma) |  | TypeScript | 489 | [Dec 22, 2025](./stars/jlongster/tigma.md) |
+| [Dicklesworthstone/misc_coding_agent_tips_and_scripts](https://github.com/Dicklesworthstone/misc_coding_agent_tips_and_scripts) | Various things I had to figure out recently to make things work better... |  | 58 | [Dec 20, 2025](./stars/Dicklesworthstone/misc_coding_agent_tips_and_scripts.md) |
+| [tursodatabase/agentfs](https://github.com/tursodatabase/agentfs) | The filesystem for agents. Tags: #agents #filesystem #sqlite #turso | Rust | 1,288 | [Dec 15, 2025](./stars/tursodatabase/agentfs.md) |
+| [ashvardanian/StringZilla](https://github.com/ashvardanian/StringZilla) | Up to 100x faster strings for C, C++, CUDA, Python, Rust, Swift, JS, & Go, leveraging NEON, AVX2, AVX-512, SVE, GPGPU, ... Tags: #dataset #edit-distance #gpu #hash #hashing #information-retrieval #levenshtein-distance #parser #search #simd #sorting-algorithms #string #string-manipulation #string-matching #string-parsing #string-search #substring #unicode | C | 3,290 | [Dec 14, 2025](./stars/ashvardanian/StringZilla.md) |
+| [evanw/kiwi](https://github.com/evanw/kiwi) | A schema-based binary format for efficiently encoding trees of data | C++ | 848 | [Dec 13, 2025](./stars/evanw/kiwi.md) |
+| [badass-courses/course-builder](https://github.com/badass-courses/course-builder) | 🍄 platform for building Badass Courses Tags: #inngest #nextjs #openai #react #tailwindcss #typescript | TypeScript | 607 | [Dec 12, 2025](./stars/badass-courses/course-builder.md) |
+| [assimelha/bdui](https://github.com/assimelha/bdui) | Real-time Text User Interface for bd (beads) issue tracker with Kanban, Tree, Graph views, and notifications Tags: #beads #bun #cli #ink #issue-tracker #kanban #terminal #tui | TypeScript | 55 | [Dec 12, 2025](./stars/assimelha/bdui.md) |
+| [farouqaldori/claude-island](https://github.com/farouqaldori/claude-island) | Claude Code notifications without the context switch. A minimal, always-present session manager for macOS. | Swift | 567 | [Dec 12, 2025](./stars/farouqaldori/claude-island.md) |
+| [Dicklesworthstone/cass_memory_system](https://github.com/Dicklesworthstone/cass_memory_system) |  | TypeScript | 87 | [Dec 12, 2025](./stars/Dicklesworthstone/cass_memory_system.md) |
+| [Dicklesworthstone/mcp_agent_mail](https://github.com/Dicklesworthstone/mcp_agent_mail) | Like gmail for your coding agents. Lets various different agents communicate and coordinate with each other. | Python | 1,090 | [Dec 12, 2025](./stars/Dicklesworthstone/mcp_agent_mail.md) |
+| [medikoo/duration](https://github.com/medikoo/duration) | Time duration utilities for JavaScript | JavaScript | 30 | [Dec 11, 2025](./stars/medikoo/duration.md) |
+| [super-linter/super-linter](https://github.com/super-linter/super-linter) | Combination of multiple linters to run as a GitHub Action or standalone Tags: #actions #ci #code-quality #code-quality-analyzer #linter #quality-check #super-linter | Shell | 10,237 | [Dec 11, 2025](./stars/super-linter/super-linter.md) |
+| [medikoo/uni-global](https://github.com/medikoo/uni-global) | Global namespace with no global scope pollution | JavaScript | 2 | [Dec 11, 2025](./stars/medikoo/uni-global.md) |
+| [SawyerHood/dev-browser](https://github.com/SawyerHood/dev-browser) | A Claude Skill to give your agent the ability to use a web browser Tags: #claude-code #playwright #skills | TypeScript | 1,503 | [Dec 10, 2025](./stars/SawyerHood/dev-browser.md) |
+| [thebuilder/react-intersection-observer](https://github.com/thebuilder/react-intersection-observer) | React implementation of the Intersection Observer API to tell you when an element enters or leaves the viewport. Tags: #hook #hooks #intersection-observer #intersectionobserver #intersectionobserver-api #lazy-loading #monitor #performance #react #react-hooks #reactjs #scrolling #viewport #visibility | TypeScript | 5,506 | [Dec 09, 2025](./stars/thebuilder/react-intersection-observer.md) |
+| [brianlovin/briOS](https://github.com/brianlovin/briOS) | My personal website. Tags: #apollo #graphql #javascript #nextjs #planetscale #prisma #react #styled-components | TypeScript | 2,219 | [Dec 08, 2025](./stars/brianlovin/briOS.md) |
+| [Dicklesworthstone/beads_viewer](https://github.com/Dicklesworthstone/beads_viewer) | View your beads (Steve Yegge's task management system for coding agents) like a king. | Go | 692 | [Dec 07, 2025](./stars/Dicklesworthstone/beads_viewer.md) |
+| [joelhooks/pdf-brain](https://github.com/joelhooks/pdf-brain) | 🧠 Local PDF knowledge base with vector search using libsql w/vectors | TypeScript | 144 | [Dec 07, 2025](./stars/joelhooks/pdf-brain.md) |
+| [steipete/poltergeist](https://github.com/steipete/poltergeist) | The ghost that keeps your builds fresh - Universal hot reload, file watcher and build automation for any language. Tags: #automation #build #filewatcher | TypeScript | 249 | [Dec 06, 2025](./stars/steipete/poltergeist.md) |
+| [davis7dotsh/river](https://github.com/davis7dotsh/river) | the sane way to work with ai agent streams (type safety and stream resuming out of the box) Tags: #ai #react #streaming #svelte #sveltekit #tanstack-start #typescript | TypeScript | 201 | [Dec 06, 2025](./stars/davis7dotsh/river.md) |
+| [D00Movenok/BounceBack](https://github.com/D00Movenok/BounceBack) | ↕️🤫 Stealth redirector for your red team operation security Tags: #c2 #cobalt-strike #cybersecurity #infrastructure #opsec #pentest #pentesting #phishing #proxy #redirector #redteam #security | Go | 1,043 | [Nov 30, 2025](./stars/D00Movenok/BounceBack.md) |
+| [ZON-Format/zon-TS](https://github.com/ZON-Format/zon-TS) | ZON → 35-70% cheaper LLM prompts than JSON/TOON. Zero overhead. Tags: #chatgpt #claude #data #gemini-pro #json #llm #token-reduction #tokenizer #toon #zon | TypeScript | 42 | [Nov 30, 2025](./stars/ZON-Format/zon-TS.md) |
+| [steveyegge/beads](https://github.com/steveyegge/beads) | Beads - A memory upgrade for your coding agent Tags: #agents #claude-code #coding | Go | 6,507 | [Nov 30, 2025](./stars/steveyegge/beads.md) |
+| [davila7/claude-code-templates](https://github.com/davila7/claude-code-templates) | CLI tool for configuring and monitoring Claude Code Tags: #anthropic #anthropic-claude #claude #claude-code | Python | 13,898 | [Nov 29, 2025](./stars/davila7/claude-code-templates.md) |
+| [gsuess/typebox-cli](https://github.com/gsuess/typebox-cli) | CLI tool for various TypeBox and JSON Schema operations | TypeScript | 11 | [Nov 29, 2025](./stars/gsuess/typebox-cli.md) |
+| [johnlindquist/poweruser](https://github.com/johnlindquist/poweruser) |  | TypeScript | 5 | [Nov 25, 2025](./stars/johnlindquist/poweruser.md) |
+| [styfle/copee](https://github.com/styfle/copee) | 📄 Copy text from browser to clipboard...natively! < 1kB Tags: #browser-api #clipboard #copy #text | TypeScript | 153 | [Nov 25, 2025](./stars/styfle/copee.md) |
+| [steipete/Peekaboo](https://github.com/steipete/Peekaboo) | Peekaboo is a macOS CLI & optional MCP server that enables AI agents to capture screenshots of applications, or the ent... Tags: #ai #macos #mcp #screenshots #swift | Swift | 904 | [Nov 25, 2025](./stars/steipete/Peekaboo.md) |
+| [elysiajs/elysia](https://github.com/elysiajs/elysia) | Ergonomic Framework for Humans Tags: #bun #framework #http #server #typescript #web | TypeScript | 16,316 | [Nov 23, 2025](./stars/elysiajs/elysia.md) |
+| [scalar/scalar](https://github.com/scalar/scalar) | Scalar is an open-source API platform: 🌐 Modern Rest API Client 📖 Beautiful API References ✨ 1st-Class OpenAPI/Swagge... Tags: #api #api-client #docs #http-client #openapi #openapi3 #reference #rest-api #swagger #vue | TypeScript | 13,314 | [Nov 23, 2025](./stars/scalar/scalar.md) |
+| [EveryInc/compound-engineering-plugin](https://github.com/EveryInc/compound-engineering-plugin) | Official Claude Code compound engineering plugin | Python | 3,187 | [Nov 22, 2025](./stars/EveryInc/compound-engineering-plugin.md) |
+| [rayriffy/quick-npm](https://github.com/rayriffy/quick-npm) | Quick start template to rapidly develop NPM packages with speed | TypeScript | 3 | [Nov 22, 2025](./stars/rayriffy/quick-npm.md) |
+| [rayriffy/elysia-remote-dts](https://github.com/rayriffy/elysia-remote-dts) | A plugin that provide .d.ts types remotely for Eden Treaty to consume. Tags: #dts #elysia #elysia-plugin #elysiajs #typescript | TypeScript | 30 | [Nov 22, 2025](./stars/rayriffy/elysia-remote-dts.md) |
+| [alexanderop/claude-code-builder](https://github.com/alexanderop/claude-code-builder) |  |  | 20 | [Nov 21, 2025](./stars/alexanderop/claude-code-builder.md) |
+| [johnlindquist/claude-workshop-live](https://github.com/johnlindquist/claude-workshop-live) |  | TypeScript | 13 | [Nov 21, 2025](./stars/johnlindquist/claude-workshop-live.md) |
+| [wong2/mcp-cli](https://github.com/wong2/mcp-cli) | A CLI inspector for the Model Context Protocol | JavaScript | 395 | [Nov 21, 2025](./stars/wong2/mcp-cli.md) |
+| [DavidWells/claude-dev-container](https://github.com/DavidWells/claude-dev-container) | Run Claude Code in isolated dev container and remotely connect via vibetunnel | Shell | 25 | [Nov 21, 2025](./stars/DavidWells/claude-dev-container.md) |
+| [generalaction/emdash](https://github.com/generalaction/emdash) | Emdash is an orchestration layer for running multiple coding agents in parallel in isolated Git worktrees Tags: #agenticcoding #ai #cli #codingagents #containerization #docker #gitworktrees #jira #linear #llm #openai #opensource #orchestration #parallelexecution #terminal | TypeScript | 759 | [Nov 21, 2025](./stars/generalaction/emdash.md) |
+| [johnlindquist/orchestrator](https://github.com/johnlindquist/orchestrator) |  | TypeScript | 3 | [Nov 21, 2025](./stars/johnlindquist/orchestrator.md) |
+| [basicmachines-co/basic-memory](https://github.com/basicmachines-co/basic-memory) | AI conversations that actually remember. Never re-explain your project to your AI again. Join our Discord: https://disc... Tags: #ai #claude #knowledge-management #knowlege-graph #llm #local-first #markdown #mcp #obsidian #obsidian-md #open-source #privacy-first #privacy-first-ai #productivity #python | Python | 2,102 | [Nov 21, 2025](./stars/basicmachines-co/basic-memory.md) |
+| [johnlindquist/dotagent](https://github.com/johnlindquist/dotagent) | Universal AI agent configuration parser and converter | TypeScript | 73 | [Nov 21, 2025](./stars/johnlindquist/dotagent.md) |
+| [johnlindquist/cursor-alias](https://github.com/johnlindquist/cursor-alias) |  | TypeScript | 3 | [Nov 21, 2025](./stars/johnlindquist/cursor-alias.md) |
+| [mixedbread-ai/mgrep](https://github.com/mixedbread-ai/mgrep) | A calm, CLI-native way to semantically grep everything, like code, images, pdfs and more. | TypeScript | 1,009 | [Nov 21, 2025](./stars/mixedbread-ai/mgrep.md) |
+| [universal-tool-calling-protocol/code-mode](https://github.com/universal-tool-calling-protocol/code-mode) | 🔌 Plug-and-play library to enable agents to call MCP and UTCP tools via code execution. Tags: #ai-agents #codemode #mcp #model-context-protocol #toolchain #utcp | TypeScript | 979 | [Nov 21, 2025](./stars/universal-tool-calling-protocol/code-mode.md) |
+| [steipete/sweetlink](https://github.com/steipete/sweetlink) | Connect your agent to your web app. Like playwright, but works in your current tab. Close the loop. Tags: #frontend-debugging #typescript | TypeScript | 24 | [Nov 21, 2025](./stars/steipete/sweetlink.md) |
+| [steipete/Trimmy](https://github.com/steipete/Trimmy) | "Paste once, run once." — Trimmy flattens those multi-line shell snippets you copy so they actually paste and run. Tags: #clipboard #swift | Swift | 174 | [Nov 21, 2025](./stars/steipete/Trimmy.md) |
+| [nikolasburk/livestore-tanstack-cloudflare-auth-example](https://github.com/nikolasburk/livestore-tanstack-cloudflare-auth-example) |  | TypeScript | 24 | [Nov 19, 2025](./stars/nikolasburk/livestore-tanstack-cloudflare-auth-example.md) |
+| [aidenybai/react-grab](https://github.com/aidenybai/react-grab) | Grab any element on in your app and give it to Cursor, Claude Code, etc Tags: #ai #coding #react #react-grab | TypeScript | 1,889 | [Nov 19, 2025](./stars/aidenybai/react-grab.md) |
+| [eser/ajancli](https://github.com/eser/ajancli) |  | Go | 2 | [Nov 19, 2025](./stars/eser/ajancli.md) |
+| [steipete/Markdansi](https://github.com/steipete/Markdansi) | Markdown to ANSII in TypeScript based on Micro-Mark, with support for URLs, tables, lists and more. Tags: #ansii #markdown #typescript | TypeScript | 12 | [Nov 18, 2025](./stars/steipete/Markdansi.md) |
+| [openworkflowdev/openworkflow](https://github.com/openworkflowdev/openworkflow) | Open-source TypeScript framework for building durable, resumable workflows. | TypeScript | 493 | [Nov 14, 2025](./stars/openworkflowdev/openworkflow.md) |
+| [mark-when/markwhen](https://github.com/mark-when/markwhen) | Make a cascading timeline from markdown-like text. Supports simple American/European date styles, ISO8601, images, link... Tags: #calendar #editor #events #gantt #gantt-chart #gantt-diagram #maps #markdown #markwhen #project #project-management #timeline #visualization #vscode #vscode-extension | HTML | 4,710 | [Nov 13, 2025](./stars/mark-when/markwhen.md) |
+| [humanwhocodes/crosspost](https://github.com/humanwhocodes/crosspost) | A JavaScript utility for posting across multiple social networks at once | JavaScript | 502 | [Nov 12, 2025](./stars/humanwhocodes/crosspost.md) |
+| [humanwhocodes/module-importer](https://github.com/humanwhocodes/module-importer) | Universal importer for CommonJS and ESM in Node.js | JavaScript | 26 | [Nov 12, 2025](./stars/humanwhocodes/module-importer.md) |
+| [Dimava/yamlscript](https://github.com/Dimava/yamlscript) | Enable TypeScript language server features for TypeScript code embedded in YAML files | TypeScript | 1 | [Nov 10, 2025](./stars/Dimava/yamlscript.md) |
+| [anthropic-experimental/sandbox-runtime](https://github.com/anthropic-experimental/sandbox-runtime) | A lightweight sandboxing tool for enforcing filesystem and network restrictions on arbitrary processes at the OS level,... | TypeScript | 1,705 | [Nov 08, 2025](./stars/anthropic-experimental/sandbox-runtime.md) |
+| [alexfazio/cc-trace](https://github.com/alexfazio/cc-trace) | Claude Code CLI skill: Interactive assistant for intercepting, debugging, analyzing and reviewing Claude Code API reque... | Shell | 122 | [Nov 08, 2025](./stars/alexfazio/cc-trace.md) |
+| [s-yadav/react-number-format](https://github.com/s-yadav/react-number-format) | React component to format numbers in an input or as a text. | JavaScript | 4,060 | [Nov 05, 2025](./stars/s-yadav/react-number-format.md) |
+| [cino/aws-lambda-stubs](https://github.com/cino/aws-lambda-stubs) | Providing stubs for all AWS Lambda invocation types for easy unit testing Tags: #lambda #stubs #testing #typescript | TypeScript | 9 | [Nov 04, 2025](./stars/cino/aws-lambda-stubs.md) |
+| [instructure/idb-cache](https://github.com/instructure/idb-cache) | IndexedDB-based caching library with encryption and chunked storage, designed for performance and security. Implements ... Tags: #indexeddb #query #tanstack | TypeScript | 125 | [Nov 01, 2025](./stars/instructure/idb-cache.md) |
+| [MrLesk/Backlog.md](https://github.com/MrLesk/Backlog.md) | Backlog.md - A tool for managing project collaboration between humans and AI Agents in a git ecosystem Tags: #agent #agentic-ai #management #markdown #project #task-manager #tasks | TypeScript | 4,041 | [Nov 01, 2025](./stars/MrLesk/Backlog.md.md) |
+| [diet103/claude-code-infrastructure-showcase](https://github.com/diet103/claude-code-infrastructure-showcase) | Examples of my Claude Code infrastructure with skill auto-activation, hooks, and agents | Shell | 6,958 | [Oct 31, 2025](./stars/diet103/claude-code-infrastructure-showcase.md) |
+| [serkodev/markdown-exit](https://github.com/serkodev/markdown-exit) | Fast, customizable Markdown parser and renderer with full CommonMark support. TypeScript rewrite of markdown-it with en... Tags: #commonmark #javascript #markdown #parser #renderer #typescript | TypeScript | 1,107 | [Oct 31, 2025](./stars/serkodev/markdown-exit.md) |
+| [Vanilagy/mediabunny](https://github.com/Vanilagy/mediabunny) | Pure TypeScript media toolkit for reading, writing, and converting video and audio files, directly in the browser. Tags: #audio #decoding #demuxing #encoding #library #media #mp3 #mp4 #muxing #npm #ogg #typescript #video #wav #webcodecs #webm | TypeScript | 4,512 | [Oct 30, 2025](./stars/Vanilagy/mediabunny.md) |
+| [toon-format/toon](https://github.com/toon-format/toon) | 🎒 Token-Oriented Object Notation (TOON) – Compact, human-readable, schema-aware JSON for LLM prompts. Spec, benchmarks... Tags: #data-format #llm #serialization #tokenization | TypeScript | 19,039 | [Oct 27, 2025](./stars/toon-format/toon.md) |
+| [darkroomengineering/lenis](https://github.com/darkroomengineering/lenis) | Smooth scroll at it should be Tags: #performance #react #scroll #smooth #smooth-scroll #snap #vanilla #vue | TypeScript | 12,506 | [Oct 27, 2025](./stars/darkroomengineering/lenis.md) |
+| [kzkn/npm-changelog-url-action](https://github.com/kzkn/npm-changelog-url-action) |  | TypeScript | 5 | [Oct 24, 2025](./stars/kzkn/npm-changelog-url-action.md) |
+| [fkirc/skip-duplicate-actions](https://github.com/fkirc/skip-duplicate-actions) | Save time and cost when using GitHub Actions | TypeScript | 517 | [Oct 24, 2025](./stars/fkirc/skip-duplicate-actions.md) |
+| [hiwelo/new-dependencies-action](https://github.com/hiwelo/new-dependencies-action) | GitHub Action adding a comment with information about new NPM dependencies detected in a pull request | TypeScript | 29 | [Oct 24, 2025](./stars/hiwelo/new-dependencies-action.md) |
+| [anthropics/claude-code-action](https://github.com/anthropics/claude-code-action) |  | TypeScript | 4,142 | [Oct 24, 2025](./stars/anthropics/claude-code-action.md) |
+| [completecoding/serverless-auto-swagger](https://github.com/completecoding/serverless-auto-swagger) |  | TypeScript | 92 | [Oct 22, 2025](./stars/completecoding/serverless-auto-swagger.md) |
+| [JLarky/gha-ts](https://github.com/JLarky/gha-ts) | Type-safe GitHub Action workflows | Pkl | 132 | [Oct 19, 2025](./stars/JLarky/gha-ts.md) |
+| [Textualize/toolong](https://github.com/Textualize/toolong) | A terminal application to view, tail, merge, and search log files (plus JSONL). Tags: #jsonl #rich #terminal #terminal-based #textual #tui | Python | 3,601 | [Oct 12, 2025](./stars/Textualize/toolong.md) |
+| [Teamwork/visual-dom-diff](https://github.com/Teamwork/visual-dom-diff) | Highlight differences between two DOM trees. Tags: #diffing #dom-tree | HTML | 101 | [Oct 12, 2025](./stars/Teamwork/visual-dom-diff.md) |
+| [nikeee/lean-s3](https://github.com/nikeee/lean-s3) | A small and fast S3 client without the clutter. Tags: #api #aws #s3 | TypeScript | 31 | [Oct 12, 2025](./stars/nikeee/lean-s3.md) |
+| [fabiospampinato/graphmatch](https://github.com/fabiospampinato/graphmatch) | A low-level utility for matching a string against a directed acyclic graph of regexes. Tags: #graph #match #regex | JavaScript | 11 | [Oct 12, 2025](./stars/fabiospampinato/graphmatch.md) |
+| [remorses/critique](https://github.com/remorses/critique) | TUI for reviewing git changes | TypeScript | 56 | [Oct 12, 2025](./stars/remorses/critique.md) |
+| [justrach/dhi-zig](https://github.com/justrach/dhi-zig) |  | Python | 6 | [Oct 12, 2025](./stars/justrach/dhi-zig.md) |
+| [sindresorhus/css-extras](https://github.com/sindresorhus/css-extras) | Useful CSS custom functions using the new @​function rule | CSS | 664 | [Oct 09, 2025](./stars/sindresorhus/css-extras.md) |
+| [obra/coderabbit-review-helper](https://github.com/obra/coderabbit-review-helper) | Extract CodeRabbit GitHub PR reviews for AI coding agent consumption | Python | 20 | [Oct 05, 2025](./stars/obra/coderabbit-review-helper.md) |
+| [mountain-loop/yaak](https://github.com/mountain-loop/yaak) | The most intuitive desktop API client. Organize and execute REST, GraphQL, WebSockets, Server Sent Events, and gRPC 🦬 Tags: #bruno-alternative #graphql #grpc #http #http-client #insomnia-alternative #postman-alternative #sse #tauri #websocket | TypeScript | 8,158 | [Oct 02, 2025](./stars/mountain-loop/yaak.md) |
+| [crutchcorn/sync-skeleton](https://github.com/crutchcorn/sync-skeleton) | Synchronized Skeleton Loaders for your favorite framework Tags: #loading-animations #react #shimmer-effect #skeleton-loading #skelton-css #solidjs #vue #vue3 | HTML | 132 | [Sep 18, 2025](./stars/crutchcorn/sync-skeleton.md) |
+| [WebReflection/element](https://github.com/WebReflection/element) | A minimalistic DOM element creation library. | TypeScript | 15 | [Sep 12, 2025](./stars/WebReflection/element.md) |
+| [sindresorhus/urls-md](https://github.com/sindresorhus/urls-md) | Convert URLs to Markdown links: Extracts URLs from text → Gets their article title → Creates Markdown links | JavaScript | 86 | [Sep 11, 2025](./stars/sindresorhus/urls-md.md) |
+| [floydspace/effect-aws](https://github.com/floydspace/effect-aws) | 🚰 Effectful AWS Tags: #aws #aws-cloudwatch #aws-s3 #aws-sdk #ecosystem #effect #effect-ts #logger #typescript | TypeScript | 160 | [Sep 10, 2025](./stars/floydspace/effect-aws.md) |
+| [purple-technology/serverless-seed-plugin](https://github.com/purple-technology/serverless-seed-plugin) | This plugin seeds the data for AWS resources. Tags: #aws #cognito #dynamodb #plugin #plugin-seeds #s3 #seed #serverless | JavaScript | 2 | [Sep 09, 2025](./stars/purple-technology/serverless-seed-plugin.md) |
+| [uhop/stream-json](https://github.com/uhop/stream-json) | The micro-library of Node.js stream components for creating custom JSON processing pipelines with a minimal memory foot... Tags: #javascript-objects #parse-json-files #parser #stream-components #stream-processing #streaming-json | JavaScript | 1,120 | [Sep 07, 2025](./stars/uhop/stream-json.md) |
+| [bahmutov/start-server-and-test](https://github.com/bahmutov/start-server-and-test) | Starts server, waits for URL, then runs test command; when the tests end, shuts down server Tags: #cli #server #startup #test #utility | JavaScript | 1,568 | [Sep 05, 2025](./stars/bahmutov/start-server-and-test.md) |
+| [slopus/happy](https://github.com/slopus/happy) | Mobile and Web client for Codex and Claude Code, with realtime voice, encryption and fully featured Tags: #claude-code #claude-desktop #claude-mobile #codex #codex-cli #hacktoberfest | TypeScript | 3,176 | [Sep 05, 2025](./stars/slopus/happy.md) |
+| [johnlindquist/pack](https://github.com/johnlindquist/pack) | Smart file filter for Repomix - search and bundle only files containing specific strings | JavaScript | 6 | [Sep 04, 2025](./stars/johnlindquist/pack.md) |
+| [remcohaszing/mdxlint](https://github.com/remcohaszing/mdxlint) | A CLI to lint and format MDX content. Tags: #cli #format #formatter #lint #linter #mdast #mdx #remark #unified | JavaScript | 44 | [Sep 04, 2025](./stars/remcohaszing/mdxlint.md) |
+| [SodaDev/mcp-auth](https://github.com/SodaDev/mcp-auth) |  | Go | 1 | [Sep 02, 2025](./stars/SodaDev/mcp-auth.md) |
+| [csswizardry/Obs.js](https://github.com/csswizardry/Obs.js) | Context-aware web performance for everyone Tags: #battery-api #navigator-api #sitespeed #webperf #webperformance | JavaScript | 545 | [Sep 02, 2025](./stars/csswizardry/Obs.js.md) |
+| [mzazon/awesome-cloud-projects](https://github.com/mzazon/awesome-cloud-projects) | Over 1100 cloud architecture recipes, tutorials, and real-world solutions across Amazon Web Services (AWS), Microsoft A... Tags: #amazon-web-services #aws #aws-cdk #azure #azure-bicep #cloud #cloudformation #devops #education #gcp #google-cloud-platform #microsoft-azure #terraform | Shell | 230 | [Aug 28, 2025](./stars/mzazon/awesome-cloud-projects.md) |
+| [Owloops/claude-powerline](https://github.com/Owloops/claude-powerline) | Beautiful vim-style powerline statusline for Claude Code Tags: #claude-code #cli #developer-tools #git #lightweight #statusline | TypeScript | 417 | [Aug 27, 2025](./stars/Owloops/claude-powerline.md) |
+| [zenryan/serverless-plugin-alb-apikey](https://github.com/zenryan/serverless-plugin-alb-apikey) | Api key for Alb Event on Serverless Framework | JavaScript | 2 | [Aug 25, 2025](./stars/zenryan/serverless-plugin-alb-apikey.md) |
+| [reflex-media/lesgo-framework](https://github.com/reflex-media/lesgo-framework) | Core framework for lesgo. | TypeScript | 10 | [Aug 25, 2025](./stars/reflex-media/lesgo-framework.md) |
+| [forattini-dev/s3db.js](https://github.com/forattini-dev/s3db.js) | Use AWS S3 as a cheap document database. Tags: #aws #s3 | JavaScript | 11 | [Aug 25, 2025](./stars/forattini-dev/s3db.js.md) |
+| [mbc-net/mbc-cqrs-serverless](https://github.com/mbc-net/mbc-cqrs-serverless) | serverless applications with CQRS on AWS, NestJS and local development Tags: #aws #cqrs #event-driven #framework #localdevelopment #nestjs #serverless #typescript | TypeScript | 28 | [Aug 25, 2025](./stars/mbc-net/mbc-cqrs-serverless.md) |
+| [robb0wen/rekishi](https://github.com/robb0wen/rekishi) | Rekishi is a minimal pubsub wrapper for the history API | JavaScript | 39 | [Aug 24, 2025](./stars/robb0wen/rekishi.md) |
+| [robb0wen/tornis](https://github.com/robb0wen/tornis) | Tornis helps you watch and respond to changes in your browser's viewport 🌲 | JavaScript | 1,593 | [Aug 24, 2025](./stars/robb0wen/tornis.md) |
+| [11ty/parse-date-strings](https://github.com/11ty/parse-date-strings) | Parsing content date strings in Eleventy core. | JavaScript | 35 | [Aug 24, 2025](./stars/11ty/parse-date-strings.md) |
+| [DigitalPlatDev/FreeDomain](https://github.com/DigitalPlatDev/FreeDomain) | DigitalPlat FreeDomain: Free Domain For Everyone Tags: #digitalplat #domain #domain-platform #domainname #domains #free #freedomain | HTML | 108,154 | [Aug 24, 2025](./stars/DigitalPlatDev/FreeDomain.md) |
+| [promptfoo/promptfoo](https://github.com/promptfoo/promptfoo) | Test your prompts, agents, and RAGs. AI Red teaming, pentesting, and vulnerability scanning for LLMs. Compare performan... Tags: #ci #ci-cd #cicd #evaluation #evaluation-framework #llm #llm-eval #llm-evaluation #llm-evaluation-framework #llmops #pentesting #prompt-engineering #prompt-testing #prompts #rag #red-teaming #testing #vulnerability-scanners | TypeScript | 8,748 | [Aug 24, 2025](./stars/promptfoo/promptfoo.md) |
+| [pierpo/react-archer](https://github.com/pierpo/react-archer) | 🏹 Draw arrows between React elements 🖋 Tags: #arrow #arrows #dom #draw-arrows #react | TypeScript | 1,249 | [Aug 22, 2025](./stars/pierpo/react-archer.md) |
+| [vercel/streamdown](https://github.com/vercel/streamdown) | A drop-in replacement for react-markdown, designed for AI-powered streaming. Tags: #ai #markdown #streaming | TypeScript | 1,310 | [Aug 22, 2025](./stars/vercel/streamdown.md) |
+| [panphora/overtype](https://github.com/panphora/overtype) | The markdown editor that's just a textarea https://overtype.dev | JavaScript | 1,642 | [Aug 22, 2025](./stars/panphora/overtype.md) |
+| [DerYeger/yeger](https://github.com/DerYeger/yeger) | Monorepo for @yeger/ NPM packages Tags: #npm #npm-package #typescript #vue | TypeScript | 363 | [Aug 20, 2025](./stars/DerYeger/yeger.md) |
+| [zizmorcore/zizmor](https://github.com/zizmorcore/zizmor) | Static analysis for GitHub Actions Tags: #github-actions #security #security-tools #static-analysis | Rust | 2,928 | [Aug 14, 2025](./stars/zizmorcore/zizmor.md) |
+| [Shopify/ejson](https://github.com/Shopify/ejson) | EJSON is a small library to manage encrypted secrets using asymmetric encryption. | Go | 1,437 | [Aug 14, 2025](./stars/Shopify/ejson.md) |
+| [jitsi/robotjs](https://github.com/jitsi/robotjs) | Node.js Desktop Automation. | C | 83 | [Aug 14, 2025](./stars/jitsi/robotjs.md) |
+| [laude-institute/terminal-bench](https://github.com/laude-institute/terminal-bench) | A benchmark for LLMs on complicated tasks in the terminal | Python | 559 | [Aug 11, 2025](./stars/laude-institute/terminal-bench.md) |
+| [mantinedev/ui.mantine.dev](https://github.com/mantinedev/ui.mantine.dev) | Mantine UI website and components Tags: #components #react #ui | TypeScript | 3,444 | [Aug 09, 2025](./stars/mantinedev/ui.mantine.dev.md) |
+| [aws-actions/aws-lambda-deploy](https://github.com/aws-actions/aws-lambda-deploy) | Deploys a Lambda function. | JavaScript | 180 | [Aug 07, 2025](./stars/aws-actions/aws-lambda-deploy.md) |
+| [alphanull/jsdoc-vision-theme](https://github.com/alphanull/jsdoc-vision-theme) | JSDoc VisionTheme is a modern, clean, fully responsive, and highly customizable theme for JSDoc, designed to bring docu... Tags: #documentation #javascript #jsdoc #jsdoc-template #jsdoc-theme #modern-design #responsive-design | JavaScript | 2 | [Aug 07, 2025](./stars/alphanull/jsdoc-vision-theme.md) |
+| [alphanull/jsdoc-plugin-esnext](https://github.com/alphanull/jsdoc-plugin-esnext) | JSDoc plugin that adds full ES2022+ class-feature support – private fields, static members, arrow-bound methods, as wel... Tags: #esnext #jsdoc #jsdoc-plugin | JavaScript | 5 | [Aug 07, 2025](./stars/alphanull/jsdoc-plugin-esnext.md) |
+| [janwilmake/recursive-execution-flow-markdown](https://github.com/janwilmake/recursive-execution-flow-markdown) | Simply representing recursive execution flows in markdown | TypeScript | 4 | [Aug 06, 2025](./stars/janwilmake/recursive-execution-flow-markdown.md) |
+| [charles-adedotun/notifications-mcp-server](https://github.com/charles-adedotun/notifications-mcp-server) | A Model Context Protocol (MCP) server that provides notifications for Claude Desktop on macOS. It plays configurable sy... Tags: #claude #llm-tools #macos #mcp #notification-system | Python | 11 | [Aug 06, 2025](./stars/charles-adedotun/notifications-mcp-server.md) |
+| [NeuBlink/syncwright](https://github.com/NeuBlink/syncwright) | AI-powered Git merge conflict resolution tool Tags: #ai #automation #claude #cli-tool #devops #git #github-action #merge-conflicts | Go | 2 | [Aug 06, 2025](./stars/NeuBlink/syncwright.md) |
+| [vercel/bidc](https://github.com/vercel/bidc) | Bidirectional Channels for JavaScript Tags: #async #channels #iframe #javascript #messaging #rpc #worker | TypeScript | 1,058 | [Aug 06, 2025](./stars/vercel/bidc.md) |
+| [Airbolt-AI/airbolt](https://github.com/Airbolt-AI/airbolt) |  | TypeScript | 23 | [Aug 05, 2025](./stars/Airbolt-AI/airbolt.md) |
+| [stryker-mutator/stryker-js](https://github.com/stryker-mutator/stryker-js) | Mutation testing for JavaScript and friends Tags: #hacktoberfest #javascript #mutation-testing #stryker #test-automation #testing #testing-tools #typescript | TypeScript | 2,685 | [Aug 05, 2025](./stars/stryker-mutator/stryker-js.md) |
+| [BearGew1/claude-code-action-access-control](https://github.com/BearGew1/claude-code-action-access-control) | Access control wrapper for anthropics/claude-code-action - restrict usage to specific users or teams. Perfect for publi... | Shell | 1 | [Aug 05, 2025](./stars/BearGew1/claude-code-action-access-control.md) |
+| [matheusdasmerces/github-codebuild-selfhosted](https://github.com/matheusdasmerces/github-codebuild-selfhosted) | Repository containing the example of setting up CodeBuild to self host GitHub actions. | TypeScript | 2 | [Aug 04, 2025](./stars/matheusdasmerces/github-codebuild-selfhosted.md) |
+| [tunnckoCore/mongo-like-filters](https://github.com/tunnckoCore/mongo-like-filters) | A lightweight, type-safe TypeScript library for filtering objects using MongoDB-style query syntax | TypeScript | 3 | [Aug 03, 2025](./stars/tunnckoCore/mongo-like-filters.md) |
+| [badlogic/lemmy](https://github.com/badlogic/lemmy) | Wrapper around tool using LLMs for agentic workflows | TypeScript | 1,067 | [Aug 02, 2025](./stars/badlogic/lemmy.md) |
+| [esm-dev/modern-monaco](https://github.com/esm-dev/modern-monaco) | A modern version of Monaco Editor. | TypeScript | 186 | [Aug 02, 2025](./stars/esm-dev/modern-monaco.md) |
+| [SuperClaude-Org/SuperClaude_Framework](https://github.com/SuperClaude-Org/SuperClaude_Framework) | A configuration framework that enhances Claude Code with specialized commands, cognitive personas, and development meth... | Python | 12,009 | [Aug 01, 2025](./stars/SuperClaude-Org/SuperClaude_Framework.md) |
+| [contains-studio/agents](https://github.com/contains-studio/agents) | sharing current agents in use |  | 5,634 | [Aug 01, 2025](./stars/contains-studio/agents.md) |
+| [mike-pete/dex](https://github.com/mike-pete/dex) | Upload and Parse 1M+ Line CSVs with NextJS Tags: #nextjs #pusher-channels #qstash-upstash #queue #serverless #websocket | TypeScript | 3 | [Jul 31, 2025](./stars/mike-pete/dex.md) |
+| [jarulraj/periodic-table](https://github.com/jarulraj/periodic-table) | A Periodic Table of System Design Principles |  | 1,019 | [Jul 31, 2025](./stars/jarulraj/periodic-table.md) |
+| [andrelandgraf/openimg](https://github.com/andrelandgraf/openimg) | Image optimization packages & tools | TypeScript | 81 | [Jul 30, 2025](./stars/andrelandgraf/openimg.md) |
+| [DavidHDev/react-bits](https://github.com/DavidHDev/react-bits) | An open source collection of animated, interactive & fully customizable React components for building stunning, memorab... Tags: #3d #animations #component-library #components #components-library #components-react #css-animations #javascript #react #reactjs #tailwind #tailwindcss #ui-components #ui-library #web | JavaScript | 20,208 | [Jul 24, 2025](./stars/DavidHDev/react-bits.md) |
+| [janwilmake/contextarea](https://github.com/janwilmake/contextarea) | js and cloudflare libraries allowing easy context-building | TypeScript | 15 | [Jul 24, 2025](./stars/janwilmake/contextarea.md) |
+| [llm-guy/jarvis](https://github.com/llm-guy/jarvis) | Jarvis is a voice-activated, conversational AI assistant powered by a local LLM (Qwen via Ollama). It listens for a wak... | Python | 75 | [Jul 23, 2025](./stars/llm-guy/jarvis.md) |
+| [bumbu/svg-pan-zoom](https://github.com/bumbu/svg-pan-zoom) | JavaScript library that enables panning and zooming of an SVG in an HTML document, with mouse events or custom JavaScri... | JavaScript | 1,886 | [Jul 22, 2025](./stars/bumbu/svg-pan-zoom.md) |
+| [danielmiessler/Fabric](https://github.com/danielmiessler/Fabric) | Fabric is an open-source framework for augmenting humans using AI. It provides a modular system for solving specific pr... Tags: #ai #augmentation #flourishing #life #work | JavaScript | 32,875 | [Jul 22, 2025](./stars/danielmiessler/Fabric.md) |
+| [ossjs/release](https://github.com/ossjs/release) | Minimalistic, opinionated, and predictable release automation tool. Tags: #ossjs #package #publish #release #release-automation #release-notes #semver #version | TypeScript | 349 | [Jul 18, 2025](./stars/ossjs/release.md) |
+| [remorses/fumabase](https://github.com/remorses/fumabase) | Docs websites for the agents era. Publish docs websites without maintaining any code. Built on top of Fumadocs Tags: #documentation #generator #mdx | JavaScript | 473 | [Jul 16, 2025](./stars/remorses/fumabase.md) |
+| [remorses/holocron](https://github.com/remorses/holocron) | Lovable for docs websites Tags: #documentation #generator #mdx | JavaScript | 507 | [Jul 16, 2025](./stars/remorses/holocron.md) |
+| [ibelick/prompt-kit](https://github.com/ibelick/prompt-kit) | Core building blocks for AI apps. High-quality, accessible, and customizable components for AI interfaces. Tags: #ai #components #nextjs #react #shadcn #shadcn-ui #tailwindcss #ui | TypeScript | 1,669 | [Jul 16, 2025](./stars/ibelick/prompt-kit.md) |
+| [FranciscoMoretti/sparka](https://github.com/FranciscoMoretti/sparka) | AI Chat - Claude, ChatGPT, Gemini, and Grok. Advanced features, open-source, production-ready. Tags: #ai #anthropic #chat #chatbot #chatgpt #claude #gemini #gemini-ai #grok #llm #multiprovider #openai #xai | TypeScript | 103 | [Jul 16, 2025](./stars/FranciscoMoretti/sparka.md) |
+| [revskill10/ream.js](https://github.com/revskill10/ream.js) | The simplest Javascript Datetime library | TypeScript | 19 | [Jul 16, 2025](./stars/revskill10/ream.js.md) |
+| [SKaplanOfficial/Argonaut](https://github.com/SKaplanOfficial/Argonaut) | An AppleScript library for parsing and handling command-line arguments Tags: #applescript #applescript-library #arguments #command-line #script-library | Rich Text Format | 9 | [Jul 15, 2025](./stars/SKaplanOfficial/Argonaut.md) |
+| [steadycursor/steadystart](https://github.com/steadycursor/steadystart) |  | TypeScript | 39 | [Jul 15, 2025](./stars/steadycursor/steadystart.md) |
+| [mitsuhiko/vite-console-forward-plugin](https://github.com/mitsuhiko/vite-console-forward-plugin) | Forwards console logs to the vite log | TypeScript | 111 | [Jul 14, 2025](./stars/mitsuhiko/vite-console-forward-plugin.md) |
+| [BloopAI/vibe-kanban](https://github.com/BloopAI/vibe-kanban) | Kanban board to manage your AI coding agents Tags: #agent #ai-agents #kanban #management #task-manager | Rust | 3,583 | [Jul 13, 2025](./stars/BloopAI/vibe-kanban.md) |
+| [janwilmake/markdown-renderer](https://github.com/janwilmake/markdown-renderer) | Chrome/Safari Extension that renders markdown responses | CSS | 4 | [Jul 13, 2025](./stars/janwilmake/markdown-renderer.md) |
+| [idosal/mcp-ui](https://github.com/idosal/mcp-ui) | SDK for UI over MCP. Create next-gen UI experiences! Tags: #ai #llm #mcp #ui | TypeScript | 450 | [Jul 10, 2025](./stars/idosal/mcp-ui.md) |
+| [pmndrs/prai](https://github.com/pmndrs/prai) | JS Framework for building step-by-step LLM instructions Tags: #llm #prai #programmable-ai #typescript #xgrammar | TypeScript | 35 | [Jul 10, 2025](./stars/pmndrs/prai.md) |
+| [pmndrs/uikit](https://github.com/pmndrs/uikit) | 🎨 user interfaces for react-three-fiber Tags: #flexbox #r3f #react #threejs #typescript #uikit #userinterface #yoga | TypeScript | 2,942 | [Jul 10, 2025](./stars/pmndrs/uikit.md) |
+| [getomni-ai/zerox](https://github.com/getomni-ai/zerox) | OCR & Document Extraction using vision models Tags: #ocr #pdf | TypeScript | 11,540 | [Jul 10, 2025](./stars/getomni-ai/zerox.md) |
+| [idosal/git-mcp](https://github.com/idosal/git-mcp) | Put an end to code hallucinations! GitMCP is a free, open-source, remote MCP server for any GitHub project Tags: #agentic-ai #agents #ai #claude #copilot #cursor #git #llm #mcp | TypeScript | 3,408 | [Jul 10, 2025](./stars/idosal/git-mcp.md) |
+| [MiguelsPizza/WebMCP](https://github.com/MiguelsPizza/WebMCP) | Bringing the power of MCP to the web Tags: #ai #mcp #typescript | TypeScript | 494 | [Jul 10, 2025](./stars/MiguelsPizza/WebMCP.md) |
+| [28mm/blast-radius](https://github.com/28mm/blast-radius) | Interactive visualizations of Terraform dependency graphs using d3.js Tags: #diagram #graphviz #interactive-visualizations #terraform | JavaScript | 2,133 | [Jul 10, 2025](./stars/28mm/blast-radius.md) |
+| [colinhacks/zshy](https://github.com/colinhacks/zshy) | 🐒 Bundler-free build tool for TypeScript libraries. Powered by tsc. | TypeScript | 502 | [Jul 10, 2025](./stars/colinhacks/zshy.md) |
+| [musistudio/claude-code-router](https://github.com/musistudio/claude-code-router) | Use Claude Code as the foundation for coding infrastructure, allowing you to decide how to interact with the model whil... | TypeScript | 3,405 | [Jul 09, 2025](./stars/musistudio/claude-code-router.md) |
+| [smtg-ai/claude-squad](https://github.com/smtg-ai/claude-squad) | Manage multiple AI terminal agents like Claude Code, Aider, Codex, OpenCode, and Amp. Tags: #aider #claude-code #cli #codex #vibe-coding | Go | 2,817 | [Jul 09, 2025](./stars/smtg-ai/claude-squad.md) |
+| [haydenbleasel/kibo](https://github.com/haydenbleasel/kibo) | A custom registry of composable, accessible and open source shadcn/ui components. Tags: #accessible #components #composable #react #shadcn-ui #typescript #ui | TypeScript | 1,677 | [Jul 09, 2025](./stars/haydenbleasel/kibo.md) |
+| [aaronbates/dotfiles](https://github.com/aaronbates/dotfiles) | macOS dotfiles — migrate, backup, config, brew, dev, and a whole lot more. Tags: #bash #dotfiles #git #mackup #tmux #vim | Shell | 94 | [Jul 07, 2025](./stars/aaronbates/dotfiles.md) |
+| [egoist/update-bin](https://github.com/egoist/update-bin) | Update a binary to its latest version by using the original package manager that was used to install it | Rust | 21 | [Jul 05, 2025](./stars/egoist/update-bin.md) |
+| [thomasdondorf/puppeteer-cluster](https://github.com/thomasdondorf/puppeteer-cluster) | Puppeteer Pool, run a cluster of instances in parallel Tags: #cluster #headless-chrome #node #pool #pooling #puppeteer | TypeScript | 3,420 | [Jul 04, 2025](./stars/thomasdondorf/puppeteer-cluster.md) |
+| [tj-actions/changed-files](https://github.com/tj-actions/changed-files) | :octocat: Github action to retrieve all (added, copied, modified, deleted, renamed, type changed, unmerged, unknown) fi... Tags: #actions #change-detection #change-detetion #changed-file #changed-files #ci #ci-cd #conditional-execution #continuous-delivery #continuous-integration #github #github-actions #modified #modified-files #monorepo #restore-files #submodules #workflows #yaml-files | TypeScript | 2,494 | [Jul 04, 2025](./stars/tj-actions/changed-files.md) |
+| [sinanbekar/browser-extension-react-typescript-starter](https://github.com/sinanbekar/browser-extension-react-typescript-starter) | 🚀 React & TypeScript Starter for developing web extensions with hot reload! Tags: #browser-extension #chrome-extension #edge #eslint #firefox #firefox-add-ons #google-chrome #jest #opera-extension #prettier #react #redux #redux-persist #redux-toolkit #tailwindcss #typescript #vitejs | TypeScript | 161 | [Jul 04, 2025](./stars/sinanbekar/browser-extension-react-typescript-starter.md) |
+| [Jonghakseo/chrome-extension-boilerplate-react-vite](https://github.com/Jonghakseo/chrome-extension-boilerplate-react-vite) | Chrome Extension Boilerplate with React + Vite + Typescript | TypeScript | 4,172 | [Jul 04, 2025](./stars/Jonghakseo/chrome-extension-boilerplate-react-vite.md) |
+| [asciinema/asciinema](https://github.com/asciinema/asciinema) | Terminal session recorder 📹 Tags: #asciicast #asciinema #cli #recorder #recording #rust #terminal | Rust | 15,407 | [Jul 04, 2025](./stars/asciinema/asciinema.md) |
+| [zirkelc/middy-store](https://github.com/zirkelc/middy-store) | Middleware for Step Functions: Automatically Store and Load Payloads | TypeScript | 3 | [Jul 04, 2025](./stars/zirkelc/middy-store.md) |
+| [zirkelc/millis-js](https://github.com/zirkelc/millis-js) | A tiny and dependency-free library for date time arithmetic with a chainable and immutable API | TypeScript | 3 | [Jul 04, 2025](./stars/zirkelc/millis-js.md) |
+| [zirkelc/template-serverless-typescript](https://github.com/zirkelc/template-serverless-typescript) | Template for a Serverless TypeScript project | TypeScript | 1 | [Jul 04, 2025](./stars/zirkelc/template-serverless-typescript.md) |
+| [mishushakov/llm-scraper](https://github.com/mishushakov/llm-scraper) | Turn any webpage into structured data using LLMs Tags: #ai #artificial-intelligence #browser #browser-automation #gpt #gpt-4 #langchain #llama #llm #openai #playwright #puppeteer #scraper | TypeScript | 5,286 | [Jul 03, 2025](./stars/mishushakov/llm-scraper.md) |
+| [WickyNilliams/cally](https://github.com/WickyNilliams/cally) | Small, feature-rich calendar components Tags: #calendar #calendar-component #date-picker #datepicker #web-component #webcomponent | TypeScript | 1,409 | [Jul 03, 2025](./stars/WickyNilliams/cally.md) |
+| [kettanaito/playwright-persona](https://github.com/kettanaito/playwright-persona) | Authentication in Playwright using personas. Tags: #auth #persona #playwright #setup #test | TypeScript | 86 | [Jul 02, 2025](./stars/kettanaito/playwright-persona.md) |
+| [FutureExcited/vibe-rules](https://github.com/FutureExcited/vibe-rules) | Save, load, distribute your AI rules Tags: #ai #artificial-intelligence #cursor-ai #windsurf #zed-editor | TypeScript | 207 | [Jul 01, 2025](./stars/FutureExcited/vibe-rules.md) |
+| [ShishKabab/user-logic](https://github.com/ShishKabab/user-logic) | Data-driven logic for ultra-configurable applications, implemented in Javascript | TypeScript | 7 | [Jun 30, 2025](./stars/ShishKabab/user-logic.md) |
+| [fourTheorem/dsql-example](https://github.com/fourTheorem/dsql-example) |  | TypeScript | 4 | [Jun 29, 2025](./stars/fourTheorem/dsql-example.md) |
+| [Textualize/rich](https://github.com/Textualize/rich) | Rich is a Python library for rich text and beautiful formatting in the terminal. Tags: #ansi-colors #emoji #markdown #progress-bar #progress-bar-python #python #python-library #python3 #rich #syntax-highlighting #tables #terminal #terminal-color #traceback #tracebacks-rich #tui | Python | 52,611 | [Jun 27, 2025](./stars/Textualize/rich.md) |
+| [darrenburns/rich-pixels](https://github.com/darrenburns/rich-pixels) | A Rich-compatible library for writing pixel images and ASCII art to the terminal. Tags: #ascii #ascii-art #console #rich #terminal #textual | Python | 314 | [Jun 27, 2025](./stars/darrenburns/rich-pixels.md) |
+| [jacobparis/with-react](https://github.com/jacobparis/with-react) | Components for every React hook | TypeScript | 190 | [Jun 27, 2025](./stars/jacobparis/with-react.md) |
+| [kriszyp/cbor-x](https://github.com/kriszyp/cbor-x) | Ultra-fast CBOR encoder/decoder with extensions for records and structural cloning | JavaScript | 330 | [Jun 25, 2025](./stars/kriszyp/cbor-x.md) |
+| [msgpack/msgpack-javascript](https://github.com/msgpack/msgpack-javascript) | @msgpack/msgpack - MessagePack for JavaScript / msgpack.org[ECMA-262/JavaScript/TypeScript] Tags: #deno-library #javascript-library #messagepack #msgpack #serialization-library #typescript-library #universal-javascript | TypeScript | 1,415 | [Jun 25, 2025](./stars/msgpack/msgpack-javascript.md) |
+| [bee-san/pyWhat](https://github.com/bee-san/pyWhat) | 🐸 Identify anything. pyWhat easily lets you identify emails, IP addresses, and more. Feed it a .pcap file or some text... Tags: #cyber #cybersecurity #hacking #hacktoberfest #malware #malware-analysis #malware-research #pcap #python #re #security #tryhackme | Python | 6,913 | [Jun 24, 2025](./stars/bee-san/pyWhat.md) |
+| [openobserve/openobserve](https://github.com/openobserve/openobserve) | 🚀 10x easier, 🚀 140x lower storage cost, 🚀 high performance, 🚀 petabyte scale - Elasticsearch/Splunk/Datadog altern... Tags: #analytics #apm #datadog #elasticsearch #grafana #jaeger #kibana #log-analytics #log-management #log-search #logs #metrics #monitoring #observability #openobserve #opentelemetry #prometheus #rust-lang #splunk #traces | Rust | 15,659 | [Jun 24, 2025](./stars/openobserve/openobserve.md) |
+| [XaveScor/smartbundle](https://github.com/XaveScor/smartbundle) | Just Code, No Configs. The Library Bundler That Respects Your Time | TypeScript | 59 | [Jun 23, 2025](./stars/XaveScor/smartbundle.md) |
+| [stravu/crystal](https://github.com/stravu/crystal) | An IVE: Integrated Vibe Environment Tags: #ai #ai-coding #development-environment #vibe-coding | TypeScript | 337 | [Jun 23, 2025](./stars/stravu/crystal.md) |
+| [getAsterisk/claudia](https://github.com/getAsterisk/claudia) | A powerful GUI app and Toolkit for Claude Code - Create custom agents, manage interactive Claude Code sessions, run sec... Tags: #anthropic #anthropic-claude #claude #claude-4 #claude-4-opus #claude-4-sonnet #claude-ai #claude-code #claude-code-sdk #cursor #ide #llm #llm-code #rust #tauri | TypeScript | 2,451 | [Jun 23, 2025](./stars/getAsterisk/claudia.md) |
+| [DiegoZoracKy/magicli](https://github.com/DiegoZoracKy/magicli) | Automagically generates command-line interfaces (CLI) for any module. Expected options and help sections are created au... Tags: #cli #command-line #command-line-interface #nodejs | JavaScript | 180 | [Jun 22, 2025](./stars/DiegoZoracKy/magicli.md) |
+| [instantlyeasy/claude-code-sdk-ts](https://github.com/instantlyeasy/claude-code-sdk-ts) | Fluent, chainable TypeScript SDK: configure models, enable tools, stream events, then fetch text, JSON, run details or ... Tags: #claude #claude-code #claude-code-sdk #claude-code-typescript #claude-max | TypeScript | 102 | [Jun 22, 2025](./stars/instantlyeasy/claude-code-sdk-ts.md) |
+| [PeterDaveHello/top-1m-domains](https://github.com/PeterDaveHello/top-1m-domains) | 🌐 List of free and downloadable top 1M domain list (alexa alternatives) 📊 Tags: #alexa #alexa-alternative #builtwith #cisco #cloudflare #dns #domain #hacktoberfest #list #majestic #million #osint #passive-dns #popular #ranking #statvoo #top-1m #tranco #umbrella #website |  | 204 | [Jun 21, 2025](./stars/PeterDaveHello/top-1m-domains.md) |
+| [MaximeRivest/metakeyai](https://github.com/MaximeRivest/metakeyai) |  | TypeScript | 41 | [Jun 21, 2025](./stars/MaximeRivest/metakeyai.md) |
+| [johnlindquist/chromancer](https://github.com/johnlindquist/chromancer) | Command-line interface for Chrome automation using DevTools Protocol | TypeScript | 15 | [Jun 20, 2025](./stars/johnlindquist/chromancer.md) |
+| [jwalton/gh-find-current-pr](https://github.com/jwalton/gh-find-current-pr) | Github Action for finding the Pull Request (PR) associated with the current SHA. | TypeScript | 187 | [Jun 20, 2025](./stars/jwalton/gh-find-current-pr.md) |
+| [andreruffert/syntax-highlight-element](https://github.com/andreruffert/syntax-highlight-element) | 👓 Syntax Highlighting using the CSS Custom Highlight API Tags: #custom-elements #javascript #syntax-highlight #syntax-highlighting #web-components | JavaScript | 370 | [Jun 20, 2025](./stars/andreruffert/syntax-highlight-element.md) |
+| [ryoppippi/ccusage](https://github.com/ryoppippi/ccusage) | A CLI tool for analyzing Claude Code usage from local JSONL files. | TypeScript | 2,801 | [Jun 19, 2025](./stars/ryoppippi/ccusage.md) |
+| [elie222/inbox-zero](https://github.com/elie222/inbox-zero) | The world's best AI personal assistant for email. Open source app to help you reach inbox zero fast. Tags: #ai #email #gmail #loops #nextjs #openai #postgresql #posthog #prisma #productivity #resend #shadcn-ui #tailwind #tinybird #turborepo #typescript #upstash | TypeScript | 8,201 | [Jun 19, 2025](./stars/elie222/inbox-zero.md) |
+| [modelcontextprotocol/inspector](https://github.com/modelcontextprotocol/inspector) | Visual testing tool for MCP servers | TypeScript | 4,476 | [Jun 19, 2025](./stars/modelcontextprotocol/inspector.md) |
+| [to-na/claude-code-crew](https://github.com/to-na/claude-code-crew) | A browser-based interface for managing multiple Claude Code sessions across Git worktrees. Tags: #claude #claudecode #typescript | TypeScript | 23 | [Jun 19, 2025](./stars/to-na/claude-code-crew.md) |
+| [kevin-funderburg/AppleScripts](https://github.com/kevin-funderburg/AppleScripts) | My collection of AppleScripts I've developed or acquired over the years. Tags: #alfred #applescript #automation #bettertouchtool #example #keyboard-maestro #keyboard-shortcuts #script-debugger #scripting #typinator | AppleScript | 271 | [Jun 19, 2025](./stars/kevin-funderburg/AppleScripts.md) |
+| [vincenthopf/claude-code](https://github.com/vincenthopf/claude-code) | A curated list of commands, files, and workflows for Claude Code | Python | 54 | [Jun 19, 2025](./stars/vincenthopf/claude-code.md) |
+| [so-fancy/diff-so-fancy](https://github.com/so-fancy/diff-so-fancy) | Good-lookin' diffs. Actually… nah… The best-lookin' diffs. :tada: Tags: #diff #diff-highlight #diffs #fancy #git #hacktoberfest | Perl | 17,682 | [Jun 19, 2025](./stars/so-fancy/diff-so-fancy.md) |
+| [johnlindquist/get-rules](https://github.com/johnlindquist/get-rules) | Downloads .mdc rule files for Cursor from johnlindquist/rules-for-tools repository. | TypeScript | 19 | [Jun 18, 2025](./stars/johnlindquist/get-rules.md) |
+| [amantus-ai/vibetunnel](https://github.com/amantus-ai/vibetunnel) | Turn any browser into your terminal & command your agents on the go. Tags: #remote #terminal #vibecoding | TypeScript | 641 | [Jun 16, 2025](./stars/amantus-ai/vibetunnel.md) |
+| [steipete/agent-rules](https://github.com/steipete/agent-rules) | Rules and Knowledge to work better with agents such as Claude Code or Cursor Tags: #agent #claudecode #cursor #llms #rules | Shell | 1,850 | [Jun 15, 2025](./stars/steipete/agent-rules.md) |
+| [sammwyy/graceful-json](https://github.com/sammwyy/graceful-json) | A graceful JSON parser and serializer with fallback handling. Tags: #browser #bun #graceful #json #json-parser #llm #node #nodejs #parse #serializer #typescript | TypeScript | 23 | [Jun 15, 2025](./stars/sammwyy/graceful-json.md) |
+| [junegunn/fzf](https://github.com/junegunn/fzf) | :cherry_blossom: A command-line fuzzy finder Tags: #bash #cli #fish #fzf #go #neovim #tmux #unix #vim #zsh | Go | 71,348 | [Jun 14, 2025](./stars/junegunn/fzf.md) |
+| [ronin-co/blade](https://github.com/ronin-co/blade) | A React framework for building instant web apps. Tags: #components #framework #frontend #react #server | TypeScript | 139 | [Jun 14, 2025](./stars/ronin-co/blade.md) |
+| [openstatusHQ/data-table-filters](https://github.com/openstatusHQ/data-table-filters) | A playground for tanstack-table Tags: #cmdk #data-table #nextjs #nuqs #react #shadcn #tanstack-react-query #tanstack-table | TypeScript | 1,457 | [Jun 13, 2025](./stars/openstatusHQ/data-table-filters.md) |
+| [unjs/jiti](https://github.com/unjs/jiti) | Runtime TypeScript and ESM support for Node.js | TypeScript | 2,308 | [Jun 13, 2025](./stars/unjs/jiti.md) |
+| [ferrislucas/iterm-mcp](https://github.com/ferrislucas/iterm-mcp) | A Model Context Protocol server that executes commands in the current iTerm session - useful for REPL and CLI assistance Tags: #ai #claude #claude-ai #mcp #mcp-server #repl | TypeScript | 359 | [Jun 13, 2025](./stars/ferrislucas/iterm-mcp.md) |
+| [metorial/mcp-containers](https://github.com/metorial/mcp-containers) | Containerized versions of hundreds of MCP servers 📡 🧠 Tags: #agent #agentic-ai #agentic-workflow #container #docker #mcp #modelcontextprotocol #security | TypeScript | 1,543 | [Jun 13, 2025](./stars/metorial/mcp-containers.md) |
+| [aws/api-models-aws](https://github.com/aws/api-models-aws) | API Models for all public AWS Services | Python | 89 | [Jun 13, 2025](./stars/aws/api-models-aws.md) |
+| [Toolbase-AI/toolbase](https://github.com/Toolbase-AI/toolbase) | A desktop application that adds powerful tools to Claude and AI platforms Tags: #ai #claude #mcp #model-context-protocol #tools | TypeScript | 146 | [Jun 13, 2025](./stars/Toolbase-AI/toolbase.md) |
+| [dcSpark/mcp-dockmaster](https://github.com/dcSpark/mcp-dockmaster) | MCP Dockmaster allows you to easily install and manage MCP servers. Available for Mac, Windows and Linux as a Desktop A... Tags: #ai #crypto #mcp #tools | Rust | 65 | [Jun 13, 2025](./stars/dcSpark/mcp-dockmaster.md) |
+| [hikarubw/claude-code-action](https://github.com/hikarubw/claude-code-action) |  | TypeScript | 1 | [Jun 13, 2025](./stars/hikarubw/claude-code-action.md) |
+| [hikarubw/claude-action-auth](https://github.com/hikarubw/claude-action-auth) | Simple authentication setup tool for Claude Code Action on GitHub | Shell | 2 | [Jun 12, 2025](./stars/hikarubw/claude-action-auth.md) |
+| [DavidWells/whatsup](https://github.com/DavidWells/whatsup) | Modern Swagger JSON Management Tool |  | 1 | [Jun 12, 2025](./stars/DavidWells/whatsup.md) |
+| [DavidWells/get-object-diff](https://github.com/DavidWells/get-object-diff) |  | JavaScript | 2 | [Jun 12, 2025](./stars/DavidWells/get-object-diff.md) |
+| [DavidWells/permission.site](https://github.com/DavidWells/permission.site) | A site to test the interaction of web APIs and browser permissions. |  | 1 | [Jun 12, 2025](./stars/DavidWells/permission.site.md) |
+| [wooorm/f-ck](https://github.com/wooorm/f-ck) | 🤬 Clean-up cuss words Tags: #butt #cuss #grawlix #obscene #profane #vulgar | JavaScript | 38 | [Jun 12, 2025](./stars/wooorm/f-ck.md) |
+| [smithery-ai/cli](https://github.com/smithery-ai/cli) | Install, manage and develop MCP servers | TypeScript | 313 | [Jun 12, 2025](./stars/smithery-ai/cli.md) |
+| [silevis/reactgrid](https://github.com/silevis/reactgrid) | Add spreadsheet-like behavior to your React app Tags: #data-table #datagrid #datatable #excel #grid-component #reactgrid #reactgrid-component #reactjs #spreadsheet #table | TypeScript | 1,458 | [Jun 12, 2025](./stars/silevis/reactgrid.md) |
+| [ltwlf/json-diff-ts](https://github.com/ltwlf/json-diff-ts) | A diff tool for JavaScript written in TypeScript. | TypeScript | 137 | [Jun 12, 2025](./stars/ltwlf/json-diff-ts.md) |
+| [danielpetho/fancy](https://github.com/danielpetho/fancy) | Tags: #animation #design #framer-motion #motion #tailwindcss #ui-components | TypeScript | 1,895 | [Jun 12, 2025](./stars/danielpetho/fancy.md) |
+| [typed-rocks/type-buddy](https://github.com/typed-rocks/type-buddy) |  | TypeScript | 220 | [Jun 12, 2025](./stars/typed-rocks/type-buddy.md) |
+| [netlify/netlify-mcp](https://github.com/netlify/netlify-mcp) | Netlify's Official MCP server | TypeScript | 5 | [Jun 12, 2025](./stars/netlify/netlify-mcp.md) |
+| [bcherny/ink](https://github.com/bcherny/ink) | 🌈 React for interactive command-line apps | TypeScript | 2 | [Jun 11, 2025](./stars/bcherny/ink.md) |
+| [sindresorhus/env-paths](https://github.com/sindresorhus/env-paths) | Get paths for storing things like data, config, cache, etc | JavaScript | 393 | [Jun 11, 2025](./stars/sindresorhus/env-paths.md) |
+| [anaisbetts/retry-on-ci](https://github.com/anaisbetts/retry-on-ci) | NPM script to retry scripts on failure in CI | JavaScript | 1 | [Jun 10, 2025](./stars/anaisbetts/retry-on-ci.md) |
+| [anaisbetts/spawn-rx](https://github.com/anaisbetts/spawn-rx) | Observable and Promise versions of child_process.spawn | TypeScript | 142 | [Jun 10, 2025](./stars/anaisbetts/spawn-rx.md) |
+| [ljharb/shell-quote](https://github.com/ljharb/shell-quote) |  | JavaScript | 38 | [Jun 10, 2025](./stars/ljharb/shell-quote.md) |
+| [sst/opencode](https://github.com/sst/opencode) | AI coding agent, built for the terminal. | TypeScript | 2,153 | [Jun 10, 2025](./stars/sst/opencode.md) |
+| [Shopify/position-observer](https://github.com/Shopify/position-observer) | Asynchronously observe changes in the position, size and intersection of elements without polling. Tags: #position-observer | TypeScript | 98 | [Jun 09, 2025](./stars/Shopify/position-observer.md) |
+| [Schreezer/Agent](https://github.com/Schreezer/Agent) |  | JavaScript | 16 | [Jun 09, 2025](./stars/Schreezer/Agent.md) |
+| [grll/claude-code-action](https://github.com/grll/claude-code-action) |  | TypeScript | 178 | [Jun 08, 2025](./stars/grll/claude-code-action.md) |
+| [DavidWells/targeted-test-runner](https://github.com/DavidWells/targeted-test-runner) | Discover and run tests with ease | JavaScript | 1 | [Jun 05, 2025](./stars/DavidWells/targeted-test-runner.md) |
+| [chase-manning/react-photo-studio](https://github.com/chase-manning/react-photo-studio) | React Photo Studio is a free online photo editor for photography and design Tags: #editing #image-editing #photo #photo-editing #react #react-photo-studio | TypeScript | 175 | [Jun 02, 2025](./stars/chase-manning/react-photo-studio.md) |
+| [semanticart/filler-detection](https://github.com/semanticart/filler-detection) | Detect filler words (um, uh) as you speak. | TypeScript | 3 | [Jun 01, 2025](./stars/semanticart/filler-detection.md) |
+| [serverless-ca/terraform-aws-ca](https://github.com/serverless-ca/terraform-aws-ca) | Terraform module for serverless certificate authority on AWS Tags: #aws #certificate-authority #cryptography #serverless #terraform | Python | 144 | [Jun 01, 2025](./stars/serverless-ca/terraform-aws-ca.md) |
+| [smithclay/rlinklayer](https://github.com/smithclay/rlinklayer) | Richard Linklayer: experimental TCP/IP over Amazon Cloudwatch Logs (and tags) Tags: #aws-lambda #netstack #serverless-framework | Go | 63 | [May 30, 2025](./stars/smithclay/rlinklayer.md) |
+| [qoomon/userscripts--aws-visual-account-indicator](https://github.com/qoomon/userscripts--aws-visual-account-indicator) | This userscript reads the aws-userInfo cookie and adds account name and color indicator Tags: #account #aws #console #indicator #userscript #visualization | JavaScript | 3 | [May 30, 2025](./stars/qoomon/userscripts--aws-visual-account-indicator.md) |
+| [qoomon/starlines](https://github.com/qoomon/starlines) | Create beautiful stargazers histograms of your repositories or gists | JavaScript | 44 | [May 30, 2025](./stars/qoomon/starlines.md) |
+| [recharts/recharts](https://github.com/recharts/recharts) | Redefined chart library built with React and D3 Tags: #chart #charting-library #components #d3 #data-visualisation #javascript #react #recharts #typescript #ui | TypeScript | 25,254 | [May 30, 2025](./stars/recharts/recharts.md) |
+| [isaacs/sax-js](https://github.com/isaacs/sax-js) | A sax style parser for JS | JavaScript | 1,115 | [May 30, 2025](./stars/isaacs/sax-js.md) |
+| [dscape/clarinet](https://github.com/dscape/clarinet) | SAX based evented streaming JSON parser in JavaScript | JavaScript | 450 | [May 30, 2025](./stars/dscape/clarinet.md) |
+| [Lodin/react-vtree](https://github.com/Lodin/react-vtree) | React component for efficiently rendering large tree structures Tags: #performance #react #react-components #react-window #tree #virtualization #windowing | TypeScript | 406 | [May 30, 2025](./stars/Lodin/react-vtree.md) |
+| [pushtell/react-ab-test](https://github.com/pushtell/react-ab-test) | A/B testing React components and debug tools. Isomorphic with a simple, universal interface. Well documented and lightw... | JavaScript | 756 | [May 30, 2025](./stars/pushtell/react-ab-test.md) |
+| [spite/virtual-webcam](https://github.com/spite/virtual-webcam) |  | JavaScript | 285 | [May 30, 2025](./stars/spite/virtual-webcam.md) |
+| [tomnomnom/gron](https://github.com/tomnomnom/gron) | Make JSON greppable! Tags: #cli #json | Go | 14,085 | [May 30, 2025](./stars/tomnomnom/gron.md) |
+| [dsherret/ts-ast-viewer](https://github.com/dsherret/ts-ast-viewer) | TypeScript AST viewer. | TypeScript | 1,288 | [May 30, 2025](./stars/dsherret/ts-ast-viewer.md) |
+| [mathuo/dockview](https://github.com/mathuo/dockview) | Zero dependency Docking Layout Manager. Supports Vanilla TypeScript, React and Vue. Tags: #components #dock #docking #docking-layout #docking-library #drag #drag-and-drop #drop #javascript #layout #layout-manager #panel #react #reactjs #splitter #splitview #tabs #typescript #vue #vuejs | TypeScript | 2,593 | [May 30, 2025](./stars/mathuo/dockview.md) |
+| [alii/pathcat](https://github.com/alii/pathcat) | Simply path/URL building in JavaScript Tags: #http #networking #nodejs #typescript #urls #utility | TypeScript | 190 | [May 30, 2025](./stars/alii/pathcat.md) |
+| [nepsilon/search-query-parser](https://github.com/nepsilon/search-query-parser) | A simple parser for advanced search query syntax Tags: #javascript #nodejs #search #search-interface | JavaScript | 260 | [May 30, 2025](./stars/nepsilon/search-query-parser.md) |
+| [gillkyle/zuji](https://github.com/gillkyle/zuji) | Tiny (900B) TypeScript first, human-readable numeric formatting Tags: #format #formatter #formatting #javascript #number #number-formatter #numeral #types #typescript | TypeScript | 25 | [May 30, 2025](./stars/gillkyle/zuji.md) |
+| [muellerbbm-vas/grivet](https://github.com/muellerbbm-vas/grivet) | A JSON:API client library written in TypeScript with emphasis on RESTful traversal of resources according to HATEOAS pr... | TypeScript | 51 | [May 30, 2025](./stars/muellerbbm-vas/grivet.md) |
+| [caiotarifa/fetchja](https://github.com/caiotarifa/fetchja) |  | JavaScript | 9 | [May 30, 2025](./stars/caiotarifa/fetchja.md) |
+| [warrenday/peer-message](https://github.com/warrenday/peer-message) | Fast peer to peer messaging through WebRTC | TypeScript | 10 | [May 29, 2025](./stars/warrenday/peer-message.md) |
+| [fearlessfara/apigw-vtl-emulator](https://github.com/fearlessfara/apigw-vtl-emulator) | A browser-based editor and emulator for AWS API Gateway VTL templates — with live preview, debug tools, and full in-bro... Tags: #api-gateway #aws #emulator #serverless #velocity #vtl | JavaScript | 5 | [May 29, 2025](./stars/fearlessfara/apigw-vtl-emulator.md) |
+| [richardgill/llm-ui](https://github.com/richardgill/llm-ui) | The React library for LLMs Tags: #chatgpt #claude #component-library #generative-ai #llama #llm #markdown #openai #react | TypeScript | 998 | [May 29, 2025](./stars/richardgill/llm-ui.md) |
+| [benallfree/admindo](https://github.com/benallfree/admindo) | The admin for Cloudflare Durable Objects Tags: #cli #cloudflare #cloudflare-durable-objects #cloudflare-workers #durable-ob #web-admin | JavaScript | 28 | [May 28, 2025](./stars/benallfree/admindo.md) |
+| [mmkal/eslint-plugin-codegen](https://github.com/mmkal/eslint-plugin-codegen) | An eslint plugin for inline codegen. Auto-fixes out of sync code, with presets for barrels, jsdoc to markdown and more. | TypeScript | 25 | [May 28, 2025](./stars/mmkal/eslint-plugin-codegen.md) |
+| [flatiron/revalidator](https://github.com/flatiron/revalidator) | A cross-browser / node.js validator powered by JSON Schema | JavaScript | 592 | [May 27, 2025](./stars/flatiron/revalidator.md) |
+| [eugeneware/ffmpeg-static](https://github.com/eugeneware/ffmpeg-static) | ffmpeg static binaries for Mac OSX and Linux and Windows | JavaScript | 1,196 | [May 26, 2025](./stars/eugeneware/ffmpeg-static.md) |
+| [BetaHuhn/repo-file-sync-action](https://github.com/BetaHuhn/repo-file-sync-action) | 🔄 GitHub Action to keep files like Action workflows or entire directories in sync between multiple repositories. Tags: #file-sync #github-action-workflow-sync #github-actions #github-workflow #sync #sync-action #workflow-files #workflow-sync | JavaScript | 320 | [May 24, 2025](./stars/BetaHuhn/repo-file-sync-action.md) |
+| [avizway1/aws-interview-questions](https://github.com/avizway1/aws-interview-questions) |  |  | 43 | [May 24, 2025](./stars/avizway1/aws-interview-questions.md) |
+| [Developer-Y/Scalable-Software-Architecture](https://github.com/Developer-Y/Scalable-Software-Architecture) | Collection of tech talks, papers and web links on Distributed Systems, Scalability and System Design. |  | 2,051 | [May 24, 2025](./stars/Developer-Y/Scalable-Software-Architecture.md) |
+| [shashank88/system_design](https://github.com/shashank88/system_design) | Preparation links and resources for system design questions Tags: #architecture #concurrency #engineering #facebook #interview #interview-preparation #interview-preparation-resources #interview-questions #preparation #scalability #scale-systems #system-design |  | 9,017 | [May 24, 2025](./stars/shashank88/system_design.md) |
+| [ekristen/aws-nuke](https://github.com/ekristen/aws-nuke) | Remove all the resources from an AWS account Tags: #aws #cli #cosign #github-actions #goreleaser #libnuke #mkdocs #mkdocs-material | Go | 646 | [May 24, 2025](./stars/ekristen/aws-nuke.md) |
+| [ccbrown/cloud-snitch](https://github.com/ccbrown/cloud-snitch) | Map visualization and firewall for AWS activity, inspired by Little Snitch for macOS. Tags: #aws #cloud #cloudtrail #golang #monitoring #nextjs #security #typescript | TypeScript | 340 | [May 24, 2025](./stars/ccbrown/cloud-snitch.md) |
+| [maslianok/react-resize-detector](https://github.com/maslianok/react-resize-detector) | A Cross-Browser, Event-based, Element Resize Detection for React Tags: #cross-browser #react #react-resize-observer #resize #resize-events #resizeable #resizeobserver #resizer #resizes | TypeScript | 1,279 | [May 24, 2025](./stars/maslianok/react-resize-detector.md) |
+| [arlac77/one-time-execution-method](https://github.com/arlac77/one-time-execution-method) | define a method that will be executed only once | JavaScript | 1 | [May 24, 2025](./stars/arlac77/one-time-execution-method.md) |
+| [arlac77/github-repository-provider](https://github.com/arlac77/github-repository-provider) | repository provider for github Tags: #github | JavaScript | 2 | [May 24, 2025](./stars/arlac77/github-repository-provider.md) |
+| [arlac77/hinted-tree-merger](https://github.com/arlac77/hinted-tree-merger) | merges two trees guided with hints | JavaScript | 3 | [May 24, 2025](./stars/arlac77/hinted-tree-merger.md) |
+| [template-tools/template-sync](https://github.com/template-tools/template-sync) | Keep repository in sync with its template Tags: #bitbucket #boilerplate #github #gitignore #npm #npmignore #pull-requests #scaffolding #template #travis | JavaScript | 11 | [May 24, 2025](./stars/template-tools/template-sync.md) |
+| [pinojs/sonic-boom](https://github.com/pinojs/sonic-boom) | Extremely fast utf8 only stream implementation | JavaScript | 285 | [May 22, 2025](./stars/pinojs/sonic-boom.md) |
+| [iannuttall/mcp-boilerplate](https://github.com/iannuttall/mcp-boilerplate) | A remote Cloudflare MCP server boilerplate with user authentication and Stripe for paid tools. | TypeScript | 597 | [May 21, 2025](./stars/iannuttall/mcp-boilerplate.md) |
+| [silk-hq/basic-examples-css](https://github.com/silk-hq/basic-examples-css) |  | TypeScript | 43 | [May 18, 2025](./stars/silk-hq/basic-examples-css.md) |
+| [nolimits4web/swiper](https://github.com/nolimits4web/swiper) | Most modern mobile touch slider with hardware accelerated transitions Tags: #carousel #gallery #mobile #slider #swipe #swiper #touch #touch-events | JavaScript | 41,008 | [May 18, 2025](./stars/nolimits4web/swiper.md) |
+| [barvian/number-flow](https://github.com/barvian/number-flow) | An animated number component for React, Vue, Svelte, and TS/JS. Tags: #accessible #animation #odometer #react #svelte #vue | TypeScript | 6,245 | [May 18, 2025](./stars/barvian/number-flow.md) |
+| [Redocly/repo-file-sync-action](https://github.com/Redocly/repo-file-sync-action) | GitHub Action that sync's two (or more) repos. | JavaScript | 38 | [May 17, 2025](./stars/Redocly/repo-file-sync-action.md) |
+| [AndrewWalsh/openapi-devtools](https://github.com/AndrewWalsh/openapi-devtools) | Browser extension that generates API specs for any app or website Tags: #api #chrome-extension #devtools #generator #openapi #openapi3 #openapi31 #specification | TypeScript | 4,200 | [May 17, 2025](./stars/AndrewWalsh/openapi-devtools.md) |
+| [JaredCE/json-schema-to-openAPI-schema-object](https://github.com/JaredCE/json-schema-to-openAPI-schema-object) | Converts a standard JSON Schema to a compatible Open API v3 Schema Object | JavaScript | 3 | [May 17, 2025](./stars/JaredCE/json-schema-to-openAPI-schema-object.md) |
+| [JaredCE/serverless-openapi-documenter](https://github.com/JaredCE/serverless-openapi-documenter) | Serverless plugin to export your config as OpenAPI v3 Documentation and Postman Collection V2 Tags: #openapi #openapi-documentation #openapi-generator #openapi3 #serverless #serverless-framework | JavaScript | 46 | [May 17, 2025](./stars/JaredCE/serverless-openapi-documenter.md) |
+| [WebReflection/is-proxy](https://github.com/WebReflection/is-proxy) | A `Proxy.isProxy(object)` utility. | JavaScript | 6 | [May 16, 2025](./stars/WebReflection/is-proxy.md) |
+| [haydenbleasel/tersa](https://github.com/haydenbleasel/tersa) | Tersa is an open source canvas for building AI workflows. Tags: #ai #aisdk #anthropic #canvas #openai | TypeScript | 133 | [May 16, 2025](./stars/haydenbleasel/tersa.md) |
+| [google-a2a/A2A](https://github.com/google-a2a/A2A) | An open protocol enabling communication and interoperability between opaque agentic applications. Tags: #a2a #a2a-mcp #a2a-protocol #a2a-server #agents #generative-ai | TypeScript | 16,306 | [May 15, 2025](./stars/google-a2a/A2A.md) |
+| [google/A2A](https://github.com/google/A2A) | An open protocol enabling communication and interoperability between opaque agentic applications. | Python | 15,484 | [May 15, 2025](./stars/google/A2A.md) |
+| [ran-isenberg/aws-lambda-handler-cookbook](https://github.com/ran-isenberg/aws-lambda-handler-cookbook) | This repository provides a working, deployable, open source-based, serverless service blueprint with an AWS Lambda func... Tags: #aws #aws-lambda #best-practices #blueprint #cdk #cookbook #pipeline #python #serverless #serverless-aws #template #template-repository | Python | 623 | [May 14, 2025](./stars/ran-isenberg/aws-lambda-handler-cookbook.md) |
+| [eliasbrange/aws-recipes](https://github.com/eliasbrange/aws-recipes) |  | TypeScript | 10 | [May 14, 2025](./stars/eliasbrange/aws-recipes.md) |
+| [SodaDev/sam-templates-go](https://github.com/SodaDev/sam-templates-go) |  | Go | 2 | [May 14, 2025](./stars/SodaDev/sam-templates-go.md) |
+| [ziedbentahar/rag-chat-with-appsync-events-and-bedrock-knowledge-bases](https://github.com/ziedbentahar/rag-chat-with-appsync-events-and-bedrock-knowledge-bases) |  | HCL | 2 | [May 14, 2025](./stars/ziedbentahar/rag-chat-with-appsync-events-and-bedrock-knowledge-bases.md) |
+| [alesgenova/post-me](https://github.com/alesgenova/post-me) | 📩 Use web Workers and other Windows through a simple Promise API Tags: #communication #concurrency #iframe #javascript #parallel-computing #postmate #postmessage #promise #typescript #web-worker #webworker #worker | TypeScript | 513 | [May 11, 2025](./stars/alesgenova/post-me.md) |
+| [psd-coder/typed-channel](https://github.com/psd-coder/typed-channel) |  | TypeScript | 57 | [May 11, 2025](./stars/psd-coder/typed-channel.md) |
+| [sachaarbonel/repo_walker](https://github.com/sachaarbonel/repo_walker) | Code context extractor for AI assistants. Walks Git repos, respects .gitignore, filters files. Optimized output for LLM... | Rust | 16 | [May 11, 2025](./stars/sachaarbonel/repo_walker.md) |
+| [leegilmorecode/serverless-clean-code-experience](https://github.com/leegilmorecode/serverless-clean-code-experience) | An opinionated example of a lightweight 'clean code' Lambda function architecture for a service in the experience layer... | TypeScript | 31 | [May 09, 2025](./stars/leegilmorecode/serverless-clean-code-experience.md) |
+| [yamadashy/repomix](https://github.com/yamadashy/repomix) | 📦 Repomix (formerly Repopack) is a powerful tool that packs your entire repository into a single, AI-friendly file. Pe... Tags: #ai #anthropic #artificial-intelligence #chatbot #chatgpt #claude #deepseek #developer-tools #gemini #genai #generative-ai #gpt #javascript #language-model #llama #llm #mcp #nodejs #openai #typescript | TypeScript | 15,672 | [May 08, 2025](./stars/yamadashy/repomix.md) |
+| [johnlindquist/worktree-cli](https://github.com/johnlindquist/worktree-cli) |  | JavaScript | 7 | [May 08, 2025](./stars/johnlindquist/worktree-cli.md) |
+| [johnlindquist/ghx](https://github.com/johnlindquist/ghx) |  | JavaScript | 53 | [May 08, 2025](./stars/johnlindquist/ghx.md) |
+| [upstash/context7](https://github.com/upstash/context7) | Context7 MCP Server -- Up-to-date code documentation for LLMs and AI code editors Tags: #llm #mcp #mcp-server #vibe-coding | JavaScript | 7,072 | [May 08, 2025](./stars/upstash/context7.md) |
+| [medikoo/memoizee](https://github.com/medikoo/memoizee) | Complete memoize/cache solution for JavaScript | JavaScript | 1,772 | [May 06, 2025](./stars/medikoo/memoizee.md) |
+| [nmccready/debug-fabulous](https://github.com/nmccready/debug-fabulous) | Debug extensions for visionmedia's debug | JavaScript | 5 | [May 06, 2025](./stars/nmccready/debug-fabulous.md) |
+| [xdamman/js-line-wrap-detector](https://github.com/xdamman/js-line-wrap-detector) | Detect where the text wraps in Javascript | JavaScript | 45 | [May 05, 2025](./stars/xdamman/js-line-wrap-detector.md) |
+| [mogelbrod/widont](https://github.com/mogelbrod/widont) | Avoids typographical widows in strings by converting the last space/hyphens to be non-breaking Tags: #javascript | JavaScript | 9 | [May 05, 2025](./stars/mogelbrod/widont.md) |
+| [adamjgrant/Buddy-System](https://github.com/adamjgrant/Buddy-System) | Avoids single words breaking onto the last line of text. | HTML | 24 | [May 05, 2025](./stars/adamjgrant/Buddy-System.md) |
+| [sharkqwy/v0prompt](https://github.com/sharkqwy/v0prompt) | full prompt of the new v0 |  | 259 | [May 05, 2025](./stars/sharkqwy/v0prompt.md) |
+| [starterstack/sam-expand](https://github.com/starterstack/sam-expand) | expand sam templates Tags: #aws #lambda #sam #sam-cli #serverless #serverless-application-model | JavaScript | 9 | [May 05, 2025](./stars/starterstack/sam-expand.md) |
+| [rkstgr/papermake-aws](https://github.com/rkstgr/papermake-aws) | PDF Rendering stack deployed on AWS Lambdas | Python | 89 | [May 03, 2025](./stars/rkstgr/papermake-aws.md) |
+| [npryce/adr-tools](https://github.com/npryce/adr-tools) | Command-line tools for working with Architecture Decision Records Tags: #architecture #architecture-decision-records #documentation #markdown | Shell | 4,902 | [May 03, 2025](./stars/npryce/adr-tools.md) |
+| [theburningmonk/ephemeral-env-with-neon](https://github.com/theburningmonk/ephemeral-env-with-neon) | How to use Neon Serverless Postgres for ephemeral environments | JavaScript | 1 | [May 02, 2025](./stars/theburningmonk/ephemeral-env-with-neon.md) |
+| [streamfold/rotel-nodejs](https://github.com/streamfold/rotel-nodejs) | Rotel for Node.js library | TypeScript | 7 | [May 02, 2025](./stars/streamfold/rotel-nodejs.md) |
+| [streamfold/rotel-lambda-extension](https://github.com/streamfold/rotel-lambda-extension) | AWS Lamba Extension of the Lightweight Rotel Collector | Rust | 8 | [May 02, 2025](./stars/streamfold/rotel-lambda-extension.md) |
+| [unibeck/solstatus](https://github.com/unibeck/solstatus) | An uptime monitoring service that is easy and cheap to run at scale. Create endpoint checks for uptime, latency, and st... | TypeScript | 706 | [May 01, 2025](./stars/unibeck/solstatus.md) |
+| [unibeck/uptime-monitor](https://github.com/unibeck/uptime-monitor) | A uptime monitoring service that is easy and cheap to run at scale. Create endpoint checks for uptime, latency, and sta... | TypeScript | 690 | [May 01, 2025](./stars/unibeck/uptime-monitor.md) |
+| [ravikiranvm/aws-finops-dashboard](https://github.com/ravikiranvm/aws-finops-dashboard) | A terminal-based AWS cost and resource dashboard built with Python and the Rich library. It provides an overview of AWS... | Python | 329 | [Apr 30, 2025](./stars/ravikiranvm/aws-finops-dashboard.md) |
+| [EffeDev/event-hub](https://github.com/EffeDev/event-hub) |  | TypeScript | 17 | [Apr 30, 2025](./stars/EffeDev/event-hub.md) |
+| [serenity-kit/noble-sodium](https://github.com/serenity-kit/noble-sodium) | TypeScript library offering a Libsodium-compatible API built on top of Noble packages | TypeScript | 9 | [Apr 30, 2025](./stars/serenity-kit/noble-sodium.md) |
+| [vercel/ai-chatbot](https://github.com/vercel/ai-chatbot) | A full-featured, hackable Next.js AI chatbot built by Vercel Tags: #ai #chatgpt #nextjs #react #redis #shadcn-ui #vercel | TypeScript | 15,909 | [Apr 29, 2025](./stars/vercel/ai-chatbot.md) |
+| [eyaltoledano/claude-task-master](https://github.com/eyaltoledano/claude-task-master) | An AI-powered task-management system you can drop into Cursor, Lovable, Windsurf, Roo, and others. Tags: #ai #cursor #cursor-ai #cursorai #lovable #lovable-dev #roocode #task-manager #tasks #tasks-list #windsurf #windsurf-ai | JavaScript | 7,536 | [Apr 29, 2025](./stars/eyaltoledano/claude-task-master.md) |
+| [georgephillips/node-s3-url-encode](https://github.com/georgephillips/node-s3-url-encode) | Because s3 urls are annoying | JavaScript | 12 | [Apr 29, 2025](./stars/georgephillips/node-s3-url-encode.md) |
+| [XaaXaaX/aws-lambda-extensions](https://github.com/XaaXaaX/aws-lambda-extensions) |  | TypeScript | 2 | [Apr 28, 2025](./stars/XaaXaaX/aws-lambda-extensions.md) |
+| [ecies/js](https://github.com/ecies/js) | Elliptic Curve Integrated Encryption Scheme for secp256k1/curve25519 in TypeScript Tags: #bitcoin #cryptocurrency #cryptography #ecies #elliptic-curve-cryptography #ethereum #javascript #secp256k1 #typescript | TypeScript | 147 | [Apr 23, 2025](./stars/ecies/js.md) |
+| [yassinebenaid/bunster](https://github.com/yassinebenaid/bunster) | Compile shell scripts to static binaries. Tags: #aot #bash #compiler #go #shell | Go | 2,318 | [Apr 23, 2025](./stars/yassinebenaid/bunster.md) |
+| [fredericbarthelet/middy-mcp](https://github.com/fredericbarthelet/middy-mcp) | Middy middleware for Model Context Protocol server hosting on AWS Lambda | TypeScript | 22 | [Apr 22, 2025](./stars/fredericbarthelet/middy-mcp.md) |
+| [eleva/serverless-textract-ocr-skeleton](https://github.com/eleva/serverless-textract-ocr-skeleton) | This repo contains a serverless EU-Driving Licences OCR micro-service, based on Amazon Textract. | JavaScript | 1 | [Apr 22, 2025](./stars/eleva/serverless-textract-ocr-skeleton.md) |
+| [eleva/serverless-node-api-skeleton](https://github.com/eleva/serverless-node-api-skeleton) | Superpower REST API DX with Serverless ⚡ and DevOps Best Practices on AWS | JavaScript | 3 | [Apr 22, 2025](./stars/eleva/serverless-node-api-skeleton.md) |
+| [eleva/serverless-mcp-server](https://github.com/eleva/serverless-mcp-server) | A super simple Model Context Protocol (MCP) server deployed on AWS Lambda and exposed via Amazon API Gateway, deployed ... | JavaScript | 9 | [Apr 22, 2025](./stars/eleva/serverless-mcp-server.md) |
+| [patorjk/figlet.js](https://github.com/patorjk/figlet.js) | A FIG Driver written in JavaScript which aims to fully implement the FIGfont spec. | JavaScript | 2,755 | [Apr 15, 2025](./stars/patorjk/figlet.js.md) |
+| [chalk/chalk-template](https://github.com/chalk/chalk-template) | Tags: #ansi-escape-codes #chalk #color #command-line #templating #terminal | JavaScript | 95 | [Apr 15, 2025](./stars/chalk/chalk-template.md) |
+| [DavidWells/spike-llrt-runtime](https://github.com/DavidWells/spike-llrt-runtime) | Example of using AWS LLRT Lambda runtime with Serverless Framework | JavaScript | 1 | [Apr 14, 2025](./stars/DavidWells/spike-llrt-runtime.md) |
+| [orbitinghail/sqlsync](https://github.com/orbitinghail/sqlsync) | SQLSync is a collaborative offline-first wrapper around SQLite. It is designed to synchronize web application state bet... Tags: #collaborative #database #local-first #offline-first #relational-database #sql #sqlite #sqlsync | Rust | 2,659 | [Apr 14, 2025](./stars/orbitinghail/sqlsync.md) |
+| [tecfu/tty-table](https://github.com/tecfu/tty-table) | Terminal table for Windows, Linux, and MacOS. Written in nodejs. Also works in browser console. Word wrap, padding, ali... Tags: #cli-table #nodejs #table #terminal-table #tty-table | JavaScript | 294 | [Apr 13, 2025](./stars/tecfu/tty-table.md) |
+| [elva-labs/awsesh](https://github.com/elva-labs/awsesh) | A charming TUI for AWS SSO session management ✨ Tags: #aws #aws-sso #bubbletea #charm #cli #go #golang #sso #terminal #tui | Go | 73 | [Apr 11, 2025](./stars/elva-labs/awsesh.md) |
+| [benward2301/dynq](https://github.com/benward2301/dynq) | dynq is an analytic query and data processing CLI tool for DynamoDB. Tags: #dynamodb #jq #query | Kotlin | 6 | [Apr 08, 2025](./stars/benward2301/dynq.md) |
+| [southpolesteve/deploy_button](https://github.com/southpolesteve/deploy_button) | Will it work? | Ruby | 2 | [Apr 08, 2025](./stars/southpolesteve/deploy_button.md) |
+| [andmoredev/layerless-esbuild-lambda](https://github.com/andmoredev/layerless-esbuild-lambda) | Show how to setup a Lambda function with shared code using esbuild instead of layers. | JavaScript | 5 | [Apr 07, 2025](./stars/andmoredev/layerless-esbuild-lambda.md) |
+| [vishnubob/wait-for-it](https://github.com/vishnubob/wait-for-it) | Pure bash script to test and wait on the availability of a TCP host and port | Python | 9,572 | [Apr 07, 2025](./stars/vishnubob/wait-for-it.md) |
+| [awsfundamentals-hq/sfn-wait-for-callback](https://github.com/awsfundamentals-hq/sfn-wait-for-callback) | ⚡️ Learning about the AWS Step Functions using the callback pattern Tags: #aws #callback #lambda #newsletter #step-functions | TypeScript | 14 | [Apr 07, 2025](./stars/awsfundamentals-hq/sfn-wait-for-callback.md) |
+| [KoryNunn/predator](https://github.com/KoryNunn/predator) | finds the exposed portion of an element | JavaScript | 1 | [Apr 07, 2025](./stars/KoryNunn/predator.md) |
+| [KoryNunn/dir-template](https://github.com/KoryNunn/dir-template) | create a directory structure based on a template | JavaScript | 1 | [Apr 07, 2025](./stars/KoryNunn/dir-template.md) |
+| [lmammino/rental-station-static-api-demo](https://github.com/lmammino/rental-station-static-api-demo) | A simple demo to showcase the concept of static APIs (with full-text search!) Tags: #api #demo #static #static-ap #static-site | TypeScript | 2 | [Apr 04, 2025](./stars/lmammino/rental-station-static-api-demo.md) |
+| [lmammino/org-formation-sso-import](https://github.com/lmammino/org-formation-sso-import) | An experimental™️ script to import AWS SSO groups, permission sets and assignments into a OrgFormation workspace. Tags: #aws #cloudformation #import #node #nodejs #org-formation #script #sso | TypeScript | 3 | [Apr 04, 2025](./stars/lmammino/org-formation-sso-import.md) |
+| [KoryNunn/console-watch](https://github.com/KoryNunn/console-watch) | Track console.log/warn/error/etc... | JavaScript | 1 | [Apr 02, 2025](./stars/KoryNunn/console-watch.md) |
+| [sinclairnick/midwinter](https://github.com/sinclairnick/midwinter) | ❄️ the middleware engine for modern backends | TypeScript | 10 | [Mar 31, 2025](./stars/sinclairnick/midwinter.md) |
+| [x1xhlol/system-prompts-and-models-of-ai-tools](https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools) | FULL v0, Cursor, Manus, Same.dev & Lovable System Prompts & AI Models. Tags: #ai #cursor #cursorai #lovable #system-instruction #system-prompts #v0 |  | 7,245 | [Mar 30, 2025](./stars/x1xhlol/system-prompts-and-models-of-ai-tools.md) |
+| [dependents/node-dependency-tree](https://github.com/dependents/node-dependency-tree) | Get the dependency tree of a module Tags: #amd #ast #commonjs #dependency-tree #es6 #javascript #sass #stylus #tree #typescript | JavaScript | 723 | [Mar 30, 2025](./stars/dependents/node-dependency-tree.md) |
+| [dependents/node-filing-cabinet](https://github.com/dependents/node-filing-cabinet) | Get the file location associated with a dependency/partial's path Tags: #amd #ast #commonjs #es6 #javascript #less #lookup #modules #partial #requirejs #resolver #sass #scss #stylus #webpack | JavaScript | 85 | [Mar 29, 2025](./stars/dependents/node-filing-cabinet.md) |
+| [NicolasMontone/json-tree-viewer](https://github.com/NicolasMontone/json-tree-viewer) | Shadcn json-tree-viewer copy & paste, tailwindCSS | TypeScript | 32 | [Mar 29, 2025](./stars/NicolasMontone/json-tree-viewer.md) |
+| [raoufchebri/hntldr](https://github.com/raoufchebri/hntldr) |  | TypeScript | 1 | [Mar 28, 2025](./stars/raoufchebri/hntldr.md) |
+| [sadmann7/shadcn-table](https://github.com/sadmann7/shadcn-table) | Shadcn table with server-side sorting, filtering, and pagination. Tags: #drizzle-orm #nextjs #open-source #shadcn-ui #table #tanstack-table | TypeScript | 4,537 | [Mar 28, 2025](./stars/sadmann7/shadcn-table.md) |
+| [todgolding/serverless-reference-solution](https://github.com/todgolding/serverless-reference-solution) | Serverless SaaS code reference solution | Python | 15 | [Mar 28, 2025](./stars/todgolding/serverless-reference-solution.md) |
+| [ServerlessLife/lambda-logger-extension](https://github.com/ServerlessLife/lambda-logger-extension) | Lambda Extension that adds logs to already deployed Lambda | JavaScript | 3 | [Mar 27, 2025](./stars/ServerlessLife/lambda-logger-extension.md) |
+| [ServerlessLife/serverless-spy](https://github.com/ServerlessLife/serverless-spy) | CDK-based library for writing elegant, fast-executing integration tests on AWS serverless architecture and an additiona... Tags: #aws #aws-lambda #cdk #dynamodb #eventbridge #integration-testing #jest #lambda #s3 #serverless | TypeScript | 86 | [Mar 27, 2025](./stars/ServerlessLife/serverless-spy.md) |
+| [ServerlessLife/dynamodb-export-s3-athena](https://github.com/ServerlessLife/dynamodb-export-s3-athena) | Query DynamoDB with SQL using Athena - Leveraging DynamoDB Exports to S3 (1/2) | TypeScript | 1 | [Mar 27, 2025](./stars/ServerlessLife/dynamodb-export-s3-athena.md) |
+| [PatMyron/cloudformation-resource-providers](https://github.com/PatMyron/cloudformation-resource-providers) | automated monorepo of public CloudFormation AWS resource providers Tags: #aws-cloudformation #aws-resources #cloudformation |  | 16 | [Mar 25, 2025](./stars/PatMyron/cloudformation-resource-providers.md) |
+| [arnaudambro/react-swipe-to-delete-ios](https://github.com/arnaudambro/react-swipe-to-delete-ios) | A simple React component to reproduce the way iOS deletes an item in a list | TypeScript | 52 | [Mar 25, 2025](./stars/arnaudambro/react-swipe-to-delete-ios.md) |
+| [un/1up](https://github.com/un/1up) | Open Source Longevity System; Live Longer + Sharper + Better | TypeScript | 51 | [Mar 24, 2025](./stars/un/1up.md) |
+| [un/potential](https://github.com/un/potential) | Ai Health coach to live Longer + Sharper + Better; Open Source alternative to Death | TypeScript | 68 | [Mar 24, 2025](./stars/un/potential.md) |
+| [microsoft/vscode-ripgrep](https://github.com/microsoft/vscode-ripgrep) | For consuming the ripgrep binary from microsoft/ripgrep-prebuilt in a Node project | JavaScript | 126 | [Mar 23, 2025](./stars/microsoft/vscode-ripgrep.md) |
+| [wonderwhy-er/DesktopCommanderMCP](https://github.com/wonderwhy-er/DesktopCommanderMCP) | This is MCP server for Claude that gives it terminal control, file system search and diff file editing capabilities | TypeScript | 1,194 | [Mar 23, 2025](./stars/wonderwhy-er/DesktopCommanderMCP.md) |
+| [aws-samples/data-for-saas-patterns](https://github.com/aws-samples/data-for-saas-patterns) | A collection of samples, best practices and reference architectures for implementing SaaS applications on AWS for datab... Tags: #aws #data #databases #saas |  | 43 | [Mar 23, 2025](./stars/aws-samples/data-for-saas-patterns.md) |
+| [Linus-Mussmaecher/rucola](https://github.com/Linus-Mussmaecher/rucola) | Terminal-based markdown note manager. Tags: #markdown #note-taking #notes #ratatui #ratatui-rs #rust #terminal #terminal-based #zettelkasten | Rust | 277 | [Mar 21, 2025](./stars/Linus-Mussmaecher/rucola.md) |
+| [harrysolovay/standard-json-schema](https://github.com/harrysolovay/standard-json-schema) | Turn standard types into JSON schemas | TypeScript | 2 | [Mar 19, 2025](./stars/harrysolovay/standard-json-schema.md) |
+| [thornejosh/bedrock-cv-extractor](https://github.com/thornejosh/bedrock-cv-extractor) |  | TypeScript | 2 | [Mar 18, 2025](./stars/thornejosh/bedrock-cv-extractor.md) |
+| [gugamainchein/github-ia-code-validation](https://github.com/gugamainchein/github-ia-code-validation) | This project is a Serverless application that leverages generative AI to analyze developers' code, providing improvemen... Tags: #aws #bedrock #deepseek #serverless | Python | 2 | [Mar 18, 2025](./stars/gugamainchein/github-ia-code-validation.md) |
+| [haystackeditor/haystack-editor](https://github.com/haystackeditor/haystack-editor) |  | TypeScript | 1,126 | [Mar 16, 2025](./stars/haystackeditor/haystack-editor.md) |
+| [kern/filepizza](https://github.com/kern/filepizza) | :pizza: Peer-to-peer file transfers in your browser Tags: #react #webrtc | TypeScript | 6,788 | [Mar 16, 2025](./stars/kern/filepizza.md) |
+| [formkit/jsonreader](https://github.com/formkit/jsonreader) | Incremental parsing of streaming JSON data. | Vue | 68 | [Mar 15, 2025](./stars/formkit/jsonreader.md) |
+| [typeonce-dev/sync-engine-web](https://github.com/typeonce-dev/sync-engine-web) | A Sync Engine for the web: React (TanStack Router), Web Workers, Effect, Loro ⚡️ Tags: #crdt #effect #effect-ts #full-stack #loro #loro-crdt #react #react-19 #sync-engine #sync-engine-web #web-worker | TypeScript | 158 | [Mar 12, 2025](./stars/typeonce-dev/sync-engine-web.md) |
+| [justkey007/tsc-alias](https://github.com/justkey007/tsc-alias) | Replace alias paths with relative paths after typescript compilation Tags: #absolute-path #alias #compilation #paths #relative-path #tsc #typescript | TypeScript | 969 | [Mar 11, 2025](./stars/justkey007/tsc-alias.md) |
+| [focusOtter/fullstack-deepseek](https://github.com/focusOtter/fullstack-deepseek) | fullstack integration between react and deepseek using AWS Amplify and Amazon bedrock Tags: #aws #aws-amplify #bedrock #deepseek #fullstack #lambda #llm #react #serverless #typescript |  | 3 | [Mar 11, 2025](./stars/focusOtter/fullstack-deepseek.md) |
+| [jitsi/jitsi-meet](https://github.com/jitsi/jitsi-meet) | Jitsi Meet - Secure, Simple and Scalable Video Conferences that you use as a standalone app or embed in your web applic... Tags: #debian #deep-video #jitsi #jitsi-meet #scalable-video-conferences #sfu #video #video-communication #video-conferencing #webrtc | TypeScript | 24,817 | [Mar 04, 2025](./stars/jitsi/jitsi-meet.md) |
+| [AlexxIT/WebRTC](https://github.com/AlexxIT/WebRTC) | Home Assistant custom component for real-time viewing of almost any camera stream using WebRTC and other technologies. Tags: #hacs #home-assistant #ip-camera #mediasource-extensions #rtsp #webrtc | JavaScript | 1,662 | [Mar 04, 2025](./stars/AlexxIT/WebRTC.md) |
+| [emilhein/optifunc](https://github.com/emilhein/optifunc) | NPM module to make optimizations and tests on your functions Tags: #helper-functions #nodejs #npm #performance #statistics #testing | JavaScript | 2 | [Mar 04, 2025](./stars/emilhein/optifunc.md) |
+| [SummitRoute/aws_breaking_changes](https://github.com/SummitRoute/aws_breaking_changes) | List of changes announced for AWS that may break existing code |  | 1,495 | [Mar 04, 2025](./stars/SummitRoute/aws_breaking_changes.md) |
+| [klis87/normy](https://github.com/klis87/normy) | Automatic normalization and data updates for data fetching libraries (react-query, swr, rtk-query and more) Tags: #ajax #ajax-request #front-end #javascript #monorepo #normalisation #normalization #react-query #redux #rtk-query #single-page-app #swr #trpc #typescript | TypeScript | 466 | [Mar 03, 2025](./stars/klis87/normy.md) |
+| [LeaVerou/style-observer](https://github.com/LeaVerou/style-observer) | Run JS when a CSS property changes. Any CSS property. Tags: #css #observer #style-observer | JavaScript | 442 | [Mar 02, 2025](./stars/LeaVerou/style-observer.md) |
+| [mlc-ai/web-llm](https://github.com/mlc-ai/web-llm) | High-performance In-browser LLM Inference Engine Tags: #chatgpt #deep-learning #language-model #llm #tvm #webgpu #webml | TypeScript | 14,796 | [Feb 28, 2025](./stars/mlc-ai/web-llm.md) |
+| [BearToCode/mismerge](https://github.com/BearToCode/mismerge) | A modern merge editor for the Web Tags: #diff #editor #merge #merge-editor #mismerge #svelte #web-merge-editor | TypeScript | 52 | [Feb 28, 2025](./stars/BearToCode/mismerge.md) |
+| [expressive-code/expressive-code](https://github.com/expressive-code/expressive-code) | A text marking & annotation engine for presenting source code on the web. Tags: #annotation-tool #code-annotation #code-blocks #code-documentation #diff #documentation-tool #syntax-highlighting #text-marker #web-development | TypeScript | 667 | [Feb 27, 2025](./stars/expressive-code/expressive-code.md) |
+| [natesilva/p-ratelimit](https://github.com/natesilva/p-ratelimit) | Promise-based utility to make sure you don’t call rate-limited APIs too quickly. Tags: #concurrency #distributed-systems #promise #rate-limiting #redis | TypeScript | 69 | [Feb 27, 2025](./stars/natesilva/p-ratelimit.md) |
+| [WebReflection/id-promise](https://github.com/WebReflection/id-promise) | A cluster friendly, identity based, Promise resolver | JavaScript | 18 | [Feb 26, 2025](./stars/WebReflection/id-promise.md) |
+| [WebReflection/path-crawler](https://github.com/WebReflection/path-crawler) | An utility to crawl generic objects paths. | JavaScript | 8 | [Feb 26, 2025](./stars/WebReflection/path-crawler.md) |
+| [WebReflection/basic-toml](https://github.com/WebReflection/basic-toml) | A simple TOML subset parser. | JavaScript | 7 | [Feb 26, 2025](./stars/WebReflection/basic-toml.md) |
+| [WebReflection/loop-once](https://github.com/WebReflection/loop-once) | A safer loop for sync or async unique use cases. | JavaScript | 21 | [Feb 26, 2025](./stars/WebReflection/loop-once.md) |
+| [WebReflection/codedent](https://github.com/WebReflection/codedent) | A dedent alternative for just code. | JavaScript | 10 | [Feb 26, 2025](./stars/WebReflection/codedent.md) |
+| [WebReflection/lie](https://github.com/WebReflection/lie) | An optionally sync promise that directly passes along its value. | JavaScript | 10 | [Feb 26, 2025](./stars/WebReflection/lie.md) |
+| [romainsimon/emailvalid](https://github.com/romainsimon/emailvalid) | :email: Email validation with more than 10K disposable/temporary email domains Tags: #disposable-email #email #email-validation | JavaScript | 41 | [Feb 26, 2025](./stars/romainsimon/emailvalid.md) |
+| [pkrumins/node-tree-kill](https://github.com/pkrumins/node-tree-kill) | kill trees of processes | JavaScript | 343 | [Feb 26, 2025](./stars/pkrumins/node-tree-kill.md) |
+| [emilwidlund/harmony](https://github.com/emilwidlund/harmony) | A new kind of color picker for React | JavaScript | 196 | [Feb 26, 2025](./stars/emilwidlund/harmony.md) |
+| [voxpelli/list-dependents](https://github.com/voxpelli/list-dependents) | Lists all dependents of a project, using npm or ecosyste.ms | JavaScript | 5 | [Feb 26, 2025](./stars/voxpelli/list-dependents.md) |
+| [mcollina/my-ua-parser](https://github.com/mcollina/my-ua-parser) |  | JavaScript | 167 | [Feb 26, 2025](./stars/mcollina/my-ua-parser.md) |
+| [sharkdp/fd](https://github.com/sharkdp/fd) | A simple, fast and user-friendly alternative to 'find' Tags: #cli #command-line #filesystem #hacktoberfest #regex #rust #search #terminal #tool | Rust | 35,752 | [Feb 26, 2025](./stars/sharkdp/fd.md) |
+| [raphamorim/react-ape](https://github.com/raphamorim/react-ape) | 🦍• React Renderer to build UI interfaces using canvas/WebGL (TV and Hardware-Accelerated GPU development based) Tags: #canvas #canvas-html5 #gl #react #react-ape #react-renderer #render #renderer #webgl #webgl2 | JavaScript | 1,583 | [Feb 26, 2025](./stars/raphamorim/react-ape.md) |
+| [microsoft/node-jsonc-parser](https://github.com/microsoft/node-jsonc-parser) | Scanner and parser for JSON with comments. | TypeScript | 634 | [Feb 26, 2025](./stars/microsoft/node-jsonc-parser.md) |
+| [scottrippey/react-use-event-hook](https://github.com/scottrippey/react-use-event-hook) | Same as React's useCallback, but returns a stable reference. Tags: #react #react-memo #usecallback #useevent #useref | TypeScript | 224 | [Feb 26, 2025](./stars/scottrippey/react-use-event-hook.md) |
+| [voxpelli/generate-favicon](https://github.com/voxpelli/generate-favicon) | Helper to generate favicons | JavaScript | 8 | [Feb 26, 2025](./stars/voxpelli/generate-favicon.md) |
+| [tmcdos/custompatch](https://github.com/tmcdos/custompatch) | Tool for patching buggy NPM packages without forking them Tags: #buggy #npm-package #patching | JavaScript | 26 | [Feb 26, 2025](./stars/tmcdos/custompatch.md) |
+| [animir/node-rate-limiter-flexible](https://github.com/animir/node-rate-limiter-flexible) | Atomic counters and rate limiting tools. Limit resource access at any scale. Tags: #bruteforce #dynamodb #express #hapi #koa #limit #mysql #nestjs #postgresql #prisma #rate #rate-limiting #ratelimter #redis #security #throttle | JavaScript | 3,151 | [Feb 26, 2025](./stars/animir/node-rate-limiter-flexible.md) |
+| [samvera/serverless-iiif](https://github.com/samvera/serverless-iiif) | IIIF Image API 2.1 & 3.0 server in an AWS Serverless Application Tags: #aws-apigateway #aws-lambda #aws-serverless #iiif #iiif-image #image-processing #libvips #sharp | JavaScript | 76 | [Feb 25, 2025](./stars/samvera/serverless-iiif.md) |
+| [okeeffed/spike-aws-cdk-apigw-file-based-routing](https://github.com/okeeffed/spike-aws-cdk-apigw-file-based-routing) |  | TypeScript | 1 | [Feb 25, 2025](./stars/okeeffed/spike-aws-cdk-apigw-file-based-routing.md) |
+| [newjersey/navigator.business.nj.gov](https://github.com/newjersey/navigator.business.nj.gov) | NJ Office of Innovation is building a one-stop dashboard to better help New Jerseyans with starting and managing a busi... | TypeScript | 18 | [Feb 25, 2025](./stars/newjersey/navigator.business.nj.gov.md) |
+| [unjs/exsolve](https://github.com/unjs/exsolve) | Module resolution utilities based on Node.js upstream implementation. | TypeScript | 25 | [Feb 25, 2025](./stars/unjs/exsolve.md) |
+| [G4brym/aletria](https://github.com/G4brym/aletria) | Simple AI CLI that generates docs, unit tests and README.md files Tags: #ai #cli #gemini #gemini-ai #generator #generator-ai #google #npm | TypeScript | 7 | [Feb 20, 2025](./stars/G4brym/aletria.md) |
+| [PrecursorApp/precursor](https://github.com/PrecursorApp/precursor) | Create mockups with real-time collaboration | Clojure | 606 | [Feb 20, 2025](./stars/PrecursorApp/precursor.md) |
+| [aws-samples/well-architected-iac-analyzer](https://github.com/aws-samples/well-architected-iac-analyzer) |  | TypeScript | 166 | [Feb 20, 2025](./stars/aws-samples/well-architected-iac-analyzer.md) |
+| [matheusdasmerces/lambda-advanced-logging-control](https://github.com/matheusdasmerces/lambda-advanced-logging-control) | Example of automating advanced loggin control for Lambda Functions, in Typescript. | TypeScript | 2 | [Feb 20, 2025](./stars/matheusdasmerces/lambda-advanced-logging-control.md) |
+| [maheshpaulj/serverless-pdf-generator](https://github.com/maheshpaulj/serverless-pdf-generator) | serverless-pdf-generator is a lightweight package that simplifies the process of generating PDFs from web pages in a se... Tags: #nextjs #node-module #node-package #nodemodules #npm #pdf-generation #react | TypeScript | 4 | [Feb 18, 2025](./stars/maheshpaulj/serverless-pdf-generator.md) |
+| [EugeneMahota/template.sls](https://github.com/EugeneMahota/template.sls) |  | TypeScript | 3 | [Feb 18, 2025](./stars/EugeneMahota/template.sls.md) |
+| [magicuidesign/magicui](https://github.com/magicuidesign/magicui) | UI Library for Design Engineers. Animated components and effects you can copy and paste into your apps. Free. Open Sour... Tags: #components #framer-motion #nextjs #react #shadcn-ui #tailwindcss #typescript | MDX | 14,730 | [Feb 16, 2025](./stars/magicuidesign/magicui.md) |
+| [tmokmss/cdk-lambda-llrt](https://github.com/tmokmss/cdk-lambda-llrt) | Deploy LLRT Lambda functions w/ CDK Tags: #aws-cdk #lambda | JavaScript | 46 | [Feb 14, 2025](./stars/tmokmss/cdk-lambda-llrt.md) |
+| [rhinobase/hono-openapi](https://github.com/rhinobase/hono-openapi) | A plugin for Hono to generate OpenAPI Swagger documentation | TypeScript | 433 | [Feb 13, 2025](./stars/rhinobase/hono-openapi.md) |
+| [rocicorp/fractional-indexing](https://github.com/rocicorp/fractional-indexing) | Fractional Indexing in JavaScript | JavaScript | 342 | [Feb 13, 2025](./stars/rocicorp/fractional-indexing.md) |
+| [fiberplane/fiberplane](https://github.com/fiberplane/fiberplane) | Supercharge your local development | TypeScript | 235 | [Feb 13, 2025](./stars/fiberplane/fiberplane.md) |
+| [viktoriasemaan/sa-ai-agent](https://github.com/viktoriasemaan/sa-ai-agent) | Building SA AI Agent v2 Tags: #hacktoberfest | Python | 71 | [Feb 13, 2025](./stars/viktoriasemaan/sa-ai-agent.md) |
+| [hashicorp/terraform-cdk](https://github.com/hashicorp/terraform-cdk) | Define infrastructure resources using programming constructs and provision them using HashiCorp Terraform Tags: #cdk #cdktf #hack #infrastructure-as-code #terraform | TypeScript | 4,935 | [Feb 13, 2025](./stars/hashicorp/terraform-cdk.md) |
+| [oss-serverless/serverless](https://github.com/oss-serverless/serverless) | Serverless Framework CLI v3 alternative | JavaScript | 202 | [Feb 10, 2025](./stars/oss-serverless/serverless.md) |
+| [microchipgnu/prompt-format](https://github.com/microchipgnu/prompt-format) |  | TypeScript | 4 | [Feb 07, 2025](./stars/microchipgnu/prompt-format.md) |
+| [eastlondoner/cursor-tools](https://github.com/eastlondoner/cursor-tools) | Give Cursor Agent an AI Team and Advanced Skills | TypeScript | 2,409 | [Feb 07, 2025](./stars/eastlondoner/cursor-tools.md) |
+| [grapeot/devin.cursorrules](https://github.com/grapeot/devin.cursorrules) | Magic to turn Cursor/Windsurf as 90% of Devin | Python | 4,638 | [Feb 05, 2025](./stars/grapeot/devin.cursorrules.md) |
+| [domagojk/serverless-console](https://github.com/domagojk/serverless-console) |  | TypeScript | 35 | [Feb 04, 2025](./stars/domagojk/serverless-console.md) |
+| [ivangabriele/firept](https://github.com/ivangabriele/firept) | APIfy your local workspaces, allowing AI to interact with it. Tags: #api #apificacion #apifier #automation #chatgpt #custom-gpt #local-api #openai #workspace-manager #workspace-tool | TypeScript | 3 | [Feb 04, 2025](./stars/ivangabriele/firept.md) |
+| [TimMikeladze/markdown-to-api](https://github.com/TimMikeladze/markdown-to-api) | 📑 Generates a minisearch powered GraphQL API from a directory of markdown files. Additional metadata like tags or desc... Tags: #graphql #markdown #markdown-api #markdown-graphql #nextjs #static-site-generator | TypeScript | 15 | [Feb 04, 2025](./stars/TimMikeladze/markdown-to-api.md) |
+| [postmanlabs/openapi-to-postman](https://github.com/postmanlabs/openapi-to-postman) | Plugin for converting OpenAPI 3.0 specs to the Postman Collection (v2) format Tags: #openapi #openapi3 #postman-collection | JavaScript | 963 | [Feb 04, 2025](./stars/postmanlabs/openapi-to-postman.md) |
+| [eemeli/dot-properties](https://github.com/eemeli/dot-properties) | Parse & stringify .properties files in JavaScript | JavaScript | 23 | [Feb 03, 2025](./stars/eemeli/dot-properties.md) |
+| [mnfst/manifest](https://github.com/mnfst/manifest) | 🦚 The 1-file backend. Tags: #admin-panel #api #baas #backend #backend-api #backend-as-a-servise #backend-server #cms #database #headless #headless-cms #headless-cms-rest-api #manifest #open-source #postgres #rest-api #s3-storage #sdk-js #sqlite #yaml | TypeScript | 1,736 | [Feb 03, 2025](./stars/mnfst/manifest.md) |
+| [eemeli/yaml-types](https://github.com/eemeli/yaml-types) | Useful JavaScript types for YAML | TypeScript | 7 | [Feb 03, 2025](./stars/eemeli/yaml-types.md) |
+| [outerbase/starbasedb](https://github.com/outerbase/starbasedb) | HTTP SQLite scale-to-zero database on the edge built on Cloudflare Durable Objects. Tags: #cloudflare #database #durableobjects #sqlite | TypeScript | 920 | [Feb 03, 2025](./stars/outerbase/starbasedb.md) |
+| [unjs/ipx](https://github.com/unjs/ipx) | 🖼️ High performance, secure and easy-to-use image optimizer. Tags: #cdn #docker #image #libvips #optimize #proxy #resize #sharp #webp | TypeScript | 2,118 | [Feb 01, 2025](./stars/unjs/ipx.md) |
+| [metarhia/web-locks](https://github.com/metarhia/web-locks) | Web Locks API 🔒 Tags: #async #atomics #await #data-race #deadlock #lock #locking #locks #multithreading #mutex #nodejs #parallel #race-detection #semaphore #shared-memory #sharedarraybuffer #synchronization #synchronize #threads #web-locks | JavaScript | 88 | [Jan 31, 2025](./stars/metarhia/web-locks.md) |
+| [kristianfreeman/smart-cache](https://github.com/kristianfreeman/smart-cache) | AI-driven edge caching of any origin, using Cloudflare Workers and Deepseek AI | TypeScript | 19 | [Jan 30, 2025](./stars/kristianfreeman/smart-cache.md) |
+| [yusukebe/gh-markdown-preview](https://github.com/yusukebe/gh-markdown-preview) | GitHub CLI extension to preview Markdown looks like GitHub. Tags: #cli #gh-extension #golang #markdown | Go | 542 | [Jan 30, 2025](./stars/yusukebe/gh-markdown-preview.md) |
+| [lxsmnsyc/seroval](https://github.com/lxsmnsyc/seroval) | Stringify JS values | TypeScript | 548 | [Jan 30, 2025](./stars/lxsmnsyc/seroval.md) |
+| [aws-samples/sessions-with-aws-sam](https://github.com/aws-samples/sessions-with-aws-sam) | This repo contains all the SAM templates created in the Twitch series #SessionsWithSAM. The show is every Thursday on T... Tags: #aws #sam #serverless | JavaScript | 387 | [Jan 29, 2025](./stars/aws-samples/sessions-with-aws-sam.md) |
+| [Open-Attestation/oa-verify](https://github.com/Open-Attestation/oa-verify) | Verification library for OpenAttestation document Tags: #hacktoberfest | TypeScript | 6 | [Jan 29, 2025](./stars/Open-Attestation/oa-verify.md) |
+| [atuinsh/atuin](https://github.com/atuinsh/atuin) | ✨ Magical shell history Tags: #bash #fish #history #rust #shell #zsh | Rust | 22,667 | [Jan 27, 2025](./stars/atuinsh/atuin.md) |
+| [simonw/llm-jq](https://github.com/simonw/llm-jq) | Write and execute jq programs with the help of LLM | Python | 153 | [Jan 27, 2025](./stars/simonw/llm-jq.md) |
+| [AnswerDotAI/web2md-ext](https://github.com/AnswerDotAI/web2md-ext) | Get a markdown version of any webpage with a keyboard shortcut. | JavaScript | 56 | [Jan 26, 2025](./stars/AnswerDotAI/web2md-ext.md) |
+| [ggerganov/whisper.cpp](https://github.com/ggerganov/whisper.cpp) | Port of OpenAI's Whisper model in C/C++ Tags: #inference #openai #speech-recognition #speech-to-text #transformer #whisper | C++ | 38,026 | [Jan 26, 2025](./stars/ggerganov/whisper.cpp.md) |
+| [ggml-org/llama.cpp](https://github.com/ggml-org/llama.cpp) | LLM inference in C/C++ Tags: #ggml #llama | C++ | 75,276 | [Jan 26, 2025](./stars/ggml-org/llama.cpp.md) |
+| [stackblitz-labs/bolt.diy](https://github.com/stackblitz-labs/bolt.diy) | Prompt, run, edit, and deploy full-stack web applications using any LLM you want! | TypeScript | 12,631 | [Jan 26, 2025](./stars/stackblitz-labs/bolt.diy.md) |
+| [pilcrowonpaper/auri](https://github.com/pilcrowonpaper/auri) | Manage package changes and releases | TypeScript | 73 | [Jan 26, 2025](./stars/pilcrowonpaper/auri.md) |
+| [sourcemeta-research/alterschema](https://github.com/sourcemeta-research/alterschema) | Convert between JSON Schema specification versions Tags: #json #json-schema #schema | JavaScript | 78 | [Jan 25, 2025](./stars/sourcemeta-research/alterschema.md) |
+| [wunderwuzzi23/scratch](https://github.com/wunderwuzzi23/scratch) | Repo with random useful scripts, utilities, prompts and stuff | Go | 62 | [Jan 25, 2025](./stars/wunderwuzzi23/scratch.md) |
+| [jamsocket/y-sweet](https://github.com/jamsocket/y-sweet) | A realtime CRDT-based document store, backed by S3. Tags: #crdt #multiplayer #yjs | Rust | 745 | [Jan 25, 2025](./stars/jamsocket/y-sweet.md) |
+| [No-Instructions/Relay](https://github.com/No-Instructions/Relay) | Multiplayer Mode for Obsidian Tags: #obsidian-md #obsidian-plugin | TypeScript | 165 | [Jan 25, 2025](./stars/No-Instructions/Relay.md) |
+| [sourcemeta/learnjsonschema.com](https://github.com/sourcemeta/learnjsonschema.com) | Reference documentation for JSON Schema. Includes detailed information about each keyword and vocabulary, alongside exa... Tags: #asyncapi #json #json-schema #jsonschema #openapi #schema #schemas | HTML | 27 | [Jan 24, 2025](./stars/sourcemeta/learnjsonschema.com.md) |
+| [jviotti/jsonbinpack-poc](https://github.com/jviotti/jsonbinpack-poc) | This is a PoC. See https://github.com/sourcemeta/jsonbinpack for the production implementation. Tags: #binary #deserialization #json #json-schema #jsonschema #serialization #space-efficiency | TypeScript | 23 | [Jan 24, 2025](./stars/jviotti/jsonbinpack-poc.md) |
+| [jmespath/jmespath.js](https://github.com/jmespath/jmespath.js) | Javascript implementation of JMESPath, a query language for JSON | JavaScript | 803 | [Jan 24, 2025](./stars/jmespath/jmespath.js.md) |
+| [Inqnuam/serverless-aws-lambda](https://github.com/Inqnuam/serverless-aws-lambda) | AWS Lambda dev tool for Serverless. Supports packaging, local invoking and local ALB and APG lambda server mocking. Tags: #alb #apg #aws #aws-lambda #express #lambda #local #offline #serverless | TypeScript | 7 | [Jan 24, 2025](./stars/Inqnuam/serverless-aws-lambda.md) |
+| [BackburnerJS/backburner.js](https://github.com/BackburnerJS/backburner.js) | A rewrite of the Ember.js run loop as a generic microlibrary Tags: #backburner #runloop #scheduler | TypeScript | 390 | [Jan 23, 2025](./stars/BackburnerJS/backburner.js.md) |
+| [orbitjs/orbit](https://github.com/orbitjs/orbit) | Composable data framework for ambitious web applications. | TypeScript | 2,336 | [Jan 23, 2025](./stars/orbitjs/orbit.md) |
+| [yury-dymov/json-api-normalizer](https://github.com/yury-dymov/json-api-normalizer) | Normalize JSON API data for redux applications Tags: #json-api #normalizer #redux | JavaScript | 577 | [Jan 23, 2025](./stars/yury-dymov/json-api-normalizer.md) |
+| [testdouble/scripty](https://github.com/testdouble/scripty) | Because no one should be shell-scripting inside a JSON file. | JavaScript | 965 | [Jan 23, 2025](./stars/testdouble/scripty.md) |
+| [tobyzerner/json-api-models](https://github.com/tobyzerner/json-api-models) | A lightweight layer for working with JSON:API data. Tags: #json-api | TypeScript | 28 | [Jan 23, 2025](./stars/tobyzerner/json-api-models.md) |
+| [mongodb-js/zstd](https://github.com/mongodb-js/zstd) | A Zstd Compression Library Tags: #compression #mongodb #node-js #nodejs #zstd | JavaScript | 70 | [Jan 23, 2025](./stars/mongodb-js/zstd.md) |
+| [andersondanilo/jsonapi-fractal](https://github.com/andersondanilo/jsonapi-fractal) | JSON:API Serializer inspired by Fractal (PHP) | TypeScript | 58 | [Jan 23, 2025](./stars/andersondanilo/jsonapi-fractal.md) |
+| [RenjiYuusei/CursorFocus](https://github.com/RenjiYuusei/CursorFocus) | A lightweight tool that maintains a focused view of your project structure and environment. CursorFocus automatically t... Tags: #cursor #cursorfocus | Python | 131 | [Jan 23, 2025](./stars/RenjiYuusei/CursorFocus.md) |
+| [aws-cloudformation/aws-guard-rules-registry](https://github.com/aws-cloudformation/aws-guard-rules-registry) | Rules Registry for Compliance Frameworks Tags: #aws #cfn-guard #infrastructure-as-code #policy-as-code #static-application-security-testing | Python | 115 | [Jan 22, 2025](./stars/aws-cloudformation/aws-guard-rules-registry.md) |
+| [imflamboyant/serverless-aws-chat](https://github.com/imflamboyant/serverless-aws-chat) |  | TypeScript | 3 | [Jan 22, 2025](./stars/imflamboyant/serverless-aws-chat.md) |
+| [awsfundamentals-hq/aurora-dsql](https://github.com/awsfundamentals-hq/aurora-dsql) | 💾 Aurora DSQL Serverless Tags: #aurora #aws #databases #drizzle-orm #dsql #lambda #newsletter | TypeScript | 7 | [Jan 20, 2025](./stars/awsfundamentals-hq/aurora-dsql.md) |
+| [sam-goodwin/alchemy](https://github.com/sam-goodwin/alchemy) | A minimal, embeddable, JS-native Infrastructure-as-Code library designed with gen-AI in mind. | TypeScript | 31 | [Jan 20, 2025](./stars/sam-goodwin/alchemy.md) |
+| [aws-samples/example-permissions-boundary](https://github.com/aws-samples/example-permissions-boundary) | This repository contains a sample IAM permissions boundary as a starting point for creating your own permissions bounda... Tags: #aws #cloud #iam #policy #security |  | 76 | [Jan 19, 2025](./stars/aws-samples/example-permissions-boundary.md) |
+| [PatrickJS/awesome-cursorrules](https://github.com/PatrickJS/awesome-cursorrules) | 📄 A curated list of awesome .cursorrules files Tags: #awesome #awesome-list #cursor #cursor-ai-editor #cursorrules |  | 11,089 | [Jan 19, 2025](./stars/PatrickJS/awesome-cursorrules.md) |
+| [awslabs/aws-saas-boost](https://github.com/awslabs/aws-saas-boost) | AWS SaaS Boost is a ready-to-use toolset that removes the complexity of successfully running SaaS workloads in the AWS ... | Java | 966 | [Jan 19, 2025](./stars/awslabs/aws-saas-boost.md) |
+| [shogo82148/cfn-mackerel-macro](https://github.com/shogo82148/cfn-mackerel-macro) | Tags: #cloudformation #mackerelio | Go | 5 | [Jan 19, 2025](./stars/shogo82148/cfn-mackerel-macro.md) |
+| [allenheltondev/aws-cross-account-lambda-authorizer](https://github.com/allenheltondev/aws-cross-account-lambda-authorizer) | Example repository for how to implement a cross account lambda authorizer |  | 11 | [Jan 19, 2025](./stars/allenheltondev/aws-cross-account-lambda-authorizer.md) |
+| [pedsf1968/AWS-CloudFormation](https://github.com/pedsf1968/AWS-CloudFormation) | CloudFormation templates samples | PowerShell | 1 | [Jan 19, 2025](./stars/pedsf1968/AWS-CloudFormation.md) |
+| [pagopa/openapi-codegen-ts](https://github.com/pagopa/openapi-codegen-ts) | App IO - Utils Tags: #digital-citizenship | TypeScript | 40 | [Jan 19, 2025](./stars/pagopa/openapi-codegen-ts.md) |
+| [kwhitley/itty-chroma](https://github.com/kwhitley/itty-chroma) | Ultra-tiny powerful styling for browser consoles. | TypeScript | 9 | [Jan 18, 2025](./stars/kwhitley/itty-chroma.md) |
+| [zcaceres/markdownify-mcp](https://github.com/zcaceres/markdownify-mcp) | A Model Context Protocol server for converting almost anything to Markdown Tags: #ai #anthropic #anthropic-ai #anthropic-claude #markdown #mcp #model-context-protocol #ocr #tools | TypeScript | 573 | [Jan 18, 2025](./stars/zcaceres/markdownify-mcp.md) |
+| [ataylorme/aws-cognito-oidc-github-oauth-cloudformation](https://github.com/ataylorme/aws-cognito-oidc-github-oauth-cloudformation) |  | TypeScript | 1 | [Jan 18, 2025](./stars/ataylorme/aws-cognito-oidc-github-oauth-cloudformation.md) |
+| [Durgaprasad-Budhwani/cognito-openid-connectors](https://github.com/Durgaprasad-Budhwani/cognito-openid-connectors) | Small shim that allows AWS Cognito to talk to Open Id Connectors (by providing an OpenID wrapper around the IDP API) | Go | 3 | [Jan 18, 2025](./stars/Durgaprasad-Budhwani/cognito-openid-connectors.md) |
+| [RomuloOliveira/commit-messages-guide](https://github.com/RomuloOliveira/commit-messages-guide) | A guide to understand the importance of commit messages and how to write them well |  | 6,747 | [Jan 18, 2025](./stars/RomuloOliveira/commit-messages-guide.md) |
+| [mhlabs/schemas-cli](https://github.com/mhlabs/schemas-cli) | CLI tool that lets you import OpenAPI definitions into Amazon EventBridge Schema registry. These schemas can then be us... Tags: #aws-tools #eventbridge #schema-registry | JavaScript | 8 | [Jan 17, 2025](./stars/mhlabs/schemas-cli.md) |
+| [mikaelvesavuori/acmecorp-microservices-webshop](https://github.com/mikaelvesavuori/acmecorp-microservices-webshop) | Demonstration of a microservice architecture handling a webshop, using Lambda + API Gateway, Aurora Serverless, and Eve... Tags: #microservices-architecture #serverless #serverless-architectures #webshop-demo | TypeScript | 8 | [Jan 17, 2025](./stars/mikaelvesavuori/acmecorp-microservices-webshop.md) |
+| [mhlabs/evb-cli](https://github.com/mhlabs/evb-cli) | Pattern generator and debugging tool for Amazon EventBridge | JavaScript | 22 | [Jan 17, 2025](./stars/mhlabs/evb-cli.md) |
+| [bridgecrewio/checkov](https://github.com/bridgecrewio/checkov) | Prevent cloud misconfigurations and find vulnerabilities during build-time in infrastructure as code, container images ... Tags: #aws #aws-security #azure #cloudformation #compliance #devops #gcp #hacktoberfest #infrastructure-as-code #kubernetes #scans #static-analysis #terraform | Python | 7,383 | [Jan 17, 2025](./stars/bridgecrewio/checkov.md) |
+| [modelcontextprotocol/servers](https://github.com/modelcontextprotocol/servers) | Model Context Protocol Servers | JavaScript | 10,651 | [Jan 17, 2025](./stars/modelcontextprotocol/servers.md) |
+| [arjunmehta/multiview](https://github.com/arjunmehta/multiview) | Spawn multiple processes and channel their outputs into separate little column views. | JavaScript | 91 | [Jan 17, 2025](./stars/arjunmehta/multiview.md) |
+| [awslabs/serverless-rules](https://github.com/awslabs/serverless-rules) | Compilation of rules to validate infrastructure-as-code templates against recommended practices for serverless applicat... Tags: #cfn-lint #cloudformation #serverless #serverless-rules #terraform #tflint | Go | 408 | [Jan 17, 2025](./stars/awslabs/serverless-rules.md) |
+| [rehanvdm/pets-backend-v2](https://github.com/rehanvdm/pets-backend-v2) | How to create a tRPC server on AWS Lambda exporting an OpenAPI SDK to be used by the frontend Tags: #aws #cdk #lambda #trpc | TypeScript | 8 | [Jan 17, 2025](./stars/rehanvdm/pets-backend-v2.md) |
+| [open-telemetry/community](https://github.com/open-telemetry/community) | OpenTelemetry community content Tags: #cncf #community #opentelemetry | Python | 837 | [Jan 17, 2025](./stars/open-telemetry/community.md) |
+| [larsgw/sync-fetch](https://github.com/larsgw/sync-fetch) | Synchronous wrapper around the Fetch API | JavaScript | 40 | [Jan 16, 2025](./stars/larsgw/sync-fetch.md) |
+| [brussell98/discord-markdown](https://github.com/brussell98/discord-markdown) | A markdown parser with the same rules as Discord | JavaScript | 117 | [Jan 16, 2025](./stars/brussell98/discord-markdown.md) |
+| [sindresorhus/p-throttle](https://github.com/sindresorhus/p-throttle) | Throttle promise-returning & async functions | JavaScript | 463 | [Jan 16, 2025](./stars/sindresorhus/p-throttle.md) |
+| [mmarkdown/mmark](https://github.com/mmarkdown/mmark) | Mmark: a powerful markdown processor in Go geared towards the IETF Tags: #go #html5 #ietf #markdown #mmark #nroff #xml #xml2rfc | Go | 490 | [Jan 16, 2025](./stars/mmarkdown/mmark.md) |
+| [ultrayellow/La-Seine](https://github.com/ultrayellow/La-Seine) | simple ft api request library written in typescript Tags: #42 #42born2code #42school #api #rate-limiting #typescript | TypeScript | 7 | [Jan 16, 2025](./stars/ultrayellow/La-Seine.md) |
+| [remusao/tldts](https://github.com/remusao/tldts) | JavaScript Library to extract domains, subdomains and public suffixes from complex URIs. Tags: #domain #javascript #public-suffix-list #tld #typescript #uri #url #url-parsing | TypeScript | 549 | [Jan 16, 2025](./stars/remusao/tldts.md) |
+| [unjs/ohash](https://github.com/unjs/ohash) | #️Simple object hashing, serialization and comparison utils. | TypeScript | 630 | [Jan 16, 2025](./stars/unjs/ohash.md) |
+| [fregante/abort-utils](https://github.com/fregante/abort-utils) | Utility functions to use and combine `AbortSignal` and `AbortController` with Promises | TypeScript | 146 | [Jan 16, 2025](./stars/fregante/abort-utils.md) |
+| [auth0-lab/a0-components](https://github.com/auth0-lab/a0-components) |  | TypeScript | 100 | [Jan 16, 2025](./stars/auth0-lab/a0-components.md) |
+| [bloomberg/stricli](https://github.com/bloomberg/stricli) | Build complex CLIs with type safety and no dependencies Tags: #cli #javascript #typescript | TypeScript | 775 | [Jan 16, 2025](./stars/bloomberg/stricli.md) |
+| [protomaps/PMTiles](https://github.com/protomaps/PMTiles) | Pyramids of map tiles in a single file on static storage Tags: #pmtiles #serverless | TypeScript | 2,216 | [Jan 16, 2025](./stars/protomaps/PMTiles.md) |
+| [sobolevn/git-secret](https://github.com/sobolevn/git-secret) | :busts_in_silhouette: A bash-tool to store your private data inside a git repository. Tags: #encryption #git #git-addons #git-secret #gpg #secret-management | Shell | 3,803 | [Jan 16, 2025](./stars/sobolevn/git-secret.md) |
+| [mohammed-bahumaish/prisma-editor](https://github.com/mohammed-bahumaish/prisma-editor) | Prisma Editor - A powerful tool to visualize and edit Prisma Schema. Tags: #cockroachdb #database #editor #erdiagram #mongodb #mysql #nextjs #postgersql #prisma #prisma-schema #schema | TypeScript | 913 | [Jan 16, 2025](./stars/mohammed-bahumaish/prisma-editor.md) |
+| [tconbeer/harlequin](https://github.com/tconbeer/harlequin) | The SQL IDE for Your Terminal. | Python | 4,220 | [Jan 16, 2025](./stars/tconbeer/harlequin.md) |
+| [planetscale/schemadiff](https://github.com/planetscale/schemadiff) | Declarative schema diffing, normalization, validation and manipulation via command line | Go | 109 | [Jan 16, 2025](./stars/planetscale/schemadiff.md) |
+| [chartdb/chartdb](https://github.com/chartdb/chartdb) | Database diagrams editor that allows you to visualize and design your DB with a single query. Tags: #database #db #db-migration #editor #erd #mariadb #mssql #mysql #postgresql #react #react-flow #schema-migrations #sql #sqlite #typescript #visualization #xyflow | TypeScript | 14,087 | [Jan 16, 2025](./stars/chartdb/chartdb.md) |
+| [sqlhabit/sql_schema_visualizer](https://github.com/sqlhabit/sql_schema_visualizer) | SQL schema visualisation built with ReactFlow. Tags: #db-schema #graph #react #sql #typescript #visualization | TypeScript | 216 | [Jan 16, 2025](./stars/sqlhabit/sql_schema_visualizer.md) |
+| [PromtEngineer/localGPT](https://github.com/PromtEngineer/localGPT) | Chat with your documents on your local device using GPT models. No data leaves your device and 100% private. | Python | 20,340 | [Jan 16, 2025](./stars/PromtEngineer/localGPT.md) |
+| [bboure/aws-account-vending-machine-demo](https://github.com/bboure/aws-account-vending-machine-demo) |  | TypeScript | 16 | [Jan 16, 2025](./stars/bboure/aws-account-vending-machine-demo.md) |
+| [sam-goodwin/scoop](https://github.com/sam-goodwin/scoop) | Scoop, Dump, Generate | TypeScript | 3 | [Jan 16, 2025](./stars/sam-goodwin/scoop.md) |
+| [jupierce/aws-s3-web-browser-file-listing](https://github.com/jupierce/aws-s3-web-browser-file-listing) | Make any s3 bucket browsable with a web browser. Dynamic listings with no server component. Optionally protect areas of... | Python | 7 | [Jan 15, 2025](./stars/jupierce/aws-s3-web-browser-file-listing.md) |
+| [paulshestakov/aws-step-functions-constructor](https://github.com/paulshestakov/aws-step-functions-constructor) | VSCode extension to visualize AWS step functions Tags: #aws #step-functions #vscode #vscode-extension | TypeScript | 36 | [Jan 15, 2025](./stars/paulshestakov/aws-step-functions-constructor.md) |
+| [common-fate/granted](https://github.com/common-fate/granted) | The easiest way to access your cloud. Tags: #aws #cloud #cloud-security #credentials #hacktoberfest #iam #keychain #sso | Go | 1,223 | [Jan 15, 2025](./stars/common-fate/granted.md) |
+| [DZakh/rescript-schema](https://github.com/DZakh/rescript-schema) | 🧬 The fastest parser in the entire JavaScript ecosystem with a focus on small bundle size and top-notch DX Tags: #ajv #contract #json #parse #rescript #schema #struct #ts #typescript #typescript-library #valibot #zod | ReScript | 228 | [Jan 15, 2025](./stars/DZakh/rescript-schema.md) |
+| [rehanvdm/ajv-standalone-type-saftey](https://github.com/rehanvdm/ajv-standalone-type-saftey) | TypeScript does a great job at compile time type safety, but we still need to do runtime checks just like in JavaScript... Tags: #ajv #runtime #types #typescript #validation | JavaScript | 6 | [Jan 15, 2025](./stars/rehanvdm/ajv-standalone-type-saftey.md) |
+| [koshikawa/serverless-better-credentials-4](https://github.com/koshikawa/serverless-better-credentials-4) | serverless-better-credentials for serverless framework version 4 | TypeScript | 1 | [Jan 15, 2025](./stars/koshikawa/serverless-better-credentials-4.md) |
+| [gs-gs/github-idp](https://github.com/gs-gs/github-idp) | GitHub identity provider | JavaScript | 1 | [Jan 14, 2025](./stars/gs-gs/github-idp.md) |
+| [stackql/aws-cfn-schema-to-openapi](https://github.com/stackql/aws-cfn-schema-to-openapi) |  | JavaScript | 2 | [Jan 14, 2025](./stars/stackql/aws-cfn-schema-to-openapi.md) |
+| [aws-cloudformation/cloudformation-cli](https://github.com/aws-cloudformation/cloudformation-cli) | The CloudFormation Provider Development Toolkit allows you to author your own resource providers and modules that can b... Tags: #aws #aws-cloudformation #cloudformation | Python | 328 | [Jan 14, 2025](./stars/aws-cloudformation/cloudformation-cli.md) |
+| [masudur-rahman-niloy/social-signin](https://github.com/masudur-rahman-niloy/social-signin) |  | Python | 1 | [Jan 14, 2025](./stars/masudur-rahman-niloy/social-signin.md) |
+| [thousandeyes/scrumretro](https://github.com/thousandeyes/scrumretro) | Tags: #engineering | TypeScript | 1 | [Jan 14, 2025](./stars/thousandeyes/scrumretro.md) |
+| [barelyhuman/uvu-inline-snapshot](https://github.com/barelyhuman/uvu-inline-snapshot) | Minimal Inline Snapshot utility for uvu/assert http://github.com/lukeed/uvu Tags: #inline #snapshot #snapshot-testing #testing #uvu | JavaScript | 4 | [Jan 14, 2025](./stars/barelyhuman/uvu-inline-snapshot.md) |
+| [campsite/campsite](https://github.com/campsite/campsite) | The Campsite monorepo | TypeScript | 4,417 | [Jan 14, 2025](./stars/campsite/campsite.md) |
+| [mikaelvesavuori/aws-metadata-utils](https://github.com/mikaelvesavuori/aws-metadata-utils) | Small utility library that helps you extract helpful metadata from your AWS event and context objects Tags: #aws #metadata #serverless | TypeScript | 1 | [Jan 14, 2025](./stars/mikaelvesavuori/aws-metadata-utils.md) |
+| [mikaelvesavuori/aws-wellarchitected-review-collector](https://github.com/mikaelvesavuori/aws-wellarchitected-review-collector) | Collect high-level AWS Well-Architected review data for a workload. Tags: #architecture-review #aws #aws-review #review #wa-tool #well-architected #well-architected-tool #wellarchitected | TypeScript | 3 | [Jan 14, 2025](./stars/mikaelvesavuori/aws-wellarchitected-review-collector.md) |
+| [mikaelvesavuori/slack-devex-survey](https://github.com/mikaelvesavuori/slack-devex-survey) | Box-ready serverless solution to run developer experience surveys on a scheduled (or one-off!) cadence. Tags: #aws #developer-experience #devex #dx #serverless #slack #survey #surveys | TypeScript | 4 | [Jan 14, 2025](./stars/mikaelvesavuori/slack-devex-survey.md) |
+| [mikaelvesavuori/aws-serverless-outbox-demo](https://github.com/mikaelvesavuori/aws-serverless-outbox-demo) | Demonstration of the outbox pattern with Lambda, DynamoDB, and EventBridge. Tags: #architecture-patterns #aws #demo #demonstration #dynamodb-outbox #eventbridge #lambda #outbox #serverless | TypeScript | 2 | [Jan 14, 2025](./stars/mikaelvesavuori/aws-serverless-outbox-demo.md) |
+| [mikaelvesavuori/triplecheck-core](https://github.com/mikaelvesavuori/triplecheck-core) | Core contracts and utilities for TripleCheck. | HTML | 2 | [Jan 14, 2025](./stars/mikaelvesavuori/triplecheck-core.md) |
+| [mikaelvesavuori/cloud-sla](https://github.com/mikaelvesavuori/cloud-sla) | A collection of cloud providers' SLA values in JSON format for all of their SLA-bearing services. Tags: #cloud-sla #sla #sla-values | Shell | 2 | [Jan 14, 2025](./stars/mikaelvesavuori/cloud-sla.md) |
+| [mikaelvesavuori/archfit](https://github.com/mikaelvesavuori/archfit) | Validate the fitness of your AWS solutions, without the heavy lifting! Tags: #architecture #architecture-tests #aws #evolutionary-architecture #fitness-functions #software-architecture #testing | TypeScript | 14 | [Jan 14, 2025](./stars/mikaelvesavuori/archfit.md) |
+| [mikaelvesavuori/bedrock-rag-demo](https://github.com/mikaelvesavuori/bedrock-rag-demo) | RAG document chat with Amazon Bedrock using Typescript on Lambda. Tags: #ai #amazon #aws #bedrock #demo #document-chat #lambda #ml #rag #retrieval-augmented-generation #serverless | TypeScript | 12 | [Jan 14, 2025](./stars/mikaelvesavuori/bedrock-rag-demo.md) |
+| [mikaelvesavuori/chatgpt-architecture-coach](https://github.com/mikaelvesavuori/chatgpt-architecture-coach) | This is my collection of helpful priming prompts for ChatGPT when discussing various angles of software development and... Tags: #architecture #chatgpt #chatgpt-prompt #chatgpt-prompts #prompt #prompts #software-architecture |  | 113 | [Jan 14, 2025](./stars/mikaelvesavuori/chatgpt-architecture-coach.md) |
+| [mikaelvesavuori/aws-performance-testing-starter](https://github.com/mikaelvesavuori/aws-performance-testing-starter) | This is a basic starting point for conducting performance testing on AWS. Tags: #aws #aws-testing #k6 #load-testing #performance-testing #testing | Shell | 5 | [Jan 13, 2025](./stars/mikaelvesavuori/aws-performance-testing-starter.md) |
+| [mikaelvesavuori/ddbitemsizer](https://github.com/mikaelvesavuori/ddbitemsizer) | Get the byte size of your DynamoDB input. Tags: #aws #ddb #dynamo #dynamodb #dynamodb-utils | TypeScript | 1 | [Jan 13, 2025](./stars/mikaelvesavuori/ddbitemsizer.md) |
+| [mikaelvesavuori/minion](https://github.com/mikaelvesavuori/minion) | The easiest and most lightweight way for developers to use OpenAI APIs in a CLI. Tags: #ai #ai-developer-tools #chatgpt #cli #developer-tools #diagramming #llm #openai #openai-api #test-generation | Shell | 18 | [Jan 13, 2025](./stars/mikaelvesavuori/minion.md) |
+| [mikaelvesavuori/microservices-testing-workshop](https://github.com/mikaelvesavuori/microservices-testing-workshop) | Demonstrates a number of testing types and patterns that should be helpful in testing distributed microservice architec... Tags: #microservices-testing #serverless #serverless-architectures #webshop | TypeScript | 5 | [Jan 13, 2025](./stars/mikaelvesavuori/microservices-testing-workshop.md) |
+| [mikaelvesavuori/catalogist](https://github.com/mikaelvesavuori/catalogist) | Catalogist is the easy way to catalog and make your software and (micro)services visible to your organization in a ligh... Tags: #discoverability #discovery #discovery-service #observability #service-catalog #service-landscape #software-catalog #software-discovery #software-landscape #software-observability | TypeScript | 17 | [Jan 13, 2025](./stars/mikaelvesavuori/catalogist.md) |
+| [mikaelvesavuori/dorametrix](https://github.com/mikaelvesavuori/dorametrix) | Dorametrix is a serverless web service that helps you calculate your DORA metrics, by inferring your metrics from event... Tags: #devops #dora #dora-metrics #dorametrix #engops #metrics #software-delivery | TypeScript | 75 | [Jan 13, 2025](./stars/mikaelvesavuori/dorametrix.md) |
+| [mikaelvesavuori/gitmetrix](https://github.com/mikaelvesavuori/gitmetrix) | Helps you find your team-level engineering metrics. Tags: #devops #engineering-metrics #engops #git-metrics #gitmetrix #metrics #software-delivery | TypeScript | 9 | [Jan 13, 2025](./stars/mikaelvesavuori/gitmetrix.md) |
+| [mikaelvesavuori/triplecheck-example-lambda](https://github.com/mikaelvesavuori/triplecheck-example-lambda) | TripleCheck broker running on AWS Lambda and DynamoDB. Tags: #consumer-contracts #consumer-driven-contracts #contract-testing #pacts #triplecheck | TypeScript | 1 | [Jan 13, 2025](./stars/mikaelvesavuori/triplecheck-example-lambda.md) |
+| [mikaelvesavuori/samaid](https://github.com/mikaelvesavuori/samaid) | 🪄 Magically transform AWS SAM templates to Mermaid diagrams 🪄 Tags: #aws #aws-sam #diagram-generation #mermaid #mermaid-diagrams #sam | TypeScript | 1 | [Jan 13, 2025](./stars/mikaelvesavuori/samaid.md) |
+| [mikaelvesavuori/get-a-room-ddd-example](https://github.com/mikaelvesavuori/get-a-room-ddd-example) | Get-A-Room example application using Domain Driven Design and Clean Architecture. Written in TypeScript and deployed to... Tags: #aws #clean-architecture #ddd #ddd-example #example #serverless #typescript | TypeScript | 38 | [Jan 13, 2025](./stars/mikaelvesavuori/get-a-room-ddd-example.md) |
+| [mikaelvesavuori/mikrometric](https://github.com/mikaelvesavuori/mikrometric) | MikroMetric is a Lambda-oriented lightweight wrapper for producing AWS CloudWatch Embedded Metric Format-compatible met... Tags: #aws #aws-emf #embedded-metric-format #metric-logger #metrics #minimal #serverless | TypeScript | 2 | [Jan 13, 2025](./stars/mikaelvesavuori/mikrometric.md) |
+| [Rich-Harris/headless-qr](https://github.com/Rich-Harris/headless-qr) | A simple, modern QR code library | JavaScript | 459 | [Jan 13, 2025](./stars/Rich-Harris/headless-qr.md) |
+| [aws/aws-sam-cli-app-templates](https://github.com/aws/aws-sam-cli-app-templates) |  | Python | 504 | [Jan 13, 2025](./stars/aws/aws-sam-cli-app-templates.md) |
+| [solvi-ab/s3-multipart](https://github.com/solvi-ab/s3-multipart) | Easy multipart uploads to S3 from the browser | JavaScript | 3 | [Jan 13, 2025](./stars/solvi-ab/s3-multipart.md) |
+| [JamesKyburz/aws-lambda-ws-server](https://github.com/JamesKyburz/aws-lambda-ws-server) | aws lambda websocket server. Tags: #apigateway #aws #lambda #websocket #ws | JavaScript | 40 | [Jan 13, 2025](./stars/JamesKyburz/aws-lambda-ws-server.md) |
+| [JamesKyburz/dynamodb-logs](https://github.com/JamesKyburz/dynamodb-logs) | sample repo to use dynamodb with append only logs Tags: #append-only #aws #aws-lambda #aws-lambda-node #aws-lambda-python #dynamodb #dynamodb-streams #event-sourcing #eventbridge #eventlog #lambda #pubsub #serverless | JavaScript | 4 | [Jan 13, 2025](./stars/JamesKyburz/dynamodb-logs.md) |
+| [aws-samples/serverless-patterns](https://github.com/aws-samples/serverless-patterns) | Serverless patterns. Learn more at the website: https://serverlessland.com/patterns. Tags: #aws #awssam #serverless | Python | 1,653 | [Jan 13, 2025](./stars/aws-samples/serverless-patterns.md) |
+| [gristlabs/yaml-cfn](https://github.com/gristlabs/yaml-cfn) | Parser and schema for CloudFormation YAML templates | JavaScript | 32 | [Jan 13, 2025](./stars/gristlabs/yaml-cfn.md) |
+| [starterstack/starterstack](https://github.com/starterstack/starterstack) | A Serverless monorepo Template architecture | JavaScript | 6 | [Jan 13, 2025](./stars/starterstack/starterstack.md) |
+| [while-true/wt-dev-cloudfront-private-access](https://github.com/while-true/wt-dev-cloudfront-private-access) |  | TypeScript | 2 | [Jan 13, 2025](./stars/while-true/wt-dev-cloudfront-private-access.md) |
+| [awslabs/aws-crt-nodejs](https://github.com/awslabs/aws-crt-nodejs) | NodeJS bindings for the AWS Common Runtime. Tags: #hacktoberfest | TypeScript | 41 | [Jan 13, 2025](./stars/awslabs/aws-crt-nodejs.md) |
+| [sivaprasadreddy/software-architecture-premier](https://github.com/sivaprasadreddy/software-architecture-premier) | Software Architecture Premier Presentation |  | 271 | [Jan 12, 2025](./stars/sivaprasadreddy/software-architecture-premier.md) |
+| [egoist/typed-search](https://github.com/egoist/typed-search) | Super simple type-safe URLSearchParams parser. | TypeScript | 61 | [Jan 11, 2025](./stars/egoist/typed-search.md) |
+| [aws-cloudformation/rain](https://github.com/aws-cloudformation/rain) | A development workflow tool for working with AWS CloudFormation. | Go | 868 | [Jan 09, 2025](./stars/aws-cloudformation/rain.md) |
+| [yahoo/ariel](https://github.com/yahoo/ariel) | Ariel is an AWS Lambda designed to collect, analyze, and make recommendations about Reserved Instances for EC2. | Python | 67 | [Jan 09, 2025](./stars/yahoo/ariel.md) |
+| [yeahhub/Hacking-Security-Ebooks](https://github.com/yeahhub/Hacking-Security-Ebooks) | Top 100 Hacking & Security E-Books (Free Download) Tags: #books #ebooks #hacking #hacking-security-ebooks #kali-linux #penetration-testing #security |  | 5,830 | [Jan 09, 2025](./stars/yeahhub/Hacking-Security-Ebooks.md) |
+| [lmammino/s3st](https://github.com/lmammino/s3st) | A command line utility that allows you to stream data from multiple S3 objects directly into your terminal Tags: #aws #cloudtrail #command-line #logs #s3 #s3-bucket #s3-storage #streams | JavaScript | 76 | [Jan 09, 2025](./stars/lmammino/s3st.md) |
+| [salesforce/policy_sentry](https://github.com/salesforce/policy_sentry) | IAM Least Privilege Policy Generator Tags: #aws #aws-security #cloud #cloudsecurity #hacktoberfest #iam #iam-policy #salesforce #security | Python | 2,054 | [Jan 09, 2025](./stars/salesforce/policy_sentry.md) |
+| [nsriram/lambda-the-cli-way](https://github.com/nsriram/lambda-the-cli-way) | AWS Lambda using CLI, an introductory cookbook Tags: #aws #aws-cli #aws-lambda #cookbook #tutorial | Markdown | 195 | [Jan 09, 2025](./stars/nsriram/lambda-the-cli-way.md) |
+| [openlayers/openlayers](https://github.com/openlayers/openlayers) | OpenLayers Tags: #javascript #maps #openlayers | JavaScript | 11,692 | [Jan 09, 2025](./stars/openlayers/openlayers.md) |
+| [sa7mon/S3Scanner](https://github.com/sa7mon/S3Scanner) | Scan for misconfigured S3 buckets across S3-compatible APIs! Tags: #aws #bugbounty #gcp #infosec #s3 #s3scanner | Go | 2,674 | [Jan 09, 2025](./stars/sa7mon/S3Scanner.md) |
+| [sinclairzx81/threadbox](https://github.com/sinclairzx81/threadbox) | Recursive Worker Threads in NodeJS Tags: #atomics #channels #nodejs #parallelism #shared-array-buffer #worker-threads | TypeScript | 232 | [Jan 09, 2025](./stars/sinclairzx81/threadbox.md) |
+| [nodejs/changelog-maker](https://github.com/nodejs/changelog-maker) | A git log to CHANGELOG.md tool Tags: #node #nodejs | JavaScript | 233 | [Jan 09, 2025](./stars/nodejs/changelog-maker.md) |
+| [V33RU/IoTSecurity101](https://github.com/V33RU/IoTSecurity101) | A Curated list of IoT Security Resources Tags: #awesome #awesome-iot #awesome-list #awesome-lists #embedded-devices #firmware #firmware-pentesting #hardware #hardware-hacking #iot #iot-device #iot-security #linux #pentesting-guides #radio |  | 2,807 | [Jan 09, 2025](./stars/V33RU/IoTSecurity101.md) |
+| [rbren/rss-parser](https://github.com/rbren/rss-parser) | A lightweight RSS parser, for Node and the browser Tags: #json #nodejs #rss #rss-feed #rss-parser #rss-reader #xml | JavaScript | 1,417 | [Jan 09, 2025](./stars/rbren/rss-parser.md) |
+| [phuocng/1loc](https://github.com/phuocng/1loc) | What's your favorite JavaScript single LOC (line of code)? Tags: #eleventy #javascript #javascript-utils #js-tips #one-line-code #one-liner #tips-and-tricks | MDX | 6,779 | [Jan 09, 2025](./stars/phuocng/1loc.md) |
+| [freedmand/stepfunction-visualizer](https://github.com/freedmand/stepfunction-visualizer) | A toolkit to debug and visualize local AWS step functions | TypeScript | 14 | [Jan 08, 2025](./stars/freedmand/stepfunction-visualizer.md) |
+| [robhogan/dynamodb-geo.js](https://github.com/robhogan/dynamodb-geo.js) | A node-friendly typescript port of https://github.com/awslabs/dynamodb-geo Tags: #dynamodb #geo-library #geospatial-data #nodejs #typescript | TypeScript | 211 | [Jan 08, 2025](./stars/robhogan/dynamodb-geo.js.md) |
+| [allenheltondev/dynamodb-geosearch](https://github.com/allenheltondev/dynamodb-geosearch) | Proof of Concept building a geosearching tool using DynamoDB and free, open source tools | JavaScript | 19 | [Jan 08, 2025](./stars/allenheltondev/dynamodb-geosearch.md) |
+| [allenheltondev/api-spec-to-api-destinations](https://github.com/allenheltondev/api-spec-to-api-destinations) | Automatically convert API specs to invokable EventBridge API destinations | JavaScript | 4 | [Jan 08, 2025](./stars/allenheltondev/api-spec-to-api-destinations.md) |
+| [readysetcloud/newsletter-service](https://github.com/readysetcloud/newsletter-service) | A serverless newsletter service that powers Serverless Picks of the Week. Uses SendGrid for emails | JavaScript | 3 | [Jan 08, 2025](./stars/readysetcloud/newsletter-service.md) |
+| [readysetcloud/social-media-scheduler](https://github.com/readysetcloud/social-media-scheduler) | Schedule social media posts with AWS EventBridge | JavaScript | 22 | [Jan 08, 2025](./stars/readysetcloud/social-media-scheduler.md) |
+| [readysetcloud/blog-service](https://github.com/readysetcloud/blog-service) | Service to mange cross-posting of blogs | JavaScript | 2 | [Jan 08, 2025](./stars/readysetcloud/blog-service.md) |
+| [zoph-io/url-shortener](https://github.com/zoph-io/url-shortener) | serverless url-shortener Tags: #aws #serverless #url-shortener | Python | 11 | [Jan 08, 2025](./stars/zoph-io/url-shortener.md) |
+| [zoph-io/serverless-aws-https-webredirect](https://github.com/zoph-io/serverless-aws-https-webredirect) | Serverless AWS HTTPS Webredirect Tags: #cloudformation #https #redirect #serverless #url #urlredirector | Makefile | 5 | [Jan 08, 2025](./stars/zoph-io/serverless-aws-https-webredirect.md) |
+| [andrei-demidov/django-sqlite-efs](https://github.com/andrei-demidov/django-sqlite-efs) | Django database backend for SQLite on Amazon EFS Tags: #aws-efs #aws-lambda #aws-lambda-python #django #django-database #django-sqlite #django-sqlite3 #dynamodb #efs #elasticfilesystem #lambda #serverless #sqlite #sqlite3 | Python | 2 | [Jan 08, 2025](./stars/andrei-demidov/django-sqlite-efs.md) |
+| [andrei-demidov/aws-iac-cdn-multi-region-poc](https://github.com/andrei-demidov/aws-iac-cdn-multi-region-poc) | Multi-region CDN architecture with CloudFront Functions Tags: #cdn #cloudformation #cloudfront #cloudfront-functions #content-delivery #content-delivery-network #iac #javascript #multi-region #multi-region-architecture #s3 |  | 1 | [Jan 08, 2025](./stars/andrei-demidov/aws-iac-cdn-multi-region-poc.md) |
+| [terjanq/Tiny-XSS-Payloads](https://github.com/terjanq/Tiny-XSS-Payloads) | A collection of tiny XSS Payloads that can be used in different contexts. https://tinyxss.terjanq.me Tags: #bugbounty #ctf #html #javascript #payloads #xss | JavaScript | 2,027 | [Jan 07, 2025](./stars/terjanq/Tiny-XSS-Payloads.md) |
+| [veeral-patel/how-to-secure-anything](https://github.com/veeral-patel/how-to-secure-anything) | How to systematically secure anything: a repository about security engineering Tags: #secure-design #secure-systems #security #security-architecture #security-assurance #security-engineering #threat-modeling |  | 10,029 | [Jan 07, 2025](./stars/veeral-patel/how-to-secure-anything.md) |
+| [trek10inc/cloudformation-schema-js-yaml](https://github.com/trek10inc/cloudformation-schema-js-yaml) | Cloudformation custom class parser | JavaScript | 3 | [Jan 07, 2025](./stars/trek10inc/cloudformation-schema-js-yaml.md) |
+| [trek10inc/cfn-event-tailer](https://github.com/trek10inc/cfn-event-tailer) | A CloudFormation event tailer that includes nested stacks | JavaScript | 2 | [Jan 07, 2025](./stars/trek10inc/cfn-event-tailer.md) |
+| [egoist/sitefetch](https://github.com/egoist/sitefetch) | Fetch an entire site and save it as a text file (to be used with AI models). | TypeScript | 1,143 | [Jan 07, 2025](./stars/egoist/sitefetch.md) |
+| [ziedbentahar/glue-zero-etl-dynamodb-to-apache-iceberg-table](https://github.com/ziedbentahar/glue-zero-etl-dynamodb-to-apache-iceberg-table) |  | HCL | 3 | [Jan 07, 2025](./stars/ziedbentahar/glue-zero-etl-dynamodb-to-apache-iceberg-table.md) |
+| [trek10inc/awsets](https://github.com/trek10inc/awsets) | A utility for crawling an AWS account and exporting all its resources for further analysis. | Go | 207 | [Jan 06, 2025](./stars/trek10inc/awsets.md) |
+| [fwouts/previewjs](https://github.com/fwouts/previewjs) | Preview UI components in your IDE instantly Tags: #intellij #preact #preview #react #solid #svelte #vscode #vue | TypeScript | 1,871 | [Jan 06, 2025](./stars/fwouts/previewjs.md) |
+| [sindresorhus/capture-website-cli](https://github.com/sindresorhus/capture-website-cli) | Capture screenshots of websites from the command-line Tags: #capture-screenshots #cli-app #nodejs #npm-package #puppeteer #screenshots #website-screenshot #website-screenshot-capturer | JavaScript | 826 | [Jan 06, 2025](./stars/sindresorhus/capture-website-cli.md) |
+| [MarsX-dev/floatui](https://github.com/MarsX-dev/floatui) | Beautiful and responsive UI components and templates for React and Vue (soon) with Tailwind CSS. Tags: #design-systems #nextjs #react #react-components #tailwind-template #tailwindcss #tailwindui #ui-components #vue #vue-components | MDX | 3,450 | [Jan 06, 2025](./stars/MarsX-dev/floatui.md) |
+| [rexxars/eventsource-client](https://github.com/rexxars/eventsource-client) | A modern, streaming server-sent events/eventsource client | TypeScript | 97 | [Jan 06, 2025](./stars/rexxars/eventsource-client.md) |
+| [mikesprague/rappers-delight](https://github.com/mikesprague/rappers-delight) | Play Sugar Hill Gang's song Rapper's Delight while running another command | JavaScript | 3 | [Jan 06, 2025](./stars/mikesprague/rappers-delight.md) |
+| [shime/play-sound](https://github.com/shime/play-sound) | Play sounds by shelling out to one of the available audio players. Tags: #javascript #node #nodejs #sound | JavaScript | 215 | [Jan 06, 2025](./stars/shime/play-sound.md) |
+| [jasonjmcghee/rem](https://github.com/jasonjmcghee/rem) | An open source approach to locally record and enable searching everything you view on your Mac. Tags: #local #macos #memory #producitivity #recall #rewind #search #swift #swiftui #utilities | Swift | 2,378 | [Jan 06, 2025](./stars/jasonjmcghee/rem.md) |
+| [heyman/heynote](https://github.com/heyman/heynote) | A dedicated scratchpad for developers Tags: #developer-tools #editor #note-taking #notes #notes-app #productivity-tools #scratchpad | JavaScript | 4,273 | [Jan 06, 2025](./stars/heyman/heynote.md) |
+| [hectorm/otpauth](https://github.com/hectorm/otpauth) | One Time Password (HOTP/TOTP) library for Node.js, Deno, Bun and browsers. Tags: #auth #authenticator #browser #bun #deno #google-authenticator #hotp #javascript #node #node-js #nodejs #otp #otpauth #security #totp #two-factor #two-factor-authentication #two-step #two-step-authentication | JavaScript | 1,055 | [Jan 06, 2025](./stars/hectorm/otpauth.md) |
+| [signavio/react-mentions](https://github.com/signavio/react-mentions) | @mention people in a textarea Tags: #inline-styles #mentions #react #tags | JavaScript | 2,547 | [Jan 06, 2025](./stars/signavio/react-mentions.md) |
+| [yeun/open-color](https://github.com/yeun/open-color) | Color scheme for UI design. Tags: #adobe-library #color #color-scheme #scss #stylus #swatches | Handlebars | 5,352 | [Jan 06, 2025](./stars/yeun/open-color.md) |
+| [DavidWells/parse-time-string](https://github.com/DavidWells/parse-time-string) |  | JavaScript | 1 | [Jan 06, 2025](./stars/DavidWells/parse-time-string.md) |
+| [vikejs/vike](https://github.com/vikejs/vike) | 🔨 The Framework *You* Control - Next.js & Nuxt alternative for unprecedented flexibility and dependability. Tags: #full-stack #node #react #react-ssr #server-rendering #server-side-rendering #solid #solid-ssr #ssr #static-site-generator #vite #vite-plugin #vite-ssr #vitejs #vue #vue-ssr #web-framework | TypeScript | 4,647 | [Jan 06, 2025](./stars/vikejs/vike.md) |
+| [Omnistac/zedux](https://github.com/Omnistac/zedux) | :zap: A Molecular State Engine for React Tags: #atom #atomic #dependency-injection #extensible #flexible #graph #molecular #powerful #react #state #state-management #zero-configuration | TypeScript | 415 | [Jan 06, 2025](./stars/Omnistac/zedux.md) |
+| [DavidWells/demobox](https://github.com/DavidWells/demobox) | Demo Page Generator & Live Editor Component | JavaScript | 1 | [Jan 05, 2025](./stars/DavidWells/demobox.md) |
+| [chartist-js/chartist](https://github.com/chartist-js/chartist) | Simple responsive charts Tags: #charting-library #chartist #javascript #responsive-charts #svg | TypeScript | 13,363 | [Jan 05, 2025](./stars/chartist-js/chartist.md) |
+| [DavidWells/react-dom-primitives](https://github.com/DavidWells/react-dom-primitives) | React Base Dom Primitives | JavaScript | 4 | [Jan 05, 2025](./stars/DavidWells/react-dom-primitives.md) |
+| [DavidWells/redact-logs](https://github.com/DavidWells/redact-logs) | Redact sensitive env vars from logs & CLI output. | JavaScript | 2 | [Jan 05, 2025](./stars/DavidWells/redact-logs.md) |
+| [DavidWells/env-stage-loader](https://github.com/DavidWells/env-stage-loader) | Loads .env files in order based on process.env.NODE_ENV value with [stage].local support | JavaScript | 10 | [Jan 05, 2025](./stars/DavidWells/env-stage-loader.md) |
+| [wvit/web-document](https://github.com/wvit/web-document) | A browser extension for saving web documents locally, allowing you to access them offline and quickly search for webpag... | TypeScript | 653 | [Jan 05, 2025](./stars/wvit/web-document.md) |
+| [sissbruecker/linkding](https://github.com/sissbruecker/linkding) | Self-hosted bookmark manager that is designed be to be minimal, fast, and easy to set up using Docker. Tags: #bookmark-manager #bookmark-service #bookmarks #self-hosted | Python | 7,591 | [Jan 05, 2025](./stars/sissbruecker/linkding.md) |
+| [ArchiveBox/ArchiveBox](https://github.com/ArchiveBox/ArchiveBox) | 🗃 Open source self-hosted web archiving. Takes URLs/browser history/bookmarks/Pocket/Pinboard/etc., saves HTML, JS, PD... Tags: #archivebox #backups #bookmark-archiver #browser-bookmarks #chromium #digipres #firefox #headless-browser #internet-archiving #pinboard #pocket #python #rss #self-hosted #singlefile #warc #wayback-machine #web-archiving #wget #youtube-dl | Python | 23,307 | [Jan 05, 2025](./stars/ArchiveBox/ArchiveBox.md) |
+| [modelcontextprotocol/typescript-sdk](https://github.com/modelcontextprotocol/typescript-sdk) | The official Typescript SDK for Model Context Protocol servers and clients | TypeScript | 1,393 | [Jan 04, 2025](./stars/modelcontextprotocol/typescript-sdk.md) |
+| [ahmedkhaleel2004/gitdiagram](https://github.com/ahmedkhaleel2004/gitdiagram) | Replace 'hub' with 'diagram' in any GitHub url to instantly visualize the codebase as an interactive diagram Tags: #ai #code #github #system-design | TypeScript | 2,585 | [Jan 04, 2025](./stars/ahmedkhaleel2004/gitdiagram.md) |
+| [trbndev/jsoncanvas](https://github.com/trbndev/jsoncanvas) | 📝 JSONCanvas Implementation for TypeScript Tags: #jsoncanvas #typescript | TypeScript | 29 | [Jan 04, 2025](./stars/trbndev/jsoncanvas.md) |
+| [Digital-Tvilling/react-jsoncanvas](https://github.com/Digital-Tvilling/react-jsoncanvas) | A solution in React and TypeScript to render JSON Canvas | TypeScript | 88 | [Jan 04, 2025](./stars/Digital-Tvilling/react-jsoncanvas.md) |
+| [obsidianmd/jsoncanvas](https://github.com/obsidianmd/jsoncanvas) | An open file format for infinite canvas data. | JavaScript | 2,716 | [Jan 04, 2025](./stars/obsidianmd/jsoncanvas.md) |
+| [purple-technology/react-camera-pro](https://github.com/purple-technology/react-camera-pro) | Mobile first camera component for React. | JavaScript | 197 | [Jan 04, 2025](./stars/purple-technology/react-camera-pro.md) |
+| [adaltas/node-csv](https://github.com/adaltas/node-csv) | Full featured CSV parser with simple api and tested against large datasets. Tags: #csv #nodejs #parser #streaming | CoffeeScript | 4,107 | [Jan 04, 2025](./stars/adaltas/node-csv.md) |
+| [StefanTerdell/json-schema-to-zod](https://github.com/StefanTerdell/json-schema-to-zod) |  | TypeScript | 398 | [Jan 04, 2025](./stars/StefanTerdell/json-schema-to-zod.md) |
+| [addyosmani/firew0rks](https://github.com/addyosmani/firew0rks) | Fireworks in your terminal 🎆 Tags: #ascii-fireworks #fireworks #fireworks-algorithm #fireworks-animation | JavaScript | 531 | [Jan 03, 2025](./stars/addyosmani/firew0rks.md) |
+| [alufers/mitmproxy2swagger](https://github.com/alufers/mitmproxy2swagger) | Automagically reverse-engineer REST APIs via capturing traffic Tags: #mitmproxy #openapi #reverse-engineering #swagger | HTML | 8,677 | [Jan 03, 2025](./stars/alufers/mitmproxy2swagger.md) |
+| [taozhi8833998/node-sql-parser](https://github.com/taozhi8833998/node-sql-parser) | Parse simple SQL statements into an abstract syntax tree (AST) with the visited tableList and convert it back to SQL | PEG.js | 850 | [Jan 03, 2025](./stars/taozhi8833998/node-sql-parser.md) |
+| [aws-solutions-library-samples/data-lakes-on-aws](https://github.com/aws-solutions-library-samples/data-lakes-on-aws) | Enterprise-grade, production-hardened, serverless data lake on AWS Tags: #analytics #aws #best-practices #data-engineering #data-lake #etl #framework #iac #lake-formation #serverless | Python | 434 | [Jan 03, 2025](./stars/aws-solutions-library-samples/data-lakes-on-aws.md) |
+| [aws-samples/amazon-cognito-passwordless-auth](https://github.com/aws-samples/amazon-cognito-passwordless-auth) | Passwordless authentication with Amazon Cognito: FIDO2 (WebAuthn, support for Passkeys), Magic Link, SMS OTP Step Up Tags: #authentication #aws #aws-cognito #fido2 #magic-link #passkeys #react #sms-otp #typescript #webauthn | TypeScript | 404 | [Jan 03, 2025](./stars/aws-samples/amazon-cognito-passwordless-auth.md) |
+| [eduardo3g/twitter](https://github.com/eduardo3g/twitter) | A serverless Twitter built with some cool stuff, such as the Serverless Framework, AppSync (GraphQL), Lambda, DynamoDB,... Tags: #algolia #appsync #appsync-graphql-api #artilleryio #aws #aws-lambda #cognito #dynamodb #kinesis-firehose #kinesis-stream #lambda #serverless #serverless-framework #social-network #twitter | JavaScript | 43 | [Jan 02, 2025](./stars/eduardo3g/twitter.md) |
+| [m-sureshraj/serverless-examples](https://github.com/m-sureshraj/serverless-examples) | A collection of high-quality and complete example projects built with Serverless framework on AWS. | JavaScript | 6 | [Jan 02, 2025](./stars/m-sureshraj/serverless-examples.md) |
+| [rishikavikondala/mcp-server-aws](https://github.com/rishikavikondala/mcp-server-aws) | A Model Context Protocol server implementation for operations on AWS resources Tags: #anthropic #aws #claude #mcp | Python | 42 | [Jan 02, 2025](./stars/rishikavikondala/mcp-server-aws.md) |
+| [appcypher/awesome-mcp-servers](https://github.com/appcypher/awesome-mcp-servers) | Awesome MCP Servers - A curated list of Model Context Protocol servers Tags: #ai #anthropic-claude #awesome #context #mcp #model-context-protocol #servers #tool-use #tools |  | 850 | [Jan 02, 2025](./stars/appcypher/awesome-mcp-servers.md) |
+| [michaellatman/mcp-get](https://github.com/michaellatman/mcp-get) |  | TypeScript | 193 | [Jan 02, 2025](./stars/michaellatman/mcp-get.md) |
+| [awslabs/sbt-aws](https://github.com/awslabs/sbt-aws) | SaaS Builder Toolkit for AWS is a developer toolkit to implement SaaS best practices and increase developer velocity. | TypeScript | 222 | [Jan 01, 2025](./stars/awslabs/sbt-aws.md) |
+| [welldone-software/why-did-you-render](https://github.com/welldone-software/why-did-you-render) | why-did-you-render by Welldone Software monkey patches React to notify you about potentially avoidable re-renders. (Wor... Tags: #component #hooks-tracking #performance #pure #purecomponent #react #react-native #render #tool #update | JavaScript | 11,711 | [Dec 31, 2024](./stars/welldone-software/why-did-you-render.md) |
+| [bradleyboy/tuql](https://github.com/bradleyboy/tuql) | Automatically create a GraphQL server from a SQLite database or a SQL file Tags: #automatic-api #foreign-keys #graphql #nodejs #schema #sequelize #sqlite #sqlite-database #sqlite3 | JavaScript | 1,067 | [Dec 31, 2024](./stars/bradleyboy/tuql.md) |
+| [fern-api/fern](https://github.com/fern-api/fern) | Input OpenAPI. Output SDKs and Docs. Tags: #api #docs-as-code #docs-generator #openapi #sdk-generator | TypeScript | 2,858 | [Dec 31, 2024](./stars/fern-api/fern.md) |
+| [acacode/swagger-typescript-api](https://github.com/acacode/swagger-typescript-api) | Generate the API Client for Fetch or Axios from an OpenAPI Specification | TypeScript | 3,554 | [Dec 31, 2024](./stars/acacode/swagger-typescript-api.md) |
+| [orval-labs/orval](https://github.com/orval-labs/orval) | orval is able to generate client with appropriate type-signatures (TypeScript) from any valid OpenAPI v3 or Swagger v2 ... Tags: #angular #axios-client #codegen #faker #mock #msw #openapi-specification #orval #react #react-query #swagger #typescript | TypeScript | 3,622 | [Dec 31, 2024](./stars/orval-labs/orval.md) |
+| [jchn/simple-masonry-layout](https://github.com/jchn/simple-masonry-layout) | Calculating masonry layouts based on rectangles, without being tied to the DOM. Tags: #layout #masonry #masonry-grid #masonry-layout | TypeScript | 12 | [Dec 31, 2024](./stars/jchn/simple-masonry-layout.md) |
+| [sindresorhus/fkill-cli](https://github.com/sindresorhus/fkill-cli) | Fabulously kill processes. Cross-platform. Tags: #cli #cli-app #cross-platform #fabulous #javascript #kill #nodejs #process #unicorns | JavaScript | 6,905 | [Dec 31, 2024](./stars/sindresorhus/fkill-cli.md) |
+| [orogene/orogene](https://github.com/orogene/orogene) | Makes `node_modules/` happen. Fast. No fuss. Tags: #javascript #nodejs #package-manager #rust #typescript | Rust | 1,469 | [Dec 31, 2024](./stars/orogene/orogene.md) |
+| [CtrlSpice/otel-desktop-viewer](https://github.com/CtrlSpice/otel-desktop-viewer) | desktop-collector | JavaScript | 531 | [Dec 31, 2024](./stars/CtrlSpice/otel-desktop-viewer.md) |
+| [hossamelmansy/automating-aws-with-nodejs](https://github.com/hossamelmansy/automating-aws-with-nodejs) | Examples for automating AWS with NodeJS | JavaScript | 2 | [Dec 31, 2024](./stars/hossamelmansy/automating-aws-with-nodejs.md) |
+| [bajankristof/nedb-promises](https://github.com/bajankristof/nedb-promises) | A dead-simple promise wrapper for nedb. Tags: #callback #cursor #database #nedb #nedb-promises #promise #promise-wrapper | JavaScript | 298 | [Dec 31, 2024](./stars/bajankristof/nedb-promises.md) |
+| [everestate/serverless-router](https://github.com/everestate/serverless-router) | Serverless, minimalist, pluggable, universal router. Tags: #lambda #router #routing #serverless | JavaScript | 6 | [Dec 31, 2024](./stars/everestate/serverless-router.md) |
+| [microsoft/markitdown](https://github.com/microsoft/markitdown) | Python tool for converting files and office documents to Markdown. Tags: #autogen #autogen-extension #langchain #markdown #microsoft-office #openai #pdf | HTML | 39,009 | [Dec 31, 2024](./stars/microsoft/markitdown.md) |
+| [caolan/signaller](https://github.com/caolan/signaller) | State change notifications | JavaScript | 3 | [Dec 30, 2024](./stars/caolan/signaller.md) |
+| [caolan/highland](https://github.com/caolan/highland) | High-level streams library for Node.js and the browser | JavaScript | 3,425 | [Dec 30, 2024](./stars/caolan/highland.md) |
+| [alank64/json-schema-filter](https://github.com/alank64/json-schema-filter) | Filters (removes) objects from document based on passed json-schema | JavaScript | 37 | [Dec 30, 2024](./stars/alank64/json-schema-filter.md) |
+| [forward/sql-parser](https://github.com/forward/sql-parser) | A SQL parser written in pure JS | JavaScript | 536 | [Dec 30, 2024](./stars/forward/sql-parser.md) |
+| [alkemics/CancelablePromise](https://github.com/alkemics/CancelablePromise) | A simple Cancelable Promise | TypeScript | 157 | [Dec 30, 2024](./stars/alkemics/CancelablePromise.md) |
+| [ehmicky/cross-platform-node-guide](https://github.com/ehmicky/cross-platform-node-guide) | 📗 How to write cross-platform Node.js code Tags: #api #cli #code-quality #cross-platform #documentation #encoding #es6 #javascript #linux #macos #nodejs #operating-system #os #portability #security #server #shell #terminal #unix #windows | JavaScript | 1,409 | [Dec 30, 2024](./stars/ehmicky/cross-platform-node-guide.md) |
+| [florajs/sql-parser](https://github.com/florajs/sql-parser) | Parse SQL (select) statements into abstract syntax tree (AST) and convert ASTs back to SQL. Tags: #ast #parser #sql | JavaScript | 289 | [Dec 30, 2024](./stars/florajs/sql-parser.md) |
+| [cremich/cdk-bill-bot](https://github.com/cremich/cdk-bill-bot) | The serverless cost optimization bot | TypeScript | 491 | [Dec 30, 2024](./stars/cremich/cdk-bill-bot.md) |
+| [neuledge/sort-key](https://github.com/neuledge/sort-key) | 🔑 Tiny library for generating safe sort keys for DynamoDB. Tags: #aws #dynamodb #sortkey | TypeScript | 7 | [Dec 29, 2024](./stars/neuledge/sort-key.md) |
+| [t49tran/react-google-recaptcha-v3](https://github.com/t49tran/react-google-recaptcha-v3) | Google Recaptcha V3 integration for React | TypeScript | 446 | [Dec 29, 2024](./stars/t49tran/react-google-recaptcha-v3.md) |
+| [aws-samples/api-gw-http-only-cookie-auth](https://github.com/aws-samples/api-gw-http-only-cookie-auth) | Tags: #api-gateway #aws #cognito #http-only-cookies | TypeScript | 22 | [Dec 29, 2024](./stars/aws-samples/api-gw-http-only-cookie-auth.md) |
+| [simple-dev-tools/dynamodb-as-cache](https://github.com/simple-dev-tools/dynamodb-as-cache) | Use DynamoDB as cache service, providing Redis-like APIs and reducing the boilerplate of dealing low-level DynamoDB API... | JavaScript | 3 | [Dec 28, 2024](./stars/simple-dev-tools/dynamodb-as-cache.md) |
+| [rlyders/dynamodb-lock-manager](https://github.com/rlyders/dynamodb-lock-manager) | NodeJS module to manage distributed locks in DynamoDB with the AWS SDK. This package allows the caller to create locks,... | TypeScript | 3 | [Dec 28, 2024](./stars/rlyders/dynamodb-lock-manager.md) |
+| [vimson/dynamodb-logger](https://github.com/vimson/dynamodb-logger) | A DynamoDB wrapper which logs all the entries to the table and an easy way to query the logs | TypeScript | 1 | [Dec 28, 2024](./stars/vimson/dynamodb-logger.md) |
+| [rpinheiroalmeida/aws-event-stream](https://github.com/rpinheiroalmeida/aws-event-stream) | An event stream application for AWS in typescript. | TypeScript | 1 | [Dec 28, 2024](./stars/rpinheiroalmeida/aws-event-stream.md) |
+| [admirkadriu/serverless-rate-limit](https://github.com/admirkadriu/serverless-rate-limit) | Rate limit your API's (or something else) using a combination centralized and decentralized data source Tags: #dynamodb #lambda #rate-limiting #serverless | TypeScript | 2 | [Dec 28, 2024](./stars/admirkadriu/serverless-rate-limit.md) |
+| [sdawood/dynamo-update-expression](https://github.com/sdawood/dynamo-update-expression) | Generate DynamoDB Update Expression by diff-ing original and updated documents Tags: #diff #dynamodb #expression #lock #optimisitc #update #version | JavaScript | 29 | [Dec 28, 2024](./stars/sdawood/dynamo-update-expression.md) |
+| [fterh/heimdall](https://github.com/fterh/heimdall) | Self-hosted personal email guardian with one-step deployment Tags: #email #hacktoberfest #serverless | TypeScript | 520 | [Dec 27, 2024](./stars/fterh/heimdall.md) |
+| [nak2k/node-dynamodb-expr](https://github.com/nak2k/node-dynamodb-expr) |  | JavaScript | 1 | [Dec 27, 2024](./stars/nak2k/node-dynamodb-expr.md) |
+| [nak2k/node-cfn-spec](https://github.com/nak2k/node-cfn-spec) |  | JavaScript | 1 | [Dec 27, 2024](./stars/nak2k/node-cfn-spec.md) |
+| [nak2k/node-hide-properties](https://github.com/nak2k/node-hide-properties) | Hide properties of an object | JavaScript | 1 | [Dec 27, 2024](./stars/nak2k/node-hide-properties.md) |
+| [nak2k/node-json-thumbprint](https://github.com/nak2k/node-json-thumbprint) | The thumbprint of a JSON | JavaScript | 2 | [Dec 27, 2024](./stars/nak2k/node-json-thumbprint.md) |
+| [nak2k/node-open-arn](https://github.com/nak2k/node-open-arn) | Open an ARN | JavaScript | 2 | [Dec 27, 2024](./stars/nak2k/node-open-arn.md) |
+| [nak2k/node-init-stage](https://github.com/nak2k/node-init-stage) | Run async functions in the init stage of AWS Lambda | TypeScript | 2 | [Dec 27, 2024](./stars/nak2k/node-init-stage.md) |
+| [nak2k/node-arn2url](https://github.com/nak2k/node-arn2url) | Convert ARNs to URLs | JavaScript | 1 | [Dec 27, 2024](./stars/nak2k/node-arn2url.md) |
+| [nak2k/node-api-gateway-util](https://github.com/nak2k/node-api-gateway-util) | Utility for API Gateway. | JavaScript | 1 | [Dec 27, 2024](./stars/nak2k/node-api-gateway-util.md) |
+| [nak2k/node-lambda-url-resolver](https://github.com/nak2k/node-lambda-url-resolver) | URL resolver for Lambda | TypeScript | 1 | [Dec 27, 2024](./stars/nak2k/node-lambda-url-resolver.md) |
+| [nak2k/node-lambda-env](https://github.com/nak2k/node-lambda-env) | Configure environment variables for AWS Lambda | JavaScript | 1 | [Dec 27, 2024](./stars/nak2k/node-lambda-env.md) |
+| [nak2k/node-npm-install-from-s3](https://github.com/nak2k/node-npm-install-from-s3) | Install packages from S3 | JavaScript | 2 | [Dec 27, 2024](./stars/nak2k/node-npm-install-from-s3.md) |
+| [nak2k/node-check-aws](https://github.com/nak2k/node-check-aws) |  | TypeScript | 1 | [Dec 27, 2024](./stars/nak2k/node-check-aws.md) |
+| [nak2k/node-lambda-spawn](https://github.com/nak2k/node-lambda-spawn) | Run lambda function as child process | TypeScript | 1 | [Dec 27, 2024](./stars/nak2k/node-lambda-spawn.md) |
+| [nak2k/node-lambda-toolbox](https://github.com/nak2k/node-lambda-toolbox) |  | TypeScript | 1 | [Dec 27, 2024](./stars/nak2k/node-lambda-toolbox.md) |
+| [ts2vtl/ts2vtl](https://github.com/ts2vtl/ts2vtl) | TypeScript to VTL Tags: #aws #typescript #vtl | TypeScript | 7 | [Dec 27, 2024](./stars/ts2vtl/ts2vtl.md) |
+| [primer/react](https://github.com/primer/react) | An implementation of GitHub's Primer Design System using React Tags: #component-library #design-system #primer #react | TypeScript | 3,426 | [Dec 26, 2024](./stars/primer/react.md) |
+| [awslabs/aws-solutions-constructs](https://github.com/awslabs/aws-solutions-constructs) | The AWS Solutions Constructs Library is an open-source extension of the AWS Cloud Development Kit (AWS CDK) that provid... Tags: #architectural-patterns #aws-cdk #constructs | TypeScript | 1,270 | [Dec 26, 2024](./stars/awslabs/aws-solutions-constructs.md) |
+| [directus/directus](https://github.com/directus/directus) | The flexible backend for all your projects 🐰 Turn your DB into a headless CMS, admin panels, or apps with a custom UI,... Tags: #api #app #cms #composable #data-visualization #database #directus #graphql #headless-cms #javascript #mariadb #mssql #mysql #no-code #node #postgresql #sql #sqlite #typescript #vue | TypeScript | 29,313 | [Dec 26, 2024](./stars/directus/directus.md) |
+| [keratin/authn-server](https://github.com/keratin/authn-server) | Authentication service that keeps you in control without forcing you to be an expert in web security. Tags: #api-service #authentication-backend #authn #jwt-authentication #service | Go | 1,279 | [Dec 26, 2024](./stars/keratin/authn-server.md) |
+| [udondan/iam-floyd](https://github.com/udondan/iam-floyd) | AWS IAM policy statement generator with fluent interface Tags: #aws #aws-cdk #cdk #generator #hacktoberfest #iam #iam-policy #jsii | TypeScript | 554 | [Dec 26, 2024](./stars/udondan/iam-floyd.md) |
+| [architect/dynalite](https://github.com/architect/dynalite) | An implementation of Amazon's DynamoDB built on LevelDB | JavaScript | 1,043 | [Dec 26, 2024](./stars/architect/dynalite.md) |
+| [balmbees/overwatch](https://github.com/balmbees/overwatch) | Overwatch our infrastructure | JavaScript | 3 | [Dec 26, 2024](./stars/balmbees/overwatch.md) |
+| [balmbees/corgi](https://github.com/balmbees/corgi) | AWS Lambda / API Gateway native, fast and simple web framework Tags: #api-gateway #aws-lambda #corgi #lambda #node #server #serverless #serverless-express #typescript | TypeScript | 52 | [Dec 26, 2024](./stars/balmbees/corgi.md) |
+| [benhutchins/dyngoose](https://github.com/benhutchins/dyngoose) | Elegant DynamoDB object modeling for Typescript. Tags: #aws-dynamodb #dynamodb #orm #serverless #typescript | TypeScript | 89 | [Dec 26, 2024](./stars/benhutchins/dyngoose.md) |
+| [EbookFoundation/free-programming-books](https://github.com/EbookFoundation/free-programming-books) | :books: Freely available programming books Tags: #books #education #hacktoberfest #list #resource | HTML | 351,150 | [Dec 26, 2024](./stars/EbookFoundation/free-programming-books.md) |
+| [theam/aws-lambda-benchmark](https://github.com/theam/aws-lambda-benchmark) | A project that contains AWS Lambda function implementations for several runtimes e.g. Nodejs, Haskell, Python, Go, Rust... |  | 65 | [Dec 26, 2024](./stars/theam/aws-lambda-benchmark.md) |
+| [wei/pull](https://github.com/wei/pull) | 🤖 Keep your forks up-to-date via automated PRs Tags: #fork #forks-insight #hacktoberfest #probot #probot-app #probot-apps #pull #repository-management #reviewer #reviewers #sync #trigger #upstream #upstreams | TypeScript | 6,443 | [Dec 26, 2024](./stars/wei/pull.md) |
+| [sensedeep/custom-metrics](https://github.com/sensedeep/custom-metrics) | CustomMetrics for AWS without the cost | TypeScript | 9 | [Dec 26, 2024](./stars/sensedeep/custom-metrics.md) |
+| [ericfortis/mockaton](https://github.com/ericfortis/mockaton) | HTTP Mock Sever Tags: #dx | JavaScript | 13 | [Dec 24, 2024](./stars/ericfortis/mockaton.md) |
+| [tus/tus-js-client](https://github.com/tus/tus-js-client) | A pure JavaScript client for the tus resumable upload protocol Tags: #browser #cordova #nodejs #reactnative #tus #web | JavaScript | 2,253 | [Dec 24, 2024](./stars/tus/tus-js-client.md) |
+| [faceteer/expression-builder](https://github.com/faceteer/expression-builder) | An expression builder for Dynamo DB | TypeScript | 1 | [Dec 24, 2024](./stars/faceteer/expression-builder.md) |
+| [IHIutch/draft-ui](https://github.com/IHIutch/draft-ui) | A collection of simply designed React components focused on making web accessibility as easy as copy & paste. | TypeScript | 353 | [Dec 23, 2024](./stars/IHIutch/draft-ui.md) |
+| [nocodb/nocodb](https://github.com/nocodb/nocodb) | 🔥 🔥 🔥 Open Source Airtable Alternative Tags: #admin-dashboard #admin-ui #airtable #airtable-alternative #automatic-api #hacktoberfest #low-code #mariadb #mysql #no-code #no-code-database #no-code-platform #postgresql #rest-api #restful-api #spreadsheet #sqlite #sqlserver #swagger | TypeScript | 52,307 | [Dec 21, 2024](./stars/nocodb/nocodb.md) |
+| [TanStack/table](https://github.com/TanStack/table) | 🤖 Headless UI for building powerful tables & datagrids for TS/JS - React-Table, Vue-Table, Solid-Table, Svelte-Table Tags: #datagrid #datagrids #datatable #filtering #grid #grouping #hooks #javascript #pagination #react #reactjs #solid #solidjs #sorting #svelte #sveltejs #table #typescript #vue | TypeScript | 25,872 | [Dec 21, 2024](./stars/TanStack/table.md) |
+| [woltapp/blurhash](https://github.com/woltapp/blurhash) | A very compact representation of a placeholder for an image. | C | 16,092 | [Dec 21, 2024](./stars/woltapp/blurhash.md) |
+| [pantharshit00/prisma-docs-generator](https://github.com/pantharshit00/prisma-docs-generator) | Prisma generator for automatically generating documentation reference from the Prisma schema. Tags: #code-generation #hacktoberfest #html #prisma #prisma-generator #prisma2 | TypeScript | 598 | [Dec 21, 2024](./stars/pantharshit00/prisma-docs-generator.md) |
+| [matiassingers/awesome-readme](https://github.com/matiassingers/awesome-readme) | A curated list of awesome READMEs Tags: #awesome #awesome-list #list #readme |  | 18,685 | [Dec 21, 2024](./stars/matiassingers/awesome-readme.md) |
+| [bennyschudel/JSManipulate](https://github.com/bennyschudel/JSManipulate) | Javascript image filters and effects | JavaScript | 254 | [Dec 21, 2024](./stars/bennyschudel/JSManipulate.md) |
+| [zuramai/starback.js](https://github.com/zuramai/starback.js) | Create a beautiful star falling background with starback.js Tags: #background #canvas #css-animations #hacktoberfest | TypeScript | 403 | [Dec 21, 2024](./stars/zuramai/starback.js.md) |
+| [authelia/authelia](https://github.com/authelia/authelia) | The Single Sign-On Multi-Factor portal for web apps Tags: #2fa #authentication #docker #golang #kubernetes #ldap #mfa #multifactor #oauth2 #openid-connect #push-notifications #security #sso #sso-authentication #totp #two-factor #two-factor-authentication #u2f #webauthn #yubikey | Go | 22,901 | [Dec 21, 2024](./stars/authelia/authelia.md) |
+| [react-grid-layout/react-resizable](https://github.com/react-grid-layout/react-resizable) | A simple React component that is resizable with a handle. | JavaScript | 2,469 | [Dec 21, 2024](./stars/react-grid-layout/react-resizable.md) |
+| [Vibrant-Colors/node-vibrant](https://github.com/Vibrant-Colors/node-vibrant) | 🎨 Extract prominent colors from an image Tags: #canvas #color #colour #detection #image #muted #picture #varation #vibrant | TypeScript | 2,155 | [Dec 21, 2024](./stars/Vibrant-Colors/node-vibrant.md) |
+| [im2nguyen/rover](https://github.com/im2nguyen/rover) | Interactive Terraform visualization. State and configuration explorer. Tags: #diagram #interactive-visualizations #terraform #visualization | Go | 3,091 | [Dec 21, 2024](./stars/im2nguyen/rover.md) |
+| [seeden/rbac](https://github.com/seeden/rbac) | Hierarchical Role Based Access Control for NodeJS Tags: #auth #authentication #authorization #javascript #permissions #rbac #role #role-based-access-control | JavaScript | 997 | [Dec 21, 2024](./stars/seeden/rbac.md) |
+| [gilbarbara/react-joyride](https://github.com/gilbarbara/react-joyride) | Create guided tours in your apps Tags: #joyride #react #react-component #tooltip #tour | TypeScript | 7,065 | [Dec 21, 2024](./stars/gilbarbara/react-joyride.md) |
+| [urql-graphql/urql](https://github.com/urql-graphql/urql) | The highly customizable and versatile GraphQL client with which you add on features like normalized caching as you grow. Tags: #complex-apps #exchange #graphql #graphql-client #graphql-clients | TypeScript | 8,736 | [Dec 21, 2024](./stars/urql-graphql/urql.md) |
+| [sendgrid/email-templates](https://github.com/sendgrid/email-templates) | A repository of common email templates to use and modify to your heart's content. | HTML | 834 | [Dec 21, 2024](./stars/sendgrid/email-templates.md) |
+| [ericclemmons/click-to-component](https://github.com/ericclemmons/click-to-component) | Option+Click React components in your browser to instantly open the source in VS Code | TypeScript | 2,066 | [Dec 21, 2024](./stars/ericclemmons/click-to-component.md) |
+| [Secretmapper/react-image-annotation](https://github.com/Secretmapper/react-image-annotation) | An infinitely customizable image annotation library built on React Tags: #annotation #annotation-tool #annotations #react | JavaScript | 332 | [Dec 21, 2024](./stars/Secretmapper/react-image-annotation.md) |
+| [typescript-cheatsheets/utilities](https://github.com/typescript-cheatsheets/utilities) | a list of typescript helper libraries |  | 774 | [Dec 21, 2024](./stars/typescript-cheatsheets/utilities.md) |
+| [cdk-patterns/serverless](https://github.com/cdk-patterns/serverless) | This is intended to be a repo containing all of the official AWS Serverless architecture patterns built with CDK for de... Tags: #appsync #aws #aws-cdk #cdk #cloudformation #dynamodb #eventbridge #graphql #lambda-destinations #lambda-functions #python #serverless #sns #sqs #stepfunctions #typescript | TypeScript | 2,306 | [Dec 21, 2024](./stars/cdk-patterns/serverless.md) |
+| [wojtekmaj/react-pdf](https://github.com/wojtekmaj/react-pdf) | Display PDFs in your React app as easily as if they were images. Tags: #pdf #pdf-viewer #react | TypeScript | 9,847 | [Dec 21, 2024](./stars/wojtekmaj/react-pdf.md) |
+| [terrastruct/d2](https://github.com/terrastruct/d2) | D2 is a modern diagram scripting language that turns text to diagrams. Tags: #developer-tools #diagramming #diagrams #go #golang #software-architecture #text-to-diagram | JavaScript | 19,896 | [Dec 21, 2024](./stars/terrastruct/d2.md) |
+| [gofireflyio/aiac](https://github.com/gofireflyio/aiac) | Artificial Intelligence Infrastructure-as-Code Generator. Tags: #ai #amazon-bedrock #chatgpt #iac #llms #ollama #openai #pulumi #terraform | Go | 3,610 | [Dec 21, 2024](./stars/gofireflyio/aiac.md) |
+| [mattpocock/ts-reset](https://github.com/mattpocock/ts-reset) | A 'CSS reset' for TypeScript, improving types for common JavaScript API's Tags: #reset #typescript | TypeScript | 8,011 | [Dec 21, 2024](./stars/mattpocock/ts-reset.md) |
+| [alampros/react-confetti](https://github.com/alampros/react-confetti) | Confetti without the cleanup. | TypeScript | 1,571 | [Dec 21, 2024](./stars/alampros/react-confetti.md) |
+| [keycloak/keycloak](https://github.com/keycloak/keycloak) | Open Source Identity and Access Management For Modern Applications and Services Tags: #keycloak #oidc #saml | Java | 25,542 | [Dec 21, 2024](./stars/keycloak/keycloak.md) |
+| [sindresorhus/cli-spinners](https://github.com/sindresorhus/cli-spinners) | Spinners for use in the terminal | JavaScript | 2,471 | [Dec 21, 2024](./stars/sindresorhus/cli-spinners.md) |
+| [Textualize/frogmouth](https://github.com/Textualize/frogmouth) | A Markdown browser for your terminal Tags: #markdown #markdown-viewer #python #terminal-based #textual #tui | Python | 2,673 | [Dec 21, 2024](./stars/Textualize/frogmouth.md) |
+| [aws-samples/image-optimization](https://github.com/aws-samples/image-optimization) | Simple, performant and cost efficient solution for optimizing images using Amazon CloudFront, Amazon S3 and AWS Lambda | TypeScript | 229 | [Dec 21, 2024](./stars/aws-samples/image-optimization.md) |
+| [sagidM/s3-resizer](https://github.com/sagidM/s3-resizer) | AWS Lambda for resizing images in S3 on fly. Tags: #amazon-s3 #aws-lambda #microservice | JavaScript | 228 | [Dec 21, 2024](./stars/sagidM/s3-resizer.md) |
+| [mdx-editor/editor](https://github.com/mdx-editor/editor) | A rich text editor React component for markdown Tags: #editor #lexical #markdown #markdown-editor #mdx #react #reactjs #rich-text-editor | TypeScript | 2,342 | [Dec 21, 2024](./stars/mdx-editor/editor.md) |
+| [Eliav2/react-xarrows](https://github.com/Eliav2/react-xarrows) | Draw arrows (or lines) between components in React! | TypeScript | 592 | [Dec 21, 2024](./stars/Eliav2/react-xarrows.md) |
+| [excalidraw/mermaid-to-excalidraw](https://github.com/excalidraw/mermaid-to-excalidraw) | Generate Excalidraw diagrams from Mermaid | TypeScript | 367 | [Dec 21, 2024](./stars/excalidraw/mermaid-to-excalidraw.md) |
+| [dorny/paths-filter](https://github.com/dorny/paths-filter) | Conditionally run actions based on files modified by PR, feature branch or pushed commits Tags: #change-detection #ci-cd #conditional-execution #github-actions | TypeScript | 2,379 | [Dec 21, 2024](./stars/dorny/paths-filter.md) |
+| [gitroomhq/postiz-app](https://github.com/gitroomhq/postiz-app) | 📨 The ultimate social media scheduling tool, with a bunch of AI 🤖 Tags: #nextjs #open-source #open-source-social-media-scheduling-tool #oss #redis #scheduling-tool #social-media-scheduling-tool #typescript | TypeScript | 18,228 | [Dec 21, 2024](./stars/gitroomhq/postiz-app.md) |
+| [BuilderIO/gpt-crawler](https://github.com/BuilderIO/gpt-crawler) | Crawl a site to generate knowledge files to create your own custom GPT from a URL Tags: #ai | TypeScript | 20,922 | [Dec 21, 2024](./stars/BuilderIO/gpt-crawler.md) |
+| [formbricks/formbricks](https://github.com/formbricks/formbricks) | Open Source Survey Platform Tags: #experience-management #form #forms #nextjs #open-source #react #reactjs #survey #survey-analysis #survey-data #survey-form #surveys #tailwindcss #turborepo #typeform #typescript #xm | TypeScript | 10,125 | [Dec 21, 2024](./stars/formbricks/formbricks.md) |
+| [paralleldrive/cuid2](https://github.com/paralleldrive/cuid2) | Next generation guids. Secure, collision-resistant ids optimized for horizontal scaling and performance. | JavaScript | 2,832 | [Dec 21, 2024](./stars/paralleldrive/cuid2.md) |
+| [anthonynsimon/timeflake](https://github.com/anthonynsimon/timeflake) | Timeflake is a 128-bit, roughly-ordered, URL-safe UUID. Tags: #python #uuid | Python | 812 | [Dec 21, 2024](./stars/anthonynsimon/timeflake.md) |
+| [johannschopplich/unlazy](https://github.com/johannschopplich/unlazy) | 🪧 Universal lazy loading library for placeholder images leveraging native browser APIs Tags: #blurhash #lazy-loading #lazyload #placeholder | TypeScript | 787 | [Dec 21, 2024](./stars/johannschopplich/unlazy.md) |
+| [m31coding/fuzzy-search](https://github.com/m31coding/fuzzy-search) | A fast, accurate and multilingual fuzzy search library for the frontend. Tags: #fuzzy #fuzzy-search #javascript #search #string-matching #typescript | TypeScript | 895 | [Dec 21, 2024](./stars/m31coding/fuzzy-search.md) |
+| [awslabs/llrt](https://github.com/awslabs/llrt) | LLRT (Low Latency Runtime) is an experimental, lightweight JavaScript runtime designed to address the growing demand fo... | JavaScript | 8,266 | [Dec 21, 2024](./stars/awslabs/llrt.md) |
+| [ferdikoomen/openapi-typescript-codegen](https://github.com/ferdikoomen/openapi-typescript-codegen) | NodeJS library that generates Typescript or Javascript clients based on the OpenAPI specification Tags: #angular #axios #codegen #generator #javascript #nodejs #openapi #swagger #typescript | TypeScript | 3,090 | [Dec 21, 2024](./stars/ferdikoomen/openapi-typescript-codegen.md) |
+| [praneshr/react-diff-viewer](https://github.com/praneshr/react-diff-viewer) | A simple and beautiful text diff viewer component made with Diff and React. Tags: #code-compare #diff #diff-viewer #reactjs | TypeScript | 1,503 | [Dec 21, 2024](./stars/praneshr/react-diff-viewer.md) |
+| [ueberdosis/awesome-tiptap](https://github.com/ueberdosis/awesome-tiptap) | ⚡ Delightful Tiptap packages and resources Tags: #awesome #prosemirror #tiptap |  | 490 | [Dec 21, 2024](./stars/ueberdosis/awesome-tiptap.md) |
+| [microsoft/Security-101](https://github.com/microsoft/Security-101) | 8 Lessons, Kick-start Your Cybersecurity Learning. Tags: #appsec #cia-triad #data-protection #data-security #iam #identity #risk-management #secops #security #threat-modeling #zero-trust | HTML | 4,811 | [Dec 21, 2024](./stars/microsoft/Security-101.md) |
+| [drawdb-io/drawdb](https://github.com/drawdb-io/drawdb) | Free, simple, and intuitive online database diagram editor and SQL generator. Tags: #database-schema #diagram-editor #editor #erd #erdiagram #hacktoberfest #indexeddb #javascript #mariadb #postgresql #react #sql #sql-server #sqlite #svg #tailwindcss | JavaScript | 24,388 | [Dec 21, 2024](./stars/drawdb-io/drawdb.md) |
+| [wevm/vocs](https://github.com/wevm/vocs) | Minimal Documentation Framework, powered by React + Vite. Tags: #docs #markdown #mdx #react #typescript #vite | TypeScript | 1,248 | [Dec 21, 2024](./stars/wevm/vocs.md) |
+| [supermemoryai/markdowner](https://github.com/supermemoryai/markdowner) | A fast tool to convert any website into LLM-ready markdown data. Built by https://supermemory.ai | TypeScript | 1,154 | [Dec 21, 2024](./stars/supermemoryai/markdowner.md) |
+| [aspen-cloud/triplit](https://github.com/aspen-cloud/triplit) | A full-stack, syncing database that runs on both server and client. Pluggable storage (indexeddb, sqlite, durable objec... Tags: #bun #cloudflare-workers #crdt #database #deno #durable-objects #firebase #firestore #fullstack #indexeddb #leveldb #multiplayer #nextjs #pwa #react #rxdb #sqlite #supabase #websockets | TypeScript | 2,571 | [Dec 21, 2024](./stars/aspen-cloud/triplit.md) |
+| [stack-auth/stack-auth](https://github.com/stack-auth/stack-auth) | Open-source Auth0/Clerk alternative Tags: #auth #auth0 #authentication #clerk #cognito #email-password #firebase-auth #keycloak #login #magic-link #nextjs #oauth #password #react #session-management #shadcn #signin #social-login #supabase-auth #typescript | TypeScript | 5,200 | [Dec 21, 2024](./stars/stack-auth/stack-auth.md) |
+| [better-auth/better-auth](https://github.com/better-auth/better-auth) | The most comprehensive authentication framework for TypeScript | TypeScript | 8,037 | [Dec 21, 2024](./stars/better-auth/better-auth.md) |
+| [teamhanko/hanko](https://github.com/teamhanko/hanko) | The Complete Authentication and User Management Solution for the Passkey Era. Open Source Alternative to Clerk, Auth0, ... Tags: #2fa #authentication #ciam #fido2 #jwt #oauth #passkeys #passwordless #saml #sign-in-with-apple #sign-in-with-google #sso #user-management #webauthn | Go | 7,690 | [Dec 21, 2024](./stars/teamhanko/hanko.md) |
+| [okeeffed/spike-autogen-postman-collections](https://github.com/okeeffed/spike-autogen-postman-collections) |  | TypeScript | 1 | [Dec 21, 2024](./stars/okeeffed/spike-autogen-postman-collections.md) |
+| [okeeffed/aws-dbg](https://github.com/okeeffed/aws-dbg) |  | JavaScript | 1 | [Dec 21, 2024](./stars/okeeffed/aws-dbg.md) |
+| [pmilliotte/dynamodb-toolbox-integrations](https://github.com/pmilliotte/dynamodb-toolbox-integrations) | A set of CDK constructs enabling the use of dynamodb-toolbox in AWS direct integrations between Step Functions and Dyna... | TypeScript | 4 | [Dec 21, 2024](./stars/pmilliotte/dynamodb-toolbox-integrations.md) |
+| [elthrasher/planetstack](https://github.com/elthrasher/planetstack) |  | TypeScript | 3 | [Dec 21, 2024](./stars/elthrasher/planetstack.md) |
+| [VicenteMerino/IGNScrapper](https://github.com/VicenteMerino/IGNScrapper) | IGN news site scrapper | JavaScript | 1 | [Dec 21, 2024](./stars/VicenteMerino/IGNScrapper.md) |
+| [webpack/enhanced-resolve](https://github.com/webpack/enhanced-resolve) | Offers an async require.resolve function. It's highly configurable. Tags: #commonjs #esm #javascript #resolve #resolver | JavaScript | 950 | [Dec 20, 2024](./stars/webpack/enhanced-resolve.md) |
+| [JoshuaKGoldberg/import-local-or-npx](https://github.com/JoshuaKGoldberg/import-local-or-npx) | Imports a local package or one installed from npx. 🚚 | TypeScript | 11 | [Dec 20, 2024](./stars/JoshuaKGoldberg/import-local-or-npx.md) |
+| [casbin/node-casbin](https://github.com/casbin/node-casbin) | An authorization library that supports access control models like ACL, RBAC, ABAC in Node.js and Browser Tags: #abac #access-control #acl #auth #authorization #authz #casbin #javascript #js #node #nodejs #permission #permissions #rbac | TypeScript | 2,679 | [Dec 19, 2024](./stars/casbin/node-casbin.md) |
+| [devneill/slidenote](https://github.com/devneill/slidenote) | A scroll driven popover for React. | TypeScript | 4 | [Dec 19, 2024](./stars/devneill/slidenote.md) |
+| [aws-samples/aws-waf-ops-dashboards](https://github.com/aws-samples/aws-waf-ops-dashboards) |  | Python | 55 | [Dec 17, 2024](./stars/aws-samples/aws-waf-ops-dashboards.md) |
+| [guardian/archivehunter](https://github.com/guardian/archivehunter) | Index and search for media stored in s3 buckets Tags: #multimedia-tech | Scala | 4 | [Dec 17, 2024](./stars/guardian/archivehunter.md) |
+| [CacheControl/json-rules-engine](https://github.com/CacheControl/json-rules-engine) | A rules engine expressed in JSON Tags: #business-rules #engine #json #rule-engine #rules #rules-engine #rules-processor | JavaScript | 2,733 | [Dec 11, 2024](./stars/CacheControl/json-rules-engine.md) |
+| [TanStack/query](https://github.com/TanStack/query) | 🤖 Powerful asynchronous state management, server-state utilities and data fetching for the web. TS/JS, React Query, So... Tags: #async #cache #data #fetch #graphql #hooks #query #react #rest #solid #stale #stale-while-revalidate #svelte #typescript #update #vue | TypeScript | 43,936 | [Dec 11, 2024](./stars/TanStack/query.md) |
+| [dev-cycles/contextive](https://github.com/dev-cycles/contextive) | Get on the same page. Tags: #ddd #domain-modelling #knowledge-management #ubiquitous-language | F# | 296 | [Dec 10, 2024](./stars/dev-cycles/contextive.md) |
+| [nkzw-tech/fbtee](https://github.com/nkzw-tech/fbtee) | The JavaScript & React Internationalization Framework. | TypeScript | 90 | [Dec 10, 2024](./stars/nkzw-tech/fbtee.md) |
+| [activeguild/vite-plugin-sass-dts](https://github.com/activeguild/vite-plugin-sass-dts) | This is a plugin that automatically creates a type file when using the CSS module type-safely. Tags: #css #cssmodules #plugin #react #sass #scss #vite | HTML | 124 | [Dec 10, 2024](./stars/activeguild/vite-plugin-sass-dts.md) |
+| [netlify/gh-release-fetch](https://github.com/netlify/gh-release-fetch) |  | TypeScript | 13 | [Dec 09, 2024](./stars/netlify/gh-release-fetch.md) |
+| [evestera/json_typegen](https://github.com/evestera/json_typegen) | Tools and libraries to create types for Rust, Kotlin, TypeScript and Python from JSON samples Tags: #code-generation #json #rust | Rust | 284 | [Dec 07, 2024](./stars/evestera/json_typegen.md) |
+| [dzlau/stripe-supabase-saas-template](https://github.com/dzlau/stripe-supabase-saas-template) |  | TypeScript | 65 | [Dec 07, 2024](./stars/dzlau/stripe-supabase-saas-template.md) |
+| [ran-isenberg/appsync-events-client](https://github.com/ran-isenberg/appsync-events-client) | AppSync Events frontend sample implementation | JavaScript | 10 | [Dec 06, 2024](./stars/ran-isenberg/appsync-events-client.md) |
+| [rogerchi/ddb-locking-read](https://github.com/rogerchi/ddb-locking-read) |  | TypeScript | 1 | [Dec 05, 2024](./stars/rogerchi/ddb-locking-read.md) |
+| [aidenybai/react-scan](https://github.com/aidenybai/react-scan) | Scan for React performance issues and eliminate slow renders in your app Tags: #javascript #react #react-dom #react-scan #rendering | TypeScript | 15,690 | [Dec 03, 2024](./stars/aidenybai/react-scan.md) |
+| [remorses/ai-fallback](https://github.com/remorses/ai-fallback) | Automatically switch AI SDK model provider when one of the providers has downtime | TypeScript | 51 | [Nov 29, 2024](./stars/remorses/ai-fallback.md) |
+| [build-on-aws/fullstack-appsync-events-4-in-a-row](https://github.com/build-on-aws/fullstack-appsync-events-4-in-a-row) | A fullstack real-time game where developers play four-in-a-row Tags: #amplify #aws #aws-cdk #game-development #nextjs #react #serverless #typescript #v0 | TypeScript | 3 | [Nov 27, 2024](./stars/build-on-aws/fullstack-appsync-events-4-in-a-row.md) |
+| [streamich/very-small-parser](https://github.com/streamich/very-small-parser) | Small, no dependencies, Markdown, HTML, and inline CSS parser. Just 4KB, available as ESM module from CDN. | TypeScript | 16 | [Nov 24, 2024](./stars/streamich/very-small-parser.md) |
+| [browserbase/stagehand](https://github.com/browserbase/stagehand) | An AI web browsing framework focused on simplicity and extensibility. Tags: #agents #ai #llms #playwright #puppeteer #selenium | TypeScript | 7,980 | [Nov 24, 2024](./stars/browserbase/stagehand.md) |
+| [adobe/jsonschema2md](https://github.com/adobe/jsonschema2md) | Convert Complex JSON Schemas into Markdown Documentation Tags: #json-schema #markdown | JavaScript | 650 | [Nov 21, 2024](./stars/adobe/jsonschema2md.md) |
+| [jonschlinkert/expand-json-schema](https://github.com/jonschlinkert/expand-json-schema) | Light weight JSON Schema $ref resolver. Expands a JSON Schema by resolving `$ref` references from a mapping of definiti... | TypeScript | 7 | [Nov 11, 2024](./stars/jonschlinkert/expand-json-schema.md) |
+| [alloc/json-qs](https://github.com/alloc/json-qs) | JSON in query strings, human-readable and compact Tags: #json #querystring #specification | TypeScript | 24 | [Oct 28, 2024](./stars/alloc/json-qs.md) |
+| [wesbos/tile-buddy](https://github.com/wesbos/tile-buddy) | a patterned background helper tool | TypeScript | 30 | [Oct 16, 2024](./stars/wesbos/tile-buddy.md) |
+| [muxinc/media-chrome](https://github.com/muxinc/media-chrome) | Custom elements (web components) for making audio and video player controls that look great in your website or app. Tags: #audio #audio-player #media-chrome #mux #ui-components #video #video-player #web-components | TypeScript | 2,049 | [Oct 11, 2024](./stars/muxinc/media-chrome.md) |
+| [xzdarcy/react-timeline-editor](https://github.com/xzdarcy/react-timeline-editor) | react-timeline-editor is a react component used to quickly build a timeline animation editor. Tags: #animation #editor #react | TypeScript | 432 | [Oct 09, 2024](./stars/xzdarcy/react-timeline-editor.md) |
+| [crabbly/Print.js](https://github.com/crabbly/Print.js) | A tiny javascript library to help printing from the web. | JavaScript | 4,420 | [Oct 09, 2024](./stars/crabbly/Print.js.md) |
+| [unadlib/mutative](https://github.com/unadlib/mutative) | Efficient immutable updates, 2-6x faster than naive handcrafted reducer, and more than 10x faster than Immer. Tags: #immer #immutability #immutable #mutable #mutation #mutative #react #reducer #redux #state-management | TypeScript | 1,680 | [Oct 09, 2024](./stars/unadlib/mutative.md) |
+| [andrico1234/the-dilemmas-youll-face](https://github.com/andrico1234/the-dilemmas-youll-face) | The Dilemmas You'll Face When Creating Your First Component Library |  | 150 | [Oct 09, 2024](./stars/andrico1234/the-dilemmas-youll-face.md) |
+| [Automattic/harper-obsidian-plugin](https://github.com/Automattic/harper-obsidian-plugin) |  | Just | 37 | [Oct 06, 2024](./stars/Automattic/harper-obsidian-plugin.md) |
+| [t3dotgg/quickpic](https://github.com/t3dotgg/quickpic) | Turn SVGs into high resolution PNGs in 2 clicks | TypeScript | 1,122 | [Oct 06, 2024](./stars/t3dotgg/quickpic.md) |
+| [bensenescu/sst-feature-flag](https://github.com/bensenescu/sst-feature-flag) | SST Feature Flag is a feature flagging service that you can deploy into your AWS account with only a few simple command... | TypeScript | 62 | [Oct 03, 2024](./stars/bensenescu/sst-feature-flag.md) |
+| [pwrdrvr/lambda-dispatch](https://github.com/pwrdrvr/lambda-dispatch) | Lambda Dispatch for AWS Lambda - Avoid cold starts, save up to 80%! Tags: #aws #aws-lambda #cold-start #csharp #dotnet #http2 #rust-lang | C# | 44 | [Oct 03, 2024](./stars/pwrdrvr/lambda-dispatch.md) |
+| [sam-goodwin/mini-workflow](https://github.com/sam-goodwin/mini-workflow) |  | TypeScript | 26 | [Oct 02, 2024](./stars/sam-goodwin/mini-workflow.md) |
+| [purple-technology/serverless-monitoring-plugin](https://github.com/purple-technology/serverless-monitoring-plugin) | Plugin for Serverless Framework which generates dashboards for different resources | JavaScript | 2 | [Sep 30, 2024](./stars/purple-technology/serverless-monitoring-plugin.md) |
+| [mingrammer/diagrams](https://github.com/mingrammer/diagrams) | :art: Diagram as Code for prototyping cloud system architectures Tags: #architecture #diagram #diagram-as-code #graphviz | Python | 40,335 | [Sep 28, 2024](./stars/mingrammer/diagrams.md) |
+| [inngest/workflow-kit](https://github.com/inngest/workflow-kit) | The quickest and easiest way to add a Zapier-like workflow UI experience to your product. Define actions in your backen... Tags: #durable-functions #durable-workflows #react #typescript #workflow-engine | TypeScript | 133 | [Sep 25, 2024](./stars/inngest/workflow-kit.md) |
+| [trufflesecurity/trufflehog](https://github.com/trufflesecurity/trufflehog) | Find, verify, and analyze leaked credentials Tags: #credentials #devsecops #dynamic-analysis #hacktoberfest #precommit #scanning #secret #secret-management #secrets #security #security-tools #trufflehog #verification | Go | 18,224 | [Sep 23, 2024](./stars/trufflesecurity/trufflehog.md) |
+| [tux86/lambda-function-url-custom-domain](https://github.com/tux86/lambda-function-url-custom-domain) | Configuring a Custom domain for AWS Lambda Function URL without an API Gateway Tags: #cloudfront #custom-domain #lambda #route53 #serverless #serverless-framework | JavaScript | 7 | [Sep 23, 2024](./stars/tux86/lambda-function-url-custom-domain.md) |
+| [RaisinTen/breqd](https://github.com/RaisinTen/breqd) | Builtin module REQuire Durations Tags: #nodejs #performance #require | JavaScript | 8 | [Sep 21, 2024](./stars/RaisinTen/breqd.md) |
+| [bloomberg/ts-blank-space](https://github.com/bloomberg/ts-blank-space) | A small, fast, pure JavaScript type-stripper that uses the official TypeScript parser. Tags: #javascript #type-stripping #typescript | TypeScript | 681 | [Sep 19, 2024](./stars/bloomberg/ts-blank-space.md) |
+| [onanmco/virtual-assistant](https://github.com/onanmco/virtual-assistant) |  | TypeScript | 1 | [Sep 18, 2024](./stars/onanmco/virtual-assistant.md) |
+| [onanmco/url-shortener](https://github.com/onanmco/url-shortener) | A CDK application creates a URL shortener service on AWS cloud. | TypeScript | 2 | [Sep 18, 2024](./stars/onanmco/url-shortener.md) |
+| [WebReflection/re](https://github.com/WebReflection/re) | A template literal tag that sanitizes interpolations. | JavaScript | 12 | [Sep 18, 2024](./stars/WebReflection/re.md) |
+| [onanmco/protected-s3-static-website](https://github.com/onanmco/protected-s3-static-website) | CDK app deploys an S3 bucket in which you can store your static website, fronted by a CloudFront distribution implement... | TypeScript | 3 | [Sep 17, 2024](./stars/onanmco/protected-s3-static-website.md) |
+| [shamilasallay/aws-cross-account-userpool-migration](https://github.com/shamilasallay/aws-cross-account-userpool-migration) |  | JavaScript | 1 | [Sep 17, 2024](./stars/shamilasallay/aws-cross-account-userpool-migration.md) |
+| [loginov-rocks/WebSocket-API-Gateway-IAM-Signer](https://github.com/loginov-rocks/WebSocket-API-Gateway-IAM-Signer) | WebSocket API Gateway IAM Signer | JavaScript | 4 | [Sep 17, 2024](./stars/loginov-rocks/WebSocket-API-Gateway-IAM-Signer.md) |
+| [loginov-rocks/WebSocket-API-Gateway-Cognito-Authorizer](https://github.com/loginov-rocks/WebSocket-API-Gateway-Cognito-Authorizer) | WebSocket API Gateway Cognito Authorizer | JavaScript | 3 | [Sep 17, 2024](./stars/loginov-rocks/WebSocket-API-Gateway-Cognito-Authorizer.md) |
+| [aladevlearning/chatgpt-polly](https://github.com/aladevlearning/chatgpt-polly) |  | JavaScript | 7 | [Sep 17, 2024](./stars/aladevlearning/chatgpt-polly.md) |
+| [XaaXaaX/aws-cognito-impersonation](https://github.com/XaaXaaX/aws-cognito-impersonation) |  | TypeScript | 3 | [Sep 17, 2024](./stars/XaaXaaX/aws-cognito-impersonation.md) |
+| [Collaborne/tasks-scheduler](https://github.com/Collaborne/tasks-scheduler) | A time-based scheduler for tasks | TypeScript | 1 | [Sep 17, 2024](./stars/Collaborne/tasks-scheduler.md) |
+| [Collaborne/mwc-markdown-editor](https://github.com/Collaborne/mwc-markdown-editor) | A markdown editor following Material Design spec | TypeScript | 30 | [Sep 17, 2024](./stars/Collaborne/mwc-markdown-editor.md) |
+| [Collaborne/y-serverless](https://github.com/Collaborne/y-serverless) | Serverless Provider using Websockets and DynamoDB for YJS | JavaScript | 1 | [Sep 17, 2024](./stars/Collaborne/y-serverless.md) |
+| [Collaborne/query-to-open-search](https://github.com/Collaborne/query-to-open-search) | Translates query strings into OpenSearch queries | TypeScript | 1 | [Sep 17, 2024](./stars/Collaborne/query-to-open-search.md) |
+| [Collaborne/migrate-cognito-user-pool-lambda](https://github.com/Collaborne/migrate-cognito-user-pool-lambda) |  | TypeScript | 72 | [Sep 17, 2024](./stars/Collaborne/migrate-cognito-user-pool-lambda.md) |
+| [kamranahmedse/local-ses](https://github.com/kamranahmedse/local-ses) | Trap and test AWS SES emails locally | TypeScript | 157 | [Sep 16, 2024](./stars/kamranahmedse/local-ses.md) |
+| [tschoffelen/pick-a-file](https://github.com/tschoffelen/pick-a-file) | JS helper to ask the user to pick a file. | JavaScript | 1 | [Sep 16, 2024](./stars/tschoffelen/pick-a-file.md) |
+| [tschoffelen/is-iso-date-string](https://github.com/tschoffelen/is-iso-date-string) | Checks if a string is a valid ISO 8601 date string. | JavaScript | 1 | [Sep 16, 2024](./stars/tschoffelen/is-iso-date-string.md) |
+| [includable/trace-stack](https://github.com/includable/trace-stack) | Self-hosted serverless tracing. | TypeScript | 4 | [Sep 16, 2024](./stars/includable/trace-stack.md) |
+| [tschoffelen/serverless-starter](https://github.com/tschoffelen/serverless-starter) | Starter boilerplate for a serverless API. Tags: #aws-lambda #nodejs #serverless | JavaScript | 3 | [Sep 16, 2024](./stars/tschoffelen/serverless-starter.md) |
+| [Oriyomi12/otp-bot](https://github.com/Oriyomi12/otp-bot) |  | JavaScript | 312 | [Sep 16, 2024](./stars/Oriyomi12/otp-bot.md) |
+| [WebReflection/console-strings](https://github.com/WebReflection/console-strings) | String utilities that understand terminal escape sequences. | JavaScript | 24 | [Sep 16, 2024](./stars/WebReflection/console-strings.md) |
+| [paulmillr/chokidar](https://github.com/paulmillr/chokidar) | Minimal and efficient cross-platform file watching library Tags: #chokidar #filesystem #fsevents #nodejs #watch-files #watcher | TypeScript | 11,235 | [Sep 13, 2024](./stars/paulmillr/chokidar.md) |
+| [skierkowski/serverless-safeguards-plugin](https://github.com/skierkowski/serverless-safeguards-plugin) |  | JavaScript | 1 | [Sep 11, 2024](./stars/skierkowski/serverless-safeguards-plugin.md) |
+| [simdjson/simdjson](https://github.com/simdjson/simdjson) | Parsing gigabytes of JSON per second : used by Facebook/Meta Velox, the Node.js runtime, ClickHouse, WatermelonDB, Apac... Tags: #aarch64 #arm #arm64 #avx2 #avx512 #c-plus-plus #clang #clang-cl #cpp11 #gcc-compiler #json #json-parser #json-pointer #loongarch #neon #simd #sse42 #vs2019 #x64 | C++ | 19,795 | [Sep 11, 2024](./stars/simdjson/simdjson.md) |
+| [theajack/disable-devtool](https://github.com/theajack/disable-devtool) | Disable web developer tools from the f12 button, right-click and browser menu Tags: #disable-devtool | TypeScript | 2,363 | [Sep 10, 2024](./stars/theajack/disable-devtool.md) |
+| [aws-samples/lambda-with-multithreading](https://github.com/aws-samples/lambda-with-multithreading) |  | JavaScript | 3 | [Sep 09, 2024](./stars/aws-samples/lambda-with-multithreading.md) |
+| [wesbos/bg-remover](https://github.com/wesbos/bg-remover) | 100% client side background remover | TypeScript | 259 | [Sep 08, 2024](./stars/wesbos/bg-remover.md) |
+| [chroxify/haptic](https://github.com/chroxify/haptic) | A new local-first, privacy-focused and open-source home for your markdown notes | Svelte | 1,128 | [Sep 05, 2024](./stars/chroxify/haptic.md) |
+| [lukeed/empathic](https://github.com/lukeed/empathic) | A set of small Node.js utilities to understand your pathing needs. | TypeScript | 252 | [Sep 03, 2024](./stars/lukeed/empathic.md) |
+| [jiawei397/deno_yaml_to_ts](https://github.com/jiawei397/deno_yaml_to_ts) | yaml to typescript interface | TypeScript | 1 | [Aug 31, 2024](./stars/jiawei397/deno_yaml_to_ts.md) |
+| [MariusAlch/json-to-ts](https://github.com/MariusAlch/json-to-ts) | Convert jsons to typescript interfaces | TypeScript | 422 | [Aug 31, 2024](./stars/MariusAlch/json-to-ts.md) |
+| [jiawei397/json_to_ts_web](https://github.com/jiawei397/json_to_ts_web) | JSON to TypeScript | TypeScript | 2 | [Aug 31, 2024](./stars/jiawei397/json_to_ts_web.md) |
+| [jiawei397/yaml_to_ts_web](https://github.com/jiawei397/yaml_to_ts_web) | yaml to TS web | TypeScript | 6 | [Aug 31, 2024](./stars/jiawei397/yaml_to_ts_web.md) |
+| [formsmd/formsmd](https://github.com/formsmd/formsmd) | Developer-first, open source Typeform alternative (formerly known as Blocks.md) Tags: #form #form-builder #forms #google-sheets #typeform #typeform-clone | JavaScript | 345 | [Aug 31, 2024](./stars/formsmd/formsmd.md) |
+| [fullcalendar/fullcalendar](https://github.com/fullcalendar/fullcalendar) | Full-sized drag & drop event calendar in JavaScript Tags: #calendar #event #full-sized | TypeScript | 18,994 | [Aug 31, 2024](./stars/fullcalendar/fullcalendar.md) |
+| [sdennett55/svg_crop](https://github.com/sdennett55/svg_crop) | Remove blank space from around any SVG instantly. Tags: #svg #svgo | JavaScript | 36 | [Aug 31, 2024](./stars/sdennett55/svg_crop.md) |
+| [raineorshine/npm-check-updates](https://github.com/raineorshine/npm-check-updates) | Find newer versions of package dependencies than what your package.json allows Tags: #npm #npm-check-updates | TypeScript | 9,639 | [Aug 31, 2024](./stars/raineorshine/npm-check-updates.md) |
+| [Sparticuz/chromium](https://github.com/Sparticuz/chromium) | Chromium (x86-64) for Serverless Platforms Tags: #chromium #hacktoberfest #serverless | TypeScript | 1,148 | [Aug 31, 2024](./stars/Sparticuz/chromium.md) |
+| [taiga-family/maskito](https://github.com/taiga-family/maskito) | Collection of libraries to create an input mask which ensures that user types value according to predefined format. Tags: #angular #hacktoberfest #input-formatting #input-mask #inputmask #mask #text-mask #typescript | TypeScript | 1,496 | [Aug 31, 2024](./stars/taiga-family/maskito.md) |
+| [ekalinin/github-markdown-toc](https://github.com/ekalinin/github-markdown-toc) | Easy TOC creation for GitHub README.md Tags: #github #markdown #shell #table-of-contents #toc | Shell | 3,251 | [Aug 30, 2024](./stars/ekalinin/github-markdown-toc.md) |
+| [BourAbdelhadi/awsviz](https://github.com/BourAbdelhadi/awsviz) |  | JavaScript | 69 | [Aug 30, 2024](./stars/BourAbdelhadi/awsviz.md) |
+| [antfu/oniguruma-to-js](https://github.com/antfu/oniguruma-to-js) | Covert Oniguruma-flavor Regexp to JavaScript native RegExp. | TypeScript | 61 | [Aug 30, 2024](./stars/antfu/oniguruma-to-js.md) |
+| [zirkelc/aws-signature-v4](https://github.com/zirkelc/aws-signature-v4) | AWS SignatureV4 libraries | TypeScript | 35 | [Aug 29, 2024](./stars/zirkelc/aws-signature-v4.md) |
+| [francismeynard/lambda-multipart-parser](https://github.com/francismeynard/lambda-multipart-parser) | This nodejs module will parse the multipart-form containing files and fields from the AWS lambda event object. It works... Tags: #api #api-gateway #aws #binary-file #form-data #lambda #multi-part #nodejs #s3 #text-files #upload | JavaScript | 74 | [Aug 29, 2024](./stars/francismeynard/lambda-multipart-parser.md) |
+| [guillaumeduboc/free-static-ip](https://github.com/guillaumeduboc/free-static-ip) |  | TypeScript | 4 | [Aug 29, 2024](./stars/guillaumeduboc/free-static-ip.md) |
+| [guiyom-e/auto-update-ip-aws](https://github.com/guiyom-e/auto-update-ip-aws) | CDK stack and scripts to make a free dynDNS with AWS Route 53 and serverless resources Tags: #aws #cdk-construct #dns #dyndns #nas #route53 | TypeScript | 2 | [Aug 29, 2024](./stars/guiyom-e/auto-update-ip-aws.md) |
+| [dbartholomae/lambda-middleware](https://github.com/dbartholomae/lambda-middleware) | A collection of middleware for AWS lambda functions. Tags: #aws #hacktoberfest #lambda #lambda-middleware #middleware | TypeScript | 153 | [Aug 29, 2024](./stars/dbartholomae/lambda-middleware.md) |
+| [maxday/lambda-perf](https://github.com/maxday/lambda-perf) | Lambda Cold Starts analysis, updated daily | Rust | 528 | [Aug 29, 2024](./stars/maxday/lambda-perf.md) |
+| [shellscape/jsx-email](https://github.com/shellscape/jsx-email) | Build emails with a delightful DX | TypeScript | 1,130 | [Aug 29, 2024](./stars/shellscape/jsx-email.md) |
+| [revant-io/cdk-cost-limit](https://github.com/revant-io/cdk-cost-limit) | A Collection of CDK Constructs to Deploy Cost-Aware Self-Limiting Resources Tags: #aws #budget #cdk #cost #finops | TypeScript | 433 | [Aug 29, 2024](./stars/revant-io/cdk-cost-limit.md) |
+| [PChol22/sls-natgateway](https://github.com/PChol22/sls-natgateway) | A "free" serverless alternative to AWS NAT Gateways. Still WIP ⚙️, help welcome! Tags: #aws #cdk #free #nat-gateway #serverless #typescript | JavaScript | 5 | [Aug 29, 2024](./stars/PChol22/sls-natgateway.md) |
+| [ThomasAribart/sls-relative-paths](https://github.com/ThomasAribart/sls-relative-paths) | Allow defining Serverless Framework functions handlers paths relatively | TypeScript | 2 | [Aug 29, 2024](./stars/ThomasAribart/sls-relative-paths.md) |
+| [gvergnaud/hotscript](https://github.com/gvergnaud/hotscript) | A library of composable functions for the type-level! Transform your TypeScript types in any way you want using functio... Tags: #type-level-programming #typescript | TypeScript | 3,567 | [Aug 29, 2024](./stars/gvergnaud/hotscript.md) |
 <!-- end-doc-gen -->
 
 ## About this repo

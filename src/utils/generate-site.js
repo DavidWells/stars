@@ -1,8 +1,29 @@
 import fs from 'fs-extra'
 import path from 'path'
-import { getSavedJSONFileData, getSavedMdFileData } from './fs.js'
-import { createStarTable } from './generate-readme.js'
-import { getMarkdownDir, SITE_DIRECTORY } from '../_constants.js'
+import { build } from 'vite'
+import { getSavedMdFileData } from './fs.js'
+import { getMarkdownDir, ROOT_DIRECTORY, SITE_DIRECTORY } from '../_constants.js'
+
+function normalizeStarData(star) {
+  return {
+    repo: star.repo,
+    url: star.url,
+    homepage: star.homepage,
+    starredAt: star.starredAt,
+    createdAt: star.createdAt,
+    updatedAt: star.updatedAt,
+    language: star.language,
+    license: star.license,
+    branch: star.branch,
+    stars: star.stars,
+    isPublic: star.isPublic,
+    isTemplate: star.isTemplate,
+    isArchived: star.isArchived,
+    isFork: star.isFork,
+    description: star.description,
+    tags: Array.isArray(star.tags) ? star.tags : [],
+  }
+}
 
 async function generateStaticSite(username) {
   const markdownDir = getMarkdownDir(username)
@@ -13,7 +34,7 @@ async function generateStaticSite(username) {
     })
     console.log('getAllStars', allStars.length)
 
-    let sortedByStarredDate = allStars
+    const sortedByStarredDate = allStars
       .sort((a, b) => new Date(b.starredAt).getTime() - new Date(a.starredAt).getTime())
       .map((repo) => {
         return {
@@ -21,14 +42,29 @@ async function generateStaticSite(username) {
           isPrivate: repo.hasOwnProperty('isPublic') ? !repo.isPublic : false,
         }
       })
+      .filter((repo) => !repo.isPrivate)
+      .map(normalizeStarData)
 
-    // Generate the table HTML
-    const tableHtml = createStarTable(sortedByStarredDate, false, 130)
-    
-    /* Make site directory if it doesn't exist */
-    await fs.ensureDir(SITE_DIRECTORY)
-    // Save the table HTML
-    await fs.writeFile(path.join(SITE_DIRECTORY, 'stars-data.html'), tableHtml)
+    const publicDir = path.join(ROOT_DIRECTORY, 'app', 'public')
+    await fs.ensureDir(publicDir)
+    await fs.writeJson(
+      path.join(publicDir, 'stars.json'),
+      {
+        generatedAt: new Date().toISOString(),
+        total: sortedByStarredDate.length,
+        stars: sortedByStarredDate,
+      },
+      { spaces: 2 }
+    )
+
+    await build({
+      configFile: path.join(ROOT_DIRECTORY, 'vite.config.js'),
+    })
+
+    await fs.copy(markdownDir, path.join(SITE_DIRECTORY, 'stars'), {
+      filter: (src) => path.basename(src) !== '.DS_Store',
+    })
+    await fs.writeFile(path.join(SITE_DIRECTORY, '.nojekyll'), '')
 
     console.log('✨ Static site content generated successfully!')
     console.log(`📊 Total stars processed: ${sortedByStarredDate.length}`)
