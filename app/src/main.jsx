@@ -27,6 +27,14 @@ function normalize(value) {
   return String(value || '').toLowerCase()
 }
 
+function escapeMarkdownCell(value) {
+  return String(value || '')
+    .replace(/\r?\n/g, ' ')
+    .replace(/\s+/g, ' ')
+    .replace(/\|/g, '\\|')
+    .trim()
+}
+
 function getSearchText(star) {
   return [
     star.repo,
@@ -63,6 +71,41 @@ function compareStars(a, b, sort) {
   return normalize(a.repo).localeCompare(normalize(b.repo))
 }
 
+function createMarkdownTable(stars) {
+  let markdown = '| Repo | Description | Language | Stars | Starred On |\n'
+  markdown += '| --- | --- | --- | ---: | --- |\n'
+
+  stars.forEach((star) => {
+    const repo = `[${escapeMarkdownCell(star.repo)}](${star.url || `https://github.com/${star.repo}`})`
+    const tags = star.tags?.length ? ` Tags: ${star.tags.map((tag) => `#${tag}`).join(' ')}` : ''
+    const description = escapeMarkdownCell(`${star.description || ''}${tags}`)
+    const language = escapeMarkdownCell(star.language || '')
+    const starsCount = Number(star.stars || 0).toLocaleString('en-US')
+    const starredOn = `[${formatDate(star.starredAt)}](./stars/${star.repo}.md)`
+
+    markdown += `| ${repo} | ${description} | ${language} | ${starsCount} | ${starredOn} |\n`
+  })
+
+  return markdown
+}
+
+async function copyTextToClipboard(text) {
+  if (navigator.clipboard?.writeText) {
+    await navigator.clipboard.writeText(text)
+    return
+  }
+
+  const textArea = document.createElement('textarea')
+  textArea.value = text
+  textArea.setAttribute('readonly', '')
+  textArea.style.position = 'fixed'
+  textArea.style.left = '-9999px'
+  document.body.appendChild(textArea)
+  textArea.select()
+  document.execCommand('copy')
+  document.body.removeChild(textArea)
+}
+
 function SortButton({ column, sort, onSort }) {
   const active = sort.key === column.key
   const direction = active ? sort.direction : null
@@ -87,6 +130,7 @@ function App() {
   const [error, setError] = useState('')
   const [query, setQuery] = useState('')
   const [sort, setSort] = useState(DEFAULT_SORT)
+  const [copyState, setCopyState] = useState('idle')
 
   useEffect(() => {
     let cancelled = false
@@ -120,6 +164,28 @@ function App() {
     }
   }, [])
 
+  useEffect(() => {
+    function handleKeyDown(event) {
+      if (event.key === 'Escape' && query) {
+        setQuery('')
+        setCopyState('idle')
+      }
+    }
+
+    window.addEventListener('keydown', handleKeyDown)
+
+    return () => {
+      window.removeEventListener('keydown', handleKeyDown)
+    }
+  }, [query])
+
+  useEffect(() => {
+    if (copyState !== 'copied') return undefined
+
+    const timeout = window.setTimeout(() => setCopyState('idle'), 1600)
+    return () => window.clearTimeout(timeout)
+  }, [copyState])
+
   const filteredStars = useMemo(() => {
     const terms = normalize(query).split(/\s+/).filter(Boolean)
 
@@ -146,10 +212,19 @@ function App() {
     })
   }
 
+  async function handleCopyResults() {
+    try {
+      await copyTextToClipboard(createMarkdownTable(filteredStars))
+      setCopyState('copied')
+    } catch (err) {
+      setCopyState('failed')
+    }
+  }
+
   return (
     <main className="page-shell">
       <header className="page-header">
-        <h1>David's GitHub Stars</h1>
+        <h1>David's {loading ? '...' : stars.length.toLocaleString()} GitHub Stars</h1>
         <nav className="header-links" aria-label="Page links">
           <a href="https://github.com/DavidWells/stars">View on GitHub</a>
           <a href="./README.md">Markdown index</a>
@@ -157,9 +232,14 @@ function App() {
       </header>
 
       <section className="toolbar" aria-label="Star filters">
-        <label className="search-label" htmlFor="star-search">
-          Search
-        </label>
+        <div className="toolbar-header">
+          <label className="search-label" htmlFor="star-search">
+            Search
+          </label>
+          <div className="stats-line">
+            {loading ? 'Loading stars...' : `${filteredStars.length.toLocaleString()} of ${stars.length.toLocaleString()} stars`}
+          </div>
+        </div>
         <div className="search-row">
           <input
             id="star-search"
@@ -168,14 +248,14 @@ function App() {
             placeholder="Filter by repo, language, description, tags, date..."
             type="search"
           />
+          <button className="copy-button" type="button" onClick={handleCopyResults} disabled={loading || Boolean(error)}>
+            {copyState === 'copied' ? 'Copied' : copyState === 'failed' ? 'Copy failed' : 'Copy Results to MD'}
+          </button>
           {query ? (
             <button className="clear-button" type="button" onClick={() => setQuery('')}>
               Clear
             </button>
           ) : null}
-        </div>
-        <div className="stats-line">
-          {loading ? 'Loading stars...' : `${filteredStars.length.toLocaleString()} of ${stars.length.toLocaleString()} stars`}
         </div>
       </section>
 
