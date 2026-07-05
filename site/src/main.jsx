@@ -25,6 +25,12 @@ function formatDate(value) {
   return dateFormatter.format(new Date(value))
 }
 
+function formatHomepageLabel(value) {
+  return String(value || '')
+    .replace(/^https?:\/\/(www\.)?/i, '')
+    .replace(/\/+$/g, '')
+}
+
 function normalize(value) {
   return String(value || '').toLowerCase()
 }
@@ -417,11 +423,11 @@ function App() {
                   </td>
                   <td className="description-cell">
                     {highlightText(star.description || '', queryTerms)}
-                    {star.homepage ? (
-                      <a className="homepage-link" href={star.homepage} target="_blank" rel="noreferrer">
-                        {highlightText(star.homepage, queryTerms)}
-                      </a>
-                    ) : null}
+	                    {star.homepage ? (
+	                      <a className="homepage-link" href={star.homepage} target="_blank" rel="noreferrer">
+	                        {highlightText(formatHomepageLabel(star.homepage), queryTerms)}
+	                      </a>
+	                    ) : null}
                     {star.tags?.length ? <span className="tags">{highlightText(star.tags.map((tag) => `#${tag}`).join(' '), queryTerms)}</span> : null}
                   </td>
                   <td className="language-cell" data-label="Language">
