@@ -29,6 +29,56 @@ function normalize(value) {
   return String(value || '').toLowerCase()
 }
 
+function getSearchTerms(value) {
+  const terms = normalize(value).split(/\s+/).filter(Boolean)
+  return [...new Set(terms)].sort((a, b) => b.length - a.length)
+}
+
+function highlightText(value, terms) {
+  const text = String(value || '')
+  if (!text || !terms.length) return text
+
+  const lowerText = text.toLowerCase()
+  const ranges = []
+
+  terms.forEach((term) => {
+    let index = lowerText.indexOf(term)
+
+    while (index !== -1) {
+      const nextRange = { start: index, end: index + term.length }
+      const overlaps = ranges.some((range) => nextRange.start < range.end && nextRange.end > range.start)
+
+      if (!overlaps) {
+        ranges.push(nextRange)
+      }
+
+      index = lowerText.indexOf(term, nextRange.end)
+    }
+  })
+
+  if (!ranges.length) return text
+
+  ranges.sort((a, b) => a.start - b.start)
+
+  const parts = []
+  let cursor = 0
+
+  ranges.forEach((range, index) => {
+    if (range.start > cursor) {
+      parts.push(text.slice(cursor, range.start))
+    }
+
+    parts.push(<mark key={`${range.start}-${range.end}-${index}`}>{text.slice(range.start, range.end)}</mark>)
+    cursor = range.end
+  })
+
+  if (cursor < text.length) {
+    parts.push(text.slice(cursor))
+  }
+
+  return parts
+}
+
 function escapeMarkdownCell(value) {
   return String(value || '')
     .replace(/\r?\n/g, ' ')
@@ -228,17 +278,17 @@ function App() {
     return () => window.clearTimeout(timeout)
   }, [copyState])
 
-  const filteredStars = useMemo(() => {
-    const terms = normalize(query).split(/\s+/).filter(Boolean)
+  const queryTerms = useMemo(() => getSearchTerms(query), [query])
 
+  const filteredStars = useMemo(() => {
     return stars
       .filter((star) => {
-        if (!terms.length) return true
+        if (!queryTerms.length) return true
         const searchText = normalize(getSearchText(star))
-        return terms.every((term) => searchText.includes(term))
+        return queryTerms.every((term) => searchText.includes(term))
       })
       .sort((a, b) => compareStars(a, b, sort))
-  }, [stars, query, sort])
+  }, [stars, queryTerms, sort])
 
   function handleSort(key) {
     setSort((current) => {
@@ -331,21 +381,21 @@ function App() {
                 <tr key={star.repo}>
                   <td className="repo-cell">
                     <a href={star.url} target="_blank" rel="noreferrer">
-                      {star.repo}
+                      {highlightText(star.repo, queryTerms)}
                     </a>
                     <span className="repo-meta">
-                      {star.createdAt ? `Created ${formatDate(star.createdAt)}` : ''}
-                      {star.isArchived ? ' Archived' : ''}
+                      {star.createdAt ? highlightText(`Created ${formatDate(star.createdAt)}`, queryTerms) : ''}
+                      {star.isArchived ? highlightText(' Archived', queryTerms) : ''}
                     </span>
                   </td>
                   <td className="description-cell">
-                    {star.description || ''}
-                    {star.tags?.length ? <span className="tags">{star.tags.map((tag) => `#${tag}`).join(' ')}</span> : null}
+                    {highlightText(star.description || '', queryTerms)}
+                    {star.tags?.length ? <span className="tags">{highlightText(star.tags.map((tag) => `#${tag}`).join(' '), queryTerms)}</span> : null}
                   </td>
-                  <td>{star.language || ''}</td>
-                  <td className="numeric-cell">{Number(star.stars || 0).toLocaleString()}</td>
+                  <td>{highlightText(star.language || '', queryTerms)}</td>
+                  <td className="numeric-cell">{highlightText(Number(star.stars || 0).toLocaleString(), queryTerms)}</td>
                   <td className="date-cell">
-                    <a href={`${import.meta.env.BASE_URL}stars/${star.repo}.md`}>{formatDate(star.starredAt)}</a>
+                    <a href={`${import.meta.env.BASE_URL}stars/${star.repo}.md`}>{highlightText(formatDate(star.starredAt), queryTerms)}</a>
                   </td>
                 </tr>
               ))}

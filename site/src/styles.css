@@ -47,6 +47,13 @@ a:hover {
   text-decoration: underline;
 }
 
+mark {
+  padding: 0 2px;
+  border-radius: 3px;
+  background: #fff08a;
+  color: #24292f;
+}
+
 .page-shell {
   width: min(1480px, calc(100% - 32px));
   margin: 0 auto;
