@@ -1,4 +1,4 @@
-import React, { useEffect, useMemo, useRef, useState } from 'react'
+import React, { useCallback, useEffect, useMemo, useRef, useState } from 'react'
 import { createRoot } from 'react-dom/client'
 import './styles.css'
 
@@ -201,6 +201,19 @@ function App() {
   const [sort, setSort] = useState(DEFAULT_SORT)
   const [copyState, setCopyState] = useState('idle')
 
+  const scrollToPageTop = useCallback(() => {
+    window.requestAnimationFrame(() => {
+      window.scrollTo({ top: 0, left: 0, behavior: 'smooth' })
+    })
+  }, [])
+
+  const clearSearch = useCallback(() => {
+    setInputValue('')
+    setQuery('')
+    setCopyState('idle')
+    scrollToPageTop()
+  }, [scrollToPageTop])
+
   useEffect(() => {
     let cancelled = false
 
@@ -270,9 +283,7 @@ function App() {
   useEffect(() => {
     function handleKeyDown(event) {
       if (event.key === 'Escape' && (inputValue || query)) {
-        setInputValue('')
-        setQuery('')
-        setCopyState('idle')
+        clearSearch()
       }
     }
 
@@ -281,7 +292,7 @@ function App() {
     return () => {
       window.removeEventListener('keydown', handleKeyDown)
     }
-  }, [inputValue, query])
+  }, [clearSearch, inputValue, query])
 
   useEffect(() => {
     if (copyState !== 'copied') return undefined
@@ -370,8 +381,12 @@ function App() {
             id="star-search"
             value={inputValue}
             onChange={(event) => {
-              setInputValue(event.target.value)
+              const nextValue = event.target.value
+              setInputValue(nextValue)
               setCopyState('idle')
+              if (!nextValue && inputValue) {
+                scrollToPageTop()
+              }
             }}
             placeholder="Filter by repo, language, description, tags, date..."
             type="search"
@@ -383,11 +398,7 @@ function App() {
             <button
               className="clear-button"
               type="button"
-              onClick={() => {
-                setInputValue('')
-                setQuery('')
-                setCopyState('idle')
-              }}
+              onClick={clearSearch}
             >
               Clear
             </button>
