@@ -143,8 +143,9 @@ button {
 
 table {
   width: 100%;
-  min-width: 900px;
+  min-width: 980px;
   border-collapse: collapse;
+  table-layout: fixed;
 }
 
 th,
@@ -153,6 +154,7 @@ td {
   border-bottom: 1px solid var(--border);
   vertical-align: top;
   text-align: left;
+  overflow-wrap: anywhere;
 }
 
 th {
@@ -190,7 +192,6 @@ tr:last-child td {
 }
 
 .repo-cell {
-  width: 28%;
   font-weight: 700;
 }
 
@@ -204,12 +205,37 @@ tr:last-child td {
 }
 
 .description-cell {
-  width: 44%;
+  overflow-wrap: anywhere;
 }
 
 .numeric-cell,
 .date-cell {
   white-space: nowrap;
+}
+
+th:nth-child(1),
+td:nth-child(1) {
+  width: 25%;
+}
+
+th:nth-child(2),
+td:nth-child(2) {
+  width: 41%;
+}
+
+th:nth-child(3),
+td:nth-child(3) {
+  width: 12%;
+}
+
+th:nth-child(4),
+td:nth-child(4) {
+  width: 8%;
+}
+
+th:nth-child(5),
+td:nth-child(5) {
+  width: 14%;
 }
 
 .status-message {

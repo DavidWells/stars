@@ -8,12 +8,14 @@ const dateFormatter = new Intl.DateTimeFormat('en-US', {
   year: 'numeric',
 })
 
+const DEFAULT_SORT = { key: 'starredAt', direction: 'desc' }
+
 const columns = [
-  { key: 'repo', label: 'Repo' },
-  { key: 'description', label: 'Description' },
-  { key: 'language', label: 'Language' },
-  { key: 'stars', label: 'Stars' },
-  { key: 'starredAt', label: 'Starred On' },
+  { key: 'repo', label: 'Repo', defaultDirection: 'asc' },
+  { key: 'description', label: 'Description', defaultDirection: 'asc' },
+  { key: 'language', label: 'Language', defaultDirection: 'asc' },
+  { key: 'stars', label: 'Stars', defaultDirection: 'desc' },
+  { key: 'starredAt', label: 'Starred On', defaultDirection: 'desc' },
 ]
 
 function formatDate(value) {
@@ -84,7 +86,7 @@ function App() {
   const [loading, setLoading] = useState(true)
   const [error, setError] = useState('')
   const [query, setQuery] = useState('')
-  const [sort, setSort] = useState({ key: 'starredAt', direction: 'desc' })
+  const [sort, setSort] = useState(DEFAULT_SORT)
 
   useEffect(() => {
     let cancelled = false
@@ -133,7 +135,8 @@ function App() {
   function handleSort(key) {
     setSort((current) => {
       if (current.key !== key) {
-        return { key, direction: key === 'repo' || key === 'description' || key === 'language' ? 'asc' : 'desc' }
+        const column = columns.find((item) => item.key === key)
+        return { key, direction: column?.defaultDirection || 'asc' }
       }
 
       return {
