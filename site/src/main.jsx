@@ -175,12 +175,12 @@ function SortButton({ column, sort, onSort }) {
       onClick={() => onSort(column.key)}
       aria-label={`Sort by ${label}`}
     >
+      <span>{column.label}</span>
       {active ? (
         <span className="sort-indicator" aria-hidden="true">
           {arrow}
         </span>
       ) : null}
-      <span>{column.label}</span>
     </button>
   )
 }
