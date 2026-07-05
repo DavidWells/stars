@@ -144,7 +144,7 @@ function App() {
 
     async function loadStars() {
       try {
-        const response = await fetch('./stars.json')
+        const response = await fetch(`${import.meta.env.BASE_URL}stars.json`)
         if (!response.ok) {
           throw new Error(`Unable to load stars.json (${response.status})`)
         }
@@ -269,7 +269,7 @@ function App() {
         <h1>David's {loading ? '...' : stars.length.toLocaleString()} GitHub Stars</h1>
         <nav className="header-links" aria-label="Page links">
           <a href="https://github.com/DavidWells/stars">View on GitHub</a>
-          <a href="./README.md">Markdown index</a>
+          <a href={`${import.meta.env.BASE_URL}README.md`}>Markdown index</a>
         </nav>
       </header>
 
@@ -345,7 +345,7 @@ function App() {
                   <td>{star.language || ''}</td>
                   <td className="numeric-cell">{Number(star.stars || 0).toLocaleString()}</td>
                   <td className="date-cell">
-                    <a href={`./stars/${star.repo}.md`}>{formatDate(star.starredAt)}</a>
+                    <a href={`${import.meta.env.BASE_URL}stars/${star.repo}.md`}>{formatDate(star.starredAt)}</a>
                   </td>
                 </tr>
               ))}
