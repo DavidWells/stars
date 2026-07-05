@@ -1,4 +1,4 @@
-import React, { useEffect, useMemo, useState } from 'react'
+import React, { useEffect, useMemo, useRef, useState } from 'react'
 import { createRoot } from 'react-dom/client'
 import './styles.css'
 
@@ -186,6 +186,7 @@ function SortButton({ column, sort, onSort }) {
 }
 
 function App() {
+  const toolbarRef = useRef(null)
   const [stars, setStars] = useState([])
   const [loading, setLoading] = useState(true)
   const [error, setError] = useState('')
@@ -283,6 +284,27 @@ function App() {
     return () => window.clearTimeout(timeout)
   }, [copyState])
 
+  useEffect(() => {
+    if (!toolbarRef.current) return undefined
+
+    function updateToolbarHeight() {
+      if (!toolbarRef.current) return
+      document.documentElement.style.setProperty('--sticky-toolbar-height', `${toolbarRef.current.offsetHeight}px`)
+    }
+
+    updateToolbarHeight()
+
+    const resizeObserver = new ResizeObserver(updateToolbarHeight)
+    resizeObserver.observe(toolbarRef.current)
+    window.addEventListener('resize', updateToolbarHeight)
+
+    return () => {
+      resizeObserver.disconnect()
+      window.removeEventListener('resize', updateToolbarHeight)
+      document.documentElement.style.removeProperty('--sticky-toolbar-height')
+    }
+  }, [])
+
   const queryTerms = useMemo(() => getSearchTerms(query), [query])
 
   const filteredStars = useMemo(() => {
@@ -328,7 +350,7 @@ function App() {
         </nav>
       </header>
 
-      <section className="toolbar" aria-label="Star filters">
+      <section ref={toolbarRef} className="toolbar" aria-label="Star filters">
         <div className="toolbar-header">
           <label className="search-label" htmlFor="star-search">
             Search

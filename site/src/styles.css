@@ -82,6 +82,9 @@ h1 {
 }
 
 .toolbar {
+  position: sticky;
+  top: 0;
+  z-index: 5;
   display: grid;
   grid-template-columns: minmax(0, 1fr);
   gap: 8px 16px;
@@ -163,7 +166,7 @@ button {
 }
 
 .table-wrap {
-  overflow: auto;
+  overflow: visible;
   background: var(--surface);
   border: 1px solid var(--border);
   border-radius: 8px;
@@ -172,7 +175,7 @@ button {
 
 table {
   width: 100%;
-  min-width: 980px;
+  min-width: 0;
   border-collapse: collapse;
   table-layout: fixed;
 }
@@ -188,8 +191,8 @@ td {
 
 th {
   position: sticky;
-  top: 0;
-  z-index: 1;
+  top: var(--sticky-toolbar-height, 0px);
+  z-index: 4;
   background: var(--surface-subtle);
 }
 
@@ -279,7 +282,7 @@ td:nth-child(5) {
   .page-shell {
     width: 100%;
     padding: 18px 12px 36px;
-    overflow: hidden;
+    overflow: visible;
   }
 
   h1 {
@@ -302,6 +305,7 @@ td:nth-child(5) {
     align-items: center;
     flex-direction: row;
     gap: 10px;
+    font-size: 10px;
   }
 
   .toolbar {
@@ -323,17 +327,21 @@ td:nth-child(5) {
 
   .copy-button,
   .clear-button {
-    height: 40px;
+    height: 28px;
     min-width: 0;
     padding: 0 10px;
-    font-size: 14px;
+    font-size: 12px;
   }
 
   .stats-line {
     min-width: 0;
-    font-size: 12px;
+    font-size: 10px;
     text-align: right;
     white-space: normal;
+  }
+
+  .search-label {
+    font-size: 10px;
   }
 
   .table-wrap {
