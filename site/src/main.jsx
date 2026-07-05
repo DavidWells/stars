@@ -392,9 +392,13 @@ function App() {
                     {highlightText(star.description || '', queryTerms)}
                     {star.tags?.length ? <span className="tags">{highlightText(star.tags.map((tag) => `#${tag}`).join(' '), queryTerms)}</span> : null}
                   </td>
-                  <td>{highlightText(star.language || '', queryTerms)}</td>
-                  <td className="numeric-cell">{highlightText(Number(star.stars || 0).toLocaleString(), queryTerms)}</td>
-                  <td className="date-cell">
+                  <td className="language-cell" data-label="Language">
+                    {highlightText(star.language || '', queryTerms)}
+                  </td>
+                  <td className="numeric-cell" data-label="Stars">
+                    {highlightText(Number(star.stars || 0).toLocaleString(), queryTerms)}
+                  </td>
+                  <td className="date-cell" data-label="Starred">
                     <a href={`${import.meta.env.BASE_URL}stars/${star.repo}.md`}>{highlightText(formatDate(star.starredAt), queryTerms)}</a>
                   </td>
                 </tr>

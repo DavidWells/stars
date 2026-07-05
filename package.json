@@ -9,7 +9,9 @@
     "build": "node src/run.js",
     "deploy": "node scripts/deploy.js",
     "gen": "node scripts/readme.js",
+    "site:data": "node scripts/site-data.js DavidWells",
     "site:dev": "vite --config vite.config.js",
+    "site:local": "pnpm site:data && vite --config vite.config.js --host 127.0.0.1",
     "site:build": "vite build --config vite.config.js",
     "site:preview": "vite preview --config vite.config.js",
     "serve": "serve .site-build"
