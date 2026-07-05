@@ -88,7 +88,7 @@ h1 {
   display: grid;
   grid-template-columns: minmax(0, 1fr);
   gap: 8px 16px;
-  margin-bottom: 18px;
+  margin-bottom: 0;
   padding: 16px;
   background: var(--surface);
   border: 1px solid var(--border);
@@ -191,7 +191,7 @@ td {
 
 th {
   position: sticky;
-  top: var(--sticky-toolbar-height, 0px);
+  top: calc(var(--sticky-toolbar-height, 1px) - 1px);
   z-index: 4;
   background: var(--surface-subtle);
 }
