@@ -32,6 +32,26 @@ const { INITIAL_SEED } = process.env
 
 const DELAY_PER_PAGE = 2000
 
+function getReposMissingReadmes(existingStarMdData) {
+  return existingStarMdData
+    .filter((obj) => {
+      const frontmatter = obj.frontmatter
+      // TODO check refreshedAt timestamp
+      return !frontmatter.hasOwnProperty(README_FRONTMATTER_KEY)
+    })
+    .filter((obj) => {
+      const hasFrontmatter = Object.keys(obj.frontmatter).length > 0
+      if (!hasFrontmatter && !obj.path.endsWith('_index.md')) {
+        console.warn(`Missing frontmatter on ${obj.path}`)
+      }
+      return hasFrontmatter
+    })
+    .map((obj) => {
+      console.log('obj', obj)
+      return obj.frontmatter
+    }) // .slice(0, 10)
+}
+
 async function getAllStars({
   username,
   pageStart = 1,
@@ -211,37 +231,6 @@ export async function collect({
     await delay(delayMs)
   }
 
-  /* We have all the Markdown files, so instead refresh the readmes */
-  if ((existingStarMdData.length >= totalStars)) {
-    const readMesWeNeed = existingStarMdData
-      .filter((obj) => {
-        const frontmatter = obj.frontmatter
-        // TODO check refreshedAt timestamp
-        return !frontmatter.hasOwnProperty(README_FRONTMATTER_KEY)
-      })
-      .filter((obj) => {
-        const hasFrontmatter = Object.keys(obj.frontmatter).length > 0
-        if (!hasFrontmatter && !obj.path.endsWith('_index.md')) {
-          console.warn(`Missing frontmatter on ${obj.path}`)
-        }
-        return hasFrontmatter
-      })
-      .map((obj) => {
-        console.log('obj', obj)
-        return obj.frontmatter
-      }) // .slice(0, 10)
-
-    if (readMesWeNeed.length > 0) {
-      console.log('Refreshing readmes for', readMesWeNeed.length, 'repos')
-      console.log('readMesWeNeed', readMesWeNeed.map(({ repo }) => repo.full_name))
-      const paths = await getReadMeData(readMesWeNeed, FORCE_README_REFRESH, MD_DIR)
-      console.log('readmes refreshed', paths.length)
-    }
-    console.log('No new stars found. exiting...')
-    return
-  }
-  
-
   const existingStarDataFilePaths = existingStarMdData
     .filter(({ frontmatter }) => {
       // TODO check refreshedAt timestamp
@@ -267,6 +256,19 @@ export async function collect({
   console.log('rateLimitState', githubStarData.rateLimitState)
   console.log('via', githubStarData.via)
 
+  if (!githubStarData.newRepos.length && !FORCE_REPO_DATA_REFRESH) {
+    const readMesWeNeed = getReposMissingReadmes(existingStarMdData)
+
+    if (readMesWeNeed.length > 0) {
+      console.log('Refreshing readmes for', readMesWeNeed.length, 'repos')
+      console.log('readMesWeNeed', readMesWeNeed.map(({ repo }) => repo.full_name || repo))
+      const paths = await getReadMeData(readMesWeNeed, FORCE_README_REFRESH, MD_DIR)
+      console.log('readmes refreshed', paths.length)
+    }
+    console.log('No new stars found. exiting...')
+    return
+  }
+
   const state = {
     lastRun: new Date().toISOString(),
     run: {
@@ -285,7 +287,7 @@ export async function collect({
   console.log('state', state)
 
   // Save lastPage and initialPage to file state.json file
-  await saveState(state, cacheDir)
+  await saveState(state, cacheDir, username)
 
   /* Process all repos found and save to JSON */
   const processFilesPromise = githubStarData.newRepos.map(async (repo) => {
