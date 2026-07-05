@@ -1,0 +1,98 @@
+---
+repo: konstaui/konsta
+url: 'https://github.com/konstaui/konsta'
+homepage: 'https://konstaui.com'
+starredAt: '2021-05-02T01:16:52Z'
+createdAt: '2021-01-18T19:52:48Z'
+updatedAt: '2025-02-25T16:04:49Z'
+language: JavaScript
+license: MIT
+branch: master
+stars: 3618
+isPublic: true
+isTemplate: false
+isArchived: false
+isFork: false
+hasReadMe: true
+refreshedAt: '2025-02-25T21:17:44.663Z'
+description: Mobile UI components made with Tailwind CSS
+tags:
+  - android
+  - ios
+  - material-design
+  - mobile
+  - react
+  - svelte
+  - tailwindcss
+  - ui-components
+  - vue
+---
+
+![Konsta UI](https://konstaui.com/images/share-banner.png)
+
+# Konsta UI
+
+Konsta UI - Pixel perfect mobile UI components built with Tailwind CSS with iOS and Material Design components for React, Vue & Svelte
+
+## Sponsors
+
+<!-- SPONSORS_TABLE_WRAP -->
+<table>
+  <tr>
+    <td align="center" valign="middle">
+      <a href="https://www.noneedtostudy.com/take-my-online-class/" target="_blank">
+        <img src="https://konstaui.com/images/sponsors/noneedtostudy.png" alt="Pay someone to do online class? NoNeedToStudy.com" width="160">
+      </a>
+    </td>
+    <td align="center" valign="middle">
+      <a href="https://www.casinoutanlicens.io/" target="_blank">
+        <img src="https://konstaui.com/images/sponsors/casinoutanlicens.png" alt="Casino utan svensk licens" width="160">
+      </a>
+    </td>
+    <td align="center" valign="middle">
+      <a href="https://casinoscrypto.com" target="_blank">
+        <img src="https://konstaui.com/images/sponsors/casinoscrypto.png" alt="Best Crypto Casinos | Top Bitcoin Gambling Sites (2022)" width="160">
+      </a>
+    </td>
+    <td align="center" valign="middle">
+      <a href="https://cryptocurrencycodes.com" target="_blank">
+        <img src="https://konstaui.com/images/sponsors/cryptocurrencycodes.png" alt="Top FREE Crypto Sign Up Bonuses & Referral Codes" width="160">
+      </a>
+    </td>
+    <td align="center" valign="middle"></td>
+    <td align="center" valign="middle"></td>
+    <td align="center" valign="middle"></td>
+    <td align="center" valign="middle"></td>
+  </tr>
+</table>
+<!-- SPONSORS_TABLE_WRAP -->
+
+## Documentation
+
+Documentation available at https://konstaui.com
+
+## Konsta UI Development
+
+First, install all dependencies:
+
+```
+$ npm install
+```
+
+### Production Builds
+
+To build production versions the following npm scripts are available:
+
+- `build` - build production version
+
+Compiled results will be available in `package/` folder.
+
+## Kitchen Sink
+
+To run Kitchen Sink with development environment (development version will be built first) use the following npm scripts:
+
+- `react` - build development version of Konsta UI React package and run React Kitchen Sink
+
+## Contributing
+
+All changes should be committed to `src/` files only. Before you open an issue please review the [contributing guideline](https://github.com/konstaui/konsta/blob/master/CONTRIBUTING.md).

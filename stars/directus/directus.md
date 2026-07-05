@@ -1,0 +1,118 @@
+---
+repo: directus/directus
+url: 'https://github.com/directus/directus'
+homepage: 'https://directus.io'
+starredAt: '2024-12-27T06:42:49Z'
+createdAt: '2012-12-12T01:35:36Z'
+updatedAt: '2025-02-25T18:53:51Z'
+language: TypeScript
+license: NOASSERTION
+branch: main
+stars: 29313
+isPublic: true
+isTemplate: false
+isArchived: false
+isFork: false
+hasReadMe: true
+refreshedAt: '2025-02-25T19:53:36.533Z'
+description: "The flexible backend for all your projects \U0001F430 Turn your DB into a headless CMS, admin panels, or apps with a custom UI, instant APIs, auth & more."
+tags:
+  - api
+  - app
+  - cms
+  - composable
+  - data-visualization
+  - database
+  - directus
+  - graphql
+  - headless-cms
+  - javascript
+  - mariadb
+  - mssql
+  - mysql
+  - no-code
+  - node
+  - postgresql
+  - sql
+  - sqlite
+  - typescript
+  - vue
+---
+
+<p align="center"><img alt="Directus Logo" src="https://user-images.githubusercontent.com/522079/158864859-0fbeae62-9d7a-4619-b35e-f8fa5f68e0c8.png"></p>
+
+---
+
+## 🐰 Introduction
+
+Directus is a real-time API and App dashboard for managing SQL database content.
+
+- **REST & GraphQL API.** Instantly layers a blazingly fast Node.js API on top of any SQL database.
+- **Manage Pure SQL.** Works with new or existing SQL databases, no migration required.
+- **Choose your Database.** Supports PostgreSQL, MySQL, SQLite, OracleDB, CockroachDB, MariaDB, and MS-SQL.
+- **On-Prem or Cloud.** Run locally, install on-premises, or use our
+  [self-service Cloud service](https://directus.io/pricing).
+- **Completely Extensible.** Built to white-label, it is easy to customize our modular platform.
+- **A Modern Dashboard.** Our no-code Vue.js app is safe and intuitive for non-technical users, no training required.
+
+**[Learn more about Directus](https://directus.io)** • **[Documentation](https://docs.directus.io)**
+
+<br />
+
+## 🚀 Directus Cloud
+
+[Directus Cloud](https://directus.io/pricing) allows you to create projects, hosted by the Directus team, from
+$15/month.
+
+- A self-service dashboard to create and monitor all your projects in one place.
+- Everything you need: Directus, database, storage, auto-scaling, and a global CDN.
+- Select your desired region and provision a new project in ~90 seconds.
+
+**[Create a Directus Cloud Project](https://directus.cloud)**
+
+<br />
+
+## 🤔 Community Help
+
+[The Directus Documentation](https://docs.directus.io) is a great place to start, or explore these other channels:
+
+- [Discord](https://directus.chat) (Questions, Live Discussions)
+- [GitHub Issues](https://github.com/directus/directus/issues) (Report Bugs)
+- [GitHub Discussions](https://github.com/directus/directus/discussions) (Feature Requests)
+- [Twitter](https://twitter.com/directus) (Latest News)
+- [YouTube](https://www.youtube.com/c/DirectusVideos/featured) (Video Tutorials)
+
+<br />
+
+## ❤️ Contributing & Sponsoring
+
+Please read our [Contributing Guide](./contributing.md) before submitting Pull Requests.
+
+All security vulnerabilities should be reported in accordance with our
+[Security Policy](https://docs.directus.io/contributing/introduction/#reporting-security-vulnerabilities).
+
+Directus is made possible with support from our passionate core team, talented contributors, and
+amazing [GitHub Sponsors](https://github.com/sponsors/directus). Thank you all!
+
+<br />
+
+## 📄 Understanding Our License
+
+Directus is licensed under [the Business Source License (BSL) 1.1](./license) with a permissive additional use grant. For most users, it operates just like open source! Here's what that means for you:
+
+### Free for Most Users
+
+If your organization has less than $5M in annual revenue and/or funding combined, you can use Directus freely in any way you'd like. Build that side project, launch your startup, or experiment with the platform — no strings attached.
+
+### Enterprise Usage
+
+For larger organizations (>$5M in annual revenue/funding) using Directus in production, we require a commercial license. This model helps us maintain a sustainable balance: keeping Directus free for the majority of our community while ensuring larger organizations who benefit from the platform contribute to its continued development.
+
+### Why This Approach?
+
+We believe in making powerful data tools accessible to everyone. This license lets us:
+
+- Keep Directus free for individuals, startups, and smaller companies
+- Maintain active development and strong support
+- Continue improving the platform for everyone
+- Stay sustainable as an independent project

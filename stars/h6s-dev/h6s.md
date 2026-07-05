@@ -1,0 +1,77 @@
+---
+repo: h6s-dev/h6s
+url: 'https://github.com/h6s-dev/h6s'
+homepage: 'https://h6s.dev'
+starredAt: '2021-09-27T21:06:09Z'
+createdAt: '2020-12-27T07:27:53Z'
+updatedAt: '2025-01-07T08:08:18Z'
+language: TypeScript
+license: MIT
+branch: main
+stars: 283
+isPublic: true
+isTemplate: false
+isArchived: false
+isFork: false
+hasReadMe: true
+refreshedAt: '2025-02-25T20:37:44.625Z'
+description: Serve headless component development kit for React production apps
+tags:
+  - calendar
+  - cdk
+  - headless
+  - react
+  - react-calendar
+---
+
+<img width="200" src="./assets/logo.png" alt="" />
+
+# [h6s.dev](https://h6s.dev/)
+
+Serve headless component development kit for React production apps
+
+## Contributors ✨
+
+<!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
+[![All Contributors](https://img.shields.io/badge/all_contributors-8-orange.svg?style=flat-square)](#contributors-)
+<!-- ALL-CONTRIBUTORS-BADGE:END -->
+
+Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
+
+<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
+<!-- prettier-ignore-start -->
+<!-- markdownlint-disable -->
+<table>
+  <tbody>
+    <tr>
+      <td align="center" valign="top" width="14.28%"><a href="https://so-so.dev"><img src="https://avatars0.githubusercontent.com/u/18658235?v=4?s=100" width="100px;" alt="soso"/><br /><sub><b>soso</b></sub></a><br /><a href="#infra-SoYoung210" title="Infrastructure (Hosting, Build-Tools, etc)">🚇</a> <a href="#maintenance-SoYoung210" title="Maintenance">🚧</a> <a href="https://github.com/h6s-dev/h6s/issues?q=author%3ASoYoung210" title="Bug reports">🐛</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/JunHyeokHa"><img src="https://avatars.githubusercontent.com/u/59739164?v=4?s=100" width="100px;" alt="Sirl"/><br /><sub><b>Sirl</b></sub></a><br /><a href="https://github.com/h6s-dev/h6s/issues?q=author%3AJunHyeokHa" title="Bug reports">🐛</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/bugtype"><img src="https://avatars.githubusercontent.com/u/24269591?v=4?s=100" width="100px;" alt="Bugtype(Jerry)"/><br /><sub><b>Bugtype(Jerry)</b></sub></a><br /><a href="#maintenance-bugtype" title="Maintenance">🚧</a> <a href="https://github.com/h6s-dev/h6s/commits?author=bugtype" title="Code">💻</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://velog.io/@bigsaigon333"><img src="https://avatars.githubusercontent.com/u/31029000?v=4?s=100" width="100px;" alt="Danny Kim"/><br /><sub><b>Danny Kim</b></sub></a><br /><a href="#maintenance-bigsaigon333" title="Maintenance">🚧</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="http://gladys.codes"><img src="https://avatars.githubusercontent.com/u/40550185?v=4?s=100" width="100px;" alt="Gladys Álvarez"/><br /><sub><b>Gladys Álvarez</b></sub></a><br /><a href="https://github.com/h6s-dev/h6s/commits?author=gladyscodes" title="Documentation">📖</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://techoi.github.io"><img src="https://avatars.githubusercontent.com/u/47510626?v=4?s=100" width="100px;" alt="Jeemin Choi"/><br /><sub><b>Jeemin Choi</b></sub></a><br /><a href="https://github.com/h6s-dev/h6s/issues?q=author%3Atechoi" title="Bug reports">🐛</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="http://bit.ly/jonghyeon"><img src="https://avatars.githubusercontent.com/u/61593290?v=4?s=100" width="100px;" alt="Jonghyeon"/><br /><sub><b>Jonghyeon</b></sub></a><br /><a href="https://github.com/h6s-dev/h6s/commits?author=manudeli" title="Documentation">📖</a></td>
+    </tr>
+    <tr>
+      <td align="center" valign="top" width="14.28%"><a href="https://www.jaehun.dev"><img src="https://avatars.githubusercontent.com/u/50726813?v=4?s=100" width="100px;" alt="Bang, Jaehun"/><br /><sub><b>Bang, Jaehun</b></sub></a><br /><a href="#maintenance-jaehunn" title="Maintenance">🚧</a></td>
+    </tr>
+  </tbody>
+</table>
+
+<!-- markdownlint-restore -->
+<!-- prettier-ignore-end -->
+
+<!-- ALL-CONTRIBUTORS-LIST:END -->
+
+This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. Contributions of any kind welcome!
+
+## Show your support
+
+Give a ⭐️ if this project helped you!
+
+<div align="center">
+  <sub>
+    <sup>Managed by <a href="https://github.com/JaeYeopHan">@Jbee</a></sup>
+  </sub>
+  <small>✌</small>
+</div>

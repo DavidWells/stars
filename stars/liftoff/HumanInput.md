@@ -1,0 +1,1417 @@
+---
+repo: liftoff/HumanInput
+url: 'https://github.com/liftoff/HumanInput'
+homepage: ''
+starredAt: '2020-01-13T01:22:31Z'
+createdAt: '2016-06-11T13:15:44Z'
+updatedAt: '2024-12-22T11:49:45Z'
+language: JavaScript
+license: Apache-2.0
+branch: master
+stars: 584
+isPublic: true
+isTemplate: false
+isArchived: false
+isFork: false
+hasReadMe: true
+refreshedAt: '2025-02-25T21:19:08.848Z'
+description: >-
+  A JavaScript library for handling keyboard shortcuts and other human-generated
+  events
+tags: []
+---
+
+HumanInput - Human-Generated Event Handling for Humans
+======================================================
+
+HumanInput is a tiny (~8.1kb gzipped), high-performance ECMAScript (JavaScript) library for handling keyboard shortcuts and other human-generated events:
+
+.. code-block:: javascript
+
+    // Create a new instance with the element you want to watch for events
+    var HI = new HumanInput(window);
+    HI.on('ctrl-s', (event) => { HI.log.info('Keyboard events!') });
+    HI.on('click:.someclass', (event) => { HI.log.info("Mouse events!") });
+    HI.on('ctrl-a n', () => { HI.log.info("Sequences!") });
+    HI.on('⌘-ç', (event) => {
+        HI.log.info('Works with non-US keyboard layouts (and ⌘⌥⇧)!')});
+    HI.on('paste', (event, data) => {
+        HI.log.info('Clipboard and more! User pasted:', data)});
+    HI.on('speech"This is a test"', (event, transcript) => {
+        HI.log.info('Speech recognition!')});
+    HI.on('gpad:button:4:down', (event, buttonVal, gamepadObj) => {
+        HI.log.info('Gamepad support!')});
+    HI.on('applause', () => {
+        HI.log.info('<bows> No seriously: It has clap detection!')});
+
+:Author: `Dan McDougall <https://www.patreon.com/user?u=2775221>`_
+
+:Contribute: `Provide Financial Assistance to HumanInput <https://www.patreon.com/user?u=2775221>`_
+
+.. contents::
+    :backlinks: none
+
+A Cloud-High Overview
+---------------------
+
+The above is but a tiny fraction of what's possible with HumanInput.  The library has support for:
+
+* Keyboard events (including key location/state/event specificity and non-US keyboard layouts!):
+
+  .. code-block:: javascript
+
+      HI.on('keydown:shiftleft', doLeftPaddle)
+
+* Any-event-as-a-modifier (aka combo events):
+
+  .. code-block:: javascript
+
+      HI.on('a-w', doUpLeft)
+
+* Mouse/Touch/Gesture and Multitouch events:
+
+  .. code-block:: javascript
+
+      HI.on('shift-click', doShiftClick);
+      HI.on('pointer:left:down', shoot);
+      HI.on('pan', doPan);
+      HI.on('multitouch:2:tap', twoFingerTap);
+      HI.on('multitouch:3:pan', threeFingerPan);
+
+* Clipboard and selection events:
+
+  .. code-block:: javascript
+
+      HI.on('select:"select this text"', userFollowsDirections)
+
+* Event sequences:
+
+  .. code-block:: javascript
+
+      HI.on('up up down down left right left right b a enter', doKonamiCode)
+
+* On-demand, real-time event/state tracking:
+
+  .. code-block:: javascript
+
+      HI.isDown('shift-a') == true
+
+* Document visibility events:
+
+  .. code-block:: javascript
+
+      HI.on('document:visible', doWelcomeBack)
+
+* Device orientation events:
+
+  .. code-block:: javascript
+
+      HI.on('portrait', doPortrait)
+
+* Bind whatever context you want to events so ``this`` is what *you* want it to be:
+
+  .. code-block:: javascript
+
+      HI.on('ctrl-a n', nextScreenFunc, screenObj)
+
+* Specify how many times an event callback can be called:
+
+  .. code-block:: javascript
+
+      HI.once('enter', doSubmit);
+      HI.on('faceplant', wakeUp, someContext, 5);
+
+* A powerful filtering mechanism to ensure that events only get triggered when you want them to:
+
+  .. code-block:: javascript
+
+      HI.filter = myFilterFunc
+
+* Events support 'scopes' which you define and enable/disable at-will:
+
+  .. code-block:: javascript
+
+      HI.on('controlpanel:ctrl-h', doControlHelp);
+      HI.pushScope('controlpanel');
+      // Stuff gets done
+      HI.popScope('controlpanel');
+
+* If the (browser-fired) event has a 'target' attribute you can use the element ID or a class to handle events for specific elements (e.g. if you've instantiated HumanInput on the window):
+
+  .. code-block:: javascript
+
+      HI.on(['click:#someelement', 'contextmenu:.someclass'], doStuff);
+      // NOTE: This is super efficient use of event listeners!
+
+* Pause and resume handling of events on-the-fly:
+
+  .. code-block:: javascript
+
+      HI.pause(); HI.resume();
+
+* Optional plugin: Clap detection events:
+
+  .. code-block:: javascript
+
+      HI.on('doubleclap', clapOnClapOff)
+
+* Optional plugin: Gamepad events (with high performance state checking to integrate with game loops!):
+
+  .. code-block:: javascript
+
+      HI.on('gpad:button:4:down', doJump)
+
+* Optional plugin: Idle (inactivity) events (super low overhead!):
+
+  .. code-block:: javascript
+
+      HI.on('idle', function(lastActivity) {
+          console.log('Idle: User was last active at:', lastActivity);
+      });
+
+* Optional plugin: Speech recognition events (literally yell at your machine and it *could* take it personally!):
+
+  .. code-block:: javascript
+
+      HI.on('speech:"why are you blinking"', explain);
+      HI.on('speech:"open the pod bay doors"', sorryDave);
+
+* Up to you: It's a great general-purpose event lib:
+
+  .. code-block:: javascript
+
+      HI.on('custom:event', handleMyEvent);
+      HI.trigger('custom:event', someValue);
+
+* Up to you: It's also got a nice logger:
+
+  .. code-block:: javascript
+
+      > var myLogger = new HI.logger('INFO', '[myapp]');
+      > myLogger.info("Tool cool!");
+      [myapp] Too Cool!
+
+HumanInput has no external dependencies and was made with only the finest vanilla JavaScript extract!
+
+Note
+  For the sake of brevity let's just assume that we've already called ``var HI = new HumanInput(window)`` in the rest of the documentation (unless otherwise noted).
+
+Browser Compatibility
+---------------------
+
+====== ======= ==== ===== ======
+Chrome Firefox IE   Opera Safari
+------ ------- ---- ----- ------
+Yes    Yes     Yes  Yes   Yes!
+====== ======= ==== ===== ======
+
+Really, every little bit of HumanInput should work in all the major browsers running on Linux, Macs, and even old fashioned Windows desktops!  Go nuts!
+
+Plugins on the other hand...
+
+Plugin Browser Compatibility
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Speech Recognition Plugin
+  The Speech Recognition plugin requires the `Speech Recognition API <https://developer.mozilla.org/en-US/docs/Web/API/Web_Speech_API>`_ which is supported in Chrome and Firefox (requires enabling a flag) as of 6/16/2016.
+
+Gamepad Plugin
+  The Gamepad plugin relies on the `Gamepad API <https://developer.mozilla.org/en-US/docs/Web/API/Gamepad_API>`_ which is supported in Chrome, Firefox and Opera as of 6/16/2016.
+
+Clapper Plugin
+  The Clapper plugin requires the `Audio API <https://developer.mozilla.org/en-US/docs/Web/API/Web_Audio_API>`_ which is supported in basically everything except IE as of 6/16/2016.
+
+
+Live Demos
+----------
+
+* Learn about HumanInput via an `interactive Impress.js <https://liftoff.github.io/HumanInput/demo/presentation/>`_ presentation (that has the Feedback plugin enabled).
+* Try out `Clap Detection <https://liftoff.github.io/HumanInput/demo/clapper/>`_.
+* Try out `Speech Recognition <https://liftoff.github.io/HumanInput/demo/dictate/>`_.
+
+Debugging (set the logLevel)
+----------------------------
+
+Before learning anything else about HumanInput you should learn how to debug events!  The 'key' (haha) is to set the logging level to "DEBUG":
+
+.. code-block:: javascript
+
+    var settings = {logLevel: "DEBUG"};
+    // Note: The logLevel is not actually case sensitive I just like shouting DEBUG
+    var HI = new HumanInput(window, settings); // Give settings when instantiating
+
+Then whenever HumanInput triggers an event you'll see all the details about it in your browser's JavaScript console like: ``[HI] triggering: click [MouseEvent]``.  Warning: It can be wicked verbose (but it's worth it).
+
+Alternatively, you can modify the logLevel on-the-fly with: ``HI.log.setLevel("DEBUG")``
+
+Events
+------
+
+HumanInput is an event library at its core and it classifies events into these categories:
+
+* Single: ``HI.on('a', doSomething)``
+* Combo: ``HI.on('meta-a', doSomething)``
+* Ordered Combo: ``HI.on('a->s->d', doASD)``
+* Sequence: ``HI.on('up up down down left right left right b a enter', konamiCode)``
+* Hold: ``HI.on('hold:750:pointer:left', doLongPress')``
+
+Just about any kind of event can be mixed and matched with any other kind of event.  For example, you could use ``shift-click`` which combines keyboard and mouse events.  You can take it a step further and mix such things into sequences like ``a-click dblclick f``.  Here's a ridiculous example to demonstrate **THE POWER** of HumanInput:
+
+.. code-block:: javascript
+
+    HI.on('gpad:button:2->shiftleft speech:"testing"',
+        doTestSpeechIfGpadButton2withLeftShiftwasPressedBeforehand)``
+
+Yeah, that actually works (if you have the gamepad and speech plugins and enabled).
+
+Note
+  Except for ordered combos and sequences the order in which you define your combo event doesn't matter!  ``ctrl-shift-a`` works just the same as ``shift-ctrl-a`` or even ``a-shift-ctrl`` (all events get sorted into a specific order before registration; expect the debug output to represent that ordering as such).
+
+There's three event methods:
+
+* ``on(event, someFunction, context, times)``: When *event* is triggered call *someFunction* with *context* bound to ``this`` n *times*.
+* ``off(event, someFunction, context)``: Remove the matching *event/someFunction/context* combination. If only the event is given all matching functions/contexts will be removed.  If no context is given all matching event/function combinations will be removed.  Calling ``off()`` with no arguments will remove all events.
+* ``trigger(event, [arguments]``: Trigger the *event* passing it *arguments* (as many as you want).
+
+You can also use the convenient ``once()`` shortcut for events you only want to fire one time.  Equivalent to: ``on(event, someFunc, context, 1)``.
+
+Sequence Events
+^^^^^^^^^^^^^^^
+
+Not all event types can be used with sequences.  For example, 'click' and 'dblclick' events are not added to the sequence buffer since they'd be redundant with 'pointer:left'.  Here's a handy table of all the events that can end up in the sequence buffer and what they'll show up as:
+
+===================  ==========================================================================================
+Input Type           Sequence Events
+===================  ==========================================================================================
+Mouse/Touch/Pointer  ``pointer:left``, ``pointer:middle``, ``pointer:right``
+Wheel                ``wheel:up``, ``wheel:down``, ``wheel:left``, ``wheel:right``, ``wheel:in``, ``wheel:out``
+Keyboard             Individual keys: ``a``, ``tab``, ``space``, etc
+Combos               ``shift-pointer:left``, ``ctrl-shift-f``, etc
+Gamepad              ``gpad:button:1``, ``gpad:button:2``, etc
+Speech               ``speech:"what was spoken"`` (the final recognition, not ``speech:rt:`` events)
+Claps                ``clap``, ``doubleclap``, ``applause``
+===================  ==========================================================================================
+
+Button/Key States with Sequences
+  Events that have ':down' and ':up' states get added to the sequence buffer when buttons and keys are *released* (i.e. when they change from ':down' to ':up').  Not when they're pressed.
+
+Filtering
+  If you want to prevent certain events from being added to the sequence buffer see the `Filtering`_ section.
+
+Binding Multiple Events at Once
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+You can bind multiple events to a single function by passing them as an array: ``HI.on(['a', 'b'], doAorBStuff)``
+
+Event.preventDefault()
+^^^^^^^^^^^^^^^^^^^^^^
+
+If the event type supports it you can make sure that ``Event.preventDefault()`` gets called by simply having your event function ``return false``:
+
+.. code-block:: javascript
+
+    var preventBookmarking = function(event, key, code) {
+        HI.log.info("No bookmarking!");
+        return false; // Will ensure event.preventDefault() gets called
+    };
+    HI.on('ctrl-b', preventBookmarking);
+
+Or you could just, "call it your damned self" since the browser-generated event is passed to the triggered function as the first argument :)
+
+Event Aliases
+^^^^^^^^^^^^^
+
+HumanInput includes a number of convenient event aliases which you can use to save some typing:
+
+.. code-block:: javascript
+
+    // Copied right out of humaninput.js
+    self.aliases = {
+        tap: 'click',
+        taphold: 'hold:750:pointer:left',
+        clickhold: 'hold:750:pointer:left',
+        middleclick: 'pointer:middle',
+        rightclick: 'pointer:right',
+        doubleclick: 'dblclick', // For consistency with naming
+        konami: 'up up down down left right left right b a enter',
+        portrait: 'window:orientation:portrait',
+        landscape: 'window:orientation:landscape',
+        hulksmash: 'faceplant',
+        twofingertap: 'multitouch:2:tap',
+        threefingertap: 'multitouch:3:tap',
+        fourfingertap: 'multitouch:4:tap'
+    };
+
+You can add your own aliases as well:
+
+.. code-block:: javascript
+
+    HI.aliases.invoke = 'ctrl-a';
+    HI.aliases['★'] = 'ctrl-b';
+    HI.on('invoke n', newWindow);
+    HI.on('★', newBookmark);
+
+Note
+  You can use ``emit()`` instead of ``trigger()`` if you're triggering events yourself (one is an alias to the other).
+
+
+Hold Events
+^^^^^^^^^^^
+
+Hold events can be used to determine when a user has held (down) a button, key, or other type of event for a specific length of time (in milliseconds).  Here's an example of an event that will be triggered after the user holds down the left mouse button (or their finger on a touchscreen) for 1.5 seconds:
+
+.. code-block:: javascript
+
+    HI.on('hold:1500:pointer:left', function(event, elapsed) {
+        HI.log.info("User touched:", event.target, " held down for: ", elapsed);
+    });
+
+There's three settings that control 'hold' events:
+
+* holdInterval (number) [250]:  How often to issue 'hold' events (controls the ``setTimeout()`` function that repeatedly calls these events).
+* moveThreshold (number) [5]:  How many pixels the mouse/pointer/finger can move before a 'hold' event is cancelled.  Only applies to pointer/mouse/touch events.
+* listenEvents: 'hold' (string) [present]:  If 'hold' is present in the 'listenEvents' setting HumanInput will trigger 'hold' events.  If not present it will not trigger this event type.  Hold events are enabled by default.
+
+Remapping/Renaming Events
+^^^^^^^^^^^^^^^^^^^^^^^^^
+
+HumanInput lets you re-map (aka rename) any event you wish via the ``map()`` function or via the ``eventMap`` setting:
+
+.. code-block:: javascript
+
+    var myMap = {'w': 'moveup', 'a': 'moveleft', 's': 'movedown', 'd': 'moveright'};
+    // Apply an eventMap at instantiation:
+    var HI = new HumanInput(window, {eventMap: myMap});
+    // Apply new eventMap mappings dynamically:
+    HI.map({'space': 'jump'});
+    HI.on('moveup', function(e) { HI.log.info('moveup'); });
+    // Pretend the user pressed the 'w' key; here's what you'd see in the console:
+    [HI] moveup
+
+This feature also works with the ``isDown()`` function: ``HI.isDown('moveup') == true``.
+
+Note
+  If ``HI.init()`` is called any eventMap changes that were applied via ``HI.map()`` will be lost.
+
+Handling Child Events (You Don't Need Multiple Instances of HumanInput)
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Say you've instantiated HumanInput on the window (``var HI = new HumanInput(window)``) and you want to call a function whenever a user clicks a particular button on the page.  Instead of creating a new instance of HumanInput for that particular button you can do this:
+
+.. code-block:: javascript
+
+    var HI = new HumanInput(window), // NOTE: 'window' is important here
+        myButton = document.querySelector('#mybutton');
+    HI.on('click', function(event) {
+        var whatWasClicked = e.target; // This is the element that the user clicked
+        if (whatWasClicked === myButton) {
+            HI.log.info("My button was clicked!");
+        }
+    });
+
+What about handling events for all elements matching say, a particular class?  Here's how:
+
+.. code-block:: javascript
+
+    var HI = new HumanInput(window), // NOTE: 'window' is important here
+        classToMatch = 'someclass';
+    HI.on('click', function(event) {
+        var whatWasClicked = e.target;
+        if (whatWasClicked.classList.contains(classToMatch)) {
+            HI.log.info("An element with class: " + classToMatch + " was clicked!");
+        }
+    });
+
+Having a single instance of HumanInput on the window is extremely efficient since it only requires *one* set of event listeners (from ``addEventListener()``) to handle all child events on the page.
+
+Now that you understand how to handle bubbling-up events in a manual fashion here's a trick/shortcut:
+
+.. code-block:: javascript
+
+    var HI = new HumanInput(window); // NOTE: Same as above; use 'window'
+    HI.on('click:#someelement', function(event) {
+        HI.log.info("#someelement was clicked!", event);
+    });
+
+Yeah, yeah:  Why wasn't this mentioned previously?  Because this is documentation; not a quickstart!  You can use '#' to indicate a specific element id or '.' to indicate a particular class...
+
+.. code-block:: javascript
+
+    HI.on('pointer:down:.someclass', function(event) {
+        HI.log.info("An element with .someclass was clicked!", event);
+    });
+
+Note
+  This feature only works for singluar classes (you can't do '.someclass.someotherclass').  If you need more specificity, well, you know how to examine the event yourself because you read the previous section!
+
+Note #2
+  The '#' and '.' syntax for specifying elements doesn't work with sequences (though it does work with combos and ordered combos!).
+
+To obtain *teeny* tiny performance boost and take a huge chunk out of debugging spam you can pass ``disableSelectors = true`` as a setting when instantiating HumanInput.
+
+listenEvents
+^^^^^^^^^^^^
+
+HumanInput will add event listeners to the given element (first argument to ``HumanInput()``) for all the (browser) events given via the ``listenEvents`` setting.  So if you wanted HumanInput to only listen for mouse events you could do something like this:
+
+.. code-block:: javascript
+
+    var settings = {listenEvents: ['mousedown', 'mouseup']};
+    // Provide the settings when instantiating:
+    var HI = new HumanInput(window, settings);
+
+Note
+  You can reference the active listenEvents at any time via: ``HI.settings.listenEvents``
+
+The default listenEvents (which can vary depending on plugins) can be found via the ``HumanInput.defaultListenEvents`` property:
+
+.. code-block:: javascript
+
+    > console.log(HumanInput.defaultListenEvents);
+    ["keydown", "keypress", "keyup", "click", "dblclick", "wheel", "contextmenu",
+    "compositionstart", "compositionupdate", "compositionend", "cut", "copy",
+    "paste", "select", "scroll", "pointerdown", "pointerup"]
+
+If you have the '-full' version of HumanInput "speech" and "clapper" will be present in defaultListenEvents.
+
+If you wish to *add* an event to the defaults (instead of completely overriding them all at once) you can use the ``addEvents`` setting:
+
+.. code-block:: javascript
+
+    // Leave defaults alone but add 'gamepad'
+    var settings = {addEvents: ['gamepad']};
+    var HI = new HumanInput(window, settings);
+
+If you wish to *remove* an event from the defaults (opposite of above) you can use the ``removeEvents`` setting:
+
+.. code-block:: javascript
+
+    // Leave defaults alone but remove 'hold':
+    var settings = {removeEvents: ['hold']};
+    var HI = new HumanInput(window, settings);
+
+Note about events without built-in handlers (i.e. events unknown to HumanInput)
+  If you use an event name that doesn't have a corresponding ``HI._<eventname>()`` (note the underscore) function HumanInput will use ``HI._genericEvent()`` to add an associated event listener via ``addEventListener()``.  The idea being to future-proof HumanInput:  Browser makers added a new 'foo' event?  No problem...  HumanInput will ``trigger('foo', theFooEvent)`` if you add it to 'listenEvents'!  This will work even though nothing specific has been added to HumanInput to handle it yet.
+
+Note about simulated events
+  Some listenEvents may be 'simulated events' that are emitted by different mechanisms.  For example, there's no way to listen for gamepad events via ``addEventListener()`` so the gamepad plugin uses its own event loop to detect and emit 'gamepad' events (which are aliased to 'gpad' to save some typing).  To get the details about that see the Gamepad Plugin section.
+
+Filtering
+---------
+
+Before triggering an event HumanInput will execute ``HumanInput.filter()``.  If the filter function returns ``true`` the event will be triggered as normal.  If it returns ``false`` the event will not be triggered.  The default ``HumanInput.filter()`` only applies to keyboard events and will return ``false`` if a ``textarea``, ``input``, or ``select`` element has focus.
+
+To disable filtering just set ``HumanInput.filter()`` to a function that returns ``true``:
+
+.. code-block:: javascript
+
+    // Disable the filter function
+    HI.filter = function(e) { return true };
+
+Sequences (e.g. 'a b c') can be filtered via a similar mechanism:
+
+.. code-block:: javascript
+
+    // Don't allow mouse/touch/pointer or 'wheel' events into the sequence buffer
+    HI.sequenceFilter = function(e) {
+        var disallowed = ['wheel', 'pointerup', 'mouseup', 'touchend'];
+        if (disallowed.indexOf(e.type) === -1) { return true; }
+    };
+
+Note
+  The 'pointerup' event type will eventually cover all mouse, touch, and pointer click-style (e.g. ``pointer:left``) events.
+
+State Tracking
+--------------
+
+You can check the state of most events (keys, mouse, buttons) in real-time using the ``HumanInput.isDown()`` function:
+
+.. code-block:: javascript
+
+    HI.isDown('a') == true;
+    HI.isDown('shift-a') == true; // Works with combos too
+    HI.isDown('pointer:left') == true; // ...and pointer/mouse/touch events!
+
+Note
+  For reasons that should be obvious you can't use ``isDown()`` with key sequences (just events and event combos).
+
+High-performance state tracking
+  The ``HI.isDown()`` function is very fast but it *does* have some overhead.  If you want to maximize performince (say, inside a game loop) you can check the 'down' state of any key by examining the ``HI.state.down`` array:
+
+  .. code-block:: javascript
+
+      // Hardcore state tracking; without a (non-native) function call
+      HI.state.down.indexOf('a') != -1; // The 'a' key is down
+
+  Just note that ``HI.state.down`` tracks the state of keys via ``KeyboardEvent.key`` and maintains the case it was given.  This means that if the user presses the 'a' key it will be tracked as a lowercase 'a'.  However, if the user is also holding down the 'ShiftLeft' key ``HI.state.down`` will hold an uppercase 'A' since that's what ``KeyboardEvent.key`` will give us.  Also keep in mind that modifiers that have left and right equivalents will be stored in ``HI.state.down`` as such (e.g. 'ShiftLeft', 'ControlRight', etc).
+
+Recording Events or Capturing a Keystroke
+-----------------------------------------
+
+HumanInput provides two functions, ``startRecording()`` and ``stopRecording()`` that can be used to temporarily capture events triggered by the user.  This can be useful when providing users with the ability to create/customize keyboard shortcuts.  There's two (usual) ways to use these functions...
+
+Record All Events
+  The first and simplest way: Obtain all or a subset of events that triggered since ``startRecording()`` was called:
+
+  .. code-block:: javascript
+
+      HI.startRecording();
+      // Let's pretend we just want 'keyup:<key>' events...
+      var keyupEvents = HI.stopRecording('keyup:')
+      // You can safely call stopRecording() multiple times after startRecording():
+      var allEvents = HI.stopRecording(); // Returns all events (no filter)
+
+Capture a Keystroke
+  If you just want to capture a single keystroke you can pass 'keystroke' as the argument to ``stopRecording()`` like so:
+
+  .. code-block:: javascript
+
+      HI.startRecording();
+      HI.once('keyup', (e) => {
+          var keystroke = HI.stopRecording('keystroke');
+          HI.log.info('User typed:', keystroke, e);
+      });
+
+Keyboard Support
+----------------
+
+It's probably easiest if we just provide examples of all the ways you can use keyboard events in HumanInput...
+
+.. code-block:: javascript
+
+    // Basic: Call a function when a specific key is pressed
+    HI.on('a', aKeyPressed); // Implied keyup:a
+    // Be more specific about the same thing
+    HI.on('keyup:a', aKeyReleased); // keydown works too (only losers use keypress)
+    // Call your function whenever *any* key is pressed
+    HI.on('keydown', theAnyKeyHasBeenFound);
+    // Keys typed with shift are handled automatically
+    HI.on('A', capitalAPressed); // Non-letters like '!' are also handled automatically!
+    // You can also specify a key's location if the browser knows the difference
+    HI.on('keydown:shiftleft', leftPaddle);
+    // Combos!  NOTE: Technically, *event* combos (not limited to keys!)
+    HI.on('ctrl-g', function(event) { HI.log.info('You pressed Control-g!'); });
+    // Bind a couple of key combos to the same function
+    HI.on(['ctrl-a', 'ctrl-shift-a'], someFunction); // ctrl-a *or* ctrl-shift-a call someFunction()
+    // Call a function when a certain sequence of keys is pressed
+    HI.on('ctrl-a n', nextVirtualWindow); // User types "ctrl-a" proceeded by "n"
+    // Now let's get *really* precise; call a function when the user presses
+    //   f, d, and s (in that specific order)
+    HI.on('f->d->s', doFDSCombo); // It's a key combo but with a specific order->of->events
+    // Same thing but the opposite order
+    HI.on('s->d->f', doSDFCombo);
+    // Note that the above also demonstrates how any key (or event!) can be a modifier
+
+Note about shifted keys like 'A' or '!'
+  Because the shift key produces different characters depending on the keyboard layout you must be careful when binding events with ``HI.on()``.  If your intent is for the user to type `shift-<somekey>` to trigger an event then you should bind it that way instead of assuming `!` is produced via `shift-1`.  You don't need to worry about such things for capitalized characters though as they are always produced via `shift-<key>` regardless of the layout.
+
+Keyboard events are triggered with ``KeyboardEvent``, ``KeyboardEvent.key`` (normalized by HumanInput if warranted) and ``KeyboardEvent.code`` as arguments.  So if you listen to just 'keydown' or 'keyup' you can examine the key that was pressed like so:
+
+.. code-block:: javascript
+
+    var whatKey = function(event, key, code) {
+        HI.log.info(key, ' was pressed.  Here is the code:', code);
+    };
+    HI.on('keyup', whatKey);
+
+Space: You. Are. The Only Exception
+  The spacebar is special in HumanInput because sequences are identified and separated by spaces (e.g. ``HI.on('a b c')``) so if you want to bind the space key you have to use ``space`` (e.g. ``HI.on('alt-space')``).
+
+Textual Input Elements
+^^^^^^^^^^^^^^^^^^^^^^
+
+As mentioned earlier in this document, by default HumanInput will not trigger keyboard events when the user has focused on a ``textarea``, ``input``, or ``select`` element.  This is controlled via ``HumanInput.filter()``.  To change this behavior just override that function or set it to an empty function that always returns ``true``: ``HI.filter = (e) => { return true }``
+
+Intelligent Key Repeat
+^^^^^^^^^^^^^^^^^^^^^^
+
+By default HumanInput won't repeatedly trigger keyboard events for keys which are held down (aka "key repeat").  You can override this functionality by passing ``noKeyRepeat = false`` when instantiating HumanInput:
+
+.. code-block:: javascript
+
+    var settings = {noKeyRepeat: false}; // Trigger events constantly while keys are held
+    var HI = new HumanInput(window, settings);
+    HI.on('space', fireLasers);
+
+Internationalization
+^^^^^^^^^^^^^^^^^^^^
+
+HumanInput tries to be smart about international (non-US) keyboard layouts.  If you type 'ç' using a Brazilian layout you should be able to attach an event to that key like so: ``HI.on('ç', doStuff)``.  Note that this capability is largely dependent on browser support and it doesn't *usually* work with the Control key (ctrl) for legacy reasons.  As of writing this documentation the only major browser lacking support for international keyboard layouts (in this way) is Safari (Apple needs to get with the ``KeyboardEvent.key`` program!).  It should work great with Chrome/Chromium, Firefox, Opera, and even IE.
+
+Key Aliases
+^^^^^^^^^^^
+
+If you want to be freaky deaky (or extreme in your minification) you can use unicode symbols for their respective keys:
+
+.. code-block:: javascript
+
+    HI.on('⇧-b', shiftBPressed); // Same as: 'shift'
+    HI.on('⌥-c', optionCPressed); // Same as: 'alt', 'option'
+    HI.on('⌘-c', commandCPressed); // Same as: 'os', 'meta', 'win' 'command', 'cmd'
+
+Note
+  You can also use ``control`` instead of ``ctrl`` but who wants to type all those extra characters? :)
+
+Unique Numpad
+^^^^^^^^^^^^^
+
+Say you want to differentiate between '/' and the same key on the numpad.  You can do that but you must set ``uniqueNumpad = true`` when instantiating HumanInput like so:
+
+.. code-block:: javascript
+
+    var settings = {uniqueNumpad: true};
+    var HI = new HumanInput(window, settings);
+
+Then when you want to attach an event to a numpad key just prefix it with ``numpad`` like so:
+
+.. code-block:: javascript
+
+    HI.on('numpad*', numpadStarFunc);
+    HI.on('numpad/', numpadSlashFunc);
+    HI.on('numpad5', numpadFiveFunc);
+
+Composition (IME) Support
+-------------------------
+
+Composition and Input Method Entry (IME) support is fairly straightforward:
+
+.. code-block:: javascript
+
+    HI.on('composing:"Tes"', examineInput); // User just added 's' after 'Te'
+    HI.on('composed:"Test"', compositionUpdated); // User completed their composition
+    // You can do this too if you want to handle things yourself:
+    HI.on('compositionend', compositionEndedFunc); // Handle the event however you like
+
+Faceplant Support
+-----------------
+
+A very important feature in any JS lib that handles keyboard events: Detecting when a face slams into the keyboard...
+
+.. code-block:: javascript
+
+    HI.on('faceplant', wakeUpFool); // How could any keyboard lib not have this? :D
+
+Try it!
+
+Note
+  ``hulksmash`` also works ᕙ(⇀‸↼‶)ᕗ
+
+Mouse, Touch, Multitouch, and Pointer Event Support
+---------------------------------------------------
+
+HumanInput supports mouse, touch, and pointer events and includes a bunch of handy dandy shortcuts to deal with it all...
+
+Note
+  Use 'pointer' when you want to cover mouse and touch events at the same time.
+
+.. code-block:: javascript
+
+    // Basics:
+    HI.on('click', doClick);
+    HI.on('tap', doClickStuff); // Same exact thing as above ('tap' is an alias for 'click')
+    HI.on('pointer:down', doMouseDownStuff); // Same as 'mousedown' or 'touchstart'
+    // Be more specific
+    HI.on('pointer:right:down', doRightByMe);
+    HI.on('middleclick', doPaste); // Alias to 'pointer:middle'
+    // Be *very* specific
+    HI.on('mouse:7:up', handleMouseSeven); // Only fire for mouse clicks using button 7; no touches!
+    // Combine with keys (or other events) as modifiers!
+    HI.on('ctrl-click', doCtrlClick);
+    // Mouse sequence support
+    HI.on('dblclick click', handleTripleClick); // Triple-click
+    HI.on('dblclick a-s-d-f', homeRowMasher); // Use your imagination!
+    // Pan support
+    HI.on('pan:.panclass', panAround);
+    // Basic gesture support
+    HI.on('swipe:up', swipeUp);
+    HI.on('swipe:right', swipeRight);
+    // Multitouch (multi-*pointer*) support
+    HI.on('multitouch:2:tap', twoFingerTap);
+    HI.on('multitouch:3:pan', threeFingerPan);
+
+Note
+  HumanInput does not call ``addEventListener()`` for mouse or touch events if pointer events can be used (it uses browser feature detection).
+
+Multitouch gestures work with sequences
+  Makes for some fun sequences:  ``pointer:left multitouch:2:tap multitouch:3:tap multitouch:4:tap``
+
+Effective Pan Handling
+^^^^^^^^^^^^^^^^^^^^^^
+
+Location, location, location!  Just kidding.  Not *that* kind of panhandling!
+
+Pan events need a bit of explanation in order to use them to effectively:  HumanInput doesn't manipulate the DOM--that's your job! (because everyone/every framework does it differently)  Having said that, implementing a 'pan' feature is quite trivial with HumanInput but there is **one** thing you *must* do for it to work properly: ``return false`` (or call ``preventDefault()``) in your 'pan' handler.  Example:
+
+.. code-block:: javascript
+
+    // xPan and yPan represent the current state (so we don't snap back every time the user pans)
+    var xPan = 0, yPan = 0;
+    HI.on('pan:#elemtopan', function(e, panObj) {
+    // The element we want to pan is the event target (pretty much always):
+        var panElem = e.target;
+    // The 2nd arg passed to 'pan' events include a convenient object (panObj):
+        xPan += panObj.xMoved; // xMoved and yMoved represent the number of pixels
+        yPan += panObj.yMoved; // that the pointer has moved since the pan started
+    // Now we can "Move it! Move it!"
+        panElem.style.transform = 'translate3d('+xPan+'px,'+yPan+'px,0)';
+        return false; // <-- IMPORTANT!
+        // Alternatively you could just do this:
+        // e.preventDefault()
+    });
+
+The reason you need to ensure ``preventDefault()`` gets called is so that the browser doesn't try to scroll or highlight text while your pan operation is *in motion*.  In fact, that's all a 'pan' event is:  A ``mousemove``, ``touchmove``, or ``pointermove`` event handler that gets added *after* mousedown/touchstart/pointerdown.  So by calling ``preventDefault()`` on 'pan' you're essentially calling it for the ``mousemove`` (and equivalents) event.
+
+Pan events enabled by default
+  Pan events are enabled by default but can be disabled by removing 'pan' from the 'listenEvents' setting.
+
+If anyone wants to assist, the following multitouch event types are in the TODO list (not yet implemented):
+
+.. code-block:: javascript
+
+    HI.on('multitouch:2:swipe:right', swipeRight); // Multi-finger swipes
+    HI.on('pinch', zoomOut); // Pinch-to-zoom; patently obvious!
+    HI.on('spread', zoom); // Opposite of pinch
+    HI.on('rotate', rotate); // Two-finger rotation
+
+Mousewheel and Scroll Event Support
+-----------------------------------
+
+Taking advantage of mousewheel and scrolling events is very straightforward:
+
+.. code-block:: javascript
+
+    HI.on('wheel', wheelMoved);        // Wheel moved (unspecified)
+    HI.on('wheel:up', wheelUp);        // Wheel scrolled up
+    HI.on('wheel:down', wheelDown);    // Wheel scrolled down
+    HI.on('wheel:left', wheelLeft);    // Wheel scrolled left
+    HI.on('wheel:right', wheelRight);  // Wheel scrolled right
+    HI.on('scroll', scrolled);         // User scrolled (unspecified)
+    HI.on('scroll:up', scrollUp);      // User scrolled up
+    HI.on('scroll:down', scrollDown);  // User scrolled down
+    HI.on('scroll:left', scrollLeft);  // User scrolled left
+    HI.on('scroll:right', scrollRight);// User scrolled right
+
+Note
+  Most browsers implement a shift-scroll keyboard shortcut to scroll left and right.  To ensure the most compatibility HumanInput will fire *both* the regular wheel event (e.g. ``wheel:right``) in addition to a combo event (e.g. ``shift-wheel:right``) if the shift key is held while scrolling left or right.
+
+What's the difference between 'wheel' and 'scroll' events?
+  The wheel events refer to a physical device whereas scroll events can be triggered by many things such as the user pressing the spacebar, down arrow, or clicking and dragging the scrollbar with their mouse.
+
+Scroll Events
+^^^^^^^^^^^^^
+
+When scroll events are triggered they are passed the scroll event (from the browser) and the number of pixels scrolled.  In the case of ambiguous 'scroll' events the triggered callback will be called with an object containing a 'x' and 'y' value.  Example:
+
+.. code-block:: javascript
+
+    HI.on('scroll', function(e, scrollObj) {
+        HI.log.info('User scrolled X:', scrollObj.x, ' Y:', scrollObj.y);
+    });
+
+All scroll events are de-bounced
+  50ms to be precise.  This is to prevent zillions of tiny pixel scroll events from firing constantly while the user is scrolling.  Don't worry, the scroll distances will still be accurate.
+
+Note
+  The 'x' and 'y' numbers can be negative with ambiguous 'scroll' events.
+
+The directional scroll events such as 'scroll:down' will just be passed the pixel value as a number:
+
+.. code-block:: javascript
+
+    HI.on('scroll:down', function(e, distance) {
+        HI.log.info('User scrolled down ', distance, ' pixels');
+    });
+
+Passive Scrolling Support
+^^^^^^^^^^^^^^^^^^^^^^^^^
+
+If you undestand the implications you can set ``{passive: true}`` for 'touchstart' events via ``eventOptions['touchstart']`` when instantiating HumanInput:
+
+.. code-block:: javascript
+
+    // Can be a significant performance boost when scrolling on touch-enabled devices:
+    var settings = {eventOptions: {touchstart: {passive: true, capture: true}}};
+    var HI = HumanInput(window, settings);
+
+Just be aware that this will make it so that ``preventDefault()`` does nothing for that particular event when it is triggered by HumanInput.  For more information see `the standard <https://dom.spec.whatwg.org/#event>`_ (search for 'passive' on that page).
+
+Clipboard and Selection Support
+-------------------------------
+
+HumanInput includes extensive support for clipboard and text selection events:
+
+.. code-block:: javascript
+
+    HI.on('paste', doStuffWithPaste);
+    HI.on('copy', seeWhatWasCopied);
+    HI.on('cut', seeWhatWasCut);
+    // ...and you can match what was pasted/copied/cut in the event itself!
+    HI.on('paste:"127.0.0.1"', remindUserAboutLocalhostBeingEasyToType);
+
+Clipboard events are triggered with the ``ClipboardEvent.clipboardData`` as the second argument.  So you can see what the user cut/copied/pasted like so:
+
+.. code-block:: javascript
+
+    var clipboardHandler = function(event, data) {
+        console.log('event:', event, 'clipboard data:', data);
+    };
+    HI.on(['cut', 'copy', 'paste'], clipboardHandler);
+
+Text selection events work in a similar fashion and fire when the user releases their mouse (or with each selected letter if the user is highlighting text with the keyboard):
+
+.. code-block:: javascript
+
+    HI.on('select', function(e, whatWasSelected) {
+        console.log("User selected:", whatWasSelected});
+
+You can also craft events that trigger when matching text is selected like so:
+
+.. code-block:: javascript
+
+    HI.on('select:"select this text"', userFollowsDirections);
+
+Input Event Support
+-------------------
+
+Input events are triggered with the event and "what was input" as the first and second argument, respectively (just like 'select' events):
+
+.. code-block:: javascript
+
+    HI.on('input', function(e, whatWasInput) {
+        console.log("User input:", whatWasInput});
+
+Just like selection and clipboard events, you can craft events that trigger when the user inputs something specific:
+
+.. code-block:: javascript
+
+    HI.on('input:"idkfa"', cheatMode);
+
+Context Menu Support
+--------------------
+
+Real simple:
+
+.. code-block:: javascript
+
+    HI.on('contextmenu', contextMenuFunc);
+
+Note
+  This can be wicked useful when combined with scopes!
+
+Window and Document Events
+--------------------------
+
+HumanInput supports tracking the state of the document and window via the following events:
+
+.. code-block:: javascript
+
+    HI.on('document:hidden', enableNinjaMode);   // NOTE: Always available
+    HI.on('document:visible', disableNinjaMode); // NOTE: Always available
+    HI.on('window:resize', windowWasResized); // See below about availability
+    HI.on('window:blur', windowNoLongerFocused);
+    HI.on('window:beforeunload', userNavigatingAway);
+    HI.on('window:hashchange', userClickedAnchor);
+    HI.on('window:languagechange', userChangedLang);
+    HI.on('window:orientation:landscape', doLandscapeView); // Alias: 'landscape'
+    HI.on('window:orientation:portrait', doPortraitView); // Alias: 'portrait'
+    HI.on('fullscreen', (isFullScreen) => {
+    // The function called by the 'fullscreen' event will be passed true/false:
+        HI.log.info('fullscreen:', isFullScreen);
+    });
+
+Note About 'window:' Events
+  The various 'window:' events are only triggered if HumanInput was instantiated with the window object as the first argument.  'document:hidden/visibile' events are always triggered since plugins depend on this event to pause and resume under certain circumstances.  The above 'window' events are not controlled via the `listenEvents` setting.
+
+Advanced Stuff
+--------------
+
+HumanInput Settings
+^^^^^^^^^^^^^^^^^^^
+
+Besides ``logLevel``, ``listenEvents``, ``eventMap``, ``uniqueNumpad``, and ``noKeyRepeat`` HumanInput takes the following settings:
+
+* addEvents (array) [``[]``]:  An array of events you wish HumanInput to listen for via ``addEventListener()`` *in addition to* the ``defaultListenEvents``.  This setting is just a convenience; ``{addEvents: ['foo']}`` is a lot less to type (and easier to read) than ``{listenEvents: HumanInput.defaultListenEvents.concat(['my', 'extra', 'events'])}``.
+* disableSequences (bool) [``false``]:  Set to ``true`` if you want to disable sequence events like ``ctrl-a n``.  This can save a few CPU cycles and lessen debug output if you're not using that feature (would likely only matter for games).
+* disableSelectors (bool) [``false``]:  Set to ``true`` if you want to disable the selector syntax functionality (e.g. ``on('<someevent>:#someelement')``).  This can also save a few CPU cycles (a lot less than 'disableSequences') but the main benefit is reducing debug output (when set to ``false``).
+* eventOptions (object) [``{}``]:  An object containing event names and their respective options that will be passed as the third argument when calling ``addEventListener()``.  Look `here <https://developer.mozilla.org/en-US/docs/Web/API/EventTarget/addEventListener>`_ for more info about the options (3rd arg) you can pass to ``addEventListener()``.
+* maxSequenceBuf (number) [``12``]:  The maximum length of event sequences.
+* sequenceTimeout (milliseconds) [3500]:  How long to wait before we clear out the sequence buffer and start anew.
+* swipeThreshold (pixels) [``50``]:  How many pixels a finger has to transverse in order for it to be considered a swipe.
+
+Extra Events
+^^^^^^^^^^^^
+
+* After initialization HumanInput triggers the ``hi:initialized`` event.
+* After pausing HumanInput triggers the ``hi:paused`` event.
+* After resuming from a pause the ``hi:resume`` event will be triggered.
+
+HumanInput.init() (aka Reset)
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+If you want to re-initialize/reset an instance of HumanInput you can call the instance's ``init()`` function and it will start anew, performing the following actions:
+
+1. The ``hi:reset`` event will be triggered.  Note: Only triggered in an actual reset scenario; it doesn't do this when HumanInput is instantiated.
+#. All events, aliases, state tracking, keyMaps, and the scope will be set to defaults.
+#. All settings provided when you originally instantiated HumanInput will be re-applied.
+#. The ``hi:initialized`` event will be triggered.
+
+Translation Functionality
+^^^^^^^^^^^^^^^^^^^^^^^^^
+
+HumanInput supports gettext-like translation of the few strings that it contains (e.g. informational debug and error messages) using a 'translate' function which can be provided via the settings argument when HumanInput is instantiated.  Here's an overdone example:
+
+.. code-block:: javascript
+
+    var frenchTranslations = {
+        'Resetting key states due to timeout': 'Réinitialisation etats clés en raison de timeout'
+    };
+    var myTranslateFunction = function(text) {
+        // Return the text from frenchTranslations if available:
+        return frenchTranslations[text] || text;
+    }
+    var settings = {logLevel: 'DEBUG', translate: myTranslateFunction},
+        HI = new HumanInput(window, settings);
+    // User interacts with the page and eventually you see in the console:
+    [HI] Réinitialisation etats clés en raison de timeout
+
+You can also change the translation function on-the-fly by swapping out ``l()`` like so:
+
+.. code-block:: javascript
+
+    HI.l = newTranslateFunc;
+
+Tips & Tricks
+-------------
+
+Instantiate Using CSS Selector Syntax
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+You can instantiate HumanInput on a particular element using CSS selector syntax (internally it uses ``document.querySelector()``):
+
+.. code-block:: javascript
+
+    var HI = new HumanInput('#someelement'); // It'll find it!
+
+Reference the HumanInput Event Inside Callbacks via 'this'
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Whenever an event gets triggered HumanInput attaches a ``HIEvent`` attribute to ``this`` when it calls associated callbacks:
+
+.. code-block:: javascript
+
+    HI.on('click:#someelement', function(event) {
+        console.log("This is the event that triggered this function: " + this.HIEvent);
+    });
+    // Then when you click #someelement you'll see this in the console:
+    "This is the event that triggered this function: click:#someelement"
+
+The One Exception
+  If you pass the 'window' (global) as the *context* (3rd arg) when calling ``HI.on()`` HumanInput will *not* attach 'HIEvent' to 'this' in order to prevent poisoning the global namespace.
+
+Note About Arrow Functions
+  This feature won't work if your callback function is defined using `arrow syntax <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Arrow_functions>`_ (e.g. ``(e) => { <code here> }``) because arrow functions don't work with ``.apply()`` which is what HumanInput uses to call event callbacks.  It is `an intentional limitation of arrow functions <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Arrow_functions#Invoked_through_call_or_apply>`_.
+
+Custom Event Routing
+^^^^^^^^^^^^^^^^^^^^
+
+The ``HIEvent`` feature can be wicked handy when used in conjunction with some slick programming patterns:
+
+.. code-block:: javascript
+
+    var events = ['cut', 'copy', 'paste']; // Events we want to handle
+    var routes = { // What functions to call for each event
+        'cut': funciton(event, cutData) { HI.log.info('Do cut stuff'); },
+        'copy': funciton(event, copiedData) { HI.log.info('Do copy stuff'); },
+        'paste': funciton(event, pastedData) { HI.log.info('Do paste stuff'); },
+    };
+    var router = function() {
+        // Call the function matching the event that was triggered
+        var args = Array.apply(null, arguments);
+        routes[this.HIEvent].apply(this, args);
+    }
+    HI.on(events, router);
+
+Some readers will see this and think, "Well that's rather contrived!  What's the point?" and others will think, "Oooooh!  I'm so gonna use that!  That *is* handy!"
+
+Let Users Define Their Own Keyboard Shortcuts
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+If you combine the example above with the event remapping capability you can let your users define their own custom keyboard shortcuts for any and all functions in your application!
+
+.. code-block:: javascript
+
+    // Pretend these are the functions you want to assign to keyboard shortcuts:
+    var someFunc = function(e) { HI.log.info('Some function'); return false; };
+    var otherFunc = function(e) { HI.log.info('Other function'); return false; };
+    // Create a mapping of names-to-functions (this won't change):
+    var funcMap = {
+        somefunc: someFunc,
+        otherfunc: otherFunc,
+        somefeature: HI.noop // Yet-to-be-assigned example
+    };
+    // Create an event map that maps events-to-names (the keys will change):
+    var eventMap = {
+        'ctrl-i': 'somefunc', // Note: All lowercase
+        'ctrl-m': 'otherfunc'
+    };
+    // Instantiate with your eventMap (or call map() with it later)
+    var HI = new HumanInput(window, {eventMap: eventMap});
+    var router = function() {
+        // Call the function matching the event that was triggered
+        var args = Array.apply(null, arguments);
+        funcMap[this.HIEvent].apply(this, args);
+    }
+    // Assign our custom events (from funcMap) to call our router function:
+    HI.on(Object.keys(funcMap), router);
+
+**Explanation:**  In the above example, if the user types ``ctrl-f`` it will be automatically remapped (renamed) to ``somefunc`` when the event is triggered.  Since our ``router()`` function is bound to the ``somefunc`` event it's what will get called by HumanInput.  Then the ``router()`` function will call the respective function in our pretend application like so: ``funcMap[this.HIEvent].apply(this, args)``.
+
+*That's all fine and good but how do I use it to let my users assign their own keyboard shortcuts?*  Here's how:
+
+  .. code-block:: javascript
+
+    // Use the recording feature!
+    // Pretend we have this awesome GUI API that creates dialog windows:
+    var closeDialog = GUI.dialog('Press the keystroke you wish to be assigned to someFunc');
+    HI.startRecording();
+    HI.once('keyup', function(e) {
+        var keystroke = HI.stopRecording('keystroke');
+        HI.log.info('User typed keystroke: ', keystroke);
+        // Replace the key:value that calls someFunc with a new one
+        for (var item in eventMap) {
+            if (eventMap[item] == 'somefunc') {
+                delete eventMap[item]; // Get rid of the old one
+                eventMap[keystroke] = 'somefunc'; // Put in the new one
+                break;
+            }
+        }
+        HI.map(eventMap); // Update the eventMap in the current instance
+        closeDialog(); // Close the dialog; you're done!
+    });
+    // The user can now use the new keystroke to call someFunc!
+
+Presumably you'll serialize the ``eventMap`` to JSON and store it somewhere it gets restored when the user loads the page.  Now your application supports customizable keyboard shortcuts like a native app!
+
+HumanInput Plugins
+==================
+
+Clapper Plugin
+--------------
+
+The Clapper plugin (which is automatically included in the '-full' version of humaninput.js) can detect clapping sounds like the old fashioned Clapper.  Here's how to use it:
+
+.. code-block:: javascript
+
+    HI.on('clap', doClap);
+    HI.on('doubleclap', clapOnClapOff);
+    HI.on('applause', thankYouThankYou);
+
+The Clapper plugin supports two settings:
+
+* ``clapThreshold`` (number) [120]: Relative amplitude microphone input needs to go over before a sound is considered a 'clap'.
+* ``autostartClapper`` (bool) [false]: Controls whether or not the plugin should start listening for clapping sounds immediately after instantiation.
+* ``autotoggleClapper`` (bool) [true]: Controls whether or not the plugin will automatically pause and resume itself when the page becomes hidden/unhidden.
+
+You can tell the plugin to start listening for clap events by calling ``HI.startClapper()`` and stop listening by calling ``HI.stopClapper()``.  If the page becomes hidden the plugin will automatically stop listening for clap events and resume when the user returns to the page unless ``autotoggleClapper == false``.
+
+Note
+  There's a demo for speech recognition in the demo directory named, 'clapper'.
+
+Gamepad Plugin
+--------------
+
+The HumanInput Gamepad plugin (which is automatically included in the '-full' version of humaninput.js) adds support for gamepads and joysticks allowing the use of the following event types:
+
+========================= =============================     =======================================
+Event                     Description                       Arguments
+========================= =============================     =======================================
+``gpad:connected``        A gamepad was connected           (<Gamepad object>)
+``gpad:disconnected``     A gamepad was connected           (<Gamepad object>)
+``gpad:button:<n>``       State of button *n* changed       (<Button Value>, <Gamepad object>)
+``gpad:button:<n>:down``  Button *n* was pressed (down)     (<Button Value>, <Gamepad object>)
+``gpad:button:<n>:up``    Button *n* was released (up)      (<Button Value>, <Gamepad object>)
+``gpad:button:<n>:value`` Button *n* value has changed      (<Button Value>, <Gamepad object>)
+``gpad:axis:<n>``         Gamepad axis *n* changed          (<Button axis value>, <Gamepad object>)
+========================= =============================     =======================================
+
+Detection Events
+^^^^^^^^^^^^^^^^
+
+Whenever a new gamepad is detected or disconnected the ``gpad:connected`` and ``gpad:disconnected`` events will be triggered, respectively with the Gamepad object as the only argument.
+
+Button Events
+^^^^^^^^^^^^^
+
+When triggered, gpad:button events are called like so:
+
+.. code-block:: javascript
+
+    HI.trigger(event, buttonValue, gamepadObj);
+
+You can listen for button events using ``HumanInput.on()`` like so:
+
+.. code-block:: javascript
+
+    // Ensure 'gamepad' is included in listenEvents if not calling gamepadUpdate() in your own loop:
+    var settings = {addEvents: ['gamepad']};
+    var HI = new HumanInput(window, settings);
+    var shoot = function(buttonValue, gamepadObj) {
+        HI.log.info('Fire! Button value:', buttonValue, 'Gamepad object:', gamepadObj);
+    };
+    HI.on('gpad:button:1:down', shoot); // Call shoot(buttonValue, gamepadObj) when gamepad button 1 is down
+    var stopShooting = function(buttonValue, gamepadObj) {
+        HI.log.info('Cease fire! Button value:', buttonValue, 'Gamepad object:', gamepadObj);
+    };
+    HI.on('gpad:button:1:up', stopShooting); // Call stopShooting(buttonValue, gamepadObj) when gamepad button 1 is released (up)
+
+For more detail with button events (e.g. you want fine-grained control with pressure-sensitive buttons) just neglect to add ``:down`` or ``:up`` to the event:
+
+.. code-block:: javascript
+
+    HI.on('gpad:button:6', shoot);
+
+Note
+  The resulting buttonValue can be any value between 0 (up) and 1 (down).  Pressure sensitive buttons (like L2 and R2 on a DualShock controller) will often have floating point values representing how far down the button is pressed such as ``0.8762931823730469``.
+
+Button Combo Events
+^^^^^^^^^^^^^^^^^^^
+
+When multiple gamepad buttons are held down a button combo event will be fired like so:
+
+.. code-block:: javascript
+
+    HI.trigger("gpad:button:0-gpad:button:1", gamepadObj);
+
+In the above example gamepad button 0 and button 1 were both held down simultaneously.  This works with as many buttons as the gamepad supports and can be extremely useful for capturing diagonal movement on a dpad.  For example, if you know that button 14 is left and button 13 is right you can use them to define diagonal movement like so:
+
+.. code-block:: javascript
+
+    HI.on("gpad:button:13-gpad:button:14", downLeft);
+
+Events triggered in this way will be passed the Gamepad object as the only argument.
+
+Note
+  Button combo events will always trigger *before* other button events.
+
+Axis Events
+^^^^^^^^^^^
+
+When triggered, gpad:axis events are called like so:
+
+.. code-block:: javascript
+
+    HI.trigger(event, axisValue, GamepadObj);
+
+You can listen for axis events using ``HumanInput.on()`` like so:
+
+.. code-block:: javascript
+
+    var moveBackAndForth = function(axisValue, gamepadObj) {
+        if (axisValue < 0) {
+            console.log('Moving forward at speed: ' + axisValue);
+        } else if (axisValue > 0) {
+            console.log('Moving backward at speed: ' + axisValue);
+        }
+    };
+    HI.on('gpad:axis:1', moveBackAndForth);
+
+.. topic:: Game and Application Loops
+
+    If your game or application has its own event loop that runs at least once every ~100ms or so then it may be beneficial to call ``HumanInput.gamepadUpdate`` inside your own loop *instead* of passing 'gamepad' via the 'listenEvents' (or 'addEvents') setting.  Calling ``HumanInput.gamepadUpdate()`` is very low overhead (takes less than a millisecond) but HumanInput's default gamepad update loop is only once every 100ms. If you don't want to use your own loop but want HumanInput to update the gamepad events more rapidly you can reduce the 'gpadInterval' setting.  Just note that if you set it too low it will increase CPU utilization which may have negative consequences for your application.
+
+Note
+  The update interval timer will be disabled if the page is no longer visible (i.e. the user switched tabs).  The interval timer will be restored when the page becomes visible again.  This is handled via the Page Visibility API (visibilitychange event).
+
+Gamepad State Tracking
+^^^^^^^^^^^^^^^^^^^^^^
+
+The state of all buttons and axes on all connected gamepads/joysticks can be read at any time via the ``HumanInput.gamepads`` property:
+
+.. code-block:: javascript
+
+    var HI = HumanInput();
+    for (var i=0; i < HI.gamepads.length; i++) {
+        console.log('Gamepad ' + i + ':', HI.gamepads[i]);
+    });
+
+Note
+  The index position of a gamepad in the ``HumanInput.gamepads`` array will always match the Gamepad object's 'index' property.
+
+Handling Multiple Gamepads
+^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Since HumanInput 'gpad' events don't include the index of the gamepad device (for performance reasons) you'll need to distinguish between gamepads by looking at the 'index' property of the browser's Gamepad object (which will be passed as the second argument for all button/axis callbacks).  Fortunately this is trivial as you can see:
+
+.. code-block:: javascript
+
+    HI.on('gpad:button:1:down', function(buttonVal, gamepadObj) {
+        var gamepad = gamepadObj.index; // This is the differentiator
+        // Pretend we're tracking which gamepad is which player inside playersObj:
+        var player = playersObj[gamepad];
+        // Do button 1 stuff for that player (the one using this gamepad)
+    });
+
+Idle Plugin
+-----------
+
+The HumanInput Idle plugin (which is automatically included in the '-full' version of humaninput.js) regularly checks for user activity and triggers the 'idle' event if no activity is detected within a given 'idleTimeout' (default: 5m).  When triggered, the 'idle' event will pass the ``Date()`` object representing the last period of activity as the only argument.  Here's an example of how to use it:
+
+.. code-block:: javascript
+
+    HI.on('idle', function(lastActivity) {
+        console.log('User is idle. They were last active at:', lastActivity);
+    });
+
+Note About Efficiency
+  The Idle plugin is *extremely* efficient:  It only checks for user activity every five seconds by default (controlled via 'idleCheckInterval') and does *not* waste loads of CPU with endles mousemove events (as is typical in the world of JavaScript idle checking functions/features).  It uses 'click', 'keydown', 'scroll' and 'mousemove' events to detect user activity but the latter ('mousemove') is what only gets checked/added/removed every five seconds.  In between those five seconds there won't actually be anything listening for the 'mousemove' event.
+
+Idle Plugin Functions
+^^^^^^^^^^^^^^^^^^^^^
+
+You can start and stop the idle plugin checking for inactivity via the ``HI.startIdleChecker()`` and ``HI.stopIdleChecker()`` functions.
+
+Idle Plugin Settings
+^^^^^^^^^^^^^^^^^^^^
+
+* autostartIdle (bool) [true]:  Whether or not the idle checker will start automatically.  Note: It only starts if 'idle' is in 'listenEvents' (and it's there by default).
+* idleTimeout (string) ['5m']:  How long without activity before the 'idle' event will be triggered.  Note: It takes human-readable strings to represent periods of time (see table below).
+* idleCheckInterval (number) ['5s']:  How often should user activity be checked in milliseconds.
+
+Time Strings
+^^^^^^^^^^^^
+
+=========   ============ =========================
+Character   Meaning      Example
+=========   ============ =========================
+(none)      Milliseconds '500' -> 500 Milliseconds
+s           Seconds      '60s' -> 60 Seconds
+m           Minutes      '5m'  -> 5 Minutes
+h           Hours        '24h' -> 24 Hours
+d           Days         '7d'  -> 7 Days
+M           Months       '2M'  -> 2 Months
+y           Years        '10y' -> 10 Years
+=========   ============ =========================
+
+Speech Recognition Plugin
+-------------------------
+
+The HumanInput Gamepad plugin (which is automatically included in the '-full' version of humaninput.js) adds support for triggering events based on speech recognition.  It only works in Chrome at the moment but some day other browsers will support speech recognition too.  Here's how to use it:
+
+.. code-block:: javascript
+
+    // Call a function when "This is a test" is recognized
+    HI.on('speech:"This is a test"', function(e) {
+        HI.log.info("Recognized 'This is a test'");
+    });
+    // Call a function when "this is" is recognized as fast as possible
+    HI.on('speech:rt"This is a"', function(e) {
+        HI.log.info("Recognized 'This is a test'");
+    });
+    // Call a function when *any* speech is recognized (do what you want with it)
+    HI.on('speech', function(e) {
+        HI.log.info("Recognized:", transcript);
+    });
+    // Call a function when *any* speech is recognized in real-time
+    // (useful for detecting when it's processing)
+    HI.on('speech:rt', function(e) {
+        HI.log.info("Recognized:", transcript);
+    });
+
+Note
+  There's a demo for speech recognition in the demo directory named, 'dictate'.
+
+What's the difference between ``speech`` and ``speech:rt``?  The 'speech:rt' form is fired more often and isn't as accurate.  It's basically, "our best immediate guess as to what you said" whereas 'speech' is for the final, "after careful analysis this is what the computer thinks you said."
+
+Language Selection
+^^^^^^^^^^^^^^^^^^
+
+The speech recognition plugin attempts to detect your speaking language using the locale set in your browser.  If it cannot be detected it will fall back to using "en_US".  Alternatively, you can specify 'speechLang' as a setting when instantiating HumanInput like so:
+
+.. code-block:: javascript
+
+    var settings = {speechLang: "en_US"};
+    var HI = new HumanInput(window, settings);
+
+Starting Speech Recognition (and autostartSpeech)
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+By default the speech recognition plugin does not start listening for speech until you invoke ``HI.startSpeechRec()``.  You can later stop listening for speech by calling ``HI.stopSpeechRec()``.  If you want speech recognition to start immediately after HumanInput is instantiated supply the ``autostartSpeech = true`` setting:
+
+.. code-block:: javascript
+
+    var settings = {autostartSpeech: true};
+    var HI = new HumanInput(window, settings);
+
+Note
+  Speech recognition will automatically be paused when the document becomes hidden and resumed when it becomes visible (active) again.
+
+Feedback Plugin
+---------------
+
+.. image:: https://thumbs.gfycat.com/SecondhandOrganicBasil-size_restricted.gif
+    :alt: Feedback Plugin Example
+    :width: 500
+    :height: 281
+    :align: center
+
+The HumanInput Feedback plugin (which is automatically included in the '-full' version of humaninput.js) adds support for providing visual, audio, and vibration feedback for triggered events.  You can enable each feedback type via the ``visualFeedback``, ``audioFeedback``, and ``vibrationFeedback`` settings:
+
+.. code-block:: javascript
+
+    var settings = {visualFeedback: true, audioFeedback: true, vibrationFeedback: true};
+    var HI = new HumanInput(window, settings);
+
+You can specify the element to display visual feedback via the ``feedbackElem`` setting:
+
+.. code-block:: javascript
+
+    var settings = {visualFeedback: true, feedbackElem: '#my_feedback_element'};
+    var HI = new HumanInput(window, settings);
+
+If you do not specify an element HumanInput will automatically add a ``#hi_feedback`` div to the ``document.body`` of the web page in question along with a basic ``<style>`` tag.
+
+.. note:: Vibration feedback is really only useful on mobile devices so by default it is only enabled for ``pointer:down`` and ``pointer:up``.  Also, it is much more useful as a debugging tool than an actual user interaction tool.
+
+You can specify which events apply to the three different feedback types via the ``visualEvents``, ``audioEvents``, and ``vibrationEvents`` settings.  Example:
+
+.. code-block:: javascript
+
+    // Only display visual feedback for keydown events
+    var settings = {visualFeedback: true, visualEvents: ['keydown']};
+    var HI = new HumanInput(window, settings);
+
+Customizing/Developing HumanInput
+=================================
+
+So you want a custom version eh?  Piece of cake!  You just need to clone this repo (you probably already did that) and install a few things:
+
+.. code-block:: shell
+
+    # You need the Node Package Manager and make (you probably already have it):
+    sudo apt-get install npm make
+    # Install (latest) webpack globally as a command line tool:
+    sudo npm install webpack@2.1.0-beta.15 -g
+    npm install # Install dependencies (locally in the HumanInput dir)
+
+Now you're ready to build HumanInput.  Just run ``make`` (or ``npm run build``) and you should see something like this:
+
+.. image:: https://i.imgur.com/gCtGQCm.png
+    :alt: Example running make
+    :width: 617
+    :height: 434
+    :align: center
+
+Tip:
+  You can run ``make dev`` and ``make prod`` to build unminified and minified versions, respectively.  There's also 'scripts' for npm so you can run ``npm run build:dev`` and ``npm run build:prod`` too.
+
+Customizing
+-----------
+
+To build a custom version of HumanInput with *just* the things you want just edit ``src/humaninput-full.js`` and comment out the features you don't want.  For example, let's say you want everything but the Speech Recognition plugin.  Just delete that ``import`` line or turn it into a comment like this:
+
+.. code-block:: javascript
+
+    // Speech recognition
+    //import SpeechRecPlugin from './speechrec';
+
+Now when you run ``make`` the '-full.js' version of HumanInput will include everything *but* the Speech Recognition feature.

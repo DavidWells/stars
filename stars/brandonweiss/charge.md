@@ -1,0 +1,101 @@
+---
+repo: brandonweiss/charge
+url: 'https://github.com/brandonweiss/charge'
+homepage: 'https://charge.js.org'
+starredAt: '2019-11-05T04:23:15Z'
+createdAt: '2018-03-12T22:03:23Z'
+updatedAt: '2025-02-11T07:39:30Z'
+language: JavaScript
+license: MIT
+branch: master
+stars: 428
+isPublic: true
+isTemplate: false
+isArchived: false
+isFork: false
+hasReadMe: true
+refreshedAt: '2025-02-25T21:19:14.389Z'
+description: '⚡️ An opinionated, zero-config static site generator.'
+tags:
+  - javascript
+  - react
+  - static-site
+  - static-site-generator
+---
+
+<h1 align="center">
+  <br>
+  <img src="media/logomark.svg?sanitize=true" width="300px" alt="Charge">
+  <br>
+  <br>
+  Charge
+  <br>
+  <br>
+</h1>
+
+[![](https://badgen.net/github/checks/brandonweiss/charge?icon=github&label=tests)](https://github.com/brandonweiss/charge/actions)
+[![](https://badgen.net/npm/v/@static/charge?icon=npm)](https://www.npmjs.com/package/@static/charge)
+![](https://badgen.net/npm/node/@static/charge)
+[![](https://badgen.net/david/dep/brandonweiss/charge)](https://david-dm.org/brandonweiss/charge)
+![](https://badgen.net/badge/documentation/lit/purple)
+
+### What?
+
+Charge is an opinionated, zero-config static site generator written in JavaScript. It supports a wide variety of common uses and it does it without needing to be configured or customized. It’s fast, it’s simple, and it works the way you probably expect it to. That’s it.
+
+### Why?
+
+Yeah, I know, another static site generator. Let me be clear, I really did not want to make a static site generator. It’s really the very last thing I wanted to do.
+
+I went on [StaticGen][static-gen] and looked at every JavaScript-based one. I could not find a single one that I thought was simple, well-documented, had the features I needed, was actively maintained, and was designed and worked the way I wanted. So here I am, making a static site generator.
+
+### Highlights
+
+- Zero configuration
+- Templating via [JSX][jsx] and [MDX][mdx]
+- React renders server-side, _not_ client-side
+- Write futuristic JavaScript with [Babel][babel]
+- Write futuristic CSS with [PostCSS][postcss]
+- Live-reloading development server
+- Rebuilds the minimum files necessary
+- Dynamic pages (coming soon)
+- Stellar documentation ✨
+
+## Documentation
+
+You can find the Charge documentation [on the website][docs].
+
+## How is Charge different from GatsbyJS?
+
+[Gatsby][gatsby] is really cool, but it’s very different than Charge, with two particularly large differences.
+
+Gatsby is configuration over convention. It can be used to build complex web applications, but because of that it can be very difficult to understand how to use it. You’ll need to know how to use Webpack, which personally gives me nightmares. It’s likely that you’ll need to spend time learning other tools and then configuring and tweaking Gatsby before you can use it for your site. Charge is convention over configuration. In fact, it has no configuration, it “just works”.
+
+Gatsby renders pages client-side. That means it serves React and some related libraries to the browser along with your components in order to render the pages. Routing also happens client-side. Gatsby _can_ render the initial page load server-side, but there’s no way to _not_ serve hundreds of kilobytes of JavaScript to the browser. Charge uses React to render everything server-side. It generates a truly static site.
+
+More practically, Gatsby is great if you’re building a large, complex website and want lots of control over how you build it. Charge is probably better if you’re building a small website and don’t want to waste time fiddling with configurations and cobbling different tools together.
+
+## Real examples
+
+If you’d like to see everything in practice, check out these sites using Charge.
+
+* [charge.js.org](https://github.com/brandonweiss/charge/tree/master/docs), the documentation for Charge.
+* [brandonweiss.me](https://github.com/brandonweiss/brandonweiss), a personal site.
+
+## Contributing
+
+Bug reports and pull requests are welcome on GitHub at [https://github.com/brandonweiss/charge][github-charge].
+
+## License
+
+The package is available as open source under the terms of the [MIT License][MIT-license].
+
+[static-gen]: https://www.staticgen.com
+[jsx]: https://reactjs.org/docs/introducing-jsx.html
+[mdx]: https://github.com/mdx-js/mdx
+[babel]: https://babeljs.io
+[postcss]: https://postcss.org
+[docs]: https://charge.js.org
+[gatsby]: https://www.gatsbyjs.org
+[github-charge]: https://github.com/brandonweiss/charge
+[MIT-License]: http://opensource.org/licenses/MIT

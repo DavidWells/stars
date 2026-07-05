@@ -1,0 +1,89 @@
+---
+repo: adaltas/node-csv
+url: 'https://github.com/adaltas/node-csv'
+homepage: 'https://csv.js.org'
+starredAt: '2025-01-05T06:17:14Z'
+createdAt: '2010-09-25T14:20:57Z'
+updatedAt: '2025-02-25T12:54:59Z'
+language: CoffeeScript
+license: MIT
+branch: master
+stars: 4107
+isPublic: true
+isTemplate: false
+isArchived: false
+isFork: false
+hasReadMe: true
+refreshedAt: '2025-02-25T19:53:31.915Z'
+description: Full featured CSV parser with simple api and tested against large datasets.
+tags:
+  - csv
+  - nodejs
+  - parser
+  - streaming
+---
+
+<pre>
+     _   _           _        _____  _______      __
+    | \ | |         | |      / ____|/ ____\ \    / /
+    |  \| | ___   __| | ___ | |    | (___  \ \  / /
+    | . ` |/ _ \ / _` |/ _ \| |     \___ \  \ \/ /
+    | |\  | (_) | (_| |  __/| |____ ____) |  \  /
+    |_| \_|\___/ \__,_|\___| \_____|_____/    \/     MIT License
+
+</pre>
+
+# CSV packages for Node.js and the web
+
+This project provides CSV generation, parsing, transformation and serialization for Node.js.
+
+It has been tested and used by a large community over the years and should be considered reliable. It provides every option you would expect from an advanced CSV parser and stringifier.
+
+## Project structure
+
+This repository is a monorepo managed using [Lerna](https://github.com/lerna/lerna). There are 5 projects in the codebase, published as separated NPM packages:
+
+- [`csv`](https://csv.js.org/)
+  ([GitHub](https://github.com/adaltas/node-csv/tree/master/packages/csv)),
+  an umbrella which is itself split into 4 packages.
+- [`csv-generate`](https://csv.js.org/generate/)
+  ([GitHub](https://github.com/adaltas/node-csv/tree/master/packages/csv-generate)),
+  a flexible generator of CSV string and Javascript objects.
+- [`csv-parse`](https://csv.js.org/parse/)
+  ([GitHub](https://github.com/adaltas/node-csv/tree/master/packages/csv-parse)),
+  a parser converting CSV text into arrays or objects.
+- [`csv-stringify`](https://csv.js.org/stringify/)
+  ([GitHub](https://github.com/adaltas/node-csv/tree/master/packages/csv-stringify)),
+  a stringifier converting records into a CSV text.
+- [`stream-transform`](https://csv.js.org/transform/)
+  ([GitHub](https://github.com/adaltas/node-csv/tree/master/packages/stream-transform)),
+  a transformation framework.
+
+## Documentation
+
+The full documentation for the current version is available on the [official CSV project website](https://csv.js.org).
+
+- [Getting Started](https://csv.js.org/project/getting-started/)
+- [Examples](https://csv.js.org/project/examples/)
+- [License](https://csv.js.org/project/license/)
+- [Community](https://csv.js.org/project/contribute/)
+
+## Features
+
+- Extends the native Node.js [transform stream API](http://nodejs.org/api/stream.html#stream_class_stream_transform)
+- Simplicity with the optional callback and sync API
+- Support for ECMAScript modules and CommonJS
+- Large documentation, numerous examples and full unit test coverage
+- Few dependencies, in many cases zero dependencies
+- Node.js support from version 8 to latest
+- Mature project with more than 10 years of history
+
+## License
+
+Licensed under the [MIT License](LICENSE).
+
+## Contributors
+
+The project is sponsored by [Adaltas](https://www.adaltas.com), a Big Data consulting firm based in Paris, France.
+
+- David Worms: <https://github.com/wdavidw>

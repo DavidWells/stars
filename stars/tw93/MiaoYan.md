@@ -1,0 +1,112 @@
+---
+repo: tw93/MiaoYan
+url: 'https://github.com/tw93/MiaoYan'
+homepage: 'https://x.com/HiTw93/status/2010316327853113818'
+starredAt: '2026-01-11T18:11:20Z'
+createdAt: '2020-04-06T10:12:33Z'
+updatedAt: '2026-01-24T19:36:57Z'
+language: Swift
+license: MIT
+branch: main
+stars: 7450
+isPublic: true
+isTemplate: false
+isArchived: false
+isFork: false
+hasReadMe: true
+refreshedAt: '2026-01-24T22:32:31.665Z'
+description: ⛷ Lightweight Markdown app to help you write great sentences.
+tags:
+  - editor
+  - local-first
+  - macos
+  - markdown
+  - markdown-editor
+  - notes-app
+  - swift
+---
+
+<h4 align="right">English | <strong><a href="https://github.com/tw93/MiaoYan/blob/main/README_CN.md">简体中文</a></strong></h4>
+
+<p align="center">
+  <a href="https://miaoyan.app/" target="_blank"><img src="https://gw.alipayobjects.com/zos/k/t0/43.png" width="138" /></a>
+  <h1 align="center">MiaoYan</h1>
+  <div align="center">
+    <a href="https://twitter.com/HiTw93" target="_blank">
+      <img alt="Twitter Follow" src="https://img.shields.io/badge/follow-Tw93-red?style=flat-square&logo=Twitter"></a>
+    <a href="https://t.me/+GclQS9ZnxyI2ODQ1" target="_blank">
+      <img alt="Telegram" src="https://img.shields.io/badge/chat-Telegram-blueviolet?style=flat-square&logo=Telegram"></a>
+    <a href="https://github.com/tw93/MiaoYan/releases" target="_blank">
+      <img alt="GitHub Downloads" src="https://img.shields.io/github/downloads/tw93/MiaoYan/total.svg?style=flat-square"></a>
+    <a href="https://github.com/tw93/MiaoYan/commits" target="_blank">
+      <img alt="GitHub Commit Activity" src="https://img.shields.io/github/commit-activity/m/tw93/MiaoYan?style=flat-square"></a>
+    <a href="https://github.com/tw93/MiaoYan/issues?q=is%3Aissue+is%3Aclosed" target="_blank">
+      <img alt="GitHub Closed Issues" src="https://img.shields.io/github/issues-closed/tw93/MiaoYan.svg?style=flat-square"></a>
+    <img alt="macOS 11.5+" src="https://img.shields.io/badge/macOS-11.5%2B-orange?style=flat-square">
+  </div>
+  <div align="center">Lightweight Markdown note-taking app for macOS</div>
+</p>
+
+<img src="https://raw.githubusercontent.com/tw93/static/main/miaoyan/miaoyan.gif" width="900px" />
+
+## Features
+
+- **Fantastic**: Local-first, no data collection, split editor & preview, LaTeX, Mermaid
+- **Beautiful**: Minimalist design, three-column layout, dark mode, distraction-free
+- **Fast**: Swift 6 native, better performance than Electron-based apps
+- **Simple**: Lightweight, keyboard shortcuts, auto-formatting
+
+## Installation & Setup
+
+1. Download the latest DMG package from [GitHub Releases](https://github.com/tw93/MiaoYan/releases/latest) (Requires macOS 11.5+)
+2. Open DMG and drag MiaoYan.app to Applications (if DMG blocked, run `xattr -cr ~/Downloads/MiaoYan.dmg`)
+3. **First Launch**: Right-click MiaoYan.app in Applications and select "Open"
+   - If still blocked: System Settings → Privacy & Security → Click "Open Anyway"
+   - Or run: `xattr -cr /Applications/MiaoYan.app && open /Applications/MiaoYan.app`
+4. Create a `MiaoYan` folder in iCloud Drive or your preferred location
+5. Open MiaoYan Preferences and set the storage location to this folder
+6. Click the "New Folder" icon in the top-left corner to create document categories and start writing
+
+**Why this security prompt?** MiaoYan is not notarized by Apple (requires paid developer account). The app is open source and safe to use - macOS just needs confirmation on first launch.
+
+After installation, we recommend exploring Preferences (⌘,) to discover MiaoYan's rich customization options, including edit modes, themes, fonts, and more to create your perfect writing environment.
+
+## Split Editor & Preview Mode
+
+Edit and preview side by side with real-time preview and 60fps bidirectional scroll sync.
+
+**Quick Toggle**: Press `⌘\` to instantly toggle split view mode, or enable it in Preferences → Interface → Edit Mode → Split Mode.
+
+Why not WYSIWYG like Typora? We prioritize pure Markdown editing experience, and implementing WYSIWYG in native Swift is overly complex with reliability concerns. Split mode maintains clean editing while providing instant visual feedback.
+
+<img src="https://cdn.tw93.fun/pic/1jZnC4.png" width="100%" alt="Split Editor & Preview Mode" />
+
+## Documentation
+
+- [Markdown Syntax Guide](Resources/Initial/MiaoYan%20Markdown%20Syntax%20Guide.md) - Complete syntax reference with advanced features
+- [PPT Presentation Mode](Resources/Initial/MiaoYan%20PPT.md) - Guide to creating presentations with `---` slide separators
+
+## Support
+
+<a href="https://miaoyan.app/cats.html"><img src="https://miaoyan.app/assets/sponsors.svg" width="1000px" /></a>
+
+1. Cats: Tangyuan & Cola — if MiaoYan helps, <a href="https://miaoyan.app/cats.html" target="_blank">treat them to canned food 🥩</a>.
+2. If you enjoy MiaoYan, please star the project on GitHub and share it with friends who might love it too.
+3. Follow me on [Twitter](https://twitter.com/HiTw93) for the latest updates or join the [Telegram group](https://t.me/+GclQS9ZnxyI2ODQ1) to chat with the community.
+
+## Acknowledgments
+
+- [glushchenko/fsnotes](https://github.com/glushchenko/fsnotes) - Initial project structure reference
+- [stackotter/swift-cmark-gfm](https://github.com/stackotter/swift-cmark-gfm) - Swift Markdown parser
+- [simonbs/Prettier](https://github.com/simonbs/Prettier) - Markdown formatting utilities
+- [raspu/Highlightr](https://github.com/raspu/Highlightr) - Syntax highlighting
+- [TsangerType](https://tsanger.cn/product) - TsangerJinKai font (default font)
+- [hakimel/reveal.js](https://github.com/hakimel/reveal.js) - PPT presentation framework
+- [Vercel](https://vercel.com?utm_source=tw93&utm_campaign=oss) - Static hosting for [miaoyan.app](https://miaoyan.app/)  
+  <a href="https://vercel.com?utm_source=tw93&utm_campaign=oss">
+    <img src="https://gw.alipayobjects.com/zos/k/wr/powered-by-vercel.svg" width="136" alt="Powered by Vercel" />
+  </a>
+
+## License
+
+MIT License - Feel free to use and contribute.
