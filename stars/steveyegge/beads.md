@@ -1,0 +1,99 @@
+---
+repo: steveyegge/beads
+url: 'https://github.com/steveyegge/beads'
+homepage: ''
+starredAt: '2025-11-30T20:05:43Z'
+createdAt: '2025-10-12T03:09:46Z'
+updatedAt: '2025-12-27T22:29:31Z'
+language: Go
+license: MIT
+branch: main
+stars: 6507
+isPublic: true
+isTemplate: false
+isArchived: false
+isFork: false
+hasReadMe: true
+refreshedAt: '2025-12-27T22:31:49.743Z'
+description: Beads - A memory upgrade for your coding agent
+tags:
+  - agents
+  - claude-code
+  - coding
+---
+
+# bd - Beads
+
+**Distributed, git-backed graph issue tracker for AI agents.**
+
+[![License](https://img.shields.io/github/license/steveyegge/beads)](LICENSE)
+[![Go Report Card](https://goreportcard.com/badge/github.com/steveyegge/beads)](https://goreportcard.com/report/github.com/steveyegge/beads)
+[![Release](https://img.shields.io/github/v/release/steveyegge/beads)](https://github.com/steveyegge/beads/releases)
+[![npm version](https://img.shields.io/npm/v/@beads/bd)](https://www.npmjs.com/package/@beads/bd)
+[![PyPI](https://img.shields.io/pypi/v/beads-mcp)](https://pypi.org/project/beads-mcp/)
+
+Beads provides a persistent, structured memory for coding agents. It replaces messy markdown plans with a dependency-aware graph, allowing agents to handle long-horizon tasks without losing context.
+
+## ⚡ Quick Start
+
+```bash
+# Install (macOS/Linux)
+curl -fsSL https://raw.githubusercontent.com/steveyegge/beads/main/scripts/install.sh | bash
+
+# Initialize (Humans run this once)
+bd init
+
+# Tell your agent
+echo "Use 'bd' for task tracking" >> AGENTS.md
+
+```
+
+## 🛠 Features
+
+* **Git as Database:** Issues stored as JSONL in `.beads/`. Versioned, branched, and merged like code.
+* **Agent-Optimized:** JSON output, dependency tracking, and auto-ready task detection.
+* **Zero Conflict:** Hash-based IDs (`bd-a1b2`) prevent merge collisions in multi-agent/multi-branch workflows.
+* **Invisible Infrastructure:** SQLite local cache for speed; background daemon for auto-sync.
+* **Compaction:** Semantic "memory decay" summarizes old closed tasks to save context window.
+
+## 📖 Essential Commands
+
+| Command | Action |
+| --- | --- |
+| `bd ready` | List tasks with no open blockers. |
+| `bd create "Title" -p 0` | Create a P0 task. |
+| `bd dep add <child> <parent>` | Link tasks (blocks, related, parent-child). |
+| `bd show <id>` | View task details and audit trail. |
+| `bd quickstart` | Interactive guide for AI agents. |
+
+## 🔗 Hierarchy & Workflow
+
+Beads supports hierarchical IDs for epics:
+
+* `bd-a3f8` (Epic)
+* `bd-a3f8.1` (Task)
+* `bd-a3f8.1.1` (Sub-task)
+
+**Stealth Mode:** Run `bd init --stealth` to use Beads locally without committing files to the main repo. Perfect for personal use on shared projects.
+
+## 📦 Installation
+
+* **npm:** `npm install -g @beads/bd`
+* **Homebrew:** `brew install steveyegge/beads/bd`
+* **Go:** `go install github.com/steveyegge/beads/cmd/bd@latest`
+
+**Requirements:** Linux (glibc 2.32+), macOS, or Windows.
+
+## 🌐 Community Tools
+
+- **[beads_viewer](https://github.com/Dicklesworthstone/beads_viewer)** - Keyboard-driven terminal UI with kanban board, insights panel, and graph view. Built by [@Dicklesworthstone](https://github.com/Dicklesworthstone).
+- **[beads.el](https://codeberg.org/ctietze/beads.el)** - Emacs UI to browse, edit, and manage beads. Built by [@ctietze](https://codeberg.org/ctietze).
+- **[beads-ui](https://github.com/mantoni/beads-ui)** - Local web interface with live updates and kanban board. `npx beads-ui start`. Built by [@mantoni](https://github.com/mantoni).
+- **[bdui](https://github.com/assimelha/bdui)** - Real-time terminal UI with tree view, dependency graph, and vim-style navigation. Built by [@assimelha](https://github.com/assimelha).
+- **[perles](https://github.com/zjrosen/perles)** - Terminal UI with BQL (Beads Query Language) and multi-view kanban. Built by [@zjrosen](https://github.com/zjrosen).
+- **[vscode-beads](https://marketplace.visualstudio.com/items?itemName=planet57.vscode-beads)** - VS Code extension with issues panel and daemon management. Built by [@jdillon](https://github.com/jdillon).
+
+## 📝 Documentation
+
+* [Installing](docs/INSTALLING.md) | [Agent Workflow](AGENT_INSTRUCTIONS.md) | [Sync Branch Mode](docs/PROTECTED_BRANCHES.md) | [Troubleshooting](docs/TROUBLESHOOTING.md) | [FAQ](docs/FAQ.md)
+* [![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/steveyegge/beads)

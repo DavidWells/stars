@@ -1,0 +1,293 @@
+---
+repo: xolvio/storybook-webpack-federation-plugin
+url: 'https://github.com/xolvio/storybook-webpack-federation-plugin'
+homepage: ''
+starredAt: '2020-12-20T06:04:47Z'
+createdAt: '2020-04-28T08:44:47Z'
+updatedAt: '2024-06-03T08:18:27Z'
+language: JavaScript
+license: MIT
+branch: master
+stars: 57
+isPublic: true
+isTemplate: false
+isArchived: false
+isFork: false
+hasReadMe: true
+refreshedAt: '2025-02-25T21:18:15.710Z'
+description: >-
+  Exposes all the components in your Storybook as Webpack 5 federated
+  components.
+tags:
+  - react
+  - storybook
+  - webpack
+  - webpack-federation
+---
+
+
+# Storybook Webpack Federation Plugin
+
+Exposes all the components in your Storybook as Webpack 5 federated components.
+
+![Cover image](/webpack-federation.png "Cover image")
+
+## Motivation
+
+Design systems are all the fad these days, and we wanted to create an easy way to share them. Since Storybook has proven to be a great way do that, we figured why not also make the source of truth for the current state of components also be the place where you use them?
+
+[Check out the article we wrote about it here.](https://medium.com/qualityfaster/federated-design-systems-with-storybook-8a2e4f1a7108?source=friends_link&sk=a85fde002b7b19eb50f8f80b91193372). And you can follow along in the 
+[the example repo here.](https://github.com/xolvio/webpack-federation-storybook-design-systems-demo)
+
+## Installation
+
+### For your Storybook
+
+Install the plugin.
+
+```bash
+yarn add storybook-webpack-federation-plugin -D
+```
+
+Storybook currently uses Webpack 4, which means we have to do a few extra steps to install Webpack 5 as that's where federation has been added. Once Storybook starts using Webpack 5 we won't need to do these steps.
+
+First we need to install the latest Beta of Webpack5:
+
+```bash
+yarn add webpack@v5.0.0-beta.16 webpack-cli -D
+```
+
+Storybook has its own webpack configuration that you can normally extend, but we can't do that yet so we have to create a new `webpack.config.js` specific for WP5. Here's an example configuration which you might want to customize based on your setup.
+
+```javascript
+const path = require("path");
+
+module.exports = {
+  cache: false,
+
+  mode: "development",
+  devtool: "source-map",
+
+  optimization: {
+    minimize: false,
+  },
+
+  resolve: {
+    extensions: [".jsx", ".js", ".json", ".tsx", ".ts"],
+  },
+
+  module: {
+    rules: [
+      {
+        test: /\.tsx?$/,
+        loader: require.resolve("babel-loader"),
+      },
+      {
+        test: /\.css$/i,
+        use: ["style-loader", "css-loader"],
+      },
+    ],
+  },
+
+  output: {},
+
+  plugins: [],
+};
+```
+
+Next we'll import the Storybook Webpack Federation Plugin:
+
+```javascript
+const {
+  StorybookWebpackFederationPlugin,
+} = require("storybook-webpack-federation-plugin");
+```
+
+Add a new endpoint as an `output` of Storybook:
+
+```javascript
+  output: {
+    // location of where the compiled Storybook lives
+    path: path.resolve(__dirname, "storybook-static/federation"),
+    // the url where Storybook will be accessible from
+    publicPath: "//localhost:3030/federation/",
+  },
+```
+
+And finally configure the plugin itself in the `plugins` section:
+
+```javascript
+plugins: [
+    new StorybookWebpackFederationPlugin({
+      name: "xolvio_ui", // this will be used by the consuming federation host
+      files: { // paths to the components
+        paths: ["./src/**/*.ts{,x}"],
+      },
+    }),
+  ],
+```
+
+For convenience you'll probably want to set npm scripts for building your storybook and federation like this:
+
+```json
+"scripts": {
+    "start": "start-storybook -p 9009 -s public,assets",
+    "build": "yarn build:storybook && yarn build:federation",
+    "build:federation": "rm -rf storybook-static/federation && webpack --mode production",
+    "serve": "http-server ./storybook-static -p 3030 --cors",
+    "build:storybook": "build-storybook -s public,assets"
+}
+```
+
+Let's now build and serve it:
+
+```bash
+yarn build && yarn serve
+```
+
+And that's all for the Storybook side!
+
+### For your app
+
+Install the plugin:
+
+```bash
+yarn add storybook-webpack-federation-plugin -D
+```
+
+We need to make sure we are using the beta version of Webpack 5 here as well:
+
+```bash
+yarn add webpack@v5.0.0-beta.16 -D
+```
+
+Go to your `webpack.config.js` and require the plugin at the top as before:
+
+```javascript
+const {
+  StorybookWebpackFederationPlugin,
+} = require("storybook-webpack-federation-plugin");
+```
+
+Use it in the plugins section:
+
+```javascript
+  plugins: [
+    new StorybookWebpackFederationPlugin({
+      remotes: ["xolvio_ui"],
+    }),
+  ],
+```
+
+Let's add the Storybook endpoint that we exposed above in the app's `index.html`:
+
+```html
+<head>
+  <script src="http://localhost:3030/federation/remoteEntry.js"></script>
+</head>
+```
+
+And now you can start using components from your published Storybook!
+
+```javascript
+import { Background } from "xolvio_ui/elements/Background";
+import { Title } from "xolvio_ui/components/Title";
+import { CenteredContentWrapper } from "xolvio_ui/helpers/CenteredContentWrapper";
+
+export const Services = () => (
+  <CenteredContentWrapper>
+    <Background/>
+    <Title title="hello" subheading="world" />
+  </CenteredContentWrapper>
+);
+
+````
+
+You can also use lazy loading:
+
+```javascript
+const CenteredContentWrapper = React.lazy(() =>
+  import("xolvio_ui/CenteredContentWrapper")
+);
+const Background = React.lazy(() => import("xolvio_ui/Background"));
+const Title = React.lazy(() => import("xolvio_ui/Title"));
+
+export const Services = () => (
+  <React.Suspense fallback={"Loading Components from the Design System"}>
+    <CenteredContentWrapper>
+      <Background />
+      <Title title="hello" subheading="world" />
+    </CenteredContentWrapper>
+  </React.Suspense>
+);
+```
+
+And that's all there is to it! Enjoy :)
+
+We'll come back and update the docs to make this even easier once Storybook is using Webpack 5.
+
+## Do I need this plugin?
+
+We wanted to have the configuration focus on the essentials by using smart defaults and to use globs for exposing multiple modules instead of listing them one by one, which is error prone and boring.
+
+So this is how you would do it if you wanted to use Webpack Federation without our plugin:
+
+```javascript
+new ModuleFederationPlugin({
+  name: "xolvio_ui",
+  library: { type: "var", name: "xolvio_ui" },
+  filename: "remoteEntry.js",
+  exposes: {
+    CenteredContentWrapper: "./src/helpers/CenteredContentWrapper.tsx",
+    Title: "./src/components/Title.tsx",
+    Background: "./src/elements/Background.tsx",
+    Sections: "./src/components/Sections.tsx",
+    ScreenIcon: "./src/components/icons/ScreenIcon.tsx",
+    FlipchartIcon: "./src/components/icons/FlipchartIcon.tsx",
+    ShapesIcon: "./src/components/icons/ShapesIcon.tsx",
+    // (..)
+  },
+  shared: ["react", "react-dom"],
+})
+```
+
+And here's with our plugin:
+
+```javascript
+new StorybookWebpackFederationPlugin({
+  name: "xolvio_ui",
+  files: {
+    paths: ["./src/**/*.ts{,x}"],
+  },
+});
+```
+
+## API
+
+Below you can find a description of the fields in the configuration for this plugin:
+
+```javascript
+{
+  // The name that the consumers will reference as the remote
+  name: "xolvio_ui",
+
+  files: {
+
+    // an array of globs to match your component files
+    paths: ["./src/components/**/*.ts{,x}"],
+
+    // files with .stories. will get ignored, so they don't get exposed on the endpoints. Can also be a RegExp
+    storiesExtension: ".stories." | /\.stories\.,
+
+     // so your App can import "xolvio_ui/components/Title" instead of  "xolvio_ui/src/components/Title"
+    removePrefix: "./src/",
+
+  },
+
+  // by default we share react and react-dom, you can add any aditional packages you would want to be shared
+  shared: ["styled-components"],
+
+  // you can import modules from other federated remotes into your Storybook as well!
+  remotes: ["first-remote", "second-remote"]
+}
+```

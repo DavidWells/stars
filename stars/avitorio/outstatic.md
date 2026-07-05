@@ -1,0 +1,118 @@
+---
+repo: avitorio/outstatic
+url: 'https://github.com/avitorio/outstatic'
+homepage: 'https://Outstatic.com'
+starredAt: '2024-02-15T19:30:19Z'
+createdAt: '2022-09-24T16:40:37Z'
+updatedAt: '2025-02-25T01:52:54Z'
+language: TypeScript
+license: NOASSERTION
+branch: canary
+stars: 2841
+isPublic: true
+isTemplate: false
+isArchived: false
+isFork: false
+hasReadMe: true
+refreshedAt: '2025-02-25T19:59:36.100Z'
+description: Outstatic - A static CMS for Next.js
+tags:
+  - blog
+  - cms
+  - nextjs
+  - react
+  - static-site-generator
+  - typescript
+---
+
+<p align="center">
+  <a href="https://outstatic.com">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/avitorio/outstatic/main/.github/images/readme-illustration-dark.png">
+      <img src="https://raw.githubusercontent.com/avitorio/outstatic/main/.github/images/readme-illustration-light.png">
+    </picture>
+    <h1 align="center">Outstatic</h1>
+  </a>
+</p>
+
+<p align="center">
+  <a aria-label="NPM version" href="https://www.npmjs.com/package/outstatic">
+    <img alt="" src="https://img.shields.io/npm/v/outstatic?style=for-the-badge&labelColor=000000">
+  </a>
+</p>
+
+https://user-images.githubusercontent.com/1417109/197012503-2378f951-c571-492c-a4d6-5e5bba4fae24.mp4
+
+Outstatic is a static site CMS that lives inside your Next.js install. No need for databases, external services, or complicated setups. It allows you to create, edit and save content that is automatically committed to your repository and deployed to your live website.
+
+## Key features
+
+- 📝 Full-featured dashboard
+- 🚀 Fast and easy setup
+- 💾 No database
+- 🏠 Host for free
+- 🧩 Custom Fields
+- 🤖 AI Completions
+
+## Getting started
+
+Visit <a aria-label="outstatic getting started" href="https://outstatic.com/learn">https://outstatic.com/docs/getting-started</a> to get started with Outstatic.
+
+## Documentation
+
+Visit [https://outstatic.com/docs](https://outstatic.com/docs) to view the full documentation.
+
+## Financial Contributors
+
+With just $5 a month, you can keep the development and maintenance gears grinding! Every penny you pitch in fuels our mission to make Outstatic even more awesome.
+
+👉 View options and contribute at [GitHub Sponsors](https://github.com/sponsors/avitorio)
+
+### 🥈 Silver Sponsors
+
+<table>
+  <tr>
+  <td>
+<a aria-label="Puppetry" href="https://www.puppetry.com/?utm_source=Outstatic&utm_medium=sponsorship">
+<img alt="" src="https://raw.githubusercontent.com/avitorio/outstatic/canary/.github/images/puppetry.png" width="196px">
+</a>
+</td>
+  </tr>
+</table>
+
+## Stay up-to-date
+
+The project is constantly improving with new changes being implemented on a daily basis. You can keep up by hitting the **Star** button! I really appreciate it.
+
+![hit-the-star](https://user-images.githubusercontent.com/1417109/197028994-7261693c-0201-4ec7-9c69-a996c9de870c.gif)
+
+## Tech Stack
+
+Outstatic is built on the following stack:
+
+- [Next.js](https://nextjs.org/) – framework
+- [GitHub](https://github.com/) – content storage and auth
+- [Tiptap](https://tiptap.dev/) – text editor
+- [OpenAI](https://openai.com/) - AI completions
+- [Vercel AI SDK](https://sdk.vercel.ai/docs) – AI library
+- [TailwindCSS](https://tailwindcss.com/) – styles
+- [Novel](https://novel.sh) – AI completions and slash command
+
+## Community
+
+The Outstatic community can be found on [GitHub Discussions](https://github.com/avitorio/outstatic/discussions), where you can ask questions, voice ideas, and share your projects.
+
+To chat with other community members you can join the [Outstatic Discord](https://discord.gg/qEjtpn7E6F).
+You can also follow us on [X / Twitter](https://x.com/outstatic).
+
+## Author
+
+- Andre Vitorio ([@andrevitorio](https://twitter.com/andrevitorio))
+
+## Contributing
+
+Please see our [CONTRIBUTING.md](/CONTRIBUTING.md).
+
+<a href="https://github.com/avitorio/outstatic/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=avitorio/outstatic" />
+</a>

@@ -1,0 +1,137 @@
+---
+repo: zizmorcore/zizmor
+url: 'https://github.com/zizmorcore/zizmor'
+homepage: 'http://docs.zizmor.sh/'
+starredAt: '2025-08-14T20:43:18Z'
+createdAt: '2024-08-19T18:26:28Z'
+updatedAt: '2025-08-23T21:24:39Z'
+language: Rust
+license: MIT
+branch: main
+stars: 2928
+isPublic: true
+isTemplate: false
+isArchived: false
+isFork: false
+hasReadMe: true
+refreshedAt: '2025-08-23T22:30:26.294Z'
+description: Static analysis for GitHub Actions
+tags:
+  - github-actions
+  - security
+  - security-tools
+  - static-analysis
+---
+
+# 🌈 zizmor
+
+[![zizmor](https://img.shields.io/badge/%F0%9F%8C%88-zizmor-white?labelColor=white)](https://zizmor.sh/)
+[![CI](https://github.com/zizmorcore/zizmor/actions/workflows/ci.yml/badge.svg)](https://github.com/zizmorcore/zizmor/actions/workflows/ci.yml)
+[![Crates.io](https://img.shields.io/crates/v/zizmor)](https://crates.io/crates/zizmor)
+[![Packaging status](https://repology.org/badge/tiny-repos/zizmor.svg)](https://repology.org/project/zizmor/versions)
+[![GitHub Sponsors](https://img.shields.io/github/sponsors/woodruffw?style=flat&logo=githubsponsors&labelColor=white&color=white)](https://github.com/sponsors/woodruffw)
+[![Discord](https://img.shields.io/badge/Discord-%235865F2.svg?logo=discord&logoColor=white)](https://discord.com/invite/PGU3zGZuGG)
+
+`zizmor` is a static analysis tool for GitHub Actions.
+
+It can find many common security issues in typical GitHub Actions CI/CD setups,
+including:
+
+* Template injection vulnerabilities, leading to attacker-controlled code execution
+* Accidental credential persistence and leakage
+* Excessive permission scopes and credential grants to runners
+* Impostor commits and confusable `git` references
+* ...[and much more]!
+
+[and much more]: https://docs.zizmor.sh/audits/
+
+![zizmor demo](https://zizmor.sh/assets/zizmor-demo.gif)
+
+See [`zizmor`'s documentation](https://docs.zizmor.sh/)
+for [installation steps], as well as a [quickstart] and
+[detailed usage recipes].
+
+[please file them]: https://github.com/zizmorcore/zizmor/issues/new?assignees=&labels=bug%2Ctriage&projects=&template=bug-report.yml&title=%5BBUG%5D%3A+
+
+[installation steps]: https://docs.zizmor.sh/installation/
+
+[quickstart]: https://docs.zizmor.sh/quickstart/
+
+[detailed usage recipes]: https://docs.zizmor.sh/usage/
+
+## License
+
+`zizmor` is licensed under the [MIT License](./LICENSE).
+
+## Contributing
+
+See [our contributing guide!](./CONTRIBUTING.md)
+
+## The name?
+
+*[Now you can have beautiful clean workflows!]*
+
+[Now you can have beautiful clean workflows!]: https://www.youtube.com/watch?v=ol7rxFCvpy8
+
+## Sponsors 💖
+
+`zizmor`'s development is supported by these amazing sponsors!
+
+<!-- @@begin-sponsors@@ -->
+<table width="100%">
+<caption>Logo-level sponsors</caption>
+<tbody>
+<tr>
+<td align="center" valign="top" width="15%">
+<a href="https://grafana.com/">
+<img src="https://avatars.githubusercontent.com/u/7195757?s=100&v=4" width="100px">
+<br>
+Grafana Labs
+</a>
+</td>
+<td align="center" valign="top" width="15%">
+<a href="https://trailofbits.com/">
+<img src="https://avatars.githubusercontent.com/u/2314423?s=100&v=4" width="100px">
+<br>
+Trail of Bits
+</a>
+</td>
+</tr>
+</tbody>
+</table>
+<hr align="center">
+<table width="100%">
+<caption>Name-level sponsors</caption>
+<tbody>
+<tr>
+<td align="center" valign="top">
+<a href="http://tenki.cloud/">
+Tenki Cloud
+</a>
+</td>
+<td align="center" valign="top">
+<a href="https://github.com/ariccio">
+Alexander Riccio
+</a>
+</td>
+</tr>
+</tbody>
+</table>
+<!-- @@end-sponsors@@ -->
+
+Want to see your name or logo above? Consider becoming a sponsor
+through one of the following:
+
+- [GitHub Sponsors](https://github.com/sponsors/woodruffw) (preferred)
+- [thanks.dev](https://thanks.dev/u/gh/woodruffw)
+- [ko-fi](https://ko-fi.com/woodruffw)
+
+## Star History
+
+<a href="https://star-history.com/#zizmorcore/zizmor&Date">
+ <picture>
+   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=zizmorcore/zizmor&type=Date&theme=dark" />
+   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=zizmorcore/zizmor&type=Date" />
+   <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=zizmorcore/zizmor&type=Date" />
+ </picture>
+</a>

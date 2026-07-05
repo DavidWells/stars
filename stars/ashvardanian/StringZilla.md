@@ -1,0 +1,2694 @@
+---
+repo: ashvardanian/StringZilla
+url: 'https://github.com/ashvardanian/StringZilla'
+homepage: 'https://ashvardanian.com/posts/stringzilla/'
+starredAt: '2025-12-15T02:47:52Z'
+createdAt: '2020-08-14T20:15:16Z'
+updatedAt: '2025-12-27T14:03:00Z'
+language: C
+license: Apache-2.0
+branch: main
+stars: 3290
+isPublic: true
+isTemplate: false
+isArchived: false
+isFork: false
+hasReadMe: true
+refreshedAt: '2025-12-27T22:31:48.837Z'
+description: "Up to 100x faster strings for C, C++, CUDA, Python, Rust, Swift, JS, & Go, leveraging NEON, AVX2, AVX-512, SVE, GPGPU, & SWAR to accelerate search, hashing, sorting, edit distances, sketches, and memory ops \U0001F996"
+tags:
+  - dataset
+  - edit-distance
+  - gpu
+  - hash
+  - hashing
+  - information-retrieval
+  - levenshtein-distance
+  - parser
+  - search
+  - simd
+  - sorting-algorithms
+  - string
+  - string-manipulation
+  - string-matching
+  - string-parsing
+  - string-search
+  - substring
+  - unicode
+---
+
+# StringZilla 🦖
+
+![StringZilla banner](https://github.com/ashvardanian/ashvardanian/blob/master/repositories/StringZilla-v4.jpg?raw=true)
+
+Strings are the first fundamental data type every programming language implements in software rather than hardware, so dedicated CPU instructions are rare - and the few that exist are hardly ideal.
+That's why most languages lean on the C standard library (libc) for their string operations, which, despite its name, ships its hottest code in hand-tuned assembly.
+It does exploit SIMD, but it isn't perfect.
+1️⃣ Even on ubiquitous hardware - over a billion 64-bit ARM CPUs - routines such as `strstr` and `memmem` top out at roughly one-third of available throughput.
+2️⃣ SIMD coverage is uneven: fast forward scans don't guarantee speedy reverse searches, hashing and case-mapping is not even part of the standard.
+3️⃣ Many higher-level languages can't rely on libc at all because their strings aren't NUL-terminated - or may even contain embedded zeroes.
+That's why StringZilla exists: predictable, high performance on every modern platform, OS, and programming language.
+
+[![StringZilla Python installs](https://static.pepy.tech/personalized-badge/stringzilla?period=total&units=abbreviation&left_color=black&right_color=blue&left_text=StringZilla%20Python%20installs)](https://github.com/ashvardanian/stringzilla)
+[![StringZilla Rust installs](https://img.shields.io/crates/d/stringzilla?logo=rust&label=Rust%20installs)](https://crates.io/crates/stringzilla)
+![StringZilla code size](https://img.shields.io/github/languages/code-size/ashvardanian/stringzilla)
+
+<!-- Those badges often stay in stale state - greyed out. Consider enabling them later.
+[![Ubuntu status](https://img.shields.io/github/checks-status/ashvardanian/StringZilla/main?checkName=Linux%20CI&label=Ubuntu)](https://github.com/ashvardanian/StringZilla/actions/workflows/release.yml)
+[![Windows status](https://img.shields.io/github/checks-status/ashvardanian/StringZilla/main?checkName=Windows%20CI&label=Windows)](https://github.com/ashvardanian/StringZilla/actions/workflows/release.yml)
+[![macOS status](https://img.shields.io/github/checks-status/ashvardanian/StringZilla/main?checkName=macOS%20CI&label=macOS)](https://github.com/ashvardanian/StringZilla/actions/workflows/release.yml)
+-->
+
+StringZilla is the GodZilla of string libraries, using [SIMD][faq-simd] and [SWAR][faq-swar] to accelerate binary and UTF-8 string operations on modern CPUs and GPUs.
+It delivers up to __10x higher CPU throughput in C, C++, Rust, Python__, and other languages, and can be __100x faster than existing GPU kernels__, covering a broad range of functionality.
+It __accelerates exact and fuzzy string matching, hashing, edit distance computations, sorting, provides allocation-free lazily-evaluated smart-iterators, and even random-string generators__.
+
+[faq-simd]: https://en.wikipedia.org/wiki/Single_instruction,_multiple_data
+[faq-swar]: https://en.wikipedia.org/wiki/SWAR
+
+- 🐂 __[C](#basic-usage-with-c-99-and-newer):__ Upgrade LibC's `<string.h>` to `<stringzilla/stringzilla.h>`  in C 99
+- 🐉 __[C++](#basic-usage-with-c-11-and-newer):__ Upgrade STL's `<string>` to `<stringzilla/stringzilla.hpp>` in C++ 11
+- 🧮 __[CUDA](#cuda):__ Process in-bulk with `<stringzillas/stringzillas.cuh>` in CUDA C++ 17
+- 🐍 __[Python](#quick-start-python):__ Upgrade your `str` to faster `Str`
+- 🦀 __[Rust](#quick-start-rust):__ Use the `StringZilla` traits crate
+- 🦫 __[Go](#quick-start-golang):__ Use the `StringZilla` cGo module
+- 🍎 __[Swift](#quick-start-swift):__ Use the `String+StringZilla` extension
+- 🟨 __[JavaScript](#quick-start-javascript):__ Use the `StringZilla` library
+- 🐚 __[Shell][faq-shell]__: Accelerate common CLI tools with `sz-` prefix
+- 📚 Researcher? Jump to [Algorithms & Design Decisions](#algorithms--design-decisions)
+- 💡 Thinking to contribute? Look for ["good first issues"][first-issues]
+- 🤝 And check the [guide](https://github.com/ashvardanian/StringZilla/blob/main/CONTRIBUTING.md) to set up the environment
+- Want more bindings or features? Let [me](https://github.com/ashvardanian) know!
+
+[faq-shell]: https://github.com/ashvardanian/StringZilla-CLI
+[first-issues]: https://github.com/ashvardanian/StringZilla/issues
+
+__Who is this for?__
+
+- For data-engineers parsing large datasets, like the [CommonCrawl](https://commoncrawl.org/), [RedPajama](https://github.com/togethercomputer/RedPajama-Data), or [LAION](https://laion.ai/blog/laion-5b/).
+- For software engineers optimizing strings in their apps and services.
+- For bioinformaticians and search engineers looking for edit-distances for [USearch](https://github.com/unum-cloud/usearch).
+- For [DBMS][faq-dbms] devs, optimizing `LIKE`, `ORDER BY`, and `GROUP BY` operations.
+- For hardware designers, needing a SWAR baseline for string-processing functionality.
+- For students studying SIMD/SWAR applications to non-data-parallel operations.
+
+[faq-dbms]: https://en.wikipedia.org/wiki/Database
+
+## Performance
+
+<table>
+  <tr>
+    <th align="center" width="25%">C</th>
+    <th align="center" width="25%">C++</th>
+    <th align="center" width="25%">Python</th>
+    <th align="center" width="25%">StringZilla</th>
+  </tr>
+  <!-- Unicode case-folding -->
+  <tr>
+    <td colspan="4" align="center">Unicode case-folding, expanding characters like <code>ß</code> → <code>ss</code></td>
+  </tr>
+  <tr>
+    <td align="center">⚪</td>
+    <td align="center">⚪</td>
+    <td align="center">
+      <code>.casefold</code><br/>
+      <span style="color:#ABABAB;">x86:</span> <b>0.4</b> GB/s
+    </td>
+    <td align="center">
+      <code>sz.utf8_case_fold</code><br/>
+      <span style="color:#ABABAB;">x86:</span> <b>1.3</b> GB/s
+    </td>
+  </tr>
+  <!-- Unicode case-insensitive search -->
+  <tr>
+    <td colspan="4" align="center">Unicode case-insensitive substring search</td>
+  </tr>
+  <tr>
+    <td align="center">⚪</td>
+    <td align="center">⚪</td>
+    <td align="center">
+      <code>icu.StringSearch</code><br/>
+      <span style="color:#ABABAB;">x86:</span> <b>0.02</b> GB/s
+    </td>
+    <td align="center">
+      <code>utf8_case_insensitive_find</code><br/>
+      <span style="color:#ABABAB;">x86:</span> <b>3.0</b> GB/s
+    </td>
+  </tr>
+  <!-- Substrings, normal order -->
+  <tr>
+    <td colspan="4" align="center">find the first occurrence of a random word from text, ≅ 5 bytes long</td>
+  </tr>
+  <tr>
+    <td align="center">
+      <code>strstr</code> <sup>1</sup><br/>
+      <span style="color:#ABABAB;">x86:</span> <b>7.4</b> &centerdot;
+      <span style="color:#ABABAB;">arm:</span> <b>2.0</b> GB/s
+    </td>
+    <td align="center">
+      <code>.find</code><br/>
+      <span style="color:#ABABAB;">x86:</span> <b>2.9</b> &centerdot;
+      <span style="color:#ABABAB;">arm:</span> <b>1.6</b> GB/s
+    </td>
+    <td align="center">
+      <code>.find</code><br/>
+      <span style="color:#ABABAB;">x86:</span> <b>1.1</b> &centerdot;
+      <span style="color:#ABABAB;">arm:</span> <b>0.6</b> GB/s
+    </td>
+    <td align="center">
+      <code>sz_find</code><br/>
+      <span style="color:#ABABAB;">x86:</span> <b>10.6</b> &centerdot;
+      <span style="color:#ABABAB;">arm:</span> <b>7.1</b> GB/s
+    </td>
+  </tr>
+  <!-- Substrings, reverse order -->
+  <tr>
+    <td colspan="4" align="center">find the last occurrence of a random word from text, ≅ 5 bytes long</td>
+  </tr>
+  <tr>
+    <td align="center">⚪</td>
+    <td align="center">
+      <code>.rfind</code><br/>
+      <span style="color:#ABABAB;">x86:</span> <b>0.5</b> &centerdot;
+      <span style="color:#ABABAB;">arm:</span> <b>0.4</b> GB/s
+    </td>
+    <td align="center">
+      <code>.rfind</code><br/>
+      <span style="color:#ABABAB;">x86:</span> <b>0.9</b> &centerdot;
+      <span style="color:#ABABAB;">arm:</span> <b>0.5</b> GB/s
+    </td>
+    <td align="center">
+      <code>sz_rfind</code><br/>
+      <span style="color:#ABABAB;">x86:</span> <b>10.8</b> &centerdot;
+      <span style="color:#ABABAB;">arm:</span> <b>6.7</b> GB/s
+    </td>
+  </tr>
+  <!-- Characters, normal order -->
+  <tr>
+    <td colspan="4" align="center">split lines separated by <code>\n</code> or <code>\r</code> <sup>2</sup></td>
+  </tr>
+  <tr>
+    <td align="center">
+      <code>strcspn</code> <sup>1</sup><br/>
+      <span style="color:#ABABAB;">x86:</span> <b>5.42</b> &centerdot;
+      <span style="color:#ABABAB;">arm:</span> <b>2.19</b> GB/s
+    </td>
+    <td align="center">
+      <code>.find_first_of</code><br/>
+      <span style="color:#ABABAB;">x86:</span> <b>0.59</b> &centerdot;
+      <span style="color:#ABABAB;">arm:</span> <b>0.46</b> GB/s
+    </td>
+    <td align="center">
+      <code>re.finditer</code><br/>
+      <span style="color:#ABABAB;">x86:</span> <b>0.06</b> &centerdot;
+      <span style="color:#ABABAB;">arm:</span> <b>0.02</b> GB/s
+    </td>
+    <td align="center">
+      <code>sz_find_byteset</code><br/>
+      <span style="color:#ABABAB;">x86:</span> <b>4.08</b> &centerdot;
+      <span style="color:#ABABAB;">arm:</span> <b>3.22</b> GB/s
+    </td>
+  </tr>
+  <!-- Characters, reverse order -->
+  <tr>
+    <td colspan="4" align="center">find the last occurrence of any of 6 whitespaces <sup>2</sup></td>
+  </tr>
+  <tr>
+    <td align="center">⚪</td>
+    <td align="center">
+      <code>.find_last_of</code><br/>
+      <span style="color:#ABABAB;">x86:</span> <b>0.25</b> &centerdot;
+      <span style="color:#ABABAB;">arm:</span> <b>0.25</b> GB/s
+    </td>
+    <td align="center">⚪</td>
+    <td align="center">
+      <code>sz_rfind_byteset</code><br/>
+      <span style="color:#ABABAB;">x86:</span> <b>0.43</b> &centerdot;
+      <span style="color:#ABABAB;">arm:</span> <b>0.23</b> GB/s
+    </td>
+  </tr>
+  <!-- Random Generation -->
+  <tr>
+    <td colspan="4" align="center">Random string from a given alphabet, 20 bytes long <sup>3</sup></td>
+  </tr>
+  <tr>
+    <td align="center">
+      <code>rand() % n</code><br/>
+      <span style="color:#ABABAB;">x86:</span> <b>18.0</b> &centerdot;
+      <span style="color:#ABABAB;">arm:</span> <b>9.4</b> MB/s
+    </td>
+    <td align="center">
+      <code>uniform_int_distribution</code><br/>
+      <span style="color:#ABABAB;">x86:</span> <b>47.2</b> &centerdot;
+      <span style="color:#ABABAB;">arm:</span> <b>20.4</b> MB/s
+    </td>
+    <td align="center">
+      <code>join(random.choices(x))</code><br/>
+      <span style="color:#ABABAB;">x86:</span> <b>13.3</b> &centerdot;
+      <span style="color:#ABABAB;">arm:</span> <b>5.9</b> MB/s
+    </td>
+    <td align="center">
+      <code>sz_fill_random</code><br/>
+      <span style="color:#ABABAB;">x86:</span> <b>56.2</b> &centerdot;
+      <span style="color:#ABABAB;">arm:</span> <b>25.8</b> MB/s
+    </td>
+  </tr>
+  <!-- Mapping characters with lookup table transforms -->
+  <tr>
+    <td colspan="4" align="center">Mapping characters with lookup table transforms</td>
+  </tr>
+  <tr>
+    <td align="center">⚪</td>
+    <td align="center">
+      <code>std::transform</code><br/>
+      <span style="color:#ABABAB;">x86:</span> <b>3.81</b> &centerdot;
+      <span style="color:#ABABAB;">arm:</span> <b>2.65</b> GB/s
+    </td>
+    <td align="center">
+      <code>str.translate</code><br/>
+      <span style="color:#ABABAB;">x86:</span> <b>260.0</b> &centerdot;
+      <span style="color:#ABABAB;">arm:</span> <b>140.0</b> MB/s
+    </td>
+    <td align="center">
+      <code>sz_lookup</code><br/>
+      <span style="color:#ABABAB;">x86:</span> <b>21.2</b> &centerdot;
+      <span style="color:#ABABAB;">arm:</span> <b>8.5</b> GB/s
+    </td>
+  </tr>
+  <!-- Sorting -->
+  <tr>
+    <td colspan="4" align="center">Get sorted order, ≅ 8 million English words <sup>4</sup></td>
+  </tr>
+  <tr>
+    <td align="center">
+      <code>qsort_r</code><br/>
+      <span style="color:#ABABAB;">x86:</span> <b>3.55</b> &centerdot;
+      <span style="color:#ABABAB;">arm:</span> <b>5.77</b> s
+    </td>
+    <td align="center">
+      <code>std::sort</code><br/>
+      <span style="color:#ABABAB;">x86:</span> <b>2.79</b> &centerdot;
+      <span style="color:#ABABAB;">arm:</span> <b>4.02</b> s
+    </td>
+    <td align="center">
+      <code>numpy.argsort</code><br/>
+      <span style="color:#ABABAB;">x86:</span> <b>7.58</b> &centerdot;
+      <span style="color:#ABABAB;">arm:</span> <b>13.00</b> s
+    </td>
+    <td align="center">
+      <code>sz_sequence_argsort</code><br/>
+      <span style="color:#ABABAB;">x86:</span> <b>1.91</b> &centerdot;
+      <span style="color:#ABABAB;">arm:</span> <b>2.37</b> s
+    </td>
+  </tr>
+  <!-- Edit Distance -->
+  <tr>
+    <td colspan="4" align="center">Levenshtein edit distance, text lines ≅ 100 bytes long</td>
+  </tr>
+  <tr>
+    <td align="center">⚪</td>
+    <td align="center">⚪</td>
+    <td align="center">
+      via <code>NLTK</code> <sup>5</sup> and <code>CuDF</code><br/>
+      <span style="color:#ABABAB;">x86:</span> <b>1,615,306</b> &centerdot;
+      <span style="color:#ABABAB;">arm:</span> <b>1,349,980</b> &centerdot;
+      <span style="color:#ABABAB;">cuda:</span> <b>6,532,411,354</b> CUPS
+    </td>
+    <td align="center">
+      <code>szs_levenshtein_distances_t</code><br/>
+      <span style="color:#ABABAB;">x86:</span> <b>3,434,427,548</b> &centerdot;
+      <span style="color:#ABABAB;">arm:</span> <b>1,605,340,403</b> &centerdot;
+      <span style="color:#ABABAB;">cuda:</span> <b>93,662,026,653</b> CUPS
+    </td>
+  </tr>
+  <!-- Alignment Score -->
+  <tr>
+    <td colspan="4" align="center">Needleman-Wunsch alignment scores, proteins ≅ 1 K amino acids long</td>
+  </tr>
+  <tr>
+    <td align="center">⚪</td>
+    <td align="center">⚪</td>
+    <td align="center">
+      via <code>biopython</code> <sup>6</sup><br/>
+      <span style="color:#ABABAB;">x86:</span> <b>575,981,513</b> &centerdot;
+      <span style="color:#ABABAB;">arm:</span> <b>436,350,732</b> CUPS
+    </td>
+    <td align="center">
+      <code>szs_needleman_wunsch_scores_t</code><br/>
+      <span style="color:#ABABAB;">x86:</span> <b>452,629,942</b> &centerdot;
+      <span style="color:#ABABAB;">arm:</span> <b>520,170,239</b> &centerdot;
+      <span style="color:#ABABAB;">cuda:</span> <b>9,017,327,818</b> CUPS
+    </td>
+  </tr>
+</table>
+
+Most StringZilla modules ship ready-to-run benchmarks for C, C++, Python, and more.
+Grab them from `./scripts`, and see [`CONTRIBUTING.md`](CONTRIBUTING.md) for instructions.
+On CPUs that permit misaligned loads, even the 64-bit SWAR baseline outruns both libc and the STL.
+For wider head-to-heads against Rust and Python favorites, browse the __[StringWars][stringwars]__ repository.
+To inspect collision resistance and distribution shapes for our hashers, see __[HashEvals][hashevals]__.
+
+[stringwars]: https://github.com/ashvardanian/StringWars
+[hashevals]: https://github.com/ashvardanian/HashEvals
+
+> Most benchmarks were conducted on a 1 GB English text corpus, with an average word length of 6 characters.
+> The code was compiled with GCC 12, using `glibc` v2.35.
+> The benchmarks were performed on Arm-based Graviton3 AWS `c7g` instances and `r7iz` Intel Sapphire Rapids.
+> Most modern Arm-based 64-bit CPUs will have similar relative speedups.
+> Variance within x86 CPUs will be larger.
+> For CUDA benchmarks, the Nvidia H100 GPUs were used.
+> <sup>1</sup> Unlike other libraries, LibC requires strings to be NULL-terminated.
+> <sup>2</sup> Six whitespaces in the ASCII set are: ` \t\n\v\f\r`. Python's and other standard libraries have specialized functions for those.
+> <sup>3</sup> All modulo operations were conducted with `uint8_t` to allow compilers more optimization opportunities.
+> The C++ STL and StringZilla benchmarks used a 64-bit [Mersenne Twister][faq-mersenne-twister] as the generator.
+> For C, C++, and StringZilla, an in-place update of the string was used.
+> In Python every string had to be allocated as a new object, which makes it less fair.
+> <sup>4</sup> Contrary to the popular opinion, Python's default `sorted` function works faster than the C and C++ standard libraries.
+> That holds for large lists or tuples of strings, but fails as soon as you need more complex logic, like sorting dictionaries by a string key, or producing the "sorted order" permutation.
+> The latter is very common in database engines and is most similar to `numpy.argsort`.
+> The current StringZilla solution can be at least 4x faster without loss of generality.
+> <sup>5</sup> Most Python libraries for strings are also implemented in C.
+> <sup>6</sup> Unlike the rest of BioPython, the alignment score computation is [implemented in C](https://github.com/biopython/biopython/blob/master/Bio/Align/_pairwisealigner.c).
+
+[faq-mersenne-twister]: https://en.wikipedia.org/wiki/Mersenne_Twister
+
+## Functionality
+
+StringZilla is compatible with most modern CPUs, and provides a broad range of functionality.
+It's split into 2 layers:
+
+1. StringZilla: single-header C library and C++ wrapper for high-performance string operations.
+2. StringZillas: parallel CPU/GPU backends used for large-batch operations and accelerators.
+
+Having a second C++/CUDA layer greatly simplifies the implementation of similarity scoring and fingerprinting functions, which would otherwise require too much error-prone boilerplate code in pure C.
+Both layers are designed to be extremely portable:
+
+- [x] across both little-endian and big-endian architectures.
+- [x] across 32-bit and 64-bit hardware architectures.
+- [x] across operating systems and compilers.
+- [x] across ASCII and UTF-8 encoded inputs.
+
+Not all features are available across all bindings.
+Consider contributing if you need a feature that's not yet implemented.
+
+|                                | Maturity |   C   |  C++  | Python | Rust  |  JS   | Swift |  Go   |
+| :----------------------------- | :------: | :---: | :---: | :----: | :---: | :---: | :---: | :---: |
+| Substring Search               |    🌳     |   ✅   |   ✅   |   ✅    |   ✅   |   ✅   |   ✅   |   ✅   |
+| Character Set Search           |    🌳     |   ✅   |   ✅   |   ✅    |   ✅   |   ✅   |   ✅   |   ✅   |
+| Sorting & Sequence Operations  |    🌳     |   ✅   |   ✅   |   ✅    |   ✅   |   ⚪   |   ⚪   |   ⚪   |
+| Lazy Ranges, Compressed Arrays |    🌳     |   ❌   |   ✅   |   ✅    |   ✅   |   ❌   |   ⚪   |   ⚪   |
+| One-Shot & Streaming Hashes    |    🌳     |   ✅   |   ✅   |   ✅    |   ✅   |   ✅   |   ✅   |   ✅   |
+| Cryptographic Hashes           |    🌳     |   ✅   |   ✅   |   ✅    |   ✅   |   ✅   |   ✅   |   ✅   |
+| Small String Class             |    🧐     |   ✅   |   ✅   |   ❌    |   ⚪   |   ❌   |   ❌   |   ❌   |
+| Random String Generation       |    🌳     |   ✅   |   ✅   |   ✅    |   ✅   |   ⚪   |   ⚪   |   ⚪   |
+|                                |          |       |       |        |       |       |       |       |
+| Unicode Case Folding           |    🧐     |   ✅   |   ✅   |   ✅    |   ⚪   |   ⚪   |   ⚪   |   ⚪   |
+| Case-Insensitive UTF-8 Search  |    🚧     |   ✅   |   ✅   |   ✅    |   ⚪   |   ⚪   |   ⚪   |   ⚪   |
+| TR29 Word Boundary Detection   |    🚧     |   ✅   |   ✅   |   ⚪    |   ⚪   |   ⚪   |   ⚪   |   ⚪   |
+|                                |          |       |       |        |       |       |       |       |
+| Parallel Similarity Scoring    |    🌳     |   ✅   |   ✅   |   ✅    |   ✅   |   ⚪   |   ⚪   |   ⚪   |
+| Parallel Rolling Fingerprints  |    🌳     |   ✅   |   ✅   |   ✅    |   ✅   |   ⚪   |   ⚪   |   ⚪   |
+
+> 🌳 parts are used in production.
+> 🧐 parts are in beta.
+> 🚧 parts are under active development, and are likely to break in subsequent releases.
+> ✅ are implemented.
+> ⚪ are considered.
+> ❌ are not intended.
+
+## Quick Start: Python
+
+Python bindings are available on PyPI for Python 3.8+, and can be installed with `pip`.
+
+```bash
+pip install stringzilla         # for serial algorithms
+pip install stringzillas-cpus   # for parallel multi-CPU backends
+pip install stringzillas-cuda   # for parallel Nvidia GPU backend
+```
+
+You can immediately check the installed version and the used hardware capabilities with following commands:
+
+```bash
+python -c "import stringzilla; print(stringzilla.__version__)"
+python -c "import stringzillas; print(stringzillas.__version__)"
+python -c "import stringzilla; print(stringzilla.__capabilities__)"     # for serial algorithms
+python -c "import stringzillas; print(stringzillas.__capabilities__)"   # for parallel algorithms
+```
+
+### Basic Usage
+
+If you've ever used the Python `str`, `bytes`, `bytearray`, or `memoryview` classes, you'll know what to expect.
+StringZilla's `Str` class is a hybrid of the above, providing a `str`-like interface to byte arrays.
+
+```python
+from stringzilla import Str, File
+
+text_from_str = Str('some-string') # no copies, just a view
+text_from_bytes = Str(b'some-array') # no copies, just a view
+text_from_file = Str(File('some-file.txt')) # memory-mapped file
+
+import numpy as np
+alphabet_array = np.arange(ord("a"), ord("z"), dtype=np.uint8)
+text_from_array = Str(memoryview(alphabet_array))
+```
+
+The `File` class memory-maps a file from persistent storage without loading its copy into RAM.
+The contents of that file would remain immutable, and the mapping can be shared by multiple Python processes simultaneously.
+A standard dataset pre-processing use case would be to map a sizable textual dataset like Common Crawl into memory, spawn child processes, and split the job between them.
+
+### Basic Operations
+
+- Length: `len(text) -> int`
+- Indexing: `text[42] -> str`
+- Slicing: `text[42:46] -> Str`
+- Substring check: `'substring' in text -> bool`
+- Hashing: `hash(text) -> int`
+- String conversion: `str(text) -> str`
+
+### Advanced Operations
+
+```py
+import sys
+
+x: bool = text.contains('substring', start=0, end=sys.maxsize)
+x: int = text.find('substring', start=0, end=sys.maxsize)
+x: int = text.count('substring', start=0, end=sys.maxsize, allowoverlap=False)
+x: str = text.decode(encoding='utf-8', errors='strict')
+x: Strs = text.split(separator=' ', maxsplit=sys.maxsize, keepseparator=False)
+x: Strs = text.rsplit(separator=' ', maxsplit=sys.maxsize, keepseparator=False)
+x: Strs = text.splitlines(keeplinebreaks=False, maxsplit=sys.maxsize)
+```
+
+It's important to note that the last function's behavior is slightly different from Python's `str.splitlines`.
+The [native version][faq-splitlines] matches `\n`, `\r`, `\v` or `\x0b`, `\f` or `\x0c`, `\x1c`, `\x1d`, `\x1e`, `\x85`, `\r\n`, `\u2028`, `\u2029`, including 3x two-byte-long runes.
+The StringZilla version matches only `\n`, `\v`, `\f`, `\r`, `\x1c`, `\x1d`, `\x1e`, `\x85`, avoiding two-byte-long runes.
+
+[faq-splitlines]: https://docs.python.org/3/library/stdtypes.html#str.splitlines
+
+### Character Set Operations
+
+Python strings don't natively support character set operations.
+This forces people to use regular expressions, which are slow and hard to read.
+To avoid the need for `re.finditer`, StringZilla provides the following interfaces:
+
+```py
+x: int = text.find_first_of('chars', start=0, end=sys.maxsize)
+x: int = text.find_last_of('chars', start=0, end=sys.maxsize)
+x: int = text.find_first_not_of('chars', start=0, end=sys.maxsize)
+x: int = text.find_last_not_of('chars', start=0, end=sys.maxsize)
+x: Strs = text.split_byteset(separator='chars', maxsplit=sys.maxsize, keepseparator=False)
+x: Strs = text.rsplit_byteset(separator='chars', maxsplit=sys.maxsize, keepseparator=False)
+```
+
+StringZilla also provides string trimming functions and random string generation:
+
+```py
+x: str = text.lstrip('chars')  # Strip leading characters
+x: str = text.rstrip('chars')  # Strip trailing characters
+x: str = text.strip('chars')   # Strip both ends
+x: bytes = sz.random(length=100, seed=42, alphabet='ACGT')  # Random string generation
+sz.fill_random(buffer, seed=42, alphabet=None)  # Fill mutable buffer with random bytes
+```
+
+You can also transform the string using Look-Up Tables (LUTs), mapping it to a different character set.
+This would result in a copy - `str` for `str` inputs and `bytes` for other types.
+
+```py
+x: str = text.translate('chars', {}, start=0, end=sys.maxsize, inplace=False)
+x: bytes = text.translate(b'chars', {}, start=0, end=sys.maxsize, inplace=False)
+```
+
+For efficiency reasons, pass the LUT as a string or bytes object, not as a dictionary.
+This can be useful in high-throughput applications dealing with binary data, including bioinformatics and image processing.
+Here is an example:
+
+```py
+import stringzilla as sz
+look_up_table = bytes(range(256)) # Identity LUT
+image = open("/image/path.jpeg", "rb").read()
+sz.translate(image, look_up_table, inplace=True)
+```
+
+### Hash
+
+Single-shot and incremental hashing are both supported:
+
+```py
+import stringzilla as sz
+
+# One-shot - stable 64-bit output across all platforms!
+one = sz.hash(b"Hello, world!", seed=42)
+
+# Incremental updates return itself; digest does not consume state
+hasher = sz.Hasher(seed=42)
+hasher.update(b"Hello, ").update(b"world!")
+streamed = hasher.digest() # or `hexdigest()` for a string
+assert one == streamed
+```
+
+### SHA-256 Checksums
+
+SHA-256 cryptographic checksums are also available for single-shot and incremental hashing:
+
+```py
+import stringzilla as sz
+
+# One-shot SHA-256
+digest_bytes = sz.sha256(b"Hello, world!")
+assert len(digest_bytes) == 32
+
+# Incremental SHA-256
+hasher = sz.Sha256()
+hasher.update(b"Hello, ").update(b"world!")
+digest_bytes = hasher.digest()
+digest_hex = hasher.hexdigest()  # 64 character lowercase hex string
+
+# HMAC-SHA256 for message authentication
+mac = sz.hmac_sha256(key=b"secret", message=b"Hello, world!")
+```
+
+StringZilla integrates seamlessly with memory-mapped files for efficient large file processing.
+The traditional approach with `hashlib`:
+
+```python
+import hashlib
+
+with open("xlsum.csv", "rb") as streamed_file:
+    hasher = hashlib.sha256()
+    while chunk := streamed_file.read(4096):
+        hasher.update(chunk)
+    checksum = hasher.hexdigest()
+```
+
+Can be simplified with StringZilla:
+
+```python
+from stringzilla import Sha256, File
+
+mapped_file = File("xlsum.csv")
+checksum = Sha256().update(mapped_file).hexdigest()
+```
+
+Both output the same digest: `7278165ce01a4ac1e8806c97f32feae908036ca3d910f5177d2cf375e20aeae1`.
+OpenSSL (powering `hashlib`) has faster Assembly kernels, but StringZilla avoids file I/O overhead with memory mapping and skips Python's abstraction layers:
+
+- OpenSSL-backed `hashlib.sha256`: 12.6s
+- StringZilla end-to-end: 4.0s — __3× faster!__
+
+### Unicode Case-Folding and Case-Insensitive Search
+
+StringZilla implements both Unicode Case Folding and Case-Insensitive UTF-8 Search.
+Unlike most libraries only capable of lower-casing ASCII-represented English alphabet, StringZilla covers over 1M+ codepoints.
+The case-folding API expects the output buffer to be at least 3× larger than the input, to accommodate for the worst-case character expansions scenarios.
+
+```python
+import stringzilla as sz
+
+sz.utf8_case_fold('HELLO')      # b'hello'
+sz.utf8_case_fold('Straße')     # b'strasse' — ß (1 char) expands to "ss" (2 chars)
+sz.utf8_case_fold('eﬃcient')    # b'efficient' — ﬃ ligature (1 char) expands to "ffi" (3 chars)
+```
+
+The case-insensitive search returns the byte offset of the match, handling expansions correctly.
+
+```python
+import stringzilla as sz
+
+sz.utf8_case_insensitive_find('Der große Hund', 'GROSSE')   # 4 — finds "große" at codepoint 4
+sz.utf8_case_insensitive_find('Straße', 'STRASSE')          # 0 — ß matches "SS"
+sz.utf8_case_insensitive_find('eﬃcient', 'EFFICIENT')       # 0 — ﬃ ligature matches "FFI"
+
+# Iterator for finding ALL matches
+haystack = 'Straße STRASSE strasse'
+for match in sz.utf8_case_insensitive_find_iter(haystack, 'strasse'):
+    print(match, match.offset_within(haystack))  # Yields: 'Straße', 'STRASSE', 'strasse'
+
+# With overlapping matches
+list(sz.utf8_case_insensitive_find_iter('aaaa', 'aa'))  # ['aa', 'aa'] — 2 non-overlapping
+list(sz.utf8_case_insensitive_find_iter('aaaa', 'aa', include_overlapping=True))  # 3 matches
+```
+
+### Collection-Level Operations
+
+Once split into a `Strs` object, you can sort, shuffle, and reorganize the slices with minimal memory footprint.
+If all the chunks are located in consecutive memory regions, the memory overhead can be as low as 4 bytes per chunk.
+
+```python
+lines: Strs = text.split(separator='\n') # 4 bytes per line overhead for under 4 GB of text
+batch: Strs = lines.sample(seed=42) # 10x faster than `random.choices`
+lines_shuffled: Strs = lines.shuffled(seed=42) # or shuffle all lines and shard with slices
+lines_sorted: Strs = lines.sorted() # returns a new Strs in sorted order
+order: tuple = lines.argsort() # similar to `numpy.argsort`
+```
+
+Working on [RedPajama][redpajama], addressing 20 billion annotated English documents, one will need only 160 GB of RAM instead of terabytes.
+Once loaded, the data will be memory-mapped, and can be reused between multiple Python processes without copies.
+And of course, you can use slices to navigate the dataset and shard it between multiple workers.
+
+```python
+lines[::3] # every third line
+lines[1::1] # every odd line
+lines[:-100:-1] # last 100 lines in reverse order
+```
+
+[redpajama]: https://github.com/togethercomputer/RedPajama-Data
+
+### Iterators and Memory Efficiency
+
+Python's operations like `split()` and `readlines()` immediately materialize a `list` of copied parts.
+This can be very memory-inefficient for large datasets.
+StringZilla saves a lot of memory by viewing existing memory regions as substrings, but even more memory can be saved by using lazily evaluated iterators.
+
+```py
+x: SplitIterator[Str] = text.split_iter(separator=' ', keepseparator=False)
+x: SplitIterator[Str] = text.rsplit_iter(separator=' ', keepseparator=False)
+x: SplitIterator[Str] = text.split_byteset_iter(separator='chars', keepseparator=False)
+x: SplitIterator[Str] = text.rsplit_byteset_iter(separator='chars', keepseparator=False)
+```
+
+StringZilla can easily be 10x more memory efficient than native Python classes for tokenization.
+With lazy operations, it practically becomes free.
+
+```py
+import stringzilla as sz
+%load_ext memory_profiler
+
+text = open("enwik9.txt", "r").read() # 1 GB, mean word length 7.73 bytes
+%memit text.split() # increment: 8670.12 MiB (152 ms)
+%memit sz.split(text) # increment: 530.75 MiB (25 ms)
+%memit sum(1 for _ in sz.split_iter(text)) # increment: 0.00 MiB
+```
+
+### Low-Level Python API
+
+Aside from calling the methods on the `Str` and `Strs` classes, you can also call the global functions directly on `str` and `bytes` instances.
+Assuming StringZilla CPython bindings are implemented [without any intermediate tools like SWIG or PyBind](https://ashvardanian.com/posts/pybind11-cpython-tutorial/), the call latency should be similar to native classes.
+
+```py
+import stringzilla as sz
+
+contains: bool = sz.contains("haystack", "needle", start=0, end=sys.maxsize)
+offset: int = sz.find("haystack", "needle", start=0, end=sys.maxsize)
+count: int = sz.count("haystack", "needle", start=0, end=sys.maxsize, allowoverlap=False)
+```
+
+### Similarity Scores
+
+StringZilla exposes high-performance, batch-oriented similarity via the `stringzillas` module. 
+Use `DeviceScope` to pick hardware and optionally limit capabilities per engine.
+
+```py
+import stringzilla as sz
+import stringzillas as szs
+
+cpu_scope = szs.DeviceScope(cpu_cores=4)    # force CPU-only
+gpu_scope = szs.DeviceScope(gpu_device=0)   # pick GPU 0 if available
+
+strings_a = sz.Strs(["kitten", "flaw"])
+strings_b = sz.Strs(["sitting", "lawn"])
+
+strings_a = szs.to_device(strings_a) # optional ahead of time transfer
+strings_b = szs.to_device(strings_b) # optional ahead of time transfer
+
+engine = szs.LevenshteinDistances(
+    match=0, mismatch=2,        # costs don't have to be 1
+    open=3, extend=1,           # may be different in Bio
+    capabilities=("serial",)    # avoid SIMD 🤭
+)
+distances = engine(strings_a, strings_b, device=cpu_scope)
+assert int(distances[0]) == 3 and int(distances[1]) == 2
+```
+
+Note, that this computes byte-level distances.
+For UTF-8 codepoints, use a different engine class:
+
+```py
+strings_a = sz.Strs(["café", "αβγδ"])
+strings_b = sz.Strs(["cafe", "αγδ"])
+engine = szs.LevenshteinDistancesUTF8(capabilities=("serial",))
+distances = engine(strings_a, strings_b, device=cpu_scope)
+assert int(distances[0]) == 1 and int(distances[1]) == 1
+```
+
+For alignment scoring provide a 256×256 substitution matrix using NumPy:
+
+```py
+import numpy as np
+import stringzilla as sz
+import stringzillas as szs
+
+substitution_matrix = np.zeros((256, 256), dtype=np.int8)
+substitution_matrix.fill(-1)                # mismatch score
+np.fill_diagonal(substitution_matrix, 0)    # match score
+
+engine = szs.NeedlemanWunsch(substitution_matrix=substitution_matrix, open=1, extend=1)
+scores = engine(strings_a, strings_b, device=cpu_scope)
+```
+
+Several Python libraries provide edit distance computation.
+Most are implemented in C but may be slower than StringZilla on large inputs.
+For proteins ~10k chars, 100 pairs:
+
+- [JellyFish](https://github.com/jamesturk/jellyfish): 62.3s
+- [EditDistance](https://github.com/roy-ht/editdistance): 32.9s
+- StringZilla: __0.8s__
+
+Using the same proteins for Needleman-Wunsch alignment scores:
+
+- [BioPython](https://github.com/biopython/biopython): 25.8s
+- StringZilla: __7.8s__
+
+<details>
+  <summary><b>§ Example converting from BioPython to StringZilla.</b></summary>
+
+```py
+import numpy as np
+from Bio import Align
+from Bio.Align import substitution_matrices
+
+aligner = Align.PairwiseAligner()
+aligner.substitution_matrix = substitution_matrices.load("BLOSUM62")
+aligner.open_gap_score = 1
+aligner.extend_gap_score = 1
+
+# Convert the matrix to NumPy
+subs_packed = np.array(aligner.substitution_matrix).astype(np.int8)
+subs_reconstructed = np.zeros((256, 256), dtype=np.int8)
+
+# Initialize all banned characters to a the largest possible penalty
+subs_reconstructed.fill(127)
+for packed_row, packed_row_aminoacid in enumerate(aligner.substitution_matrix.alphabet):
+    for packed_column, packed_column_aminoacid in enumerate(aligner.substitution_matrix.alphabet):
+        reconstructed_row = ord(packed_row_aminoacid)
+        reconstructed_column = ord(packed_column_aminoacid)
+        subs_reconstructed[reconstructed_row, reconstructed_column] = subs_packed[packed_row, packed_column]
+
+# Let's pick two examples of tripeptides (made of 3 amino acids)
+glutathione = "ECG" # Need to rebuild human tissue?
+thyrotropin_releasing_hormone = "QHP" # Or to regulate your metabolism?
+
+import stringzillas as szs
+engine = szs.NeedlemanWunsch(substitution_matrix=subs_reconstructed, open=1, extend=1)
+score = int(engine(sz.Strs([glutathione]), sz.Strs([thyrotropin_releasing_hormone]))[0])
+assert score == aligner.score(glutathione, thyrotropin_releasing_hormone) # Equal to 6
+```
+
+</details>
+
+### Rolling Fingerprints
+
+MinHashing is a common technique for Information Retrieval, producing compact representations of large documents.
+For $D$ hash-functions and a text of length $L$, in the worst case it involves computing $O(D \cdot L)$ hashes.
+
+```py
+import numpy as np
+import stringzilla as sz
+import stringzillas as szs
+
+texts = sz.Strs([
+    "quick brown fox jumps over the lazy dog",
+    "quick brown fox jumped over a very lazy dog",
+])
+
+cpu = szs.DeviceScope(cpu_cores=4)
+ndim = 1024
+window_widths = np.array([4, 6, 8, 10], dtype=np.uint64)
+engine = szs.Fingerprints(
+    ndim=ndim,
+    window_widths=window_widths,    # optional
+    alphabet_size=256,              # default for byte strings
+    capabilities=("serial",),       # defaults to all, can also pass a `DeviceScope`
+)
+
+hashes, counts = engine(texts, device=cpu)
+assert hashes.shape == (len(texts), ndim)
+assert counts.shape == (len(texts), ndim)
+assert hashes.dtype == np.uint32 and counts.dtype == np.uint32
+```
+
+### Serialization
+
+#### Filesystem
+
+Similar to how `File` can be used to read a large file, other interfaces can be used to dump strings to disk faster.
+The `Str` class has `write_to` to write the string to a file, and `offset_within` to obtain integer offsets of substring view in larger string for navigation.
+
+```py
+web_archive = Str("<html>...</html><html>...</html>")
+_, end_tag, next_doc = web_archive.partition("</html>") # or use `find`
+next_doc_offset = next_doc.offset_within(web_archive)
+web_archive.write_to("next_doc.html") # no GIL, no copies, just a view
+```
+
+#### PyArrow
+
+A `Str` is easy to cast to [PyArrow](https://arrow.apache.org/docs/python/arrays.html#string-and-binary-types) buffers.
+
+```py
+from pyarrow import foreign_buffer
+from stringzilla import Strs
+
+strs = Strs(["alpha", "beta", "gamma"])
+arrow = foreign_buffer(strs.address, strs.nbytes, strs)
+```
+
+And only slightly harder to convert in reverse direction:
+
+```py
+arr = pa.Array.from_buffers(
+    pa.large_string() if strs.offsets_are_large else pa.string(),
+    len(strs),
+    [None,
+     pa.foreign_buffer(strs.offsets_address, strs.offsets_nbytes, strs),
+     pa.foreign_buffer(strs.tape_address, strs.tape_nbytes, strs)],
+)
+```
+
+That means you can convert `Str` to `pyarrow.Buffer` and `Strs` to `pyarrow.Array` without extra copies.
+For more details on the tape-like layouts, refer to the [StringTape](https://github.com/ashvardanian/StringTape) repository.
+
+## Quick Start: C/C++
+
+The C library is header-only, so you can just copy the `stringzilla.h` header into your project.
+Same applies to C++, where you would copy the `stringzilla.hpp` header.
+Alternatively, add it as a submodule, and include it in your build system.
+
+```sh
+git submodule add https://github.com/ashvardanian/StringZilla.git external/stringzilla
+git submodule update --init --recursive
+```
+
+Or using a pure CMake approach:
+
+```cmake
+FetchContent_Declare(
+    stringzilla
+    GIT_REPOSITORY https://github.com/ashvardanian/StringZilla.git
+    GIT_TAG main  # or specify a version tag
+)
+FetchContent_MakeAvailable(stringzilla)
+```
+
+Last, but not the least, you can also install it as a library, and link against it.
+This approach is worse for inlining, but brings [dynamic runtime dispatch](#dynamic-dispatch) for the most advanced CPU features.
+
+### Basic Usage with C 99 and Newer
+
+There is a stable C 99 interface, where all function names are prefixed with `sz_`.
+Most interfaces are well documented, and come with self-explanatory names and examples.
+In some cases, hardware specific overloads are available, like `sz_find_skylake` or `sz_find_neon`.
+Both are companions of the `sz_find`, first for x86 CPUs with AVX-512 support, and second for Arm NEON-capable CPUs.
+
+```c
+#include <stringzilla/stringzilla.h>
+
+// Initialize your haystack and needle
+sz_string_view_t haystack = {your_text, your_text_length};
+sz_string_view_t needle = {your_subtext, your_subtext_length};
+
+// Perform string-level operations auto-picking the backend or dispatching manually
+sz_cptr_t ptr = sz_find(haystack.start, haystack.length, needle.start, needle.length);
+sz_size_t substring_position = ptr ? (sz_size_t)(ptr - haystack.start) : SZ_SIZE_MAX; // SZ_SIZE_MAX if not found
+
+// Backend-specific variants return pointers as well
+sz_cptr_t ptr = sz_find_skylake(haystack.start, haystack.length, needle.start, needle.length);
+sz_cptr_t ptr = sz_find_haswell(haystack.start, haystack.length, needle.start, needle.length);
+sz_cptr_t ptr = sz_find_westmere(haystack.start, haystack.length, needle.start, needle.length);
+sz_cptr_t ptr = sz_find_neon(haystack.start, haystack.length, needle.start, needle.length);
+
+// Hash strings at once
+sz_u64_t hash = sz_hash(haystack.start, haystack.length, 42);    // 42 is the seed
+sz_u64_t checksum = sz_bytesum(haystack.start, haystack.length); // or accumulate byte values
+
+// Hash strings incrementally with "init", "update", and "digest":
+sz_hash_state_t state;
+sz_hash_state_init(&state, 42);
+sz_hash_state_update(&state, haystack.start, 1);                        // first char
+sz_hash_state_update(&state, haystack.start + 1, haystack.length - 1);  // rest of the string
+sz_u64_t streamed_hash = sz_hash_state_digest(&state);
+
+// SHA-256 cryptographic checksums
+sz_u8_t digest[32];
+sz_sha256_state_t sha_state;
+sz_sha256_state_init(&sha_state);
+sz_sha256_state_update(&sha_state, haystack.start, haystack.length);
+sz_sha256_state_digest(&sha_state, digest);
+
+// Perform collection level operations
+sz_sequence_t array = {your_handle, your_count, your_get_start, your_get_length};
+sz_sorted_idx_t order[your_count];
+sz_sequence_argsort(&array, NULL, order); // NULL allocator uses default
+```
+
+<details>
+  <summary><b>§ Mapping from LibC to StringZilla.</b></summary>
+
+By design, StringZilla has a couple of notable differences from LibC:
+
+1. all strings are expected to have a length, and are not necessarily null-terminated.
+2. every operations has a reverse order counterpart.
+
+That way `sz_find` and `sz_rfind` are similar to `strstr` and `strrstr` in LibC.
+Similarly, `sz_find_byte` and `sz_rfind_byte` replace `memchr` and `memrchr`.
+The `sz_find_byteset` maps to `strspn` and `strcspn`, while `sz_rfind_byteset` has no sibling in LibC.
+
+<table>
+    <tr>
+        <th>LibC Functionality</th>
+        <th>StringZilla Equivalents</th>
+    </tr>
+    <tr>
+        <td><code>memchr(haystack, needle, haystack_length)</code>, <code>strchr</code></td>
+        <td><code>sz_find_byte(haystack, haystack_length, needle)</code></td>
+    </tr>
+    <tr>
+        <td><code>memrchr(haystack, needle, haystack_length)</code></td>
+        <td><code>sz_rfind_byte(haystack, haystack_length, needle)</code></td>
+    </tr>
+    <tr>
+        <td><code>memcmp</code>, <code>strcmp</code></td>
+        <td><code>sz_order</code>, <code>sz_equal</code></td>
+    </tr>
+    <tr>
+        <td><code>strlen(haystack)</code></td>
+        <td><code>sz_find_byte(haystack, haystack_length, needle)</code></td>
+    </tr>
+    <tr>
+        <td><code>strcspn(haystack, reject)</code></td>
+        <td><code>sz_find_byteset(haystack, haystack_length, reject_bitset)</code></td>
+    </tr>
+    <tr>
+        <td><code>strspn(haystack, accept)</code></td>
+        <td><code>sz_find_byte_not_from(haystack, haystack_length, accept, accept_length)</code></td>
+    </tr>
+    <tr>
+        <td><code>memmem(haystack, haystack_length, needle, needle_length)</code>, <code>strstr</code></td>
+        <td><code>sz_find(haystack, haystack_length, needle, needle_length)</code></td>
+    </tr>
+    <tr>
+        <td><code>memcpy(destination, source, destination_length)</code></td>
+        <td><code>sz_copy(destination, source, destination_length)</code></td>
+    </tr>
+    <tr>
+        <td><code>memmove(destination, source, destination_length)</code></td>
+        <td><code>sz_move(destination, source, destination_length)</code></td>
+    </tr>
+    <tr>
+        <td><code>memset(destination, value, destination_length)</code></td>
+        <td><code>sz_fill(destination, destination_length, value)</code></td>
+    </tr>
+</table>
+
+</details>
+
+### Basic Usage with C++ 11 and Newer
+
+There is a stable C++ 11 interface available in the `ashvardanian::stringzilla` namespace.
+It comes with two STL-like classes: `string_view` and `string`.
+The first is a non-owning view of a string, and the second is a mutable string with a [Small String Optimization][faq-sso].
+
+```cpp
+#include <stringzilla/stringzilla.hpp>
+
+namespace sz = ashvardanian::stringzilla;
+
+sz::string haystack = "some string";
+sz::string_view needle = sz::string_view(haystack).substr(0, 4);
+
+auto substring_position = haystack.find(needle); // Or `rfind`
+auto hash = std::hash<sz::string_view>{}(haystack); // Compatible with STL's `std::hash`
+
+haystack.end() - haystack.begin() == haystack.size(); // Or `rbegin`, `rend`
+haystack.find_first_of(" \v\t") == 4; // Or `find_last_of`, `find_first_not_of`, `find_last_not_of`
+haystack.starts_with(needle) == true; // Or `ends_with`
+haystack.remove_prefix(needle.size()); // Why is this operation in-place?!
+haystack.contains(needle) == true; // STL has this only from C++ 23 onwards
+haystack.compare(needle) == 1; // Or `haystack <=> needle` in C++ 20 and beyond
+```
+
+StringZilla also provides string literals for automatic type resolution, [similar to STL][stl-literal]:
+
+```cpp
+using sz::literals::operator""_sv;
+using std::literals::operator""sv;
+
+auto a = "some string"; // char const *
+auto b = "some string"sv; // std::string_view
+auto b = "some string"_sv; // sz::string_view
+```
+
+[stl-literal]: https://en.cppreference.com/w/cpp/string/basic_string_view/operator%22%22sv
+
+### Unicode Case-Folding and Case-Insensitive Search
+
+StringZilla implements both Unicode Case Folding and Case-Insensitive UTF-8 Search.
+Unlike most libraries only capable of lower-casing ASCII-represented English alphabet, StringZilla covers over 1M+ codepoints.
+The case-folding API expects the output buffer to be at least 3× larger than the input, to accommodate for the worst-case character expansions scenarios.
+
+```c
+char source[] = "Straße";  // German: "Street"
+char destination[64];      // Must be at least 3x source length
+sz_size_t result_len = sz_utf8_case_fold(source, strlen(source), destination);
+// destination now contains "strasse" (7 bytes), result_len = 7
+```
+
+The case-insensitive search API returns a pointer to the start of the first relevant glyph in the haystack, or `NULL` if not found.
+It outputs the length of the matched haystack substring in bytes, and accepts a metadata structure to speed up repeated searches for the same needle.
+
+```c
+sz_utf8_case_insensitive_needle_metadata_t metadata = {};
+sz_size_t match_length;
+sz_cptr_t match = sz_utf8_case_insensitive_find(
+    haystack, haystack_len,
+    needle, needle_len,
+    &metadata,      // Reuse for queries with the same needle
+    &match_length   // Output: bytes consumed in haystack
+);
+```
+
+Same functionality is available in C++:
+
+```cpp
+namespace sz = ashvardanian::stringzilla;
+
+sz::string_view text = "Hello World"; // Single search
+auto [offset, length] = text.utf8_case_insensitive_find("HELLO");
+
+sz::utf8_case_insensitive_needle pattern("hello"); // Repeated searches with pre-compiled pattern
+for (auto const& haystack : haystacks)
+    auto match = haystack.utf8_case_insensitive_find(pattern);
+```
+
+### Similarity Scores
+
+StringZilla exposes high-performance, batch-oriented similarity via the `stringzillas/stringzillas.h` header. 
+Use `szs_device_scope_t` to pick hardware and optionally limit capabilities per engine.
+
+```cpp
+#include <stringzillas/stringzillas.h>
+
+szs_device_scope_t device = NULL;
+szs_device_scope_init_default(&device);
+
+szs_levenshtein_distances_t engine = NULL;
+szs_levenshtein_distances_init(0, 1, 1, 1, /*alloc*/ NULL, /*caps*/ sz_cap_serial_k, &engine);
+
+sz_sequence_u32tape_t strings_a {data_a, offsets_a, count}; // or `sz_sequence_u64tape_t` for large inputs
+sz_sequence_u32tape_t strings_b {data_b, offsets_b, count}; // or `sz_sequence_t` to pass generic containers
+
+sz_size_t distances[count];
+szs_levenshtein_distances_u32tape(engine, device, &strings_a, &strings_b, distances, sizeof(distances[0]));
+
+szs_levenshtein_distances_free(engine);
+szs_device_scope_free(device);
+```
+
+To target a different device, use the appropriate `szs_device_scope_init_{cpu_cores,gpu_device}` function.
+When dealing with GPU backends, make sure to use the "unified memory" allocators exposed as `szs_unified_{alloc,free}`.
+Similar stable C ABIs are exposed for other workloads as well.
+
+- UTF-8: `szs_levenshtein_distances_utf8_{sequence,u32tape,u64tape}`
+- Needleman-Wunsch: `szs_needleman_wunsch_scores_{sequence,u32tape,u64tape}`
+- Smith-Waterman: `szs_smith_waterman_scores_{sequence,u32tape,u64tape}`
+
+Moreover, in C++ codebases one can tap into the raw templates implementing that functionality, customizing them with custom executors, SIMD plugins, etc.
+For that include `stringzillas/similarities.hpp` for C++ and `stringzillas/similarities.cuh` for CUDA.
+
+```cpp
+#include <stringzillas/similarities.hpp>
+#include <stringzilla/types.hpp>       // tape of strings
+#include <fork_union.hpp>              // optional thread pool
+
+namespace sz = ashvardanian::stringzilla;
+namespace szs = ashvardanian::stringzillas;
+
+// Pack strings into an Arrow-like tape
+std::vector<std::string> left = {"kitten", "flaw"};
+std::vector<std::string> right = {"sitting", "lawn"};
+sz::arrow_strings_tape<char, sz::size_t, std::allocator<char>> tape_a, tape_b;
+auto _ = tape_a.try_assign(left.begin(), left.end());
+auto _ = tape_b.try_assign(right.begin(), right.end());
+
+// Run on the current thread
+using levenshtein_t = szs::levenshtein_distances<char, szs::linear_gap_costs_t, std::allocator<char>, sz_cap_serial_k>;
+levenshtein_t engine {szs::uniform_substitution_costs_t{0,1}, szs::linear_gap_costs_t{1}};
+std::size_t distances[2];
+auto _ = engine(tape_a, tape_b, distances);
+
+// Or run in parallel with a pool
+fork_union::basic_pool_t pool;
+auto _ = pool.try_spawn(std::thread::hardware_concurrency());
+auto _ = engine(tape_a, tape_b, distances, pool);
+```
+
+All of the potentially failing StringZillas' interfaces return error codes, and none raise C++ exceptions.
+Parallelism is enabled at both collection-level and within individual pairs of large inputs.
+
+### Rolling Fingerprints
+
+StringZilla exposes parallel fingerprinting (Min-Hashes or Count-Min-Sketches) via the `stringzillas/stringzillas.h` header. 
+Use `szs_device_scope_t` to pick hardware and optionally limit capabilities per engine.
+
+```c
+#include <stringzillas/stringzillas.h>
+
+szs_device_scope_t device = NULL;
+szs_device_scope_init_default(&device);
+
+szs_fingerprints_t engine = NULL;
+sz_size_t const dims = 1024; sz_size_t const window_widths[] = {4, 6, 8, 10};
+szs_fingerprints_init(dims, /*alphabet*/ 256, window_widths, 4, /*alloc*/ NULL, /*caps*/ sz_cap_serial_k, &engine);
+
+sz_sequence_u32tape_t texts = {data, offsets, count};
+sz_u32_t *min_hashes = (sz_u32_t*)szs_unified_alloc(count * dims * sizeof(*min_hashes));
+sz_u32_t *min_counts = (sz_u32_t*)szs_unified_alloc(count * dims * sizeof(*min_counts));
+szs_fingerprints_u32tape(engine, device, &texts,
+    min_hashes, dims * sizeof(*min_hashes),     // support strided matrices
+    min_counts, dims * sizeof(*min_counts));    // for both output arguments
+
+szs_fingerprints_free(engine);
+szs_device_scope_free(device);
+```
+
+Moreover, in C++ codebases one can tap into the raw templates implementing that functionality, customizing them with custom executors, SIMD plugins, etc.
+For that include `stringzillas/fingerprints.hpp` for C++ and `stringzillas/fingerprints.cuh` for CUDA.
+
+```cpp
+#include <stringzillas/fingerprints.hpp>
+#include <stringzilla/types.hpp>       // tape of strings
+#include <fork_union.hpp>              // optional thread pool
+
+namespace sz = ashvardanian::stringzilla;
+namespace szs = ashvardanian::stringzillas;
+
+// Pack strings into an Arrow-like tape
+std::vector<std::string> docs = {"alpha beta", "alpha betta"};
+sz::arrow_strings_tape<char, sz::size_t, std::allocator<char>> tape;
+auto _ = tape.try_assign(docs.begin(), docs.end());
+
+// Run on the current thread with a Rabin-Karp family hasher
+constexpr std::size_t dimensions_k = 256;
+constexpr std::size_t window_width_k = 7;
+using row_t = std::array<sz_u32_t, 256>;
+using fingerprinter_t = szs::floating_rolling_hashers<sz_cap_serial_k, dimensions_k>;
+fingerprinter_t engine;
+auto _ = engine.try_extend(window_width_k, dimensions_k);
+std::vector<row_t> hashes(docs.size()), counts(docs.size());
+auto _ = engine(tape, hashes, counts);
+
+// Or run in parallel with a pool
+fork_union::basic_pool_t pool;
+auto _ = pool.try_spawn(std::thread::hardware_concurrency());
+auto _ = engine(tape, hashes, counts, pool);
+```
+
+### CUDA
+
+StringZilla provides CUDA C++ templates for composable string batch-processing operations.
+Different GPUs have varying warp sizes, shared memory capacities, and register counts, affecting algorithm selection, so it's important to query the `gpu_specs_t` via `gpu_specs_fetch`.
+For memory management, ensure that you use GPU-visible' unified memory` exposed in an STL-compatible manner as a `unified_alloc` template class.
+For error handling, `cuda_status_t` extends the traditional `status_t` with GPU-specific information.
+It's implicitly convertible to `status_t`, so you can use it in places expecting a `status_t`.
+
+Most algorithms can load-balance both a large number of small strings and a small number of large strings.
+Still, with large H100-scale GPUs, it's best to submit thousands of inputs at once.
+
+### Memory Ownership and Small String Optimization
+
+Most operations in StringZilla don't assume any memory ownership.
+But in addition to the read-only search-like operations StringZilla provides a minimalistic C and C++ implementations for a memory owning string "class".
+Like other efficient string implementations, it uses the [Small String Optimization][faq-sso] (SSO) to avoid heap allocations for short strings.
+
+[faq-sso]: https://cpp-optimizations.netlify.app/small_strings/
+
+```c
+typedef union sz_string_t {
+    struct internal {
+        sz_ptr_t start;
+        sz_u8_t length;
+        char chars[SZ_STRING_INTERNAL_SPACE]; /// Ends with a null-terminator.
+    } internal;
+
+    struct external {
+        sz_ptr_t start;
+        sz_size_t length;        
+        sz_size_t space; /// The length of the heap-allocated buffer.
+        sz_size_t padding;
+    } external;
+
+} sz_string_t;
+```
+
+As one can see, a short string can be kept on the stack, if it fits within `internal.chars` array.
+Before 2015 GCC string implementation was just 8 bytes, and could only fit 7 characters.
+Different STL implementations today have different thresholds for the Small String Optimization.
+Similar to GCC, StringZilla is 32 bytes in size, and similar to Clang it can fit 22 characters on stack.
+Our layout might be preferential, if you want to avoid branches.
+If you use a different compiler, you may want to check its SSO buffer size with a [simple Gist](https://gist.github.com/ashvardanian/c197f15732d9855c4e070797adf17b21).
+
+|                 | `libstdc++` in  GCC 13 | `libc++` in Clang 17 | StringZilla |
+| :-------------- | ---------------------: | -------------------: | ----------: |
+| String `sizeof` |                     32 |                   24 |          32 |
+| Inner Capacity  |                     15 |               __22__ |      __22__ |
+
+This design has been since ported to many high-level programming languages.
+Swift, for example, [can store 15 bytes](https://developer.apple.com/documentation/swift/substring/withutf8(_:)#discussion) in the `String` instance itself.
+StringZilla implements SSO at the C level, providing the `sz_string_t` union and a simple API for primary operations.
+
+```c
+sz_memory_allocator_t allocator;
+sz_string_t string;
+
+// Init and make sure we are on stack
+sz_string_init(&string);
+sz_string_is_on_stack(&string); // == sz_true_k
+
+// Optionally pre-allocate space on the heap for future insertions.
+sz_string_grow(&string, 100, &allocator); // == sz_true_k
+
+// Append, erase, insert into the string.
+sz_string_expand(&string, 0, "_Hello_", 7, &allocator); // == sz_true_k
+sz_string_expand(&string, SZ_SIZE_MAX, "world", 5, &allocator); // == sz_true_k
+sz_string_erase(&string, 0, 1);
+
+// Unpacking & introspection.
+sz_ptr_t string_start;
+sz_size_t string_length;
+sz_size_t string_space;
+sz_bool_t string_is_external;
+sz_string_unpack(string, &string_start, &string_length, &string_space, &string_is_external);
+sz_equal(string_start, "Hello_world", 11); // == sz_true_k
+
+// Reclaim some memory.
+sz_string_shrink_to_fit(&string, &allocator); // == sz_true_k
+sz_string_free(&string, &allocator);
+```
+
+Unlike the conventional C strings, the `sz_string_t` is allowed to contain null characters.
+To safely print those, pass the `string_length` to `printf` as well.
+
+```c
+printf("%.*s\n", (int)string_length, string_start);
+```
+
+### What's Wrong with the C Standard Library?
+
+StringZilla is not a drop-in replacement for the C Standard Library.
+It's designed to be a safer and more modern alternative.
+Conceptually:
+
+1. LibC strings are expected to be null-terminated, so to use the efficient LibC implementations on slices of larger strings, you'd have to copy them, which is more expensive than the original string operation.
+2. LibC functionality is asymmetric - you can find the first and the last occurrence of a character within a string, but you can't find the last occurrence of a substring.
+3. LibC function names are typically very short and cryptic.
+4. LibC lacks crucial functionality like hashing and doesn't provide primitives for less critical but relevant operations like fuzzy matching.
+
+Something has to be said about its support for UTF-8.
+Aside from a single-byte `char` type, LibC provides `wchar_t`:
+
+- The size of `wchar_t` is not consistent across platforms. On Windows, it's typically 16 bits (suitable for UTF-16), while on Unix-like systems, it's usually 32 bits (suitable for UTF-32). This inconsistency can lead to portability issues when writing cross-platform code.
+- `wchar_t` is designed to represent wide characters in a fixed-width format (UTF-16 or UTF-32). In contrast, UTF-8 is a variable-length encoding, where each character can take from 1 to 4 bytes. This fundamental difference means that `wchar_t` and UTF-8 are incompatible.
+
+StringZilla [partially addresses those issues](#unicode-utf-8-and-wide-characters).
+
+### What's Wrong with the C++ Standard Library?
+
+| C++ Code                             | Evaluation Result | Invoked Signature              |
+| :----------------------------------- | :---------------- | :----------------------------- |
+| `"Loose"s.replace(2, 2, "vath"s, 1)` | `"Loathe"` 🤢      | `(pos1, count1, str2, pos2)`   |
+| `"Loose"s.replace(2, 2, "vath", 1)`  | `"Love"` 🥰        | `(pos1, count1, str2, count2)` |
+
+StringZilla is designed to be a drop-in replacement for the C++ Standard Templates Library.
+That said, some of the design decisions of STL strings are highly controversial, error-prone, and expensive.
+Most notably:
+
+1. Argument order for `replace`, `insert`, `erase` and similar functions is impossible to guess.
+2. Bounds-checking exceptions for `substr`-like functions are only thrown for one side of the range.
+3. Returning string copies in `substr`-like functions results in absurd volume of allocations.
+4. Incremental construction via `push_back`-like functions goes through too many branches.
+5. Inconsistency between `string` and `string_view` methods, like the lack of `remove_prefix` and `remove_suffix`.
+
+Check the following set of asserts validating the `std::string` specification.
+It's not realistic to expect the average developer to remember the [14 overloads of `std::string::replace`][stl-replace].
+
+[stl-replace]: https://en.cppreference.com/w/cpp/string/basic_string/replace
+
+```cpp
+using str = std::string;
+
+assert(str("hello world").substr(6) == "world");
+assert(str("hello world").substr(6, 100) == "world"); // 106 is beyond the length of the string, but its OK
+assert_throws(str("hello world").substr(100), std::out_of_range);   // 100 is beyond the length of the string
+assert_throws(str("hello world").substr(20, 5), std::out_of_range); // 20 is beyond the length of the string
+assert_throws(str("hello world").substr(-1, 5), std::out_of_range); // -1 casts to unsigned without any warnings...
+assert(str("hello world").substr(0, -1) == "hello world");          // -1 casts to unsigned without any warnings...
+
+assert(str("hello").replace(1, 2, "123") == "h123lo");
+assert(str("hello").replace(1, 2, str("123"), 1) == "h23lo");
+assert(str("hello").replace(1, 2, "123", 1) == "h1lo");
+assert(str("hello").replace(1, 2, "123", 1, 1) == "h2lo");
+assert(str("hello").replace(1, 2, str("123"), 1, 1) == "h2lo");
+assert(str("hello").replace(1, 2, 3, 'a') == "haaalo");
+assert(str("hello").replace(1, 2, {'a', 'b'}) == "hablo");
+```
+
+To avoid those issues, StringZilla provides an alternative consistent interface.
+It supports signed arguments, and doesn't have more than 3 arguments per function or
+The standard API and our alternative can be conditionally disabled with `SZ_SAFETY_OVER_COMPATIBILITY=1`.
+When it's enabled, the _~~subjectively~~_ risky overloads from the Standard will be disabled.
+
+```cpp
+using str = sz::string;
+
+str("a:b").front(1) == "a"; // no checks, unlike `substr`
+str("a:b").front(2) == "2"; // take first 2 characters
+str("a:b").back(-1) == "b"; // accepting negative indices
+str("a:b").back(-2) == ":b"; // similar to Python's `"a:b"[-2:]`
+str("a:b").sub(1, -1) == ":"; // similar to Python's `"a:b"[1:-1]`
+str("a:b").sub(-2, -1) == ":"; // similar to Python's `"a:b"[-2:-1]`
+str("a:b").sub(-2, 1) == ""; // similar to Python's `"a:b"[-2:1]`
+"a:b"_sv[{-2, -1}] == ":"; // works on views and overloads `operator[]`
+```
+
+Assuming StringZilla is a header-only library you can use the full API in some translation units and gradually transition to safer restricted API in others.
+Bonus - all the bound checking is branchless, so it has a constant cost and won't hurt your branch predictor.
+
+### Beyond the C++ Standard Library - Learning from Python
+
+Python is arguably the most popular programming language for data science.
+In part, that's due to the simplicity of its standard interfaces.
+StringZilla brings some of that functionality to C++.
+
+- Content checks: `isalnum`, `isalpha`, `isascii`, `isdigit`, `islower`, `isspace`, `isupper`.
+- Trimming character sets: `lstrip`, `rstrip`, `strip`.
+- Trimming string matches: `remove_prefix`, `remove_suffix`.
+- Ranges of search results: `splitlines`, `split`, `rsplit`.
+- Number of non-overlapping substring matches: `count`.
+- Partitioning: `partition`, `rpartition`.
+
+For example, when parsing documents, it is often useful to split it into substrings.
+Most often, after that, you would compute the length of the skipped part, the offset and the length of the remaining part.
+This results in a lot of pointer arithmetic and is error-prone.
+StringZilla provides a convenient `partition` function, which returns a tuple of three string views, making the code cleaner.
+
+```cpp
+auto parts = haystack.partition(':'); // Matching a character
+auto [before, match, after] = haystack.partition(':'); // Structure unpacking
+auto [before, match, after] = haystack.partition(sz::byteset(":;")); // Character-set argument
+auto [before, match, after] = haystack.partition(" : "); // String argument
+auto [before, match, after] = haystack.rpartition(sz::whitespaces_set()); // Split around the last whitespace
+```
+
+Combining those with the `split` function, one can easily parse a CSV file or HTTP headers.
+
+```cpp
+for (auto line : haystack.split("\r\n")) {
+    auto [key, _, value] = line.partition(':');
+    headers[key.strip()] = value.strip();
+}
+```
+
+Some other extensions are not present in the Python standard library either.
+Let's go through the C++ functionality category by category.
+
+- [Splits and Ranges](#splits-and-ranges).
+- [Concatenating Strings without Allocations](#concatenating-strings-without-allocations).
+- [Random Generation](#random-generation).
+- [Edit Distances and Fuzzy Search](#levenshtein-edit-distance-and-alignment-scores).
+
+Some of the StringZilla interfaces are not available even Python's native `str` class.
+Here is a sneak peek of the most useful ones.
+
+```cpp
+text.hash(); // -> 64 bit unsigned integer 
+text.ssize(); // -> 64 bit signed length to avoid `static_cast<std::ssize_t>(text.size())`
+text.contains_only(" \w\t"); // == text.find_first_not_of(sz::byteset(" \w\t")) == npos;
+text.contains(sz::whitespaces_set()); // == text.find(sz::byteset(sz::whitespaces_set())) != npos;
+
+// Simpler slicing than `substr`
+text.front(10); // -> sz::string_view
+text.back(10); // -> sz::string_view
+
+// Safe variants, which clamp the range into the string bounds
+using sz::string::cap;
+text.front(10, cap) == text.front(std::min(10, text.size()));
+text.back(10, cap) == text.back(std::min(10, text.size()));
+
+// Character set filtering
+text.lstrip(sz::whitespaces_set()).rstrip(sz::newlines_set()); // like Python
+text.front(sz::whitespaces_set()); // all leading whitespaces
+text.back(sz::digits_set()); // all numerical symbols forming the suffix
+
+// Incremental construction
+using sz::string::unchecked;
+text.push_back('x'); // no surprises here
+text.push_back('x', unchecked); // no bounds checking, Rust style
+text.try_push_back('x'); // returns `false` if the string is full and the allocation failed
+
+sz::concatenate(text, "@", domain, ".", tld); // No allocations
+```
+
+### Splits and Ranges
+
+One of the most common use cases is to split a string into a collection of substrings.
+Which would often result in [StackOverflow lookups][so-split] and snippets like the one below.
+
+[so-split]: https://stackoverflow.com/questions/14265581/parse-split-a-string-in-c-using-string-delimiter-standard-c
+
+```cpp
+std::vector<std::string> lines = split(haystack, "\r\n"); // string delimiter
+std::vector<std::string> words = split(lines, ' '); // character delimiter
+```
+
+Those allocate memory for each string and the temporary vectors.
+Each allocation can be orders of magnitude more expensive, than even serial `for`-loop over characters.
+To avoid those, StringZilla provides lazily-evaluated ranges, compatible with the [Range-v3][range-v3] library.
+
+[range-v3]: https://github.com/ericniebler/range-v3
+
+```cpp
+for (auto line : haystack.split("\r\n"))
+    for (auto word : line.split(sz::byteset(" \w\t.,;:!?")))
+        std::cout << word << std::endl;
+```
+
+Each of those is available in reverse order as well.
+It also allows interleaving matches, if you want both inclusions of `xx` in `xxx`.
+Debugging pointer offsets is not a pleasant exercise, so keep the following functions in mind.
+
+- `haystack.[r]find_all(needle, interleaving)`
+- `haystack.[r]find_all(sz::byteset(""))`
+- `haystack.[r]split(needle)`
+- `haystack.[r]split(sz::byteset(""))`
+
+For $N$ matches the split functions will report $N+1$ matches, potentially including empty strings.
+Ranges have a few convenience methods as well:
+
+```cpp
+range.size(); // -> std::size_t
+range.empty(); // -> bool
+range.template to<std::set<std::sting>>(); 
+range.template to<std::vector<std::sting_view>>(); 
+```
+
+### Concatenating Strings without Allocations
+
+Another common string operation is concatenation.
+The STL provides `std::string::operator+` and `std::string::append`, but those are not very efficient, if multiple invocations are performed.
+
+```cpp
+std::string name, domain, tld;
+auto email = name + "@" + domain + "." + tld; // 4 allocations
+```
+
+The efficient approach would be to pre-allocate the memory and copy the strings into it.
+
+```cpp
+std::string email;
+email.reserve(name.size() + domain.size() + tld.size() + 2);
+email.append(name), email.append("@"), email.append(domain), email.append("."), email.append(tld);
+```
+
+That's mouthful and error-prone.
+StringZilla provides a more convenient `concatenate` function, which takes a variadic number of arguments.
+It also overrides the `operator|` to concatenate strings lazily, without any allocations.
+
+```cpp
+auto email = sz::concatenate(name, "@", domain, ".", tld);   // 0 allocations
+auto email = name | "@" | domain | "." | tld;                // 0 allocations
+sz::string email = name | "@" | domain | "." | tld;          // 1 allocations
+```
+
+### Random Generation
+
+Software developers often need to generate random strings for testing purposes.
+The STL provides `std::generate` and `std::random_device`, that can be used with StringZilla.
+
+```cpp
+sz::string random_string(std::size_t length, char const *alphabet, std::size_t cardinality) {
+    sz::string result(length, '\0');
+    static std::random_device seed_source; // Expensive to construct - due to system calls
+    static std::mt19937 generator(seed_source()); // Also expensive - due to the state size
+    std::uniform_int_distribution<std::size_t> distribution(0, cardinality);
+    std::generate(result.begin(), result.end(), [&]() { return alphabet[distribution(generator)]; });
+    return result;
+}
+```
+
+Mouthful and slow.
+StringZilla provides a C native method - `sz_fill_random` and a convenient C++ wrapper - `sz::generate`.
+Similar to Python it also defines the commonly used character sets.
+
+```cpp
+auto protein = sz::string::random(300, "ARNDCQEGHILKMFPSTWYV"); // static method
+auto dna = sz::basic_string<custom_allocator>::random(3_000_000_000, "ACGT");
+
+dna.fill_random("ACGT"); // `noexcept` pre-allocated version
+dna.fill_random(&std::rand, "ACGT"); // pass any generator, like `std::mt19937`
+
+char uuid[36];
+sz::fill_random(sz::string_span(uuid, 36), "0123456789abcdef-"); // Overwrite any buffer
+```
+
+### Bulk Replacements
+
+In text processing, it's often necessary to replace all occurrences of a specific substring or set of characters within a string.
+Standard library functions may not offer the most efficient or convenient methods for performing bulk replacements, especially when dealing with large strings or performance-critical applications.
+
+- `haystack.replace_all(needle_string, replacement_string)`
+- `haystack.replace_all(sz::byteset(""), replacement_string)`
+- `haystack.try_replace_all(needle_string, replacement_string)`
+- `haystack.try_replace_all(sz::byteset(""), replacement_string)`
+- `haystack.lookup(sz::look_up_table::identity())`
+- `haystack.lookup(sz::look_up_table::identity(), haystack.data())`
+
+
+### Sorting in C and C++
+
+LibC provides `qsort` and STL provides `std::sort`.
+Both have their quirks.
+The LibC standard has no way to pass a context to the comparison function, that's only possible with platform-specific extensions.
+Those have [different arguments order](https://stackoverflow.com/a/39561369) on every OS.
+
+```c
+// Linux: https://linux.die.net/man/3/qsort_r
+void qsort_r(void *elements, size_t count, size_t element_width, 
+    int (*compare)(void const *left, void const *right, void *context),
+    void *context);
+// macOS and FreeBSD: https://developer.apple.com/library/archive/documentation/System/Conceptual/ManPages_iPhoneOS/man3/qsort_r.3.html
+void qsort_r(void *elements, size_t count, size_t element_width, 
+    void *context,
+    int (*compare)(void *context, void const *left, void const *right));
+// Windows conflicts with ISO `qsort_s`: https://learn.microsoft.com/en-us/cpp/c-runtime-library/reference/qsort-s?view=msvc-170
+void qsort_s(id *elements, size_t count, size_t element_width, 
+    int (*compare)(void *context, void const *left, void const *right),
+    void *context);
+```
+
+C++ generic algorithm is not perfect either.
+There is no guarantee in the standard that `std::sort` won't allocate any memory.
+If you are running on embedded, in real-time or on 100+ CPU cores per node, you may want to avoid that.
+StringZilla doesn't solve the general case, but hopes to improve the performance for strings.
+Use `sz_sequence_argsort`, or the high-level `sz::argsort`, which can be used sort any collection of elements convertible to `sz::string_view`.
+
+```cpp
+std::vector<std::string> data({"c", "b", "a"});
+std::vector<std::size_t> order = sz::argsort(data); //< Simple shortcut
+
+// Or, taking care of memory allocation:
+sz::argsort(data.begin(), data.end(), order.data(), [](auto const &x) -> sz::string_view { return x; });
+```
+
+### Standard C++ Containers with String Keys
+
+The C++ Standard Templates Library provides several associative containers, often used with string keys.
+
+```cpp
+std::map<std::string, int, std::less<std::string>> sorted_words;
+std::unordered_map<std::string, int, std::hash<std::string>, std::equal_to<std::string>> words;
+```
+
+The performance of those containers is often limited by the performance of the string keys, especially on reads.
+StringZilla can be used to accelerate containers with `std::string` keys, by overriding the default comparator and hash functions.
+
+```cpp
+std::map<std::string, int, sz::less> sorted_words;
+std::unordered_map<std::string, int, sz::hash, sz::equal_to> words;
+```
+
+Alternatively, a better approach would be to use the `sz::string` class as a key.
+The right hash function and comparator would be automatically selected and the performance gains would be more noticeable if the keys are short.
+
+```cpp
+std::map<sz::string, int> sorted_words;
+std::unordered_map<sz::string, int> words;
+```
+
+### Compilation Settings and Debugging
+
+__`SZ_DEBUG`__:
+
+> For maximal performance, the C library does not perform any bounds checking in Release builds.
+> In C++, bounds checking happens only in places where the STL `std::string` would do it.
+> If you want to enable more aggressive bounds-checking, define `SZ_DEBUG` before including the header.
+> If not explicitly set, it will be inferred from the build type.
+
+__`SZ_USE_GOLDMONT`, `SZ_USE_WESTMERE`, `SZ_USE_HASWELL`, `SZ_USE_SKYLAKE`, `SZ_USE_ICE`, `SZ_USE_NEON`, `SZ_USE_NEON_AES`, `SZ_USE_NEON_SHA`, `SZ_USE_SVE`, `SZ_USE_SVE2`, `SZ_USE_SVE2_AES`__:
+
+> One can explicitly disable certain families of SIMD instructions for compatibility purposes.
+> Default values are inferred at compile time depending on compiler support (for dynamic dispatch) and the target architecture (for static dispatch).
+
+__`SZ_USE_CUDA`, `SZ_USE_KEPLER`, `SZ_USE_HOPPER`__:
+
+> One can explicitly disable certain families of PTX instructions for compatibility purposes.
+> Default values are inferred at compile time depending on compiler support (for dynamic dispatch) and the target architecture (for static dispatch).
+
+__`SZ_ENFORCE_SVE_OVER_NEON`__:
+
+> SVE and SVE2 are expected to supersede NEON on ARM architectures.
+> Still, oftentimes the equivalent SVE kernels are slower due to equally small register files and higher complexity of the instructions.
+> By default, when both SVE and NEON are available, SVE is used selectively only for the algorithms that benefit from it.
+> If you want to enforce SVE usage everywhere, define this flag.
+
+__`SZ_DYNAMIC_DISPATCH`__:
+
+> By default, StringZilla is a header-only library.
+> But if you are running on different generations of devices, it makes sense to pre-compile the library for all supported generations at once, and dispatch at runtime.
+> This flag does just that and is used to produce the `stringzilla.so` shared library, as well as the Python bindings.
+
+__`SZ_USE_MISALIGNED_LOADS`__:
+
+> Default is platform-dependent: enabled on x86 (where unaligned accesses are fast), disabled on others by default.
+> When enabled, many byte-level operations use word-sized loads, which can significantly accelerate the serial (SWAR) backend.
+> Consider enabling it explicitly if you are targeting platforms that support fast unaligned loads.
+
+__`SZ_AVOID_LIBC`__ and __`SZ_OVERRIDE_LIBC`__:
+
+> When using the C header-only library one can disable the use of LibC.
+> This may affect the type resolution system on obscure hardware platforms. 
+> Moreover, one may let `stringzilla` override the common symbols like the `memcpy` and `memset` with its own implementations.
+> In that case you can use the [`LD_PRELOAD` trick][ld-preload-trick] to prioritize its symbols over the ones from the LibC and accelerate existing string-heavy applications without recompiling them.
+> It also adds a layer of security, as the `stringzilla` isn't [undefined for NULL inputs][redhat-memcpy-ub] like `memcpy(NULL, NULL, 0)`.
+
+[ld-preload-trick]: https://ashvardanian.com/posts/ld-preload-libsee
+[redhat-memcpy-ub]: https://developers.redhat.com/articles/2024/12/11/making-memcpynull-null-0-well-defined
+
+__`SZ_AVOID_STL`__ and __`SZ_SAFETY_OVER_COMPATIBILITY`__:
+
+> When using the C++ interface one can disable implicit conversions from `std::string` to `sz::string` and back.
+> If not needed, the `<string>` and `<string_view>` headers will be excluded, reducing compilation time.
+> Moreover, if STL compatibility is a low priority, one can make the API safer by disabling the overloads, which are subjectively error prone.
+
+__`STRINGZILLA_BUILD_SHARED`, `STRINGZILLA_BUILD_TEST`, `STRINGZILLA_BUILD_BENCHMARK`, `STRINGZILLA_TARGET_ARCH`__ for CMake users:
+
+> When compiling the tests and benchmarks, you can explicitly set the target hardware architecture.
+> It's synonymous to GCC's `-march` flag and is used to enable/disable the appropriate instruction sets.
+> You can also disable the shared library build, if you don't need it.
+
+## Quick Start: Rust
+
+StringZilla is available as a Rust crate, with documentation available on [docs.rs/stringzilla](https://docs.rs/stringzilla).
+You can immediately check the installed version and the used hardware capabilities with following commands:
+
+```bash
+cargo add stringzilla
+cargo run --example version
+```
+
+To use the latest crate release in your project, add the following to your `Cargo.toml`:
+
+```toml
+[dependencies]
+stringzilla = ">=3"                                     # for serial algorithms
+stringzilla = { version = ">=3", features = ["cpus"] }  # for parallel multi-CPU backends
+stringzilla = { version = ">=3", features = ["cuda"] }  # for parallel Nvidia GPU backend
+```
+
+Or if you want to use the latest pre-release version from the repository:
+
+```toml
+[dependencies]
+stringzilla = { git = "https://github.com/ashvardanian/stringzilla", branch = "main-dev" }
+```
+
+Once installed, all of the functionality is available through the `stringzilla` namespace.
+Many interfaces will look familiar to the users of the `memchr` Rust crate.
+
+```rust
+use stringzilla::sz;
+
+// Identical to `memchr::memmem::find` and `memchr::memmem::rfind` functions
+sz::find("Hello, world!", "world") // 7
+sz::rfind("Hello, world!", "world") // 7
+
+// Generalizations of `memchr::memrchr[123]`
+sz::find_byte_from("Hello, world!", "world") // 2
+sz::rfind_byte_from("Hello, world!", "world") // 11
+```
+
+It also provides no constraints on the size of the character set, while `memchr` allows only 1, 2, or 3 characters.
+In addition to global functions, `stringzilla` provides a `StringZilla` extension trait:
+
+```rust
+use stringzilla::StringZilla;
+
+let my_string: String = String::from("Hello, world!");
+let my_str = my_string.as_str();
+let my_cow_str = Cow::from(&my_string);
+
+// Use the generic function with a String
+assert_eq!(my_string.sz_find("world"), Some(7));
+assert_eq!(my_string.sz_rfind("world"), Some(7));
+assert_eq!(my_string.sz_find_byte_from("world"), Some(2));
+assert_eq!(my_string.sz_rfind_byte_from("world"), Some(11));
+assert_eq!(my_string.sz_find_byte_not_from("world"), Some(0));
+assert_eq!(my_string.sz_rfind_byte_not_from("world"), Some(12));
+
+// Same works for &str and Cow<'_, str>
+assert_eq!(my_str.sz_find("world"), Some(7));
+assert_eq!(my_cow_str.as_ref().sz_find("world"), Some(7));
+```
+
+### Hash
+
+Single-shot and incremental hashing are both supported:
+
+```rs
+let mut hasher = sz::Hasher::new(42);
+hasher.write(b"Hello, ");
+hasher.write(b"world!");
+let streamed = hasher.finish();
+
+let mut hasher = sz::Hasher::new(42);
+hasher.write(b"Hello, world!");
+assert_eq!(streamed, hasher.finish());
+```
+
+To use StringZilla with `std::collections`:
+
+```rs
+use std::collections::HashMap;
+let mut map: HashMap<&str, i32, sz::BuildSzHasher> =
+    HashMap::with_hasher(sz::BuildSzHasher::with_seed(42));
+map.insert("a", 1);
+assert_eq!(map.get("a"), Some(&1));
+```
+
+### SHA-256 Checksums
+
+SHA-256 cryptographic checksums are available:
+
+```rs
+use stringzilla::sz;
+
+// One-shot SHA-256
+let digest = sz::Sha256::hash(b"Hello, world!");
+assert_eq!(digest.len(), 32);
+
+// Incremental SHA-256
+let mut hasher = sz::Sha256::new();
+hasher.update(b"Hello, ");
+hasher.update(b"world!");
+let digest = hasher.digest();
+
+// HMAC-SHA256 for message authentication
+let mac = sz::hmac_sha256(b"secret", b"Hello, world!");
+```
+
+
+### Unicode Case-Folding and Case-Insensitive Search
+
+StringZilla implements both Unicode Case Folding and Case-Insensitive UTF-8 Search.
+Unlike most libraries only capable of lower-casing ASCII-represented English alphabet, StringZilla covers over 1M+ codepoints.
+The case-folding API expects the output buffer to be at least 3× larger than the input, to accommodate for the worst-case character expansions scenarios.
+
+```rust
+use stringzilla::stringzilla as sz;
+
+let source = "Straße";           // German: "Street"
+let mut dest = [0u8; 64];        // Must be at least 3x source length
+let len = sz::utf8_case_fold(source, &mut dest);
+assert_eq!(&dest[..len], b"strasse");  // ß (2 bytes) → "ss" (2 bytes)
+```
+
+The case-insensitive search returns `Some((offset, matched_length))` or `None`.
+The `matched_length` may differ from needle length due to expansions.
+
+```rust
+use stringzilla::stringzilla::{utf8_case_insensitive_find, Utf8CaseInsensitiveNeedle};
+
+// Single search — ß (C3 9F) matches "SS"
+if let Some((offset, len)) = utf8_case_insensitive_find("Straße", "STRASSE") {
+    assert_eq!(offset, 0);
+    assert_eq!(len, 7);  // "Straße" is 7 bytes
+}
+
+// Repeated searches with pre-compiled needle metadata
+let needle = Utf8CaseInsensitiveNeedle::new(b"STRASSE");
+for haystack in &["Straße", "STRASSE", "strasse"] {
+    if let Some((offset, len)) = utf8_case_insensitive_find(haystack, &needle) {
+        println!("Found at byte {} with length {}", offset, len);
+    }
+}
+```
+
+
+### Similarity Scores
+
+StringZilla exposes high-performance, batch-oriented similarity via the `szs` module.
+Use `DeviceScope` to pick hardware and optionally limit capabilities per engine.
+
+```rust
+use stringzilla::szs; // re-exported as `szs`
+
+let cpu_scope = szs::DeviceScope::cpu_cores(4).unwrap();    // force CPU-only
+let gpu_scope = szs::DeviceScope::gpu_device(0).unwrap();   // pick GPU 0 if available
+let strings_a = vec!["kitten", "flaw"];
+let strings_b = vec!["sitting", "lawn"];
+
+let engine = szs::LevenshteinDistances::new(
+    &cpu_scope,
+    0,  // match cost
+    2,  // mismatch cost - costs don't have to be 1
+    3,  // open cost - may be different in Bio
+    1,  // extend cost
+).unwrap();
+let distances = engine.compute(&cpu_scope, &strings_a, &strings_b).unwrap();
+assert_eq!(distances[0], 3);
+assert_eq!(distances[1], 2);
+```
+
+Note, that this computes byte-level distances.
+For UTF-8 codepoints, use a different engine class:
+
+```rust
+let strings_a = vec!["café", "αβγδ"];
+let strings_b = vec!["cafe", "αγδ"];
+let engine = szs::LevenshteinDistancesUtf8::new(&cpu_scope, 0, 1, 1, 1).unwrap();
+let distances = engine.compute(&cpu_scope, &strings_a, &strings_b).unwrap();
+assert_eq!(distances, vec![1, 1]);
+```
+
+Similarly, for variable substitution costs, also pass in a a weights matrix:
+
+```rust
+let mut substitution_matrix = [-1i8; 256 * 256];
+for i in 0..256 { substitution_matrix[i * 256 + i] = 0; }
+let engine = szs::NeedlemanWunschScores::new(&cpu_scope, &substitution_matrix, -3, -1).unwrap();
+let scores = engine.compute(&cpu_scope, &strings_a, &strings_b).unwrap();
+```
+
+Or for local alignment scores:
+
+```rust
+let engine = szs::SmithWatermanScores::new(&cpu_scope, &substitution_matrix, -3, -1).unwrap();
+let local_scores = engine.compute(&cpu_scope, &strings_a, &strings_b).unwrap();
+```
+
+For high-performance applications, use the [StringTape](https://github.com/ashvardanian/StringTape) crate to pass strings to `compute_into` methods without extra memory allocations:
+
+```rust
+use stringzilla::{szs, StringTape};
+
+// Create StringTape from data (zero-copy compatible format)
+let tape_a = StringTape::from_strings(&["kitten", "sitting", "flaw"]);
+let tape_b = StringTape::from_strings(&["sitting", "kitten", "lawn"]);
+
+// Use unified memory vector for GPU compatibility, initialized with max values
+let mut distances = szs::UnifiedVec::<u32>::from_elem(u32::MAX, tape_a.len());
+
+let engine = szs::LevenshteinDistances::new(&gpu_scope, 0, 1, 1, 1).unwrap();
+engine.compute_into(&gpu_scope, &tape_a, &tape_b, &mut distances).unwrap();
+
+// Results computed directly into unified memory, accessible from both CPU/GPU
+assert_eq!(distances[0], 3);  // kitten -> sitting
+assert_eq!(distances[1], 3);  // sitting -> kitten
+assert_eq!(distances[2], 2);  // flaw -> lawn
+```
+
+### Rolling Fingerprints
+
+MinHashing is a common technique for Information Retrieval, producing compact representations of large documents.
+For $D$ hash-functions and a text of length $L$, in the worst case it involves computing $O(D \cdot L)$ hashes.
+
+```rust
+use stringzilla::szs;
+
+let texts = vec![
+    "quick brown fox jumps over the lazy dog",
+    "quick brown fox jumped over a very lazy dog",
+];
+let cpu = szs::DeviceScope::cpu_cores(4).unwrap();
+let ndim = 1024;
+let window_widths = vec![4u64, 6, 8, 10];
+
+let engine = szs::Fingerprints::new(
+    ndim,           // number of hash functions & dimensions
+    &window_widths, // optional predefined window widths
+    256,            // default alphabet size for byte strings
+    &cpu            // device scope
+).unwrap();
+
+let (hashes, counts) = engine.compute(&cpu, &texts).unwrap();
+assert_eq!(hashes.len(), texts.len() * ndim);
+assert_eq!(counts.len(), texts.len() * ndim);
+```
+
+For zero-copy processing with [StringTape](https://github.com/ashvardanian/StringTape) format and unified memory:
+
+```rust
+use stringzilla::{szs, StringTape};
+
+let tape = StringTape::from_strings(&[
+    "quick brown fox jumps over the lazy dog",
+    "quick brown fox jumped over a very lazy dog",
+]);
+
+// Pre-allocate unified memory buffers
+let mut hashes = szs::UnifiedVec::<u32>::from_elem(u32::MAX, tape.len() * ndim);
+let mut counts = szs::UnifiedVec::<u32>::from_elem(u32::MAX, tape.len() * ndim);
+
+let engine = szs::Fingerprints::new(ndim, &window_widths, 256, &cpu).unwrap();
+engine.compute_into(&cpu, &tape, &mut hashes, &mut counts).unwrap();
+
+// Results computed directly into unified memory buffers
+assert!(hashes.iter().any(|&h| h != u32::MAX));  // Verify computation occurred
+assert!(counts.iter().any(|&c| c != u32::MAX));
+```
+
+## Quick Start: JavaScript
+
+Install the Node.js package and use zero-copy `Buffer` APIs.
+
+```bash
+npm install stringzilla
+node -p "require('stringzilla').default.capabilities" # for CommonJS
+node -e "import('stringzilla').then(m=>console.log(m.default.capabilities)).catch(console.error)" # for ESM
+```
+
+```js
+import sz from 'stringzilla';
+
+const haystack = Buffer.from('Hello, world!');
+const needle = Buffer.from('world');
+
+// Substring search (BigInt offsets)
+const firstIndex = sz.find(haystack, needle);      // 7n
+const lastIndex = sz.findLast(haystack, needle);   // 7n
+
+// Character / charset search
+const firstOIndex = sz.findByte(haystack, 'o'.charCodeAt(0));                 // 4n
+const firstVowelIndex = sz.findByteFrom(haystack, Buffer.from('aeiou'));      // 1n
+const lastVowelIndex = sz.findLastByteFrom(haystack, Buffer.from('aeiou'));   // 8n
+
+// Counting (optionally overlapping)
+const lCount = sz.count(haystack, Buffer.from('l'));                // 3n
+const llOverlapCount = sz.count(haystack, Buffer.from('ll'), true); // 1n
+
+// Equality/ordering utilities
+const isEqual = sz.equal(Buffer.from('a'), Buffer.from('a'));
+const order = sz.compare(Buffer.from('a'), Buffer.from('b')); // -1, 0, or 1
+
+// Other helpers
+const byteSum = sz.byteSum(haystack); // sum of bytes as BigInt
+```
+
+### Unicode Case-Folding and Case-Insensitive Search
+
+StringZilla provides full Unicode case folding (including expansions like `ß → ss`, ligatures like `ﬁ → fi`, and special folds like `µ → μ`, `K → k`)
+and a case-insensitive substring search that accounts for those expansions.
+
+```js
+import sz from "stringzilla";
+
+// Case folding (returns a UTF-8 Buffer)
+console.log(sz.utf8CaseFold(Buffer.from("Straße")).toString("utf8")); // "strasse"
+console.log(sz.utf8CaseFold(Buffer.from("ofﬁce")).toString("utf8"));  // "office" (U+FB01 ligature)
+
+// Case-insensitive substring search (full Unicode case folding)
+const text = Buffer.from(
+    "Die Temperaturschwankungen im kosmischen Mikrowellenhintergrund sind ein Maß von etwa 20 µK.\n" +
+    "Typografisch sieht man auch: ein Maß von etwa 20 μK."
+);
+const patternBytes = Buffer.from("EIN MASS VON ETWA 20 μK");
+
+const first = sz.utf8CaseInsensitiveFind(text, patternBytes);
+console.log(first); // { index: 69n, length: ... } (byte offsets)
+
+// Reuse the same needle efficiently
+const pattern = new sz.Utf8CaseInsensitiveNeedle(patternBytes);
+const again = pattern.findIn(text);
+console.log(again.index === first.index);
+```
+
+### Hash
+
+Single-shot and incremental hashing are both supported:
+
+```js
+import sz from 'stringzilla';
+
+// One-shot - stable 64-bit output across all platforms!
+const hash = sz.hash(Buffer.from('Hello, world!'), 42); // returns BigInt
+
+// Incremental updates - hasher maintains state
+const hasher = new sz.Hasher(42); // seed: 42
+hasher.update(Buffer.from('Hello, '));
+hasher.update(Buffer.from('world!'));
+const streamedHash = hasher.digest(); // returns BigInt
+console.assert(hash === streamedHash);
+```
+
+### SHA-256 Checksums
+
+SHA-256 cryptographic checksums are available:
+
+```js
+import sz from 'stringzilla';
+
+// One-shot SHA-256
+const digest = sz.sha256(Buffer.from('Hello, world!')); // returns Buffer (32 bytes)
+
+// Incremental SHA-256
+const hasher = new sz.Sha256();
+hasher.update(Buffer.from('Hello, '));
+hasher.update(Buffer.from('world!'));
+const digestBuffer = hasher.digest();     // returns Buffer (32 bytes)
+const digestHex = hasher.hexdigest();     // returns string (64 hex chars)
+```
+
+## Quick Start: Swift
+
+StringZilla can be added as a dependency in the Swift Package Manager.
+In your `Package.swift` file, add the following:
+
+```swift
+dependencies: [
+    .package(url: "https://github.com/ashvardanian/stringzilla")
+]
+```
+
+The package currently covers only the most basic functionality, but is planned to be extended to cover the full C++ API.
+
+```swift
+var s = "Hello, world! Welcome to StringZilla. 👋"
+s[s.findFirst(substring: "world")!...] // "world! Welcome to StringZilla. 👋"
+s[s.findLast(substring: "o")!...] // "o StringZilla. 👋"
+s[s.findFirst(characterFrom: "aeiou")!...] // "ello, world! Welcome to StringZilla. 👋"
+s[s.findLast(characterFrom: "aeiou")!...] // "a. 👋")
+s[s.findFirst(characterNotFrom: "aeiou")!...] // "Hello, world! Welcome to StringZilla. 👋"
+```
+
+### Unicode Case-Folding and Case-Insensitive Search
+
+```swift
+import StringZilla
+
+let folded = "Straße".utf8CaseFoldedBytes()
+print(String(decoding: folded, as: UTF8.self)) // "strasse"
+
+let haystack =
+    "Die Temperaturschwankungen im kosmischen Mikrowellenhintergrund sind ein Maß von etwa 20 µK.\n"
+    + "Typografisch sieht man auch: ein Maß von etwa 20 μK."
+let needle = "EIN MASS VON ETWA 20 μK"
+
+if let range = haystack.utf8CaseInsensitiveFind(substring: needle) {
+    print(haystack[range]) // "ein Maß von etwa 20 µK"
+}
+
+// Reuse the same needle efficiently
+let compiledNeedle = Utf8CaseInsensitiveNeedle(needle)
+if let range = compiledNeedle.findFirst(in: haystack) {
+    print(haystack[range])
+}
+```
+
+### Hash
+
+StringZilla provides high-performance hashing for Swift strings:
+
+```swift
+import StringZilla
+
+// One-shot hashing - stable 64-bit output across all platforms!
+let hash = "Hello, world!".hash(seed: 42)
+
+// Incremental hashing for streaming data
+var hasher = StringZillaHasher(seed: 42)
+hasher.update("Hello, ")
+hasher.update("world!")
+let streamedHash = hasher.digest()
+assert(hash == streamedHash)
+```
+
+### SHA-256 Checksums
+
+SHA-256 cryptographic checksums are available:
+
+```swift
+import StringZilla
+
+// One-shot SHA-256
+let digest = "Hello, world!".sha256() // returns [UInt8] (32 bytes)
+
+// Incremental SHA-256
+var hasher = StringZillaSha256()
+hasher.update("Hello, ")
+hasher.update("world!")
+let digestBytes = hasher.digest()     // [UInt8] (32 bytes)
+let digestHex = hasher.hexdigest()    // String (64 hex chars)
+```
+
+## Quick Start: GoLang
+
+Add the Go binding as a module dependency:
+
+```bash
+go get github.com/ashvardanian/stringzilla/golang@latest
+```
+
+Build the shared C library once, then ensure your runtime can locate it (Linux shown):
+
+```bash
+cmake -B build_shared -D STRINGZILLA_BUILD_SHARED=1 -D CMAKE_BUILD_TYPE=Release
+cmake --build build_shared --target stringzilla_shared --config Release
+export LD_LIBRARY_PATH="$PWD/build_shared:$LD_LIBRARY_PATH"
+```
+
+Use finders (substring, bytes, and sets):
+
+```go
+package main
+
+import (
+    "fmt"
+    sz "github.com/ashvardanian/stringzilla/golang"
+)
+
+func main() {
+    s := "the quick brown fox jumps over the lazy dog"
+
+    // Substrings
+    fmt.Println(sz.Contains(s, "brown"))        // true
+    fmt.Println(sz.Index(s, "the"))             // 0
+    fmt.Println(sz.LastIndex(s, "the"))         // 35
+
+    // Single bytes
+    fmt.Println(sz.IndexByte(s, 'o'))            // 12
+    fmt.Println(sz.LastIndexByte(s, 'o'))        // 41
+
+    // Byte sets
+    fmt.Println(sz.IndexAny(s, "aeiou"))        // 2  (first vowel)
+    fmt.Println(sz.LastIndexAny(s, "aeiou"))    // 43 (last vowel)
+
+    // Counting with/without overlaps
+    fmt.Println(sz.Count("aaaaa", "aa", false)) // 2
+    fmt.Println(sz.Count("aaaaa", "aa", true))  // 4
+    fmt.Println(sz.Count("abc", "", false))     // 4
+    fmt.Println(sz.Bytesum("ABC"), sz.Bytesum("ABCD"))
+}
+```
+
+### Unicode Case-Folding and Case-Insensitive Search
+
+```go
+package main
+
+import (
+    "fmt"
+    sz "github.com/ashvardanian/stringzilla/golang"
+)
+
+func main() {
+    folded, _ := sz.Utf8CaseFold("Straße", true)
+    fmt.Println(folded) // "strasse"
+
+    haystack := "Die Temperaturschwankungen im kosmischen Mikrowellenhintergrund sind ein Maß von etwa 20 µK.\n" +
+        "Typografisch sieht man auch: ein Maß von etwa 20 μK."
+    needle := "EIN MASS VON ETWA 20 μK"
+
+    start64, len64, _ := sz.Utf8CaseInsensitiveFind(haystack, needle, true)
+    start, end := int(start64), int(start64+len64)
+    fmt.Println(haystack[start:end]) // "ein Maß von etwa 20 µK"
+
+    // Reuse the same needle efficiently
+    compiled, _ := sz.NewUtf8CaseInsensitiveNeedle(needle, true)
+    start64, len64, _ = compiled.FindIn(haystack, true)
+    start, end = int(start64), int(start64+len64)
+    fmt.Println(haystack[start:end])
+}
+```
+
+### Hash
+
+Single-shot and incremental hashing are both supported.
+The `Hasher` type implements Go's standard `hash.Hash64` and `io.Writer` interfaces:
+
+```go
+import (
+    "io"
+    sz "github.com/ashvardanian/stringzilla/golang"
+)
+
+// One-shot hashing
+one := sz.Hash("Hello, world!", 42)
+
+// Streaming hasher (implements hash.Hash64 and io.Writer)
+hasher := sz.NewHasher(42)
+hasher.Write([]byte("Hello, "))
+hasher.Write([]byte("world!"))
+streamed := hasher.Digest()         // or hasher.Sum64()
+fmt.Println(one == streamed)        // true
+
+// Works with io.Copy and any io.Reader
+file, _ := os.Open("data.txt")
+hasher.Reset()
+io.Copy(hasher, file)
+fileHash := hasher.Sum64()
+```
+
+### SHA-256 Checksums
+
+SHA-256 cryptographic checksums are available.
+The `Sha256` type implements Go's standard `hash.Hash` and `io.Writer` interfaces:
+
+```go
+import (
+    "io"
+    sz "github.com/ashvardanian/stringzilla/golang"
+)
+
+// One-shot SHA-256
+digest := sz.HashSha256([]byte("Hello, world!"))
+fmt.Printf("%x\n", digest)          // prints 32-byte hash in hex
+
+// Streaming SHA-256 (implements hash.Hash and io.Writer)
+hasher := sz.NewSha256()
+hasher.Write([]byte("Hello, "))
+hasher.Write([]byte("world!"))
+digestBytes := hasher.Digest()      // [32]byte
+digestHex := hasher.Hexdigest()     // string (64 hex chars)
+
+// Works with io.Copy and any io.Reader
+file, _ := os.Open("data.bin")
+hasher.Reset()
+io.Copy(hasher, file)
+fileDigest := hasher.Digest()
+
+// Standard hash.Hash interface methods
+sum := hasher.Sum(nil)              // []byte with 32 bytes
+size := hasher.Size()               // 32
+blockSize := hasher.BlockSize()     // 64
+```
+
+## Algorithms & Design Decisions
+
+StringZilla aims to optimize some of the slowest string operations.
+Some popular operations, however, like equality comparisons and relative order checking, almost always complete on some of the very first bytes in either string.
+In such operations vectorization is almost useless, unless huge and very similar strings are considered.
+StringZilla implements those operations as well, but won't result in substantial speedups.
+Where vectorization stops being effective, parallelism takes over with the new layered cake architecture:
+
+- StringZilla C library w/out dependencies
+- StringZillas parallel extensions:
+  - Parallel C++ algorithms built with [Fork Union](https://github.com/ashvardanian/fork_union)
+  - Parallel CUDA algorithms for Nvidia GPUs
+  - Parallel ROCm algorithms for AMD GPUs 🔜
+
+### Exact Substring Search
+
+Substring search algorithms are generally divided into: comparison-based, automaton-based, and bit-parallel.
+Different families are effective for different alphabet sizes and needle lengths.
+The more operations are needed per-character - the more effective SIMD would be.
+The longer the needle - the more effective the skip-tables are.
+StringZilla uses different exact substring search algorithms for different needle lengths and backends:
+
+- When no SIMD is available - SWAR (SIMD Within A Register) algorithms are used on 64-bit words.
+- Boyer-Moore-Horspool (BMH) algorithm with Raita heuristic variation for longer needles.
+- SIMD backends compare characters at multiple strategically chosen offsets within the needle to reduce degeneracy.
+
+On very short needles, especially 1-4 characters long, brute force with SIMD is the fastest solution.
+On mid-length needles, bit-parallel algorithms are effective, as the character masks fit into 32-bit or 64-bit words.
+Either way, if the needle is under 64-bytes long, on haystack traversal we will still fetch every CPU cache line.
+So the only way to improve performance is to reduce the number of comparisons.
+
+> For 2-byte needles, see `sz_find_2byte_serial_` in `include/stringzilla/find.h`:
+
+https://github.com/ashvardanian/StringZilla/blob/e1966de91600298d3c5cf4fe7be40d434f0f405e/include/stringzilla/find.h#L422-L463
+
+Going beyond that, to long needles, Boyer-Moore (BM) and its variants are often the best choice.
+It has two tables: the good-suffix shift and the bad-character shift.
+Common choice is to use the simplified BMH algorithm, which only uses the bad-character shift table, reducing the pre-processing time.
+We do the same for mid-length needles up to 256 bytes long.
+That way the stack-allocated shift table remains small.
+
+> For mid-length needles (≤256 bytes), see `sz_find_horspool_upto_256bytes_serial_` in `include/stringzilla/find.h`:
+
+https://github.com/ashvardanian/StringZilla/blob/e1966de91600298d3c5cf4fe7be40d434f0f405e/include/stringzilla/find.h#L620-L667
+
+In the C++ Standards Library, the `std::string::find` function uses the BMH algorithm with Raita's heuristic.
+Before comparing the entire string, it matches the first, last, and the middle character.
+Very practical, but can be slow for repetitive characters.
+Both SWAR and SIMD backends of StringZilla have a cheap pre-processing step, where we locate unique characters.
+This makes the library a lot more practical when dealing with non-English corpora.
+
+> The offset selection heuristic is implemented in `sz_locate_needle_anomalies_` in `include/stringzilla/find.h`:
+
+https://github.com/ashvardanian/StringZilla/blob/e1966de91600298d3c5cf4fe7be40d434f0f405e/include/stringzilla/find.h#L244-L305
+
+All those, still, have $O(hn)$ worst case complexity.
+To guarantee $O(h)$ worst case time complexity, the Apostolico-Giancarlo (AG) algorithm adds an additional skip-table.
+Preprocessing phase is $O(n+sigma)$ in time and space.
+On traversal, performs from $(h/n)$ to $(3h/2)$ comparisons.
+It however, isn't practical on modern CPUs.
+A simpler idea, the Galil-rule might be a more relevant optimizations, if many matches must be found.
+
+Other algorithms previously considered and deprecated:
+
+- Apostolico-Giancarlo algorithm for longer needles. _Control-flow is too complex for efficient vectorization._
+- Shift-Or-based Bitap algorithm for short needles. _Slower than SWAR._
+- Horspool-style bad-character check in SIMD backends. _Effective only for very long needles, and very uneven character distributions between the needle and the haystack. Faster "character-in-set" check needed to generalize._
+
+> § Reading materials.
+> [Exact String Matching Algorithms in Java](https://www-igm.univ-mlv.fr/~lecroq/string).
+> [SIMD-friendly algorithms for substring searching](http://0x80.pl/articles/simd-strfind.html).
+
+### Exact Multiple Substring Search
+
+Few algorithms for multiple substring search are known.
+Most are based on the Aho-Corasick automaton, which is a generalization of the KMP algorithm.
+The naive implementation, however:
+
+- Allocates disjoint memory for each Trie node and Automaton state.
+- Requires a lot of pointer chasing, limiting speculative execution.
+- Has a lot of branches and conditional moves, which are hard to predict.
+- Matches text a character at a time, which is slow on modern CPUs.
+
+There are several ways to improve the original algorithm.
+One is to use sparse DFA representation, which is more cache-friendly, but would require extra processing to navigate state transitions.
+
+### Levenshtein Edit Distance
+
+Levenshtein distance is the best known edit-distance for strings, that checks, how many insertions, deletions, and substitutions are needed to transform one string to another.
+It's extensively used in approximate string-matching, spell-checking, and bioinformatics.
+
+The computational cost of the Levenshtein distance is $O(n * m)$, where $n$ and $m$ are the lengths of the string arguments.
+To compute that, the naive approach requires $O(n * m)$ space to store the "Levenshtein matrix", the bottom-right corner of which will contain the Levenshtein distance.
+The algorithm producing the matrix has been simultaneously studied/discovered by the Soviet mathematicians Vladimir Levenshtein in 1965, Taras Vintsyuk in 1968, and American computer scientists - Robert Wagner, David Sankoff, Michael J. Fischer in the following years.
+Several optimizations are known:
+
+1. __Space Optimization__: The matrix can be computed in $O(min(n,m))$ space, by only storing the last two rows of the matrix.
+2. __Divide and Conquer__: Hirschberg's algorithm can be applied to decompose the computation into subtasks.
+3. __Automata__: Levenshtein automata can be effective, if one of the strings doesn't change, and is a subject to many comparisons.
+4. __Shift-Or__: Bit-parallel algorithms transpose the matrix into a bit-matrix, and perform bitwise operations on it.
+
+The last approach is quite powerful and performant, and is used by the great [RapidFuzz][rapidfuzz] library.
+It's less known, than the others, derived from the Baeza-Yates-Gonnet algorithm, extended to bounded edit-distance search by Manber and Wu in 1990s, and further extended by Gene Myers in 1999 and Heikki Hyyro between 2002 and 2004.
+
+StringZilla focuses on a different approach, extensively used in Unum's internal combinatorial optimization libraries.
+It doesn't change the number of trivial operations, but performs them in a different order, removing the data dependency, that occurs when computing the insertion costs.
+StringZilla __evaluates diagonals instead of rows__, exploiting the fact that all cells within a diagonal are independent, and can be computed in parallel.
+We'll store 3 diagonals instead of the 2 rows, and each consecutive diagonal will be computed from the previous two.
+Substitution costs will come from the sooner diagonal, while insertion and deletion costs will come from the later diagonal.
+
+<table>
+<tr>
+<td>
+<strong>Row-by-Row Algorithm</strong><br>
+Computing row 4:
+
+<pre>
+    ∅  A  B  C  D  E
+ ∅  0  1  2  3  4  5
+ P  1  ░  ░  ░  ░  ░
+ Q  2  ■  ■  ■  ■  ■
+ R  3  ■  ■  □  →  .
+ S  4  .  .  .  .  .
+ T  5  .  .  .  .  .
+</pre>
+</td>
+<td>
+<strong>Anti-Diagonal Algorithm</strong><br>
+Computing diagonal 5:
+
+<pre>
+    ∅  A  B  C  D  E
+ ∅  0  1  2  3  4  5
+ P  1  ░  ░  ■  ■  □
+ Q  2  ░  ■  ■  □  ↘
+ R  3  ■  ■  □  ↘  .
+ S  4  ■  □  ↘  .  .
+ T  5  □  ↘  .  .  .
+</pre>
+</td>
+</tr>
+<tr>
+<td colspan="2">
+<strong>Legend:</strong><br>
+<code>0,1,2,3...</code> = initialization constants &nbsp;&nbsp;
+<code>░</code> = cells processed and forgotten &nbsp;&nbsp;
+<code>■</code> = stored cells &nbsp;&nbsp;
+<code>□</code> = computing in parallel &nbsp;&nbsp;
+<code>→ ↘</code> = movement direction &nbsp;&nbsp;
+<code>.</code> = cells to compute later
+</td>
+</tr>
+</table>
+
+This results in much better vectorization for intra-core parallelism and potentially multi-core evaluation of a single request.
+Moreover, it's easy to generalize to weighted edit-distances, where the cost of a substitution between two characters may not be the same for all pairs, often used in bioinformatics.
+
+> § Reading materials.
+> [Faster Levenshtein Distances with a SIMD-friendly Traversal Order](https://ashvardanian.com/posts/levenshtein-diagonal).
+
+[rapidfuzz]: https://github.com/rapidfuzz/RapidFuzz
+
+### Needleman-Wunsch and Smith-Waterman Scores for Bioinformatics
+
+The field of bioinformatics studies various representations of biological structures.
+The "primary" representations are generally strings over sparse alphabets:
+
+- [DNA][faq-dna] sequences, where the alphabet is {A, C, G, T}, ranging from ~100 characters for short reads to 3 billion for the human genome.
+- [RNA][faq-rna] sequences, where the alphabet is {A, C, G, U}, ranging from ~50 characters for tRNA to thousands for mRNA.
+- [Proteins][faq-protein], where the alphabet is made of 22 amino acids, ranging from 2 characters for [dipeptide][faq-dipeptide] to 35,000 for [Titin][faq-titin], the longest protein.
+
+The shorter the representation, the more often researchers may want to use custom substitution matrices.
+Meaning that the cost of a substitution between two characters may not be the same for all pairs.
+In the general case the serial algorithm is supposed to work for arbitrary substitution costs for each of 256×256 possible character pairs.
+That lookup table, however, is too large to fit into CPU registers, so instead, the upcoming design focuses on 32×32 substitution matrices, which fit into 1 KB with single-byte "error costs".
+That said, most [BLOSUM][faq-blosum] and [PAM][faq-pam] substitution matrices only contain 4-bit values, so they can be packed even further.
+
+[faq-dna]: https://en.wikipedia.org/wiki/DNA
+[faq-rna]: https://en.wikipedia.org/wiki/RNA
+[faq-protein]: https://en.wikipedia.org/wiki/Protein
+[faq-blosum]: https://en.wikipedia.org/wiki/BLOSUM
+[faq-pam]: https://en.wikipedia.org/wiki/Point_accepted_mutation
+[faq-dipeptide]: https://en.wikipedia.org/wiki/Dipeptide
+[faq-titin]: https://en.wikipedia.org/wiki/Titin
+
+Next design goals:
+
+- [ ] Needleman-Wunsch Automata
+
+### Memory Copying, Fills, and Moves
+
+A lot has been written about the time computers spend copying memory and how that operation is implemented in LibC.
+Interestingly, the operation can still be improved, as most Assembly implementations use outdated instructions.
+Even performance-oriented STL replacements, like Meta's [Folly v2024.09.23 focus on AVX2](https://github.com/facebook/folly/blob/main/folly/memset.S), and don't take advantage of the new masked instructions in AVX-512 or SVE.
+
+In AVX-512, StringZilla uses non-temporal stores to avoid cache pollution, when dealing with very large strings.
+Moreover, it handles the unaligned head and the tails of the `target` buffer separately, ensuring that writes in big copies are always aligned to cache-line boundaries.
+That's true for both AVX2 and AVX-512 backends.
+
+StringZilla also contains "drafts" of smarter, but less efficient algorithms, that minimize the number of unaligned loads, performing shuffles and permutations.
+That's a topic for future research, as the performance gains are not yet satisfactory.
+
+> § Reading materials.
+> [`memset` benchmarks](https://github.com/nadavrot/memset_benchmark?tab=readme-ov-file) by Nadav Rotem.
+> [Cache Associativity](https://en.algorithmica.org/hpc/cpu-cache/associativity/) by Sergey Slotin.
+
+
+### Hashing
+
+StringZilla implements a high-performance 64-bit hash function inspired by the "AquaHash", "aHash", and "GxHash" design and optimized for modern CPU architectures.
+The algorithm utilizes AES encryption rounds combined with shuffle-and-add operations to achieve exceptional mixing properties while maintaining consistent output across platforms.
+It passes the rigorous SMHasher test suite, including the `--extra` flag with no collisions.
+
+The core algorithm operates on a dual-state design:
+
+- __AES State__: Initialized with seed `XOR`-ed against π constants.
+- __Sum State__: Accumulates shuffled input data with a permutation.
+
+For strings ≤64 bytes, a minimal state processes data in 16-byte blocks.
+Longer strings employ a 4× wider state (512 bits) that processes 64-byte chunks, maximizing throughput on modern superscalar CPUs.
+The algorithm can be expressed in pseudocode as:
+
+```
+function sz_hash(text: u8[], length: usize, seed: u64) -> u64:
+    # 1024 bits worth of π constants
+    pi: u64[16] = [
+        0x243F6A8885A308D3, 0x13198A2E03707344, 0xA4093822299F31D0, 0x082EFA98EC4E6C89,
+        0x452821E638D01377, 0xBE5466CF34E90C6C, 0xC0AC29B7C97C50DD, 0x3F84D5B5B5470917,
+        0x9216D5D98979FB1B, 0xD1310BA698DFB5AC, 0x2FFD72DBD01ADFB7, 0xB8E1AFED6A267E96,
+        0xBA7C9045F12C7F99, 0x24A19947B3916CF7, 0x0801F2E2858EFC16, 0x636920D871574E69]
+
+    # Permutation order for the sum state
+    shuffle_pattern: u8[16] = [
+        0x04, 0x0b, 0x09, 0x06, 0x08, 0x0d, 0x0f, 0x05,
+        0x0e, 0x03, 0x01, 0x0c, 0x00, 0x07, 0x0a, 0x02]
+
+    # Initialize key and states
+    keys_u64s: u64[2] = [seed, seed]
+    aes_u64s: u64[2] = [seed ⊕ pi[0], seed ⊕ pi[1]]
+    sum_u64s: u64[2] = [seed ⊕ pi[8], seed ⊕ pi[9]]
+
+    if length ≤ 64:
+        # Small input: process 1-4 zero-padded blocks of 16 bytes each
+        blocks_u8s: u8[16][] = split_into_blocks(text, length, 16)
+        for each block_u8s: u8[16] in blocks_u8s:
+            aes_u64s = AESENC(aes_u64s, block_u8s)
+            sum_u64s = SHUFFLE(sum_u64s, shuffle_pattern) + block_u8s
+    else:
+        # Large input: use 4× wider 512-bits states
+        aes_u64s: u64[8] = [
+            seed ⊕ pi[0], seed ⊕ pi[1], seed ⊕ pi[2], seed ⊕ pi[3],
+            seed ⊕ pi[4], seed ⊕ pi[5], seed ⊕ pi[6], seed ⊕ pi[7]]
+        sum_u64s: u64[8] = [
+            seed ⊕ pi[8], seed ⊕ pi[9], seed ⊕ pi[10], seed ⊕ pi[11],
+            seed ⊕ pi[12], seed ⊕ pi[13], seed ⊕ pi[14], seed ⊕ pi[15]]
+
+        # Process 64-byte chunks (4×16-byte blocks)
+        for each chunk_u8s: u8[64] in text:
+            blocks_u8s: u8[16][4] = split_chunk_into_4_blocks(chunk_u8s)
+            for i in 0..3:
+                offset: usize = i * 2  # Each lane stores two u64s
+                aes_u64s[offset:offset+1] = AESENC(aes_u64s[offset:offset+1], blocks_u8s[i])
+                sum_u64s[offset:offset+1] = SHUFFLE(sum_u64s[offset:offset+1], shuffle_pattern) + blocks_u8s[i]
+
+        # Fold 8×u64 state back to 2×u64 for finalization
+        aes_u64s: u64[2] = fold_to_2u64(aes_u64s)
+        sum_u64s: u64[2] = fold_to_2u64(sum_u64s)
+
+    # Finalization: mix length into key
+    key_with_length: u64[2] = [keys_u64s[0] + length, keys_u64s[1]]
+
+    # Multiple AES rounds for SMHasher compliance
+    mixed_u64s: u64[2] = AESENC(sum_u64s, aes_u64s)
+    result_u64s: u64[2] = AESENC(AESENC(mixed_u64s, key_with_length), mixed_u64s)
+
+    return result_u64s[0]  # Extract low 64 bits
+```
+
+This allows us to balance several design trade-offs.
+First, it allows us to achieve a high port-level parallelism.
+Looking at AVX-512 capable CPUs and their ZMM instructions, on each cycle, we'll have at least 2 ports busy when dealing with long strings:
+
+- `VAESENC`: 5 cycles on port 0 on Intel Ice Lake, 4 cycles on ports 0/1 on AMD Zen4.
+- `VPSHUFB_Z`: 3 cycles on port 5 on Intel Ice Lake, 2 cycles on ports 1/2 on AMD Zen4.
+- `VPADDQ`: 1 cycle on ports 0/5 on Intel Ice Lake, 1 cycle on ports 0/1/2/3 on AMD Zen4.
+
+When dealing with smaller strings, we design our approach to avoid large registers and maintain the CPU at the same energy state, thereby avoiding downclocking and expensive power-state transitions.
+
+Unlike some AES-accelerated alternatives, the length of the input is not mixed into the AES block at the start to allow incremental construction, when the final length is not known in advance.
+Also, unlike some alternatives, with "masked" AVX-512 and "predicated" SVE loads, we avoid expensive block-shuffling procedures on non-divisible-by-16 lengths.
+
+> § Reading materials.
+> [Stress-testing hash functions for avalance behaviour, collision bias, and distribution](https://github.com/ashvardanian/HashEvals).
+
+### SHA-256 Checksums
+
+In addition to the fast AES-based hash, StringZilla implements hardware-accelerated SHA-256 cryptographic checksums.
+The implementation follows the [FIPS 180-4 specification](https://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.180-4.pdf) and provides multiple backends.
+
+### Random Generation
+
+StringZilla implements a fast [Pseudorandom Number Generator][faq-prng] inspired by the "AES-CTR-128" algorithm, reusing the same AES primitives as the hash function.
+Unlike "NIST SP 800-90A" which uses multiple AES rounds, StringZilla uses only one round of AES mixing for performance while maintaining reproducible output across platforms.
+The generator operates in counter mode with `AESENC(nonce + lane_index, nonce ⊕ pi_constants)`, rotating through the first 512 bits of π for each 16-byte block.
+The only state required to reproduce an output is a 64-bit `nonce`, which is much cheaper than a Mersenne Twister.
+
+[faq-prng]: https://en.wikipedia.org/wiki/Pseudorandom_number_generator
+
+### Sorting
+
+For lexicographic sorting of string collections, StringZilla exports pointer-sized n‑grams ("pgrams") into a contiguous buffer to improve locality, then recursively QuickSorts those pgrams with a 3‑way partition and dives into equal pgrams to compare deeper characters.
+Very small inputs fall back to insertion sort.
+
+- Average time complexity: O(n log n)
+- Worst-case time complexity: quadratic (due to QuickSort), mitigated in practice by 3‑way partitioning and the n‑gram staging
+
+### Unicode 17, UTF-8, and Wide Characters
+
+Most StringZilla operations are byte-level, so they work well with ASCII and UTF-8 content out of the box.
+In some cases, like edit-distance computation, the result of byte-level evaluation and character-level evaluation may differ.
+
+- `szs_levenshtein_distances_utf8("αβγδ", "αγδ") == 1` — one unicode symbol.
+- `szs_levenshtein_distances("αβγδ", "αγδ") == 2` — one unicode symbol is two bytes long.
+
+Java, JavaScript, Python 2, C#, and Objective-C, however, use wide characters (`wchar`) - two byte long codes, instead of the more reasonable fixed-length UTF-32 or variable-length UTF-8.
+This leads [to all kinds of offset-counting issues][wide-char-offsets] when facing four-byte long Unicode characters.
+StringZilla uses proper 32-bit "runes" to represent unpacked Unicode codepoints, ensuring correct results in all operations.
+Moreover, it implements the Unicode 17.0 standard, being practically the only library besides ICU and PCRE2 to do so, but with order(s) of magnitude better performance.
+
+[wide-char-offsets]: https://josephg.com/blog/string-length-lies/
+
+### Case-Folding and Case-Insensitive Search
+
+StringZilla provides Unicode-aware case-insensitive substring search that handles the full complexity of Unicode case folding.
+This includes multi-character expansions:
+
+| Character | Codepoint | UTF-8 Bytes | Case-Folds To | Result Bytes |
+| --------- | --------- | ----------- | ------------- | ------------ |
+| `ß`       | U+00DF    | C3 9F       | `ss`          | 73 73        |
+| `ﬃ`       | U+FB03    | EF AC 83    | `ffi`         | 66 66 69     |
+| `İ`       | U+0130    | C4 B0       | `i` + `◌̇`     | 69 CC 87     |
+
+The search returns byte offsets and lengths in the original haystack, correctly handling length differences.
+For example, searching for `"STRASSE"` (7 bytes) in `"Straße"` (7 bytes: 53 74 72 61 C3 9F 65) succeeds because both case-fold to `"strasse"`.
+
+Note that Turkish `İ` and ASCII `I` are distinct: `İstanbul` case-folds to `i̇stanbul` (with combining dot), while `ISTANBUL` case-folds to `istanbul` (without).
+They will not match each other — this is correct Unicode behavior for Turkish locale handling.
+
+For wide-character environments (Java, JavaScript, Python 2, C#), consider transcoding with [simdutf](https://github.com/simdutf/simdutf).
+
+## Dynamic Dispatch
+
+Due to the high-level of fragmentation of SIMD support in different CPUs, StringZilla uses the names of select Intel and ARM CPU generations for its backends.
+You can query supported backends and use them manually.
+Use it to guarantee constant performance, or to explore how different algorithms scale on your hardware.
+
+```c
+sz_find(text, length, pattern, 3);          // Auto-dispatch
+sz_find_westmere(text, length, pattern, 3);  // Intel Westmere+ SSE4.2
+sz_find_haswell(text, length, pattern, 3);  // Intel Haswell+ AVX2
+sz_find_skylake(text, length, pattern, 3);  // Intel Skylake+ AVX-512
+sz_find_neon(text, length, pattern, 3);     // Arm NEON 128-bit
+sz_find_sve(text, length, pattern, 3);      // Arm SVE 128/256/512/1024/2048-bit
+```
+
+StringZilla automatically picks the most advanced backend for the given CPU.
+Similarly, in Python, you can log the auto-detected capabilities:
+
+```python
+python -c "import stringzilla; print(stringzilla.__capabilities__)"         # ('serial', 'westmere', 'haswell', 'skylake', 'ice', 'neon', 'sve', 'sve2+aes')
+python -c "import stringzilla; print(stringzilla.__capabilities_str__)"     # "haswell, skylake, ice, neon, sve, sve2+aes"
+```
+
+You can also explicitly set the backend to use, or scope the backend to a specific function.
+
+```python
+import stringzilla as sz
+sz.reset_capabilities(('serial',))          # Force SWAR backend
+sz.reset_capabilities(('haswell',))         # Force AVX2 backend
+sz.reset_capabilities(('neon',))            # Force NEON backend
+sz.reset_capabilities(sz.__capabilities__)  # Reset to auto-dispatch
+```
+
+## Contributing 👾
+
+Please check out the [contributing guide](https://github.com/ashvardanian/StringZilla/blob/main/CONTRIBUTING.md) for more details on how to set up the development environment and contribute to this project.
+If you like this project, you may also enjoy [USearch][usearch], [UCall][ucall], [UForm][uform], and [SimSIMD][simsimd]. 🤗
+
+[usearch]: https://github.com/unum-cloud/usearch
+[ucall]: https://github.com/unum-cloud/ucall
+[uform]: https://github.com/unum-cloud/uform
+[simsimd]: https://github.com/ashvardanian/simsimd
+
+If you like strings and value efficiency, you may also enjoy the following projects:
+
+- [simdutf](https://github.com/simdutf/simdutf) - transcoding UTF-8, UTF-16, and UTF-32 LE and BE.
+- [hyperscan](https://github.com/intel/hyperscan) - regular expressions with SIMD acceleration.
+- [pyahocorasick](https://github.com/WojciechMula/pyahocorasick) - Aho-Corasick algorithm in Python.
+- [rapidfuzz](https://github.com/rapidfuzz/RapidFuzz) - fast string matching in C++ and Python.
+- [memchr](https://github.com/BurntSushi/memchr) - fast string search in Rust.
+
+If you are looking for more reading materials on this topic, consider the following:
+
+- [5x faster strings with SIMD & SWAR](https://ashvardanian.com/posts/stringzilla/).
+- [The Painful Pitfalls of C++ STL Strings](https://ashvardanian.com/posts/painful-strings/).
+- [Processing Strings 109x Faster than Nvidia on H100](https://ashvardanian.com/posts/stringwars-on-gpus/).
+- [How a String Library Beat OpenCV at Image Processing by 4x](https://ashvardanian.com/posts/image-processing-with-strings/).
+- [2x Faster Hashes on AWS Graviton: NEON → SVE2](https://ashvardanian.com/posts/aws-graviton-checksums-on-neon-vs-sve/).
+
+## License 📜
+
+Feel free to use the project under Apache 2.0 or the Three-clause BSD license at your preference.

