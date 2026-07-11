@@ -21,13 +21,23 @@ I fancy myself a GitHub spelunker. Through my journeys I find a lot of cool pack
 
 Below is an index to quickly CTRL+F to find them.
 
-Total Stars: <!-- doc-gen STAR_COUNT -->6,828<!-- end-doc-gen -->
+Total Stars: <!-- doc-gen STAR_COUNT -->6,838<!-- end-doc-gen -->
 
 Full list here: https://davidwells.github.io/stars
 
 <!-- doc-gen ALL_STARS_TABLE -->
 | Repo | Description | Language | Stars | Starred On |
 | --- | --- | --- | ---: | --- |
+| [aurorascharff/agent-friction-skill](https://github.com/aurorascharff/agent-friction-skill) | A skill for AI agents to document agentic developer experience friction during a development flow. |  | 17 | [Jul 11, 2026](./stars/aurorascharff/agent-friction-skill.md) |
+| [mvanhorn/agentcookie](https://github.com/mvanhorn/agentcookie) | Your agent runs on a Mac that isn't your daily driver. agentcookie keeps its sessions in sync with the Mac you actually... Tags: #ai-agents #automation #chrome #cli #cookies #golang #macos #tailscale | Go | 591 | [Jul 10, 2026](./stars/mvanhorn/agentcookie.md) |
+| [mvanhorn/cli-printing-press](https://github.com/mvanhorn/cli-printing-press) | Every API has a secret identity. This finds it, absorbs every feature from every competing tool, then builds the GOAT C... Tags: #ai-agents #cli #cli-generator #developer-tools #golang #openapi | Go | 3,932 | [Jul 10, 2026](./stars/mvanhorn/cli-printing-press.md) |
+| [samwho/everycron](https://github.com/samwho/everycron) | Every cron expression in a single enum. | TypeScript | 16 | [Jul 09, 2026](./stars/samwho/everycron.md) |
+| [PerryTS/perry](https://github.com/PerryTS/perry) | A native TypeScript compiler written in Rust. Compiles TypeScript directly to executables using SWC and LLVM. Tags: #android #compile #harmonyos #ios #llvm #macos #native #smc #typescript #watchos #windows | Rust | 4,130 | [Jul 09, 2026](./stars/PerryTS/perry.md) |
+| [ngrok/webernetes](https://github.com/ngrok/webernetes) | Kubernetes in the browser. | TypeScript | 1,018 | [Jul 09, 2026](./stars/ngrok/webernetes.md) |
+| [hardikpandya/stop-slop](https://github.com/hardikpandya/stop-slop) | A skill file for removing AI tells from prose |  | 13,667 | [Jul 09, 2026](./stars/hardikpandya/stop-slop.md) |
+| [jackwener/OpenCLI](https://github.com/jackwener/OpenCLI) | Make Any Website into CLI & Use your logged-in browser by AI agent. Tags: #ai-agent #ai-agents #ai-tools #browser-automation #browser-use #cli #playwright | JavaScript | 26,487 | [Jul 06, 2026](./stars/jackwener/OpenCLI.md) |
+| [Panniantong/Agent-Reach](https://github.com/Panniantong/Agent-Reach) | Give your AI agent eyes to see the entire internet. Read & search Twitter, Reddit, YouTube, GitHub, Bilibili, XiaoHongS... Tags: #agent-infrastructure #ai-agent #ai-search #automation #bilibili #claude-code #cli #cursor #free-api #llm-tools #mcp #python #reddit-scraper #twitter-scraper #web-scraper #xiaohongshu #youtube-transcript | Python | 54,908 | [Jul 06, 2026](./stars/Panniantong/Agent-Reach.md) |
+| [xingbofeng/VoxFlow](https://github.com/xingbofeng/VoxFlow) | A macOS voice, screenshot, clipboard, and coding-agent workbench. Tags: #appkit #asset-management #chinese #clipboard-manager #launcher #macos #menu-bar #open-source #productivity #screenshot-ocr #speech-recognition #swift | Swift | 38 | [Jul 05, 2026](./stars/xingbofeng/VoxFlow.md) |
 | [unclebob/swarm-forge](https://github.com/unclebob/swarm-forge) | A simple tool for coordinating several AI agents. | Clojure | 970 | [Jul 04, 2026](./stars/unclebob/swarm-forge.md) |
 | [inthhq/leadtype](https://github.com/inthhq/leadtype) | Unified docs pipeline for humans & agents. Tags: #agents #ai #docs #llms-txt #typescript | TypeScript | 5 | [Jul 02, 2026](./stars/inthhq/leadtype.md) |
 | [jacobparis/trackcn](https://github.com/jacobparis/trackcn) | Track GitHub files, directories, commits, pull requests, and agent skills like dependencies. | JavaScript | 18 | [Jul 02, 2026](./stars/jacobparis/trackcn.md) |
@@ -1018,16 +1028,6 @@ Full list here: https://davidwells.github.io/stars
 | [BourAbdelhadi/awsviz](https://github.com/BourAbdelhadi/awsviz) |  | JavaScript | 69 | [Aug 30, 2024](./stars/BourAbdelhadi/awsviz.md) |
 | [antfu/oniguruma-to-js](https://github.com/antfu/oniguruma-to-js) | Covert Oniguruma-flavor Regexp to JavaScript native RegExp. | TypeScript | 61 | [Aug 30, 2024](./stars/antfu/oniguruma-to-js.md) |
 | [zirkelc/aws-signature-v4](https://github.com/zirkelc/aws-signature-v4) | AWS SignatureV4 libraries | TypeScript | 35 | [Aug 30, 2024](./stars/zirkelc/aws-signature-v4.md) |
-| [francismeynard/lambda-multipart-parser](https://github.com/francismeynard/lambda-multipart-parser) | This nodejs module will parse the multipart-form containing files and fields from the AWS lambda event object. It works... Tags: #api #api-gateway #aws #binary-file #form-data #lambda #multi-part #nodejs #s3 #text-files #upload | JavaScript | 74 | [Aug 30, 2024](./stars/francismeynard/lambda-multipart-parser.md) |
-| [guillaumeduboc/free-static-ip](https://github.com/guillaumeduboc/free-static-ip) |  | TypeScript | 4 | [Aug 30, 2024](./stars/guillaumeduboc/free-static-ip.md) |
-| [guiyom-e/auto-update-ip-aws](https://github.com/guiyom-e/auto-update-ip-aws) | CDK stack and scripts to make a free dynDNS with AWS Route 53 and serverless resources Tags: #aws #cdk-construct #dns #dyndns #nas #route53 | TypeScript | 2 | [Aug 30, 2024](./stars/guiyom-e/auto-update-ip-aws.md) |
-| [dbartholomae/lambda-middleware](https://github.com/dbartholomae/lambda-middleware) | A collection of middleware for AWS lambda functions. Tags: #aws #hacktoberfest #lambda #lambda-middleware #middleware | TypeScript | 153 | [Aug 30, 2024](./stars/dbartholomae/lambda-middleware.md) |
-| [maxday/lambda-perf](https://github.com/maxday/lambda-perf) | Lambda Cold Starts analysis, updated daily | Rust | 528 | [Aug 30, 2024](./stars/maxday/lambda-perf.md) |
-| [shellscape/jsx-email](https://github.com/shellscape/jsx-email) | Build emails with a delightful DX | TypeScript | 1,130 | [Aug 30, 2024](./stars/shellscape/jsx-email.md) |
-| [revant-io/cdk-cost-limit](https://github.com/revant-io/cdk-cost-limit) | A Collection of CDK Constructs to Deploy Cost-Aware Self-Limiting Resources Tags: #aws #budget #cdk #cost #finops | TypeScript | 433 | [Aug 30, 2024](./stars/revant-io/cdk-cost-limit.md) |
-| [PChol22/sls-natgateway](https://github.com/PChol22/sls-natgateway) | A "free" serverless alternative to AWS NAT Gateways. Still WIP ⚙️, help welcome! Tags: #aws #cdk #free #nat-gateway #serverless #typescript | JavaScript | 5 | [Aug 30, 2024](./stars/PChol22/sls-natgateway.md) |
-| [ThomasAribart/sls-relative-paths](https://github.com/ThomasAribart/sls-relative-paths) | Allow defining Serverless Framework functions handlers paths relatively | TypeScript | 2 | [Aug 30, 2024](./stars/ThomasAribart/sls-relative-paths.md) |
-| [gvergnaud/hotscript](https://github.com/gvergnaud/hotscript) | A library of composable functions for the type-level! Transform your TypeScript types in any way you want using functio... Tags: #type-level-programming #typescript | TypeScript | 3,567 | [Aug 30, 2024](./stars/gvergnaud/hotscript.md) |
 <!-- end-doc-gen -->
 
 ## About this repo
