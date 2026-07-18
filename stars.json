@@ -1,7 +1,47 @@
 {
-  "generatedAt": "2026-07-11T22:38:11.348Z",
-  "total": 6902,
+  "generatedAt": "2026-07-18T22:38:19.694Z",
+  "total": 6905,
   "stars": [
+    {
+      "repo": "team-reflect/reflect-open",
+      "url": "https://github.com/team-reflect/reflect-open",
+      "homepage": "",
+      "starredAt": "2026-07-14T19:37:46Z",
+      "createdAt": "2026-06-09T02:23:15Z",
+      "updatedAt": "2026-07-18T20:35:27Z",
+      "language": "TypeScript",
+      "license": "MIT",
+      "branch": "master",
+      "stars": 1287,
+      "isPublic": true,
+      "isTemplate": false,
+      "isArchived": false,
+      "isFork": false,
+      "description": "Open-source Reflect rewrite: A local-first AI agent-friendly Markdown note-taking app",
+      "tags": [
+        "agent",
+        "markdown",
+        "note-taking"
+      ]
+    },
+    {
+      "repo": "RDarrylR/aws-batch-parquet-telemetry-processor",
+      "url": "https://github.com/RDarrylR/aws-batch-parquet-telemetry-processor",
+      "homepage": null,
+      "starredAt": "2026-07-12T15:30:59Z",
+      "createdAt": "2026-04-11T17:51:45Z",
+      "updatedAt": "2026-07-12T15:31:00Z",
+      "language": "Python",
+      "license": "MIT",
+      "branch": "main",
+      "stars": 1,
+      "isPublic": true,
+      "isTemplate": false,
+      "isArchived": false,
+      "isFork": false,
+      "description": "Learn how to use AWS Batch, Spot EC2, and Amazon Bedrock to process large Parquet files of industrial telemetry and generate incident reports.",
+      "tags": []
+    },
     {
       "repo": "aurorascharff/agent-friction-skill",
       "url": "https://github.com/aurorascharff/agent-friction-skill",
@@ -688,6 +728,24 @@
         "sqs",
         "terraform"
       ]
+    },
+    {
+      "repo": "carlassmann/work-cli",
+      "url": "https://github.com/carlassmann/work-cli",
+      "homepage": null,
+      "starredAt": "2026-05-19T16:25:31Z",
+      "createdAt": "2026-05-18T14:48:49Z",
+      "updatedAt": "2026-05-29T15:00:38Z",
+      "language": "TypeScript",
+      "license": "MIT",
+      "branch": "main",
+      "stars": 5,
+      "isPublic": true,
+      "isTemplate": false,
+      "isArchived": false,
+      "isFork": false,
+      "description": "Parallel git worktree workflows: per-workspace commands, stable .localhost URLs, tmux-parged agents, one CLI.",
+      "tags": []
     },
     {
       "repo": "ccssmnn/work-cli",
