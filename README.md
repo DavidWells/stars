@@ -28,6 +28,8 @@ Full list here: https://davidwells.github.io/stars
 <!-- doc-gen ALL_STARS_TABLE -->
 | Repo | Description | Language | Stars | Starred On |
 | --- | --- | --- | ---: | --- |
+| [team-reflect/reflect-open](https://github.com/team-reflect/reflect-open) | Open-source Reflect rewrite: A local-first AI agent-friendly Markdown note-taking app Tags: #agent #markdown #note-taking | TypeScript | 1,287 | [Jul 14, 2026](./stars/team-reflect/reflect-open.md) |
+| [RDarrylR/aws-batch-parquet-telemetry-processor](https://github.com/RDarrylR/aws-batch-parquet-telemetry-processor) | Learn how to use AWS Batch, Spot EC2, and Amazon Bedrock to process large Parquet files of industrial telemetry and gen... | Python | 1 | [Jul 12, 2026](./stars/RDarrylR/aws-batch-parquet-telemetry-processor.md) |
 | [aurorascharff/agent-friction-skill](https://github.com/aurorascharff/agent-friction-skill) | A skill for AI agents to document agentic developer experience friction during a development flow. |  | 17 | [Jul 11, 2026](./stars/aurorascharff/agent-friction-skill.md) |
 | [mvanhorn/agentcookie](https://github.com/mvanhorn/agentcookie) | Your agent runs on a Mac that isn't your daily driver. agentcookie keeps its sessions in sync with the Mac you actually... Tags: #ai-agents #automation #chrome #cli #cookies #golang #macos #tailscale | Go | 591 | [Jul 10, 2026](./stars/mvanhorn/agentcookie.md) |
 | [mvanhorn/cli-printing-press](https://github.com/mvanhorn/cli-printing-press) | Every API has a secret identity. This finds it, absorbs every feature from every competing tool, then builds the GOAT C... Tags: #ai-agents #cli #cli-generator #developer-tools #golang #openapi | Go | 3,932 | [Jul 10, 2026](./stars/mvanhorn/cli-printing-press.md) |
@@ -57,6 +59,7 @@ Full list here: https://davidwells.github.io/stars
 | [ExtendDB/extenddb](https://github.com/ExtendDB/extenddb) | ExtendDB | Rust | 443 | [May 23, 2026](./stars/ExtendDB/extenddb.md) |
 | [Ruya-AI/cozempic](https://github.com/Ruya-AI/cozempic) | Context cleaning for Claude Code — prune bloated sessions, protect Agent Teams from context loss, auto-guard with tiere... Tags: #agent-teams #claude-code #claude-skills #cli #context #context-management #jsonl #llm-tools #pruning #python #session-management | Python | 345 | [May 23, 2026](./stars/Ruya-AI/cozempic.md) |
 | [ministackorg/ministack](https://github.com/ministackorg/ministack) | Ministack: Free, open-source local AWS emulator - 55+ services, Terraform compatible, real databases. Free forever. MIT... Tags: #aws #aws-emulator #aws-local #aws-sdk #devtools #docker #dynamodb #ec2 #emulator #lambda #localstack #localstack-alternative #ministack #mock-aws #open-source #python #s3 #sqs #terraform | Python | 3,448 | [May 22, 2026](./stars/ministackorg/ministack.md) |
+| [carlassmann/work-cli](https://github.com/carlassmann/work-cli) | Parallel git worktree workflows: per-workspace commands, stable .localhost URLs, tmux-parged agents, one CLI. | TypeScript | 5 | [May 19, 2026](./stars/carlassmann/work-cli.md) |
 | [ccssmnn/work-cli](https://github.com/ccssmnn/work-cli) | Parallel git worktree workflows: per-workspace commands, stable .localhost URLs, tmux-parged agents, one CLI. | TypeScript | 5 | [May 19, 2026](./stars/ccssmnn/work-cli.md) |
 | [jakebailey/pprof-it](https://github.com/jakebailey/pprof-it) | A handy pprof wrapper for Node.js | TypeScript | 101 | [May 19, 2026](./stars/jakebailey/pprof-it.md) |
 | [modem-dev/hunk](https://github.com/modem-dev/hunk) | Review-first terminal diff viewer for agentic coders Tags: #cli #code-review #diff #git #tui | TypeScript | 6,052 | [May 16, 2026](./stars/modem-dev/hunk.md) |
@@ -1025,9 +1028,6 @@ Full list here: https://davidwells.github.io/stars
 | [Sparticuz/chromium](https://github.com/Sparticuz/chromium) | Chromium (x86-64) for Serverless Platforms Tags: #chromium #hacktoberfest #serverless | TypeScript | 1,148 | [Aug 31, 2024](./stars/Sparticuz/chromium.md) |
 | [taiga-family/maskito](https://github.com/taiga-family/maskito) | Collection of libraries to create an input mask which ensures that user types value according to predefined format. Tags: #angular #hacktoberfest #input-formatting #input-mask #inputmask #mask #text-mask #typescript | TypeScript | 1,496 | [Aug 31, 2024](./stars/taiga-family/maskito.md) |
 | [ekalinin/github-markdown-toc](https://github.com/ekalinin/github-markdown-toc) | Easy TOC creation for GitHub README.md Tags: #github #markdown #shell #table-of-contents #toc | Shell | 3,251 | [Aug 30, 2024](./stars/ekalinin/github-markdown-toc.md) |
-| [BourAbdelhadi/awsviz](https://github.com/BourAbdelhadi/awsviz) |  | JavaScript | 69 | [Aug 30, 2024](./stars/BourAbdelhadi/awsviz.md) |
-| [antfu/oniguruma-to-js](https://github.com/antfu/oniguruma-to-js) | Covert Oniguruma-flavor Regexp to JavaScript native RegExp. | TypeScript | 61 | [Aug 30, 2024](./stars/antfu/oniguruma-to-js.md) |
-| [zirkelc/aws-signature-v4](https://github.com/zirkelc/aws-signature-v4) | AWS SignatureV4 libraries | TypeScript | 35 | [Aug 30, 2024](./stars/zirkelc/aws-signature-v4.md) |
 <!-- end-doc-gen -->
 
 ## About this repo
