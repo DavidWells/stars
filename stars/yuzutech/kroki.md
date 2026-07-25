@@ -1,0 +1,234 @@
+---
+repo: yuzutech/kroki
+url: 'https://github.com/yuzutech/kroki'
+homepage: 'https://kroki.io'
+starredAt: '2026-07-22T23:27:21Z'
+createdAt: '2019-01-10T13:17:19Z'
+updatedAt: '2026-07-25T14:54:23Z'
+language: JavaScript
+license: MIT
+branch: main
+stars: 4258
+isPublic: true
+isTemplate: false
+isArchived: false
+isFork: false
+hasReadMe: true
+refreshedAt: '2026-07-25T22:39:40.741Z'
+description: Creates diagrams from textual descriptions!
+tags:
+  - api
+  - blockdiag
+  - bpmn
+  - bytefield
+  - c4
+  - diagrams
+  - ditaa
+  - erd
+  - excalidraw
+  - graphviz
+  - hacktoberfest
+  - images
+  - mermaid
+  - pikchr
+  - plantuml
+  - svgbob
+  - text
+  - uml
+  - umlet
+  - wavedrom
+---
+
+:uri-kroki: https://kroki.io/
+:uri-kroki-docs: https://docs.kroki.io/
+:uri-maven: https://maven.apache.org/
+
+++++
+<a href="https://kroki.io/">
+<picture>
+  <source media="(prefers-color-scheme: dark)" width="200" srcset="https://kroki.io/assets/logo-white.svg">
+  <source media="(prefers-color-scheme: light)" width="200" srcset="https://kroki.io/assets/logo.svg">
+  <img alt="Kroki logo" width="200" src="https://kroki.io/assets/logo.svg">
+</picture>
+</a>
+++++
+---
+
+ifdef::env-github[]
+image:https://github.com/yuzutech/kroki/workflows/CI/badge.svg?branch=master[GitHub Actions build status, link=https://github.com/yuzutech/kroki/actions]
+image:https://img.shields.io/badge/zulip-join_chat-brightgreen.svg[Zulip chat, link=https://kroki.zulipchat.com/]
+endif::[]
+
+{uri-kroki}[Kroki] provides a unified API with support for BlockDiag (BlockDiag, SeqDiag, ActDiag, NwDiag, PacketDiag, RackDiag), BPMN, Bytefield, C4 (with PlantUML), D2, DBML, Diagrams.net (experimental), Ditaa, Erd, Excalidraw, GoAT, GraphViz, Mermaid, Nomnoml, Pikchr, PlantUML, SvgBob, Symbolator, UMLet, Vega, Vega-Lite, WaveDrom and WireViz... and more to come!
+
+== Quickstart
+
+This section offers a basic tutorial for evaluating Kroki.
+More comprehensive installation instructions are in the {uri-kroki-docs}[Kroki documentation].
+
+== Usage
+
+Kroki uses a simple algorithm (deflate + base64) to encode your diagram in the URL:
+
+`GET /plantuml/svg/SyfFKj2rKt3CoKnELR1Io4ZDoSa70000`
+
+You can also call Kroki with `POST`:
+
+ POST /
+
+[source,json]
+----
+{
+  "diagram_source": "Bob -> Alice : hello",
+  "diagram_type": "plantuml",
+  "output_format": "svg"
+}
+----
+
+In this case, you don't need to encode your diagram.
+
+It's also possible to send your diagram as plain text using the `Content-Type` header.
+The output format will be specified using the `Accept` header and the diagram source will be sent as the request body:
+
+ POST /plantuml
+
+[source]
+----
+Accept: image/svg+xml
+Content-Type: text/plain
+
+Bob -> Alice : hello
+----
+
+You can also define the output format in the URL if you don't want to add an `Accept` header:
+
+ POST /plantuml/svg
+
+[source]
+----
+Content-Type: text/plain
+
+Bob -> Alice : hello
+----
+
+The same concept applies when sending the diagram as JSON:
+
+ POST /plantuml/svg
+[source,json]
+----
+{
+  "diagram_source": "Bob -> Alice : hello"
+}
+----
+
+== Project layout
+
+Kroki has a modular architecture:
+
+server::
+A Java web server (powered by _Vert.x_) that acts as a gateway.
+Kroki server is built using {uri-maven}[Maven].
+
+umlet::
+A tiny Java API on top of _UMlet_ (mini) to generate diagrams.
+
+nomnoml::
+A Node.js CLI on top of the _Nomnoml_ diagram library.
+
+vega::
+A Node.js CLI on top of the _vega_ diagram library. Also supports Vega-Lite concise grammar.
+
+mermaid::
+A companion web server written in JavaScript (powered by _micro_) that provides _Mermaid_ diagram library.
+
+bpmn::
+A companion web server written in JavaScript (powered by _micro_) that provides _bpmn-js_ diagram library.
+
+bytefield::
+A Node.js CLI on top of the _bytefield-svg_ diagram library.
+
+wavedrom::
+A Node.js CLI on top of the _wavedrom_ diagram library.
+
+excalidraw::
+A companion web server written in JavaScript (powered by _micro_) that provides _Excalidraw_.
+
+diagrams.net::
+A companion web server written in JavaScript (powered by _micro_) that provides _diagrams.net_.
+
+== Build
+
+Install `task` command-line: https://taskfile.dev/installation/
+
+=== Gateway Server
+
+The first step is to build the project using Maven:
+
+ $ task mavenBuild
+
+=== Docker Images
+
+To build all the Docker images, use the following command:
+
+ $ sudo task dockerBuildImages
+
+NOTE: `sudo` might not be needed depending on your distribution and `docker` configuration.
+
+== Run
+
+Once the Docker images are built, you can run Kroki using `docker`:
+
+ $ docker run -d -p 8000:8000 yuzutech/kroki
+
+=== Companion Containers
+
+If you want to use one of the following diagram libraries then you will also need to start the corresponding companion container:
+
+yuzutech/kroki-mermaid::
+Mermaid
+
+yuzutech/kroki-bpmn::
+BPMN
+
+yuzutech/kroki-excalidraw::
+Excalidraw
+
+yuzutech/kroki-diagramsnet (experimental)::
+diagrams.net
+
+You can use `docker-compose` to run multiple containers:
+
+.docker-compose.yml
+[source,yml]
+----
+services:
+  core:
+    image: yuzutech/kroki
+    environment:
+      - KROKI_MERMAID_HOST=mermaid
+      - KROKI_BPMN_HOST=bpmn
+      - KROKI_EXCALIDRAW_HOST=excalidraw
+      # experimental!
+      - KROKI_DIAGRAMSNET_HOST=diagramsnet
+    ports:
+      - "8000:8000"
+  mermaid:
+    image: yuzutech/kroki-mermaid
+    expose:
+      - "8002"
+  bpmn:
+    image: yuzutech/kroki-bpmn
+    expose:
+      - "8003"
+  excalidraw:
+    image: yuzutech/kroki-excalidraw
+    expose:
+      - "8004"
+  # experimental!
+  diagramsnet:
+    image: yuzutech/kroki-diagramsnet
+    expose:
+      - "8005"
+----
+
+ $ docker-compose up -d

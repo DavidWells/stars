@@ -21,13 +21,19 @@ I fancy myself a GitHub spelunker. Through my journeys I find a lot of cool pack
 
 Below is an index to quickly CTRL+F to find them.
 
-Total Stars: <!-- doc-gen STAR_COUNT -->6,838<!-- end-doc-gen -->
+Total Stars: <!-- doc-gen STAR_COUNT -->6,844<!-- end-doc-gen -->
 
 Full list here: https://davidwells.github.io/stars
 
 <!-- doc-gen ALL_STARS_TABLE -->
 | Repo | Description | Language | Stars | Starred On |
 | --- | --- | --- | ---: | --- |
+| [MobileReality/mdma](https://github.com/MobileReality/mdma) | Interactive documents from Markdown. Extends MD with forms, approvals, webhooks, and more — built for next gen apps Tags: #agent-skills #ai-agents #claude-skill #generative-ui #interactive-markdown #llm #mcp #mcp-server #mdma #model-context-protocol #react #remark-plugin #typescript | TypeScript | 55 | [Jul 23, 2026](./stars/MobileReality/mdma.md) |
+| [google-ai-edge/mediapipe](https://github.com/google-ai-edge/mediapipe) | Cross-platform, customizable ML solutions for live and streaming media. Tags: #android #audio-processing #c-plus-plus #calculator #computer-vision #deep-learning #framework #graph-based #graph-framework #inference #machine-learning #mediapipe #mobile-development #perception #pipeline-framework #stream-processing #video-processing | C++ | 36,271 | [Jul 23, 2026](./stars/google-ai-edge/mediapipe.md) |
+| [Rich-Harris/magic-string](https://github.com/Rich-Harris/magic-string) | Manipulate strings like a wizard | TypeScript | 2,754 | [Jul 23, 2026](./stars/Rich-Harris/magic-string.md) |
+| [unjs/unplugin](https://github.com/unjs/unplugin) | Unified plugin system for Vite, Rollup, Webpack, esbuild, Rolldown, and more Tags: #esbuild #rolldown #rollup #rspack #unplugin #vite #webpack | TypeScript | 3,604 | [Jul 23, 2026](./stars/unjs/unplugin.md) |
+| [gajus/zod-compiler](https://github.com/gajus/zod-compiler) | Compile Zod schemas into zero-overhead validation functions at build time. Works with Vite, webpack, esbuild, Rollup, e... Tags: #zod | TypeScript | 541 | [Jul 23, 2026](./stars/gajus/zod-compiler.md) |
+| [yuzutech/kroki](https://github.com/yuzutech/kroki) | Creates diagrams from textual descriptions! Tags: #api #blockdiag #bpmn #bytefield #c4 #diagrams #ditaa #erd #excalidraw #graphviz #hacktoberfest #images #mermaid #pikchr #plantuml #svgbob #text #uml #umlet #wavedrom | JavaScript | 4,258 | [Jul 22, 2026](./stars/yuzutech/kroki.md) |
 | [team-reflect/reflect-open](https://github.com/team-reflect/reflect-open) | Open-source Reflect rewrite: A local-first AI agent-friendly Markdown note-taking app Tags: #agent #markdown #note-taking | TypeScript | 1,287 | [Jul 14, 2026](./stars/team-reflect/reflect-open.md) |
 | [RDarrylR/aws-batch-parquet-telemetry-processor](https://github.com/RDarrylR/aws-batch-parquet-telemetry-processor) | Learn how to use AWS Batch, Spot EC2, and Amazon Bedrock to process large Parquet files of industrial telemetry and gen... | Python | 1 | [Jul 12, 2026](./stars/RDarrylR/aws-batch-parquet-telemetry-processor.md) |
 | [aurorascharff/agent-friction-skill](https://github.com/aurorascharff/agent-friction-skill) | A skill for AI agents to document agentic developer experience friction during a development flow. |  | 17 | [Jul 11, 2026](./stars/aurorascharff/agent-friction-skill.md) |
@@ -1022,12 +1028,6 @@ Full list here: https://davidwells.github.io/stars
 | [jiawei397/json_to_ts_web](https://github.com/jiawei397/json_to_ts_web) | JSON to TypeScript | TypeScript | 2 | [Sep 01, 2024](./stars/jiawei397/json_to_ts_web.md) |
 | [jiawei397/yaml_to_ts_web](https://github.com/jiawei397/yaml_to_ts_web) | yaml to TS web | TypeScript | 6 | [Sep 01, 2024](./stars/jiawei397/yaml_to_ts_web.md) |
 | [formsmd/formsmd](https://github.com/formsmd/formsmd) | Developer-first, open source Typeform alternative (formerly known as Blocks.md) Tags: #form #form-builder #forms #google-sheets #typeform #typeform-clone | JavaScript | 345 | [Aug 31, 2024](./stars/formsmd/formsmd.md) |
-| [fullcalendar/fullcalendar](https://github.com/fullcalendar/fullcalendar) | Full-sized drag & drop event calendar in JavaScript Tags: #calendar #event #full-sized | TypeScript | 18,994 | [Aug 31, 2024](./stars/fullcalendar/fullcalendar.md) |
-| [sdennett55/svg_crop](https://github.com/sdennett55/svg_crop) | Remove blank space from around any SVG instantly. Tags: #svg #svgo | JavaScript | 36 | [Aug 31, 2024](./stars/sdennett55/svg_crop.md) |
-| [raineorshine/npm-check-updates](https://github.com/raineorshine/npm-check-updates) | Find newer versions of package dependencies than what your package.json allows Tags: #npm #npm-check-updates | TypeScript | 9,639 | [Aug 31, 2024](./stars/raineorshine/npm-check-updates.md) |
-| [Sparticuz/chromium](https://github.com/Sparticuz/chromium) | Chromium (x86-64) for Serverless Platforms Tags: #chromium #hacktoberfest #serverless | TypeScript | 1,148 | [Aug 31, 2024](./stars/Sparticuz/chromium.md) |
-| [taiga-family/maskito](https://github.com/taiga-family/maskito) | Collection of libraries to create an input mask which ensures that user types value according to predefined format. Tags: #angular #hacktoberfest #input-formatting #input-mask #inputmask #mask #text-mask #typescript | TypeScript | 1,496 | [Aug 31, 2024](./stars/taiga-family/maskito.md) |
-| [ekalinin/github-markdown-toc](https://github.com/ekalinin/github-markdown-toc) | Easy TOC creation for GitHub README.md Tags: #github #markdown #shell #table-of-contents #toc | Shell | 3,251 | [Aug 30, 2024](./stars/ekalinin/github-markdown-toc.md) |
 <!-- end-doc-gen -->
 
 ## About this repo
