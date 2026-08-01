@@ -21,13 +21,17 @@ I fancy myself a GitHub spelunker. Through my journeys I find a lot of cool pack
 
 Below is an index to quickly CTRL+F to find them.
 
-Total Stars: <!-- doc-gen STAR_COUNT -->6,844<!-- end-doc-gen -->
+Total Stars: <!-- doc-gen STAR_COUNT -->6,846<!-- end-doc-gen -->
 
 Full list here: https://davidwells.github.io/stars
 
 <!-- doc-gen ALL_STARS_TABLE -->
 | Repo | Description | Language | Stars | Starred On |
 | --- | --- | --- | ---: | --- |
+| [deedy/qr-data-transfer](https://github.com/deedy/qr-data-transfer) |  | TypeScript | 317 | [Jul 31, 2026](./stars/deedy/qr-data-transfer.md) |
+| [comarkdown/comark](https://github.com/comarkdown/comark) | A high-performance Markdown parser and renderer for Angular, React, Svelte, Vue, HTML and ANSI. Tags: #ai #markdown #mdc #react #streaming #svelte #vue | TypeScript | 907 | [Jul 27, 2026](./stars/comarkdown/comark.md) |
+| [tmchow/gh-smart-clone](https://github.com/tmchow/gh-smart-clone) | GitHub CLI extension for fork-aware owner/repo clone paths Tags: #gh-cli #gh-extension #git #github-cli | Shell | 10 | [Jul 27, 2026](./stars/tmchow/gh-smart-clone.md) |
+| [gunnargrosch/durable-viz](https://github.com/gunnargrosch/durable-viz) | Visualize AWS Lambda Durable Functions workflows. Static analysis turns your handler code into a flowchart, no deployme... | TypeScript | 17 | [Jul 26, 2026](./stars/gunnargrosch/durable-viz.md) |
 | [MobileReality/mdma](https://github.com/MobileReality/mdma) | Interactive documents from Markdown. Extends MD with forms, approvals, webhooks, and more — built for next gen apps Tags: #agent-skills #ai-agents #claude-skill #generative-ui #interactive-markdown #llm #mcp #mcp-server #mdma #model-context-protocol #react #remark-plugin #typescript | TypeScript | 55 | [Jul 23, 2026](./stars/MobileReality/mdma.md) |
 | [google-ai-edge/mediapipe](https://github.com/google-ai-edge/mediapipe) | Cross-platform, customizable ML solutions for live and streaming media. Tags: #android #audio-processing #c-plus-plus #calculator #computer-vision #deep-learning #framework #graph-based #graph-framework #inference #machine-learning #mediapipe #mobile-development #perception #pipeline-framework #stream-processing #video-processing | C++ | 36,271 | [Jul 23, 2026](./stars/google-ai-edge/mediapipe.md) |
 | [Rich-Harris/magic-string](https://github.com/Rich-Harris/magic-string) | Manipulate strings like a wizard | TypeScript | 2,754 | [Jul 23, 2026](./stars/Rich-Harris/magic-string.md) |
@@ -1024,10 +1028,6 @@ Full list here: https://davidwells.github.io/stars
 | [chroxify/haptic](https://github.com/chroxify/haptic) | A new local-first, privacy-focused and open-source home for your markdown notes | Svelte | 1,128 | [Sep 05, 2024](./stars/chroxify/haptic.md) |
 | [lukeed/empathic](https://github.com/lukeed/empathic) | A set of small Node.js utilities to understand your pathing needs. | TypeScript | 252 | [Sep 03, 2024](./stars/lukeed/empathic.md) |
 | [jiawei397/deno_yaml_to_ts](https://github.com/jiawei397/deno_yaml_to_ts) | yaml to typescript interface | TypeScript | 1 | [Sep 01, 2024](./stars/jiawei397/deno_yaml_to_ts.md) |
-| [MariusAlch/json-to-ts](https://github.com/MariusAlch/json-to-ts) | Convert jsons to typescript interfaces | TypeScript | 422 | [Sep 01, 2024](./stars/MariusAlch/json-to-ts.md) |
-| [jiawei397/json_to_ts_web](https://github.com/jiawei397/json_to_ts_web) | JSON to TypeScript | TypeScript | 2 | [Sep 01, 2024](./stars/jiawei397/json_to_ts_web.md) |
-| [jiawei397/yaml_to_ts_web](https://github.com/jiawei397/yaml_to_ts_web) | yaml to TS web | TypeScript | 6 | [Sep 01, 2024](./stars/jiawei397/yaml_to_ts_web.md) |
-| [formsmd/formsmd](https://github.com/formsmd/formsmd) | Developer-first, open source Typeform alternative (formerly known as Blocks.md) Tags: #form #form-builder #forms #google-sheets #typeform #typeform-clone | JavaScript | 345 | [Aug 31, 2024](./stars/formsmd/formsmd.md) |
 <!-- end-doc-gen -->
 
 ## About this repo
