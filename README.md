@@ -21,13 +21,21 @@ I fancy myself a GitHub spelunker. Through my journeys I find a lot of cool pack
 
 Below is an index to quickly CTRL+F to find them.
 
-Total Stars: <!-- doc-gen STAR_COUNT -->6,846<!-- end-doc-gen -->
+Total Stars: <!-- doc-gen STAR_COUNT -->6,855<!-- end-doc-gen -->
 
 Full list here: https://davidwells.github.io/stars
 
 <!-- doc-gen ALL_STARS_TABLE -->
 | Repo | Description | Language | Stars | Starred On |
 | --- | --- | --- | ---: | --- |
+| [barelyhuman/conflicto](https://github.com/barelyhuman/conflicto) | Small on purpose. Sharp on every diff. Tags: #diff #diff-viewer #git #github #preact #wails | JavaScript | 6 | [Aug 08, 2026](./stars/barelyhuman/conflicto.md) |
+| [firecrawl/pdf-inspector](https://github.com/firecrawl/pdf-inspector) | Fast Rust library for PDF inspection, classification, and text extraction. Intelligently detects scanned vs text-based ... Tags: #markdown #nodejs #ocr-routing #pdf #pdf-classification #pdf-extraction #pdf-parser #python #rust #text-extraction | Rust | 13,474 | [Aug 07, 2026](./stars/firecrawl/pdf-inspector.md) |
+| [mvanhorn/last30days-skill](https://github.com/mvanhorn/last30days-skill) | AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a gr... Tags: #ai-prompts #ai-skill #bluesky #claude #claude-code #clawhub #deep-research #hackernews #instagram #openclaw #polymarket #recency #reddit #research #social-media #tiktok #trends #twitter #web-search #youtube | Python | 57,681 | [Aug 07, 2026](./stars/mvanhorn/last30days-skill.md) |
+| [firecrawl/anydoc](https://github.com/firecrawl/anydoc) | Convert Word, PowerPoint, Excel, OpenDocument, RTF, EPUB, CSV, and PDF to clean Markdown. Built in Rust, with Node.js a... | Rust | 12,075 | [Aug 07, 2026](./stars/firecrawl/anydoc.md) |
+| [palamim/starboard](https://github.com/palamim/starboard) | A terminal that's always beside your Dock — not a Quake-style hotkey overlay, a permanent fixture Tags: #developer-tools #dock #macos #productivity #swift #terminal | Swift | 124 | [Aug 07, 2026](./stars/palamim/starboard.md) |
+| [h4ckf0r0day/obscura](https://github.com/h4ckf0r0day/obscura) | The headless browser for AI agents and web scraping Tags: #antidetect #antidetect-browser #browser #browser-automation #cdp #headless #playwright #puppeteer #rust | Rust | 20,761 | [Aug 06, 2026](./stars/h4ckf0r0day/obscura.md) |
+| [denoland/celld](https://github.com/denoland/celld) | self-hosted, distributed Durable Objects | Rust | 2,537 | [Aug 05, 2026](./stars/denoland/celld.md) |
+| [wevm/frog](https://github.com/wevm/frog) | Automated friction logging for agents. Tags: #agent #agents #friction #frog | TypeScript | 228 | [Aug 04, 2026](./stars/wevm/frog.md) |
 | [deedy/qr-data-transfer](https://github.com/deedy/qr-data-transfer) |  | TypeScript | 317 | [Jul 31, 2026](./stars/deedy/qr-data-transfer.md) |
 | [comarkdown/comark](https://github.com/comarkdown/comark) | A high-performance Markdown parser and renderer for Angular, React, Svelte, Vue, HTML and ANSI. Tags: #ai #markdown #mdc #react #streaming #svelte #vue | TypeScript | 907 | [Jul 27, 2026](./stars/comarkdown/comark.md) |
 | [tmchow/gh-smart-clone](https://github.com/tmchow/gh-smart-clone) | GitHub CLI extension for fork-aware owner/repo clone paths Tags: #gh-cli #gh-extension #git #github-cli | Shell | 10 | [Jul 27, 2026](./stars/tmchow/gh-smart-clone.md) |
@@ -1020,14 +1028,6 @@ Full list here: https://davidwells.github.io/stars
 | [Oriyomi12/otp-bot](https://github.com/Oriyomi12/otp-bot) |  | JavaScript | 312 | [Sep 16, 2024](./stars/Oriyomi12/otp-bot.md) |
 | [WebReflection/console-strings](https://github.com/WebReflection/console-strings) | String utilities that understand terminal escape sequences. | JavaScript | 24 | [Sep 16, 2024](./stars/WebReflection/console-strings.md) |
 | [paulmillr/chokidar](https://github.com/paulmillr/chokidar) | Minimal and efficient cross-platform file watching library Tags: #chokidar #filesystem #fsevents #nodejs #watch-files #watcher | TypeScript | 11,235 | [Sep 13, 2024](./stars/paulmillr/chokidar.md) |
-| [skierkowski/serverless-safeguards-plugin](https://github.com/skierkowski/serverless-safeguards-plugin) |  | JavaScript | 1 | [Sep 11, 2024](./stars/skierkowski/serverless-safeguards-plugin.md) |
-| [simdjson/simdjson](https://github.com/simdjson/simdjson) | Parsing gigabytes of JSON per second : used by Facebook/Meta Velox, the Node.js runtime, ClickHouse, WatermelonDB, Apac... Tags: #aarch64 #arm #arm64 #avx2 #avx512 #c-plus-plus #clang #clang-cl #cpp11 #gcc-compiler #json #json-parser #json-pointer #loongarch #neon #simd #sse42 #vs2019 #x64 | C++ | 19,795 | [Sep 11, 2024](./stars/simdjson/simdjson.md) |
-| [theajack/disable-devtool](https://github.com/theajack/disable-devtool) | Disable web developer tools from the f12 button, right-click and browser menu Tags: #disable-devtool | TypeScript | 2,363 | [Sep 10, 2024](./stars/theajack/disable-devtool.md) |
-| [aws-samples/lambda-with-multithreading](https://github.com/aws-samples/lambda-with-multithreading) |  | JavaScript | 3 | [Sep 09, 2024](./stars/aws-samples/lambda-with-multithreading.md) |
-| [wesbos/bg-remover](https://github.com/wesbos/bg-remover) | 100% client side background remover | TypeScript | 259 | [Sep 08, 2024](./stars/wesbos/bg-remover.md) |
-| [chroxify/haptic](https://github.com/chroxify/haptic) | A new local-first, privacy-focused and open-source home for your markdown notes | Svelte | 1,128 | [Sep 05, 2024](./stars/chroxify/haptic.md) |
-| [lukeed/empathic](https://github.com/lukeed/empathic) | A set of small Node.js utilities to understand your pathing needs. | TypeScript | 252 | [Sep 03, 2024](./stars/lukeed/empathic.md) |
-| [jiawei397/deno_yaml_to_ts](https://github.com/jiawei397/deno_yaml_to_ts) | yaml to typescript interface | TypeScript | 1 | [Sep 01, 2024](./stars/jiawei397/deno_yaml_to_ts.md) |
 <!-- end-doc-gen -->
 
 ## About this repo
