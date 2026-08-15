@@ -21,13 +21,16 @@ I fancy myself a GitHub spelunker. Through my journeys I find a lot of cool pack
 
 Below is an index to quickly CTRL+F to find them.
 
-Total Stars: <!-- doc-gen STAR_COUNT -->6,855<!-- end-doc-gen -->
+Total Stars: <!-- doc-gen STAR_COUNT -->6,858<!-- end-doc-gen -->
 
 Full list here: https://davidwells.github.io/stars
 
 <!-- doc-gen ALL_STARS_TABLE -->
 | Repo | Description | Language | Stars | Starred On |
 | --- | --- | --- | ---: | --- |
+| [johnlindquist/prompt-align](https://github.com/johnlindquist/prompt-align) | Keyboard-centric brief editor for human-AI alignment: ghost suggestions, // comment steering via local AI CLIs, JSON in... | TypeScript | 1 | [Aug 09, 2026](./stars/johnlindquist/prompt-align.md) |
+| [johnlindquist/agent-markers](https://github.com/johnlindquist/agent-markers) |  | TypeScript | 1 | [Aug 09, 2026](./stars/johnlindquist/agent-markers.md) |
+| [lukeshay/astro-aws](https://github.com/lukeshay/astro-aws) | An Astro SSR adapter for AWS Lambda Tags: #astro #astro-adapter #aws #ssr | TypeScript | 53 | [Aug 08, 2026](./stars/lukeshay/astro-aws.md) |
 | [barelyhuman/conflicto](https://github.com/barelyhuman/conflicto) | Small on purpose. Sharp on every diff. Tags: #diff #diff-viewer #git #github #preact #wails | JavaScript | 6 | [Aug 08, 2026](./stars/barelyhuman/conflicto.md) |
 | [firecrawl/pdf-inspector](https://github.com/firecrawl/pdf-inspector) | Fast Rust library for PDF inspection, classification, and text extraction. Intelligently detects scanned vs text-based ... Tags: #markdown #nodejs #ocr-routing #pdf #pdf-classification #pdf-extraction #pdf-parser #python #rust #text-extraction | Rust | 13,474 | [Aug 07, 2026](./stars/firecrawl/pdf-inspector.md) |
 | [mvanhorn/last30days-skill](https://github.com/mvanhorn/last30days-skill) | AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a gr... Tags: #ai-prompts #ai-skill #bluesky #claude #claude-code #clawhub #deep-research #hackernews #instagram #openclaw #polymarket #recency #reddit #research #social-media #tiktok #trends #twitter #web-search #youtube | Python | 57,681 | [Aug 07, 2026](./stars/mvanhorn/last30days-skill.md) |
@@ -1025,9 +1028,6 @@ Full list here: https://davidwells.github.io/stars
 | [tschoffelen/is-iso-date-string](https://github.com/tschoffelen/is-iso-date-string) | Checks if a string is a valid ISO 8601 date string. | JavaScript | 1 | [Sep 16, 2024](./stars/tschoffelen/is-iso-date-string.md) |
 | [includable/trace-stack](https://github.com/includable/trace-stack) | Self-hosted serverless tracing. | TypeScript | 4 | [Sep 16, 2024](./stars/includable/trace-stack.md) |
 | [tschoffelen/serverless-starter](https://github.com/tschoffelen/serverless-starter) | Starter boilerplate for a serverless API. Tags: #aws-lambda #nodejs #serverless | JavaScript | 3 | [Sep 16, 2024](./stars/tschoffelen/serverless-starter.md) |
-| [Oriyomi12/otp-bot](https://github.com/Oriyomi12/otp-bot) |  | JavaScript | 312 | [Sep 16, 2024](./stars/Oriyomi12/otp-bot.md) |
-| [WebReflection/console-strings](https://github.com/WebReflection/console-strings) | String utilities that understand terminal escape sequences. | JavaScript | 24 | [Sep 16, 2024](./stars/WebReflection/console-strings.md) |
-| [paulmillr/chokidar](https://github.com/paulmillr/chokidar) | Minimal and efficient cross-platform file watching library Tags: #chokidar #filesystem #fsevents #nodejs #watch-files #watcher | TypeScript | 11,235 | [Sep 13, 2024](./stars/paulmillr/chokidar.md) |
 <!-- end-doc-gen -->
 
 ## About this repo
