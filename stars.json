@@ -1,7 +1,101 @@
 {
-  "generatedAt": "2026-08-15T22:33:25.580Z",
-  "total": 6926,
+  "generatedAt": "2026-08-22T22:33:11.285Z",
+  "total": 6930,
   "stars": [
+    {
+      "repo": "tmchow/illo-skill",
+      "url": "https://github.com/tmchow/illo-skill",
+      "homepage": "https://illo-skill.com",
+      "starredAt": "2026-08-22T18:17:07Z",
+      "createdAt": "2026-06-12T16:03:22Z",
+      "updatedAt": "2026-08-22T18:17:07Z",
+      "language": "Python",
+      "license": "MIT",
+      "branch": "main",
+      "stars": 341,
+      "isPublic": true,
+      "isTemplate": false,
+      "isArchived": false,
+      "isFork": false,
+      "description": "illo skill — an AI agent skill that turns ideas and articles into original print-style editorial illustrations, starring a recurring mascot. 30+ characters packs, with ability to create your own.",
+      "tags": [
+        "agent-skills",
+        "claude-code",
+        "illustration",
+        "image-generation",
+        "skill"
+      ]
+    },
+    {
+      "repo": "Nimblesite/typeDiagram",
+      "url": "https://github.com/Nimblesite/typeDiagram",
+      "homepage": "http://typediagram.dev/",
+      "starredAt": "2026-08-19T01:29:56Z",
+      "createdAt": "2026-04-16T01:15:29Z",
+      "updatedAt": "2026-08-19T09:30:56Z",
+      "language": "TypeScript",
+      "license": "MIT",
+      "branch": "main",
+      "stars": 62,
+      "isPublic": true,
+      "isTemplate": false,
+      "isArchived": false,
+      "isFork": false,
+      "description": "typeDiagram is a tiny, language-neutral DSL for diagramming data types. Write type, union, alias — get a beautiful, auto-laid-out SVG. No drag, no drop, no proprietary format.",
+      "tags": [
+        "algebraic-data-types",
+        "diagrams",
+        "diagrams-as-code",
+        "types"
+      ]
+    },
+    {
+      "repo": "anonrig/router",
+      "url": "https://github.com/anonrig/router",
+      "homepage": null,
+      "starredAt": "2026-08-16T03:37:10Z",
+      "createdAt": "2026-08-15T19:21:18Z",
+      "updatedAt": "2026-08-21T23:56:21Z",
+      "language": "TypeScript",
+      "license": "MIT",
+      "branch": "main",
+      "stars": 149,
+      "isPublic": true,
+      "isTemplate": false,
+      "isArchived": false,
+      "isFork": false,
+      "description": "The TanStack Router API. Rebuilt for the hot path.",
+      "tags": [
+        "react",
+        "react19",
+        "router",
+        "ssr",
+        "tanstack",
+        "typescript"
+      ]
+    },
+    {
+      "repo": "Gurpartap/pi-mermaid",
+      "url": "https://github.com/Gurpartap/pi-mermaid",
+      "homepage": "https://www.npmjs.com/package/pi-mermaid",
+      "starredAt": "2026-08-15T23:15:48Z",
+      "createdAt": "2026-02-05T05:20:06Z",
+      "updatedAt": "2026-08-20T09:29:18Z",
+      "language": "TypeScript",
+      "license": "MIT",
+      "branch": "main",
+      "stars": 85,
+      "isPublic": true,
+      "isTemplate": false,
+      "isArchived": false,
+      "isFork": false,
+      "description": "🧜‍♀️ Pi extension that renders Mermaid diagrams as ASCII in the TUI, with width-aware output and safe handling for larger diagrams.",
+      "tags": [
+        "pi",
+        "pi-coding-agent",
+        "pi-extensions"
+      ]
+    },
     {
       "repo": "johnlindquist/prompt-align",
       "url": "https://github.com/johnlindquist/prompt-align",
