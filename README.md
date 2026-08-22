@@ -21,13 +21,17 @@ I fancy myself a GitHub spelunker. Through my journeys I find a lot of cool pack
 
 Below is an index to quickly CTRL+F to find them.
 
-Total Stars: <!-- doc-gen STAR_COUNT -->6,858<!-- end-doc-gen -->
+Total Stars: <!-- doc-gen STAR_COUNT -->6,859<!-- end-doc-gen -->
 
 Full list here: https://davidwells.github.io/stars
 
 <!-- doc-gen ALL_STARS_TABLE -->
 | Repo | Description | Language | Stars | Starred On |
 | --- | --- | --- | ---: | --- |
+| [tmchow/illo-skill](https://github.com/tmchow/illo-skill) | illo skill — an AI agent skill that turns ideas and articles into original print-style editorial illustrations, starrin... Tags: #agent-skills #claude-code #illustration #image-generation #skill | Python | 341 | [Aug 22, 2026](./stars/tmchow/illo-skill.md) |
+| [Nimblesite/typeDiagram](https://github.com/Nimblesite/typeDiagram) | typeDiagram is a tiny, language-neutral DSL for diagramming data types. Write type, union, alias — get a beautiful, aut... Tags: #algebraic-data-types #diagrams #diagrams-as-code #types | TypeScript | 62 | [Aug 19, 2026](./stars/Nimblesite/typeDiagram.md) |
+| [anonrig/router](https://github.com/anonrig/router) | The TanStack Router API. Rebuilt for the hot path. Tags: #react #react19 #router #ssr #tanstack #typescript | TypeScript | 149 | [Aug 16, 2026](./stars/anonrig/router.md) |
+| [Gurpartap/pi-mermaid](https://github.com/Gurpartap/pi-mermaid) | 🧜‍♀️ Pi extension that renders Mermaid diagrams as ASCII in the TUI, with width-aware output and safe handling for lar... Tags: #pi #pi-coding-agent #pi-extensions | TypeScript | 85 | [Aug 15, 2026](./stars/Gurpartap/pi-mermaid.md) |
 | [johnlindquist/prompt-align](https://github.com/johnlindquist/prompt-align) | Keyboard-centric brief editor for human-AI alignment: ghost suggestions, // comment steering via local AI CLIs, JSON in... | TypeScript | 1 | [Aug 09, 2026](./stars/johnlindquist/prompt-align.md) |
 | [johnlindquist/agent-markers](https://github.com/johnlindquist/agent-markers) |  | TypeScript | 1 | [Aug 09, 2026](./stars/johnlindquist/agent-markers.md) |
 | [lukeshay/astro-aws](https://github.com/lukeshay/astro-aws) | An Astro SSR adapter for AWS Lambda Tags: #astro #astro-adapter #aws #ssr | TypeScript | 53 | [Aug 08, 2026](./stars/lukeshay/astro-aws.md) |
@@ -1024,10 +1028,6 @@ Full list here: https://davidwells.github.io/stars
 | [Collaborne/query-to-open-search](https://github.com/Collaborne/query-to-open-search) | Translates query strings into OpenSearch queries | TypeScript | 1 | [Sep 17, 2024](./stars/Collaborne/query-to-open-search.md) |
 | [Collaborne/migrate-cognito-user-pool-lambda](https://github.com/Collaborne/migrate-cognito-user-pool-lambda) |  | TypeScript | 72 | [Sep 17, 2024](./stars/Collaborne/migrate-cognito-user-pool-lambda.md) |
 | [kamranahmedse/local-ses](https://github.com/kamranahmedse/local-ses) | Trap and test AWS SES emails locally | TypeScript | 157 | [Sep 16, 2024](./stars/kamranahmedse/local-ses.md) |
-| [tschoffelen/pick-a-file](https://github.com/tschoffelen/pick-a-file) | JS helper to ask the user to pick a file. | JavaScript | 1 | [Sep 16, 2024](./stars/tschoffelen/pick-a-file.md) |
-| [tschoffelen/is-iso-date-string](https://github.com/tschoffelen/is-iso-date-string) | Checks if a string is a valid ISO 8601 date string. | JavaScript | 1 | [Sep 16, 2024](./stars/tschoffelen/is-iso-date-string.md) |
-| [includable/trace-stack](https://github.com/includable/trace-stack) | Self-hosted serverless tracing. | TypeScript | 4 | [Sep 16, 2024](./stars/includable/trace-stack.md) |
-| [tschoffelen/serverless-starter](https://github.com/tschoffelen/serverless-starter) | Starter boilerplate for a serverless API. Tags: #aws-lambda #nodejs #serverless | JavaScript | 3 | [Sep 16, 2024](./stars/tschoffelen/serverless-starter.md) |
 <!-- end-doc-gen -->
 
 ## About this repo
