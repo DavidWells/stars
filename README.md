@@ -21,13 +21,15 @@ I fancy myself a GitHub spelunker. Through my journeys I find a lot of cool pack
 
 Below is an index to quickly CTRL+F to find them.
 
-Total Stars: <!-- doc-gen STAR_COUNT -->6,859<!-- end-doc-gen -->
+Total Stars: <!-- doc-gen STAR_COUNT -->6,861<!-- end-doc-gen -->
 
 Full list here: https://davidwells.github.io/stars
 
 <!-- doc-gen ALL_STARS_TABLE -->
 | Repo | Description | Language | Stars | Starred On |
 | --- | --- | --- | ---: | --- |
+| [keshav-exe/markdown-graphs](https://github.com/keshav-exe/markdown-graphs) |  | TypeScript | 107 | [Aug 28, 2026](./stars/keshav-exe/markdown-graphs.md) |
+| [tt-a1i/archify](https://github.com/tt-a1i/archify) | Agent skill for beautiful, verifiable architecture, workflow, sequence, data-flow, and lifecycle diagrams—self-containe... Tags: #agent-skills #architecture-as-code #architecture-diagram #claude-skill #code-visualization #codex #coding-agents #data-flow-diagram #deepseek-harness #developer-tools #diagram-as-code #diagrams #diagrams-as-code #dsh-plugin #mermaid-alternative #opencode #sequence-diagram #software-architecture #system-design #text-to-diagram | JavaScript | 31,059 | [Aug 26, 2026](./stars/tt-a1i/archify.md) |
 | [tmchow/illo-skill](https://github.com/tmchow/illo-skill) | illo skill — an AI agent skill that turns ideas and articles into original print-style editorial illustrations, starrin... Tags: #agent-skills #claude-code #illustration #image-generation #skill | Python | 341 | [Aug 22, 2026](./stars/tmchow/illo-skill.md) |
 | [Nimblesite/typeDiagram](https://github.com/Nimblesite/typeDiagram) | typeDiagram is a tiny, language-neutral DSL for diagramming data types. Write type, union, alias — get a beautiful, aut... Tags: #algebraic-data-types #diagrams #diagrams-as-code #types | TypeScript | 62 | [Aug 19, 2026](./stars/Nimblesite/typeDiagram.md) |
 | [anonrig/router](https://github.com/anonrig/router) | The TanStack Router API. Rebuilt for the hot path. Tags: #react #react19 #router #ssr #tanstack #typescript | TypeScript | 149 | [Aug 16, 2026](./stars/anonrig/router.md) |
@@ -68,6 +70,7 @@ Full list here: https://davidwells.github.io/stars
 | [unclebob/swarm-forge](https://github.com/unclebob/swarm-forge) | A simple tool for coordinating several AI agents. | Clojure | 970 | [Jul 04, 2026](./stars/unclebob/swarm-forge.md) |
 | [inthhq/leadtype](https://github.com/inthhq/leadtype) | Unified docs pipeline for humans & agents. Tags: #agents #ai #docs #llms-txt #typescript | TypeScript | 5 | [Jul 02, 2026](./stars/inthhq/leadtype.md) |
 | [jacobparis/trackcn](https://github.com/jacobparis/trackcn) | Track GitHub files, directories, commits, pull requests, and agent skills like dependencies. | JavaScript | 18 | [Jul 02, 2026](./stars/jacobparis/trackcn.md) |
+| [vercel-labs/trackcn](https://github.com/vercel-labs/trackcn) | Track GitHub files, directories, commits, pull requests, and agent skills like dependencies. | JavaScript | 27 | [Jul 02, 2026](./stars/vercel-labs/trackcn.md) |
 | [nilenso/context-viewer](https://github.com/nilenso/context-viewer) | Observability for contexts. Given a coversation log (messages), this tool will provide a breakdown of its components an... | TypeScript | 79 | [Jun 30, 2026](./stars/nilenso/context-viewer.md) |
 | [iot-agent/iot-skillsbench](https://github.com/iot-agent/iot-skillsbench) |  | Python | 33 | [Jun 30, 2026](./stars/iot-agent/iot-skillsbench.md) |
 | [lirantal/gh-cp](https://github.com/lirantal/gh-cp) | A CLI that copies files and directories from GitHub repo paths and downloads them to a local path | TypeScript | 7 | [Jun 18, 2026](./stars/lirantal/gh-cp.md) |
@@ -1025,9 +1028,6 @@ Full list here: https://davidwells.github.io/stars
 | [Collaborne/tasks-scheduler](https://github.com/Collaborne/tasks-scheduler) | A time-based scheduler for tasks | TypeScript | 1 | [Sep 17, 2024](./stars/Collaborne/tasks-scheduler.md) |
 | [Collaborne/mwc-markdown-editor](https://github.com/Collaborne/mwc-markdown-editor) | A markdown editor following Material Design spec | TypeScript | 30 | [Sep 17, 2024](./stars/Collaborne/mwc-markdown-editor.md) |
 | [Collaborne/y-serverless](https://github.com/Collaborne/y-serverless) | Serverless Provider using Websockets and DynamoDB for YJS | JavaScript | 1 | [Sep 17, 2024](./stars/Collaborne/y-serverless.md) |
-| [Collaborne/query-to-open-search](https://github.com/Collaborne/query-to-open-search) | Translates query strings into OpenSearch queries | TypeScript | 1 | [Sep 17, 2024](./stars/Collaborne/query-to-open-search.md) |
-| [Collaborne/migrate-cognito-user-pool-lambda](https://github.com/Collaborne/migrate-cognito-user-pool-lambda) |  | TypeScript | 72 | [Sep 17, 2024](./stars/Collaborne/migrate-cognito-user-pool-lambda.md) |
-| [kamranahmedse/local-ses](https://github.com/kamranahmedse/local-ses) | Trap and test AWS SES emails locally | TypeScript | 157 | [Sep 16, 2024](./stars/kamranahmedse/local-ses.md) |
 <!-- end-doc-gen -->
 
 ## About this repo
