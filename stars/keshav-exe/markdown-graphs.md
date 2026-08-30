@@ -1,0 +1,129 @@
+---
+repo: keshav-exe/markdown-graphs
+url: 'https://github.com/keshav-exe/markdown-graphs'
+homepage: 'https://mdx-graphs.kshv.me'
+starredAt: '2026-08-28T20:57:49Z'
+createdAt: '2026-08-27T15:01:28Z'
+updatedAt: '2026-08-29T23:29:00Z'
+language: TypeScript
+license: MIT
+branch: main
+stars: 107
+isPublic: true
+isTemplate: false
+isArchived: false
+isFork: false
+hasReadMe: true
+refreshedAt: '2026-08-30T00:26:41.040Z'
+description: null
+tags: []
+---
+
+# markdown graphs
+
+React components for ASCII-style tables, charts, and diagrams in MDX. Each graph sits in a dashed frame with a title on the top edge. One accent color by default; drawing graphs can take `palette="duo"` or `palette="multi"`. You copy the source into your project — this is not an npm package.
+
+[Docs](https://mdx-graphs.kshv.me/docs) · [Examples](https://mdx-graphs.kshv.me/docs/examples) · [Install](https://mdx-graphs.kshv.me/docs/installation) · [Skill](https://mdx-graphs.kshv.me/docs/skill) · [GitHub](https://github.com/keshav-exe/markdown-graphs)
+
+## Install
+
+You need an existing [shadcn](https://ui.shadcn.com) project and [`motion`](https://motion.dev).
+
+One component:
+
+```bash
+pnpm dlx shadcn@latest add https://mdx-graphs.kshv.me/r/graph-table.json
+```
+
+Everything:
+
+```bash
+pnpm dlx shadcn@latest add https://mdx-graphs.kshv.me/r/all.json
+```
+
+Files land under `@/registry/default`. Import them from there:
+
+```tsx
+import { GraphTable } from "@/registry/default/graph-table/graph-table"
+```
+
+Add the registry once in `components.json` if you want to install by name:
+
+```json
+{
+  "registries": {
+    "@markdown-graphs": "https://mdx-graphs.kshv.me/r/{name}.json"
+  }
+}
+```
+
+```bash
+pnpm dlx shadcn@latest add @markdown-graphs/graph-table
+```
+
+## Components
+
+| Component | Registry item     | Use for                                    |
+| --------- | ----------------- | ------------------------------------------ |
+| Table     | `graph-table`     | Data tables with optional footer totals    |
+| Sheet     | `graph-sheet`     | Tables with section titles                 |
+| Flow      | `graph-flow`      | Process diagrams on a dashed arrow         |
+| Bars      | `graph-bars`      | Two bar groups, side by side               |
+| Cells     | `graph-cells`     | Filled / empty grids                       |
+| Meter     | `graph-meter`     | Progress as `=` and `-`                    |
+| Spark     | `graph-spark`     | Sparkline from block characters            |
+| Tree      | `graph-tree`      | File or org trees                          |
+| Timeline  | `graph-timeline`  | Dated events, one row current              |
+| Check     | `graph-check`     | Punch list, `[x]` / `[ ]`                  |
+| Stack     | `graph-stack`     | Parts of a whole, glyphs instead of colors |
+| Funnel    | `graph-funnel`    | Steps that get narrower                    |
+| Gantt     | `graph-gantt`     | Schedule on a character track              |
+| Plot      | `graph-plot`      | Line or area from columns of glyphs        |
+| Waffle    | `graph-waffle`    | Share of 100 cells                         |
+| Diff      | `graph-diff`      | Add / remove / keep rows                   |
+| Invoice   | `graph-invoice`   | From, bill-to, line items, totals          |
+| Compare   | `graph-compare`   | Feature matrix (`✓` / `–`)                 |
+| Matrix    | `graph-matrix`    | Exact numbers on both axes                 |
+| Stat      | `graph-stat`      | Large figures with labels                  |
+| Spec      | `graph-spec`      | Label / value sheets                       |
+| Activity  | `graph-activity`  | GitHub-style contribution grid             |
+| Heatmap   | `graph-heatmap`   | Labeled 2d intensity matrix                |
+| Calendar  | `graph-calendar`  | One month, marked days                     |
+| Waterfall | `graph-waterfall` | Running total as floating bars             |
+| Uptime    | `graph-uptime`    | One glyph per day, percent up              |
+| Slope     | `graph-slope`     | Two figures per row, before → after        |
+| Bullet    | `graph-bullet`    | Actual versus target on one track          |
+| Rank      | `graph-rank`      | A ranked list, one bar per row             |
+| KPI       | `graph-kpi`       | One number with a sparkline under it       |
+| Timer     | `graph-timer`     | Elapsed time, how long ago, or the clock   |
+| Countdown | `graph-countdown` | Time left until a date                     |
+| Frame     | `graph-frame`     | Shared dashed frame primitives             |
+
+Each docs page has CLI, manual, and agent install tabs. Copy page puts the markdown (install, prompt, examples, props) on the clipboard.
+
+Composed write-ups (refactor, incident, tradeoff, PR, sprint, migration) live on [Examples](https://mdx-graphs.kshv.me/docs/examples). The [skill](https://mdx-graphs.kshv.me/docs/skill) tells an agent which graph to put next to the prose — JSX in React, fenced ASCII in plain Markdown. Agents can also fetch [`/llms.txt`](https://mdx-graphs.kshv.me/llms.txt) for the chooser and the twins.
+
+## Design
+
+- Geist Mono. Dashed frame, `+` corners (swap with `corner`), title as `[ TITLE ]`.
+- One accent: `--graph-accent`. Unused rows recede with opacity. `palette="duo"` / `"multi"` opt into `--graph-accent-2` and `--graph-accent-3`.
+- Glyphs do the drawing (`█ ▓ ▒ ░ · - = + | ├ └ ✓`). Tracks that represent a range (meter, stack, bullet, rank) span the frame. Spark, bars, cells, and uptime stay packed at 1ch. Pass `glyphs` (`shade` `ascii` `hash` `bar`, or your own characters). No SVG.
+- Numbers use `tabular-nums`. Amounts sit right-aligned.
+- Motion is transform and opacity only, 220ms, no loops. `prefers-reduced-motion` sets duration to 0.
+
+## Development
+
+```bash
+pnpm install
+pnpm dev
+```
+
+Rebuild the shadcn registry after changing files under `registry/default`:
+
+```bash
+pnpm registry:build
+```
+
+## License
+
+[MIT](LICENSE)
