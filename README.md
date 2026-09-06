@@ -21,13 +21,15 @@ I fancy myself a GitHub spelunker. Through my journeys I find a lot of cool pack
 
 Below is an index to quickly CTRL+F to find them.
 
-Total Stars: <!-- doc-gen STAR_COUNT -->6,861<!-- end-doc-gen -->
+Total Stars: <!-- doc-gen STAR_COUNT -->6,863<!-- end-doc-gen -->
 
 Full list here: https://davidwells.github.io/stars
 
 <!-- doc-gen ALL_STARS_TABLE -->
 | Repo | Description | Language | Stars | Starred On |
 | --- | --- | --- | ---: | --- |
+| [grinich/inflow](https://github.com/grinich/inflow) | An experimental Chrome extension that reimagines LinkedIn messaging with a keyboard-driven, local-first UI. | TypeScript | 81 | [Sep 01, 2026](./stars/grinich/inflow.md) |
+| [sinclairzx81/typedriver](https://github.com/sinclairzx81/typedriver) | A Runtime TypeScript Validation Engine Tags: #json-schema #middleware #standard-schema #typescript #validation | TypeScript | 116 | [Aug 31, 2026](./stars/sinclairzx81/typedriver.md) |
 | [keshav-exe/markdown-graphs](https://github.com/keshav-exe/markdown-graphs) |  | TypeScript | 107 | [Aug 28, 2026](./stars/keshav-exe/markdown-graphs.md) |
 | [tt-a1i/archify](https://github.com/tt-a1i/archify) | Agent skill for beautiful, verifiable architecture, workflow, sequence, data-flow, and lifecycle diagrams—self-containe... Tags: #agent-skills #architecture-as-code #architecture-diagram #claude-skill #code-visualization #codex #coding-agents #data-flow-diagram #deepseek-harness #developer-tools #diagram-as-code #diagrams #diagrams-as-code #dsh-plugin #mermaid-alternative #opencode #sequence-diagram #software-architecture #system-design #text-to-diagram | JavaScript | 31,059 | [Aug 26, 2026](./stars/tt-a1i/archify.md) |
 | [tmchow/illo-skill](https://github.com/tmchow/illo-skill) | illo skill — an AI agent skill that turns ideas and articles into original print-style editorial illustrations, starrin... Tags: #agent-skills #claude-code #illustration #image-generation #skill | Python | 341 | [Aug 22, 2026](./stars/tmchow/illo-skill.md) |
@@ -1026,8 +1028,6 @@ Full list here: https://davidwells.github.io/stars
 | [aladevlearning/chatgpt-polly](https://github.com/aladevlearning/chatgpt-polly) |  | JavaScript | 7 | [Sep 17, 2024](./stars/aladevlearning/chatgpt-polly.md) |
 | [XaaXaaX/aws-cognito-impersonation](https://github.com/XaaXaaX/aws-cognito-impersonation) |  | TypeScript | 3 | [Sep 17, 2024](./stars/XaaXaaX/aws-cognito-impersonation.md) |
 | [Collaborne/tasks-scheduler](https://github.com/Collaborne/tasks-scheduler) | A time-based scheduler for tasks | TypeScript | 1 | [Sep 17, 2024](./stars/Collaborne/tasks-scheduler.md) |
-| [Collaborne/mwc-markdown-editor](https://github.com/Collaborne/mwc-markdown-editor) | A markdown editor following Material Design spec | TypeScript | 30 | [Sep 17, 2024](./stars/Collaborne/mwc-markdown-editor.md) |
-| [Collaborne/y-serverless](https://github.com/Collaborne/y-serverless) | Serverless Provider using Websockets and DynamoDB for YJS | JavaScript | 1 | [Sep 17, 2024](./stars/Collaborne/y-serverless.md) |
 <!-- end-doc-gen -->
 
 ## About this repo
