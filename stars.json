@@ -1,7 +1,49 @@
 {
-  "generatedAt": "2026-08-30T00:26:42.914Z",
-  "total": 6933,
+  "generatedAt": "2026-09-06T00:00:46.399Z",
+  "total": 6935,
   "stars": [
+    {
+      "repo": "grinich/inflow",
+      "url": "https://github.com/grinich/inflow",
+      "homepage": "https://inflow.im/",
+      "starredAt": "2026-09-01T18:00:02Z",
+      "createdAt": "2026-05-24T09:08:45Z",
+      "updatedAt": "2026-09-02T07:00:53Z",
+      "language": "TypeScript",
+      "license": "MIT",
+      "branch": "main",
+      "stars": 81,
+      "isPublic": true,
+      "isTemplate": false,
+      "isArchived": false,
+      "isFork": false,
+      "description": "An experimental Chrome extension that reimagines LinkedIn messaging with a keyboard-driven, local-first UI.",
+      "tags": []
+    },
+    {
+      "repo": "sinclairzx81/typedriver",
+      "url": "https://github.com/sinclairzx81/typedriver",
+      "homepage": "",
+      "starredAt": "2026-08-31T16:16:49Z",
+      "createdAt": "2025-11-16T16:18:14Z",
+      "updatedAt": "2026-09-04T22:49:26Z",
+      "language": "TypeScript",
+      "license": "NOASSERTION",
+      "branch": "main",
+      "stars": 116,
+      "isPublic": true,
+      "isTemplate": false,
+      "isArchived": false,
+      "isFork": false,
+      "description": "A Runtime TypeScript Validation Engine",
+      "tags": [
+        "json-schema",
+        "middleware",
+        "standard-schema",
+        "typescript",
+        "validation"
+      ]
+    },
     {
       "repo": "keshav-exe/markdown-graphs",
       "url": "https://github.com/keshav-exe/markdown-graphs",
