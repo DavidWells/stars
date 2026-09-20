@@ -21,16 +21,23 @@ I fancy myself a GitHub spelunker. Through my journeys I find a lot of cool pack
 
 Below is an index to quickly CTRL+F to find them.
 
-Total Stars: <!-- doc-gen STAR_COUNT -->6,862<!-- end-doc-gen -->
+Total Stars: <!-- doc-gen STAR_COUNT -->6,865<!-- end-doc-gen -->
 
 Full list here: https://davidwells.github.io/stars
 
 <!-- doc-gen ALL_STARS_TABLE -->
 | Repo | Description | Language | Stars | Starred On |
 | --- | --- | --- | ---: | --- |
+| [evloghq/evlog](https://github.com/evloghq/evlog) | Digging through logs is not observability. It's hope — wide events, structured errors, TypeScript-first, every runtime. Tags: #debugging #error-handling #logger #logging #nextjs #nuxt #observability #otlp #posthog #sentry #typescript #wide-events | TypeScript | 1,857 | [Sep 19, 2026](./stars/evloghq/evlog.md) |
+| [ratatui/ratatui-spinner](https://github.com/ratatui/ratatui-spinner) | Customizable, stateless spinner widgets for Ratatui applications Tags: #library #ratatui #spinner #terminal #terminal-spinne #tui #widget | Rust | 81 | [Sep 19, 2026](./stars/ratatui/ratatui-spinner.md) |
+| [joelhooks/rat-stack](https://github.com/joelhooks/rat-stack) | 🐀 Agentic TypeScript scaffold: Effect 4, XState 6 + @xstate/effect, Alchemy infra, varlock config, and a fence that ma... Tags: #agents #alchemy #cli #effect #pnpm #template #turborepo #typescript #xstate | TypeScript | 21 | [Sep 19, 2026](./stars/joelhooks/rat-stack.md) |
+| [aurorascharff/ClickLight](https://github.com/aurorascharff/ClickLight) | A macOS menu bar app that highlights your clicks for demos, recordings, UX reviews, and better click visibility. Tags: #appkit #click-highlighter #cursor-highlighter #live-demo #macos #menu-bar-app #presentation-tools #swift | Swift | 310 | [Sep 18, 2026](./stars/aurorascharff/ClickLight.md) |
+| [moritzkremb/jev-voice-browser](https://github.com/moritzkremb/jev-voice-browser) | Control a real browser by voice. Jev (TypeSafe System One) decides intent + target in ~300 ms per spoken word; Playwrig... | JavaScript | 120 | [Sep 18, 2026](./stars/moritzkremb/jev-voice-browser.md) |
+| [sightmap/sightmap](https://github.com/sightmap/sightmap) | Specification, tooling, and documentation for the .sightmap spec. | Go | 61 | [Sep 14, 2026](./stars/sightmap/sightmap.md) |
 | [grinich/inflow](https://github.com/grinich/inflow) | An experimental Chrome extension that reimagines LinkedIn messaging with a keyboard-driven, local-first UI. | TypeScript | 81 | [Sep 01, 2026](./stars/grinich/inflow.md) |
 | [sinclairzx81/typedriver](https://github.com/sinclairzx81/typedriver) | A Runtime TypeScript Validation Engine Tags: #json-schema #middleware #standard-schema #typescript #validation | TypeScript | 116 | [Aug 31, 2026](./stars/sinclairzx81/typedriver.md) |
 | [keshav-exe/markdown-graphs](https://github.com/keshav-exe/markdown-graphs) |  | TypeScript | 107 | [Aug 28, 2026](./stars/keshav-exe/markdown-graphs.md) |
+| [keshav-exe/mdxcn](https://github.com/keshav-exe/mdxcn) | mdxcn is a free, open-source set of callouts, steps, terminals, charts, and timelines for mdx. copy any component with ... Tags: #free #markdown #mdx #mdx-components #open-source #ui-components #ui-library | TypeScript | 208 | [Aug 28, 2026](./stars/keshav-exe/mdxcn.md) |
 | [tt-a1i/archify](https://github.com/tt-a1i/archify) | Agent skill for beautiful, verifiable architecture, workflow, sequence, data-flow, and lifecycle diagrams—self-containe... Tags: #agent-skills #architecture-as-code #architecture-diagram #claude-skill #code-visualization #codex #coding-agents #data-flow-diagram #deepseek-harness #developer-tools #diagram-as-code #diagrams #diagrams-as-code #dsh-plugin #mermaid-alternative #opencode #sequence-diagram #software-architecture #system-design #text-to-diagram | JavaScript | 31,059 | [Aug 26, 2026](./stars/tt-a1i/archify.md) |
 | [tmchow/illo-skill](https://github.com/tmchow/illo-skill) | illo skill — an AI agent skill that turns ideas and articles into original print-style editorial illustrations, starrin... Tags: #agent-skills #claude-code #illustration #image-generation #skill | Python | 341 | [Aug 22, 2026](./stars/tmchow/illo-skill.md) |
 | [Nimblesite/typeDiagram](https://github.com/Nimblesite/typeDiagram) | typeDiagram is a tiny, language-neutral DSL for diagramming data types. Write type, union, alias — get a beautiful, aut... Tags: #algebraic-data-types #diagrams #diagrams-as-code #types | TypeScript | 62 | [Aug 19, 2026](./stars/Nimblesite/typeDiagram.md) |
@@ -1021,13 +1028,6 @@ Full list here: https://davidwells.github.io/stars
 | [onanmco/virtual-assistant](https://github.com/onanmco/virtual-assistant) |  | TypeScript | 1 | [Sep 19, 2024](./stars/onanmco/virtual-assistant.md) |
 | [onanmco/url-shortener](https://github.com/onanmco/url-shortener) | A CDK application creates a URL shortener service on AWS cloud. | TypeScript | 2 | [Sep 19, 2024](./stars/onanmco/url-shortener.md) |
 | [WebReflection/re](https://github.com/WebReflection/re) | A template literal tag that sanitizes interpolations. | JavaScript | 12 | [Sep 18, 2024](./stars/WebReflection/re.md) |
-| [onanmco/protected-s3-static-website](https://github.com/onanmco/protected-s3-static-website) | CDK app deploys an S3 bucket in which you can store your static website, fronted by a CloudFront distribution implement... | TypeScript | 3 | [Sep 17, 2024](./stars/onanmco/protected-s3-static-website.md) |
-| [shamilasallay/aws-cross-account-userpool-migration](https://github.com/shamilasallay/aws-cross-account-userpool-migration) |  | JavaScript | 1 | [Sep 17, 2024](./stars/shamilasallay/aws-cross-account-userpool-migration.md) |
-| [loginov-rocks/WebSocket-API-Gateway-IAM-Signer](https://github.com/loginov-rocks/WebSocket-API-Gateway-IAM-Signer) | WebSocket API Gateway IAM Signer | JavaScript | 4 | [Sep 17, 2024](./stars/loginov-rocks/WebSocket-API-Gateway-IAM-Signer.md) |
-| [loginov-rocks/WebSocket-API-Gateway-Cognito-Authorizer](https://github.com/loginov-rocks/WebSocket-API-Gateway-Cognito-Authorizer) | WebSocket API Gateway Cognito Authorizer | JavaScript | 3 | [Sep 17, 2024](./stars/loginov-rocks/WebSocket-API-Gateway-Cognito-Authorizer.md) |
-| [aladevlearning/chatgpt-polly](https://github.com/aladevlearning/chatgpt-polly) |  | JavaScript | 7 | [Sep 17, 2024](./stars/aladevlearning/chatgpt-polly.md) |
-| [XaaXaaX/aws-cognito-impersonation](https://github.com/XaaXaaX/aws-cognito-impersonation) |  | TypeScript | 3 | [Sep 17, 2024](./stars/XaaXaaX/aws-cognito-impersonation.md) |
-| [Collaborne/tasks-scheduler](https://github.com/Collaborne/tasks-scheduler) | A time-based scheduler for tasks | TypeScript | 1 | [Sep 17, 2024](./stars/Collaborne/tasks-scheduler.md) |
 <!-- end-doc-gen -->
 
 ## About this repo
