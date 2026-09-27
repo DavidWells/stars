@@ -1,7 +1,36 @@
 {
-  "generatedAt": "2026-09-20T00:11:01.877Z",
-  "total": 6942,
+  "generatedAt": "2026-09-27T00:42:27.083Z",
+  "total": 6943,
   "stars": [
+    {
+      "repo": "ChiragArora31/Redpen",
+      "url": "https://github.com/ChiragArora31/Redpen",
+      "homepage": "",
+      "starredAt": "2026-09-22T01:53:02Z",
+      "createdAt": "2026-09-12T12:08:48Z",
+      "updatedAt": "2026-09-24T07:55:02Z",
+      "language": "TypeScript",
+      "license": "MIT",
+      "branch": "main",
+      "stars": 18,
+      "isPublic": true,
+      "isTemplate": false,
+      "isArchived": false,
+      "isFork": false,
+      "description": "Redpen makes coding agents prove they are actually done.",
+      "tags": [
+        "agent-harness",
+        "agentic-ai",
+        "ai-agents",
+        "ai-coding",
+        "cli",
+        "codex",
+        "coding-agents",
+        "developer-tools",
+        "testing",
+        "verification"
+      ]
+    },
     {
       "repo": "evloghq/evlog",
       "url": "https://github.com/evloghq/evlog",

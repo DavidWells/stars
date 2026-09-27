@@ -21,13 +21,14 @@ I fancy myself a GitHub spelunker. Through my journeys I find a lot of cool pack
 
 Below is an index to quickly CTRL+F to find them.
 
-Total Stars: <!-- doc-gen STAR_COUNT -->6,865<!-- end-doc-gen -->
+Total Stars: <!-- doc-gen STAR_COUNT -->6,866<!-- end-doc-gen -->
 
 Full list here: https://davidwells.github.io/stars
 
 <!-- doc-gen ALL_STARS_TABLE -->
 | Repo | Description | Language | Stars | Starred On |
 | --- | --- | --- | ---: | --- |
+| [ChiragArora31/Redpen](https://github.com/ChiragArora31/Redpen) | Redpen makes coding agents prove they are actually done. Tags: #agent-harness #agentic-ai #ai-agents #ai-coding #cli #codex #coding-agents #developer-tools #testing #verification | TypeScript | 18 | [Sep 22, 2026](./stars/ChiragArora31/Redpen.md) |
 | [evloghq/evlog](https://github.com/evloghq/evlog) | Digging through logs is not observability. It's hope — wide events, structured errors, TypeScript-first, every runtime. Tags: #debugging #error-handling #logger #logging #nextjs #nuxt #observability #otlp #posthog #sentry #typescript #wide-events | TypeScript | 1,857 | [Sep 19, 2026](./stars/evloghq/evlog.md) |
 | [ratatui/ratatui-spinner](https://github.com/ratatui/ratatui-spinner) | Customizable, stateless spinner widgets for Ratatui applications Tags: #library #ratatui #spinner #terminal #terminal-spinne #tui #widget | Rust | 81 | [Sep 19, 2026](./stars/ratatui/ratatui-spinner.md) |
 | [joelhooks/rat-stack](https://github.com/joelhooks/rat-stack) | 🐀 Agentic TypeScript scaffold: Effect 4, XState 6 + @xstate/effect, Alchemy infra, varlock config, and a fence that ma... Tags: #agents #alchemy #cli #effect #pnpm #template #turborepo #typescript #xstate | TypeScript | 21 | [Sep 19, 2026](./stars/joelhooks/rat-stack.md) |
@@ -1027,7 +1028,6 @@ Full list here: https://davidwells.github.io/stars
 | [bloomberg/ts-blank-space](https://github.com/bloomberg/ts-blank-space) | A small, fast, pure JavaScript type-stripper that uses the official TypeScript parser. Tags: #javascript #type-stripping #typescript | TypeScript | 681 | [Sep 19, 2024](./stars/bloomberg/ts-blank-space.md) |
 | [onanmco/virtual-assistant](https://github.com/onanmco/virtual-assistant) |  | TypeScript | 1 | [Sep 19, 2024](./stars/onanmco/virtual-assistant.md) |
 | [onanmco/url-shortener](https://github.com/onanmco/url-shortener) | A CDK application creates a URL shortener service on AWS cloud. | TypeScript | 2 | [Sep 19, 2024](./stars/onanmco/url-shortener.md) |
-| [WebReflection/re](https://github.com/WebReflection/re) | A template literal tag that sanitizes interpolations. | JavaScript | 12 | [Sep 18, 2024](./stars/WebReflection/re.md) |
 <!-- end-doc-gen -->
 
 ## About this repo
