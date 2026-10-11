@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-10-04T01:42:39.878Z",
-  "total": 6943,
+  "generatedAt": "2026-10-11T01:03:41.685Z",
+  "total": 6944,
   "stars": [
     {
       "repo": "ChiragArora31/Redpen",
@@ -250,6 +250,32 @@
       "license": "MIT",
       "branch": "main",
       "stars": 208,
+      "isPublic": true,
+      "isTemplate": false,
+      "isArchived": false,
+      "isFork": false,
+      "description": "mdxcn is a free, open-source set of callouts, steps, terminals, charts, and timelines for mdx. copy any component with the shadcn cli.",
+      "tags": [
+        "free",
+        "markdown",
+        "mdx",
+        "mdx-components",
+        "open-source",
+        "ui-components",
+        "ui-library"
+      ]
+    },
+    {
+      "repo": "shadcn-labs/mdxcn",
+      "url": "https://github.com/shadcn-labs/mdxcn",
+      "homepage": "https://mdxcn.dev",
+      "starredAt": "2026-08-28T20:57:49Z",
+      "createdAt": "2026-08-27T15:01:28Z",
+      "updatedAt": "2026-10-10T23:11:38Z",
+      "language": "TypeScript",
+      "license": "MIT",
+      "branch": "main",
+      "stars": 407,
       "isPublic": true,
       "isTemplate": false,
       "isArchived": false,
