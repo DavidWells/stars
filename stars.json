@@ -1,7 +1,34 @@
 {
-  "generatedAt": "2026-10-11T01:03:41.685Z",
-  "total": 6944,
+  "generatedAt": "2026-10-18T00:06:21.436Z",
+  "total": 6945,
   "stars": [
+    {
+      "repo": "remorses/mdastic",
+      "url": "https://github.com/remorses/mdastic",
+      "homepage": null,
+      "starredAt": "2026-10-14T17:22:58Z",
+      "createdAt": "2026-10-14T16:03:39Z",
+      "updatedAt": "2026-10-17T00:12:03Z",
+      "language": "TypeScript",
+      "license": "MIT",
+      "branch": "main",
+      "stars": 17,
+      "isPublic": true,
+      "isTemplate": false,
+      "isArchived": false,
+      "isFork": false,
+      "description": "Markdown and MDX parser in TypeScript. Exact remark mdast output, 17 to 28x faster.",
+      "tags": [
+        "commonmark",
+        "gfm",
+        "markdown",
+        "mdast",
+        "mdx",
+        "parser",
+        "remark",
+        "typescript"
+      ]
+    },
     {
       "repo": "ChiragArora31/Redpen",
       "url": "https://github.com/ChiragArora31/Redpen",
