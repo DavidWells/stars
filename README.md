@@ -21,13 +21,14 @@ I fancy myself a GitHub spelunker. Through my journeys I find a lot of cool pack
 
 Below is an index to quickly CTRL+F to find them.
 
-Total Stars: <!-- doc-gen STAR_COUNT -->6,865<!-- end-doc-gen -->
+Total Stars: <!-- doc-gen STAR_COUNT -->6,861<!-- end-doc-gen -->
 
 Full list here: https://davidwells.github.io/stars
 
 <!-- doc-gen ALL_STARS_TABLE -->
 | Repo | Description | Language | Stars | Starred On |
 | --- | --- | --- | ---: | --- |
+| [wevm/incur](https://github.com/wevm/incur) | CLI framework for agents and humans | TypeScript | 640 | [Oct 20, 2026](./stars/wevm/incur.md) |
 | [remorses/mdastic](https://github.com/remorses/mdastic) | Markdown and MDX parser in TypeScript. Exact remark mdast output, 17 to 28x faster. Tags: #commonmark #gfm #markdown #mdast #mdx #parser #remark #typescript | TypeScript | 17 | [Oct 14, 2026](./stars/remorses/mdastic.md) |
 | [ChiragArora31/Redpen](https://github.com/ChiragArora31/Redpen) | Redpen makes coding agents prove they are actually done. Tags: #agent-harness #agentic-ai #ai-agents #ai-coding #cli #codex #coding-agents #developer-tools #testing #verification | TypeScript | 18 | [Sep 22, 2026](./stars/ChiragArora31/Redpen.md) |
 | [evloghq/evlog](https://github.com/evloghq/evlog) | Digging through logs is not observability. It's hope — wide events, structured errors, TypeScript-first, every runtime. Tags: #debugging #error-handling #logger #logging #nextjs #nuxt #observability #otlp #posthog #sentry #typescript #wide-events | TypeScript | 1,857 | [Sep 19, 2026](./stars/evloghq/evlog.md) |
@@ -1027,7 +1028,6 @@ Full list here: https://davidwells.github.io/stars
 | [trufflesecurity/trufflehog](https://github.com/trufflesecurity/trufflehog) | Find, verify, and analyze leaked credentials Tags: #credentials #devsecops #dynamic-analysis #hacktoberfest #precommit #scanning #secret #secret-management #secrets #security #security-tools #trufflehog #verification | Go | 18,224 | [Sep 23, 2024](./stars/trufflesecurity/trufflehog.md) |
 | [tux86/lambda-function-url-custom-domain](https://github.com/tux86/lambda-function-url-custom-domain) | Configuring a Custom domain for AWS Lambda Function URL without an API Gateway Tags: #cloudfront #custom-domain #lambda #route53 #serverless #serverless-framework | JavaScript | 7 | [Sep 23, 2024](./stars/tux86/lambda-function-url-custom-domain.md) |
 | [RaisinTen/breqd](https://github.com/RaisinTen/breqd) | Builtin module REQuire Durations Tags: #nodejs #performance #require | JavaScript | 8 | [Sep 22, 2024](./stars/RaisinTen/breqd.md) |
-| [bloomberg/ts-blank-space](https://github.com/bloomberg/ts-blank-space) | A small, fast, pure JavaScript type-stripper that uses the official TypeScript parser. Tags: #javascript #type-stripping #typescript | TypeScript | 681 | [Sep 19, 2024](./stars/bloomberg/ts-blank-space.md) |
 <!-- end-doc-gen -->
 
 ## About this repo

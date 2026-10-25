@@ -1,7 +1,25 @@
 {
-  "generatedAt": "2026-10-18T00:06:21.436Z",
-  "total": 6945,
+  "generatedAt": "2026-10-25T00:23:04.004Z",
+  "total": 6946,
   "stars": [
+    {
+      "repo": "wevm/incur",
+      "url": "https://github.com/wevm/incur",
+      "homepage": "",
+      "starredAt": "2026-10-20T00:47:06Z",
+      "createdAt": "2026-02-26T02:52:03Z",
+      "updatedAt": "2026-10-24T08:02:12Z",
+      "language": "TypeScript",
+      "license": "MIT",
+      "branch": "main",
+      "stars": 640,
+      "isPublic": true,
+      "isTemplate": false,
+      "isArchived": false,
+      "isFork": false,
+      "description": "CLI framework for agents and humans",
+      "tags": []
+    },
     {
       "repo": "remorses/mdastic",
       "url": "https://github.com/remorses/mdastic",
